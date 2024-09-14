@@ -1,0 +1,88 @@
+## Emergency Department Record
+
+### Triage Details
+- **Triage Level:** 2
+- **Chief Complaint:** Blurred vision in the right eye
+- **Assessment Basis:** Visual impairment, acute or sudden changes in vision
+- **Past Medical History:** None
+- **Travel and Contact History:** No travel history, no cluster infection history, no special occupations, no contact with patients, no contact with animals
+- **Vital Signs:**
+  - Blood Pressure: 93/62 mmHg
+  - Pulse Rate: 115/min
+  - SpO2: 97%
+  - Respiratory Rate: 20/min
+  - Body Temperature: 36.8°C
+  - Blood Sugar: Not available
+  - Pain Index: 0 (No pain)
+- **Special Notes:** The patient or their family has been informed that the emergency department is currently full, which might cause a delay in being seen by a doctor and getting a hospital bed.
+- **Mode of Arrival:** No referral document
+
+### Present Illness
+- The patient reports a lightening of visual field since last night. Referred from MacKay Memorial Hospital for retinal detachment operation.
+
+### Physical Examination
+- **Consciousness:** Clear
+- **Head/Eyes:** Scalp normal, pupils isocoric, conjunctiva not pale, sclera anicteric
+- **Neck:** Supple, no jugular vein engorgement, no lymphadenopathy
+- **Chest:** Symmetric expansion, breath sounds clear
+- **Heart:** Regular heartbeat, no murmurs
+- **Abdomen:** Soft, bowel sounds normal
+- **Extremities:** Normal
+
+### Diagnosis
+- **Admission Diagnosis:** Retinal detachment, unspecified side (H33.20)
+- **Discharge Diagnosis:** Rhegmatogenous retinal detachment, right eye, status post-segmental scleral buckling and SF6 injection
+
+## Hospital Course
+
+### Admission Details
+- **Informant:** The patient and medical chart
+- **Chief Complaint:** Blurred vision in the right eye for 2 days
+- **Patient History:**
+  - A 22-year-old man, previously healthy, reported progressive floaters in the right eye for 3-4 days and photopsia for 2 days. Diagnosed with retinal detachment and referred from MacKay to NTUH for surgical intervention.
+- **Past Medical History:** No diabetes, hypertension, coronary artery disease, or asthma
+- **Family History:** No hereditary ocular diseases
+- **Medications:** None from NTUH, no use of herbal medicine or dietary supplements
+
+### Physical Examination at Admission
+- Height: 164 cm
+- Weight: 48 kg
+- Temperature: 36.4°C
+- Pulse: 77 bpm
+- Respiratory Rate: 17/min
+- Blood Pressure: 133/96 mmHg
+- Pain Score: 3
+- **Neurological Examination:**
+  - Consciousness: Clear and oriented
+  - Muscle Power: No obvious abnormalities
+  - Gait: No obvious abnormalities
+- **General Appearance:** Fair
+- **Examination of Eyes:**
+  - BCVA: Right eye 0.25, left eye 1.0
+  - IOP: Right eye 15, left eye 18
+  - Fundus: Right eye retinal detachment from 9 to 1 o'clock, left eye attached
+
+### Surgical Details
+- **Date:** February 24, 2017
+- **Surgeon:** Dr. He Zi-Chang
+- **Pre-operative Diagnosis:** Rhegmatogenous retinal detachment in the right eye
+- **Post-operative Diagnosis:** Same as pre-operative
+- **Operative Method:** Segmental scleral buckle, cryopexy, and SF6 injection in the right eye
+- **Findings:** Retinal detachment from 12 to 8 o'clock, break at 11 o'clock
+
+### Treatment and Course During Hospitalization
+- Post-operation, some subretinal fluid remained but was indented and surrounded by cryotherapy. Additional focal laser was applied. By post-operative day 5, the retina was attached. The patient was discharged in a stable condition.
+
+### Discharge Instructions
+- **Positioning:** Head down after discharge
+- **Eye Dressing:** Sterile gauze and iron cover
+- **Activity Restrictions:** Rest advised, avoid strenuous activities
+- **Dietary Restrictions:** None, follow normal diet
+- **Medications Post-discharge:**
+  - Gentamicin Eye Drops for right eye: 1 drop QID for 8 days
+  - Atropine Sulfate Ophthalmic Solution: 1 drop right eye Q12H for 8 days
+  - Betamethasone Sodium Phosphate Eye Drops: 1 drop QID for both eyes for 8 days
+  - Tetracycline Ophthalmic Ointment: Apply to right eye at bedtime for 8 days
+
+### Other
+- No isolation orders were given.

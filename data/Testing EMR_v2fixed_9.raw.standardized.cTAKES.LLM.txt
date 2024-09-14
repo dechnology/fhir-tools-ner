@@ -1,0 +1,68 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "73211009",
+      "fsn": "Diabetes mellitus (disorder)",
+      "text": "Diabetes Mellitus (DM)"
+    },
+    {
+      "id": "416098002",
+      "fsn": "Drug allergy (disorder)",
+      "text": "medication allergy"
+    },
+    {
+      "id": "82403002",
+      "fsn": "Cholangitis (disorder)",
+      "text": "Cholangitis"
+    },
+    {
+      "id": "233604007",
+      "fsn": "Pneumonia (disorder)",
+      "text": "Klebsiella pneumoniae bacteremia"
+    },
+    {
+      "id": "44054006",
+      "fsn": "Non-insulin dependent diabetes mellitus (disorder)",
+      "text": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "id": "396346003",
+      "fsn": "Ertapenem (substance)",
+      "text": "ertapenem"
+    },
+    {
+      "id": "90332006",
+      "fsn": "Acetaminophen (substance)",
+      "text": "Acetaminophen"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "2519-7",
+      "fsn": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+      "text": "T-BIL"
+    },
+    {
+      "id": "664-3",
+      "fsn": "Leukocytes [#/volume] in Blood",
+      "text": "leukocytosis"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "325642",
+      "fsn": "Ertapenem 1000 MG Injection",
+      "text": "Ertapenem"
+    },
+    {
+      "id": "352721",
+      "fsn": "Ertapenem",
+      "text": "Invanz"
+    },
+    {
+      "id": "161",
+      "fsn": "Acetaminophen 325 MG Oral Tablet",
+      "text": "PARAMOL (Acetaminophen)"
+    }
+  ]
+}

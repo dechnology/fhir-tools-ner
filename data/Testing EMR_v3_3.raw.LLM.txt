@@ -1,0 +1,258 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "76948002",
+      "fsn": "Urolithiasis (disorder)",
+      "text": "Urolithiasis"
+    },
+    {
+      "id": "126906006",
+      "fsn": "Malignant neoplasm of prostate (disorder)",
+      "text": "Malignant neoplasm of prostate"
+    },
+    {
+      "id": "363346000",
+      "fsn": "Malignant neoplasm of colon (disorder)",
+      "text": "Colon cancer"
+    },
+    {
+      "id": "93761005",
+      "fsn": "Congestive heart failure (disorder)",
+      "text": "Congestive heart failure (CHF)"
+    },
+    {
+      "id": "13645001",
+      "fsn": "Chronic obstructive pulmonary disease (disorder)",
+      "text": "Chronic obstructive pulmonary disease (COPD)"
+    },
+    {
+      "id": "53741008",
+      "fsn": "Coronary artery disease (disorder)",
+      "text": "Coronary arterial disease (CAD)"
+    },
+    {
+      "id": "19943007",
+      "fsn": "Cirrhosis of liver (disorder)",
+      "text": "Liver cirrhosis"
+    },
+    {
+      "id": "276654003",
+      "fsn": "Chronic kidney disease (disorder)",
+      "text": "Chronic kidney disease"
+    },
+    {
+      "id": "74615001",
+      "fsn": "Inguinal hernia (disorder)",
+      "text": "Right inguinal hernia, adult"
+    },
+    {
+      "id": "204405000",
+      "fsn": "Urethral stricture (disorder)",
+      "text": "Urethral stricture"
+    },
+    {
+      "id": "76948002",
+      "fsn": "Urolithiasis (disorder)",
+      "text": "Urolithiasis"
+    },
+    {
+      "id": "126906006",
+      "fsn": "Malignant neoplasm of prostate (disorder)",
+      "text": "Malignant neoplasm of prostate"
+    },
+    {
+      "id": "363346000",
+      "fsn": "Sigmoid colon adenocarcinoma (disorder)",
+      "text": "Sigmoid colon, adenocarcinoma"
+    },
+    {
+      "id": "276654003",
+      "fsn": "Chronic kidney disease (disorder)",
+      "text": "Chronic kidney disease"
+    },
+    {
+      "id": "13645001",
+      "fsn": "Chronic obstructive pulmonary disease (disorder)",
+      "text": "Chronic obstructive pulmonary disease (COPD)"
+    },
+    {
+      "id": "53741008",
+      "fsn": "Coronary artery disease (disorder)",
+      "text": "Coronary arterial disease"
+    },
+    {
+      "id": "204405000",
+      "fsn": "Urethral stricture (disorder)",
+      "text": "Urethral stricture"
+    },
+    {
+      "id": "142601000119101",
+      "fsn": "Finding of flank pain (finding)",
+      "text": "bilateral flank pain"
+    },
+    {
+      "id": "23924001",
+      "fsn": "Fever (finding)",
+      "text": "fever"
+    },
+    {
+      "id": "234466007",
+      "fsn": "Dysuria (finding)",
+      "text": "dysuria"
+    },
+    {
+      "id": "47002008",
+      "fsn": "Sepsis (disorder)",
+      "text": "urosepsis"
+    },
+    {
+      "id": "95344008",
+      "fsn": "Painful urination (finding)",
+      "text": "urination difficulty"
+    },
+    {
+      "id": "10765006",
+      "fsn": "Anuria (finding)",
+      "text": "voiding difficulty"
+    },
+    {
+      "id": "107681000119106",
+      "fsn": "Chills (finding)",
+      "text": "chills sensation"
+    },
+    {
+      "id": "142601000119101",
+      "fsn": "Finding of flank pain (finding)",
+      "text": "bilateral knocking pain(+)"
+    },
+    {
+      "id": "20816006",
+      "fsn": "Pain (finding)",
+      "text": "疼痛指數:7"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "34509-6",
+      "fsn": "Blood pressure systolic and diastolic --manual",
+      "text": "Blood Pressure: 118/71mmHg"
+    },
+    {
+      "id": "85354-9",
+      "fsn": "Vital signs",
+      "text": "Vital signs: Blood Pressure: 118/71mmHg, Pulse Rate: 99/min, Respiratory Rate: 20/min, Temperature: 36.3℃, SPO2: 100％"
+    },
+    {
+      "id": "24357-6",
+      "fsn": "Pulse rate",
+      "text": "Pulse Rate: 99/min"
+    },
+    {
+      "id": "9279-1",
+      "fsn": "Respiratory rate",
+      "text": "Respiratory Rate: 20/min"
+    },
+    {
+      "id": "8310-5",
+      "fsn": "Body temperature",
+      "text": "Temperature: 36.3℃"
+    },
+    {
+      "id": "20564-1",
+      "fsn": "Oxygen saturation in Arterial blood by Pulse oximetry",
+      "text": "SpO2: 100%"
+    },
+    {
+      "id": "2339-0",
+      "fsn": "Glucose [Mass/volume] in Blood",
+      "text": "Blood Sugar: NAmg/dl"
+    },
+    {
+      "id": "30313-1",
+      "fsn": "BUN [Mass/volume] in Blood",
+      "text": "BUN(Blood)(STAT)"
+    },
+    {
+      "id": "2947-0",
+      "fsn": "Creatinine [Mass/volume] in Serum or Plasma",
+      "text": "Creatinine"
+    },
+    {
+      "id": "2951-2",
+      "fsn": "Sodium [Moles/volume] in Serum or Plasma",
+      "text": "Na"
+    },
+    {
+      "id": "2823-3",
+      "fsn": "Potassium [Moles/volume] in Serum or Plasma",
+      "text": "K"
+    },
+    {
+      "id": "1975-2",
+      "fsn": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+      "text": "Bilirubin-T"
+    },
+    {
+      "id": "1751-7",
+      "fsn": "AST [Enzymatic activity/volume] in Serum or Plasma",
+      "text": "AST (GOT)"
+    },
+    {
+      "id": "3094-0",
+      "fsn": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "text": "HCT"
+    },
+    {
+      "id": "718-7",
+      "fsn": "Hemoglobin [Mass/volume] in Blood",
+      "text": "HB"
+    },
+    {
+      "id": "789-8",
+      "fsn": "Erythrocytes [#/volume] in Blood by Automated count",
+      "text": "RBC"
+    },
+    {
+      "id": "59826-9",
+      "fsn": "SD of relative width of spanish of RBC volume (RDW) [Relative length] in Blood by Automated count",
+      "text": "RDW-CV"
+    },
+    {
+      "id": "785-6",
+      "fsn": "Mean corpuscular volume [Entitic volume] in Blood",
+      "text": "MCV"
+    },
+    {
+      "id": "4544-3",
+      "fsn": "Mean corpuscular hemoglobin",
+      "text": "MCH"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "32968",
+      "fsn": "acetaminophen 325 mg Oral Tablet [Tylenol]",
+      "text": "Acetaminophen"
+    },
+    {
+      "id": "1207",
+      "fsn": "ciprofloxacin 500 mg Oral Tablet [Cipro]",
+      "text": "Ciprofloxacin HCl"
+    },
+    {
+      "id": "3488",
+      "fsn": "acetaminophen 500 mg Oral Tablet [Tylenol Extra Strength]",
+      "text": "Acetaminophen"
+    },
+    {
+      "id": "6121",
+      "fsn": "amoxicillin 875 mg / clavulanate 125 mg Oral Tablet [Augmentin]",
+      "text": "Amoxicillin 875 mg, Clavulanate Potassium 125mg【Augmentin 1 g/tab】"
+    },
+    {
+      "id": "133111",
+      "fsn": "dextrose 40 % Injectable Solution",
+      "text": "Dextrose and Electrolyte Solution"
+    }
+  ]
+}

@@ -1,0 +1,4652 @@
+{
+  "entities": {
+    "0": {
+      "pretty_name": "Clinical",
+      "cui": "58147004",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Clinical",
+      "detected_name": "clinical",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2,
+      "end": 10,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 0,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.8703202605247498,
+          "name": "Status"
+        }
+      }
+    },
+    "1": {
+      "pretty_name": "Synapse structure",
+      "cui": "69147006",
+      "type_ids": [
+        "37552161"
+      ],
+      "types": [
+        "body structure"
+      ],
+      "source_value": "Synopsis",
+      "detected_name": "synapsis",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 21,
+      "end": 29,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 1,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "4": {
+      "pretty_name": "Emergency department patient visit",
+      "cui": "4525004",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Emergency Department Visit",
+      "detected_name": "emergency~department~visit",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 37,
+      "end": 63,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 4,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999760389328003,
+          "name": "Status"
+        }
+      }
+    },
+    "6": {
+      "pretty_name": "Triage",
+      "cui": "225390008",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Triage",
+      "detected_name": "triage",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 67,
+      "end": 73,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 6,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999972939491272,
+          "name": "Status"
+        }
+      }
+    },
+    "7": {
+      "pretty_name": "Triage",
+      "cui": "225390008",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Triage",
+      "detected_name": "triage",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 93,
+      "end": 99,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 7,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999760389328003,
+          "name": "Status"
+        }
+      }
+    },
+    "9": {
+      "pretty_name": "Chief complaint",
+      "cui": "33962009",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "Chief Complaint",
+      "detected_name": "chief~complaint",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 115,
+      "end": 130,
+      "icd10": [
+        ""
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 9,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999710321426392,
+          "name": "Status"
+        }
+      }
+    },
+    "11": {
+      "pretty_name": "Fever",
+      "cui": "386661006",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "Fever",
+      "detected_name": "fever",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 134,
+      "end": 139,
+      "icd10": [
+        "R50.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 11,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "12": {
+      "pretty_name": "Onsets",
+      "cui": "370139004",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Onset",
+      "detected_name": "onset",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 153,
+      "end": 158,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 12,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "13": {
+      "pretty_name": "Triage",
+      "cui": "225390008",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Triage",
+      "detected_name": "triage",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 171,
+      "end": 177,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 13,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999644756317139,
+          "name": "Status"
+        }
+      }
+    },
+    "16": {
+      "pretty_name": "Taking patient vital signs",
+      "cui": "61746007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Vital Signs",
+      "detected_name": "vital~sign",
+      "acc": 0.3636938689439549,
+      "context_similarity": 0.3636938689439549,
+      "start": 203,
+      "end": 214,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 16,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9026894569396973,
+          "name": "Status"
+        }
+      }
+    },
+    "19": {
+      "pretty_name": "Blood pressure",
+      "cui": "75367002",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "Blood Pressure",
+      "detected_name": "blood~pressure",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 223,
+      "end": 237,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 19,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999639987945557,
+          "name": "Status"
+        }
+      }
+    },
+    "23": {
+      "pretty_name": "Heart rate measured at systemic artery",
+      "cui": "78564009",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "Pulse Rate",
+      "detected_name": "pulse~rate",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 255,
+      "end": 265,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 23,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999624490737915,
+          "name": "Status"
+        }
+      }
+    },
+    "25": {
+      "pretty_name": "Respiratory rate",
+      "cui": "86290005",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "Respiratory Rate",
+      "detected_name": "respiratory~rate",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 279,
+      "end": 295,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 25,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999639987945557,
+          "name": "Status"
+        }
+      }
+    },
+    "26": {
+      "pretty_name": "Temperature",
+      "cui": "246508008",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "Temperature",
+      "detected_name": "temperature",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 308,
+      "end": 319,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 26,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999608993530273,
+          "name": "Status"
+        }
+      }
+    },
+    "28": {
+      "pretty_name": "Glucose measurement, blood",
+      "cui": "33747003",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Blood Sugar",
+      "detected_name": "blood~sugar",
+      "acc": 0.3450192177535893,
+      "context_similarity": 0.3450192177535893,
+      "start": 346,
+      "end": 357,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 28,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9871501922607422,
+          "name": "Status"
+        }
+      }
+    },
+    "30": {
+      "pretty_name": "Availability of (contextual qualifier)",
+      "cui": "103328004",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Available",
+      "detected_name": "available",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 363,
+      "end": 372,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 30,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "32": {
+      "pretty_name": "Pain score",
+      "cui": "225908003",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "Pain Score",
+      "detected_name": "pain~score",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 377,
+      "end": 387,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 32,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999876022338867,
+          "name": "Status"
+        }
+      }
+    },
+    "34": {
+      "pretty_name": "Presentation",
+      "cui": "246105001",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "Presenting",
+      "detected_name": "presenting",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 394,
+      "end": 404,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 34,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999987006187439,
+          "name": "Status"
+        }
+      }
+    },
+    "35": {
+      "pretty_name": "Illness",
+      "cui": "39104002",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "Illness",
+      "detected_name": "illness",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 405,
+      "end": 412,
+      "icd10": [
+        "R69"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 35,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "36": {
+      "pretty_name": "Patient",
+      "cui": "116154003",
+      "type_ids": [
+        "31601201"
+      ],
+      "types": [
+        "person"
+      ],
+      "source_value": "patient",
+      "detected_name": "patient",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 420,
+      "end": 427,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 36,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999855756759644,
+          "name": "Status"
+        }
+      }
+    },
+    "37": {
+      "pretty_name": "Report",
+      "cui": "229059009",
+      "type_ids": [
+        "90170645"
+      ],
+      "types": [
+        "record artifact"
+      ],
+      "source_value": "reports",
+      "detected_name": "report",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 428,
+      "end": 435,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 37,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "38": {
+      "pretty_name": "Fever",
+      "cui": "386661006",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "fever",
+      "detected_name": "fever",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 436,
+      "end": 441,
+      "icd10": [
+        "R50.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 38,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "39": {
+      "pretty_name": "Up (qualifier value)",
+      "cui": "255532002",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "up to",
+      "detected_name": "up~to",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 442,
+      "end": 447,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 39,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.8298931121826172,
+          "name": "Status"
+        }
+      }
+    },
+    "40": {
+      "pretty_name": "Muscle pain",
+      "cui": "68962001",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "myalgia",
+      "detected_name": "myalgia",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 486,
+      "end": 493,
+      "icd10": [
+        "M79.19"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 40,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9682455062866211,
+          "name": "Status"
+        }
+      }
+    },
+    "42": {
+      "pretty_name": "Cough",
+      "cui": "49727002",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "cough",
+      "detected_name": "cough",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 500,
+      "end": 505,
+      "icd10": [
+        "R05"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 42,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "43": {
+      "pretty_name": "Sputum",
+      "cui": "45710003",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "sputum",
+      "detected_name": "sputum",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 519,
+      "end": 525,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 43,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "44": {
+      "pretty_name": "Diarrhea",
+      "cui": "62315008",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "diarrhea",
+      "detected_name": "diarrhea",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 531,
+      "end": 539,
+      "icd10": [
+        "A09.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 44,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "45": {
+      "pretty_name": "Patient",
+      "cui": "116154003",
+      "type_ids": [
+        "31601201"
+      ],
+      "types": [
+        "person"
+      ],
+      "source_value": "patient",
+      "detected_name": "patient",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 545,
+      "end": 552,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 45,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "46": {
+      "pretty_name": "Denied",
+      "cui": "441889009",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "denies",
+      "detected_name": "deny",
+      "acc": 0.7504077486253424,
+      "context_similarity": 0.7504077486253424,
+      "start": 553,
+      "end": 559,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 46,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "48": {
+      "pretty_name": "Pain in throat",
+      "cui": "162397003",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "sore throat",
+      "detected_name": "sore~throat",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 560,
+      "end": 571,
+      "icd10": [
+        "R07.0"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 48,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.8298931121826172,
+          "name": "Status"
+        }
+      }
+    },
+    "50": {
+      "pretty_name": "Headache",
+      "cui": "25064002",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "headache",
+      "detected_name": "headache",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 573,
+      "end": 581,
+      "icd10": [
+        "R51"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 50,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "52": {
+      "pretty_name": "Chest pain",
+      "cui": "29857009",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "chest pain",
+      "detected_name": "chest~pain",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 583,
+      "end": 593,
+      "icd10": [
+        "R07.4"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 52,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "54": {
+      "pretty_name": "Dyspnea",
+      "cui": "267036007",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "dyspnea",
+      "detected_name": "dyspnea",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 595,
+      "end": 602,
+      "icd10": [
+        "R06.0"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 54,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "56": {
+      "pretty_name": "Abdominal pain",
+      "cui": "21522001",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "abdominal pain",
+      "detected_name": "abdominal~pain",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 604,
+      "end": 618,
+      "icd10": [
+        "R10.4"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 56,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "59": {
+      "pretty_name": "Nausea and vomiting",
+      "cui": "16932000",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "nausea/vomiting",
+      "detected_name": "nausea~vomiting",
+      "acc": 0.8186890400679656,
+      "context_similarity": 0.8186890400679656,
+      "start": 620,
+      "end": 635,
+      "icd10": [
+        "R11"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 59,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9996814727783203,
+          "name": "Status"
+        }
+      }
+    },
+    "61": {
+      "pretty_name": "Urinary symptoms",
+      "cui": "249274008",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "urinary symptoms",
+      "detected_name": "urinary~symptom",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 640,
+      "end": 656,
+      "icd10": [
+        "R39.8"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 61,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "64": {
+      "pretty_name": "History of clinical finding in subject",
+      "cui": "417662000",
+      "type_ids": [
+        "3061879"
+      ],
+      "types": [
+        "situation"
+      ],
+      "source_value": "Past Medical History",
+      "detected_name": "past~medical~history",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 661,
+      "end": 681,
+      "icd10": [
+        ""
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 64,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999861717224121,
+          "name": "Status"
+        }
+      }
+    },
+    "68": {
+      "pretty_name": "Hyperuricemia",
+      "cui": "35885006",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "Hyperuricemia",
+      "detected_name": "hyperuricemia",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 687,
+      "end": 700,
+      "icd10": [
+        "E79.0"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 68,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999983549118042,
+          "name": "Status"
+        }
+      }
+    },
+    "70": {
+      "pretty_name": "Carcinoma of colon",
+      "cui": "269533000",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "Colon cancer",
+      "detected_name": "colon~cancer",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 703,
+      "end": 715,
+      "icd10": [
+        "C18.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 70,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "75": {
+      "pretty_name": "Myeloid leukemia, no International Classification of Diseases for Oncology subtype",
+      "cui": "37810007",
+      "type_ids": [
+        "33782986"
+      ],
+      "types": [
+        "morphologic abnormality"
+      ],
+      "source_value": "myeloid leukemia",
+      "detected_name": "myeloid~leukemia",
+      "acc": 0.9150028189603581,
+      "context_similarity": 0.9150028189603581,
+      "start": 724,
+      "end": 740,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 75,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999876022338867,
+          "name": "Status"
+        }
+      }
+    },
+    "77": {
+      "pretty_name": "Myelodysplastic syndrome",
+      "cui": "109995007",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "Myelodysplastic syndrome",
+      "detected_name": "myelodysplastic~syndrome",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 743,
+      "end": 767,
+      "icd10": [
+        "D46.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 77,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "80": {
+      "pretty_name": "Gastroesophageal reflux disease",
+      "cui": "235595009",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "Gastroesophageal reflux disease",
+      "detected_name": "gastroesophageal~reflux~disease",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 770,
+      "end": 801,
+      "icd10": [
+        "K21.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 80,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999972939491272,
+          "name": "Status"
+        }
+      }
+    },
+    "83": {
+      "pretty_name": "Arthritis due to gout",
+      "cui": "48440001",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "Gouty arthritis",
+      "detected_name": "gouty~arthritis",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 804,
+      "end": 819,
+      "icd10": [
+        "M10.09"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 83,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999972939491272,
+          "name": "Status"
+        }
+      }
+    },
+    "86": {
+      "pretty_name": "Structure of right knee region",
+      "cui": "6757004",
+      "type_ids": [
+        "37552161"
+      ],
+      "types": [
+        "body structure"
+      ],
+      "source_value": "right knee",
+      "detected_name": "right~knee",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 821,
+      "end": 831,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 86,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "88": {
+      "pretty_name": "Osteoporosis",
+      "cui": "64859006",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "Osteoporosis",
+      "detected_name": "osteoporosis",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 834,
+      "end": 846,
+      "icd10": [
+        "M81.99"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 88,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "90": {
+      "pretty_name": "No known drug allergy",
+      "cui": "409137002",
+      "type_ids": [
+        "3061879"
+      ],
+      "types": [
+        "situation"
+      ],
+      "source_value": "No known drug allergies",
+      "detected_name": "no~known~drug~allergy",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 865,
+      "end": 888,
+      "icd10": [
+        ""
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 90,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9996752738952637,
+          "name": "Status"
+        }
+      }
+    },
+    "96": {
+      "pretty_name": "Physical examination procedure",
+      "cui": "5880005",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Physical Examination",
+      "detected_name": "physical~examination",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 892,
+      "end": 912,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 96,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999972939491272,
+          "name": "Status"
+        }
+      }
+    },
+    "98": {
+      "pretty_name": "Clear",
+      "cui": "263707001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "clear",
+      "detected_name": "clear",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 929,
+      "end": 934,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 98,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999961256980896,
+          "name": "Status"
+        }
+      }
+    },
+    "99": {
+      "pretty_name": "Complication",
+      "cui": "116223007",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "complications",
+      "detected_name": "complication",
+      "acc": 0.38088302065581,
+      "context_similarity": 0.38088302065581,
+      "start": 940,
+      "end": 953,
+      "icd10": [
+        ""
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 99,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999839067459106,
+          "name": "Status"
+        }
+      }
+    },
+    "102": {
+      "pretty_name": "Chest and/or abdomen structure",
+      "cui": "416550000",
+      "type_ids": [
+        "37552161"
+      ],
+      "types": [
+        "body structure"
+      ],
+      "source_value": "chest, abdomen",
+      "detected_name": "chest~abdomen",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 963,
+      "end": 977,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 102,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999885559082031,
+          "name": "Status"
+        }
+      }
+    },
+    "104": {
+      "pretty_name": "Limb structure",
+      "cui": "66019005",
+      "type_ids": [
+        "37552161"
+      ],
+      "types": [
+        "body structure"
+      ],
+      "source_value": "extremities",
+      "detected_name": "extremity",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 979,
+      "end": 990,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 104,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "105": {
+      "pretty_name": "Lymphadenopathy absent",
+      "cui": "274621000",
+      "type_ids": [
+        "3061879"
+      ],
+      "types": [
+        "situation"
+      ],
+      "source_value": "No lymphadenopathy",
+      "detected_name": "no~lymphadenopathy",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 993,
+      "end": 1011,
+      "icd10": [
+        ""
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 105,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "108": {
+      "pretty_name": "Heart murmur",
+      "cui": "88610006",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "heart murmurs",
+      "detected_name": "heart~murmur",
+      "acc": 0.5169383716593678,
+      "context_similarity": 0.5169383716593678,
+      "start": 1015,
+      "end": 1028,
+      "icd10": [
+        "R01.1"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 108,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "110": {
+      "pretty_name": "Hospital admission",
+      "cui": "32485007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Admission",
+      "detected_name": "admission",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1032,
+      "end": 1041,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 110,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "111": {
+      "pretty_name": "Diagnosis",
+      "cui": "439401001",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "Diagnosis",
+      "detected_name": "diagnosis",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1042,
+      "end": 1051,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 111,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "112": {
+      "pretty_name": "Fever",
+      "cui": "386661006",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "Fever",
+      "detected_name": "fever",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 1058,
+      "end": 1063,
+      "icd10": [
+        "R50.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 112,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999810457229614,
+          "name": "Status"
+        }
+      }
+    },
+    "117": {
+      "pretty_name": "Acute myeloid leukemia, no International Classification of Diseases for Oncology subtype",
+      "cui": "17788007",
+      "type_ids": [
+        "33782986"
+      ],
+      "types": [
+        "morphologic abnormality"
+      ],
+      "source_value": "Acute myeloblastic leukemia",
+      "detected_name": "acute~myeloblastic~leukemia",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1102,
+      "end": 1129,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 117,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9909594058990479,
+          "name": "Status"
+        }
+      }
+    },
+    "120": {
+      "pretty_name": "Remission phase",
+      "cui": "277022003",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "remission",
+      "detected_name": "remission",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1138,
+      "end": 1147,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 120,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999839067459106,
+          "name": "Status"
+        }
+      }
+    },
+    "121": {
+      "pretty_name": "Discharge",
+      "cui": "75823008",
+      "type_ids": [
+        "33782986"
+      ],
+      "types": [
+        "morphologic abnormality"
+      ],
+      "source_value": "Discharge",
+      "detected_name": "discharge",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 1160,
+      "end": 1169,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 121,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999624490737915,
+          "name": "Status"
+        }
+      }
+    },
+    "122": {
+      "pretty_name": "Diagnosis",
+      "cui": "439401001",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "Diagnosis",
+      "detected_name": "diagnosis",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1170,
+      "end": 1179,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 122,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "124": {
+      "pretty_name": "Hospital admission",
+      "cui": "32485007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "admission",
+      "detected_name": "admission",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1207,
+      "end": 1216,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 124,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999961256980896,
+          "name": "Status"
+        }
+      }
+    },
+    "126": {
+      "pretty_name": "Sodium chloride solution",
+      "cui": "373757009",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "Saline",
+      "detected_name": "saline",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1239,
+      "end": 1245,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 126,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9991963505744934,
+          "name": "Status"
+        }
+      }
+    },
+    "127": {
+      "pretty_name": "Infusion",
+      "cui": "36576007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "infusion",
+      "detected_name": "infusion",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1246,
+      "end": 1254,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 127,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "128": {
+      "pretty_name": "Requested",
+      "cui": "385644000",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "as per",
+      "detected_name": "as~per",
+      "acc": 0.3565417648109605,
+      "context_similarity": 0.3565417648109605,
+      "start": 1316,
+      "end": 1322,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 128,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9944227337837219,
+          "name": "Status"
+        }
+      }
+    },
+    "129": {
+      "pretty_name": "Dosage",
+      "cui": "260911001",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "dosage",
+      "detected_name": "dosage",
+      "acc": 0.7673765609687561,
+      "context_similarity": 0.7673765609687561,
+      "start": 1327,
+      "end": 1333,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 129,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "133": {
+      "pretty_name": "Laboratory order",
+      "cui": "721965002",
+      "type_ids": [
+        "90170645"
+      ],
+      "types": [
+        "record artifact"
+      ],
+      "source_value": "Laboratory Orders",
+      "detected_name": "laboratory~order",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1379,
+      "end": 1396,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 133,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9993746876716614,
+          "name": "Status"
+        }
+      }
+    },
+    "136": {
+      "pretty_name": "Blood culture",
+      "cui": "30088009",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Blood cultures",
+      "detected_name": "blood~culture",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1402,
+      "end": 1416,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 136,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999987006187439,
+          "name": "Status"
+        }
+      }
+    },
+    "138": {
+      "pretty_name": "Complete blood count",
+      "cui": "26604007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "CBC",
+      "detected_name": "cbc",
+      "acc": 0.6787897063979341,
+      "context_similarity": 0.6787897063979341,
+      "start": 1419,
+      "end": 1422,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 138,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "140": {
+      "pretty_name": "Platelet count",
+      "cui": "61928009",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "platelet count",
+      "detected_name": "platelet~count",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 1425,
+      "end": 1439,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 140,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "142": {
+      "pretty_name": "Urine",
+      "cui": "78014005",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "Urine",
+      "detected_name": "urine",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 1442,
+      "end": 1447,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 142,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "144": {
+      "pretty_name": "Microbial culture of sputum",
+      "cui": "104173009",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "sputum culture",
+      "detected_name": "sputum~culture",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1452,
+      "end": 1466,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 144,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "146": {
+      "pretty_name": "Multiple",
+      "cui": "255204007",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Multiple",
+      "detected_name": "multiple",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1469,
+      "end": 1477,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 146,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "147": {
+      "pretty_name": "Biochemical",
+      "cui": "80534008",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "biochemical",
+      "detected_name": "biochemical",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1478,
+      "end": 1489,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 147,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.986783504486084,
+          "name": "Status"
+        }
+      }
+    },
+    "149": {
+      "pretty_name": "Serologic test",
+      "cui": "68793005",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "serological tests",
+      "detected_name": "serological~test",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1494,
+      "end": 1511,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 149,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9996814727783203,
+          "name": "Status"
+        }
+      }
+    },
+    "152": {
+      "pretty_name": "Exclude",
+      "cui": "77765009",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "rule out",
+      "detected_name": "rule~out",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1515,
+      "end": 1523,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 152,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "153": {
+      "pretty_name": "Infectious disease",
+      "cui": "40733004",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "infections",
+      "detected_name": "infection",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1524,
+      "end": 1534,
+      "icd10": [
+        "B99"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 153,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "154": {
+      "pretty_name": "Monitor, device",
+      "cui": "13288007",
+      "type_ids": [
+        "32816260"
+      ],
+      "types": [
+        "physical object"
+      ],
+      "source_value": "monitor",
+      "detected_name": "monitor",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1539,
+      "end": 1546,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 154,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "155": {
+      "pretty_name": "Electrolyte",
+      "cui": "86355000",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "electrolyte",
+      "detected_name": "electrolyte",
+      "acc": 0.8564237461181943,
+      "context_similarity": 0.8564237461181943,
+      "start": 1547,
+      "end": 1558,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 155,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "156": {
+      "pretty_name": "Status",
+      "cui": "263490005",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "status",
+      "detected_name": "status",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1559,
+      "end": 1565,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 156,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "158": {
+      "pretty_name": "Hospital admission",
+      "cui": "32485007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Hospital Admission",
+      "detected_name": "hospital~admission",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1572,
+      "end": 1590,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 158,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999755620956421,
+          "name": "Status"
+        }
+      }
+    },
+    "160": {
+      "pretty_name": "Hospital admission",
+      "cui": "32485007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Admission",
+      "detected_name": "admission",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1594,
+      "end": 1603,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 160,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "161": {
+      "pretty_name": "Diagnosis",
+      "cui": "439401001",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "Diagnosis",
+      "detected_name": "diagnosis",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1604,
+      "end": 1613,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 161,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "162": {
+      "pretty_name": "Fever",
+      "cui": "386661006",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "Fever",
+      "detected_name": "fever",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 1620,
+      "end": 1625,
+      "icd10": [
+        "R50.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 162,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999810457229614,
+          "name": "Status"
+        }
+      }
+    },
+    "163": {
+      "pretty_name": "Undetermined",
+      "cui": "373068000",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "undetermined",
+      "detected_name": "undetermined",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1629,
+      "end": 1641,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 163,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "164": {
+      "pretty_name": "Origins",
+      "cui": "255395001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "origin",
+      "detected_name": "origin",
+      "acc": 0.5679442154925525,
+      "context_similarity": 0.5679442154925525,
+      "start": 1642,
+      "end": 1648,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 164,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "165": {
+      "pretty_name": "Suspected",
+      "cui": "415684004",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "suspect",
+      "detected_name": "suspect",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1650,
+      "end": 1657,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 165,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "168": {
+      "pretty_name": "Community acquired pneumonia",
+      "cui": "385093006",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "community-acquired pneumonia",
+      "detected_name": "community~acquired~pneumonia",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1658,
+      "end": 1686,
+      "icd10": [
+        "J18.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 168,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9978041052818298,
+          "name": "Status"
+        }
+      }
+    },
+    "171": {
+      "pretty_name": "Suspected",
+      "cui": "415684004",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Suspected",
+      "detected_name": "suspected",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1690,
+      "end": 1699,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 171,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999839067459106,
+          "name": "Status"
+        }
+      }
+    },
+    "172": {
+      "pretty_name": "Chronic obstructive lung disease",
+      "cui": "13645005",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "COPD",
+      "detected_name": "copd",
+      "acc": 0.5829712907127498,
+      "context_similarity": 0.5829712907127498,
+      "start": 1700,
+      "end": 1704,
+      "icd10": [
+        "J44.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 172,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "176": {
+      "pretty_name": "Myeloid leukemia",
+      "cui": "188732008",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "myeloid leukemia",
+      "detected_name": "myeloid~leukemia",
+      "acc": 0.9396395860548931,
+      "context_similarity": 0.9396395860548931,
+      "start": 1714,
+      "end": 1730,
+      "icd10": [
+        "C92.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 176,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999987006187439,
+          "name": "Status"
+        }
+      }
+    },
+    "178": {
+      "pretty_name": "Transformation, function",
+      "cui": "61883002",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "transformation",
+      "detected_name": "transformation",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1737,
+      "end": 1751,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 178,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "179": {
+      "pretty_name": "Hyperuricemia",
+      "cui": "35885006",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "Hyperuricemia",
+      "detected_name": "hyperuricemia",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1768,
+      "end": 1781,
+      "icd10": [
+        "E79.0"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 179,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999161958694458,
+          "name": "Status"
+        }
+      }
+    },
+    "180": {
+      "pretty_name": "Associated with",
+      "cui": "47429007",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "associated",
+      "detected_name": "associated",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1786,
+      "end": 1796,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 180,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "181": {
+      "pretty_name": "Inflammatory disorder due to increased blood urate level",
+      "cui": "90560007",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "gout",
+      "detected_name": "gout",
+      "acc": 0.4606235890395498,
+      "context_similarity": 0.4606235890395498,
+      "start": 1797,
+      "end": 1801,
+      "icd10": [
+        "M10.99"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 181,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "182": {
+      "pretty_name": "Known",
+      "cui": "36692007",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Known",
+      "detected_name": "known",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1805,
+      "end": 1810,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 182,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999839067459106,
+          "name": "Status"
+        }
+      }
+    },
+    "184": {
+      "pretty_name": "Structure of right knee region",
+      "cui": "6757004",
+      "type_ids": [
+        "37552161"
+      ],
+      "types": [
+        "body structure"
+      ],
+      "source_value": "right knee",
+      "detected_name": "right~knee",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1811,
+      "end": 1821,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 184,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.8298931121826172,
+          "name": "Status"
+        }
+      }
+    },
+    "186": {
+      "pretty_name": "Infiltration",
+      "cui": "47351003",
+      "type_ids": [
+        "33782986"
+      ],
+      "types": [
+        "morphologic abnormality"
+      ],
+      "source_value": "infiltration",
+      "detected_name": "infiltration",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 1822,
+      "end": 1834,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 186,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "188": {
+      "pretty_name": "Tumor lysis syndrome",
+      "cui": "277605001",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "Tumor lysis syndrome",
+      "detected_name": "tumor~lysis~syndrome",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1838,
+      "end": 1858,
+      "icd10": [
+        "E88.3"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 188,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999885559082031,
+          "name": "Status"
+        }
+      }
+    },
+    "192": {
+      "pretty_name": "Acute renal failure syndrome",
+      "cui": "14669001",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "acute kidney injury",
+      "detected_name": "acute~kidney~injury",
+      "acc": 0.4237250174736947,
+      "context_similarity": 0.4237250174736947,
+      "start": 1864,
+      "end": 1883,
+      "icd10": [
+        "N17.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 192,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9996814727783203,
+          "name": "Status"
+        }
+      }
+    },
+    "196": {
+      "pretty_name": "Courses",
+      "cui": "288524001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Course",
+      "detected_name": "course",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1887,
+      "end": 1893,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 196,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "198": {
+      "pretty_name": "Low dose",
+      "cui": "262459003",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "low-dose",
+      "detected_name": "low~dose",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1923,
+      "end": 1931,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 198,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999644756317139,
+          "name": "Status"
+        }
+      }
+    },
+    "200": {
+      "pretty_name": "Cytarabine",
+      "cui": "387511003",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "Ara-C",
+      "detected_name": "ara~c",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1932,
+      "end": 1937,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 200,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9978041052818298,
+          "name": "Status"
+        }
+      }
+    },
+    "201": {
+      "pretty_name": "Continuous",
+      "cui": "255238004",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Continued",
+      "detected_name": "continued",
+      "acc": 0.30371857113212697,
+      "context_similarity": 0.30371857113212697,
+      "start": 1949,
+      "end": 1958,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 201,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999608993530273,
+          "name": "Status"
+        }
+      }
+    },
+    "202": {
+      "pretty_name": "Control",
+      "cui": "246106000",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "control",
+      "detected_name": "control",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 1981,
+      "end": 1988,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 202,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999855756759644,
+          "name": "Status"
+        }
+      }
+    },
+    "203": {
+      "pretty_name": "Fever",
+      "cui": "386661006",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "fever",
+      "detected_name": "fever",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 1989,
+      "end": 1994,
+      "icd10": [
+        "R50.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 203,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "205": {
+      "pretty_name": "Tumor lysis syndrome",
+      "cui": "277605001",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "tumor lysis syndrome",
+      "detected_name": "tumor~lysis~syndrome",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2006,
+      "end": 2026,
+      "icd10": [
+        "E88.3"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 205,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999983549118042,
+          "name": "Status"
+        }
+      }
+    },
+    "208": {
+      "pretty_name": "Hydration status",
+      "cui": "405006006",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "hydration",
+      "detected_name": "hydration",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2032,
+      "end": 2041,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 208,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "209": {
+      "pretty_name": "Controlled",
+      "cui": "31509003",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Controlled",
+      "detected_name": "controlled",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2064,
+      "end": 2074,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 209,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999608993530273,
+          "name": "Status"
+        }
+      }
+    },
+    "210": {
+      "pretty_name": "Onsets",
+      "cui": "370139004",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "onset",
+      "detected_name": "onset",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2079,
+      "end": 2084,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 210,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "212": {
+      "pretty_name": "Atrial fibrillation",
+      "cui": "49436004",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "atrial fibrillation",
+      "detected_name": "atrial~fibrillation",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2085,
+      "end": 2104,
+      "icd10": [
+        "I48.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 212,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.8298931121826172,
+          "name": "Status"
+        }
+      }
+    },
+    "214": {
+      "pretty_name": "Abdominal",
+      "cui": "277112006",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Abdominal",
+      "detected_name": "abdominal",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2123,
+      "end": 2132,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 214,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999961256980896,
+          "name": "Status"
+        }
+      }
+    },
+    "215": {
+      "pretty_name": "Fullness",
+      "cui": "255342004",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "fullness",
+      "detected_name": "fullness",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2133,
+      "end": 2141,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 215,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "216": {
+      "pretty_name": "Treated with",
+      "cui": "28995006",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "treated with",
+      "detected_name": "treated~with",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2142,
+      "end": 2154,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 216,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.8298931121826172,
+          "name": "Status"
+        }
+      }
+    },
+    "217": {
+      "pretty_name": "Laxative",
+      "cui": "372800002",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "laxatives",
+      "detected_name": "laxative",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2155,
+      "end": 2164,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 217,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "218": {
+      "pretty_name": "Briefs",
+      "cui": "230066007",
+      "type_ids": [
+        "32816260"
+      ],
+      "types": [
+        "physical object"
+      ],
+      "source_value": "Brief",
+      "detected_name": "brief",
+      "acc": 0.34251050175065445,
+      "context_similarity": 0.34251050175065445,
+      "start": 2168,
+      "end": 2173,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 218,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999839067459106,
+          "name": "Status"
+        }
+      }
+    },
+    "220": {
+      "pretty_name": "Episode",
+      "cui": "263503000",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "episode of",
+      "detected_name": "episode~of",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2174,
+      "end": 2184,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 220,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.8298931121826172,
+          "name": "Status"
+        }
+      }
+    },
+    "221": {
+      "pretty_name": "Intestinal obstruction",
+      "cui": "81060008",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "ileus",
+      "detected_name": "ileus",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 2185,
+      "end": 2190,
+      "icd10": [
+        "K56.6"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 221,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "222": {
+      "pretty_name": "Giving patient an enema",
+      "cui": "61919008",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "enema",
+      "detected_name": "enema",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2204,
+      "end": 2209,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 222,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "223": {
+      "pretty_name": "Bowel action",
+      "cui": "39211005",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "bowel",
+      "detected_name": "bowel",
+      "acc": 0.781056442215218,
+      "context_similarity": 0.781056442215218,
+      "start": 2214,
+      "end": 2219,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 223,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "224": {
+      "pretty_name": "Discharged from hospital",
+      "cui": "183665006",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "Discharged",
+      "detected_name": "discharged",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2232,
+      "end": 2242,
+      "icd10": [
+        ""
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 224,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999855756759644,
+          "name": "Status"
+        }
+      }
+    },
+    "226": {
+      "pretty_name": "Therapy",
+      "cui": "276239002",
+      "type_ids": [
+        "47503797"
+      ],
+      "types": [
+        "regime/therapy"
+      ],
+      "source_value": "therapy",
+      "detected_name": "therapy",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2273,
+      "end": 2280,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 226,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999701976776123,
+          "name": "Status"
+        }
+      }
+    },
+    "228": {
+      "pretty_name": "Discharge",
+      "cui": "75823008",
+      "type_ids": [
+        "33782986"
+      ],
+      "types": [
+        "morphologic abnormality"
+      ],
+      "source_value": "discharge",
+      "detected_name": "discharge",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 2286,
+      "end": 2295,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 228,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "229": {
+      "pretty_name": "Discharge",
+      "cui": "75823008",
+      "type_ids": [
+        "33782986"
+      ],
+      "types": [
+        "morphologic abnormality"
+      ],
+      "source_value": "Discharge",
+      "detected_name": "discharge",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 2300,
+      "end": 2309,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 229,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999876022338867,
+          "name": "Status"
+        }
+      }
+    },
+    "230": {
+      "pretty_name": "Current medication as reported by patient",
+      "cui": "513881000000106",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "Medications:",
+      "detected_name": "medications~:",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2310,
+      "end": 2322,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 230,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.8298931121826172,
+          "name": "Status"
+        }
+      }
+    },
+    "231": {
+      "pretty_name": "Febuxostat",
+      "cui": "441743008",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "Febuxostat",
+      "detected_name": "febuxostat",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2346,
+      "end": 2356,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 231,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9958653450012207,
+          "name": "Status"
+        }
+      }
+    },
+    "232": {
+      "pretty_name": "Metoclopramide",
+      "cui": "372776000",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "Metoclopramide",
+      "detected_name": "metoclopramide",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2358,
+      "end": 2372,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 232,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "233": {
+      "pretty_name": "Tamsulosin",
+      "cui": "372509005",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "Tamsulosin",
+      "detected_name": "tamsulosin",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2374,
+      "end": 2384,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 233,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "235": {
+      "pretty_name": "Symptom management",
+      "cui": "713148004",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "symptom management",
+      "detected_name": "symptom~management",
+      "acc": 0.8851847570887867,
+      "context_similarity": 0.8851847570887867,
+      "start": 2402,
+      "end": 2420,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 235,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999876022338867,
+          "name": "Status"
+        }
+      }
+    },
+    "237": {
+      "pretty_name": "Follow-up consultation",
+      "cui": "281036007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Follow-up",
+      "detected_name": "follow~up",
+      "acc": 0.560984889548036,
+      "context_similarity": 0.560984889548036,
+      "start": 2425,
+      "end": 2434,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 237,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999861717224121,
+          "name": "Status"
+        }
+      }
+    },
+    "239": {
+      "pretty_name": "Outpatient",
+      "cui": "373864002",
+      "type_ids": [
+        "31601201"
+      ],
+      "types": [
+        "person"
+      ],
+      "source_value": "outpatient",
+      "detected_name": "outpatient",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2454,
+      "end": 2464,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 239,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999961256980896,
+          "name": "Status"
+        }
+      }
+    },
+    "241": {
+      "pretty_name": "Follow-up consultation",
+      "cui": "281036007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "follow-up",
+      "detected_name": "follow~up",
+      "acc": 0.5347660712177849,
+      "context_similarity": 0.5347660712177849,
+      "start": 2465,
+      "end": 2474,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 241,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.986783504486084,
+          "name": "Status"
+        }
+      }
+    },
+    "242": {
+      "pretty_name": "Significant",
+      "cui": "386134007",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Significant",
+      "detected_name": "significant",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2498,
+      "end": 2509,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 242,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9709199070930481,
+          "name": "Status"
+        }
+      }
+    },
+    "244": {
+      "pretty_name": "Laboratory test finding",
+      "cui": "118246004",
+      "type_ids": [
+        "82417248"
+      ],
+      "types": [
+        "navigational concept"
+      ],
+      "source_value": "Laboratory Findings",
+      "detected_name": "laboratory~findings",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2510,
+      "end": 2529,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 244,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.8298931121826172,
+          "name": "Status"
+        }
+      }
+    },
+    "245": {
+      "pretty_name": "Persistent embryonic structure",
+      "cui": "31807009",
+      "type_ids": [
+        "33782986"
+      ],
+      "types": [
+        "morphologic abnormality"
+      ],
+      "source_value": "Persistent",
+      "detected_name": "persistent",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2535,
+      "end": 2545,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 245,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999855756759644,
+          "name": "Status"
+        }
+      }
+    },
+    "246": {
+      "pretty_name": "Leukocytosis",
+      "cui": "111583006",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "leukocytosis",
+      "detected_name": "leukocytosis",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2546,
+      "end": 2558,
+      "icd10": [
+        "D72.8"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 246,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "247": {
+      "pretty_name": "Blast",
+      "cui": "90391002",
+      "type_ids": [
+        "43857361"
+      ],
+      "types": [
+        "physical force"
+      ],
+      "source_value": "blasts",
+      "detected_name": "blast",
+      "acc": 0.8716739506825355,
+      "context_similarity": 0.8716739506825355,
+      "start": 2563,
+      "end": 2569,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 247,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "249": {
+      "pretty_name": "Peripheral blood",
+      "cui": "119273009",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "peripheral blood",
+      "detected_name": "peripheral~blood",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2573,
+      "end": 2589,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 249,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "251": {
+      "pretty_name": "Smear sample",
+      "cui": "258433009",
+      "type_ids": [
+        "337250"
+      ],
+      "types": [
+        "specimen"
+      ],
+      "source_value": "smears",
+      "detected_name": "smear",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2590,
+      "end": 2596,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 251,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "253": {
+      "pretty_name": "Hyperbilirubinemia",
+      "cui": "14783006",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "hyperbilirubinemia",
+      "detected_name": "hyperbilirubinemia",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2617,
+      "end": 2635,
+      "icd10": [
+        "E80.6"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 253,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999961256980896,
+          "name": "Status"
+        }
+      }
+    },
+    "254": {
+      "pretty_name": "Creatinine",
+      "cui": "15373003",
+      "type_ids": [
+        "91187746"
+      ],
+      "types": [
+        "substance"
+      ],
+      "source_value": "creatinine",
+      "detected_name": "creatinine",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 2644,
+      "end": 2654,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 254,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "256": {
+      "pretty_name": "Renal impairment",
+      "cui": "236423003",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "renal impairment",
+      "detected_name": "renal~impairment",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2667,
+      "end": 2683,
+      "icd10": [
+        "N19"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 256,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999591112136841,
+          "name": "Status"
+        }
+      }
+    },
+    "258": {
+      "pretty_name": "Imaging",
+      "cui": "363679005",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Imaging",
+      "detected_name": "imaging",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 2688,
+      "end": 2695,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 258,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999876022338867,
+          "name": "Status"
+        }
+      }
+    },
+    "260": {
+      "pretty_name": "Plain chest X-ray",
+      "cui": "399208008",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "Chest X-ray",
+      "detected_name": "chest~x~ray",
+      "acc": 0.6752764221256713,
+      "context_similarity": 0.6752764221256713,
+      "start": 2701,
+      "end": 2712,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 260,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.999983549118042,
+          "name": "Status"
+        }
+      }
+    },
+    "263": {
+      "pretty_name": "Both lungs",
+      "cui": "74101002",
+      "type_ids": [
+        "37552161"
+      ],
+      "types": [
+        "body structure"
+      ],
+      "source_value": "bilateral lung",
+      "detected_name": "bilateral~lung",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2720,
+      "end": 2734,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 263,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "265": {
+      "pretty_name": "Infiltration",
+      "cui": "47351003",
+      "type_ids": [
+        "33782986"
+      ],
+      "types": [
+        "morphologic abnormality"
+      ],
+      "source_value": "infiltration",
+      "detected_name": "infiltration",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 2735,
+      "end": 2747,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 265,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "266": {
+      "pretty_name": "Cardiomegaly",
+      "cui": "8186001",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "cardiomegaly",
+      "detected_name": "cardiomegaly",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2752,
+      "end": 2764,
+      "icd10": [
+        "I51.7"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 266,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "267": {
+      "pretty_name": "Indicated",
+      "cui": "410535002",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "indicated",
+      "detected_name": "indicated",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2772,
+      "end": 2781,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 267,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999855756759644,
+          "name": "Status"
+        }
+      }
+    },
+    "268": {
+      "pretty_name": "Bowel action",
+      "cui": "39211005",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "bowel",
+      "detected_name": "bowel",
+      "acc": 0.4681262952585499,
+      "context_similarity": 0.4681262952585499,
+      "start": 2782,
+      "end": 2787,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 268,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "270": {
+      "pretty_name": "Suggestive of",
+      "cui": "7196007",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "suggestive of",
+      "detected_name": "suggestive~of",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2792,
+      "end": 2805,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 270,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9981436729431152,
+          "name": "Status"
+        }
+      }
+    },
+    "271": {
+      "pretty_name": "Intestinal obstruction",
+      "cui": "81060008",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "ileus",
+      "detected_name": "ileus",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 2806,
+      "end": 2811,
+      "icd10": [
+        "K56.6"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 271,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "272": {
+      "pretty_name": "Patient",
+      "cui": "116154003",
+      "type_ids": [
+        "31601201"
+      ],
+      "types": [
+        "person"
+      ],
+      "source_value": "patient",
+      "detected_name": "patient",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2818,
+      "end": 2825,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 272,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9999855756759644,
+          "name": "Status"
+        }
+      }
+    },
+    "273": {
+      "pretty_name": "Discharged from hospital",
+      "cui": "183665006",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "discharged",
+      "detected_name": "discharged",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2830,
+      "end": 2840,
+      "icd10": [
+        ""
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 273,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "274": {
+      "pretty_name": "Stable",
+      "cui": "58158008",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "stable",
+      "detected_name": "stable",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2846,
+      "end": 2852,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 274,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    },
+    "275": {
+      "pretty_name": "Condition",
+      "cui": "260905004",
+      "type_ids": [
+        "43039974"
+      ],
+      "types": [
+        "attribute"
+      ],
+      "source_value": "condition",
+      "detected_name": "condition",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2853,
+      "end": 2862,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 275,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.698606014251709,
+          "name": "Status"
+        }
+      }
+    },
+    "276": {
+      "pretty_name": "Outpatient",
+      "cui": "373864002",
+      "type_ids": [
+        "31601201"
+      ],
+      "types": [
+        "person"
+      ],
+      "source_value": "outpatient",
+      "detected_name": "outpatient",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 2867,
+      "end": 2877,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 276,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9708238244056702,
+          "name": "Status"
+        }
+      }
+    },
+    "278": {
+      "pretty_name": "Follow-up consultation",
+      "cui": "281036007",
+      "type_ids": [
+        "28321150"
+      ],
+      "types": [
+        "procedure"
+      ],
+      "source_value": "follow-up",
+      "detected_name": "follow~up",
+      "acc": 0.30946313229101485,
+      "context_similarity": 0.30946313229101485,
+      "start": 2878,
+      "end": 2887,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 278,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.986783504486084,
+          "name": "Status"
+        }
+      }
+    },
+    "279": {
+      "pretty_name": "Malignant neoplastic disease",
+      "cui": "363346000",
+      "type_ids": [
+        "9090192"
+      ],
+      "types": [
+        "disorder"
+      ],
+      "source_value": "cancer",
+      "detected_name": "cancer",
+      "acc": 0.7809733639840288,
+      "context_similarity": 0.7809733639840288,
+      "start": 2900,
+      "end": 2906,
+      "icd10": [
+        "C80.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 279,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9997888207435608,
+          "name": "Status"
+        }
+      }
+    }
+  },
+  "tokens": []
+}

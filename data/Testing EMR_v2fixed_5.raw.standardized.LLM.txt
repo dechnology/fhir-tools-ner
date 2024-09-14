@@ -1,0 +1,83 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "288527008",
+      "fsn": "Depressive disorder (disorder)",
+      "text": "Depressive Disorder"
+    },
+    {
+      "id": "195967001",
+      "fsn": "Hypertension (disorder)",
+      "text": "Hypertension"
+    },
+    {
+      "id": "441428004",
+      "fsn": "Bronchiectasis (disorder)",
+      "text": "Bronchiectasis"
+    },
+    {
+      "id": "236037000",
+      "fsn": "Panic disorder (disorder)",
+      "text": "Panic Disorder"
+    },
+    {
+      "id": "22745006",
+      "fsn": "Infectious diarrhea (disorder)",
+      "text": "Infectious Diarrhea"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "8310-5",
+      "fsn": "Body temperature (measured)",
+      "text": "Body Temperature"
+    },
+    {
+      "id": "9279-1",
+      "fsn": "Respiratory rate",
+      "text": "Respirations"
+    },
+    {
+      "id": "8480-6",
+      "fsn": "Systolic blood pressure",
+      "text": "Blood Pressure"
+    },
+    {
+      "id": "8462-4",
+      "fsn": "Diastolic blood pressure",
+      "text": "Blood Pressure"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "197830",
+      "fsn": "Ciprofloxacin 500 MG Oral Tablet",
+      "text": "Ciprofloxacin"
+    },
+    {
+      "id": "72107",
+      "fsn": "Loperamide Hydrochloride 2 MG Oral Tablet",
+      "text": "Loperamide Hydrochloride"
+    },
+    {
+      "id": "256822",
+      "fsn": "Diazepam 5 MG Oral Tablet",
+      "text": "Diazepam"
+    },
+    {
+      "id": "314063",
+      "fsn": "Dimethicone 40 MG Oral Tablet",
+      "text": "Dimethicone"
+    },
+    {
+      "id": "293320",
+      "fsn": "Valsartan 160 MG Oral Tablet",
+      "text": "Valsartan"
+    },
+    {
+      "id": "198116",
+      "fsn": "Brotizolam 0.25 MG Oral Tablet",
+      "text": "Brotizolam"
+    }
+  ]
+}

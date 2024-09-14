@@ -1,0 +1,136 @@
+**Emergency Room Medical Assessment**
+
+**Triage Details**
+- Triage Level: 3
+- Computer Classification: 3
+
+**Chief Complaint**
+- The patient presents with a fever lasting one day, abdominal pain, and diarrhea since the previous day. The patient reports being in Guangdong Province from September 2016 to November 2016, with persistent fever since that time.
+
+**Assessment Basis**
+- The patient shows signs of moderate acute central abdominal pain (pain score 4-7), mild dehydration due to diarrhea, and fever (appearing ill).
+
+**Past Medical History**
+- Bronchiectasis
+- Depressive Disorder (F33.9)
+- Hypertension
+
+**TOCC Assessment**
+- Travel History: None
+- Cluster History: None
+- Special Occupation: None
+- Contact with Patients: None
+- Animal Contact: None
+
+**Vital Signs**
+- Blood Pressure (BP): 156/86 mmHg
+- Pulse Rate (PR): 105/min
+- SpO2: 95%
+- Respirations: 20/min
+- Body Temperature (BT): 38°C
+- Blood Sugar: Not applicable
+- Pain Index: 0 (No pain)
+- Acute Changes: None
+- Consciousness: Clear
+
+**Special Notes**
+- The patient agrees to organ donation and palliative care as per their health insurance card.
+
+**Method of Arrival**
+- Ambulated to the hospital independently
+
+**Reason for Visit**
+- Illness
+
+**High-risk Mechanisms**
+- Not applicable
+
+**Triage Officer**
+- Lin Yi Shan
+
+**Emergency Room Medical History**
+
+**Chief Complaint**
+- Fever for a day, abdominal pain, and diarrhea since yesterday after returning from Guangdong Province.
+
+**Past Medical History**
+- Bronchiectasis
+- Depressive Disorder (F33.9)
+- Hypertension
+
+**Medication Allergies**
+- None reported
+
+**Travel History**
+- None
+
+**Present Illness**
+- The patient reports a fever for one week, diarrhea (watery, without blood or mucus) for two days along with abdominal cramping pain. No nausea or vomiting, no dysuria, no cough. Has a history of diverticulitis status post surgery.
+
+**TOCC**
+- Denied any recent travel, occupational exposure, cluster occurrence, or contacts with patients/animals.
+
+**Physical Examination**
+- Consciousness: Clear
+- Neuro: E4, V5, M6
+- Blood Pressure: 156/86 mmHg
+- Pulse Rate: 105/min
+- Respiratory Rate: 20/min
+- Temperature: 38°C
+- SpO2: 95%
+- Head: Normal
+- Pupils: Equal
+- Conjunctiva: Not pale; Sclera: Non-icteric
+- Neck: Supple, no jugular vein engorgement, no lymphadenopathy
+- Chest: Symmetrical expansion, breath sounds clear
+- Heart: Regular heartbeat, no murmurs
+- Abdomen: Tenderness in lower left quadrant, normal bowel sounds
+- Extremities: Normal
+
+**Diagnosis at Admission**
+1. Infectious Diarrhea (A09)
+2. Bronchiectasis, status post unknown surgery, uses Berotec PRN
+3. Hypertension
+4. Repeated Diverticulitis, status post surgery
+5. Depressive Disorder
+6. Panic Disorder
+
+**Discharge Diagnosis**
+1. Infectious Diarrhea (A09)
+2. Bronchiectasis, status post unknown surgery
+3. Hypertension
+4. Repeated Diverticulitis, status post surgery
+5. Depressive Disorder
+6. Panic Disorder
+
+**ICU Diagnosis**
+- None
+
+**Course and Treatment in Hospital**
+- The patient was kept on Ciprofloxacin. No fever was noted during the stay. Diarrhea and abdominal pain improved under antibiotic treatment. The patient tolerated a full diet and was stable for discharge.
+
+**Medications Prescribed**
+- Ciprofloxacin Lactate
+- Valsartan
+- Dimethicone
+- Smecta
+- Loperamide Hydrochloride
+- Brotizolam
+- Diazepam
+
+**Follow-up Instructions and Medications**
+- Hydrotalcite (Nacid 500 mg/tab) 1 tab PO TID for 5 days
+- Dioctahedral Smectite (Smecta 3 g/pack) 1 pack PO TIDPRN for 5 days
+- Ciprofloxacin HCl (Ciproxin 250 mg/tab) 2 tab PO BID for 5 days
+- Dimethicone (Kascoal 40 mg/tab) 1 tab PO TIDPC for 5 days
+- Brotizolam (Lendormin 0.25 mg/tab) 1 tab PO HS for 5 days
+- Self-prepared medication (Diovan FC 160 mg/tab) 1 tab PO QD
+
+**Outpatient Appointments**
+- March 8, 2017, at the Family Medicine Department
+- March 15, 2017, at the Family Medicine Department
+- March 27, 2017, at the Internal Medicine Department
+
+==========cTAKES detection result==========
+
+{"RXNORM": {"Basis": [{"code": "1046801", "cui": "C1874451", "tui": "T121"}], "Ciprofloxacin": [{"code": "2551", "cui": "C0008809", "tui": "T109"}, {"code": "2551", "cui": "C0008809", "tui": "T121"}, {"code": "2551", "cui": "C0008809", "tui": "T121"}, {"code": "2551", "cui": "C0008809", "tui": "T109"}, {"code": "2551", "cui": "C0008809", "tui": "T109"}, {"code": "2551", "cui": "C0008809", "tui": "T121"}], "CIPROFLOXACIN LACTATE": [{"code": "235851", "cui": "C0771046", "tui": "T109"}, {"code": "235851", "cui": "C0771046", "tui": "T195"}], "Lactate": [{"code": "114202", "cui": "C0376261", "tui": "T109"}, {"code": "114202", "cui": "C0376261", "tui": "T121"}], "valsartan": [{"code": "69749", "cui": "C0216784", "tui": "T121"}, {"code": "69749", "cui": "C0216784", "tui": "T109"}], "dimethicone": [{"code": "324072", "cui": "C1113707", "tui": "T121"}, {"code": "324072", "cui": "C1113707", "tui": "T109"}, {"code": "324072", "cui": "C1113707", "tui": "T121"}, {"code": "324072", "cui": "C1113707", "tui": "T109"}], "Loperamide Hydrochloride": [{"code": "82038", "cui": "C0282221", "tui": "T121"}, {"code": "82038", "cui": "C0282221", "tui": "T109"}], "Loperamide": [{"code": "6468", "cui": "C0023992", "tui": "T121"}, {"code": "6468", "cui": "C0023992", "tui": "T109"}], "brotizolam": [{"code": "19790", "cui": "C0054151", "tui": "T109"}, {"code": "19790", "cui": "C0054151", "tui": "T121"}, {"code": "19790", "cui": "C0054151", "tui": "T109"}, {"code": "19790", "cui": "C0054151", "tui": "T121"}], "Diazepam": [{"code": "3322", "cui": "C0012010", "tui": "T121"}, {"code": "3322", "cui": "C0012010", "tui": "T109"}], "hydrotalcite": [{"code": "27221", "cui": "C0063105", "tui": "T197"}, {"code": "27221", "cui": "C0063105", "tui": "T121"}], "Tablet Dosage Form": [{"code": "10311", "cui": "C0039225", "tui": "T122"}, {"code": "10311", "cui": "C0039225", "tui": "T122"}, {"code": "10311", "cui": "C0039225", "tui": "T122"}, {"code": "10311", "cui": "C0039225", "tui": "T122"}, {"code": "10311", "cui": "C0039225", "tui": "T122"}, {"code": "10311", "cui": "C0039225", "tui": "T122"}, {"code": "10311", "cui": "C0039225", "tui": "T122"}, {"code": "10311", "cui": "C0039225", "tui": "T122"}, {"code": "10311", "cui": "C0039225", "tui": "T122"}, {"code": "10311", "cui": "C0039225", "tui": "T122"}], "Pack": [{"code": "746839", "cui": "C1999262", "tui": "T122"}, {"code": "746839", "cui": "C1999262", "tui": "T122"}], "Ciprofloxacin Hydrochloride": [{"code": "81981", "cui": "C0282104", "tui": "T109"}, {"code": "81981", "cui": "C0282104", "tui": "T195"}], "Hydrochloric Acid": [{"code": "5486", "cui": "C0020259", "tui": "T197"}, {"code": "5486", "cui": "C0020259", "tui": "T130"}], "Ciproxin": [{"code": "151517", "cui": "C0591260", "tui": "T121"}, {"code": "151517", "cui": "C0591260", "tui": "T109"}], "Diovan": [{"code": "216652", "cui": "C0719949", "tui": "T121"}, {"code": "216652", "cui": "C0719949", "tui": "T109"}]}, "SNOMEDCT_US": {"Sugars": [{"code": "74801000", "cui": "C0242209", "tui": "T121"}, {"code": "74801000", "cui": "C0242209", "tui": "T109"}], "Pharmaceutical Preparations": [{"code": "105903003", "cui": "C0013227", "tui": "T121"}, {"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}, {"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}, {"code": "105903003", "cui": "C0013227", "tui": "T121"}, {"code": "105903003", "cui": "C0013227", "tui": "T121"}, {"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}, {"code": "105903003", "cui": "C0013227", "tui": "T121"}, {"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}, {"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}, {"code": "105903003", "cui": "C0013227", "tui": "T121"}, {"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}, {"code": "105903003", "cui": "C0013227", "tui": "T121"}, {"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}, {"code": "105903003", "cui": "C0013227", "tui": "T121"}], "Ciprofloxacin": [{"code": "7577004", "cui": "C0008809", "tui": "T121"}, {"code": "372840008", "cui": "C0008809", "tui": "T109"}, {"code": "392412000", "cui": "C0008809", "tui": "T121"}, {"code": "7577004", "cui": "C0008809", "tui": "T109"}, {"code": "372840008", "cui": "C0008809", "tui": "T121"}, {"code": "392412000", "cui": "C0008809", "tui": "T109"}, {"code": "7577004", "cui": "C0008809", "tui": "T109"}, {"code": "372840008", "cui": "C0008809", "tui": "T121"}, {"code": "392412000", "cui": "C0008809", "tui": "T109"}, {"code": "7577004", "cui": "C0008809", "tui": "T121"}, {"code": "372840008", "cui": "C0008809", "tui": "T109"}, {"code": "392412000", "cui": "C0008809", "tui": "T121"}, {"code": "392412000", "cui": "C0008809", "tui": "T109"}, {"code": "7577004", "cui": "C0008809", "tui": "T121"}, {"code": "372840008", "cui": "C0008809", "tui": "T109"}, {"code": "392412000", "cui": "C0008809", "tui": "T121"}, {"code": "7577004", "cui": "C0008809", "tui": "T109"}, {"code": "372840008", "cui": "C0008809", "tui": "T121"}], "Antibiotics": [{"code": "255631004", "cui": "C0003232", "tui": "T195"}], "CIPROFLOXACIN LACTATE": [{"code": "428384006", "cui": "C0771046", "tui": "T109"}, {"code": "428384006", "cui": "C0771046", "tui": "T195"}], "Lactate": [{"code": "83036002", "cui": "C0376261", "tui": "T109"}, {"code": "83036002", "cui": "C0376261", "tui": "T121"}], "valsartan": [{"code": "108581009", "cui": "C0216784", "tui": "T121"}, {"code": "108581009", "cui": "C0216784", "tui": "T109"}, {"code": "386876001", "cui": "C0216784", "tui": "T121"}, {"code": "386876001", "cui": "C0216784", "tui": "T109"}], "dimethicone": [{"code": "396031000", "cui": "C1113707", "tui": "T109"}, {"code": "420874002", "cui": "C1113707", "tui": "T121"}, {"code": "420874002", "cui": "C1113707", "tui": "T109"}, {"code": "396031000", "cui": "C1113707", "tui": "T121"}, {"code": "420874002", "cui": "C1113707", "tui": "T121"}, {"code": "420874002", "cui": "C1113707", "tui": "T109"}, {"code": "396031000", "cui": "C1113707", "tui": "T121"}, {"code": "396031000", "cui": "C1113707", "tui": "T109"}], "Loperamide Hydrochloride": [{"code": "412428001", "cui": "C0282221", "tui": "T109"}, {"code": "57574005", "cui": "C0282221", "tui": "T121"}, {"code": "57574005", "cui": "C0282221", "tui": "T109"}, {"code": "412428001", "cui": "C0282221", "tui": "T121"}], "Loperamide": [{"code": "387040009", "cui": "C0023992", "tui": "T121"}, {"code": "387040009", "cui": "C0023992", "tui": "T109"}, {"code": "116726003", "cui": "C0023992", "tui": "T121"}, {"code": "116726003", "cui": "C0023992", "tui": "T109"}], "brotizolam": [{"code": "698050003", "cui": "C0054151", "tui": "T121"}, {"code": "698050003", "cui": "C0054151", "tui": "T109"}, {"code": "698050003", "cui": "C0054151", "tui": "T121"}, {"code": "698050003", "cui": "C0054151", "tui": "T109"}], "Diazepam": [{"code": "387264003", "cui": "C0012010", "tui": "T121"}, {"code": "387264003", "cui": "C0012010", "tui": "T109"}, {"code": "48546005", "cui": "C0012010", "tui": "T121"}, {"code": "48546005", "cui": "C0012010", "tui": "T109"}], "hydrotalcite": [{"code": "346512001", "cui": "C0063105", "tui": "T197"}, {"code": "346512001", "cui": "C0063105", "tui": "T121"}, {"code": "395738007", "cui": "C0063105", "tui": "T197"}, {"code": "395738007", "cui": "C0063105", "tui": "T121"}], "Tablet Dosage Form": [{"code": "46992007", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "46992007", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "46992007", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "46992007", "cui": "C0039225", "tui": "T122"}, {"code": "46992007", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "46992007", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "46992007", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "46992007", "cui": "C0039225", "tui": "T122"}, {"code": "46992007", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "385055001", "cui": "C0039225", "tui": "T122"}, {"code": "46992007", "cui": "C0039225", "tui": "T122"}], "Dioctahedral smectite": [{"code": "713391002", "cui": "C4075114", "tui": "T197"}, {"code": "714793008", "cui": "C4075114", "tui": "T197"}], "Ciprofloxacin Hydrochloride": [{"code": "20450009", "cui": "C0282104", "tui": "T195"}, {"code": "20450009", "cui": "C0282104", "tui": "T109"}], "Hydrochloric Acid": [{"code": "27763000", "cui": "C0020259", "tui": "T197"}, {"code": "27763000", "cui": "C0020259", "tui": "T130"}, {"code": "420502008", "cui": "C0020259", "tui": "T197"}, {"code": "420502008", "cui": "C0020259", "tui": "T130"}], "Persistent embryonic structure": [{"code": "31807009", "cui": "C0332996", "tui": "T019"}], "Dehydration": [{"code": "34095006", "cui": "C0011175", "tui": "T047"}], "Bronchiectasis": [{"code": "12295008", "cui": "C0006267", "tui": "T047"}, {"code": "12295008", "cui": "C0006267", "tui": "T047"}, {"code": "12295008", "cui": "C0006267", "tui": "T047"}, {"code": "12295008", "cui": "C0006267", "tui": "T047"}], "Depressive disorder": [{"code": "35489007", "cui": "C0011581", "tui": "T048"}, {"code": "21061000119107", "cui": "C0011581", "tui": "T048"}, {"code": "78667006", "cui": "C0011581", "tui": "T048"}, {"code": "35489007", "cui": "C0011581", "tui": "T048"}, {"code": "21061000119107", "cui": "C0011581", "tui": "T048"}, {"code": "78667006", "cui": "C0011581", "tui": "T048"}, {"code": "35489007", "cui": "C0011581", "tui": "T048"}, {"code": "21061000119107", "cui": "C0011581", "tui": "T048"}, {"code": "78667006", "cui": "C0011581", "tui": "T048"}, {"code": "35489007", "cui": "C0011581", "tui": "T048"}, {"code": "21061000119107", "cui": "C0011581", "tui": "T048"}, {"code": "78667006", "cui": "C0011581", "tui": "T048"}], "Disease": [{"code": "64572001", "cui": "C0012634", "tui": "T047"}, {"code": "64572001", "cui": "C0012634", "tui": "T047"}, {"code": "64572001", "cui": "C0012634", "tui": "T047"}, {"code": "64572001", "cui": "C0012634", "tui": "T047"}, {"code": "64572001", "cui": "C0012634", "tui": "T047"}, {"code": "64572001", "cui": "C0012634", "tui": "T047"}], "Hypertensive disease": [{"code": "38341003", "cui": "C0020538", "tui": "T047"}, {"code": "38341003", "cui": "C0020538", "tui": "T047"}, {"code": "38341003", "cui": "C0020538", "tui": "T047"}, {"code": "38341003", "cui": "C0020538", "tui": "T047"}], "Diverticulitis": [{"code": "18126004", "cui": "C0012813", "tui": "T047"}, {"code": "307496006", "cui": "C0012813", "tui": "T047"}, {"code": "307496006", "cui": "C0012813", "tui": "T047"}, {"code": "18126004", "cui": "C0012813", "tui": "T047"}, {"code": "307496006", "cui": "C0012813", "tui": "T047"}, {"code": "18126004", "cui": "C0012813", "tui": "T047"}], "Injury due to exposure to external cause": [{"code": "71677004", "cui": "C0274281", "tui": "T037"}], "Hyperemia": [{"code": "30098003", "cui": "C0020452", "tui": "T047"}], "Dysentery": [{"code": "19213003", "cui": "C0013369", "tui": "T047"}, {"code": "111939009", "cui": "C0013369", "tui": "T047"}, {"code": "19213003", "cui": "C0013369", "tui": "T047"}, {"code": "111939009", "cui": "C0013369", "tui": "T047"}], "Communicable Diseases": [{"code": "189822004", "cui": "C0009450", "tui": "T047"}, {"code": "191415002", "cui": "C0009450", "tui": "T047"}, {"code": "40733004", "cui": "C0009450", "tui": "T047"}, {"code": "40733004", "cui": "C0009450", "tui": "T047"}, {"code": "189822004", "cui": "C0009450", "tui": "T047"}, {"code": "191415002", "cui": "C0009450", "tui": "T047"}], "Panic Disorder": [{"code": "371631005", "cui": "C0030319", "tui": "T048"}, {"code": "371631005", "cui": "C0030319", "tui": "T048"}], "Chief complaint (finding)": [{"code": "409586006", "cui": "C0277786", "tui": "T033"}, {"code": "33962009", "cui": "C0277786", "tui": "T033"}, {"code": "33962009", "cui": "C0277786", "tui": "T033"}, {"code": "409586006", "cui": "C0277786", "tui": "T033"}], "Fever": [{"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}], "Abdominal Pain": [{"code": "21522001", "cui": "C0000737", "tui": "T184"}, {"code": "21522001", "cui": "C0000737", "tui": "T184"}, {"code": "21522001", "cui": "C0000737", "tui": "T184"}, {"code": "21522001", "cui": "C0000737", "tui": "T184"}], "Pain": [{"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}], "Diarrhea": [{"code": "267060006", "cui": "C0011991", "tui": "T184"}, {"code": "62315008", "cui": "C0011991", "tui": "T184"}, {"code": "267060006", "cui": "C0011991", "tui": "T184"}, {"code": "62315008", "cui": "C0011991", "tui": "T184"}, {"code": "62315008", "cui": "C0011991", "tui": "T184"}, {"code": "267060006", "cui": "C0011991", "tui": "T184"}, {"code": "62315008", "cui": "C0011991", "tui": "T184"}, {"code": "267060006", "cui": "C0011991", "tui": "T184"}, {"code": "267060006", "cui": "C0011991", "tui": "T184"}, {"code": "62315008", "cui": "C0011991", "tui": "T184"}, {"code": "62315008", "cui": "C0011991", "tui": "T184"}, {"code": "267060006", "cui": "C0011991", "tui": "T184"}, {"code": "267060006", "cui": "C0011991", "tui": "T184"}, {"code": "62315008", "cui": "C0011991", "tui": "T184"}], "Physical findings": [{"code": "72670004", "cui": "C0311392", "tui": "T033"}, {"code": "72670004", "cui": "C0311392", "tui": "T033"}], "Central abdominal pain": [{"code": "162046002", "cui": "C0423644", "tui": "T184"}], "Pain score": [{"code": "225908003", "cui": "C0582148", "tui": "T033"}], "Mild dehydration": [{"code": "1611000119108", "cui": "C3472705", "tui": "T033"}], "Mild Adverse Event": [{"code": "446411000124101", "cui": "C1513302", "tui": "T033"}], "Malaise": [{"code": "367391008", "cui": "C0231218", "tui": "T184"}, {"code": "213257006", "cui": "C0231218", "tui": "T184"}, {"code": "248282002", "cui": "C0231218", "tui": "T184"}], "PMH - past medical history": [{"code": "417662000", "cui": "C0455458", "tui": "T033"}, {"code": "417662000", "cui": "C0455458", "tui": "T033"}], "Medical History": [{"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}], "travel": [{"code": "129018004", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}, {"code": "129018004", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}, {"code": "129018004", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}], "Blood Pressure": [{"code": "75367002", "cui": "C0005823", "tui": "T040"}, {"code": "75367002", "cui": "C0005823", "tui": "T040"}], "Pressure (finding)": [{"code": "13543005", "cui": "C0460139", "tui": "T033"}, {"code": "13543005", "cui": "C0460139", "tui": "T033"}], "Absence of pain": [{"code": "81765008", "cui": "C0234225", "tui": "T033"}], "Conscious": [{"code": "106167005", "cui": "C0234421", "tui": "T041"}, {"code": "106167005", "cui": "C0234421", "tui": "T041"}], "Patient status determination, deceased and body donated": [{"code": "449951000124101", "cui": "C4049936", "tui": "T033"}], "Reason for patient visit": [{"code": "103324002", "cui": "C1704447", "tui": "T033"}], "Illness (finding)": [{"code": "39104002", "cui": "C0221423", "tui": "T184"}, {"code": "39104002", "cui": "C0221423", "tui": "T184"}], "Hypersensitivity": [{"code": "421961002", "cui": "C0020517", "tui": "T046"}, {"code": "418634005", "cui": "C0020517", "tui": "T046"}], "Cramping pain": [{"code": "279093005", "cui": "C0458254", "tui": "T033"}], "Muscle Cramp": [{"code": "55300003", "cui": "C0026821", "tui": "T184"}], "Cramping sensation quality": [{"code": "410709000", "cui": "C1446787", "tui": "T184"}], "No nausea": [{"code": "162056003", "cui": "C0423584", "tui": "T033"}], "Nausea": [{"code": "422587007", "cui": "C0027497", "tui": "T184"}], "Vomiting": [{"code": "300359004", "cui": "C0042963", "tui": "T184"}, {"code": "249497008", "cui": "C0042963", "tui": "T184"}, {"code": "422400008", "cui": "C0042963", "tui": "T184"}], "Dysuria": [{"code": "49650001", "cui": "C0013428", "tui": "T184"}], "No cough": [{"code": "161922009", "cui": "C0425502", "tui": "T033"}], "Coughing": [{"code": "49727002", "cui": "C0010200", "tui": "T184"}, {"code": "263731006", "cui": "C0010200", "tui": "T184"}, {"code": "272039006", "cui": "C0010200", "tui": "T184"}], "History of diverticulitis": [{"code": "118361000119100", "cui": "C4040337", "tui": "T033"}], "Gait normal": [{"code": "8117002", "cui": "C0231683", "tui": "T033"}, {"code": "8117002", "cui": "C0231683", "tui": "T033"}, {"code": "8117002", "cui": "C0231683", "tui": "T033"}], "Skin appearance normal (finding)": [{"code": "225544001", "cui": "C0558145", "tui": "T033"}, {"code": "225544001", "cui": "C0558145", "tui": "T033"}, {"code": "225544001", "cui": "C0558145", "tui": "T033"}], "Pallor": [{"code": "398979000", "cui": "C0030232", "tui": "T033"}], "Venous Engorgement": [{"code": "8804002", "cui": "C0042484", "tui": "T046"}], "Lymphadenopathy absent": [{"code": "274621000", "cui": "C0558762", "tui": "T033"}], "Lymphadenopathy": [{"code": "30746006", "cui": "C0497156", "tui": "T033"}], "Symmetrical": [{"code": "18772005", "cui": "C0332516", "tui": "T033"}, {"code": "255473004", "cui": "C0332516", "tui": "T033"}], "Heart beat": [{"code": "248646004", "cui": "C0425583", "tui": "T042"}], "Heart murmur": [{"code": "414786004", "cui": "C0018808", "tui": "T033"}, {"code": "421493004", "cui": "C0018808", "tui": "T033"}, {"code": "88610006", "cui": "C0018808", "tui": "T033"}], "Sore to touch": [{"code": "247348008", "cui": "C0234233", "tui": "T184"}, {"code": "71393004", "cui": "C0234233", "tui": "T184"}], "Normal bowel sounds": [{"code": "61539000", "cui": "C0278005", "tui": "T184"}], "Bowel sounds": [{"code": "413681009", "cui": "C0232693", "tui": "T033"}, {"code": "87042004", "cui": "C0232693", "tui": "T033"}], "Diagnosis": [{"code": "439401001", "cui": "C0011900", "tui": "T033"}, {"code": "439401001", "cui": "C0011900", "tui": "T033"}, {"code": "439401001", "cui": "C0011900", "tui": "T033"}], "Panic": [{"code": "79823003", "cui": "C0030318", "tui": "T033"}, {"code": "79823003", "cui": "C0030318", "tui": "T033"}], "Triage": [{"code": "225390008", "cui": "C0040861", "tui": "T061"}, {"code": "225390008", "cui": "C0040861", "tui": "T061"}, {"code": "225390008", "cui": "C0040861", "tui": "T061"}], "Blood glucose measurement": [{"code": "33747003", "cui": "C0392201", "tui": "T059"}], "Therapeutic procedure": [{"code": "276239002", "cui": "C0087111", "tui": "T061"}, {"code": "277132007", "cui": "C0087111", "tui": "T061"}, {"code": "276239002", "cui": "C0087111", "tui": "T061"}, {"code": "277132007", "cui": "C0087111", "tui": "T061"}], "Abdomen": [{"code": "277112006", "cui": "C0000726", "tui": "T029"}, {"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "277112006", "cui": "C0000726", "tui": "T029"}, {"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "277112006", "cui": "C0000726", "tui": "T029"}, {"code": "277112006", "cui": "C0000726", "tui": "T029"}, {"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "277112006", "cui": "C0000726", "tui": "T029"}, {"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "277112006", "cui": "C0000726", "tui": "T029"}], "Blood": [{"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}], "Head": [{"code": "69536005", "cui": "C0018670", "tui": "T029"}], "Pupil": [{"code": "392406005", "cui": "C0034121", "tui": "T023"}], "conjunctiva": [{"code": "29445007", "cui": "C0009758", "tui": "T023"}], "Sclera": [{"code": "18619003", "cui": "C0036410", "tui": "T023"}], "Neck": [{"code": "45048000", "cui": "C0027530", "tui": "T029"}], "Structure of jugular vein": [{"code": "63190004", "cui": "C0022427", "tui": "T023"}], "Veins": [{"code": "29092000", "cui": "C0042449", "tui": "T023"}], "Chest": [{"code": "261179002", "cui": "C0817096", "tui": "T029"}, {"code": "51185008", "cui": "C0817096", "tui": "T029"}], "Heart": [{"code": "80891009", "cui": "C0018787", "tui": "T023"}], "Intestines": [{"code": "256876008", "cui": "C0021853", "tui": "T023"}, {"code": "113276009", "cui": "C0021853", "tui": "T023"}, {"code": "261093006", "cui": "C0021853", "tui": "T023"}], "Limb structure": [{"code": "66019005", "cui": "C0015385", "tui": "T023"}]}}

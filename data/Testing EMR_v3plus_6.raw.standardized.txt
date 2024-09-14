@@ -1,0 +1,139 @@
+Emergency Department Triage Record
+
+Triage Level:
+- Triage Level: 3
+- Computer Classification: 3
+
+Chief Complaint: Right knee swelling for approximately 2 days.
+
+Determination Basis: Joint swelling noted. Blood pressure or heartbeat deviates from patient's normal values, yet hemodynamic status remains stable.
+
+Past Medical History:
+- Chronic renal failure
+- Atrial fibrillation
+- Coronary artery disease (CAD)
+- Dementia
+- Hyperlipidemia
+- Gastroesophageal reflux disease (GERD)
+- Hyperuricemia
+
+Travel/Exposure History:
+- Travel history: None
+- Cluster history: None
+- Special occupation: None
+- Patient contact: None
+- Animal contact: None
+
+Vital Signs:
+- Blood Pressure: 119/83 mmHg
+- Pulse Rate: 101/min
+- SpO2: 99%
+- Respirations: 20/min
+- Body Temperature: 35.3°C
+- Blood Sugar: Not available
+- Pain Scale: 0 (No pain)
+- Acute change: N
+- Consciousness: E:3 V:4 M:5
+
+Special Notes: The patient or their family has been informed that the emergency department is at full capacity, which may result in a significant wait time for a bed and physician consult.
+
+Mode of Arrival: Walk-in
+Reason for Visit: Illness
+
+Triage Personnel: Lin Yi-Shan
+
+Emergency Department Visit Record
+
+Chief Complaint: Right knee swelling for approximately 2 days.
+
+Past Medical History:
+- Chronic renal failure
+- Atrial fibrillation
+- Coronary artery disease (CAD)
+- Dementia
+- Hyperlipidemia
+- Gastroesophageal reflux disease (GERD)
+- Hyperuricemia
+
+Drug Allergies: None
+
+Travel/Exposure History:
+- Travel history: None
+- Special occupation: None
+- Cluster infection: None
+- Special patient contact: None
+- Animal contact: None
+
+Present Illness: Right thigh swelling for two days, no redness or heat, no wound.
+
+Past Medical History: Chronic kidney disease, atrial fibrillation under non-vitamin K antagonist oral anticoagulants (NOAC).
+
+Physical Examination:
+- Consciousness: Clear, E:3, V:4, M:5
+- Vital Signs: BP: 119/83 mmHg, PR: 101/min, RR: 20/min, Temperature: 35.3°C, SpO2: 99%
+- Head: Normal scalp, pupils isocoric, conjunctiva not pale, sclera anicteric
+- Neck: Supple, no jugular vein engorgement, no lymphadenopathy
+- Chest: Symmetric expansion, clear breath sounds
+- Heart: Regular heartbeat, no murmurs
+- Abdomen: Soft, normal bowel sounds
+- Extremities: Right thigh swelling and heat, no redness
+
+Diagnosis: Cellulitis of right lower limb (L03.115) on admission and discharge.
+
+Emergency Department Prescription: Unasyn (based on ampicillin content), 1000 mg/vial
+
+Physician Orders: 
+- Complete blood count (CBC) & platelet, D-dimer test (STAT)
+- Blood cultures, CT of right femur with/without contrast (lower extremities and pelvis)
+
+Admission Diagnosis:
+1. Suspect pyomyositis or infected hematoma
+2. Atrial fibrillation, under Apixaban (on hold)
+3. History of inferior mesenteric artery thrombosis
+4. Dementia
+5. Dyslipidemia
+
+Discharge Diagnosis:
+1. Pyomyositis, suspect previous hematoma with secondary infection
+2. Anemia, suspect due to chronic diseases
+3. Atrial fibrillation
+4. Dementia
+5. Dyslipidemia
+
+Chief Complaint: Reported by son, right thigh swelling for two days.
+
+Patient History:
+- Present illness: 92-year-old male with history of atrial fibrillation (AF) on Apixaban, dementia, dyslipidemia; bedridden for 3 months, right thigh swelling noted without trauma, redness, or local heat.
+- Vital signs on arrival: BT: 35.3°C, PR: 101/min, RR: 20/min, BP: 119/83 mmHg, SpO2: 99%. Blood tests: no leukocytosis. Right femur X-rays showed no fracture. CT suggested possible previous hematoma with secondary infection or pyomyositis. ECG showed atrial fibrillation. Apixaban was held, Unasyn was administered. No fever, local heat, or redness seen.
+- Past medical history: No known drug allergies, prior cataract surgery, inguinal hernia repair (side unspecified).
+- Current Medication: Unasyn, Lanoxin, Eliquis
+- Family History: None relevant
+- Personal History: Nonsmoker, no alcohol or betel nut use
+
+Physical Examination at Admission:
+- Height: 163 cm, Weight: 53.35 kg, Temperature: 36.3°C, Pulse: 84 bpm, Respirations: 20 /min, BP: 127/75 mmHg, Pain score: 0, Unresponsive
+- HEENT: Normal
+- Neck: Supple, no abnormalities
+- Chest: Symmetric, clear breath sounds
+- Heart: Regular rhythm
+- Abdomen: Soft, normoactive bowel sounds, no tenderness
+- Extremities: Free movement, right thigh pitting edema
+- Skin: No abnormalities
+
+Course and Treatment: 
+- Afebrile during hospital stay, improvement in swelling and bruising.
+- WBC normalized, anemia evaluated as due to chronic disease.
+- Medications adjusted, discharged with stable condition, OPD follow-up arranged.
+
+Laboratory Report Summary:
+- Anemic profile, normal renal function, no bacterial growth in blood cultures, possible anemia suspected as due to chronic diseases.
+
+Follow-up Instructions: 
+- Activity restrictions suggested to avoid strenuous activities. Safe environment to prevent falls.
+- Dietary recommendations include enteral feeding; regular follow-up recommended.
+- Outpatient appointments scheduled:
+  - 2017/03/07 Family Medicine
+  - 2017/03/09 Geriatric Medicine
+
+Isolation Order:
+- VRE contact precautions initiated on 2017/03/02.

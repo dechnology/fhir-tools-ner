@@ -1,0 +1,62 @@
+Emergency Department Record
+
+Triage Information
+Triage Level: 3
+Computer Triage Level: 3
+Chief Complaint: Dysuria and bilateral flank pain
+Basis of Judgment: Flank pain with acute central moderate pain (pain score: 4-7)
+Past Medical History: Colon cancer, Prostate cancer, Congestive heart failure (CHF), Chronic obstructive pulmonary disease (COPD), Coronary arterial disease (CAD), Liver cirrhosis
+Travel and Contact History: No travel history, no history of clustered infections, no special occupations, no contact with patients or animals
+Vital Signs: Blood Pressure: 118/71 mmHg, Pulse Rate: 99/min, SpO2: 100%, Respiration Rate: 20/min, Body Temperature: 36.3°C, Blood Sugar: Not Available, Pain Score: 7, Duration: Persistent at bilateral flank, Nature: Dull aching, Acute changes: No, Consciousness: Clear
+
+Special Remarks: The patient or family informed that the emergency department is currently full, might have to wait for a significant period for a bed and a doctor's consultation.
+Admission Method: Walked in
+Reason for Hospital Visit: Medical illness
+High-Risk Mechanism: Not Applicable
+Triage Officer: Su Xin-Yu
+
+Emergency Medical Records
+Chief Complaint: Dysuria and bilateral flank pain
+Past Medical History: Colon cancer, Prostate cancer, Congestive heart failure (CHF), Chronic obstructive pulmonary disease (COPD), Coronary arterial disease (CAD), Liver cirrhosis
+Drug Allergies: None reported
+Travel and Contact History: No travel history, no special occupations, no history of clustered infections, no contact with special patients or animals
+
+Present Illness: 
+The patient experienced fever, bilateral flank pain, and dysuria for one week. Just discharged from Miaoli Daqian Hospital due to urosepsis with E. coli bacteremia (wild type), underwent antibiotic treatment. CT scan revealed left renal stone and left upper third ureteral stone. Bilateral knock pain present. The patient regularly follows up for prostate cancer at Dr. Pu Yong-Xiao’s outpatient department.
+
+Physical Exam:
+Consciousness: Clear
+Vital Signs: Blood Pressure: 118/71 mmHg, Pulse Rate: 99/min, Respiratory Rate: 20/min, Temperature: 36.3°C, SPO2: 100%
+Head: Scalp normal, Pupils isocoric, Conjunctiva not pale, Sclera anicteric
+Neck: Supple, no jugular vein engorgement, no lymphadenopathy
+Chest: Symmetric expansion, Breath sounds clear
+Heart: Regular heart rate, No murmurs
+Abdomen: Soft with bilateral knocking pain, Bowel sounds normal
+Extremities: Normal
+
+Diagnosis
+Admission Diagnosis:
+1. Urolithiasis (N20.9)
+2. Malignant neoplasm of prostate (C61)
+
+Discharge Diagnosis:
+1. Urolithiasis (N20.9)
+2. Malignant neoplasm of prostate (C61)
+
+Emergency Department Medications:
+1. Flumarin 1000 mg/vial, as needed
+2. Cetazone 500 mg/vial, as needed
+3. Saline 0.9% 500 mL/bag, on standby
+
+Medical Orders:
+- Blood Cultures, Multistix (STAT), Urine Culture
+- ABO and Rh Blood Typing, Antibody Screening
+- PSA and Urine Cytology tests
+- AST, Bilirubin-T, CBC & Platelet count, WBC Classification, Creatinine, Na, K, GPT, PT (STAT), aP.T.T. (STAT), BUN (Blood) (STAT)
+- Request for CT Film and X-ray reports, Chest and Abdomen Imaging
+
+Notes for Inpatient Admission: 
+- On Foley catheter
+- Liaison with Urology team for further management
+- Prepared to infuse 2 units of packed RBC slowly for elderly or patients with compromised cardiopulmonary function
+- Predicted temporary stay in wards M52, U09, M23 with admission arrangements completed.

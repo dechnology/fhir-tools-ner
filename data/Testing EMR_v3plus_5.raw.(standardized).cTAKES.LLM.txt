@@ -1,0 +1,234 @@
+{
+  "SNOMED_CT": [
+    {
+      "raw_text_as_clues": [
+        "Fever for day,Abdominal pain,Diarrhea since yasterday(2016/9-11在廣東省 一直發燒到現在)"
+      ],
+      "implies_concepts_FSN": [
+        "Fever"
+      ],
+      "id": "386661006"
+    },
+    {
+      "raw_text_as_clues": [
+        "Fever for day,Abdominal pain,Diarrhea since yasterday(2016/9-11在廣東省 一直發燒到現在)"
+      ],
+      "implies_concepts_FSN": [
+        "Abdominal Pain"
+      ],
+      "id": "21522001"
+    },
+    {
+      "raw_text_as_clues": [
+        "Fever for day,Abdominal pain,Diarrhea since yasterday(2016/9-11在廣東省 一直發燒到現在)"
+      ],
+      "implies_concepts_FSN": [
+        "Diarrhea"
+      ],
+      "id": "267060006"
+    },
+    {
+      "raw_text_as_clues": [
+        "急性中樞中度疼痛(4-7)"
+      ],
+      "implies_concepts_FSN": [
+        "Central pain"
+      ],
+      "id": "49986002"
+    },
+    {
+      "raw_text_as_clues": [
+        "腹瀉 輕度脫水"
+      ],
+      "implies_concepts_FSN": [
+        "Mild dehydration"
+      ],
+      "id": "1611000119108"
+    },
+    {
+      "raw_text_as_clues": [
+        "腹瀉 發燒(看起來有病容)"
+      ],
+      "implies_concepts_FSN": [
+        "Malaise"
+      ],
+      "id": "213257006"
+    },
+    {
+      "raw_text_as_clues": [
+        "門:Bronchiectasis"
+      ],
+      "implies_concepts_FSN": [
+        "Bronchiectasis"
+      ],
+      "id": "12295008"
+    },
+    {
+      "raw_text_as_clues": [
+        "門:Depressive disorder (F33.9)"
+      ],
+      "implies_concepts_FSN": [
+        "Depressive disorder"
+      ],
+      "id": "35489007"
+    },
+    {
+      "raw_text_as_clues": [
+        "門:Hypertension"
+      ],
+      "implies_concepts_FSN": [
+        "Hypertensive disease"
+      ],
+      "id": "38341003"
+    },
+    {
+      "raw_text_as_clues": [
+        "diverticulitis s/p OP"
+      ],
+      "implies_concepts_FSN": [
+        "Diverticulitis"
+      ],
+      "id": "18126004"
+    },
+    {
+      "raw_text_as_clues": [
+        "轉出/出院診斷(Diagnosis for ICU)"
+      ],
+      "implies_concepts_FSN": [
+        "Panic Disorder"
+      ],
+      "id": "371631005"
+    },
+    {
+      "raw_text_as_clues": [
+        "腹痛 急性中樞中度疼痛(4-7)"
+      ],
+      "implies_concepts_FSN": [
+        "Pain"
+      ],
+      "id": "22253000"
+    }
+  ],
+  "LOINC": [
+    {
+      "raw_text_as_clues": [
+        "CHIEF COMPLAINT"
+      ],
+      "implies_concepts_FSN": [
+        "Chief complaint"
+      ],
+      "id": "75324-4"
+    },
+    {
+      "raw_text_as_clues": [
+        "blood cultures"
+      ],
+      "implies_concepts_FSN": [
+        "Blood culture"
+      ],
+      "id": "600-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "blood sugar"
+      ],
+      "implies_concepts_FSN": [
+        "Blood glucose"
+      ],
+      "id": "2345-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "stool culture"
+      ],
+      "implies_concepts_FSN": [
+        "Stool culture"
+      ],
+      "id": "6469-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "CBC & platelet"
+      ],
+      "implies_concepts_FSN": [
+        "Complete blood count"
+      ],
+      "id": "57021-8"
+    },
+    {
+      "raw_text_as_clues": [
+        "creatinine"
+      ],
+      "implies_concepts_FSN": [
+        "Creatinine"
+      ],
+      "id": "2160-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "NA"
+      ],
+      "implies_concepts_FSN": [
+        "Sodium"
+      ],
+      "id": "2951-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "K"
+      ],
+      "implies_concepts_FSN": [
+        "Potassium"
+      ],
+      "id": "2823-3"
+    },
+    {
+      "raw_text_as_clues": [
+        "LA"
+      ],
+      "implies_concepts_FSN": [
+        "Lactic Acid"
+      ],
+      "id": "2524-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "blood gas"
+      ],
+      "implies_concepts_FSN": [
+        "Arterial Blood Gas"
+      ],
+      "id": "33549-3"
+    },
+    {
+      "raw_text_as_clues": [
+        "occult blood"
+      ],
+      "implies_concepts_FSN": [
+        "Occult Blood"
+      ],
+      "id": "5792-7"
+    }
+  ],
+  "RxNorm": [
+    {
+      "raw_text_as_clues": [
+        "針 Ciproxin inj 200 mg/100 mL /vial",
+        "針 Ciproxin inj 200 mg/100 mL /vial"
+      ],
+      "implies_concepts_FSN": [
+        "Ciprofloxacin"
+      ],
+      "id": "2551"
+    },
+    {
+      "raw_text_as_clues": [
+        "SMECTA 3 g/pack"
+      ],
+      "implies_concepts_FSN": [
+        "Dioctahedral smectite"
+      ],
+      "id": "832361"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "11940007",
+      "fsn": "Abdominal pain (finding)",
+      "text": "Abdominal pain (R10.9)"
+    },
+    {
+      "id": "38822007",
+      "fsn": "Cholangitis (disorder)",
+      "text": "Cholangitis (K83.0)"
+    },
+    {
+      "id": "11940007",
+      "fsn": "Abdominal pain (finding)",
+      "text": "Abdominal pain (R10.9)"
+    },
+    {
+      "id": "38822007",
+      "fsn": "Cholangitis (disorder)",
+      "text": "Cholangitis (K83.0)"
+    },
+    {
+      "id": "197456007",
+      "fsn": "Type 2 diabetes mellitus (disorder)",
+      "text": "Type 2 DM"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "2339-0",
+      "fsn": "Glucose [Mass/volume] in Blood",
+      "text": "Blood Sugar: NAmg/dl"
+    },
+    {
+      "id": "2335-8",
+      "fsn": "Glucose [Mass/volume] in Blood",
+      "text": "單次血糖測試"
+    },
+    {
+      "id": "731-0",
+      "fsn": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+      "text": "T-BIL"
+    },
+    {
+      "id": "1920-8",
+      "fsn": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "text": "AST (GOT)"
+    },
+    {
+      "id": "1743-4",
+      "fsn": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "text": "ALT (GPT)"
+    },
+    {
+      "id": "14629-0",
+      "fsn": "Bilirubin.direct [Presence] in Blood by Test strip",
+      "text": "D-BIL"
+    },
+    {
+      "id": "24325-3",
+      "fsn": "Eosinophils/100 leukocytes in Blood by Manual count",
+      "text": "Eos."
+    },
+    {
+      "id": "14629-0",
+      "fsn": "Bilirubin.direct [Presence] in Blood by Test strip",
+      "text": "D-BIL"
+    },
+    {
+      "id": "1920-8",
+      "fsn": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "text": "AST"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "860975",
+      "fsn": "Acetaminophen 500 MG Oral Tablet",
+      "text": "PARAMOL 500 mg/tab"
+    },
+    {
+      "id": "597508",
+      "fsn": "Ertapenem 1 G Injection",
+      "text": "Invanz 1000 mg/vial"
+    },
+    {
+      "id": "827303",
+      "fsn": "Tramadol Hydrochloride 100 MG/2ML Injection",
+      "text": "Tramal Inj"
+    }
+  ]
+}

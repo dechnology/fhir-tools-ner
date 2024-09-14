@@ -1,0 +1,306 @@
+==========sqe==========
+
+4088
+
+==========急診去辨識病歷==========
+
+檢傷內容
+檢傷級數: 3 電腦分級: 3
+Chief Complaint:
+右膝腫約2天
+判定依據: 關節腫脹 血壓或心跳有異於病人之平常數值，但血行動力穩定
+Past History:
+門:Chronic renal failure,門:Atrial fibrillation.CAD,dementia,Hyperlipidemia,GERD,Hyperuricemia,門:Dementia
+TOCC :
+旅遊史: 無 群聚史: 無 特殊職業: 無 接觸病患:無 接觸動物:無
+Vital Signs:
+BP: 119/83 mmHg PR: 101/min SpO2: 99% Respirations: 20/min BT: 35.3 C Blood Sugar: NAmg/dl 疼痛指數: 0(無疼痛) 急性改變:N 意識 E:3 V:4 M:5
+特殊事項: ※已告知病人或其親友本急診現為滿床通報中，可能需相當時間等待推床以及醫師看診。
+來診方式: 自行步入 入院原因: 疾病
+高危險機轉:NA
+檢傷人員:林宜珊
+急診來診病歷
+ChiefCompliant:
+右膝腫約2天
+PastHistory:
+門:Chronic renal failure,門:Atrial fibrillation.CAD,dementia,Hyperlipidemia,GERD,Hyperuricemia,門:Dementia
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+旅遊史: 無
+特殊職業: 無, 群聚感染: 無, 特殊病患接觸: 無, 動物接觸: 無,
+PresentIllness:
+right thigh swelling for two days
+no redness and heat, no wound
+PH: CKD, Af under NOAC
+Physical Exam:
+Consciousness: Clear , E: 3, V: 4, M: 5
+Vital signs: Blood Pressure: 119/83mmHg, Pulse Rate: 101/min,
+Respiratory Rate: 20/min, Temperature: 35.3℃, SPO2: 99％
+Head: Scalp: Normal
+Pupils: Isocoric
+Conjunctiva: Not Pale Sclera: Anicteric
+Neck: Supple Jugular Vein Engorgement: - Lymphadenopathy: -
+Chest: Symmetric expansion, Breath sound: Clear
+Heart: Regular Heart Beat, Murmur: -
+Abdomen: Soft
+Bowel sound: Normal
+Extremities: right thigh swelling and heat, no redness,
+診斷內容
+入院診斷
+Cellulitis of right lower limb (L03.115)
+出院診斷
+Cellulitis of right lower limb (L03.115)
+急診處方內容
+組合商品名	(Date, Dose, Frequency, UseDays)
+Unasyn (based on ampicillin content) 1000 mg/vial	(20170224, 1000 mg, STAT, 1day) (20170224, 1000 mg, Q6H, 0days)
+醫師醫令
+CBC & platelet, D-dimer test(STAT)(急), CBC & platelet, WBC Classification, Creatinine, Na, K, GPT, PT(STAT), aP.T.T.(STAT), Blood Cultures, Blood Cultures,
+Femur: Right, CT With/Without Contrast-Lower Extremities, CT With/Without Contrast-Pelvis,
+醫師醫囑
+On intra-venous catheter, 單次血糖測試 (Stat One-touch sugar), 單次十二導程心電圖 (Complete EKG), 床邊超音波檢查 (手動記帳) (CFV compressible, no cobble stone sign, popliteal v. compressible), 預入暫留床位: M33, Check right thigh circumference, 不用做PCN test以前打過Unasyn, 預入暫留床位: A55, Hold OPD drug:Eliquis 5 mg/tab, f/u CBC on 2/27, 壓瘡傷口處理 (< 5 cm), 住院配床, 住院 Admission,
+
+
+==========住院去辨識病歷==========
+
+入院診斷(Admission Diagnosis)
+1. Suspect pyomyositis or infected hematoma
+2. Atrial fibrillation, under Apixaban (hold) (20150114 EF:69%)
+3. Prior history of inferior mesentary artery thrombosis
+4. Dementia
+5. Dyslipidemia
+出院診斷(Discharge Diagnosis)
+1. Pyomyositis, suspect previous hematoma with secondary infection
+2. Anemia, suspect due to chronic diseases
+3. Atrial fibrillation, (2015/01/14 EF:69%)
+4. Dementia
+5. Dyslipidemia
+轉出加護病房診斷(Diagnosis for ICU)
+Nil
+主訴(Chief Complaint)
+Informant:son
+right thigh swelling for two days
+病史(Patient History)
+【 Present illness 】
+This 92-year-old man had a history of
+# AF, under Apixaban (hold) (20150114 EF:69%)
+# Dementia
+# Dyslipidemia
+
+He was bedridden and unresponsive for 3 months. And he was in his usual health until 4 days before this admission, when right thigh swelling with bruise was noted. There was no trauma history, redness or local heat. He was sent to ED on the next day.
+On arrival, the vital signs were BT: 35.3 C, PR: 101/min, Respirations: 20/min, BP: 119/83 mmHg and SpO2: 99%. The blood test showed no leukocytosis. Right femur radiograph revealed no fracture. CT (pelvis, lower extremities) revealed suspect either previous hematoma with secondary infection or pyomyositis with previous internal hemorrhage, at right anterior thigh compartment. ECG revealed atrial fibrillation. Apixaban was discontinued and Unasyn was added. There was no fever, local heat or redness. Under the impression of Pyomyositis, r/o previous hematoma with secondary infection, he was admitted for further management.
+
+
+【 Past history 】
+1. Medication Allergy:No 親屬描述 2017/02/27
+Medication ADR: unknown
+Medical Device and Materials:No 親屬描述 2017/02/27
+
+2. Current Medication:
+NTUH:
+Unasyn (based on ampicillin content) 1000 mg/vial 1000 mg Q6H IV 5 days
+Lanoxin 0.25 mg/tab 0.5 tab QOD PO 28 days
+Eliquis 5 mg/tab 0.5 tab BID PO 28 days
+Lanoxin 0.25 mg/tab 0.5 tab QOD PO 28 days
+Eliquis 5 mg/tab 0.5 tab BID PO 28 days
+中草藥: no
+保健食品: no
+
+3. Past Medical History: as above
+
+4. Past Surgical History: bilateral cotaract
+inguinal hernia (left or right was not sure)
+
+5. Hospitalization:
+入院日期:2015_06_22 出院日期:2015_07_03 診斷:Fever
+入院日期:2015_06_10 出院日期:2015_06_17 診斷:Predominant disturbance of consciousness
+
+【Family history 】
+no relevant family history
+
+【 Personal history 】
+1. Travel: no
+Occupation: solder
+Cluster: no
+Contact: no
+
+2. Alcohol: no
+Betel nut: no
+Cigarette: no
+身體診查(Physical Examination)
+入院時之身體檢查(Physical Examination at admission)
+BH: 163 cm, BW: 53.35 kg,
+T: 36.3 °C, P: 84 bpm, R: 20 /min,
+BP: 127 / 75 mmHg,
+Pain score: 0 ,
+
+Consciousness: unresponsive
+
+[ HEENT ]
+grossly normal, Eyes: Conjunctivae: pink; Sclerae: anicteric, Pupils: isocoric; Light reflexes: R/L: +/+; Extraocular movement: full and free
+[ Neck ]
+supple; no jugular vein engorgement; no palpable lymph node; no goiter; no carotid bruit
+[ Chest ]
+symmetric expansion; clear breath sounds; no crackle; no wheeze; no rhonchus; no stridor
+[ Heart ]
+regular heart beats; no murmur
+[ Abdomen ]
+soft and flat; normoactive bowel sounds; no tenderness, rebound tenderness or Murphy's sign; liver/spleen: impalpable
+[ Back ]
+no knocking tenderness at costovertebral angles
+[ Extremities ]
+freely movable; pitting edema(+, right thigh); no cyanosis; pedal pulses: R/L, ++/++
+[ Skin ]
+abnormal pigmentation(-), skin rash(-), petechiae(-), purpura(-), ecchymoses(-), telangiectasia(-), plaque(-), lymphadenopathy(-)
+轉出/出院時明顯的身體檢查改變(Evident Transfer/Discharge Change of Physical Findings)
+Right thigh swelling improved, no bruising
+手術(Operation)
+Nil
+住院治療經過(Course and Treatment)
+After admission, Unasyn was kept. The patient remained afebrile, and right thigh swelling and bruising improved. We followed up WBC and the level was still normal. Low Hb at the level of 9.7 g/dL was noted upon admission, we rechecked and the result was still low at the level of 9.4 g/dL, however, the patient's baseline Hb was around 13 to 14 g/dL. His family denied tarry/bloody stool or bloody content from the NG tube. iFOBT was checked and showed negative result. Thorough work-up for anemia was performed and revealed results compatible with anemia due to chronic diseases. However, Hb dropped further more to 8.9 g/dL, so stool O.B. was also checked and showed positive (2+) result. Takepron was added accordingly. Unasyn was shifted to oral Augmentin on 2017/03/04 and the patient remained stable afterwards. Under stable condition, the patient was discharged on 2017/03/05. OPD follow-up was arranged.
+
+住院用藥摘要:
+Ampicillin 1000 mg, Sulbactam 500 mg, Amoxicillin 875 mg, Clavulanate Potassium 125mg, Lansoprazole
+
+
+==========檢驗紀錄==========
+
+檢驗紀錄(Laboratory Report)
+*********檢驗室:OP***********
+
+群組:STOOL
+
+               O.B.          Stool O.B.(E  Stool WBC    
+                             IA)                        
+time/item      (*)           (ng/mL)       (/HPF)       
+1060302 [0421]               Negative (<5               
+                             0)                         
+1060302 [2135] 2+                          Not found    
+*********檢驗室:HE***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (k/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060302 [0417] 5.64          2.79          8.9           27.4          98.2         
+               MCH           MCHC          PLT           RDW-CV        Retic.       
+time/item      (pg)          (g/dL)        (k/μL)        (%)           (%)          
+1060302 [0417] 31.9          32.5          188           14.0          3.69         
+               PS            Retic.No.     IRF          
+time/item      ()            (10^4/μL)     (%)          
+1060302 [0417] -             10.30         20.4 (僅供參考)  
+*********檢驗室:BC***********
+
+群組:General BioChemistry
+
+               D-BIL         T-BIL         ALT           LDH           UN           
+time/item      (mg/dL)       (mg/dL)       (U/L)         (U/L)         (mg/dL)      
+1060302 [0417] 0.31          1.25          24            203           19.6         
+               CRE           Na            K            
+time/item      (mg/dL)       (mmol/L)      (mmol/L)     
+1060302 [0417] 0.9           140           4.0          
+群組:Anemia BC Profile
+
+               Ferritin      Iron          TIBC         
+time/item      (ng/mL)       (μg/dL)       (μg/dL)      
+1060302 [0417] 243           50            208          
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060302 [0417] 83.9         
+*********檢驗室:B5***********
+
+群組:
+
+               VRE screenin 
+               g            
+time/item      ()           
+1060227 [1639] Enterococcus 
+                faecium 3+  
+*********檢驗室:RL***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060224 [1532] 6.96          3.01          9.7           28.5          94.7         
+1060227 [0459] 8.68          2.91          9.4           27.9          95.9         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060224 [1532] 32.2          34.0          134           13.4          -            
+1060227 [0459] 32.3          33.7          144           13.5          -            
+群組:WBC Classification
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1532] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1532] 66.2          1.4           0.1           9.9           22.4         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060224 [1532] 0.0           0.0           0             -            
+群組:Yes
+
+               D-Dimer      
+time/item      (μg/mL FEU)  
+1060224 [1532] 1.34         
+群組:Coagulation
+
+               PT            PTT           PT INR       
+time/item      (sec)         (sec)         ()           
+1060224 [1532] 10.7          28.9          0.99         
+群組:General BioChemistry
+
+               ALT          
+time/item      (U/L)        
+1060224 [1532] 20           
+群組:Biochemistry
+
+               CRE           Na            K            
+time/item      (mg/dL)       (mmol/L)      (mmol/L)     
+1060224 [1532] 0.9           129           3.9          
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060224 [1532] 83.9         
+*********檢驗室:B2***********
+B2-1060224-4098974   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060224-4001417   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+
+*********檢驗室:PO***********
+
+群組:
+
+               Sugar(One to 
+               uch)         
+time/item      (*)          
+1060224 [1531] 116
+檢查紀錄(Examination Report)
+Nil
+影像報告(Imaging Report)
+Nil
+轉出/出院情況(Transfer/Discharge Status)
+改門診治療 改善
+病理報告(Pathology Report)
+Nil
+轉出/出院指示(Follow-up Instructions & Medications)
+病人活動限制：建議避免從事費力、激烈的活動；請注意環境安全，避免跌倒
+飲食注意事項：食用管灌飲食，並請定期門診追蹤
+其他指示：請依預約日期返院門診
+Lansoprazole【Takepron OD 30 mg/tab】 1 tab LZ QDAC 出院藥天數5天
+Amoxicillin 875 mg, Clavulanate Potassium 125mg【Augmentin 1 g/tab】 1 tab PO BID 出院藥天數5天
+門診預約:
+預約日期:2017/03/07 家庭醫學部 上午 81診 125號
+預約日期:2017/03/09 老年醫學部 上午 01診 7號
+其他(Others)
+隔離醫囑:
+2017/03/02 VRE接觸隔離;

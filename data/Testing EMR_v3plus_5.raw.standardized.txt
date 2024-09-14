@@ -1,0 +1,201 @@
+**Emergency Department Record**
+
+**Triage Assessment:**
+- Triage Level: 3
+- Computer Classification: 3
+
+**Chief Complaint:**
+- Fever, abdominal pain, and diarrhea since yesterday.
+- Patient had been in Guangdong Province from September 11, 2016, experiencing ongoing fever.
+
+**Assessment Basis:**
+- Abdominal Pain: Acute moderate central pain (score 4-7)
+- Diarrhea: Mild dehydration
+- Fever with diarrhea suggests an ill appearance.
+
+**Past Medical History:**
+- Bronchiectasis
+- Depressive Disorder (F33.9)
+- Hypertension
+
+**Travel and Exposure History:**
+- No travel history
+- No clustering history
+- No special occupation
+- No patient contact
+- No animal contact
+
+**Vital Signs:**
+- Blood Pressure: 156/86 mmHg
+- Pulse Rate: 105/min
+- SpO2: 95%
+- Respiratory Rate: 20/min
+- Body Temperature: 38°C
+- Blood Sugar: Not available
+- Pain Index: 0 (no pain)
+- Acute Change: None
+- Consciousness: Clear
+
+**Special Notes:**
+- National Health Insurance Card organ donation consent: (H) Agreed to palliative care, Do Not Resuscitate (DNR), and no life-sustaining treatment.
+- Method of Arrival: Self-walk in
+- Reason for Visit: Illness
+
+**High-Risk Mechanism:**
+- Not applicable
+
+**Triage Staff:**
+- Lin Yishan
+
+---
+
+**Emergency Department Progress Notes:**
+
+**Chief Complaint:**
+- Fever, abdominal pain, and diarrhea since yesterday in Guangdong Province.
+
+**Past Medical History:**
+- Bronchiectasis
+- Depressive Disorder (F33.9)
+- Hypertension
+
+**Allergies:**
+- No known drug allergies
+
+**Travel and Exposure History:**
+- No travel, special occupation, clustering, patient contact, or animal contact reported.
+
+**Present Illness:**
+- Fever for one week
+- Diarrhea (watery, no blood or mucus) for two days with abdominal cramping pain
+- No nausea, vomiting, dysuria, or cough
+- History of diverticulitis, post-operation
+
+**TOCC:**
+- Denied
+
+**Physical Examination:**
+- Conscious and oriented
+- Vital Signs:
+  - Blood Pressure: 156/86mmHg
+  - Pulse Rate: 105/min
+  - Respiratory Rate: 20/min
+  - Temperature: 38°C
+  - SpO2: 95%
+- Head: Scalp normal, pupils isocoric, conjunctiva not pale, sclera anicteric
+- Neck: Supple, no jugular vein engorgement, no lymphadenopathy
+- Chest: Symmetric expansion, breath sounds clear
+- Heart: Regular heartbeat, no murmur
+- Abdomen: Tenderness in the left lower quadrant, no peritoneal signs, bowel sounds normal
+- Extremities: Normal
+
+
+**Diagnosis Upon Admission:**
+- Diarrhea, unspecified (R19.7)
+- Infectious diarrhea (A09)
+
+**Diagnosis at Discharge:**
+- Diarrhea, unspecified (R19.7)
+- Infectious diarrhea (A09)
+
+**Emergency Prescription:**
+- Ciproxin 200 mg injection (400 mg Q12H and STAT)
+- Smecta 3 g/pack (STAT and TID)
+- PARAMOL 500 mg/tab (QIDPRN and STAT)
+- Novamin 5 mg injection
+- Saline 0.9% injection
+- Flumarin 1000 mg/vial
+
+---
+
+**Admission Records:**
+
+**Admission Diagnosis:**
+1. Infectious diarrhea
+2. Bronchiectasis, status post unknown surgery, under PRN use of Berotec
+3. Hypertension
+4. History of repeated diverticulitis, status post operation
+5. Depressive disorder
+6. Panic disorder
+
+**Discharge Diagnosis:**
+1. Infectious diarrhea
+2. Bronchiectasis, status post unknown surgery, under PRN use of Berotec
+3. Hypertension
+4. History of repeated diverticulitis, status post operation
+5. Depressive disorder
+6. Panic disorder
+
+**ICU Transfer Diagnosis:**
+- None
+
+**Chief Complaint:**
+- Abdominal pain and watery diarrhea for three days
+
+**Patient History:**
+- 63-year-old female
+- Bronchiectasis (status post unknown surgery), hypertensive, history of diverticulitis, depressive disorder, panic disorder, and TAH+BSO
+- Regular follow-up at NTUH and independent in activities of daily living
+- Repeated respiratory tract infections and gastroenteritis since Chinese New Year
+- Mild intermittent fever noted, stayed in Guangdong during 2016/09~2016/11
+- Abdominal pain and diarrhea began 2-3 days before February 24
+- No raw food intake, ate out occasionally
+
+**Family History:**
+- Father with hypertension
+
+**Allergies:**
+- No known drug allergies or medical device/material adverse reactions
+
+**Current Medication:**
+- PARAMOL 500 mg/tab, Smecta 3 g/pack, Ciproxin injection, Diovan FC, Lendormin, Dupin, REMERON, and Berotec
+
+**Past Medical and Surgical History:**
+- Hospitalized for diverticulitis and bronchiectasis, TAH+BSO for uterine myoma
+- Travel history to Guangdong in 2016
+
+**Physical Examination At Admission:**
+- Height: 147.8 cm, Weight: 48.3 kg
+- Temperature: 36.4°C, Pulse: 82 bpm, Respiratory Rate: 18/min
+- Blood Pressure: 139/89 mmHg
+- Pain Score: 0/10
+
+**Neurological Examination:**
+- Consciousness: Clear
+- Muscle Power: 5 in all limbs
+- Gait: Steady
+
+**General Appearance:**
+- Acutely ill-looking
+
+**HEENT:**
+- No gross deformity, conjunctiva not pale, sclera anicteric
+
+**Chest:**
+- Symmetric expansion, clear breath sounds bilaterally
+
+**Heart:**
+- Regular heartbeats, no murmur
+
+**Abdomen:**
+- Soft and flat with tenderness in the lower abdomen
+- No rebound tenderness, hyperactive bowel sounds, no palpable liver or spleen
+
+**Extremities:**
+- Movable, no pitting edema
+
+**Back:**
+- No knocking tenderness
+
+**Hospital Course and Treatment:**
+- Managed with Ciprofloxacin, fever subsided, diarrhea and abdominal pain improved
+- Tolerated diet well, prepared for discharge
+
+**Medications on Discharge:**
+- Hydrotalcite, Dioctahedral Smectite, Ciprofloxacin, Dimethicone, Brotizolam, Diovan
+
+**Follow-up Appointments:**
+- Scheduled for March 8, March 15, and March 27 at different departments
+
+**Isolation Orders:**
+- None

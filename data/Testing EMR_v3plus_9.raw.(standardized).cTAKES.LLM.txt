@@ -1,0 +1,350 @@
+{
+  "SNOMED_CT": [
+    {
+      "raw_text_as_clues": [
+        "Abdominal pain",
+        "RUQ Abdominal pain"
+      ],
+      "implies_concepts_FSN": [
+        "Abdominal pain (finding)"
+      ],
+      "id": "21522001"
+    },
+    {
+      "raw_text_as_clues": [
+        "pain"
+      ],
+      "implies_concepts_FSN": [
+        "Pain (finding)"
+      ],
+      "id": "22253000"
+    },
+    {
+      "raw_text_as_clues": [
+        "Nausea"
+      ],
+      "implies_concepts_FSN": [
+        "Nausea (finding)"
+      ],
+      "id": "422587007"
+    },
+    {
+      "raw_text_as_clues": [
+        "Vomiting"
+      ],
+      "implies_concepts_FSN": [
+        "Vomiting (disorder)"
+      ],
+      "id": "422400008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Intrahepatic stone",
+        "Intrahepatic stones"
+      ],
+      "implies_concepts_FSN": [
+        "Intrahepatic lithiasis (disorder)"
+      ],
+      "id": "66058000"
+    },
+    {
+      "raw_text_as_clues": [
+        "Cholangitis"
+      ],
+      "implies_concepts_FSN": [
+        "Cholangitis (disorder)"
+      ],
+      "id": "82403002"
+    },
+    {
+      "raw_text_as_clues": [
+        "Bacteremia"
+      ],
+      "implies_concepts_FSN": [
+        "Bacteremia (disorder)"
+      ],
+      "id": "5758002"
+    },
+    {
+      "raw_text_as_clues": [
+        "Type 2 DM",
+        "DM"
+      ],
+      "implies_concepts_FSN": [
+        "Diabetes mellitus, non-insulin-dependent (disorder)"
+      ],
+      "id": "44054006"
+    }
+  ],
+  "LOINC": [
+    {
+      "raw_text_as_clues": [
+        "Blood Sugar"
+      ],
+      "implies_concepts_FSN": [
+        "Glucose [Mass/volume] in Blood"
+      ],
+      "id": "2345-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "WBC",
+        "White Blood Cell Count"
+      ],
+      "implies_concepts_FSN": [
+        "Leukocytes [#/volume] in Blood"
+      ],
+      "id": "6690-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "RBC",
+        "Red Blood Cell Count"
+      ],
+      "implies_concepts_FSN": [
+        "Erythrocyte [#/volume] in Blood"
+      ],
+      "id": "789-8"
+    },
+    {
+      "raw_text_as_clues": [
+        "HB",
+        "Hemoglobin"
+      ],
+      "implies_concepts_FSN": [
+        "Hemoglobin [Mass/volume] in Blood"
+      ],
+      "id": "718-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "HCT",
+        "Hematocrit"
+      ],
+      "implies_concepts_FSN": [
+        "Hematocrit [Volume Fraction] of Blood"
+      ],
+      "id": "4544-3"
+    },
+    {
+      "raw_text_as_clues": [
+        "MCV",
+        "Mean Corpuscular Volume"
+      ],
+      "implies_concepts_FSN": [
+        "MCH [Entitic mass] by calculation"
+      ],
+      "id": "785-6"
+    },
+    {
+      "raw_text_as_clues": [
+        "PLT",
+        "Platelet Count"
+      ],
+      "implies_concepts_FSN": [
+        "Platelets [#/volume] in Blood"
+      ],
+      "id": "777-3"
+    },
+    {
+      "raw_text_as_clues": [
+        "T-BIL",
+        "Total Bilirubin"
+      ],
+      "implies_concepts_FSN": [
+        "Bilirubin.total [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "1975-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "AST"
+      ],
+      "implies_concepts_FSN": [
+        "Aspartate Aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      ],
+      "id": "1920-8"
+    },
+    {
+      "raw_text_as_clues": [
+        "ALT"
+      ],
+      "implies_concepts_FSN": [
+        "Alanine Aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      ],
+      "id": "1742-6"
+    },
+    {
+      "raw_text_as_clues": [
+        "ALP"
+      ],
+      "implies_concepts_FSN": [
+        "Alkaline Phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+      ],
+      "id": "6768-6"
+    },
+    {
+      "raw_text_as_clues": [
+        "GGT"
+      ],
+      "implies_concepts_FSN": [
+        "Gamma-Glutamyl Transferase [Enzymatic activity/volume] in Serum or Plasma"
+      ],
+      "id": "2324-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "CRE",
+        "Creatinine"
+      ],
+      "implies_concepts_FSN": [
+        "Creatinine [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "2160-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "Na",
+        "Sodium"
+      ],
+      "implies_concepts_FSN": [
+        "Sodium [Moles/volume] in Serum or Plasma"
+      ],
+      "id": "2951-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "K",
+        "Potassium"
+      ],
+      "implies_concepts_FSN": [
+        "Potassium [Moles/volume] in Serum or Plasma"
+      ],
+      "id": "2823-3"
+    },
+    {
+      "raw_text_as_clues": [
+        "Lactic Acid"
+      ],
+      "implies_concepts_FSN": [
+        "Lactate [Mass/volume] in Blood"
+      ],
+      "id": "14634-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "PT"
+      ],
+      "implies_concepts_FSN": [
+        "Prothrombin time (PT)"
+      ],
+      "id": "5964-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "aP.T.T.",
+        "PTT"
+      ],
+      "implies_concepts_FSN": [
+        "Partial thromboplastin time (PTT)"
+      ],
+      "id": "10535-3"
+    },
+    {
+      "raw_text_as_clues": [
+        "RH Typing"
+      ],
+      "implies_concepts_FSN": [
+        "RhD Type in Blood"
+      ],
+      "id": "10331-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Blood Cultures"
+      ],
+      "implies_concepts_FSN": [
+        "Blood culture"
+      ],
+      "id": "600-7"
+    }
+  ],
+  "RxNorm": [
+    {
+      "raw_text_as_clues": [
+        "Saline",
+        "Saline inj 0.9%"
+      ],
+      "implies_concepts_FSN": [
+        "Sodium Chloride 9 MG/ML Injectable Solution"
+      ],
+      "id": "313935"
+    },
+    {
+      "raw_text_as_clues": [
+        "Tramal Inj",
+        "Tramal"
+      ],
+      "implies_concepts_FSN": [
+        "Tramadol Hydrochloride 50 MG Oral Tablet"
+      ],
+      "id": "702217"
+    },
+    {
+      "raw_text_as_clues": [
+        "Invanz"
+      ],
+      "implies_concepts_FSN": [
+        "Ertapenem Sodium 1GM Injection"
+      ],
+      "id": "433471"
+    },
+    {
+      "raw_text_as_clues": [
+        "PARAMOL",
+        "Acetaminophen"
+      ],
+      "implies_concepts_FSN": [
+        "Acetaminophen 500 MG Oral Tablet"
+      ],
+      "id": "2612"
+    },
+    {
+      "raw_text_as_clues": [
+        "Dextrose",
+        "Dextrose and Electrolyte Solution"
+      ],
+      "implies_concepts_FSN": [
+        "Dextrose 5% In Water"
+      ],
+      "id": "485466"
+    },
+    {
+      "raw_text_as_clues": [
+        "Fentanyl Citrate"
+      ],
+      "implies_concepts_FSN": [
+        "Fentanyl Citrate 0.05 MG/ML Injectable Solution"
+      ],
+      "id": "197798"
+    },
+    {
+      "raw_text_as_clues": [
+        "Magnesium Oxide"
+      ],
+      "implies_concepts_FSN": [
+        "Magnesium Oxide 400 MG Oral Tablet"
+      ],
+      "id": "7052"
+    },
+    {
+      "raw_text_as_clues": [
+        "Midazolam HCl"
+      ],
+      "implies_concepts_FSN": [
+        "Midazolam Hydrochloride 5 MG/ML Injectable Solution"
+      ],
+      "id": "308189"
+    }
+  ]
+}

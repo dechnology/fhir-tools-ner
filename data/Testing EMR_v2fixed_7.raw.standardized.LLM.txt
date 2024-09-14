@@ -1,0 +1,193 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "67782005",
+      "fsn": "Dyspnea (finding)",
+      "text": "Dyspnea"
+    },
+    {
+      "id": "24184005",
+      "fsn": "Chest pain (finding)",
+      "text": "chest tightness"
+    },
+    {
+      "id": "53761009",
+      "fsn": "Cardiogenic chest pain (finding)",
+      "text": "cardiogenic chest pain/tightness"
+    },
+    {
+      "id": "38341003",
+      "fsn": "Hypertensive disorder, systemic arterial (disorder)",
+      "text": "Hypertension"
+    },
+    {
+      "id": "73211009",
+      "fsn": "Diabetes mellitus (disorder)",
+      "text": "Diabetes Mellitus"
+    },
+    {
+      "id": "271737000",
+      "fsn": "Anemia (disorder)",
+      "text": "Anemia"
+    },
+    {
+      "id": "431855005",
+      "fsn": "End stage renal disease (disorder)",
+      "text": "End-Stage Renal Disease (ESRD)"
+    },
+    {
+      "id": "235595009",
+      "fsn": "Gastroesophageal reflux disease (disorder)",
+      "text": "Gastroesophageal Reflux Disease"
+    },
+    {
+      "id": "10693002",
+      "fsn": "Hyperlipidemia (disorder)",
+      "text": "Hyperlipidemia"
+    },
+    {
+      "id": "44465007",
+      "fsn": "Congestive heart failure (disorder)",
+      "text": "congestive heart failure"
+    },
+    {
+      "id": "53741008",
+      "fsn": "Chronic kidney disease (disorder)",
+      "text": "chronic kidney disease"
+    },
+    {
+      "id": "28032008",
+      "fsn": "Sick sinus syndrome (disorder)",
+      "text": "sick sinus syndrome"
+    },
+    {
+      "id": "53741008",
+      "fsn": "Coronary artery disease (disorder)",
+      "text": "Coronary artery disease"
+    },
+    {
+      "id": "431855005",
+      "fsn": "Chronic renal failure (disorder)",
+      "text": "Chronic Renal Failure (N18.9)"
+    },
+    {
+      "id": "412930008",
+      "fsn": "Atrial fibrillation (disorder)",
+      "text": "Atrial Fibrillation"
+    },
+    {
+      "id": "18606006",
+      "fsn": "Myasthenia gravis (disorder)",
+      "text": "Myasthenia Gravis"
+    },
+    {
+      "id": "131148009",
+      "fsn": "Diabetic ketoacidosis (disorder)",
+      "text": "Diabetic Ketoacidosis"
+    },
+    {
+      "id": "86299007",
+      "fsn": "Pulmonary hypertension (disorder)",
+      "text": "Pulmonary Hypertension"
+    },
+    {
+      "id": "394659003",
+      "fsn": "Osteoporosis (disorder)",
+      "text": "Osteoporosis"
+    },
+    {
+      "id": "298831006",
+      "fsn": "Bronchiolitis obliterans organizing pneumonia (disorder)",
+      "text": "BOOP"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "1975-2",
+      "fsn": "Culture.positive blood (LOINC)",
+      "text": "Blood Cultures"
+    },
+    {
+      "id": "2339-0",
+      "fsn": "Glucose [Mass/volume] in Serum or Plasma (LOINC)",
+      "text": "Serum Glucose"
+    },
+    {
+      "id": "2951-2",
+      "fsn": "Electrolytes [Moles/volume] in Serum or Plasma (LOINC)",
+      "text": "Electrolytes"
+    },
+    {
+      "id": "11557-6",
+      "fsn": "Blood pH (LOINC)",
+      "text": "Blood gases"
+    },
+    {
+      "id": "604-9",
+      "fsn": "Sputum culture (LOINC)",
+      "text": "Sputum culture with Gram stain"
+    },
+    {
+      "id": "6690-2",
+      "fsn": "Leukocytes in Blood (LOINC)",
+      "text": "CBC, Platelets, WBC classification"
+    },
+    {
+      "id": "2160-0",
+      "fsn": "Creatinine [Moles/volume] in Serum or Plasma (LOINC)",
+      "text": "Creatinine"
+    },
+    {
+      "id": "6598-7",
+      "fsn": "Troponin T [Mass/volume] in Serum or Plasma (LOINC)",
+      "text": "Troponin T"
+    },
+    {
+      "id": "42757-5",
+      "fsn": "Natriuretic peptide B [Mass/volume] in Serum or Plasma (LOINC)",
+      "text": "BNP"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "894474",
+      "fsn": "Bricanyl (terbutaline sulfate)",
+      "text": "Bricanyl Neb Soln 2.5 mg/1 mL"
+    },
+    {
+      "id": "2430",
+      "fsn": "Isosorbide dinitrate",
+      "text": "Millisrol"
+    },
+    {
+      "id": "854349",
+      "fsn": "Levofloxacin Injection",
+      "text": "Cravit Inj"
+    },
+    {
+      "id": "176900",
+      "fsn": "Bumetanide",
+      "text": "Burinex Inj"
+    },
+    {
+      "id": "686757",
+      "fsn": "Potassium chloride",
+      "text": "Rolikan"
+    },
+    {
+      "id": "20863",
+      "fsn": "Heparin",
+      "text": "Heparin"
+    },
+    {
+      "id": "109290",
+      "fsn": "Ipratropium Bromide Inhalation Solution",
+      "text": "Atrovent Neb Soln"
+    },
+    {
+      "id": "522",
+      "fsn": "Insulin Regular",
+      "text": "Humulin R"
+    }
+  ]
+}

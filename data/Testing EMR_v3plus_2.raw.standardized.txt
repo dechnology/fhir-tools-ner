@@ -1,0 +1,101 @@
+**Emergency Department Record**
+
+**Triage Assessment:**
+- Triage Level: 2 
+- Computerized Triage Level: 2  
+- Chief Complaint: Blurred vision in the right eye 
+- Basis of Decision: Visual impairment with acute onset or sudden change
+
+**Past Medical History:**
+- None
+
+**TOCC (Travel, Occupation, Contact, Cluster):**
+- Travel History: None
+- Cluster History: None
+- Special Occupation: None
+- Contact with Patients: None
+- Animal Contact: None
+
+**Vital Signs:**
+- Blood Pressure: 93/62 mmHg
+- Pulse Rate: 115/min
+- SpO2: 97%
+- Respiratory Rate: 20/min
+- Body Temperature: 36.8°C
+- Blood Sugar: Not available
+- Pain Score: 0 (No pain)
+- Acute Changes: None
+- Consciousness: Clear
+
+**Special Remarks:**
+- Patient or family has been informed of full-capacity status in the emergency department, which may delay bed assignment and physician consultation.
+  
+**Mode of Arrival:**
+- No transfer form
+- Reason for Admission: Medical condition
+- High-risk Mechanism: Not applicable
+
+**Triage Personnel:**
+- Lin Yi-shan
+
+**Present Illness:**
+- Patient is a 22-year-old male with no systemic disease. He experienced progressive floaters in his right eye for 3-4 days, along with photopsia for 2 days. Diagnosed with retinal detachment by a local physician, referred from Mackay Hospital for surgical intervention.
+
+**Physical Examination:**
+- Consciousness: Clear
+- Vital Signs on Admission: 
+  - Blood Pressure: 133/96 mmHg 
+  - Pulse: 77 bpm 
+  - Respiratory Rate: 17/min 
+  - Temperature: 36.4°C
+- Pain Score: 3
+
+- Neurological Examination:
+  - Consciousness: Clear and Oriented
+  - Muscle Power: No noticeable abnormalities
+  - Gait: No noticeable abnormalities 
+
+- General Appearance: Fair 
+- HEENT: Grossly normal
+- Neck: Supple
+- Chest: Symmetric expansion, no use of accessory muscles
+- Abdomen: Soft, flat, non-tender
+- Extremities: No edema or cyanosis
+
+- Eye Examination (BCVA):
+  - Right Eye (OD): 0.25
+  - Left Eye (OS): 1.0
+  - Intraocular Pressure (IOP), Right Eye (OD): 15; Left Eye (OS): 18
+  - Cornea: Clear in both eyes
+  - Conjunctiva: Not pale in both eyes
+  - Anterior Chamber: Deep and clear in both eyes
+  - Lens: Clear in both eyes
+  - Fundus: Right eye shows a retinal detachment from 9-1 o'clock, bullous in nature, with a retinal break at 11.5-12 o'clock; Left eye is attached
+
+**Diagnosis:**
+
+- Admission Diagnosis: Retinal detachment, right eye
+- Discharge Diagnosis: Rhegmatogenous retinal detachment, right eye, status post segmental scleral buckling, and SF6 injection
+
+**Surgical Note:**
+- Operation Date: February 24, 2017
+- Surgeon: Ho Tzu-chang
+- Procedures: Segmental scleral buckle, cryopexy, and injection of SF6 0.4ml in the right eye
+- Findings: Rhegmatogenous retinal detachment from 12 to 8 o'clock with a retinal break at 11 o'clock
+
+**Hospital Course and Treatment:**
+- Post-operative course included some remaining subretinal fluid. The break was buckled and surrounded by cryotherapy, with additional focal laser treatment in both eyes. The retina successfully reattached by the fifth post-operative day, allowing for discharge under stable conditions.
+
+**Discharge Medications:**
+1. Gentamicin Sulfate Eye Drops 3 mg/mL - 1 drop in the right eye, four times a day for 8 days
+2. Atropine Sulfate Ophthalmic Solution 1% - 1 drop in the right eye, every 12 hours for 8 days
+3. Betamethasone Sodium Phosphate 0.1% Eye Drops - 1 drop in the right eye, four times a day for 8 days
+4. Tetracycline Ophthalmic Ointment 1% - Apply in the right eye at bedtime for 8 days
+5. Betamethasone Sodium Phosphate 0.1% Eye Drops - 1 drop in the left eye, four times a day for 8 days
+
+**Follow-Up Instructions:**
+- Bed rest with head positioning: lower head
+- Eye dressing: Sterile gauze with metal shield
+- Activity restrictions: Recommend rest; avoid strenuous or vigorous activities
+- Wound care: No stitches removal required; adhere to provided instructions for wound care or dressing changes
+- Diet: No specific restrictions; follow normal dietary routine

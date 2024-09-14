@@ -1,0 +1,213 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "47362004",
+      "fsn": "Chronic kidney disease stage 4 (disorder)",
+      "text": "Chronic renal failure"
+    },
+    {
+      "id": "49436004",
+      "fsn": "Atrial fibrillation (disorder)",
+      "text": "Atrial fibrillation"
+    },
+    {
+      "id": "67406007",
+      "fsn": "Dementia (disorder)",
+      "text": "Dementia"
+    },
+    {
+      "id": "20954000",
+      "fsn": "Hyperlipidemia (disorder)",
+      "text": "Hyperlipidemia"
+    },
+    {
+      "id": "235856003",
+      "fsn": "Gastroesophageal reflux disease (disorder)",
+      "text": "GERD"
+    },
+    {
+      "id": "312647001",
+      "fsn": "Hyperuricemia (disorder)",
+      "text": "Hyperuricemia"
+    },
+    {
+      "id": "109838007",
+      "fsn": "Cellulitis of lower limb (disorder)",
+      "text": "Cellulitis of right lower limb"
+    },
+    {
+      "id": "47362004",
+      "fsn": "Chronic kidney disease stage 4 (disorder)",
+      "text": "CKD"
+    },
+    {
+      "id": "49436004",
+      "fsn": "Atrial fibrillation (disorder)",
+      "text": "Af under NOAC"
+    },
+    {
+      "id": "109838007",
+      "fsn": "Cellulitis of lower limb (disorder)",
+      "text": "Cellulitis of right lower limb"
+    },
+    {
+      "id": "702685000",
+      "fsn": "Pyomyositis (disorder)",
+      "text": "Pyomyositis"
+    },
+    {
+      "id": "4740000",
+      "fsn": "Hematoma (morphological abnormality)",
+      "text": "hematoma"
+    },
+    {
+      "id": "15296000",
+      "fsn": "Anemia (disorder)",
+      "text": "Anemia"
+    },
+    {
+      "id": "49436004",
+      "fsn": "Atrial fibrillation (disorder)",
+      "text": "Atrial fibrillation"
+    },
+    {
+      "id": "15296000",
+      "fsn": "Anemia (disorder)",
+      "text": "anemia due to chronic diseases"
+    },
+    {
+      "id": "49436004",
+      "fsn": "Atrial fibrillation (disorder)",
+      "text": "AF"
+    },
+    {
+      "id": "5972007",
+      "fsn": "Inferior mesenteric artery thrombosis (disorder)",
+      "text": "inferior mesentary artery thrombosis"
+    },
+    {
+      "id": "67406007",
+      "fsn": "Dementia (disorder)",
+      "text": "Dementia"
+    },
+    {
+      "id": "20954000",
+      "fsn": "Hyperlipidemia (disorder)",
+      "text": "Dyslipidemia"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "718-7",
+      "fsn": "Hemoglobin [Mass/volume] in Blood",
+      "text": "HB"
+    },
+    {
+      "id": "4544-3",
+      "fsn": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "text": "HCT"
+    },
+    {
+      "id": "718-7",
+      "fsn": "Hemoglobin [Mass/volume] in Blood",
+      "text": "Hb"
+    },
+    {
+      "id": "718-7",
+      "fsn": "Hemoglobin [Mass/volume] in Blood",
+      "text": "Hb"
+    },
+    {
+      "id": "718-7",
+      "fsn": "Hemoglobin [Mass/volume] in Blood",
+      "text": "HB"
+    },
+    {
+      "id": "4544-3",
+      "fsn": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "text": "HCT"
+    },
+    {
+      "id": "718-7",
+      "fsn": "Hemoglobin [Mass/volume] in Blood",
+      "text": "Hb"
+    },
+    {
+      "id": "4544-3",
+      "fsn": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "text": "HCT"
+    },
+    {
+      "id": "4544-3",
+      "fsn": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "text": "HCT"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "1152258",
+      "fsn": "ampicillin 1000 MG Injection",
+      "text": "Unasyn (based on ampicillin content) 1000 mg/vial"
+    },
+    {
+      "id": "1152258",
+      "fsn": "ampicillin 1000 MG Injection",
+      "text": "Unasyn (based on ampicillin content) 1000 mg/vial"
+    },
+    {
+      "id": "1152258",
+      "fsn": "ampicillin 1000 MG Injection",
+      "text": "Unasyn"
+    },
+    {
+      "id": "316555",
+      "fsn": "LANOXIN 0.25 MG Oral Tablet",
+      "text": "Lanoxin 0.25 mg/tab"
+    },
+    {
+      "id": "1364433",
+      "fsn": "Eliquis 5 MG Oral Tablet",
+      "text": "Eliquis 5 mg/tab"
+    },
+    {
+      "id": "316555",
+      "fsn": "LANOXIN 0.25 MG Oral Tablet",
+      "text": "Lanoxin 0.25 mg/tab"
+    },
+    {
+      "id": "1364433",
+      "fsn": "Eliquis 5 MG Oral Tablet",
+      "text": "Eliquis 5 mg/tab"
+    },
+    {
+      "id": "316555",
+      "fsn": "LANOXIN 0.25 MG Oral Tablet",
+      "text": "Lanoxin 0.25 mg/tab"
+    },
+    {
+      "id": "1364433",
+      "fsn": "Eliquis 5 MG Oral Tablet",
+      "text": "Eliquis 5 mg/tab"
+    },
+    {
+      "id": "858025",
+      "fsn": "lansoprazole 30 MG Delayed Release Oral Capsule",
+      "text": "Lansoprazole"
+    },
+    {
+      "id": "197787",
+      "fsn": "amoxicillin 875 MG / clavulanate potassium 125 MG Oral Tablet",
+      "text": "Amoxicillin 875 mg, Clavulanate Potassium 125mg"
+    },
+    {
+      "id": "858025",
+      "fsn": "lansoprazole 30 MG Delayed Release Oral Capsule",
+      "text": "Lansoprazole【Takepron OD 30 mg/tab】"
+    },
+    {
+      "id": "197787",
+      "fsn": "amoxicillin 875 MG / clavulanate potassium 125 MG Oral Tablet",
+      "text": "Amoxicillin 875 mg, Clavulanate Potassium 125mg【Augmentin 1 g/tab】"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+**Emergency Room Medical Assessment**
+
+**Triage Details**
+- Triage Level: 3
+- Computer Classification: 3
+
+**Chief Complaint**
+- The patient presents with a fever lasting one day, abdominal pain, and diarrhea since the previous day. The patient reports being in Guangdong Province from September 2016 to November 2016, with persistent fever since that time.
+
+**Assessment Basis**
+- The patient shows signs of moderate acute central abdominal pain (pain score 4-7), mild dehydration due to diarrhea, and fever (appearing ill).
+
+**Past Medical History**
+- Bronchiectasis
+- Depressive Disorder (F33.9)
+- Hypertension
+
+**TOCC Assessment**
+- Travel History: None
+- Cluster History: None
+- Special Occupation: None
+- Contact with Patients: None
+- Animal Contact: None
+
+**Vital Signs**
+- Blood Pressure (BP): 156/86 mmHg
+- Pulse Rate (PR): 105/min
+- SpO2: 95%
+- Respirations: 20/min
+- Body Temperature (BT): 38°C
+- Blood Sugar: Not applicable
+- Pain Index: 0 (No pain)
+- Acute Changes: None
+- Consciousness: Clear
+
+**Special Notes**
+- The patient agrees to organ donation and palliative care as per their health insurance card.
+
+**Method of Arrival**
+- Ambulated to the hospital independently
+
+**Reason for Visit**
+- Illness
+
+**High-risk Mechanisms**
+- Not applicable
+
+**Triage Officer**
+- Lin Yi Shan
+
+**Emergency Room Medical History**
+
+**Chief Complaint**
+- Fever for a day, abdominal pain, and diarrhea since yesterday after returning from Guangdong Province.
+
+**Past Medical History**
+- Bronchiectasis
+- Depressive Disorder (F33.9)
+- Hypertension
+
+**Medication Allergies**
+- None reported
+
+**Travel History**
+- None
+
+**Present Illness**
+- The patient reports a fever for one week, diarrhea (watery, without blood or mucus) for two days along with abdominal cramping pain. No nausea or vomiting, no dysuria, no cough. Has a history of diverticulitis status post surgery.
+
+**TOCC**
+- Denied any recent travel, occupational exposure, cluster occurrence, or contacts with patients/animals.
+
+**Physical Examination**
+- Consciousness: Clear
+- Neuro: E4, V5, M6
+- Blood Pressure: 156/86 mmHg
+- Pulse Rate: 105/min
+- Respiratory Rate: 20/min
+- Temperature: 38°C
+- SpO2: 95%
+- Head: Normal
+- Pupils: Equal
+- Conjunctiva: Not pale; Sclera: Non-icteric
+- Neck: Supple, no jugular vein engorgement, no lymphadenopathy
+- Chest: Symmetrical expansion, breath sounds clear
+- Heart: Regular heartbeat, no murmurs
+- Abdomen: Tenderness in lower left quadrant, normal bowel sounds
+- Extremities: Normal
+
+**Diagnosis at Admission**
+1. Infectious Diarrhea (A09)
+2. Bronchiectasis, status post unknown surgery, uses Berotec PRN
+3. Hypertension
+4. Repeated Diverticulitis, status post surgery
+5. Depressive Disorder
+6. Panic Disorder
+
+**Discharge Diagnosis**
+1. Infectious Diarrhea (A09)
+2. Bronchiectasis, status post unknown surgery
+3. Hypertension
+4. Repeated Diverticulitis, status post surgery
+5. Depressive Disorder
+6. Panic Disorder
+
+**ICU Diagnosis**
+- None
+
+**Course and Treatment in Hospital**
+- The patient was kept on Ciprofloxacin. No fever was noted during the stay. Diarrhea and abdominal pain improved under antibiotic treatment. The patient tolerated a full diet and was stable for discharge.
+
+**Medications Prescribed**
+- Ciprofloxacin Lactate
+- Valsartan
+- Dimethicone
+- Smecta
+- Loperamide Hydrochloride
+- Brotizolam
+- Diazepam
+
+**Follow-up Instructions and Medications**
+- Hydrotalcite (Nacid 500 mg/tab) 1 tab PO TID for 5 days
+- Dioctahedral Smectite (Smecta 3 g/pack) 1 pack PO TIDPRN for 5 days
+- Ciprofloxacin HCl (Ciproxin 250 mg/tab) 2 tab PO BID for 5 days
+- Dimethicone (Kascoal 40 mg/tab) 1 tab PO TIDPC for 5 days
+- Brotizolam (Lendormin 0.25 mg/tab) 1 tab PO HS for 5 days
+- Self-prepared medication (Diovan FC 160 mg/tab) 1 tab PO QD
+
+**Outpatient Appointments**
+- March 8, 2017, at the Family Medicine Department
+- March 15, 2017, at the Family Medicine Department
+- March 27, 2017, at the Internal Medicine Department

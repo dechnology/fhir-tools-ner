@@ -1,0 +1,73 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "50177009",
+      "fsn": "Fever (finding)",
+      "text": "Fever"
+    },
+    {
+      "id": "386661006",
+      "fsn": "Fever (finding)",
+      "text": "Fever"
+    },
+    {
+      "id": "43724002",
+      "fsn": "Chills (finding)",
+      "text": "Chills"
+    },
+    {
+      "id": "91861009",
+      "fsn": "Acute myeloid leukemia (disorder)",
+      "text": "Acute Myeloid Leukemia"
+    },
+    {
+      "id": "269533000",
+      "fsn": "Malignant tumor of colon (disorder)",
+      "text": "Colon Cancer"
+    },
+    {
+      "id": "128623006",
+      "fsn": "Myelodysplastic syndrome (disorder)",
+      "text": "Myelodysplastic Syndrome"
+    },
+    {
+      "id": "698065002",
+      "fsn": "Gastroesophageal reflux disease (disorder)",
+      "text": "Gastroesophageal Reflux Disease"
+    },
+    {
+      "id": "49099001",
+      "fsn": "Increased uric acid level (finding)",
+      "text": "Elevated Uric Acid"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "8310-5",
+      "fsn": "Body temperature",
+      "text": "Body Temperature"
+    },
+    {
+      "id": "59408-5",
+      "fsn": "Pulse rate",
+      "text": "Pulse Rate"
+    },
+    {
+      "id": "9279-1",
+      "fsn": "Respiratory rate",
+      "text": "Respiratory Rate"
+    },
+    {
+      "id": "2710-2",
+      "fsn": "Blood pressure systolic & diastolic",
+      "text": "Blood Pressure"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "1427088",
+      "fsn": "Uric acid",
+      "text": "Uric Acid"
+    }
+  ]
+}

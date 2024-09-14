@@ -1,0 +1,117 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "248278005",
+      "fsn": "Hypertension (disorder)",
+      "text": "Hypertension"
+    },
+    {
+      "id": "266569009",
+      "fsn": "Dementia (disorder)",
+      "text": "dementia"
+    },
+    {
+      "id": "73211009",
+      "fsn": "Stroke (disorder)",
+      "text": "brain stem stroke sequelae"
+    },
+    {
+      "id": "195080001",
+      "fsn": "Atrial fibrillation (disorder)",
+      "text": "atrial fibrillation"
+    },
+    {
+      "id": "82271004",
+      "fsn": "Bleeding of bladder (disorder)",
+      "text": "Bladder blood clot"
+    },
+    {
+      "id": "39929001",
+      "fsn": "Benign prostatic hyperplasia (disorder)",
+      "text": "Benign Prostatic Hyperplasia (BPH)"
+    },
+    {
+      "id": "62106007",
+      "fsn": "Hypothyroidism (disorder)",
+      "text": "Hypothyroidism"
+    },
+    {
+      "id": "128839007",
+      "fsn": "Hepatitis C (disorder)",
+      "text": "Hepatitis C"
+    },
+    {
+      "id": "19943007",
+      "fsn": "Liver cirrhosis (disorder)",
+      "text": "liver cirrhosis"
+    },
+    {
+      "id": "230690007",
+      "fsn": "Acute kidney injury (disorder)",
+      "text": "acute kidney injury"
+    },
+    {
+      "id": "72166004",
+      "fsn": "Hyperglycemic hyperosmolar state (disorder)",
+      "text": "Hyperglycemic hyperosmolar state"
+    },
+    {
+      "id": "197456007",
+      "fsn": "Urinary tract infectious disease (disorder)",
+      "text": "Urinary tract infection"
+    },
+    {
+      "id": "315619001",
+      "fsn": "Urothelial carcinoma, high grade (morphologic abnormality)",
+      "text": "high grade urothelial carcinoma"
+    },
+    {
+      "id": "8186001",
+      "fsn": "Craniocerebral injury of intracerebral hemorrhage (disorder)",
+      "text": "intracerebral hemorrhage"
+    },
+    {
+      "id": "64779008",
+      "fsn": "Cerebral vascular accident (disorder)",
+      "text": "ischemic stroke"
+    },
+    {
+      "id": "49218002",
+      "fsn": "First degree atrioventricular block (disorder)",
+      "text": "First-degree AV block"
+    }
+  ],
+  "LOINC": [],
+  "RxNorm": [
+    {
+      "id": "855149",
+      "fsn": "Sennosides 8.6 MG Oral Tablet [Senokot]",
+      "text": "Sennoside"
+    },
+    {
+      "id": "314076",
+      "fsn": "Acetylcysteine 200 MG/ML Oral Solution [Mucomyst]",
+      "text": "Acetylcysteine"
+    },
+    {
+      "id": "727201",
+      "fsn": "Bisacodyl 10MG Rectal Suppository",
+      "text": "Bisacodyl"
+    },
+    {
+      "id": "603638",
+      "fsn": "Repaglinide 2 MG Oral Tablet [Prandin]",
+      "text": "Repaglinide"
+    },
+    {
+      "id": "6809",
+      "fsn": "Glimepiride 4 MG Oral Tablet [Amaryl]",
+      "text": "Glimepiride"
+    },
+    {
+      "id": "860975",
+      "fsn": "Metformin 500 MG Oral Tablet [Glucophage]",
+      "text": "Metformin"
+    }
+  ]
+}

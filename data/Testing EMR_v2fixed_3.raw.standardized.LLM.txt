@@ -1,0 +1,93 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "386661006",
+      "fsn": "Fever (finding)",
+      "text": "Fever"
+    },
+    {
+      "id": "16356006",
+      "fsn": "Escherichia coli (organism)",
+      "text": "E. coli bacteremia"
+    },
+    {
+      "id": "68496003",
+      "fsn": "Urosepsis (disorder)",
+      "text": "urosepsis"
+    },
+    {
+      "id": "289553007",
+      "fsn": "Flank pain (finding)",
+      "text": "bilateral flank pain"
+    },
+    {
+      "id": "95562005",
+      "fsn": "Malignant neoplasm of prostate (disorder)",
+      "text": "prostate cancer"
+    },
+    {
+      "id": "36351005",
+      "fsn": "Malignant neoplasm of sigmoid colon (disorder)",
+      "text": "Sigmoid colon adenocarcinoma"
+    },
+    {
+      "id": "13097001",
+      "fsn": "Chronic obstructive pulmonary disease (disorder)",
+      "text": "Chronic obstructive pulmonary disease"
+    },
+    {
+      "id": "1201005",
+      "fsn": "Cirrhosis of liver (disorder)",
+      "text": "Liver cirrhosis"
+    },
+    {
+      "id": "34742008",
+      "fsn": "Coronary artery disease (disorder)",
+      "text": "Coronary arterial disease"
+    },
+    {
+      "id": "431855005",
+      "fsn": "Chronic kidney disease (disorder)",
+      "text": "Chronic kidney disease"
+    },
+    {
+      "id": "30059007",
+      "fsn": "Ureteral stone (disorder)",
+      "text": "left ureter stone"
+    },
+    {
+      "id": "74615001",
+      "fsn": "Urethral stricture (disorder)",
+      "text": "Urethral stricture"
+    },
+    {
+      "id": "48867003",
+      "fsn": "Alcoholism (disorder)",
+      "text": "Alcoholism"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "51900-5",
+      "fsn": "Prostate specific antigen [Mass/volume] in Serum or Plasma",
+      "text": "PSA"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "310378",
+      "fsn": "Flumarin 1000 MG Injection",
+      "text": "Flumarin 1000 mg/vial"
+    },
+    {
+      "id": "313397",
+      "fsn": "Cefazolin 500 MG Injection",
+      "text": "Cetazone 500 mg/vial"
+    },
+    {
+      "id": "236435",
+      "fsn": "Sodium Chloride 9 MG/ML Injection",
+      "text": "Normal Saline 0.9% 500 mL"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+**Standardized Medical Summary**
+
+**Triage Assessment:**
+- Triage Level: 2
+- Chief Complaint: Right upper quadrant abdominal pain, nausea, vomiting since yesterday
+- Basis for Determination: Acute severe central abdominal pain (pain scale 8-10)
+
+**Patient Details:**
+- Past History: Intrahepatic stone, Diabetes Mellitus (DM)
+- Allergies: Unclear medication allergy
+- Travel, Occupational, Contact History: None reported
+
+**Vital Signs:**
+- Blood Pressure: 101/73 mmHg
+- Pulse Rate: 124/min
+- Respiratory Rate: 20/min
+- Temperature: 37.2°C
+- SpO2: 99%
+- Pain Score: 8 out of 10
+
+**Present Illness:**
+- Previous PTCD (percutaneous transhepatic cholangial drainage) for biliary stones at Ho-Ping Hospital; visited OPD for further surgical intervention.
+- Increased right upper quadrant pain over past two days.
+- No fever or chills, and no bile drained in bag.
+
+**Physical Examination:**
+- Patient conscious and oriented.
+- Clear breath sounds, regular heartbeat, abdomen soft with two PTCD tubes present.
+- Jaundice noted, sclera icteric, conjunctiva pale.
+
+**Admission & Discharge Diagnoses:**
+- Admission: Abdominal pain (R10.9), Cholangitis (K83.0)
+- Discharge: Cholangitis related to intrahepatic stones, complicated with Klebsiella pneumoniae bacteremia, status post PTA; Type 2 Diabetes Mellitus
+
+**Treatment and Hospital Course:**
+- Ertapenem administered; no fever post-admission.
+- PTA performed on 2017/03/06; subsequent CT showed intrahepatic duct stones and cholangitis.
+- PTCD drainage was smooth with a yellowish drain.
+- Gradual improvement; cholesterol duct dilatation completed without complications.
+
+**Medications Administered:**
+- Saline Injection 0.9%, Invanz, Tramal Injection, PARAMOL (Acetaminophen)
+
+**Laboratory Findings:**
+- Blood culture positive for Klebsiella pneumoniae.
+- Initial leukocytosis with T-BIL 5.28 mg/dL, later decreased to 0.74 mg/dL.
+
+**Follow-up and Discharge Instructions:**
+- Patient advised to rest, maintain normal diet, and continue Acetaminophen at home for two days.
+- Scheduled for outpatient follow-up on 2017/03/29.
+
+**Additional Notes:**
+- No surgery performed during hospitalization.
+- Patient discharged with improved jaundice and scheduled for further follow-up interventions.

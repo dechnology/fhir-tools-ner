@@ -1,0 +1,82 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "386661006",
+      "fsn": "Fever (finding)",
+      "text": "Fever"
+    },
+    {
+      "id": "363346000",
+      "fsn": "Chills (finding)",
+      "text": "Fever/Chills"
+    },
+    {
+      "id": "9335001",
+      "fsn": "Feels sick (finding)",
+      "text": "Fever (Appears Sick)"
+    },
+    {
+      "id": "234587009",
+      "fsn": "Myalgia (finding)",
+      "text": "myalgia"
+    },
+    {
+      "id": "67782005",
+      "fsn": "Elevated uric acid (disorder)",
+      "text": "Elevated Uric Acid"
+    },
+    {
+      "id": "363406005",
+      "fsn": "Malignant neoplasm of colon (disorder)",
+      "text": "Colon Cancer"
+    },
+    {
+      "id": "91857005",
+      "fsn": "Acute myeloid leukemia (disorder)",
+      "text": "Acute Myeloid Leukemia"
+    },
+    {
+      "id": "109987005",
+      "fsn": "Diarrhea (finding)",
+      "text": "diarrhea"
+    },
+    {
+      "id": "235595009",
+      "fsn": "Gastroesophageal reflux disease (disorder)",
+      "text": "Gastroesophageal Reflux Disease"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "28646-2",
+      "fsn": "Body temperature (LOINC)",
+      "text": "Body Temperature"
+    },
+    {
+      "id": "8480-6",
+      "fsn": "Systolic blood pressure (LOINC)",
+      "text": "Blood Pressure"
+    },
+    {
+      "id": "8462-4",
+      "fsn": "Diastolic blood pressure (LOINC)",
+      "text": "Blood Pressure"
+    },
+    {
+      "id": "8867-4",
+      "fsn": "Heart rate (LOINC)",
+      "text": "Pulse Rate"
+    },
+    {
+      "id": "9279-1",
+      "fsn": "Respiratory rate (LOINC)",
+      "text": "Respiratory Rate"
+    },
+    {
+      "id": "2708-6",
+      "fsn": "Oxygen saturation in Arterial blood by Pulse oximetry (LOINC)",
+      "text": "SpO2"
+    }
+  ],
+  "RxNorm": []
+}

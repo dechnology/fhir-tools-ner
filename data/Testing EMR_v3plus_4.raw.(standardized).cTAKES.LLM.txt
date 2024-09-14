@@ -1,0 +1,1052 @@
+{
+  "SNOMED_CT": [
+    {
+      "raw_text_as_clues": [
+        "嗜睡"
+      ],
+      "implies_concepts_FSN": [
+        "Somnolence (finding)"
+      ],
+      "id": "271782001"
+    },
+    {
+      "raw_text_as_clues": [
+        "尿液減少"
+      ],
+      "implies_concepts_FSN": [
+        "Oliguria (finding)"
+      ],
+      "id": "718403007"
+    },
+    {
+      "raw_text_as_clues": [
+        "HTN"
+      ],
+      "implies_concepts_FSN": [
+        "Hypertensive disorder, systemic arterial (disorder)"
+      ],
+      "id": "38341003"
+    },
+    {
+      "raw_text_as_clues": [
+        "BPH"
+      ],
+      "implies_concepts_FSN": [
+        "Benign prostatic hyperplasia (disorder)"
+      ],
+      "id": "433234005"
+    },
+    {
+      "raw_text_as_clues": [
+        "Dementia"
+      ],
+      "implies_concepts_FSN": [
+        "Dementia (disorder)"
+      ],
+      "id": "52448006"
+    },
+    {
+      "raw_text_as_clues": [
+        "Brain stem stroke sequelae"
+      ],
+      "implies_concepts_FSN": [
+        "Brain stem stroke syndrome (disorder)"
+      ],
+      "id": "95457000"
+    },
+    {
+      "raw_text_as_clues": [
+        "Atrial fibrillation"
+      ],
+      "implies_concepts_FSN": [
+        "Atrial fibrillation (disorder)"
+      ],
+      "id": "49436004"
+    },
+    {
+      "raw_text_as_clues": [
+        "old CVA"
+      ],
+      "implies_concepts_FSN": [
+        "Cerebrovascular accident (disorder)"
+      ],
+      "id": "230690007"
+    },
+    {
+      "raw_text_as_clues": [
+        "Malignant neoplasm of bladder, unspecified (C67.9)"
+      ],
+      "implies_concepts_FSN": [
+        "Malignant neoplasm of urinary bladder (disorder)"
+      ],
+      "id": "399326009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Malignant neoplasm of overlapping sites of bladder (C67.8)"
+      ],
+      "implies_concepts_FSN": [
+        "Malignant neoplasm of urinary bladder (disorder)"
+      ],
+      "id": "399326009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Disturbance of consciousness"
+      ],
+      "implies_concepts_FSN": [
+        "Disturbance of consciousness (disorder)"
+      ],
+      "id": "3006004"
+    },
+    {
+      "raw_text_as_clues": [
+        "嗜睡"
+      ],
+      "implies_concepts_FSN": [
+        "Somnolence (finding)"
+      ],
+      "id": "79519003"
+    },
+    {
+      "raw_text_as_clues": [
+        "尿液減少"
+      ],
+      "implies_concepts_FSN": [
+        "Oliguria (finding)"
+      ],
+      "id": "83128009"
+    },
+    {
+      "raw_text_as_clues": [
+        "HTN"
+      ],
+      "implies_concepts_FSN": [
+        "Hypertensive disease (disorder)"
+      ],
+      "id": "38341003"
+    },
+    {
+      "raw_text_as_clues": [
+        "BPH"
+      ],
+      "implies_concepts_FSN": [
+        "Benign prostatic hypertrophy (disorder)"
+      ],
+      "id": "266569009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Dementia"
+      ],
+      "implies_concepts_FSN": [
+        "Dementia (disorder)"
+      ],
+      "id": "52448006"
+    },
+    {
+      "raw_text_as_clues": [
+        "Brain stem stroke sequelae"
+      ],
+      "implies_concepts_FSN": [
+        "Brain Stem Infarctions (disorder)"
+      ],
+      "id": "95457000"
+    },
+    {
+      "raw_text_as_clues": [
+        "Atrial fibrillation"
+      ],
+      "implies_concepts_FSN": [
+        "Atrial Fibrillation (disorder)"
+      ],
+      "id": "49436004"
+    },
+    {
+      "raw_text_as_clues": [
+        "old CVA"
+      ],
+      "implies_concepts_FSN": [
+        "Cerebrovascular accident (disorder)"
+      ],
+      "id": "230690007"
+    },
+    {
+      "raw_text_as_clues": [
+        "尿液減少"
+      ],
+      "implies_concepts_FSN": [
+        "Urine volume finding (finding)"
+      ],
+      "id": "364202003"
+    },
+    {
+      "raw_text_as_clues": [
+        "尿液 increased"
+      ],
+      "implies_concepts_FSN": [
+        "Urine volume finding (finding)"
+      ],
+      "id": "366282004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Right hemiparesis"
+      ],
+      "implies_concepts_FSN": [
+        "Right hemiparesis (disorder)"
+      ],
+      "id": "278286009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Lethargy"
+      ],
+      "implies_concepts_FSN": [
+        "Lethargy (finding)"
+      ],
+      "id": "214264003"
+    },
+    {
+      "raw_text_as_clues": [
+        "Movement"
+      ],
+      "implies_concepts_FSN": [
+        "Movement (observable entity)"
+      ],
+      "id": "255324009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Low grade fever"
+      ],
+      "implies_concepts_FSN": [
+        "Low grade fever (finding)"
+      ],
+      "id": "304213008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Polyuria"
+      ],
+      "implies_concepts_FSN": [
+        "Polyuria (disorder)"
+      ],
+      "id": "56574000"
+    },
+    {
+      "raw_text_as_clues": [
+        "Increased urine output for 3 days"
+      ],
+      "implies_concepts_FSN": [
+        "Urine volume finding (finding)"
+      ],
+      "id": "251975009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Lethargy"
+      ],
+      "implies_concepts_FSN": [
+        "Lethargy (finding)"
+      ],
+      "id": "214264003"
+    },
+    {
+      "raw_text_as_clues": [
+        "Decreased movement of left limbs"
+      ],
+      "implies_concepts_FSN": [
+        "Movement (observable entity)"
+      ],
+      "id": "255324009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Diabetes mellitus with hyperglycemic hyperosmolar nonketoacidosis"
+      ],
+      "implies_concepts_FSN": [
+        "Diabetic hyperosmolar state (disorder)"
+      ],
+      "id": "423015004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Urinary tract infection"
+      ],
+      "implies_concepts_FSN": [
+        "Urinary tract infectious disease (disorder)"
+      ],
+      "id": "68566005"
+    },
+    {
+      "raw_text_as_clues": [
+        "History of intracerebral hemorrhage"
+      ],
+      "implies_concepts_FSN": [
+        "Thalamic intracerebral hemorrhage (disorder)"
+      ],
+      "id": "188824004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Benign prostate hyperplasia"
+      ],
+      "implies_concepts_FSN": [
+        "Benign prostatic hyperplasia (disorder)"
+      ],
+      "id": "433234005"
+    },
+    {
+      "raw_text_as_clues": [
+        "Old ischemic stroke"
+      ],
+      "implies_concepts_FSN": [
+        "Cerebral infarction (disorder)"
+      ],
+      "id": "84757009"
+    },
+    {
+      "raw_text_as_clues": [
+        "First degree atrioventricular block"
+      ],
+      "implies_concepts_FSN": [
+        "First degree atrioventricular heart block (disorder)"
+      ],
+      "id": "54016002"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hypothyroidism"
+      ],
+      "implies_concepts_FSN": [
+        "Hypothyroidism (disorder)"
+      ],
+      "id": "40930008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hepatitis C carrier"
+      ],
+      "implies_concepts_FSN": [
+        "Carrier of viral hepatitis C (finding)"
+      ],
+      "id": "72836002"
+    },
+    {
+      "raw_text_as_clues": [
+        "Atrial fibrillation"
+      ],
+      "implies_concepts_FSN": [
+        "Atrial fibrillation (disorder)"
+      ],
+      "id": "49436004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Vascular dementia with behavioral and psychological symptoms of dementia(BPSD)"
+      ],
+      "implies_concepts_FSN": [
+        "Vascular dementia (disorder)"
+      ],
+      "id": "32498004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hypertension"
+      ],
+      "implies_concepts_FSN": [
+        "Essential hypertension (disorder)"
+      ],
+      "id": "59621000"
+    },
+    {
+      "raw_text_as_clues": [
+        "Diabetes mellitus with hyperglycemic hyperosmolar nonketoacidosis"
+      ],
+      "implies_concepts_FSN": [
+        "Diabetic hyperosmolar state (disorder)"
+      ],
+      "id": "423015004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Urinary tract infection"
+      ],
+      "implies_concepts_FSN": [
+        "Urinary tract infectious disease (disorder)"
+      ],
+      "id": "68566005"
+    },
+    {
+      "raw_text_as_clues": [
+        "History of intracerebral hemorrhage"
+      ],
+      "implies_concepts_FSN": [
+        "Thalamic intracerebral hemorrhage (disorder)"
+      ],
+      "id": "188824004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Benign prostate hyperplasia"
+      ],
+      "implies_concepts_FSN": [
+        "Benign prostatic hyperplasia (disorder)"
+      ],
+      "id": "433234005"
+    },
+    {
+      "raw_text_as_clues": [
+        "Old ischemic stroke"
+      ],
+      "implies_concepts_FSN": [
+        "Cerebral infarction (disorder)"
+      ],
+      "id": "84757009"
+    },
+    {
+      "raw_text_as_clues": [
+        "First degree atrioventricular block"
+      ],
+      "implies_concepts_FSN": [
+        "First degree atrioventricular heart block (disorder)"
+      ],
+      "id": "54016002"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hypothyroidism"
+      ],
+      "implies_concepts_FSN": [
+        "Hypothyroidism (disorder)"
+      ],
+      "id": "40930008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hepatitis C carrier"
+      ],
+      "implies_concepts_FSN": [
+        "Carrier of viral hepatitis C (finding)"
+      ],
+      "id": "72836002"
+    },
+    {
+      "raw_text_as_clues": [
+        "Atrial fibrillation"
+      ],
+      "implies_concepts_FSN": [
+        "Atrial fibrillation (disorder)"
+      ],
+      "id": "49436004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Vascular dementia with behavioral and psychological symptoms of dementia(BPSD)"
+      ],
+      "implies_concepts_FSN": [
+        "Vascular dementia (disorder)"
+      ],
+      "id": "32498004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hypertension"
+      ],
+      "implies_concepts_FSN": [
+        "Essential hypertension (disorder)"
+      ],
+      "id": "59621000"
+    },
+    {
+      "raw_text_as_clues": [
+        "Diabetes mellitus with hyperglycemic hyperosmolar nonketoacidosis"
+      ],
+      "implies_concepts_FSN": [
+        "Diabetic hyperosmolar state (disorder)"
+      ],
+      "id": "423015004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Urinary tract infection"
+      ],
+      "implies_concepts_FSN": [
+        "Urinary tract infectious disease (disorder)"
+      ],
+      "id": "68566005"
+    },
+    {
+      "raw_text_as_clues": [
+        "History of intracerebral hemorrhage"
+      ],
+      "implies_concepts_FSN": [
+        "Thalamic intracerebral hemorrhage (disorder)"
+      ],
+      "id": "188824004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Benign prostate hyperplasia"
+      ],
+      "implies_concepts_FSN": [
+        "Benign prostatic hyperplasia (disorder)"
+      ],
+      "id": "433234005"
+    },
+    {
+      "raw_text_as_clues": [
+        "Old ischemic stroke"
+      ],
+      "implies_concepts_FSN": [
+        "Cerebral infarction (disorder)"
+      ],
+      "id": "84757009"
+    },
+    {
+      "raw_text_as_clues": [
+        "First degree atrioventricular block"
+      ],
+      "implies_concepts_FSN": [
+        "First degree atrioventricular heart block (disorder)"
+      ],
+      "id": "54016002"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hypothyroidism"
+      ],
+      "implies_concepts_FSN": [
+        "Hypothyroidism (disorder)"
+      ],
+      "id": "40930008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hepatitis C carrier"
+      ],
+      "implies_concepts_FSN": [
+        "Carrier of viral hepatitis C (finding)"
+      ],
+      "id": "72836002"
+    },
+    {
+      "raw_text_as_clues": [
+        "Atrial fibrillation"
+      ],
+      "implies_concepts_FSN": [
+        "Atrial fibrillation (disorder)"
+      ],
+      "id": "49436004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Vascular dementia with behavioral and psychological symptoms of dementia(BPSD)"
+      ],
+      "implies_concepts_FSN": [
+        "Vascular dementia (disorder)"
+      ],
+      "id": "32498004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hypertension"
+      ],
+      "implies_concepts_FSN": [
+        "Essential hypertension (disorder)"
+      ],
+      "id": "59621000"
+    }
+  ],
+  "LOINC": [
+    {
+      "raw_text_as_clues": [
+        "Glucose（serum for ED）"
+      ],
+      "implies_concepts_FSN": [
+        "Glucose [Moles/volume] in Serum or Plasma"
+      ],
+      "id": "2345-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Blood Ketone(STAT)"
+      ],
+      "implies_concepts_FSN": [
+        "Ketones [Mass/volume] in Blood"
+      ],
+      "id": "2514-8"
+    },
+    {
+      "raw_text_as_clues": [
+        "Blood Cultures"
+      ],
+      "implies_concepts_FSN": [
+        "Blood culture"
+      ],
+      "id": "600-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "PT(STAT)"
+      ],
+      "implies_concepts_FSN": [
+        "Prothrombin time (PT)"
+      ],
+      "id": "5902-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "aP.T.T.(STAT)"
+      ],
+      "implies_concepts_FSN": [
+        "Activated partial thromboplastin time (aPTT)"
+      ],
+      "id": "3173-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "CRP(STAT)"
+      ],
+      "implies_concepts_FSN": [
+        "C-reactive protein [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "30522-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Urine culture"
+      ],
+      "implies_concepts_FSN": [
+        "Urine culture"
+      ],
+      "id": "630-4"
+    },
+    {
+      "raw_text_as_clues": [
+        "BUN(Blood)(STAT)"
+      ],
+      "implies_concepts_FSN": [
+        "Urea nitrogen [Mass/volume] in Blood"
+      ],
+      "id": "3094-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "Thyroid-stimulating hormone"
+      ],
+      "implies_concepts_FSN": [
+        "Thyrotropin (TSH) [Units/volume] in Serum or Plasma"
+      ],
+      "id": "11579-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "hsTSH"
+      ],
+      "implies_concepts_FSN": [
+        "High-sensitivity Thyrotropin (TSH) [Units/volume] in Serum or Plasma"
+      ],
+      "id": "30532-6"
+    },
+    {
+      "raw_text_as_clues": [
+        "Single urine catherization"
+      ],
+      "implies_concepts_FSN": [
+        "Urine catheterization"
+      ],
+      "id": "34211-4"
+    },
+    {
+      "raw_text_as_clues": [
+        "CBC & platelet"
+      ],
+      "implies_concepts_FSN": [
+        "Hematology (Hgb, Hct, RBC, Indices, WBC, Plt) panel in Blood by Automated count"
+      ],
+      "id": "58410-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "aP.T.T.(STAT)"
+      ],
+      "implies_concepts_FSN": [
+        "Activated partial thromboplastin time (aPTT)"
+      ],
+      "id": "3173-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "hsCRP"
+      ],
+      "implies_concepts_FSN": [
+        "High-sensitivity C-reactive protein [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "30522-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Blood Cultures"
+      ],
+      "implies_concepts_FSN": [
+        "Blood culture"
+      ],
+      "id": "600-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "CBC & platelet"
+      ],
+      "implies_concepts_FSN": [
+        "Hematology (Hgb, Hct, RBC, Indices, WBC, Plt) panel in Blood by Automated count"
+      ],
+      "id": "58410-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "Urine culture"
+      ],
+      "implies_concepts_FSN": [
+        "Urine culture"
+      ],
+      "id": "630-4"
+    },
+    {
+      "raw_text_as_clues": [
+        "WBC Classification"
+      ],
+      "implies_concepts_FSN": [
+        "White blood cell count panel in Blood"
+      ],
+      "id": "67056-5"
+    },
+    {
+      "raw_text_as_clues": [
+        "Creatinine (Blood)"
+      ],
+      "implies_concepts_FSN": [
+        "Creatinine [Mass/volume] in Blood"
+      ],
+      "id": "24323-8"
+    },
+    {
+      "raw_text_as_clues": [
+        "ALT (GPT)"
+      ],
+      "implies_concepts_FSN": [
+        "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      ],
+      "id": "1742-6"
+    },
+    {
+      "raw_text_as_clues": [
+        "Thyroid-stimulating hormone"
+      ],
+      "implies_concepts_FSN": [
+        "Thyrotropin (TSH) [Units/volume] in Serum or Plasma"
+      ],
+      "id": "11579-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "hsTSH"
+      ],
+      "implies_concepts_FSN": [
+        "High-sensitivity Thyrotropin (TSH) [Units/volume] in Serum or Plasma"
+      ],
+      "id": "30532-6"
+    },
+    {
+      "raw_text_as_clues": [
+        "Chloride, serum/plasma"
+      ],
+      "implies_concepts_FSN": [
+        "Chloride [Moles/volume] in Serum or Plasma"
+      ],
+      "id": "2075-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "Sodium, serum/plasma"
+      ],
+      "implies_concepts_FSN": [
+        "Sodium [Moles/volume] in Serum or Plasma"
+      ],
+      "id": "2947-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "Potassium, serum/plasma"
+      ],
+      "implies_concepts_FSN": [
+        "Potassium [Moles/volume] in Serum or Plasma"
+      ],
+      "id": "2823-3"
+    },
+    {
+      "raw_text_as_clues": [
+        "Glucose, serum/plasma"
+      ],
+      "implies_concepts_FSN": [
+        "Glucose [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "2345-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "C-reactive protein, serum/plasma"
+      ],
+      "implies_concepts_FSN": [
+        "C-reactive protein [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "30522-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "WBC"
+      ],
+      "implies_concepts_FSN": [
+        "White blood cells [#/volume] in Blood by Automated count"
+      ],
+      "id": "6690-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "RBC"
+      ],
+      "implies_concepts_FSN": [
+        "Red blood cells [#/volume] in Blood by Automated count"
+      ],
+      "id": "789-8"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hemoglobin"
+      ],
+      "implies_concepts_FSN": [
+        "Hemoglobin [Mass/volume] in Blood"
+      ],
+      "id": "718-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Platelets"
+      ],
+      "implies_concepts_FSN": [
+        "Platelets [#/volume] in Blood by Automated count"
+      ],
+      "id": "777-3"
+    }
+  ],
+  "RxNorm": [
+    {
+      "raw_text_as_clues": [
+        "警 Humulin R 1000 U/10 mL /vial"
+      ],
+      "implies_concepts_FSN": [
+        "Humulin R (regular insulin human)"
+      ],
+      "id": "92881"
+    },
+    {
+      "raw_text_as_clues": [
+        "Furoxime 750 mg/vial"
+      ],
+      "implies_concepts_FSN": [
+        "Cefuroxime 750 MG Injection"
+      ],
+      "id": "1046801"
+    },
+    {
+      "raw_text_as_clues": [
+        "Sennapur 12.5 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Sennosides A and B 12.5 MG Oral Tablet"
+      ],
+      "id": "86334"
+    },
+    {
+      "raw_text_as_clues": [
+        "摩 Mopride FC 5 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Mosapride 5 MG Oral Tablet"
+      ],
+      "id": "309730"
+    },
+    {
+      "raw_text_as_clues": [
+        "KCl in Water Inj 20 mEq/100 mL /btl"
+      ],
+      "implies_concepts_FSN": [
+        "Potassium Chloride 20 MEQ in Water Injection"
+      ],
+      "id": "1649594"
+    },
+    {
+      "raw_text_as_clues": [
+        "NaCl"
+      ],
+      "implies_concepts_FSN": [
+        "Sodium Chloride 0.9% injectable solution"
+      ],
+      "id": "780104"
+    },
+    {
+      "raw_text_as_clues": [
+        "Potassium Gluconate【Radi-K 595 mg/tab (2.54 mEq of K)】"
+      ],
+      "implies_concepts_FSN": [
+        "Potassium gluconate 595 MG Oral Tablet"
+      ],
+      "id": "1049279"
+    },
+    {
+      "raw_text_as_clues": [
+        "Lotion DH(white)"
+      ],
+      "implies_concepts_FSN": [
+        "Dimethicone 1 MG/ML Topical Lotion"
+      ],
+      "id": "534904"
+    },
+    {
+      "raw_text_as_clues": [
+        "Humulin R"
+      ],
+      "implies_concepts_FSN": [
+        "Humulin R (Insulin Regular)"
+      ],
+      "id": "92881"
+    },
+    {
+      "raw_text_as_clues": [
+        "Glimepiride【Amaryl 2 mg/tab】"
+      ],
+      "implies_concepts_FSN": [
+        "Glimepiride 2 MG Oral Tablet"
+      ],
+      "id": "75857"
+    },
+    {
+      "raw_text_as_clues": [
+        "Metformin HCl【(DM) Loditon 500 mg/tab】"
+      ],
+      "implies_concepts_FSN": [
+        "Metformin hydrochloride 500 MG Oral Tablet"
+      ],
+      "id": "83119"
+    },
+    {
+      "raw_text_as_clues": [
+        "Cefuroxime Sodium"
+      ],
+      "implies_concepts_FSN": [
+        "Cefuroxime"
+      ],
+      "id": "1046755"
+    },
+    {
+      "raw_text_as_clues": [
+        "HARNALIDGE D 0.2 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Tamsulosin Hydrochloride 0.2 MG Oral Capsule"
+      ],
+      "id": "316340"
+    },
+    {
+      "raw_text_as_clues": [
+        "Dimethicone"
+      ],
+      "implies_concepts_FSN": [
+        "Dimethicone 40 MG/ML Oral Liquid"
+      ],
+      "id": "358487"
+    },
+    {
+      "raw_text_as_clues": [
+        "Norvasc 5 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Amlodipine Besylate 5 MG Oral Tablet"
+      ],
+      "id": "197474"
+    },
+    {
+      "raw_text_as_clues": [
+        "mosapride citrate dihydrate 2 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Mosapride Citrate Dihydrate 2 MG Oral Tablet"
+      ],
+      "id": "309740"
+    },
+    {
+      "raw_text_as_clues": [
+        "Cascoal 40 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Kascoal 40 MG Oral Tablet"
+      ],
+      "id": "1034059"
+    },
+    {
+      "raw_text_as_clues": [
+        "HARNALIDGE D 0.2 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Tamsulosin Hydrochloride 0.2 MG Oral Capsule"
+      ],
+      "id": "316340"
+    },
+    {
+      "raw_text_as_clues": [
+        "Repaglinide【NovoNorm 1 mg/tab】"
+      ],
+      "implies_concepts_FSN": [
+        "Repaglinide 1 MG Oral Tablet"
+      ],
+      "id": "83067"
+    },
+    {
+      "raw_text_as_clues": [
+        "Acetylcysteine【Actein Effervescent Tablet 600 mg/tab】"
+      ],
+      "implies_concepts_FSN": [
+        "Acetylcysteine 600 MG Oral Tablet"
+      ],
+      "id": "451248"
+    },
+    {
+      "raw_text_as_clues": [
+        "Glimepiride【Amaryl 2 mg/tab】"
+      ],
+      "implies_concepts_FSN": [
+        "Glimepiride 2 MG Oral Tablet"
+      ],
+      "id": "75857"
+    },
+    {
+      "raw_text_as_clues": [
+        "喀斯氯注射劑 20 mEq (1 amp)"
+      ],
+      "implies_concepts_FSN": [
+        "Potassium Chloride 20 MEQ Injection"
+      ],
+      "id": "764959"
+    },
+    {
+      "raw_text_as_clues": [
+        "Humulin R"
+      ],
+      "implies_concepts_FSN": [
+        "Humulin R (Insulin Regular)"
+      ],
+      "id": "92881"
+    }
+  ]
+}

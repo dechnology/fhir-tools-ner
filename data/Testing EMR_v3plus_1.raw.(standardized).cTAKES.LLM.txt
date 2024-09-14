@@ -1,0 +1,185 @@
+{
+  "SNOMED_CT": [
+    {
+      "raw_text_as_clues": [
+        "Colon cancer"
+      ],
+      "implies_concepts_FSN": [
+        "Malignant neoplasm of colon (disorder)"
+      ],
+      "id": "363406005"
+    },
+    {
+      "raw_text_as_clues": [
+        "Acute myeloid leukemia"
+      ],
+      "implies_concepts_FSN": [
+        "Acute myeloid leukemia (disorder)"
+      ],
+      "id": "92814008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Myelodysplastic syndrome"
+      ],
+      "implies_concepts_FSN": [
+        "Myelodysplastic syndrome (disorder)"
+      ],
+      "id": "109995007"
+    },
+    {
+      "raw_text_as_clues": [
+        "Gastroesophageal reflux disease"
+      ],
+      "implies_concepts_FSN": [
+        "Gastroesophageal reflux disease (disorder)"
+      ],
+      "id": "235595009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Acute myeloid leukemia, M4"
+      ],
+      "implies_concepts_FSN": [
+        "Acute myeloblastic leukemia with maturation (disorder)"
+      ],
+      "id": "31348007"
+    },
+    {
+      "raw_text_as_clues": [
+        "Wheeze"
+      ],
+      "implies_concepts_FSN": [
+        "Wheezing (finding)"
+      ],
+      "id": "56018004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Gouty arthritis"
+      ],
+      "implies_concepts_FSN": [
+        "Gouty arthritis (disorder)"
+      ],
+      "id": "190828008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Osteoporosis"
+      ],
+      "implies_concepts_FSN": [
+        "Osteoporosis (disorder)"
+      ],
+      "id": "64859006"
+    },
+    {
+      "raw_text_as_clues": [
+        "Fever"
+      ],
+      "implies_concepts_FSN": [
+        "Fever (finding)"
+      ],
+      "id": "386661006"
+    },
+    {
+      "raw_text_as_clues": [
+        "Tumor lysis syndrome"
+      ],
+      "implies_concepts_FSN": [
+        "Tumor lysis syndrome (disorder)"
+      ],
+      "id": "277605001"
+    }
+  ],
+  "LOINC": [
+    {
+      "raw_text_as_clues": [
+        "Blood Cultures"
+      ],
+      "implies_concepts_FSN": [
+        "Blood culture (procedure)"
+      ],
+      "id": "600-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Creatinine",
+        "Creatinine(Blood)"
+      ],
+      "implies_concepts_FSN": [
+        "Creatinine [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "21639-8"
+    },
+    {
+      "raw_text_as_clues": [
+        "CBC & platelet"
+      ],
+      "implies_concepts_FSN": [
+        "Complete blood count (hemogram) panel - Blood by Automated count"
+      ],
+      "id": "58410-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "UA (Uric acid)"
+      ],
+      "implies_concepts_FSN": [
+        "Urate [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "14933-7"
+    }
+  ],
+  "RxNorm": [
+    {
+      "raw_text_as_clues": [
+        "Feburic",
+        "Feburic 80 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Febuxostat 80 MG Oral Tablet"
+      ],
+      "id": "836745"
+    },
+    {
+      "raw_text_as_clues": [
+        "Fasturtec",
+        "Fasturtec 1.5 mg/vial"
+      ],
+      "implies_concepts_FSN": [
+        "Rasburicase 1.5 MG Injection"
+      ],
+      "id": "747237"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hydrea",
+        "Hydrea 500 mg/cap"
+      ],
+      "implies_concepts_FSN": [
+        "HYDROXYUREA 500 MG Oral Capsule"
+      ],
+      "id": "151871"
+    },
+    {
+      "raw_text_as_clues": [
+        "Maxipime",
+        "Maxipime 500 mg/vial"
+      ],
+      "implies_concepts_FSN": [
+        "CEFEPIME 500 MG Injection"
+      ],
+      "id": "202850"
+    },
+    {
+      "raw_text_as_clues": [
+        "PARAMOL",
+        "PARAMOL 500 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Acetaminophen 500 MG Oral Tablet"
+      ],
+      "id": "1982113"
+    }
+  ]
+}

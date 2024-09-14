@@ -1,0 +1,63 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "246636008",
+      "fsn": "Finding of blurred vision (finding)",
+      "text": "Blurred vision"
+    },
+    {
+      "id": "42059000",
+      "fsn": "Retinal detachment (disorder)",
+      "text": "Retinal detachment"
+    },
+    {
+      "id": "19620000",
+      "fsn": "Rhegmatogenous retinal detachment (disorder)",
+      "text": "Rhegmatogenous retinal detachment"
+    },
+    {
+      "id": "26786002",
+      "fsn": "Scleral buckling operation of retinal detachment (procedure)",
+      "text": "Scleral buckling and SF6 injection"
+    },
+    {
+      "id": "4344007",
+      "fsn": "Cryotherapy (physical intervention)",
+      "text": "Cryopexy"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "33747-0",
+      "fsn": "Blood pressure systolic & diastolic [Noninvasive]",
+      "text": "Blood Pressure"
+    },
+    {
+      "id": "8310-5",
+      "fsn": "Body temperature",
+      "text": "Body Temperature"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "142438",
+      "fsn": "Gentamicin 3 MG/ML Ophthalmic Solution",
+      "text": "Gentamicin Eye Drops for right eye"
+    },
+    {
+      "id": "153971",
+      "fsn": "Atropine Sulfate 1% Ophthalmic Solution",
+      "text": "Atropine Sulfate Ophthalmic Solution"
+    },
+    {
+      "id": "203220",
+      "fsn": "Betamethasone Sodium Phosphate 0.1% Ophthalmic Suspension",
+      "text": "Betamethasone Sodium Phosphate Eye Drops"
+    },
+    {
+      "id": "10395",
+      "fsn": "Tetracycline 0.1% Ophthalmic Ointment",
+      "text": "Tetracycline Ophthalmic Ointment"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "SNOMED_CT": [
+    {
+      "id": "42343007",
+      "fsn": "Congestive heart failure (disorder)",
+      "text": "Congestive heart failure (CHF)"
+    },
+    {
+      "id": "13645005",
+      "fsn": "Chronic obstructive pulmonary disease (disorder)",
+      "text": "Chronic obstructive pulmonary disease (COPD)"
+    },
+    {
+      "id": "53741008",
+      "fsn": "Coronary arteriosclerosis (disorder)",
+      "text": "Coronary arterial disease (CAD)"
+    },
+    {
+      "id": "19943007",
+      "fsn": "Liver cirrhosis (disorder)",
+      "text": "Liver cirrhosis"
+    },
+    {
+      "id": "399068003",
+      "fsn": "Malignant neoplasm of prostate (disorder)",
+      "text": "Malignant neoplasm of the prostate"
+    },
+    {
+      "id": "95566004",
+      "fsn": "Urolithiasis (disorder)",
+      "text": "Urolithiasis"
+    },
+    {
+      "id": "371093006",
+      "fsn": "Sepsis caused by infection of urinary tract (disorder)",
+      "text": "E. coli urosepsis"
+    },
+    {
+      "id": "31054009",
+      "fsn": "Calculus of ureter (disorder)",
+      "text": "Left upper third ureter stone"
+    },
+    {
+      "id": "416098002",
+      "fsn": "Drug allergy (disorder)",
+      "text": "Medication allergy"
+    },
+    {
+      "id": "102687007",
+      "fsn": "Prostate specific antigen test (procedure)",
+      "text": "PSA"
+    }
+  ],
+  "LOINC": [
+    {
+      "id": "26464-8",
+      "fsn": "Prostate specific antigen [Mass/volume] in Serum or Plasma by Immunoassay",
+      "text": "PSA"
+    },
+    {
+      "id": "33762-6",
+      "fsn": "Blood pressure systolic and diastolic",
+      "text": "Blood Pressure: 118/71 mmHg"
+    },
+    {
+      "id": "9279-1",
+      "fsn": "Respirations",
+      "text": "Respirations: 20/min"
+    },
+    {
+      "id": "8310-5",
+      "fsn": "Body temperature",
+      "text": "Body Temperature: 36.3°C"
+    }
+  ],
+  "RxNorm": [
+    {
+      "id": "1046801",
+      "fsn": "Flumarin 1 GM Injection",
+      "text": "Flumarin 1000 mg/vial"
+    },
+    {
+      "id": "1037170",
+      "fsn": "Ceftriaxone 500 MG Injection",
+      "text": "Cetazone 500 mg/vial"
+    },
+    {
+      "id": "7806",
+      "fsn": "Oxygen",
+      "text": "Oxygen Saturation: 100%"
+    },
+    {
+      "id": "2913",
+      "fsn": "creatinine",
+      "text": "creatinine"
+    }
+  ]
+}

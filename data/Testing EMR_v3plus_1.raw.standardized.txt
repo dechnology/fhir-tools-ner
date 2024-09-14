@@ -1,0 +1,89 @@
+**Clinical Encounter Synopsis**
+
+### Emergency Department Visit
+
+**Triage Information:**
+- **Triage Level:** 3
+- **Chief Complaint:** Fever since today (Onset: 12/23)
+- **Triage Staff:** Lin Yi-shan
+- **Vital Signs:** 
+  - Blood Pressure: 106/62 mmHg
+  - Pulse Rate: 111 bpm
+  - Respiratory Rate: 20/min
+  - Temperature: 38.8°C
+  - SpO2: 94%
+  - Blood Sugar: Not Available
+  - Pain Score: 0
+
+**Presenting Illness:**
+The patient reports fever up to 38.8°C starting today, accompanied by myalgia, mild cough with whitish sputum, and diarrhea. The patient denies sore throat, headache, chest pain, dyspnea, abdominal pain, nausea/vomiting, or urinary symptoms.
+
+**Past Medical History:**
+- Hyperuricemia
+- Colon cancer
+- Acute myeloid leukemia
+- Myelodysplastic syndrome
+- Gastroesophageal reflux disease
+- Gouty arthritis, right knee
+- Osteoporosis
+
+**Allergies:**
+- No known drug allergies
+
+**Physical Examination:**
+- Conscious, clear
+- No complications in head, chest, abdomen, extremities
+- No lymphadenopathy or heart murmurs
+
+**Admission Diagnosis:**
+1. Fever (R50.9)
+2. Acute leukemia (C95.00)
+3. Acute myeloblastic leukemia, not in remission (C92.00)
+
+**Discharge Diagnosis:**
+Remained unchanged from admission.
+
+**ED Treatment:**
+- Saline infusion
+- Feburic, Fasturtec, Hydrea, PARAMOL, Maxipime administered as per the dosage and schedule for the complaints reported.
+
+**Laboratory Orders:**
+- Blood cultures
+- CBC & platelet count
+- Urine and sputum culture
+- Multiple biochemical and serological tests to rule out infections and monitor electrolyte status.
+
+### Hospital Admission
+
+**Admission Diagnosis:**
+1. Fever of undetermined origin; suspect community-acquired pneumonia
+2. Suspected COPD
+3. Acute myeloid leukemia, with transformation from MDS/MPN
+4. Hyperuricemia and associated gout
+5. Known right knee infiltration
+6. Tumor lysis syndrome with acute kidney injury
+
+**Course and Treatment:**
+- Initiated low-dose Ara-C on 2/25.
+- Continued empirical Maxipime to control fever.
+- Managed tumor lysis syndrome with hydration and alkalinization.
+- Controlled new-onset atrial fibrillation with Cordarone.
+- Abdominal fullness treated with laxatives.
+- Brief episode of ileus managed with enema and bowel regimens.
+- Discharged with plans to continue Vidaza therapy post-discharge.
+
+**Discharge Medications:**
+- Cordarone, Hydrea, Febuxostat, Metoclopramide, Tamsulosin among others for symptom management.
+
+**Follow-up:**
+- Scheduled for outpatient follow-up on 03/14 and 07/20.
+
+**Significant Laboratory Findings:**
+- Persistent leukocytosis and blasts in peripheral blood smears.
+- Lab tests showed hyperbilirubinemia, rising creatinine, indicating renal impairment.
+
+**Imaging:**
+- Chest X-ray showed bilateral lung infiltration and cardiomegaly.
+- KUB indicated bowel gas suggestive of ileus.
+
+The patient was discharged in a stable condition for outpatient follow-up and further cancer treatments.

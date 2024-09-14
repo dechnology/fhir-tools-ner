@@ -1,0 +1,495 @@
+{
+  "SNOMED_CT": [
+    {
+      "raw_text_as_clues": [
+        "Hypertension"
+      ],
+      "implies_concepts_FSN": [
+        "Hypertensive disorder, systemic arterial (disorder)"
+      ],
+      "id": "38341003"
+    },
+    {
+      "raw_text_as_clues": [
+        "Diabetes mellitus"
+      ],
+      "implies_concepts_FSN": [
+        "Diabetes mellitus (disorder)"
+      ],
+      "id": "73211009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Anemia"
+      ],
+      "implies_concepts_FSN": [
+        "Anemia (disorder)"
+      ],
+      "id": "271737000"
+    },
+    {
+      "raw_text_as_clues": [
+        "ESRD"
+      ],
+      "implies_concepts_FSN": [
+        "End-stage renal disease stage 5 (disorder)"
+      ],
+      "id": "433146000"
+    },
+    {
+      "raw_text_as_clues": [
+        "Gastroesophageal reflux disease"
+      ],
+      "implies_concepts_FSN": [
+        "Gastroesophageal reflux disease (disorder)"
+      ],
+      "id": "235595009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hyperlipidemia"
+      ],
+      "implies_concepts_FSN": [
+        "Hyperlipidemia (disorder)"
+      ],
+      "id": "55822004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Fluid overload, suspect congestive heart failure"
+      ],
+      "implies_concepts_FSN": [
+        "Heart failure (disorder)"
+      ],
+      "id": "84114007"
+    },
+    {
+      "raw_text_as_clues": [
+        "Fluid overload, suspect congestive heart failure"
+      ],
+      "implies_concepts_FSN": [
+        "Fluid overload (disorder)"
+      ],
+      "id": "21639008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Sick sinus syndrome"
+      ],
+      "implies_concepts_FSN": [
+        "Sick sinus syndrome (disorder)"
+      ],
+      "id": "36083008"
+    },
+    {
+      "raw_text_as_clues": [
+        "CAD, 3-V-D"
+      ],
+      "implies_concepts_FSN": [
+        "Coronary artery disease (disorder)"
+      ],
+      "id": "53741008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Chronic renal failure (N18.9)"
+      ],
+      "implies_concepts_FSN": [
+        "Chronic renal failure (disorder)"
+      ],
+      "id": "431855005"
+    },
+    {
+      "raw_text_as_clues": [
+        "Congestive heart failure with acute decompensation"
+      ],
+      "implies_concepts_FSN": [
+        "Congestive heart failure (disorder)"
+      ],
+      "id": "207839009"
+    },
+    {
+      "raw_text_as_clues": [
+        "Coronary artery disease, 1-vessel-disease"
+      ],
+      "implies_concepts_FSN": [
+        "Single coronary artery disease (disorder)"
+      ],
+      "id": "435309007"
+    },
+    {
+      "raw_text_as_clues": [
+        "Diabetic ketoacidosis"
+      ],
+      "implies_concepts_FSN": [
+        "Diabetic ketoacidosis (disorder)"
+      ],
+      "id": "420422005"
+    },
+    {
+      "raw_text_as_clues": [
+        "Paroxysmal atrial fibrillation"
+      ],
+      "implies_concepts_FSN": [
+        "Paroxysmal atrial fibrillation (disorder)"
+      ],
+      "id": "282825002"
+    },
+    {
+      "raw_text_as_clues": [
+        "End stage renal disease"
+      ],
+      "implies_concepts_FSN": [
+        "End-stage renal disease stage 5 (disorder)"
+      ],
+      "id": "433146000"
+    },
+    {
+      "raw_text_as_clues": [
+        "Sick sinus syndrome"
+      ],
+      "implies_concepts_FSN": [
+        "Sick sinus syndrome (disorder)"
+      ],
+      "id": "36083008"
+    },
+    {
+      "raw_text_as_clues": [
+        "Myasthenia gravis"
+      ],
+      "implies_concepts_FSN": [
+        "Myasthenia gravis (disorder)"
+      ],
+      "id": "91637004"
+    },
+    {
+      "raw_text_as_clues": [
+        "Diabetes mellitus, type 2"
+      ],
+      "implies_concepts_FSN": [
+        "Type 2 diabetes mellitus (disorder)"
+      ],
+      "id": "44054006"
+    },
+    {
+      "raw_text_as_clues": [
+        "Hypertension"
+      ],
+      "implies_concepts_FSN": [
+        "Hypertensive disorder, systemic arterial (disorder)"
+      ],
+      "id": "38341003"
+    },
+    {
+      "raw_text_as_clues": [
+        "Severe pulmonary hypertension"
+      ],
+      "implies_concepts_FSN": [
+        "Severe pulmonary hypertension (disorder)"
+      ],
+      "id": "70995007"
+    },
+    {
+      "raw_text_as_clues": [
+        "Dyslipidemia"
+      ],
+      "implies_concepts_FSN": [
+        "Dyslipidemia (disorder)"
+      ],
+      "id": "370992007"
+    },
+    {
+      "raw_text_as_clues": [
+        "Left subclavian artery stenosis"
+      ],
+      "implies_concepts_FSN": [
+        "Stenosis of left subclavian artery (disorder)"
+      ],
+      "id": "31578001"
+    },
+    {
+      "raw_text_as_clues": [
+        "Left intertrochanteric fracture"
+      ],
+      "implies_concepts_FSN": [
+        "Intertrochanteric fracture of femur (disorder)"
+      ],
+      "id": "67651005"
+    },
+    {
+      "raw_text_as_clues": [
+        "Right tibial lateral plateau fracture"
+      ],
+      "implies_concepts_FSN": [
+        "Fracture of tibial plateau (disorder)"
+      ],
+      "id": "211475001"
+    },
+    {
+      "raw_text_as_clues": [
+        "Osteoporosis"
+      ],
+      "implies_concepts_FSN": [
+        "Osteoporosis (disorder)"
+      ],
+      "id": "64859006"
+    },
+    {
+      "raw_text_as_clues": [
+        "Bronchiolitis obliterans-organizing pneumonia"
+      ],
+      "implies_concepts_FSN": [
+        "Bronchiolitis obliterans organizing pneumonia (disorder)"
+      ],
+      "id": "68409003"
+    },
+    {
+      "raw_text_as_clues": [
+        "Pulmonic regurgitation"
+      ],
+      "implies_concepts_FSN": [
+        "Pulmonic valve regurgitation (disorder)"
+      ],
+      "id": "91434003"
+    }
+  ],
+  "LOINC": [
+    {
+      "raw_text_as_clues": [
+        "Blood Sugar"
+      ],
+      "implies_concepts_FSN": [
+        "Glucose [Mass/volume] in Blood"
+      ],
+      "id": "2339-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "Vital Signs",
+        "BP: 193/72 mmHg PR: 99/min SpO2: 92% Respirations: 20/min BT: 36.7 C"
+      ],
+      "implies_concepts_FSN": [
+        "Vital signs panel"
+      ],
+      "id": "85353-1"
+    },
+    {
+      "raw_text_as_clues": [
+        "Blood gas(急診自行檢驗)"
+      ],
+      "implies_concepts_FSN": [
+        "Blood gas (shared)"
+      ],
+      "id": "24336-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "CBC & platelet"
+      ],
+      "implies_concepts_FSN": [
+        "Complete blood count with platelets panel - Blood"
+      ],
+      "id": "67702-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "WBC Classification"
+      ],
+      "implies_concepts_FSN": [
+        "Leukocyte differential panel in Blood by Automated count"
+      ],
+      "id": "24357-6"
+    },
+    {
+      "raw_text_as_clues": [
+        "Blood Cultures"
+      ],
+      "implies_concepts_FSN": [
+        "Blood culture"
+      ],
+      "id": "600-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Creatinine"
+      ],
+      "implies_concepts_FSN": [
+        "Creatinine [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "2160-0"
+    },
+    {
+      "raw_text_as_clues": [
+        "GPT"
+      ],
+      "implies_concepts_FSN": [
+        "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      ],
+      "id": "1742-6"
+    },
+    {
+      "raw_text_as_clues": [
+        "PT"
+      ],
+      "implies_concepts_FSN": [
+        "Prothrombin time (PT)"
+      ],
+      "id": "5902-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "aP.T.T."
+      ],
+      "implies_concepts_FSN": [
+        "Partial thromboplastin time (PTT) - Blood by Coagulation assay"
+      ],
+      "id": "3173-2"
+    },
+    {
+      "raw_text_as_clues": [
+        "Lactic acid"
+      ],
+      "implies_concepts_FSN": [
+        "Lactate [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "2524-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Troponin-T"
+      ],
+      "implies_concepts_FSN": [
+        "Troponin T [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "6598-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Glucose（serum for ED）"
+      ],
+      "implies_concepts_FSN": [
+        "Glucose [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "2345-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Blood Ketone"
+      ],
+      "implies_concepts_FSN": [
+        "Beta-Hydroxybutyrate [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "29582-4"
+    },
+    {
+      "raw_text_as_clues": [
+        "CK (Creatine Kinase)"
+      ],
+      "implies_concepts_FSN": [
+        "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma"
+      ],
+      "id": "2157-6"
+    },
+    {
+      "raw_text_as_clues": [
+        "DL Gen Bio STM CK-MB"
+      ],
+      "implies_concepts_FSN": [
+        "Creatine kinase MB [Enzymatic activity/volume] in Serum or Plasma"
+      ],
+      "id": "13968-5"
+    },
+    {
+      "raw_text_as_clues": [
+        "Glucose measurement, serum"
+      ],
+      "implies_concepts_FSN": [
+        "Glucose [Mass/volume] in Serum or Plasma"
+      ],
+      "id": "2345-7"
+    },
+    {
+      "raw_text_as_clues": [
+        "Sputum Culture + Gram Stain"
+      ],
+      "implies_concepts_FSN": [
+        "Sputum bacterial culture and Gram stain"
+      ],
+      "id": "89691-2"
+    }
+  ],
+  "RxNorm": [
+    {
+      "raw_text_as_clues": [
+        "Bricanyl Neb Soln 2.5 mg/1 mL"
+      ],
+      "implies_concepts_FSN": [
+        "Terbutaline sulfate 2.5 MG/ML Inhalant Solution"
+      ],
+      "id": "151451"
+    },
+    {
+      "raw_text_as_clues": [
+        "Heparin (with preservative)"
+      ],
+      "implies_concepts_FSN": [
+        "Heparin Sodium"
+      ],
+      "id": "682032"
+    },
+    {
+      "raw_text_as_clues": [
+        "Millisrol 5 mg/10 mL /amp"
+      ],
+      "implies_concepts_FSN": [
+        "Isosorbide mononitrate 5 MG Intravenous Solution"
+      ],
+      "id": "310798"
+    },
+    {
+      "raw_text_as_clues": [
+        "Atrovent Neb Soln 250 mcg/1 mL"
+      ],
+      "implies_concepts_FSN": [
+        "Ipratropium 0.25 MG/ML Inhalant Solution"
+      ],
+      "id": "151390"
+    },
+    {
+      "raw_text_as_clues": [
+        "Humulin R 1000 U/10 mL /vial"
+      ],
+      "implies_concepts_FSN": [
+        "Insulin Regular Human 1000 UNT/10ML Injectable Solution"
+      ],
+      "id": "582620"
+    },
+    {
+      "raw_text_as_clues": [
+        "Cravit inj 250 mg/50 mL"
+      ],
+      "implies_concepts_FSN": [
+        "Levofloxacin 15 MG/ML Injection"
+      ],
+      "id": "573621"
+    },
+    {
+      "raw_text_as_clues": [
+        "Burinex Inj 2 mg/4 mL /amp"
+      ],
+      "implies_concepts_FSN": [
+        "Bumetanide 0.5 MG/ML Injection"
+      ],
+      "id": "25042"
+    },
+    {
+      "raw_text_as_clues": [
+        "Plavix 75 mg/tab"
+      ],
+      "implies_concepts_FSN": [
+        "Clopidogrel 75 MG Oral Tablet"
+      ],
+      "id": "301322"
+    }
+  ]
+}

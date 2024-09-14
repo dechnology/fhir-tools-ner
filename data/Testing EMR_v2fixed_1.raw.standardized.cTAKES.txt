@@ -1,0 +1,94 @@
+**Emergency Department De-identified Medical Record**
+
+**Triage Information**
+- Triage Level: 3
+- Computer Code: 3
+
+**Chief Complaint**
+- Fever since today (Computed Tomography since 12/23)
+- Determination: Fever/Chills, Fever (Appears Sick)
+
+**Past Medical History**
+- Elevated Uric Acid
+- Colon Cancer
+- Acute Myeloid Leukemia
+- Myelodysplastic Syndrome
+- Gastroesophageal Reflux Disease
+
+**Travel, Occupation, Contact, and Clustering (TOCC)**
+- Travel History: None
+- Cluster History: None
+- Special Occupation: None
+- Contact with Patients: None
+- Contact with Animals: None
+
+**Vital Signs**
+- Blood Pressure: 106/62 mmHg
+- Pulse Rate: 111/min
+- SpO2: 94%
+- Respiratory Rate: 20/min
+- Body Temperature: 38.8°C
+- Blood Sugar: Not Available
+- Pain Score: 0 (No Pain)
+- Acute Change: No
+- Consciousness: Clear
+
+**Special Instructions**
+- Patient or relatives have been informed that the emergency department is fully occupied, and a significant wait time is anticipated for bed and physician availability.
+
+**Arrival Method**
+- Wheelchair
+
+**Reason for Admission**
+- Illness
+
+**High-Risk Mechanism**
+- Not Applicable
+
+**Triage Staff**
+- Lin Yi-shan
+
+---
+
+**Emergency Department Visit Record**
+
+**Chief Complaint**
+- Fever since today (Computed Tomography since 12/23)
+
+**Past Medical History**
+- Elevated Uric Acid
+- Colon Cancer
+- Acute Myeloid Leukemia
+- Myelodysplastic Syndrome
+- Gastroesophageal Reflux Disease
+
+**Drug Allergies**: None reported
+
+**Travel History**: None
+- Special Occupation: None
+- Cluster Infection: None
+- Special Contact with Patients: None
+- Animal Contact: None
+
+**Present Illness**
+- Fever since today up to 38.8°C
+- Computed Tomography since 12/23, last Computed Tomography: 2/23
+- Symptoms: Myalgia, mild cough with whitish sputum, diarrhea (no tarry/bloody stool)
+- Denies: Sore throat, headache, chest pain, dyspnea, abdominal pain, nausea/vomiting, urinary symptoms (dysuria, frequency, urgency)
+
+**Physical Examination**
+- Consciousness: Clear
+- Vital Signs: Blood Pressure- 106/62 mmHg, Pulse Rate- 111/min, Respiratory Rate- 20/min, Temperature- 38.8°C, SpO2- 94%
+- Head: Normal scalp, unaffected throat, isocoric pupils
+- Eyes: Conjunctiva not pale, sclera anicteric
+- Neck: Supple, no jugular vein engorgement, no lymphadenopathy
+- Chest: Symmetric expansion, clear breath sound, no wheezing or crackles
+- Heart: Regular heart beat, no murmur
+- Abdomen: Soft, no muscle guarding, no rebounding pain
+- Bowel Sounds: Normal
+- Extremities: Normal
+
+
+==========cTAKES detection result==========
+
+{"sno_rx_16ab": {"Today": [{"code": null, "cui": "C0310367", "tui": "T195"}, {"code": null, "cui": "C0310367", "tui": "T109"}, {"code": null, "cui": "C0310367", "tui": "T109"}, {"code": null, "cui": "C0310367", "tui": "T195"}, {"code": null, "cui": "C0310367", "tui": "T195"}, {"code": null, "cui": "C0310367", "tui": "T109"}]}, "RXNORM": {"Uric Acid": [{"code": "1427088", "cui": "C0041980", "tui": "T123"}, {"code": "1427088", "cui": "C0041980", "tui": "T109"}, {"code": "1427088", "cui": "C0041980", "tui": "T123"}, {"code": "1427088", "cui": "C0041980", "tui": "T109"}]}, "SNOMEDCT_US": {"Uric Acid": [{"code": "1710001", "cui": "C0041980", "tui": "T109"}, {"code": "1710001", "cui": "C0041980", "tui": "T123"}, {"code": "1710001", "cui": "C0041980", "tui": "T109"}, {"code": "1710001", "cui": "C0041980", "tui": "T123"}], "Sugars": [{"code": "74801000", "cui": "C0242209", "tui": "T121"}, {"code": "74801000", "cui": "C0242209", "tui": "T109"}], "Pharmaceutical Preparations": [{"code": "105903003", "cui": "C0013227", "tui": "T121"}, {"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}], "Colon Carcinoma": [{"code": "269533000", "cui": "C0699790", "tui": "T191"}, {"code": "269533000", "cui": "C0699790", "tui": "T191"}], "Malignant tumor of colon": [{"code": "363406005", "cui": "C0007102", "tui": "T191"}, {"code": "363406005", "cui": "C0007102", "tui": "T191"}], "Malignant Neoplasms": [{"code": "363346000", "cui": "C0006826", "tui": "T191"}, {"code": "363346000", "cui": "C0006826", "tui": "T191"}], "Leukemia, Myelocytic, Acute": [{"code": "91861009", "cui": "C0023467", "tui": "T191"}, {"code": "17788007", "cui": "C0023467", "tui": "T191"}, {"code": "413443009", "cui": "C0023467", "tui": "T191"}, {"code": "413443009", "cui": "C0023467", "tui": "T191"}, {"code": "91861009", "cui": "C0023467", "tui": "T191"}, {"code": "17788007", "cui": "C0023467", "tui": "T191"}], "Myeloid Leukemia": [{"code": "37810007", "cui": "C0023470", "tui": "T191"}, {"code": "188732008", "cui": "C0023470", "tui": "T191"}, {"code": "188732008", "cui": "C0023470", "tui": "T191"}, {"code": "37810007", "cui": "C0023470", "tui": "T191"}], "leukemia": [{"code": "87163000", "cui": "C0023418", "tui": "T191"}, {"code": "93143009", "cui": "C0023418", "tui": "T191"}, {"code": "87163000", "cui": "C0023418", "tui": "T191"}, {"code": "93143009", "cui": "C0023418", "tui": "T191"}], "MYELODYSPLASTIC SYNDROME": [{"code": "128623006", "cui": "C3463824", "tui": "T191"}, {"code": "109995007", "cui": "C3463824", "tui": "T191"}, {"code": "188736006", "cui": "C3463824", "tui": "T191"}, {"code": "109995007", "cui": "C3463824", "tui": "T191"}, {"code": "188736006", "cui": "C3463824", "tui": "T191"}, {"code": "128623006", "cui": "C3463824", "tui": "T191"}], "Syndrome": [{"code": "64572001", "cui": "C0039082", "tui": "T047"}, {"code": "64572001", "cui": "C0039082", "tui": "T047"}], "Gastroesophageal reflux disease": [{"code": "698065002", "cui": "C0017168", "tui": "T047"}, {"code": "235595009", "cui": "C0017168", "tui": "T047"}, {"code": "235595009", "cui": "C0017168", "tui": "T047"}, {"code": "698065002", "cui": "C0017168", "tui": "T047"}], "Disease": [{"code": "64572001", "cui": "C0012634", "tui": "T047"}, {"code": "64572001", "cui": "C0012634", "tui": "T047"}], "Drug Allergy": [{"code": "416093006", "cui": "C0013182", "tui": "T047"}, {"code": "416098002", "cui": "C0013182", "tui": "T047"}], "Communicable Diseases": [{"code": "40733004", "cui": "C0009450", "tui": "T047"}, {"code": "189822004", "cui": "C0009450", "tui": "T047"}, {"code": "191415002", "cui": "C0009450", "tui": "T047"}], "Hyperemia": [{"code": "30098003", "cui": "C0020452", "tui": "T047"}], "Chief complaint (finding)": [{"code": "33962009", "cui": "C0277786", "tui": "T033"}, {"code": "409586006", "cui": "C0277786", "tui": "T033"}, {"code": "409586006", "cui": "C0277786", "tui": "T033"}, {"code": "33962009", "cui": "C0277786", "tui": "T033"}], "Fever": [{"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}, {"code": "386661006", "cui": "C0015967", "tui": "T033"}], "Chills": [{"code": "43724002", "cui": "C0085593", "tui": "T184"}], "Illness (finding)": [{"code": "39104002", "cui": "C0221423", "tui": "T184"}, {"code": "39104002", "cui": "C0221423", "tui": "T184"}, {"code": "39104002", "cui": "C0221423", "tui": "T184"}], "PMH - past medical history": [{"code": "417662000", "cui": "C0455458", "tui": "T033"}, {"code": "417662000", "cui": "C0455458", "tui": "T033"}], "Medical History": [{"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}], "Increased uric acid level": [{"code": "49099001", "cui": "C0041981", "tui": "T033"}, {"code": "49099001", "cui": "C0041981", "tui": "T033"}], "travel": [{"code": "129018004", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}, {"code": "129018004", "cui": "C0040802", "tui": "T056"}, {"code": "129018004", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}], "Physical findings": [{"code": "72670004", "cui": "C0311392", "tui": "T033"}, {"code": "72670004", "cui": "C0311392", "tui": "T033"}], "Blood Pressure": [{"code": "75367002", "cui": "C0005823", "tui": "T040"}, {"code": "75367002", "cui": "C0005823", "tui": "T040"}], "Pressure (finding)": [{"code": "13543005", "cui": "C0460139", "tui": "T033"}, {"code": "13543005", "cui": "C0460139", "tui": "T033"}], "Pain score": [{"code": "225908003", "cui": "C0582148", "tui": "T033"}], "Pain": [{"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}], "Absence of pain": [{"code": "81765008", "cui": "C0234225", "tui": "T033"}], "Conscious": [{"code": "106167005", "cui": "C0234421", "tui": "T041"}, {"code": "106167005", "cui": "C0234421", "tui": "T041"}], "Hypersensitivity": [{"code": "421961002", "cui": "C0020517", "tui": "T046"}, {"code": "418634005", "cui": "C0020517", "tui": "T046"}], "Myalgia": [{"code": "68962001", "cui": "C0231528", "tui": "T184"}], "Mild Adverse Event": [{"code": "446411000124101", "cui": "C1513302", "tui": "T033"}], "Coughing": [{"code": "272039006", "cui": "C0010200", "tui": "T184"}, {"code": "49727002", "cui": "C0010200", "tui": "T184"}, {"code": "263731006", "cui": "C0010200", "tui": "T184"}], "Diarrhea": [{"code": "267060006", "cui": "C0011991", "tui": "T184"}, {"code": "62315008", "cui": "C0011991", "tui": "T184"}], "Hematochezia": [{"code": "405729008", "cui": "C0018932", "tui": "T033"}, {"code": "236068001", "cui": "C0018932", "tui": "T033"}], "Sore Throat": [{"code": "162397003", "cui": "C0242429", "tui": "T184"}, {"code": "267102003", "cui": "C0242429", "tui": "T184"}], "Sore to touch": [{"code": "247348008", "cui": "C0234233", "tui": "T184"}, {"code": "71393004", "cui": "C0234233", "tui": "T184"}], "Headache": [{"code": "25064002", "cui": "C0018681", "tui": "T184"}], "Chest Pain": [{"code": "29857009", "cui": "C0008031", "tui": "T184"}], "Dyspnea": [{"code": "230145002", "cui": "C0013404", "tui": "T184"}, {"code": "267036007", "cui": "C0013404", "tui": "T184"}], "Abdominal Pain": [{"code": "21522001", "cui": "C0000737", "tui": "T184"}], "Nausea and vomiting": [{"code": "16932000", "cui": "C0027498", "tui": "T184"}], "Nausea": [{"code": "422587007", "cui": "C0027497", "tui": "T184"}], "Vomiting": [{"code": "422400008", "cui": "C0042963", "tui": "T184"}, {"code": "300359004", "cui": "C0042963", "tui": "T184"}, {"code": "249497008", "cui": "C0042963", "tui": "T184"}], "Urinary symptoms": [{"code": "249274008", "cui": "C0426359", "tui": "T184"}], "Dysuria": [{"code": "49650001", "cui": "C0013428", "tui": "T184"}], "Gait normal": [{"code": "8117002", "cui": "C0231683", "tui": "T033"}, {"code": "8117002", "cui": "C0231683", "tui": "T033"}, {"code": "8117002", "cui": "C0231683", "tui": "T033"}], "Skin appearance normal (finding)": [{"code": "225544001", "cui": "C0558145", "tui": "T033"}, {"code": "225544001", "cui": "C0558145", "tui": "T033"}, {"code": "225544001", "cui": "C0558145", "tui": "T033"}], "Pallor": [{"code": "398979000", "cui": "C0030232", "tui": "T033"}], "Anicteric": [{"code": "2867002", "cui": "C0205180", "tui": "T033"}], "Venous Engorgement": [{"code": "8804002", "cui": "C0042484", "tui": "T046"}], "Lymphadenopathy absent": [{"code": "274621000", "cui": "C0558762", "tui": "T033"}], "Lymphadenopathy": [{"code": "30746006", "cui": "C0497156", "tui": "T033"}], "Symmetrical": [{"code": "255473004", "cui": "C0332516", "tui": "T033"}, {"code": "18772005", "cui": "C0332516", "tui": "T033"}], "Wheezing": [{"code": "56018004", "cui": "C0043144", "tui": "T184"}], "Rales": [{"code": "48409008", "cui": "C0034642", "tui": "T033"}], "Heart beat": [{"code": "248646004", "cui": "C0425583", "tui": "T042"}], "Heart murmur": [{"code": "421493004", "cui": "C0018808", "tui": "T033"}, {"code": "88610006", "cui": "C0018808", "tui": "T033"}, {"code": "414786004", "cui": "C0018808", "tui": "T033"}], "Protective muscle spasm": [{"code": "250072004", "cui": "C0427198", "tui": "T033"}], "Bowel sounds": [{"code": "87042004", "cui": "C0232693", "tui": "T033"}, {"code": "413681009", "cui": "C0232693", "tui": "T033"}], "Triage": [{"code": "225390008", "cui": "C0040861", "tui": "T061"}, {"code": "225390008", "cui": "C0040861", "tui": "T061"}, {"code": "225390008", "cui": "C0040861", "tui": "T061"}], "tomography": [{"code": "36004004", "cui": "C0040395", "tui": "T060"}, {"code": "371575001", "cui": "C0040395", "tui": "T060"}, {"code": "399035005", "cui": "C0040395", "tui": "T060"}, {"code": "371575001", "cui": "C0040395", "tui": "T060"}, {"code": "399035005", "cui": "C0040395", "tui": "T060"}, {"code": "36004004", "cui": "C0040395", "tui": "T060"}, {"code": "371575001", "cui": "C0040395", "tui": "T060"}, {"code": "399035005", "cui": "C0040395", "tui": "T060"}, {"code": "36004004", "cui": "C0040395", "tui": "T060"}, {"code": "36004004", "cui": "C0040395", "tui": "T060"}, {"code": "371575001", "cui": "C0040395", "tui": "T060"}, {"code": "399035005", "cui": "C0040395", "tui": "T060"}], "Blood glucose measurement": [{"code": "33747003", "cui": "C0392201", "tui": "T059"}], "Colon structure (body structure)": [{"code": "71854001", "cui": "C0009368", "tui": "T023"}, {"code": "263977005", "cui": "C0009368", "tui": "T023"}, {"code": "263977005", "cui": "C0009368", "tui": "T023"}, {"code": "71854001", "cui": "C0009368", "tui": "T023"}], "Blood": [{"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}], "Pharyngeal structure": [{"code": "54066008", "cui": "C0031354", "tui": "T023"}, {"code": "54066008", "cui": "C0031354", "tui": "T023"}], "Chest": [{"code": "51185008", "cui": "C0817096", "tui": "T029"}, {"code": "261179002", "cui": "C0817096", "tui": "T029"}, {"code": "261179002", "cui": "C0817096", "tui": "T029"}, {"code": "51185008", "cui": "C0817096", "tui": "T029"}], "Abdomen": [{"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "277112006", "cui": "C0000726", "tui": "T029"}, {"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "277112006", "cui": "C0000726", "tui": "T029"}], "Head": [{"code": "69536005", "cui": "C0018670", "tui": "T029"}], "Scalp structure": [{"code": "41695006", "cui": "C0036270", "tui": "T023"}], "Pupil": [{"code": "392406005", "cui": "C0034121", "tui": "T023"}], "Eye": [{"code": "371398005", "cui": "C0015392", "tui": "T023"}, {"code": "81745001", "cui": "C0015392", "tui": "T023"}], "conjunctiva": [{"code": "29445007", "cui": "C0009758", "tui": "T023"}], "Sclera": [{"code": "18619003", "cui": "C0036410", "tui": "T023"}], "Neck": [{"code": "45048000", "cui": "C0027530", "tui": "T029"}], "Structure of jugular vein": [{"code": "63190004", "cui": "C0022427", "tui": "T023"}], "Veins": [{"code": "29092000", "cui": "C0042449", "tui": "T023"}], "Heart": [{"code": "80891009", "cui": "C0018787", "tui": "T023"}, {"code": "80891009", "cui": "C0018787", "tui": "T023"}], "Muscle": [{"code": "91727004", "cui": "C0026845", "tui": "T024"}, {"code": "71616004", "cui": "C0026845", "tui": "T024"}], "Intestines": [{"code": "113276009", "cui": "C0021853", "tui": "T023"}, {"code": "261093006", "cui": "C0021853", "tui": "T023"}, {"code": "256876008", "cui": "C0021853", "tui": "T023"}], "Limb structure": [{"code": "66019005", "cui": "C0015385", "tui": "T023"}]}}

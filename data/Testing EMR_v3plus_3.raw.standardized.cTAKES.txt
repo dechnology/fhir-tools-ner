@@ -1,0 +1,481 @@
+==========sqe==========
+
+4085
+
+==========急診去辨識病歷==========
+
+檢傷內容
+檢傷級數: 3 電腦分級: 3
+Chief Complaint:
+解尿困難,雙側腰痠痛
+判定依據: 腰痛 急性中樞中度疼痛(4-7)
+Past History:
+門:Colon cancer,門:Prostate cancer,門:Congestive heart failure (CHF),門:Chronic obstructive pulmonary disease (COPD),門:Coronary arterial disease (CAD),門:Liver cirrhosis
+TOCC :
+旅遊史: 無 群聚史: 無 特殊職業: 無 接觸病患:無 接觸動物:無
+Vital Signs:
+BP: 118/71 mmHg PR: 99/min SpO2: 100% Respirations: 20/min BT: 36.3 C Blood Sugar: NAmg/dl 疼痛指數:7 持續時間:持續痛 部位:兩側腰 性質: 酸痛 急性改變:N 意識清
+特殊事項: ※已告知病人或其親友本急診現為滿床通報中，可能需相當時間等待推床以及醫師看診。
+來診方式: 自行步入 入院原因: 疾病
+高危險機轉:NA
+檢傷人員:蘇信宇
+急診來診病歷
+ChiefCompliant:
+解尿困難,雙側腰痠痛
+PastHistory:
+門:Colon cancer,門:Prostate cancer,門:Congestive heart failure (CHF),門:Chronic obstructive pulmonary disease (COPD),門:Coronary arterial disease (CAD),門:Liver cirrhosis
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+旅遊史: 無
+特殊職業: 無, 群聚感染: 無, 特殊病患接觸: 無, 動物接觸: 無,
+PresentIllness:
+fever, bilateral flank pain, dysuria for one weeks
+just discharge from 苗栗大千 hospital due to Urosepsis (E.coli bactermia, wide type) s/p abx
+CT showed left renal stone and left upper third ureteral stone
+bilateral knocking pain(+)
+PH: prostate ca regular follow up at Dr.蒲永孝's OPD
+Physical Exam:
+Consciousness: Clear , E: 4, V: 5, M: 6
+Vital signs: Blood Pressure: 118/71mmHg, Pulse Rate: 99/min,
+Respiratory Rate: 20/min, Temperature: 36.3℃, SPO2: 100％
+Head: Scalp: Normal
+Pupils: Isocoric
+Conjunctiva: Not Pale Sclera: Anicteric
+Neck: Supple Jugular Vein Engorgement: - Lymphadenopathy: -
+Chest: Symmetric expansion, Breath sound: Clear
+Heart: Regular Heart Beat, Murmur: -
+Abdomen: Soft, bilateral knocking pain(+)
+Bowel sound: Normal
+Extremities: Normal
+診斷內容
+入院診斷
+Urolithiasis (N20.9)
+Malignant neoplasm of prostate (C61)
+出院診斷
+Urolithiasis (N20.9)
+Malignant neoplasm of prostate (C61)
+急診處方內容
+組合商品名	(Date, Dose, Frequency, UseDays)
+Flumarin 1000 mg/vial	(20170224, 1000 mg, Q12H, 0days)
+Cetazone 500 mg/vial	(20170224, 1000 mg, STAT, 1day)
+袋 Saline (NK) inj 0.9% 500 mL/bag (常備藥)	(20170224, 500 mL, QD, 0days)
+醫師醫令
+Blood Cultures, Blood Cultures, Multistix (STAT), Sediment (STAT), Urine culture, (備血單 1868956) ABO Blood Type (NewLis), (備血單 1868956) Rh blood Type (NewLis), (備血單 1868956) Antibody (Ab) screening (NewLis), PSA, Urine cytology, Urine cytology, Urine cytology, AST (GOT), Bilirubin-T, CBC & platelet, WBC Classification, Creatinine, Na, K, GPT, PT(STAT), aP.T.T.(STAT), BUN(Blood)(STAT),
+Requesting CT Film and Report, Chest: PA View (Standing), Abdomen: KUB,
+醫師醫囑
+備 (1868923) Packed RBC * 2 U 慢速輸注 (適用於老年人，心肺功能不佳者等情形), 電話聯絡Uro科照會醫師R:連繼志(簡碼:51908), 照會 泌尿部(泌尿部), 備 (1868956) Packed RBC * 2 U 慢速輸注 (適用於老年人，心肺功能不佳者等情形), 預入暫留床位: M52, 預入暫留床位: U09, On Foley cathteter, 預入暫留床位: M23, 電話聯絡Uro 科照會醫師 顧明軒 (0922923629), 住院配床, 住院 Admission,
+
+
+==========住院去辨識病歷==========
+
+入院診斷(Admission Diagnosis)
+(1)Left upper third ureter stone, complicated with wild-typed Escherichia coli urosepsis
+(2)Prostate cancer, adenocarcinoma, Gleason score 3+4=7, iPSA 45.88, DRE(-), cT3aN0M0 (by MRI), s/p cryoablation therapy on 2012/09/20, no evidence of recurrence (latest PSA 0.217 ng/ml in 2017-02)
+(3)Sigmoid colon, adenocarcinoma, T3a/bN0M0, s/p LAR on 2008/01/23.
+(4)Alcoholism, Chronic hepatitis B and C with liver cirrhosis, Child B.
+(5)Chronic kidney disease
+(6)Chronic obstructive pulmonary disease (COPD)
+(7)Right inguinal hernia, adult, status post repair
+(8)Coronary arterial disease, with no stent placement history
+(9)Urethral stricture, status post cystoscopy on 2015/7/30
+出院診斷(Discharge Diagnosis)
+(1)Left upper third ureter stone, complicated with wild-typed Escherichia coli urosepsis,
+status post ureterorenoscopic stone management on 2017/2/27 with ureter stent placement over left ureter
+(2)Prostate cancer, adenocarcinoma, Gleason score 3+4=7, iPSA 45.88, DRE(-), cT3aN0M0 (by MRI), s/p cryoablation therapy on 2012/09/20, no evidence of recurrence (latest PSA 0.217 ng/ml in 2017-02)
+(3)Sigmoid colon, adenocarcinoma, T3a/bN0M0, s/p LAR on 2008/01/23.
+(4)Alcoholism, Chronic hepatitis B and C with liver cirrhosis, Child B.
+(5)Chronic kidney disease
+(6)Chronic obstructive pulmonary disease (COPD)
+(7)Right inguinal hernia, adult, status post repair
+(8)Coronary arterial disease, with no stent placement history
+(9)Urethral stricture, status post cystoscopy on 2015/7/30
+轉出加護病房診斷(Diagnosis for ICU)
+Nil
+主訴(Chief Complaint)
+Informant:patient
+Against advice discharge from 苗栗大千Hospital, fur further management of left ureter stone
+Informant:patient and EMR
+病史(Patient History)
+This is a 71-year-old man who has a medical history of:
+(1)Prostate cancer, adenocarcinoma, Gleason score 3+4=7, iPSA 45.88, DRE(-), cT3aN0M0 (by MRI), s/p cryoablation therapy on 2012/09/20, no evidence of recurrence (latest PSA 0.217 ng/ml in 2017-02)
+(2)Sigmoid colon, adenocarcinoma, T3a/bN0M0, s/p LAR on 2008/01/23.
+(3)Alcoholism, Chronic hepatitis B and C with liver cirrhosis, Child B.
+(4)Chronic kidney disease
+(5)Chronic obstructive pulmonary disease (COPD)
+(6)Right inguinal hernia, adult, status post repair
+(7)Coronary arterial disease, with no stent placement history
+(8)Urethral stricture, status post cystoscopy on 2015/7/30
+
+In 2012, the patient noticed gradual onset of urination difficulty, and visited Urology clinic at NTUH for help. The PSA level at his first visit was 45.88 ng/ml. TRUS-P biopsy (2012.6.11) showed adenocarcinoma Gleason 3+4 (right) and 3+3 (left). Bone scan showed no metastasis. MRI showed multiple prostate lesions at both lobes with capsule invasion, cT3aNOMO, suspected intravesical growth or invasion. Biopsy of seminal vesicle showed no tumor invasion. Cystoscopey showed no urethra or bladder invasion. Thus, he received cryotherapy on 2012/09/20. PSA level decreased from 45.88 ng/ml to around 0.2 ng/ml after cryotherapy. His PSA level on 2015/07/03 was 0.29 ng/mL. However, miction pain, weak stream, incomplete voiding, nocturia, hematuria were noted by the patient after cyrotherapy. He was admitted several times between 2012/09/20 to 2013/06/12 due to prostate sloughing, epididymitis and prostatitis. He also received cystoscopy and bougie several times. He received TUR-BN twice due to miction pain, weak stream and nocturia (about Q1H) on 2013/06/12 and 2013/07/18. He also developed right inguinal hernia and received right herniorrhaphy on 2013/07/18. After TUR-BN, nocturia, urine flow decrease and voiding difficulty was still complained of due to tight sphincter. He was admitted in 2015 after transient insertion of foley catheter, which did not relieve his symptoms. The patient received cystoscopy on 2015/03/10, and 2015/07/30, all of which showed no significant findings. He was taught to do ICP when there was persistent retention. He was later under our Uro OPD follow-up. PSA level remained 0.2~0.33 ng/ml with no evidence of disease recurrence.
+
+This time, general weakness with chills sensation developed since 2017/2/13 for 3 days. He was brought to 苗栗大千 Hospital. No fever was noted at ER. Lab data showed WBC: 10280 (Seg 88.0%), CRP 11.5. Urine routine was WBC>50/HPF, bacteria 2+. CT showed liver cirrhosis with ascites. Due to suspected intra-abdominal infection, he was sent to ICU there for further care. However, survey later showed no evidence of spontaneous bacterial peritonitis (ascites: WBC:56, seg: 75%, PMN:42). Urine culture and blood culture all growed wild-typed Escherichia coli later. CT showed left upper third ureter stone. After antibiotics treatment for 9 days, sepsis subsided. Further management toward left ureter stone was suggested. The family decided to transfer to our hospital for further management. He was then brought to our ER.
+
+At our ER, no fever was noted. Physical examination showed distended abdomen with no tenderness or CV angle knocking pain. DRE showed no palpable prostate. Lab data showed WBC:4 460 (seg:75.6%), Cr: 1.1 mg/dL. Renal echo showed left mild hydronephrosis, with massive ascites; PVR > 100 ml. Urine routine showed WBC: 20-35/HPF. Under the impression of left ureter stone complicated with urosepsis, he was admitted for further management.
+
+
+Family History:
+Medication Allergy:No 親屬描述 2014/12/28
+No 病人自述 2017/02/25
+No 病人自述 2013/06/12
+No 病人自述 2013/07/17
+No 病人自述 2015/07/29
+No 親屬描述 2012/04/26
+No 病人自述 2013/03/13
+Medication ADR:unknown
+Allergy to Medical Device and Materials:No 親屬描述 2014/12/28
+No 病人自述 2017/02/25
+No 病人自述 2013/06/12
+No 病人自述 2013/07/17
+No 病人自述 2015/07/29
+No 病人自述 2013/03/13
+Current Medication:
+NTUH:Cetazone 500 mg/vial 1000 mg STAT IV 1 days
+Flumarin 1000 mg/vial 1000 mg Q12H IV 2 days
+HARNALIDGE D 0.2 mg/tab 1 tab QD LZ 28 days
+Beesix (VIT.B6) 50 mg/tab 1 tab QD PO 28 days
+自費 Proheparum /tab 1 tab QD PO 84 days
+自費 Biofermin-R Powder 6 mg/1 g /pack 1 pack TIDPC PO 84 days
+可 COZAAR 50 mg/tab 0.5 tab QD PO 28 days
+Herbesser 30 mg/tab 1 tab BID PO 28 days
+Phyllocontin Continus 225 mg/tab 1 tab BID PO 28 days
+Meptin 25 mcg/tab 1 tab BID PO 28 days
+Lasix 40 mg/tab 0.5 tab QD PO 28 days
+HARNALIDGE D 0.2 mg/tab 1 tab QD LZ 28 days
+Beesix (VIT.B6) 50 mg/tab 1 tab QD PO 28 days
+Lasix 40 mg/tab 0.5 tab QD PO 28 days
+Other:
+中草藥:nil
+保健食品:nil
+Past Medical History:
+Hospitalization:入院日期:2015_07_29 出院日期:2015_07_31 診斷:Prostate cancer
+入院日期:2015_03_10 出院日期:2015_03_11 診斷:Prostate cancer
+
+Past Surgical History:2015_03_10 Cystoscopy
+2015_07_30 Cystoscopy
+Travel History:
+
+Birth History(for pediatric patients):
+Vaccination History:
+Growth and Development History:
+Maternal History(2y/o):
+Family History: no related GU cancer history
+Medication Allergy:No
+Medication ADR:unknown
+Allergy to Medical Device and Materials:unknown
+Current Medication:
+NTUH: nil
+Other: nil
+中草藥: nil
+保健食品: nil
+Hospitalization: as above
+
+Past Surgical History: as above
+Travel History: denied
+身體診查(Physical Examination)
+入院時之身體檢查(Physical Examination at admission)
+BH: 152.4 cm, BW: 55.3 kg,
+T: 36.2 °C, P: 71 bpm, R: 18 /min,
+BP: 117 / 68 mmHg,
+Pain score: 0 ,
+
+Neurological Examination:
+. Consciousness:
+. Muscle power:
+. Gait:
+
+T:37 P:98 R:17
+BP:129/95 mmHg
+Pain:0
+
+1. Neurological examination:
+Consciousness: clear and oriented,
+Gait: stable
+Muscle power: bilateral full
+2. Vital sign : stable
+3. Conjuctiva.: pink, Sclera: bilateral anicteric
+4. Neck: no jugular vein engorgement, no goiter,
+5. Chest: Symmetric expansion, no deformity
+Breathing sound : bilateral clear, no wheezing
+Regular heart beat, No audiable cardiac murmur
+6. Abdomen: distended, Normoactive bowel sound, No tenderness
+7. Extremities: Warm, no leg edema, no cyanosis,
+8. Skin: no petechiae, no purpura, no rash
+轉出/出院時明顯的身體檢查改變(Evident Transfer/Discharge Change of Physical Findings) nil
+手術(Operation)
+Operation Date: 2017/02/27手術醫師: 蒲永孝
+Pre-operative Diagnosis:
+1. Left upper ureteral stone with hydronephrosis
+2. Prostate adenocarcinoma, Gleason score 3+4=7, iPSA 45.88, cT3aN0M0, s/p cryoablation therapy
+Post-operative Diagnosis:
+1. Left upper ureteral stone with hydronephrosis
+2. Prostate adenocarcinoma, Gleason score 3+4=7, iPSA 45.88, cT3aN0M0, s/p cryoablation therapy
+Operative Method:
+Left URS-SM with Lt DBJ stenting
+Operative Findings:
+1. A yellowish stone obstructed at left upper ureter with hydronephrosis; the stone was crushed by Holmium Laser(Energy:1J, Frequency:8/s)
+2. Left UVJ and left middle ureter stricture; left middle ureter was pin hole stricture.
+3. A Fr.6-20cm DBJ catheter was inserted to upper ureter.
+4. Very tortuous upper ureter found during operation
+住院治療經過(Course and Treatment)
+After admission, antibiotics with Cefazolin was used. Ureterorenoscopic stone managemenet was performed smoothly on 2017/2/27. Fever gradually subsided after antibiotics use. Urine culture growed Enterococcus faecium, so antibiotic was shift to Unasyn on 03/03. During lab data work-up, severe hypoalbuminemia of 1.8 g/dL, with deteriorated creatinine level of 2.0 mg/dL ( r/o intravascular volume depletion due to diuretic use for ascites and hypoalbuminemia). Albumin supplement was given on 03/02 to 03/05. Albumin level then increased to 2.6g/dL on 03/05 as well as creatinine level decreased to 1.0 mg/dL. Under stable condition, the patient was discharged and would be followed up at our OPD. Left ureter stent will be arranged at our OPD.
+住院用藥摘要:
+Ciprofloxacin HCl, Flomoxef Sodium, Ledipasvir 90mg, Sofosbuvir 400 mg, Ribavirin, Cefazolin Sodium, Cefuroxime Sodium, Ampicillin 1000 mg, Sulbactam 500 mg, Diltiazem HCl, Furosemide, Losartan Potassium, Tamsulosin HCl, Spironolactone, Albumin, Dextrose and Electrolyte Solution, Liver Hydrolysate Compound, Pyridoxine HCl, Dextrose Monohydrate, NaCl, Acetaminophen, Antibiotics-Resistant Lactic Acid Bacteriae, Bisacodyl, Magnesium Oxide, Pantoprazole Sodium, Methylprednisolone Sodium Succinate, Aminophylline, Procaterol HCl, Acetylcysteine, Ipratropium Bromide, Terbutaline Sulfate, Ipratropium Bromide, 0.5mg Salbutamol (Sulfate)
+抗癌藥品治療副作用 (化療) 無副作用
+(標靶)
+AST/ALT elevation : 2017/2/27 AST 34 U/L, Gr.1
+(免疫)
+AST/ALT elevation : 2017/2/27 AST 34 U/L, Gr.1
+
+
+==========檢驗紀錄==========
+
+檢驗紀錄(Laboratory Report)
+*********檢驗室:RL***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060227 [2026] 8.78          3.27          9.5           28.9          88.4         
+1060302 [0955] 11.29         3.37          9.8           29.3          86.9         
+1060305 [0559] 4.24          3.17          9.3           28.0          88.3         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060227 [2026] 29.1          32.9          124           15.3          -            
+1060302 [0955] 29.1          33.4          123           15.1          -            
+1060305 [0559] 29.3          33.2          116           14.9          -            
+群組:WBC Classification
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060227 [2026] 0.0           0.0           0.0           0.0           0.0          
+1060302 [0955] 0.0           0.0           0.0           0.0           0.0          
+1060305 [0559] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060227 [2026] 92.4          0.1           0.1           3.8           3.6          
+1060302 [0955] 86.1          0.3           0.1           8.1           5.4          
+1060305 [0559] 74.5          0.5           0.0           9.7           15.3         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060227 [2026] 0.0           0.0           0             -            
+1060302 [0955] 0.0           0.0           0             -            
+1060305 [0559] 0.0           0.0           0             -            
+群組:Biochemistry
+
+               BUN           CRE           Na            K             Ca           
+time/item      (mg/dL)       (mg/dL)       (mmol/L)      (mmol/L)      (mmol/L)     
+1060227 [2026] 10.4          1.3           134           3.8                        
+1060302 [0955] 24.3          2.0           131           3.4           1.76         
+1060305 [0559]               1.0           137           3.5                        
+               AST          
+time/item      (U/L)        
+1060227 [2026] 34           
+1060302 [0955]              
+1060305 [0559]              
+群組:General BioChemistry
+
+               ALB          
+time/item      (g/dL)       
+1060302 [0955] 1.8          
+1060305 [0559] 2.6          
+群組:Yes
+
+               hsCRP        
+time/item      (mg/dL)      
+1060302 [0955] 11.32        
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060227 [2026] 57.7         
+1060302 [0955] 35.1         
+1060305 [0559] 78.1         
+*********檢驗室:B2***********
+B2-1060227-7036976   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060227-7036973   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+
+*********檢驗室:B3***********
+B3-1060227-7036977   RANDOM URINE
+     ID+DS Urine #1:       No aerobic  pathogen
+
+B3-1060302-2091719   SPUTUM (EXPECTORATED)
+     Gram's(GS)#1:       Many PMNs ( >25 /LPF )
+     Gram's(GS)#2:       Many epithelial cells ( >25 /LPF )
+     Gram's(GS)#3:       Gram (+) rods 3+
+     ID+DS Sputum Culture #1:       Mixed flora
+     Gram's(GS)#4:       Gram (+) cocci 2+
+     Gram's(GS)#5:       痰檢體品質不良建議重新送檢
+
+B3-1060303-3017087   SPUTUM (EXPECTORATED)
+     Gram's(GS)#1:       Many PMNs ( >25 /LPF )
+     Gram's(GS)#2:       Many epithelial cells ( >25 /LPF )
+     Gram's(GS)#3:       Gram (+) rods 2+
+     ID+DS Sputum Culture #1:       Mixed flora
+     Gram's(GS)#4:       Gram (+) cocci in chains 2+
+     Gram's(GS)#5:       Gram (-) cocci,  痰檢體品質不良建議重新送檢 1+
+
+
+*********檢驗室:RL***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060224 [1528] 4.46          3.66          10.7          32.6          89.1         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060224 [1528] 29.2          32.8          206           15.5          -            
+群組:WBC Classification
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1528] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1528] 75.6          1.3           0.2           8.1           14.8         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060224 [1528] 0.0           0.0           0             -            
+群組:Coagulation
+
+               PT            PTT           PT INR       
+time/item      (sec)         (sec)         ()           
+1060224 [1528] 12.6          31.9          1.17         
+群組:Biochemistry
+
+               BUN           CRE           Na            K             T-BIL        
+time/item      (mg/dL)       (mg/dL)       (mmol/L)      (mmol/L)      (mg/dL)      
+1060224 [1528] 14.3          1.1           134           5.2                        
+1060224 [1558]                                                         1.13         
+               AST          
+time/item      (U/L)        
+1060224 [1528]              
+1060224 [1558] 70           
+群組:General BioChemistry
+
+               ALT          
+time/item      (U/L)        
+1060224 [1528] 24           
+群組:MULTISTIX
+
+               Sp. Gr.(C)    pH(C)         Protein(C)    Glu.(C)       Ketones(C)   
+time/item      (*)           (*)           (mg/dL)       (mg/dL)       (*)          
+1060224 [1727] 1.007         6.0           -             -             -            
+               O.B.(C)       Urobil.(C)    Bil.(C)       Nitrite(C)    WBC(C)       
+time/item      (*)           (mg/dL)       (*)           (*)           (*)          
+1060224 [1727] 2+            ≦1.5          -             -             2+           
+               Color         Turbidity    
+time/item      (*)           (*)          
+1060224 [1727] Light Yellow  -                          
+群組:SEDIMENT
+
+               RBC(S)        WBC(S)        EpithCell(S)  Cast(S)       Crystal(S)                 
+time/item      (/HPF)        (/HPF)        (/HPF)        (/LPF)        (*)          
+1060224 [1727] 10-20         20-35         0-2           -             -            
+               Bacteria      Others(S)    
+time/item      (*)           (*)          
+1060224 [1727] -             -            
+群組:
+
+               eGFR          Mucus(S)     
+time/item      (mL/min/1.73  (*)          
+                m^2)                      
+1060224 [1528] 69.9                       
+1060224 [1727]               -            
+*********檢驗室:CY***********
+
+群組:Yes
+
+               Specimen Ade  Urine Cytolo 
+               quacy         gy           
+time/item      (*)           (*)          
+1060224 [1918] Satisfactory  Negative for 
+                for evaluat   malignant c 
+               ion           ells         
+1060225 [0431] Satisfactory  Atypia of un 
+                for evaluat  determined s 
+               ion           ignificance  
+*********檢驗室:B2***********
+B2-1060224-4098557   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060224-4098556   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+
+*********檢驗室:B3***********
+B3-1060224-4098562   RANDOM URINE
+     ID+DS Urine #1:       No aerobic  pathogen
+
+
+*********檢驗室:SF***********
+
+群組:Yes
+
+               Serum PSA    
+time/item      (ng/mL)      
+1060224 [1558] 0.217        
+*********檢驗室:BK***********
+
+群組:Blood Type
+
+               ABO Typing    RH Typing    
+time/item      (*)           (*)          
+1060224 [1528] O             Positive     
+群組:Yes
+
+               antibody scr 
+               een(New Lis)               
+time/item      (*)          
+1060224 [1528] Negative
+檢查紀錄(Examination Report)
+nil
+影像報告(Imaging Report)
+2017/02/26 Chest : PA View (Standing) Chart No: 5268432
+Accession No: T0172269427
+EXAMINATION: Chest - PA View (Standing).
+FINDINGS:
+Normal heart size. Calcification(s) of aorta. Bilateral increased interstitial infiltration. Previous fracture at left rib(s). Degenerative change of the thoracolumbar spine. Postoperative changes of spine. Suggest clinical correlation.
+2017/02/27 Abdomen:KUB S/P DBJ on left side of abdomen. Segmental dilated small bowel loops at central abdomen, ileus is suspected. Mild increased desnity of abdomen, ascites is suspected. compression fracture at L1 vertebra, S/P metallic fixation at T12-L2.
+轉出/出院情況(Transfer/Discharge Status)
+治療出院 治癒
+病理報告(Pathology Report)
+nil
+轉出/出院指示(Follow-up Instructions & Medications)
+病人活動限制：建議多休息
+飲食注意事項：請勿飲酒或避免飲用過量咖啡及茶，並請定期門診追蹤
+其他指示：請依預約日期返院門診
+Acetylcysteine【Actein Effervescent Tablet 600 mg/tab】 1 tab PO BID 出院藥天數7天
+Magnesium Oxide【MgO 250 mg/tab 限住院藥局用】 1 tab PO QID 出院藥天數7天
+Spironolactone【Aldactone 25 mg/tab】 1 tab PO BIDPC 出院藥天數7天
+Liver Hydrolysate Compound【自費 Proheparum /tab】 1 tab PO QD 出院藥天數7天 自費
+Amoxicillin 875 mg, Clavulanate Potassium 125mg【Augmentin 1 g/tab】 1 tab PO BID 出院藥天數7天
+自備藥【HARNALIDGE D 0.2 mg/tab】 1 tab LZ QD 出院藥天數 天
+自備藥【Beesix (VIT.B6) 50 mg/tab】 1 tab PO QD 出院藥天數 天
+自備藥【Phyllocontin Continus 225 mg/tab】 1 tab PO BID 出院藥天數 天
+自備藥【Meptin 25 mcg/tab】 1 tab PO BID 出院藥天數 天
+自備藥【Lasix 40 mg/tab】 0.5 tab PO QD 出院藥天數 天
+門診預約:
+預約日期:2017/03/13 泌尿部 下午 03診 39號
+預約日期:2017/03/16 外科部 上午 05診 30號
+預約日期:2017/04/19 內科部 上午 05診 35號
+預約日期:2017/04/26 腫瘤醫學部 下午 08診 28號
+預約日期:2017/05/08 內科部 下午 25診 31號
+其他(Others)
+nil
+隔離醫囑:
+Nil
+
+==========cTAKES detection result==========
+
+{"RXNORM": {"Basis": [{"code": "1046801", "cui": "C1874451", "tui": "T121"}], "Duration": [{"code": "1001007", "cui": "C2926735", "tui": "T109"}, {"code": "1001007", "cui": "C2926735", "tui": "T121"}], "Cetazone": [{"code": "1037170", "cui": "C2940645", "tui": "T121"}], "Creatinine": [{"code": "2913", "cui": "C0010294", "tui": "T109"}, {"code": "2913", "cui": "C0010294", "tui": "T123"}]}, "SNOMEDCT_US": {"Sugars": [{"code": "74801000", "cui": "C0242209", "tui": "T121"}, {"code": "74801000", "cui": "C0242209", "tui": "T109"}], "Pharmaceutical Preparations": [{"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}, {"code": "105903003", "cui": "C0013227", "tui": "T121"}, {"code": "410942007", "cui": "C0013227", "tui": "T121"}, {"code": "373873005", "cui": "C0013227", "tui": "T121"}, {"code": "105903003", "cui": "C0013227", "tui": "T121"}], "Antibiotics": [{"code": "255631004", "cui": "C0003232", "tui": "T195"}], "Antibodies": [{"code": "68498002", "cui": "C0003241", "tui": "T129"}, {"code": "68498002", "cui": "C0003241", "tui": "T116"}], "Prostate-Specific Antigen": [{"code": "102687007", "cui": "C0138741", "tui": "T116"}, {"code": "102687007", "cui": "C0138741", "tui": "T129"}, {"code": "102687007", "cui": "C0138741", "tui": "T126"}], "Aspartate Transaminase": [{"code": "26091008", "cui": "C0004002", "tui": "T126"}, {"code": "26091008", "cui": "C0004002", "tui": "T116"}], "Bilirubin": [{"code": "79706000", "cui": "C0005437", "tui": "T109"}, {"code": "79706000", "cui": "C0005437", "tui": "T123"}], "Creatinine": [{"code": "15373003", "cui": "C0010294", "tui": "T109"}, {"code": "15373003", "cui": "C0010294", "tui": "T123"}], "Alanine Transaminase": [{"code": "56935002", "cui": "C0001899", "tui": "T116"}, {"code": "56935002", "cui": "C0001899", "tui": "T126"}], "Blood Urea Nitrogen": [{"code": "72341003", "cui": "C0600137", "tui": "T197"}, {"code": "72341003", "cui": "C0600137", "tui": "T123"}], "Film Dosage Form": [{"code": "420460001", "cui": "C1704608", "tui": "T122"}], "Colon Carcinoma": [{"code": "269533000", "cui": "C0699790", "tui": "T191"}, {"code": "269533000", "cui": "C0699790", "tui": "T191"}], "Malignant tumor of colon": [{"code": "363406005", "cui": "C0007102", "tui": "T191"}, {"code": "363406005", "cui": "C0007102", "tui": "T191"}], "Malignant neoplasm of prostate": [{"code": "399068003", "cui": "C0376358", "tui": "T191"}, {"code": "399068003", "cui": "C0376358", "tui": "T191"}, {"code": "399068003", "cui": "C0376358", "tui": "T191"}, {"code": "399068003", "cui": "C0376358", "tui": "T191"}, {"code": "399068003", "cui": "C0376358", "tui": "T191"}, {"code": "399068003", "cui": "C0376358", "tui": "T191"}, {"code": "399068003", "cui": "C0376358", "tui": "T191"}], "Malignant Neoplasms": [{"code": "363346000", "cui": "C0006826", "tui": "T191"}, {"code": "363346000", "cui": "C0006826", "tui": "T191"}, {"code": "363346000", "cui": "C0006826", "tui": "T191"}, {"code": "363346000", "cui": "C0006826", "tui": "T191"}, {"code": "363346000", "cui": "C0006826", "tui": "T191"}, {"code": "363346000", "cui": "C0006826", "tui": "T191"}, {"code": "363346000", "cui": "C0006826", "tui": "T191"}], "Heart failure": [{"code": "84114007", "cui": "C0018801", "tui": "T047"}, {"code": "84114007", "cui": "C0018801", "tui": "T047"}], "Congestive heart failure": [{"code": "42343007", "cui": "C0018802", "tui": "T047"}, {"code": "42343007", "cui": "C0018802", "tui": "T047"}], "Chronic Obstructive Airway Disease": [{"code": "13645005", "cui": "C0024117", "tui": "T047"}, {"code": "13645005", "cui": "C0024117", "tui": "T047"}, {"code": "13645005", "cui": "C0024117", "tui": "T047"}, {"code": "13645005", "cui": "C0024117", "tui": "T047"}], "Lung diseases": [{"code": "19829001", "cui": "C0024115", "tui": "T047"}, {"code": "19829001", "cui": "C0024115", "tui": "T047"}], "Disease": [{"code": "64572001", "cui": "C0012634", "tui": "T047"}, {"code": "64572001", "cui": "C0012634", "tui": "T047"}, {"code": "64572001", "cui": "C0012634", "tui": "T047"}, {"code": "64572001", "cui": "C0012634", "tui": "T047"}], "Arteriopathic disease": [{"code": "359557001", "cui": "C0852949", "tui": "T047"}, {"code": "39823006", "cui": "C0852949", "tui": "T047"}, {"code": "39823006", "cui": "C0852949", "tui": "T047"}, {"code": "359557001", "cui": "C0852949", "tui": "T047"}], "Coronary Artery Disease": [{"code": "53741008", "cui": "C1956346", "tui": "T047"}, {"code": "414024009", "cui": "C1956346", "tui": "T047"}, {"code": "414024009", "cui": "C1956346", "tui": "T047"}, {"code": "53741008", "cui": "C1956346", "tui": "T047"}], "Liver Cirrhosis": [{"code": "19943007", "cui": "C0023890", "tui": "T047"}, {"code": "19943007", "cui": "C0023890", "tui": "T047"}], "Infections of musculoskeletal system": [{"code": "312154004", "cui": "C0851162", "tui": "T047"}, {"code": "312154004", "cui": "C0851162", "tui": "T047"}], "Persistent embryonic structure": [{"code": "31807009", "cui": "C0332996", "tui": "T019"}], "Drug Allergy": [{"code": "416093006", "cui": "C0013182", "tui": "T047"}, {"code": "416098002", "cui": "C0013182", "tui": "T047"}], "Sepsis due to urinary tract infection": [{"code": "371093006", "cui": "C0149801", "tui": "T047"}], "Bacteremia": [{"code": "5758002", "cui": "C0004610", "tui": "T047"}], "Kidney Calculi": [{"code": "95570007", "cui": "C0022650", "tui": "T047"}], "Ureterolithiasis": [{"code": "31054009", "cui": "C0041952", "tui": "T047"}], "Hyperemia": [{"code": "30098003", "cui": "C0020452", "tui": "T047"}], "Urolithiasis": [{"code": "95566004", "cui": "C0451641", "tui": "T047"}, {"code": "95566004", "cui": "C0451641", "tui": "T047"}], "Prostatic Neoplasms": [{"code": "126906006", "cui": "C0033578", "tui": "T191"}, {"code": "126906006", "cui": "C0033578", "tui": "T191"}], "Neoplasms": [{"code": "108369006", "cui": "C0027651", "tui": "T191"}, {"code": "108369006", "cui": "C0027651", "tui": "T191"}], "Chief complaint (finding)": [{"code": "33962009", "cui": "C0277786", "tui": "T033"}, {"code": "409586006", "cui": "C0277786", "tui": "T033"}, {"code": "409586006", "cui": "C0277786", "tui": "T033"}, {"code": "33962009", "cui": "C0277786", "tui": "T033"}], "Dysuria": [{"code": "49650001", "cui": "C0013428", "tui": "T184"}, {"code": "49650001", "cui": "C0013428", "tui": "T184"}, {"code": "49650001", "cui": "C0013428", "tui": "T184"}], "Flank Pain": [{"code": "247355005", "cui": "C0016199", "tui": "T184"}, {"code": "247355005", "cui": "C0016199", "tui": "T184"}, {"code": "247355005", "cui": "C0016199", "tui": "T184"}, {"code": "247355005", "cui": "C0016199", "tui": "T184"}], "Pain": [{"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}, {"code": "22253000", "cui": "C0030193", "tui": "T184"}], "Judgment": [{"code": "61254005", "cui": "C0022423", "tui": "T041"}], "Moderate pain": [{"code": "50415004", "cui": "C0278139", "tui": "T184"}], "Pain score": [{"code": "225908003", "cui": "C0582148", "tui": "T033"}, {"code": "225908003", "cui": "C0582148", "tui": "T033"}], "PMH - past medical history": [{"code": "417662000", "cui": "C0455458", "tui": "T033"}, {"code": "417662000", "cui": "C0455458", "tui": "T033"}], "Medical History": [{"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}, {"code": "392521001", "cui": "C0262926", "tui": "T033"}], "travel": [{"code": "129018004", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}, {"code": "129018004", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}, {"code": "129018004", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}, {"code": "420008001", "cui": "C0040802", "tui": "T056"}, {"code": "129018004", "cui": "C0040802", "tui": "T056"}], "Physical findings": [{"code": "72670004", "cui": "C0311392", "tui": "T033"}, {"code": "72670004", "cui": "C0311392", "tui": "T033"}], "Blood Pressure": [{"code": "75367002", "cui": "C0005823", "tui": "T040"}, {"code": "75367002", "cui": "C0005823", "tui": "T040"}], "Pressure (finding)": [{"code": "13543005", "cui": "C0460139", "tui": "T033"}, {"code": "13543005", "cui": "C0460139", "tui": "T033"}], "Ache": [{"code": "410711009", "cui": "C0234238", "tui": "T184"}, {"code": "27635008", "cui": "C0234238", "tui": "T184"}], "Conscious": [{"code": "106167005", "cui": "C0234421", "tui": "T041"}, {"code": "106167005", "cui": "C0234421", "tui": "T041"}], "Menstruation": [{"code": "248957007", "cui": "C0025344", "tui": "T040"}], "Illness (finding)": [{"code": "39104002", "cui": "C0221423", "tui": "T184"}, {"code": "39104002", "cui": "C0221423", "tui": "T184"}], "Hypersensitivity": [{"code": "418634005", "cui": "C0020517", "tui": "T046"}, {"code": "421961002", "cui": "C0020517", "tui": "T046"}], "Fever": [{"code": "386661006", "cui": "C0015967", "tui": "T033"}, {"code": "50177009", "cui": "C0015967", "tui": "T033"}], "Gait normal": [{"code": "8117002", "cui": "C0231683", "tui": "T033"}, {"code": "8117002", "cui": "C0231683", "tui": "T033"}, {"code": "8117002", "cui": "C0231683", "tui": "T033"}], "Skin appearance normal (finding)": [{"code": "225544001", "cui": "C0558145", "tui": "T033"}, {"code": "225544001", "cui": "C0558145", "tui": "T033"}, {"code": "225544001", "cui": "C0558145", "tui": "T033"}], "Pallor": [{"code": "398979000", "cui": "C0030232", "tui": "T033"}], "Anicteric": [{"code": "2867002", "cui": "C0205180", "tui": "T033"}], "Venous Engorgement": [{"code": "8804002", "cui": "C0042484", "tui": "T046"}], "Lymphadenopathy absent": [{"code": "274621000", "cui": "C0558762", "tui": "T033"}], "Lymphadenopathy": [{"code": "30746006", "cui": "C0497156", "tui": "T033"}], "Symmetrical": [{"code": "18772005", "cui": "C0332516", "tui": "T033"}, {"code": "255473004", "cui": "C0332516", "tui": "T033"}], "Heart murmur": [{"code": "421493004", "cui": "C0018808", "tui": "T033"}, {"code": "88610006", "cui": "C0018808", "tui": "T033"}, {"code": "414786004", "cui": "C0018808", "tui": "T033"}], "Bowel sounds": [{"code": "87042004", "cui": "C0232693", "tui": "T033"}, {"code": "413681009", "cui": "C0232693", "tui": "T033"}], "Diagnosis": [{"code": "439401001", "cui": "C0011900", "tui": "T033"}, {"code": "439401001", "cui": "C0011900", "tui": "T033"}, {"code": "439401001", "cui": "C0011900", "tui": "T033"}], "Finding of urine cytology": [{"code": "310437009", "cui": "C0587953", "tui": "T033"}], "Management procedure": [{"code": "119270007", "cui": "C1273870", "tui": "T057"}], "Triage": [{"code": "225390008", "cui": "C0040861", "tui": "T061"}, {"code": "225390008", "cui": "C0040861", "tui": "T061"}, {"code": "225390008", "cui": "C0040861", "tui": "T061"}, {"code": "225390008", "cui": "C0040861", "tui": "T061"}], "Blood glucose measurement": [{"code": "33747003", "cui": "C0392201", "tui": "T059"}], "Therapeutic procedure": [{"code": "276239002", "cui": "C0087111", "tui": "T061"}, {"code": "277132007", "cui": "C0087111", "tui": "T061"}], "Radionuclide Imaging": [{"code": "373205008", "cui": "C0034606", "tui": "T060"}], "Blood culture": [{"code": "30088009", "cui": "C0200949", "tui": "T059"}], "Urine for culture": [{"code": "117010004", "cui": "C0430404", "tui": "T059"}, {"code": "275885001", "cui": "C0430404", "tui": "T059"}], "Microbial culture (procedure)": [{"code": "703725008", "cui": "C2242979", "tui": "T059"}, {"code": "702658000", "cui": "C2242979", "tui": "T059"}, {"code": "61594008", "cui": "C2242979", "tui": "T059"}], "Blood typing procedure": [{"code": "44608003", "cui": "C0005844", "tui": "T059"}], "Antibody screen": [{"code": "120646007", "cui": "C0368676", "tui": "T059"}], "Screening for cancer": [{"code": "15886004", "cui": "C0199230", "tui": "T060"}], "Cytology procedure": [{"code": "702666009", "cui": "C1305671", "tui": "T059"}], "Laboratory Procedures": [{"code": "269814003", "cui": "C0022885", "tui": "T059"}, {"code": "108252007", "cui": "C0022885", "tui": "T059"}, {"code": "15220000", "cui": "C0022885", "tui": "T059"}], "Complete Blood Count": [{"code": "26604007", "cui": "C0009555", "tui": "T059"}], "Platelet Count measurement": [{"code": "61928009", "cui": "C0032181", "tui": "T059"}], "Blood urea nitrogen measurement": [{"code": "250623007", "cui": "C0005845", "tui": "T059"}, {"code": "105011006", "cui": "C0005845", "tui": "T059"}], "Plain x-ray": [{"code": "168537006", "cui": "C1306645", "tui": "T060"}], "Radiographic imaging procedure": [{"code": "363680008", "cui": "C1962945", "tui": "T060"}], "Diagnostic Imaging": [{"code": "363679005", "cui": "C0011923", "tui": "T060"}], "Imaging Techniques": [{"code": "278395004", "cui": "C0079595", "tui": "T060"}], "Insertion of pack (procedure)": [{"code": "53999001", "cui": "C0184967", "tui": "T061"}], "Flank (surface region)": [{"code": "84281001", "cui": "C0230171", "tui": "T029"}, {"code": "58602004", "cui": "C0230171", "tui": "T029"}, {"code": "58602004", "cui": "C0230171", "tui": "T029"}, {"code": "84281001", "cui": "C0230171", "tui": "T029"}, {"code": "84281001", "cui": "C0230171", "tui": "T029"}, {"code": "58602004", "cui": "C0230171", "tui": "T029"}, {"code": "84281001", "cui": "C0230171", "tui": "T029"}, {"code": "58602004", "cui": "C0230171", "tui": "T029"}, {"code": "84281001", "cui": "C0230171", "tui": "T029"}, {"code": "58602004", "cui": "C0230171", "tui": "T029"}], "Colon structure (body structure)": [{"code": "263977005", "cui": "C0009368", "tui": "T023"}, {"code": "71854001", "cui": "C0009368", "tui": "T023"}, {"code": "71854001", "cui": "C0009368", "tui": "T023"}, {"code": "263977005", "cui": "C0009368", "tui": "T023"}], "Prostate": [{"code": "263847000", "cui": "C0033572", "tui": "T023"}, {"code": "41216001", "cui": "C0033572", "tui": "T023"}, {"code": "279689003", "cui": "C0033572", "tui": "T023"}, {"code": "279689003", "cui": "C0033572", "tui": "T023"}, {"code": "263847000", "cui": "C0033572", "tui": "T023"}, {"code": "41216001", "cui": "C0033572", "tui": "T023"}, {"code": "263847000", "cui": "C0033572", "tui": "T023"}, {"code": "41216001", "cui": "C0033572", "tui": "T023"}, {"code": "279689003", "cui": "C0033572", "tui": "T023"}, {"code": "263847000", "cui": "C0033572", "tui": "T023"}, {"code": "41216001", "cui": "C0033572", "tui": "T023"}, {"code": "279689003", "cui": "C0033572", "tui": "T023"}, {"code": "41216001", "cui": "C0033572", "tui": "T023"}, {"code": "279689003", "cui": "C0033572", "tui": "T023"}, {"code": "263847000", "cui": "C0033572", "tui": "T023"}], "Heart": [{"code": "80891009", "cui": "C0018787", "tui": "T023"}, {"code": "80891009", "cui": "C0018787", "tui": "T023"}, {"code": "80891009", "cui": "C0018787", "tui": "T023"}, {"code": "80891009", "cui": "C0018787", "tui": "T023"}, {"code": "80891009", "cui": "C0018787", "tui": "T023"}, {"code": "80891009", "cui": "C0018787", "tui": "T023"}], "Lung": [{"code": "39607008", "cui": "C0024109", "tui": "T023"}, {"code": "39607008", "cui": "C0024109", "tui": "T023"}], "Arteries": [{"code": "51114001", "cui": "C0003842", "tui": "T023"}, {"code": "51114001", "cui": "C0003842", "tui": "T023"}], "Liver": [{"code": "10200004", "cui": "C0023884", "tui": "T023"}, {"code": "10200004", "cui": "C0023884", "tui": "T023"}], "Blood": [{"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}, {"code": "87612001", "cui": "C0005767", "tui": "T024"}], "Kidney": [{"code": "64033007", "cui": "C0022646", "tui": "T023"}], "Head": [{"code": "69536005", "cui": "C0018670", "tui": "T029"}], "Scalp structure": [{"code": "41695006", "cui": "C0036270", "tui": "T023"}], "Pupil": [{"code": "392406005", "cui": "C0034121", "tui": "T023"}], "conjunctiva": [{"code": "29445007", "cui": "C0009758", "tui": "T023"}], "Sclera": [{"code": "18619003", "cui": "C0036410", "tui": "T023"}], "Neck": [{"code": "45048000", "cui": "C0027530", "tui": "T029"}], "Structure of jugular vein": [{"code": "63190004", "cui": "C0022427", "tui": "T023"}], "Veins": [{"code": "29092000", "cui": "C0042449", "tui": "T023"}], "Chest": [{"code": "261179002", "cui": "C0817096", "tui": "T029"}, {"code": "51185008", "cui": "C0817096", "tui": "T029"}, {"code": "51185008", "cui": "C0817096", "tui": "T029"}, {"code": "261179002", "cui": "C0817096", "tui": "T029"}], "Abdomen": [{"code": "277112006", "cui": "C0000726", "tui": "T029"}, {"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "113345001", "cui": "C0000726", "tui": "T029"}, {"code": "277112006", "cui": "C0000726", "tui": "T029"}], "Intestines": [{"code": "256876008", "cui": "C0021853", "tui": "T023"}, {"code": "113276009", "cui": "C0021853", "tui": "T023"}, {"code": "261093006", "cui": "C0021853", "tui": "T023"}], "Limb structure": [{"code": "66019005", "cui": "C0015385", "tui": "T023"}], "Blood Platelets": [{"code": "16378004", "cui": "C0005821", "tui": "T025"}], "Leukocytes": [{"code": "52501007", "cui": "C0023516", "tui": "T025"}], "Chest and abdomen": [{"code": "416550000", "cui": "C1442171", "tui": "T029"}], "Erythrocytes": [{"code": "41898006", "cui": "C0014792", "tui": "T025"}]}}

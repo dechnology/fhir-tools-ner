@@ -1,0 +1,1140 @@
+==========sqe==========
+
+4089
+
+==========急診去辨識病歷==========
+
+檢傷內容
+檢傷級數: 2 電腦分級: 2
+Chief Complaint:
+dyspnea,cheat tightness
+判定依據: 胸痛/胸悶 疑似心因性胸痛/胸悶
+Past History:
+門:Hypertension,門:Diabetes mellitus,門:Anemia,ESRD,W1.3.5,門:Gastroesophageal reflux disease,門:Hyperlipidemia
+TOCC :
+旅遊史: 無 群聚史: 無 特殊職業: 無 接觸病患:無 接觸動物:無
+Vital Signs:
+BP: 193/72 mmHg PR: 99/min SpO2: 92% Respirations: 20/min BT: 36.7 C Blood Sugar: NAmg/dl 疼痛指數: 0(無疼痛) 急性改變:N 意識清
+特殊事項: ※已告知病人或其親友本急診現為滿床通報中，可能需相當時間等待推床以及醫師看診。
+來診方式: 一般救護車 入院原因: 疾病
+高危險機轉:NA
+檢傷人員:蘇信宇
+急診來診病歷
+ChiefCompliant:
+dyspnea,cheat tightness
+PastHistory:
+門:Hypertension,門:Diabetes mellitus,門:Anemia,ESRD,W1.3.5,門:Gastroesophageal reflux disease,門:Hyperlipidemia
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:UnClear
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:UnClear
+旅遊史: 無
+特殊職業: 無, 群聚感染: 無, 特殊病患接觸: 無, 動物接觸: 無,
+PresentIllness:
+PH:
+1. Fluid overload, suspect congestive heart failure and chronic kidney disease
+2. Sick sinus syndrome
+3. CAD, 3-V-D
+just discharge on 02/23 for fluid overloed
+dyspnea and chest tightness after discharge, cough (-), fever (-), rhinorrhea(-)
+Physical Exam:
+Consciousness: Clear , E: 4, V: 5, M: 6
+Vital signs: Blood Pressure: 193/72mmHg, Pulse Rate: 99/min,
+Respiratory Rate: 20/min, Temperature: 36.7℃, SPO2: 92％
+Chest: Symmetric expansion, Breath sound: bilateral crackle
+Heart: Regular Heart Beat, Murmur: -
+Abdomen: Soft
+Bowel sound: Normal
+Extremities: no pitting edema
+診斷內容
+入院診斷
+Chronic renal failure (N18.9)
+出院診斷
+Chronic renal failure (N18.9)
+急診處方內容
+組合商品名	(Date, Dose, Frequency, UseDays)
+Bricanyl Neb Soln 2.5 mg/1 mL 2 mL/amp	(20170224, 1 amp, Q6H, 0days) (20170224, 1 amp, STAT, 1day)
+Millisrol 5 mg/10 mL /amp	(20170224, 50 mg, QD, 0days)
+針 Cravit inj 250 mg/50 mL /vial	(20170224, 750 mg, QOD, 0days) (20170224, 750 mg, STAT, 1day)
+針 Burinex Inj 2 mg/4 mL /amp	(20170224, 4 mg, STAT, 1day) (20170224, 4 mg, Q4H, 0days)
+Rolikan 16.6 mEq/20 mL /amp	(20170224, 33.2 mEq, STAT, 1day) (20170224, 33.2 mEq, STAT, 1day)
+警 Heparin (with preservative) 25000 U/5 mL /vial	(20170224, 8000 U, STAT, 1day)
+Atrovent Neb Soln 250 mcg/1 mL 2 mL/amp	(20170224, 1 amp, Q6H, 0days) (20170224, 1 amp, STAT, 1day)
+警 Humulin R 1000 U/10 mL /vial	(20170224, 6 U, STAT, 1day) (20170224, 100 U, QD, 0days)
+醫師醫令
+Blood Cultures, Glucose（serum for ED）, Na, K, Cl, Blood gas(急診自行檢驗), Sputum Culture + Gram Stain (細菌室痰液培養專用套裝檢查 同一管檢體即可 抹片只為確認痰液培養品質 不即時報告), CBC & platelet, WBC Classification, Creatinine, Na, K, GPT, PT(STAT), aP.T.T.(STAT), Cl, LA (Lactic acid), Glucose（serum for ED）, Blood Ketone(STAT), CRP(STAT), Troponin-T(STAT)(急), BNP(NT-pro BNP)(STAT), CK (Creatine Kinase)(STAT), CK-MB(STAT), Blood Cultures, Blood gas(急診自行檢驗), Blood Cultures,
+Chest: AP View (Supine),
+醫師醫囑
+單次十二導程心電圖 (Complete EKG), On intra-venous catheter, On BP monitor, On EKG monitor, Non-rebreathing mask, On saturation monitor / 測SpO2 PRN, 單次血糖測試 (Stat One-touch sugar), Record urine output (U/O), 預入暫留床位: T01, 單次血糖測試 (Stat One-touch sugar), O2 mask 35% 10 L/min with titration, BiPAP use, follow up VBG, Na, K, Cl, 電話聯絡 Nephro. 科照會醫師, 已通知MICU 科加護病房控床醫師, 住院配床, 住院 Admission,
+
+
+==========住院去辨識病歷==========
+
+入院診斷(Admission Diagnosis)
+1. Congestive heart failure with acute decompensation, New York Heart Association functional class IV, left ventricular ejection fraction was 30% on 2017/01/10
+2. Coronary artery disease, 1-vessel-disease, status post plain old balloon angioplasty with stenting to left anterior descending artery on 2016/10/18, on Bokey + Plavix
+3. Diabetic ketoacidosis
+4. Sick sinus syndrome, status post Medtroinic DDDR pacemaker implantation on 2012/12/22
+5. Paroxysmal atrial fibrillation, CHA2DS2-VASc=8
+6. End stage renal disease, status post hemodialysis since 2016/09/30, Perm cath insertion on 2016/10/14, under regular hemodialysis QW135
+7. Myasthenia gravis
+8. Diabetes mellitus, type 2, recent HbA1c was 7.5%, on Lantus + Trajenta + Glunormal
+9. Hypertension, on Dilatrend
+10. Severe pulmonary hypertension, group 2, maximum tricuspid regurgitation pressure gradient was 61.0 mmHg on 2017/01/10
+11. Dyslipidemia, on Crestor
+12. Left subclavian artery stenosis
+13. Left intertrochanteric fracture, Evan's type IV, status post open reduction and internal fixation on 2017/01/16
+14. Right tibial lateral plateau fracture + anterior cruciate ligament avulsion fracture + posterior cruciate ligament avulsion fracture status post open reduction and internal fixation on 2004/08/12
+15. Osteoporosis (T score = -3.0 on 2017/02/09), with L3 compression fracture
+16. History of bronchiolitis obliterans-organizing pneumonia, status post right lower lung wedge resection by video-assisted thoracoscopic surgery on 2004/02/16
+出院診斷(Discharge Diagnosis)
+1. Congestive heart failure with decompensation, left ventricular ejection fraction was 21% on 2017/03/10
+2. Coronary artery disease, 1-vessel-disease, status post plain old balloon angioplasty with stenting to left anterior descending artery on 2016/10/18, on Bokey + Plavix
+3. Diabetic ketoacidosis
+4. Sick sinus syndrome, status post Medtroinic DDDR pacemaker implantation on 2012/12/22
+5. Paroxysmal atrial fibrillation, CHA2DS2-VASc=8
+6. End stage renal disease, status post hemodialysis since 2016/09/30, Perm cath insertion on 2016/10/14, under regular hemodialysis QW135
+7. Myasthenia gravis
+8. Diabetes mellitus, type 2, recent HbA1c was 7.5%, on Lantus + Trajenta + Glunormal
+9. Severe pulmonary hypertension, group 2, maximum tricuspid regurgitation pressure gradient was 61.0 mmHg on 2017/01/10
+10. Pulmonic regurgitation, moderate to severe
+11. Dyslipidemia, on Crestor
+12. Left intertrochanteric fracture, Evan's type IV, status post open reduction and internal fixation on 2017/01/16
+13. Right tibial lateral plateau fracture + anterior cruciate ligament avulsion fracture + posterior cruciate ligament avulsion fracture status post open reduction and internal fixation on 2004/08/12
+14. Osteoporosis (T score = -3.0 on 2017/02/09), with L3 compression fracture
+15. History of bronchiolitis obliterans-organizing pneumonia, status post right lower lung wedge resection by video-assisted thoracoscopic surgery on 2004/02/16
+轉出加護病房診斷(Diagnosis for ICU)
+1. Congestive heart failure with acute decompensation, New York Heart Association functional class III, left ventricular ejection fraction was 30% on 2017/01/10
+Coronary artery disease, 1-vessel-disease, status post plain old balloon angioplasty with stenting to left anterior descending artery on 2016/10/18, on Bokey + Plavix
+2. Diabetic ketoacidosis
+3. Sick sinus syndrome, status post Medtroinic DDDR pacemaker implantation on 2012/12/22
+4. Paroxysmal atrial fibrillation, CHA2DS2-VASc=8
+5. End stage renal disease, status post hemodialysis since 2016/09/30, Perm cath insertion on 2016/10/14, under regular hemodialysis QW135
+6. Myasthenia gravis
+7. Diabetes mellitus, type 2, recent HbA1c was 7.5%, on Lantus + Trajenta + Glunormal
+8. Hypertension, on Dilatrend
+9. Severe pulmonary hypertension, group 2, maximum tricuspid regurgitation pressure gradient was 61.0 mmHg on 2017/01/10
+10. Pulmonic regurgitation, moderate to severe
+11. Dyslipidemia, on Crestor
+12. Left subclavian artery stenosis
+13. Left intertrochanteric fracture, Evan's type IV, status post open reduction and internal fixation on 2017/01/16
+14. Right tibial lateral plateau fracture + anterior cruciate ligament avulsion fracture + posterior cruciate ligament avulsion fracture status post open reduction and internal fixation on 2004/08/12
+15. Osteoporosis (T score = -3.0 on 2017/02/09), with L3 compression fracture
+16. History of bronchiolitis obliterans-organizing pneumonia, status post right lower lung wedge resection by video-assisted thoracoscopic surgery on 2004/02/16
+主訴(Chief Complaint)
+Informant: Patient and previous medical records
+Chest tightness and dyspnea for one day
+病史(Patient History)
+
+This 76-year-old female has the history of:
+1. Coronary artery disease, 1-vessel-disease, status post plain old balloon angioplasty with stenting to left anterior descending artery on 2016/10/18, on Bokey + Plavix
+2. Sick sinus syndrome, status post Medtroinic DDDR pacemaker implantation on 2012/12/22
+3. Paroxysmal atrial fibrillation, CHA2DS2-VASc=8
+4. Congestive heart failure, New York Heart Association functional class III, left ventricular ejection fraction was 30% on 2017/01/10
+5. End stage renal disease, status post hemodialysis since 2016/09/30, Perm cath insertion on 2016/10/14, under regular hemodialysis QW135
+6. Myasthenia gravis
+7. Diabetes mellitus, type 2, recent HbA1c was 7.5%, on Lantus + Trajenta + Glunormal
+8. Hypertension, on Dilatrend
+9. Severe pulmonary hypertension, group 2, maximum tricuspid regurgitation pressure gradient was 61.0 mmHg on 2017/01/10
+10. Pulmonic regurgitation, moderate to severe
+11. Dyslipidemia, on Crestor
+12. Left subclavian artery stenosis
+13. Left intertrochanteric fracture, Evan's type IV, status post open reduction and internal fixation on 2017/01/16
+14. Right tibial lateral plateau fracture + anterior cruciate ligament avulsion fracture + posterior cruciate ligament avulsion fracture status post open reduction and internal fixation on 2004/08/12
+15. Osteoporosis (T score = -3.0 on 2017/02/09), with L3 compression fracture
+16. History of bronchiolitis obliterans-organizing pneumonia, status post right lower lung wedge resection by video-assisted thoracoscopic surgery on 2004/02/16
+
+Her baseline status was clear consciousness, good orientation, partially dependent with her daily activities, free from nasogastric tube and foley catheter, diaper dependent, could eat by herself with occational chocking, bed ridden due to left intertrochanteric fracture, and lived in a nursing house. She had regular follow-ups at Dr. 吳允升's clinic for her renal failure, at Dr. 劉言彬's clinic for her sick sinus syndrome, at Dr. 蘇大成's clinic for her coronary artery disease, and at Dr. 吳惠培's clinic for her diabetes.
+She was just admitted to our hospital from 2017/01/29 to 2017/02/23 for acute decompensated heart failure and fluid overload. After discharge, she returned to 景安 nursing home. However, sudden chest tightness, dyspnea, and orthopnea developed in the morning of 2017/02/24, while high blood sugar was also noticed (beyond upper limit). Cough, rhinorrhea, dizziness, headache, myalgia, abdominal pain, and diarrhea were denied. She was then brought to our emergency department.
+At our emergency room, initial vital signs showed high blood pressure (temperature: 36.7 degrees Celcius, heart rate: 99 beats/minute, respiratory rate: 20 times/minute, blood pressure: 193/72 mmHg, saturation: 92% in ambient air). Lab data showed no leukocytosis (WBC: 7.11 K/μL, Seg: 91.3%, Band: 0%), normocytic anemia (Hb: 9.5 g/dL, MCV: 86.5 fL), thrombocytopenia (PLT: 159 K/μL), hyponatremia (Na+: 123 mmol/L), hyperkalemia (K+: 5.2 mmol/L), elevated cardiac enzymes (Troponin I: 170.7 ng/mL, CK: 37 U/L, CK-MB: 4.80 ng/mL, pro-BNP: >35000 pg/mL), metabolic acidosis (pH: 7.258, CO2: 33.3 mmHg, HCO3-: 15.0 mmol/L), hyperglycemia (850 mg/dL), and high blood ketone (5.1 mmol/L). Electrocardiogram revealed normal sinus rhythm without obvious ST-T change. Chest radiography found bilateral consolidation. Empirical antibiotics of Cravit was given with insulin pump and nitrogen pump.
+Under the impression of diabetic ketoacidosis and acute decompensated heart failure, she was admitted to MICU 3A2 on 2017/02/24 for hemodialysis and sugar control.
+
+
+Family History: HTN(+), DM(+), Malignancy(+), Autoimmune disease(+)
+Medication Allergy: No 親屬描述 2017/02/24
+Medication ADR: No 親屬描述 2017/02/24
+Allergy to Medical Device and Materials: No 親屬描述 2017/02/24
+Current Medication:
+NTUH:
+Bricanyl Neb Soln 2.5 mg/1 mL 2 mL/amp 1 amp STAT IH 1 days
+Atrovent Neb Soln 250 mcg/1 mL 2 mL/amp 1 amp Q6H IH 2 days
+警 Humulin R 1000 U/10 mL /vial 100 U QD cIF 2 days
+針 Burinex Inj 2 mg/4 mL /amp 4 mg Q4H IV 2 days
+針 Cravit inj 250 mg/50 mL /vial 750 mg QOD IF 2 days
+Millisrol 5 mg/10 mL /amp 50 mg QD cIF 2 days
+Bricanyl Neb Soln 2.5 mg/1 mL 2 mL/amp 1 amp Q6H IH 2 days
+警 Heparin (with preservative) 25000 U/5 mL /vial 8000 U STAT LOCK 1 days
+Rolikan 16.6 mEq/20 mL /amp 33.2 mEq STAT IV 1 days
+Folic Acid 5 mg/tab 1 tab QD PO 28 days
+B.C. /cap 1 cap QD PO 84 days
+(DM) Glunormal 30 mg/tab 1 tab TID PO 28 days
+Trajenta F.C. 5 mg/tab 1 tab QD PO 28 days
+Fucidin Cream 2% 5 g/tube 1 XX BID D 28 days
+Fusidic Acid (Fucidin Cream 2% 5 g/tube) 1 XX PRN D 8 days
+Aspirin (Bokey EM cap 100 mg/cap) 1 cap QD PO 8 days
+Linagliptin (Trajenta F.C. 5 mg/tab) 1 tab QD PO 8 days
+Rosuvastatin (Calcium) (脂 Crestor 10 mg/tab) 0.5 tab QD PO 8 days
+Tribasic Calcium Phosphate, Cholecalciferol (自費(鈣) Bio-cal plus chewable /tab) 1 tab BID PO 8 days
+Insulin Glargine (警 Lantus SoloStar 300 U/3 mL /pen) 12 U QD SC 8 days
+Carvedilol (6.25 DILATREND 6.25 mg/tab) 1 tab QD PO 8 days
+Sennoside A+B (Sennapur 12.5 mg/tab) 2 tab HS PO 8 days
+Clopidogrel (75 Plavix 75 mg/tab) 1 tab QD PO 8 days
+Lactulose (500 Lactulose Liquid 600 mg/1 mL 500 mL/btl) 30 mL QD PO 8 days
+Gliquidone ((DM) Glunormal 30 mg/tab) 1 tab TIDAC30 PO 8 days
+Other: denied
+中草藥: denied
+保健食品: denied
+Past Medical History: HTN(+), DM(+), Hepatitis(-)
+Hospitalization:
+入院日期:2016_10_05 出院日期:2016_10_22 診斷:Chronic kidney disease, unspecified
+入院日期:2016_09_19 出院日期:2016_10_05 診斷:Congestive heart failure
+入院日期:2017_01_29 出院日期:2017_02_23 診斷:End stage renal disease
+入院日期:2017_01_10 出院日期:2017_01_23 診斷:Fracture,left femoral neck
+入院日期:2016_11_04 出院日期:2016_11_10 診斷:End stage renal disease
+
+Past Surgical History:
+2016_10_14 Perm-cath catheter implantation
+2017_01_16 Closed reduction and internal fixation with gamma nail(12*170mm, 130 degree), proximal lag screw*1 (10.5*95mm), distal screw*1(35mm)
+
+Travel History: dnied
+Occupational History: retired
+Contact History: denied animals nor insects bite
+Cluster History: denied
+
+Personal History:
+Smoking: denied
+Alcohol abuse: denied
+Betel nuts: denied
+身體診查(Physical Examination)
+入院時之身體檢查(Physical Examination at admission)
+BH: 153 cm, BW: 45.5 kg,
+T: 35.9 °C, P: 87 bpm, R: 20 /min,
+BP: 143 / 66 mmHg,
+Pain score: 0,
+
+‧General appearance: fair
+‧Neurological Examination:
+Consciousness: alert and aware, E4M6V5
+Muscle power: full
+Gait: steady
+‧Head-Eye-ENT
+Grossly normal, conjunctiva: not pale, sclera: anicteric
+Pupil: isocoric, 3mm/ 3mm
+Light reflex: L/R: +/+, EOM: full and free
+‧Neck
+Jugular vein engorgement(-)
+Goiter(-)
+Meningismus: Kernig sign(-); Brudzinski sign(-)
+Carotid bruit(-)
+‧Chest
+Thoracic cage contour: symmetric
+Vocal fremitus and expansion: symmetric
+Percussion: resonant
+Breathing sound:
+Crackles(+, bilateral), wheezes(-), rhonchi(-), stridor(-)
+‧Heart
+Heart beat: regular, Murmurs(+, grade II systolic and diastolic)
+LV lift(-) RV heave(-)
+Increased cardiac size by percussion(+)
+Adventitious sounds (-)
+‧Abdomen
+Flat & soft
+Superficial vein engorgement(-) Protruded umbilicus(-)
+Bowel sound: Hypoactive
+Tenderness(-), rebound tenderness(-)
+Liver and spleen: impalpable
+Murphy's sign(-)
+‧Extremities
+Freely movable
+Pitting edema (-) ; Cyanosis (-)
+Peripheral pulsation( Right side/ Left side ):
+Brachial artery (++/++), Radial artery(++/++),
+Femoral artery(++/++), Popliteal artery(++/++), Dorsalis pedis artery(++/++).
+‧Back
+Costophrenic angle knocking tenderness(-)
+‧Skin
+Abnormal pigmentation(-)
+Petechiae(-) Purpura(-) Ecchymoses(-) Telangiectasia(-)
+Rash(-) Plaque(-)
+Wound(-) Ulceration(-) Crust(-)
+‧Lymphadenopathy(-)
+轉出/出院時明顯的身體檢查改變(Evident Transfer/Discharge Change of Physical Findings)
+Nil
+手術(Operation)
+Nil
+住院治療經過(Course and Treatment)
+After admission, empirical Tazocin was given, while BiPAP, NTG pump, and RI pump were kept. Hemodialysis (SLED) was held and UF of 2 kg was set. Her dyspnea then resolved and her oxygen demand was tapered to nasal cannula. Her blood sugar was also improving and insulin pump was changed to RI + NPH on 2017/02/25. Progressive anemia was noted on 2017/02/26 while her stool OB was 3+ and epigastragia was reported. Component therapy was given and after discussed with the patient, she refused to recieve gastroscope. Pantoloc was given empirically and her hemoglobin had been stablized. No infection focus determined until now. As her condition stabilized, she was transferred to general ward on 2017/03/03 for further survey of the cause of ketone acidosis.
+The patient remained afebrile under empirical Tazocin. Blood glucose remained acceptable under NovoMIX use. Tazocin was discontinued on 2017/03/08 since no evidence of infection was noted. CV specialists were consulted for frequent ADHF, they suggested strict fluid restriction, optimize dry weight via H/D and Thalium scan. The patient complained about productive cough and general malaise/discomfort since 2017/03/08. The patient suffered from mild dyspnea and desaturation at night on 2017/03/09. Saturation stabilized after O2 nasal cannula 3L use. Cardiac enzymes and EKG were checked and revealed no evidence of ACS. CXR on 2017/03/10 showed bilateral lung increased infiltration and blunted right costophrenic angle. Pulmonary edema due to fluid overload was suspected. Empirical Maxipime was given due to recent productive cough and general malaise/discomfort. Respiratory condition improved after H/D on 2017/03/10. NTG pump was initiated as CV specialists' suggestion. Cardiac echo on 2017/03/10 showed decreased ejection fraction (LVEF 30.1% -> 21.3%) and global hypokinesia.
+For pulmonary edema due to heart failure, NTG pump was kept. The patient remained stable from 2017/03/11 to 2017/03/12. On 2017/03/13, hypotension developed during hemodialysis, so hemodialysis was immediately held, and NTG pump was also discontinued. Blood pressure stabilized transient Levophed use. Also, mute suddenly developed in 2017/03/13 morning before hemodialysis. Brain CT without contrast on 2017/03/13 showed no hemorrhage. On 2017/03/14, we consulted neurologists for persisting mute. EEG, carotid duplex/TCD were suggested and arranged. MRI was not performed due to pacemaker. EEG reported diffuse triphasic sharp waves, suggesting metabolic condition, not epilepsy. Carotid duplex/TCD revealed left subclavian artery stenosis with steal phenomenon and moderate stenosis of left ICA. Mute improved gradually since 2017/03/15 and resolved on 2017/03/16. In the night of 2017/03/14, tachypnea was again noted. Fluid overload was suspected, but pneumonia progression couldn't be ruled out. Since previous sputum culture yielded MDRAB, antibiotics was upgraded to Brosym + Colistin under ID specialists' suggestion. H/D was smoothly performed on 2017/03/15 and about 2.5 kg water was filtered, vital signs remained stable during and after H/D. Follow-up CXR on 2017/03/15 showed improved pulmonary edema. Transient AfRVR was noted on 2017/03/15, with low BP. Lab data showed no acidosis, alkalosis, electrolyte disturbance. Dehydration was suspected. Transient pacemaker rhythm then followed, compatible with tachy-brady syndrome. Heart beats soon returned normal and blood pressure stabilized. Therefore, no specific intervention was done. We shifted anti-diabetic regimen to intensive insulin therapy for fluctuating blood glucose these days. On 2017/03/17, Albumin supplement and pRBC 2U transfusion were given during hemodialysis.
+On 2017/03/18 and 2017/03/19, AfRVR persisted, so Cordarone IF was kept. On 2017/03/20, fever was noted, so Diflucan was added according to previous urine culture and sputum culture, which both yielded Yeast-like organisms. Short-run VT (HR around 300 bpm) about 1 min was noted on 2017/03/20 at night, but BP remained stable. Desaturation was also noted, so NRM was administered. On 2017/03/21, O2 demand decreased for a while, but increased again, with air hunger noted and sighing respiration. Bradycardia, hypotension, then cardiac arrest, gradually developed. Under the accompany of the family, the patient died peacefully on 2017/03/21.
+住院用藥摘要:
+Penicillin G Sodium Skin Test, Piperacillin 2000 mg, Tazobactam 250 mg, Cefepime HCl, Cefoperazone 500 mg, Sulbactam 500 mg, Colistin Methanesulfonate, Fluconazole, Clopidogrel, Nitroglycerin, Carvedilol, Valsartan, Spironolactone, Hydralazine HCl, Isosorbide Mononitrate, Norepinephrine Bitartrate, Amiodarone HCl, Verapamil HCl, Aspirin, Darbepoetin alfa, Heparin Sodium, Albumin, Epoetin Beta Genetical Recombinant, Dextrose, Rosuvastatin (Calcium), Sodium Chloride, Magnesium Sulfate, Potassium Chloride 20 mEq in Water 100mL, Potassium Chloride, Calcium Chloride, Dextrose, Tribasic Calcium Phosphate, Cholecalciferol, Dextrose Monohydrate, NaCl, Dextrose and Electrolyte Solution, Acetaminophen, Aspirin, Morphine HCl, Sennoside A+B, Pantoprazole Sodium, Lansoprazole, Dioctahedral Smectite, Metoclopramide HCl, Prochlorperazine Mesylate, Insulin Regular, Insulin Isophane Suspension, Insulin Aspart and Insulin Aspart Protamine, Insulin Glargine, Diphenhydramine HCl, Ipratropium Bromide, Terbutaline Sulfate, Ipratropium Bromide, 0.5mg Salbutamol (Sulfate), Acetylcysteine, Dextromethorphan HBr, Compound Opium and Glycyrrhiza Mixture, Chlorhexidine Gluconate, Fusidic Acid, Indomethacin
+
+
+==========檢驗紀錄==========
+
+檢驗紀錄(Laboratory Report)
+*********檢驗室:RL***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060224 [1906] 4.10          3.06          8.4           25.1          82.0         
+1060225 [0402] 5.85          2.97          8.0           23.5          79.1         
+1060226 [0421] 6.09          2.15          5.9 Hb與前次結果差  17.4          80.9         
+                                          異大, 請臨床醫師依臨床                             
+                                          狀況評估後決定是否再檢                              
+1060226 [0754] 5.19          2.09          5.7           17.1          81.8         
+1060226 [1516] 5.31          1.92          5.2           15.8          82.3         
+1060226 [1648] 7.24          2.38          6.5           20.0          84.0         
+1060227 [0454] 3.79          2.45          6.7           20.2          82.4         
+1060228 [0447] 3.56          3.25          8.9           27.0          83.1         
+1060301 [0441] 4.52          3.15          8.7           26.1          82.9         
+1060302 [0455] 4.41          3.16          8.8           26.0          82.3         
+1060303 [0435] 4.30          3.29          9.0           27.1          82.4         
+1060311 [0417] 4.13          3.27          9.1           27.2          83.2         
+1060314 [2321] 5.69          3.04          8.6           25.7          84.5         
+1060315 [1539] 8.46          3.48          9.4           30.0          86.2         
+1060318 [0405] 3.81          4.07          11.1          34.1          83.8         
+1060320 [0826] 5.72          3.74          10.0          30.9          82.6         
+1060320 [1947] 11.31         4.05          11.3          33.3          82.2         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060224 [1906] 27.5          33.5          107           14.9          -            
+1060225 [0402] 26.9          34.0          144           14.4          -            
+1060226 [0421] 27.4          33.9          104           15.1          - Rechecked  
+1060226 [0754] 27.3          33.3          104           14.8          -            
+1060226 [1516] 27.1          32.9          88 (Manual c  15.0          -            
+                                          hecked)                                  
+1060226 [1648] 27.3          32.5          106           14.9          -            
+1060227 [0454] 27.3          33.2          76 (Manual c  14.7          -            
+                                          hecked)                                  
+1060228 [0447] 27.4          33.0          77            14.5          -            
+1060301 [0441] 27.6          33.3          85            14.6          -            
+1060302 [0455] 27.8          33.8          105           14.5          -            
+1060303 [0435] 27.4          33.2          100           14.7          -            
+1060311 [0417] 27.8          33.5          116           16.1          -            
+1060314 [2321] 28.3          33.5          108           16.5          -            
+1060315 [1539] 27.0          31.3          127           16.7          -            
+1060318 [0405] 27.3          32.6          106           15.9          -            
+1060320 [0826] 26.7          32.4          111           15.6          -            
+1060320 [1947] 27.9          33.9          128           15.5          -            
+群組:WBC Classification
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060311 [0417] 0.0           0.0           0.0           0.0           0.0          
+1060314 [2321] 0.0           0.0           0.0           0.0           0.0          
+1060315 [1539] 0.0           0.0           0.0           0.0           0.0          
+1060318 [0405] 0.0           0.0           0.0           0.0           0.0          
+1060320 [0826] 0.0           0.0           0.0           0.0           0.0          
+1060320 [1947] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060311 [0417] 56.4          3.1           1.0           6.3           33.2         
+1060314 [2321] 83.1          1.4           0.4           3.5           11.6         
+1060315 [1539] 72.3          2.4           0.5           4.5           20.3         
+1060318 [0405] 56.4          10.0          0.5           4.2           28.9         
+1060320 [0826] 67.9          6.3           0.3           5.4           20.1         
+1060320 [1947] 64.8          2.7           0.3           4.2           28.0         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060311 [0417] 0.0           0.0           0             -            
+1060314 [2321] 0.0           0.0           0             -            
+1060315 [1539] 0.0           0.0           0             -            
+1060318 [0405] 0.0           0.0           0             -            
+1060320 [0826] 0.0           0.0           0             -            
+1060320 [1947] 0.0           0.0           0             -            
+群組:Yes
+
+               hsCRP         D-Dimer       NT-pro BNP   
+time/item      (mg/dL)       (μg/mL FEU)   (pg/mL)      
+1060224 [1906] 3.05          4.43                       
+1060225 [0402]                             >35000       
+1060226 [1516] 1.47                                     
+1060309 [0620]                             >35000       
+1060311 [0417] 2.84                                     
+1060313 [1116] 2.36                        >35000       
+1060314 [2321] 6.31                                     
+1060315 [1539] 9.04                                     
+1060318 [0405] 6.01                                     
+1060320 [0826] 5.33                        >35000       
+群組:Coagulation
+
+               PT            PT INR       
+time/item      (sec)         ()           
+1060314 [2321] 11.7          1.09         
+群組:Biochemistry
+
+               BUN           CRE           Na            K             Cl           
+time/item      (mg/dL)       (mg/dL)       (mmol/L)      (mmol/L)      (mmol/L)     
+1060224 [1906] 55.3          4.3           127           3.9           94           
+1060224 [2259]                                                                      
+1060224 [2336]                             131           3.2           99           
+1060225 [0402] 23.1                        129           5.0           97           
+1060225 [0948]                             128           4.7           96           
+1060225 [1700]                             133           3.4           100          
+1060225 [2056]                             133           3.3           100          
+1060226 [0421]                             134           3.4                        
+1060226 [1516]                                                                      
+1060227 [0454] 41.5                        135           3.4                        
+1060228 [0447]                             134           3.1                        
+1060301 [0441] 32.0                        136           3.3                        
+1060302 [0455]                                           3.0                        
+1060303 [0435] 25.6                        135           3.2                        
+1060309 [2332]                                                                      
+1060310 [2124]                                                                      
+1060311 [0354]                                                                      
+1060311 [0417] 17.7          2.3           130           4.4                        
+1060313 [1116] 27.1          3.0                                                    
+1060314 [2321] 45.3          4.4           136           3.5           102          
+1060315 [0740]                                                                      
+1060315 [1539]                             134           4.4                        
+1060316 [0908]                                                                      
+1060318 [0405]                             133           3.3                        
+1060320 [0826] 77.5          5.4           127           3.2           89           
+1060320 [1947] 22.0          2.4           123           4.0           87           
+               Ammonia N     T-BIL         Lipase        Ca            Mg           
+time/item      (μmol/L)      (mg/dL)       (U/L)         (mmol/L)      (mmol/L)     
+1060224 [1906]               0.56                        1.76          0.98         
+1060224 [2259]                             11                                       
+1060224 [2336]                                           2.05          0.74         
+1060225 [0402]                                           2.00                       
+1060225 [0948]                                                                      
+1060225 [1700]                                                                      
+1060225 [2056]                                                                      
+1060226 [0421]                                                                      
+1060226 [1516]                                                                      
+1060227 [0454]               0.59                        1.80          1.11         
+1060228 [0447]                                                                      
+1060301 [0441]                                                                      
+1060302 [0455]                                                         0.84         
+1060303 [0435]                                           1.77                       
+1060309 [2332]                                                                      
+1060310 [2124]                                                                      
+1060311 [0354]                                                                      
+1060311 [0417]                                                                      
+1060313 [1116]                                                                      
+1060314 [2321]               0.58                                      0.90         
+1060315 [0740] 19                                                                   
+1060315 [1539]                                           2.35          0.92         
+1060316 [0908]                                                                      
+1060318 [0405]                                           2.30          0.96         
+1060320 [0826]                                           2.09          1.24         
+1060320 [1947]               0.84                        2.21          0.94         
+               P             AST           LacticAcid    CK           
+time/item      (mg/dL)       (U/L)         (mmol/L)      (U/L)        
+1060224 [1906] 3.3           19            3.46          45           
+1060224 [2259]                                                        
+1060224 [2336]                                           45           
+1060225 [0402]                             1.10          38           
+1060225 [0948]                                                        
+1060225 [1700]                                                        
+1060225 [2056]                                                        
+1060226 [0421]                                                        
+1060226 [1516]                             0.88                       
+1060227 [0454] 2.2                                                    
+1060228 [0447]                                                        
+1060301 [0441]                                                        
+1060302 [0455]                                                        
+1060303 [0435]                                                        
+1060309 [2332]                                           18           
+1060310 [2124]                                           20           
+1060311 [0354]                                           17           
+1060311 [0417]                                                        
+1060313 [1116]                             1.63          17           
+1060314 [2321] 2.0           18            1.39          13           
+1060315 [0740]                                                        
+1060315 [1539]                             3.73          15           
+1060316 [0908]                                           16           
+1060318 [0405]                             0.96          17           
+1060320 [0826] 2.4           25            1.35          23           
+1060320 [1947]                             2.46          64           
+群組:General BioChemistry
+
+               UA            ALB           D-BIL         ALT          
+time/item      (mg/dL)       (g/dL)        (mg/dL)       (U/L)        
+1060224 [1906]               2.9                         8            
+1060227 [0454] 3.2                         0.21          6            
+1060303 [0435]               2.9                         4            
+1060313 [1116]                                           6            
+1060314 [2321]               3.1                         7            
+1060318 [0405]               3.8                         10           
+1060320 [0826]               3.6                         8            
+群組:Blood pH/Gas
+
+               PH            PCO2          PO2           HCO3          BaseExcess   
+time/item      (*)           (mmHg)        (mmHg)        (mmol/L)      (mmol/L)     
+1060224 [1906] 7.439         27.0          163.3         18.4          -6.0         
+1060224 [2336] 7.471         28.3          156.2         20.9          -3.0         
+1060225 [0402] 7.492         27.2          144.1         21.0          -2.6         
+1060225 [0948] 7.482         26.2          202.7         19.8          -4.0         
+1060225 [1700] 7.520         28.5          211.2         23.5          0.3          
+1060225 [2056] 7.535         26.0          209.9         22.2          -0.7         
+1060226 [0421] 7.449         36.4          129.4         25.5          1.3          
+1060227 [0454] 7.499         27.9          140.0         21.9          -1.6         
+1060301 [0441] 7.412         32.7          105.3         21.0          -3.8         
+1060309 [2332] 7.462         27.1          69.4          19.6          -4.5         
+1060313 [0622] 7.384         37.6          28.1          22.7          -2.6         
+1060313 [1116] 7.372         33.3          47.3          19.5          -6.0         
+1060314 [2321] 7.492         24.1          75.4          18.6          -4.9         
+1060315 [1539] 7.433         31.6          31.7          21.3          -3.2         
+1060318 [0405] 7.483         28.0          76.7          21.2          -2.5         
+1060320 [0826] 7.387         39.0          32.7          23.6          -1.6         
+1060320 [1947] 7.377         37.4          34.7          22.2          -3.2         
+群組:
+
+               Troponin-T    eGFR          CK-MB        
+time/item      (ng/L)        (mL/min/1.73  (ng/mL)      
+                              m^2)                      
+1060224 [1906] 373.9         10.6          6.51         
+1060224 [2336] 390.2                       6.85         
+1060225 [0402] 374.7                       5.46         
+1060309 [2332] 123.3                       2.63         
+1060310 [0140] 124.2                                    
+1060310 [2124] 148.7                       3.52         
+1060311 [0354] 152.8                       2.71         
+1060311 [0417]               21.9                       
+1060313 [1116] 145.6         16.1          2.92         
+1060314 [2321] 303.1         10.4          1.50         
+1060315 [1539] 397.6                       1.65         
+1060316 [0908] 434.5                       1.62         
+1060318 [0405] 338.2                       1.82         
+1060320 [0826] 260.9         8.2           2.23         
+1060320 [1947] 271.5         20.9          2.92         
+*********檢驗室:HE***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (k/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060227 [0454]                                                                      
+1060306 [0357] 4.31          3.07          8.6           25.8          84.0         
+1060309 [0620] 5.23          3.48          9.7           29.1          83.6         
+1060313 [0621] 6.75          3.40          9.4           28.5          83.8         
+               MCH           MCHC          PLT           RDW-CV        Retic.       
+time/item      (pg)          (g/dL)        (k/μL)        (%)           (%)          
+1060227 [0454]                                                         0.81         
+1060306 [0357] 28.0          33.3          118           15.7                       
+1060309 [0620] 27.9          33.3          108           16.3                       
+1060313 [0621] 27.6          33.0          125           16.3                       
+               PS            Retic.No.     IRF          
+time/item      ()            (10^4/μL)     (%)          
+1060227 [0454]               1.96          6.1 (僅供參考)   
+1060306 [0357] -                                        
+1060309 [0620] -                                        
+1060313 [0621] -                                        
+群組:WBC D/C
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060309 [0620] 0.0           0.0           0.0           0.0           0.0          
+1060313 [0621] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060309 [0620] 62.9          3.8           1.0           6.3           26.0         
+1060313 [0621] 73.0          3.6           0.1           3.9           19.4         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060309 [0620] 0.0           0.0           0             -            
+1060313 [0621] 0.0           0.0           0             -            
+*********檢驗室:OP***********
+
+群組:STOOL
+
+               O.B.          Stool WBC    
+time/item      (*)           (/HPF)       
+1060225 [1759] -                          
+1060226 [1818] 2+                         
+1060319 [1635]               Not found    
+*********檢驗室:BC***********
+
+群組:General BioChemistry
+
+               Alb           ALT           LDH           UN            CRE          
+time/item      (g/dL)        (U/L)         (U/L)         (mg/dL)       (mg/dL)      
+1060227 [0454]                             148                                      
+1060306 [0357]               3                           34.3          4.6          
+1060309 [0620] 3.5           <3                          11.8          2.1          
+1060313 [0621]                                                                      
+1060313 [0623]                                                                      
+               Na            K             Cl            Ca            Mg           
+time/item      (mmol/L)      (mmol/L)      (mmol/L)      (mmol/L)      (mmol/L)     
+1060227 [0454]                                                                      
+1060306 [0357] 138           3.1           103           1.84          1.00         
+1060309 [0620] 135           3.8           101           2.29          0.83         
+1060313 [0621] 138           4.4                                                    
+1060313 [0623]                                           2.12          1.01         
+               hsCRP        
+time/item      (mg/dL)      
+1060227 [0454]              
+1060306 [0357]              
+1060309 [0620] 1.07         
+1060313 [0621]              
+1060313 [0623]              
+群組:DM
+
+               HbA1c        
+time/item      (%)          
+1060224 [1906] 7.9          
+群組:Hormones
+
+               Free T4(CIA)  hsTSH(CIA)    Cortisol DL   ACTH                       
+time/item      (ng/dL)       (μIU/mL)      (μg/dL)       (pg/mL)      
+1060224 [1906] 1.04          3.49          42.0          82.1         
+1060315 [0740] 1.10          4.37          10.4          187          
+群組:Others
+
+               Haptoglobin   Procalcitoni 
+                             n            
+time/item      (mg/dL)       (ng/mL)      
+1060227 [0454] 76.7                       
+1060311 [0417]               0.3006       
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060306 [0357] 9.8          
+1060309 [0620] 24.3         
+*********檢驗室:SF***********
+
+群組:Yes
+
+               Anti-HBc     
+time/item      (*)          
+1060225 [0402] Positive     
+*********檢驗室:B2***********
+B2-1060313-3001908   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060313-3001907   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060314-4038892   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060314-4038890   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060226-6016142   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060226-6016141   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060226-6016105   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060310-0059523   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060310-0059522   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+
+*********檢驗室:B3***********
+B3-1060225-5003955   RANDOM URINE
+     ID+DS Urine #1:       Yeast-like organism 8000
+
+B3-1060227-6016112   RANDOM URINE
+     ID+DS Urine #1:       Yeast-like organism 50000
+
+B3-1060312-0059524   SPUTUM (EXPECTORATED)
+     Gram's(GS)#1:       Many PMNs ( >25 /LPF )
+     Gram's(GS)#2:       Few epithelial cells ( < 10 /LPF )
+     Gram's(GS)#3:       Gram (+) cocci in cluster 1+
+     ID+DS Sputum Culture #1:       Acinetobacter baumannii 3+
+     Gram's(GS)#4:       Yeast-like organism 3+
+
+B3-1060317-4038893   SPUTUM (EXPECTORATED)
+     Gram's(GS)#1:       Few PMNs ( <10 /LPF )
+     Gram's(GS)#2:       Many epithelial cells ( >25 /LPF )
+     Gram's(GS)#3:       Gram (+) cocci in cluster 1+
+     ID+DS Sputum Culture #1:       Mixed flora
+     Gram's(GS)#4:       Gram (+) rods 1+
+     Gram's(GS)#5:       痰檢體品質不良建議重新送檢
+
+B3-1060224-4001105   SPUTUM (EXPECTORATED)
+     Gram's(GS)#1:       Few PMNs ( <10 /LPF )
+     Gram's(GS)#2:       Moderate epithelial cells ( 10-25 /LPF )
+     Gram's(GS)#3:       Gram (-) rods 1+
+     ID+DS Sputum Culture #1:       Mixed flora
+     Gram's(GS)#4:       Gram (+) cocci in chains 1+
+     Gram's(GS)#5:       痰檢體品質不良建議重新送檢
+
+B3-1060226-6016111   SPUTUM (EXPECTORATED)
+     Gram's(GS)#1:       Few PMNs ( <10 /LPF )
+     Gram's(GS)#2:       Moderate epithelial cells ( 10-25 /LPF )
+     Gram's(GS)#3:       No bacteria visible
+     ID+DS Sputum Culture #1:       Mixed flora
+     Gram's(GS)#4:       痰檢體品質不良建議重新送檢
+
+
+*********檢驗室:VF***********
+
+群組:Yes
+
+               Influenza A+ 
+               B Rapid Scre 
+               ening Test   
+time/item      ()           
+1060310 [1109] Negative     
+*********檢驗室:PO***********
+
+群組:
+
+               Sugar(One to 
+               uch)         
+time/item      (*)          
+1060225 [0202] 102          
+1060225 [0355] 88           
+1060225 [0601] 118          
+1060225 [0823] 174          
+1060225 [0953] 246          
+1060225 [1215] 252          
+1060225 [1401] 195          
+1060225 [1711] 132          
+1060225 [1838] 207          
+1060225 [2100] 163          
+1060226 [0458] 179          
+1060226 [1039] 194          
+1060226 [1649] 294          
+1060226 [2233] 292          
+1060227 [0458] 132          
+1060227 [1101] 152          
+1060227 [1656] 53           
+1060227 [2150] 328          
+1060228 [0453] 189          
+1060228 [1102] 135          
+1060228 [1616] 139          
+1060228 [2152] 192          
+1060301 [0442] 285          
+1060301 [1044] 240          
+1060301 [1658] 234          
+1060301 [2153] 158          
+1060302 [0459] 164          
+1060302 [1057] 165          
+1060302 [1629] 210          
+1060302 [2040] 139          
+1060303 [0444] 196          
+1060303 [1059] 150          
+1060303 [1735] 152          
+1060303 [2113] 354          
+1060304 [0437] 343          
+1060304 [1145] 299          
+1060304 [1626] 180          
+1060304 [2024] 203          
+1060305 [0259] 254          
+1060305 [0641] 252          
+1060305 [1105] 200          
+1060305 [1642] 311          
+1060305 [2042] 279          
+1060306 [0356] 200          
+1060306 [1119] 101          
+1060306 [1623] 175          
+1060306 [2245] 80           
+1060307 [0426] 89           
+1060307 [1205] 90           
+1060307 [1737] 258          
+1060307 [2122] 302          
+1060308 [0627] 142          
+1060308 [1116] 159          
+1060308 [1639] 252          
+1060308 [2307] 101          
+1060309 [0556] 166          
+1060309 [1129] 165          
+1060309 [1647] 335          
+1060309 [2124] 250          
+1060310 [0538] 223          
+1060310 [1054] 153          
+1060310 [1821] 177          
+1060310 [2223] 171          
+1060311 [0353] 264          
+1060311 [1122] 244          
+1060311 [1727] 374          
+1060311 [2129] 249          
+1060312 [0636] 130          
+1060312 [1211] 55           
+1060312 [1700] 217          
+1060312 [2105] 253          
+1060313 [0618] 213          
+1060313 [1146] 548          
+1060313 [1425] 410          
+1060313 [1726] 420          
+1060313 [2140] 157          
+1060314 [0422] 44           
+1060314 [0635] 148          
+1060314 [1126] 142          
+1060314 [1710] 300          
+1060314 [2234] 328          
+1060315 [0602] 170          
+1060315 [1236] 82           
+1060315 [1728] 374          
+1060315 [2220] 431          
+1060316 [0626] 338          
+1060316 [1134] 326          
+1060316 [1725] 324          
+1060316 [2143] 283          
+1060317 [0622] 135          
+1060317 [1103] 119          
+1060317 [1847] 168          
+1060317 [2139] 236          
+1060318 [0404] 158          
+1060318 [1133] 160          
+1060318 [1657] 149          
+1060318 [2125] 240          
+1060319 [0604] 161          
+1060319 [1132] 185          
+1060319 [1700] 159          
+1060319 [2124] 325          
+1060320 [0603] 296          
+1060320 [1055] 222          
+1060320 [1924] 199          
+1060320 [2247] 334          
+1060321 [0434] 284          
+1060321 [1124] 481          
+*********檢驗室:B4***********
+B4-1060226-6013429   SPUTUM (EXPECTORATED)
+     AF Stain(AF) #1:       Acid fast bacilli - negative
+
+B4-1060225-5003488   SPUTUM (EXPECTORATED)
+     AF Stain(AF) #1:       Acid fast bacilli - negative
+
+B4-1060224-4001106   SPUTUM (EXPECTORATED)
+     AF Stain(AF) #1:       Acid fast bacilli - negative
+
+
+*********檢驗室:BK***********
+
+群組:Blood Type
+
+               ABO Typing    RH Typing    
+time/item      (*)           (*)          
+1060226 [1053] B             Positive     
+1060313 [0621] B             Positive     
+1060316 [0908] B             Positive     
+1060320 [0826] B             Positive     
+群組:Yes
+
+               antibody scr 
+               een(New Lis)               
+time/item      (*)          
+1060226 [1053] Negative     
+1060313 [0621] Negative     
+1060316 [0908] Negative     
+1060320 [0826] Positive     
+群組:
+
+               Direct , Coo  Indirect , C 
+               ms' test (輸血  ooms' test ( 
+               後)            輸血後)         
+time/item      ()            ()           
+1060227 [1000] Positive      Negative     
+*********檢驗室:B5***********
+
+群組:
+
+               VRE screenin 
+               g            
+time/item      ()           
+1060224 [1906] No VRE       
+1060303 [1736] Enterococcus 
+                faecium 3+  
+*********檢驗室:B1***********
+B1-1060319-8020779   STOOL
+     C.difficile Toxin (RT-PCR):       C.difficile toxin A&B test : Negative
+
+
+*********檢驗室:RL***********
+
+群組:Yes
+
+               hsCRP         Blood Ketone  NT-pro BNP                 
+time/item      (mg/dL)       (mmol/L)      (pg/mL)      
+1060224 [1515] 2.98          5.1           >35000       
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060224 [1515] 7.11          3.56          9.5           30.8          86.5         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060224 [1515] 26.7          30.8          159           15.1          -            
+群組:WBC Classification
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1515] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1515] 81.3          0.1           0.1           3.0           15.5         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060224 [1515] 0.0           0.0           0             -            
+群組:Coagulation
+
+               PT            PTT           PT INR       
+time/item      (sec)         (sec)         ()           
+1060224 [1531] 11.7          29.6          1.09         
+群組:Biochemistry
+
+               CRE           Na            K             Cl            LacticAcid   
+time/item      (mg/dL)       (mmol/L)      (mmol/L)      (mmol/L)      (mmol/L)     
+1060224 [1515] 4.1           123           5.2           89            3.33         
+1060224 [1709]               126           4.4           92                         
+               CK           
+time/item      (U/L)        
+1060224 [1515] 37           
+1060224 [1709]              
+群組:General BioChemistry
+
+               ALT          
+time/item      (U/L)        
+1060224 [1515] 10           
+群組:
+
+               Troponin-T    Glucose(seru  eGFR          CK-MB        
+                             m for ED)                                
+time/item      (ng/L)        (mg/dL)       (mL/min/1.73  (ng/mL)      
+                                           m^2)                      
+1060224 [1515] 170.7         850           11.2          4.80         
+1060224 [1715]               785                                      
+*********檢驗室:YM***********
+
+群組:Yes
+
+               pH            pCO2          pO2           HCO3          BaseExcess   
+time/item      ()            (mmHg)        (mmHg)        (mmol/L)      (mmol/L)     
+1060224 [1506] 7.258         33.3          33.3          15.0          -12.3        
+1060224 [1707] 7.335         33.4          37.2          18.0          -8.1         
+               SO2          
+time/item      (%)          
+1060224 [1506] 55.9         
+1060224 [1707] 67.8         
+群組:
+
+               Free Ca(急重症自  Hb(急重症自行檢驗)   Hct(急重症自行檢驗)  K+(急重症自行檢驗)   Na(急重症自行檢驗)  
+               行檢驗)                                                                               
+time/item      (mmol/L)      (g/dL)        (%)           (mmol/L)      (mmol/L)     
+1060224 [1506] 1.28          12.0          36            5.56          128.3        
+1060224 [1707] 1.08          9.9           30            4.58          127.5        
+               LacticAcid(急 
+               重症自行檢驗)      
+time/item      (mmol/L)     
+1060224 [1506] 3.4          
+1060224 [1707] 3.0          
+*********檢驗室:B2***********
+B2-1060224-4098286   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060224-4000229   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060224-4098471   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+
+*********檢驗室:PO***********
+
+群組:
+
+               Sugar(One to 
+               uch)         
+time/item      (*)          
+1060224 [1454] >600         
+1060224 [1535] >600         
+1060224 [1708] >600         
+1060224 [1910] >600         
+1060224 [2104] 285          
+1060224 [2302] 173          
+1060224 [2335] 142
+檢查紀錄(Examination Report)
+甲狀腺超音波檢查報告
+醫令: 甲狀腺超音波檢查報告 報告醫師: 影像時間: 2017/02/21 00:00
+甲狀腺超音波檢查報告(綜合診療部超音波科)
+病患姓名 : 王林雀 病歷號碼 : 0730869 病床號碼 : 07D 0202
+年齡 : 77 性別 : F
+檢查日期 : 20170221 檢查項目 : 19005BTA
+1. Echo NO :
+2. Nodule : ( ) Nil ( ) Single ( V) Multiple
+3. Echo pattern of the thyroid :
+General ( A ) ( B ) ( C ) ( D ) ( E )
+Right Left
+Right ( V) ( ) (V ) (V) (V) ( ) ( )
+Left ( ) ( V) ( ) ( ) ( ) ( V) ( V)
+Isthmus ( ) ( ) ( ) ( ) ( ) ( ) ( )
+L ( cm ) ( 3.06 ) (4.01 ) ( 1.77 )(0.78 )(0.91 )(1.34 )(0.84 )
+W ( cm ) ( 2.21 ) (2.8 ) ( 1.52 )(0.8 )(0.8 )(1.36 )(0.97 )
+T ( cm ) ( 1.53 ) (1.73 ) ( 1.13 )(0.57 )(0.96 )(0.73 )(0.42 )
+Hyper - echoic ( ) ( ) ( ) ( ) ( ) ( ) ( )
+Iso - echoic ( V) ( V) ( ) ( ) ( ) ( ) ( )
+Hypo - echoic ( ) ( ) (V) (V) (V) ( V) ( V)
+Echo - free ( ) ( ) ( ) ( ) ( ) ( ) ( )
+Smooth margin ( V) ( V) ( ) ( ) ( ) ( ) ( )
+Uneven margin ( ) ( ) (V) (V) (V) ( V) ( V)
+Unclear margin ( ) ( ) ( ) ( ) ( ) ( ) ( )
+Halo sign ( ) ( ) ( ) ( ) ( ) ( ) ( )
+Homogeneous ( V) ( V) ( ) ( ) ( ) ( ) ( )
+Heterogeneous ( ) ( ) (V) (V) (V) ( V) ( V)
+Calcification ( ) ( ) ( ) ( ) ( ) ( ) ( )
+Cystic change ( ) ( ) ( ) ( ) ( ) ( ) ( )
+Cervical LNs. :
+Impression :
+1.Multinodular goiter,bilateral
+2.No visible parathyroid lesion at bilateral thyroid bed
+Suggestions :
+Please correlate with other image study
+檢查者: 陳思綺主治醫師 /許智堯主治醫師 /
+/ 王治元主治醫師
+
+B-Mode超音波檢查報告
+醫令: B-Mode超音波檢查報告 報告醫師: 影像時間: 2017/03/14 00:00
+頸動脈B-Mode超音波檢查報告(神經部)
+病患姓名 :王林雀 性別 :F 檢查日期 :20170314
+病歷號碼 :0730869 病患來源 :住院 檢查時間 :160909
+年齡 77 病床號碼 :15B 1501
+Duplex No : 125856
+Intima-media thickness :
+Right mm
+Left mm
+Ophthalmic artery :
+Right
+Left
+B-Mode Findings
+Right
+Severity of stenosis Plaque morphology
+CCA 10-29% stenosis CCA smooth surface,Homogeneous
+BULB 10-29% stenosis BULB smooth surface,Homogeneous
+ICA 10-29% stenosis ICA smooth surface,Homogeneous
+ECA 10-29% stenosis ECA smooth surface,Homogeneous
+Left Severity of stenosis Plaque morphology
+CCA 30-49% stenosis CCA smooth surface,Homogeneous
+BULB 30-49% stenosis BULB smooth surface,Homogeneous
+ICA 50-59% stenosis ICA echo shadow
+ECA 10-29% stenosis ECA smooth surface,Homogeneous
+VA Flow
+Diameter (cm) Flow (ml / min) Doppler Signal
+Right 0.30 92.0 Normal.
+Left 0.43 68.0 latent steal
+Total VA Flow 160 (ml / min)
+Conclusion
+1. Moderate stenosis (50-60%) in the left ICA with increased systolic flow velocity (157/14 cm/s).
+Normal flow direction in the left ophthalmic artery.
+2. Mild to moderate atherosclerosis in bilateral carotid arteries.
+3. Latent steal waveform in the left VA with biphasic waveform in the left subclavian artery, probably
+indicating proximal subclavian artery stenosis with early stage of subclavian steal.
+4. Adequate total VA flow amount.
+檢查者: 謝育霖檢驗師 / / 湯頌君主治醫師
+
+Doppler超音波檢查報告
+醫令: Doppler超音波檢查報告 報告醫師: 影像時間: 2017/03/14 00:00
+頸動脈彩色都卜勒超音波檢查報告(神經部)
+病患姓名 :王林雀 性別 :F 檢查日期 :20170314
+病歷號碼 :0730869 病患來源 :住院 檢查時間 :160909
+年齡 77 病床號碼 :15B 1501
+Duplex No : 125856
+Doppler Flow Study
+Right Doppler Flow Signal Color Doppler
+CCA Normal. CCA Laminar flow
+BULB Normal. BULB Laminar flow
+ICA Normal. ICA Laminar flow
+ECA Normal. ECA Laminar flow
+Left Doppler Flow Signal Color Doppler
+CCA Normal. CCA Laminar flow
+BULB Normal. BULB Laminar flow
+ICA High velocity. ICA mosaic pattern
+ECA Normal. ECA Laminar flow
+VA Flow
+Diameter (cm) Flow (ml/min) Doppler Signal
+Right 0.30 92.0 Normal.
+Left 0.43 68.0 latent steal
+Total VA Flow = 160 (ml / min)
+Conclusion
+1. Moderate stenosis (50-60%) in the left ICA with increased systolic flow
+velocity (157/14 cm/s). Normal flow direction in the left ophthalmic
+artery.
+2. Mild to moderate atherosclerosis in bilateral carotid arteries.
+3. Latent steal waveform in the left VA with biphasic waveform in the left
+subclavian artery, probably indicating proximal subclavian artery stenosis
+with early stage of subclavian steal.
+4. Adequate total VA flow amount.
+檢查者: 謝育霖檢驗師 / /湯頌君主治醫師
+
+顱內動脈超音波檢查報告
+醫令: 顱內動脈超音波檢查報告 報告醫師: 影像時間: 2017/03/14 00:00
+顱內血管超音波檢查報告(神經部)
+病患姓名 :王林雀 性別 :F 檢查日期 :20170314
+病歷號碼 :0730869 病患來源 :住院 檢查時間 :160909
+出生日期 :19400613 年齡 :77 病床號碼 :15B 1501
+Duplex No :21937
+Depth Max.V. Mean V.
+Right P.I. Flow Direction Comment
+mm cm/sec cm/sec
+ACA Poor window
+MCA Poor window
+PCA 53 44.5 24 1.34 away P2
+VA 39 168 63 2.50 Away Increased resistance
+Left Depth Max.V. Mean V. P.I. Flow Direction Comment
+mm cm/sec cm/sec
+ACA Poor window
+MCA Poor window
+PCA 46 64.4 36 1.18 Toward Normal
+VA 49 97 32 3.03 Away BIPHASIC
+Depth Max.V. Mean V. P.I. Flow Direction Comment
+mm cm/sec cm/sec
+BA 63 50 17 2.93 Away BIPHASIC
+Comment：
+1. Bilateral poor temporal windows.
+2. Biphasic waveform in the left VA and BA, compatible with subclavian steal phenomenon.
+3. Increased flow resistance in the right VA, probably indicating stenosis.
+檢查者: 謝育霖檢驗師 / / 湯頌君主治醫師
+影像報告(Imaging Report)
+2017/02/25 Chest : AP View (Supine) Chest radiograph shows cardiomegaly and bilateral consolidation. Mild right pleural effusion. Placement of a cardiac pacemaker. Placement of a nasogastric tube and a central venous line.
+2017/02/25 Chest : AP View (Supine) Chest AP view shows cardiomegaly, extensive interstitial opacities in lung, mild right pleural effusion. Placement of a cardiac pacemaker. Placement of a nasogastric tube and a central venous line.
+2017/02/26 Chest : AP View (Supine) an intracardiac device. cardiomegaly. a nasogastric tube. atherosclerosis and calcified aorta. a right central venous catheter. bilateral consolidation and/or pleural effusion.
+2017/03/01 Chest : AP View (Supine) Cardiac implantable electronic device present. Central venous catheter(s) present. Bilateral lung opacities. Blunted bilateral costophrenic angles. Cardiomegaly. Atherosclerosis with wall calcification of the aorta. Degenerative change of spine.
+2017/03/09 Chest : AP View (Supine) Status post pacemaker and double lumen catheter placement. Cardiomegaly. Atherosclerotic change of thoracic aorta. Diffuse infiltration and ill-defined opacities in both lungs. Right pleural effusion.
+2017/03/13 CT Without Contrast-Brain CT of brain without contrast enhancement shows:
+1. mild prominent sulci, fissures and ventricles.
+2. confluent hypodensity around bilateral periventricular region, leukoaraiosis is considered.
+3. focal old insults at right basal ganglia, lacunar infarct at left basal ganglia.
+4. atherosclerotic change of intracranial arteries.
+5. there is no definite hyperdense lesion indicating acute intracranial hemorrhage.
+6. intact cranial vault.
+2017/03/14 Chest : AP View (Supine) Chart No: 0730869
+Accession No: T0172389422
+EXAMINATION: Chest - AP View (Supine).
+FINDINGS:
+Cardiomegaly. Tortuous aorta with calcification. Bilateral lung consolidation. Bilateral pleural effusion. Placement of nasoenteric tube, double lumen catheter, cardiac pacing device. Suggest clinical correlation.
+轉出/出院情況(Transfer/Discharge Status)
+死亡 死亡
+
+【Injury Severity Score】
+Head Neck: 0
+Face: 0
+Chest: 0
+Abdomen: 0
+Extremity: 0
+External: 0
+Total ISS: 0
+病理報告(Pathology Report)
+Nil
+轉出/出院指示(Follow-up Instructions & Medications)
+Nil
+其他(Others)
+照會日期:2017/03/14 照會科別:神經部(神經部)
+照會日期:2017/03/14 照會科別:神經部(神經部)
+照會日期:2017/03/08 照會科別:內科部(心臟科日間一般(不含檢查照會))
+照會日期:2017/03/06 照會科別:營養室(孫萍營養師照會)
+照會日期:2017/03/06 照會科別:內科部(腎臟科一般及Cr小於等於4)
+
+隔離醫囑:
+2017/03/07 VRE接觸隔離;
+2017/03/14 MDRAB接觸隔離;
