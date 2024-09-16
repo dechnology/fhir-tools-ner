@@ -1,6 +1,6 @@
 """
 非結構化病歷工具處理流程:
-1. Preprocess
+1. Preprocess (所有匯出格式轉換為txt, 目前只有xlsx)
 2. LLM Polishing
     2-1. segmentation
     2-2. translation, normalization, polishing, and abbreviation expansion (word expansion)
@@ -28,25 +28,50 @@ import xml.etree.ElementTree as ET
 import json
 from collections import defaultdict
 from pydantic import BaseModel
-start_time = time.time()
-from medcat.cat import CAT
+import pandas as pd
 from openai import OpenAI
+from colorama import Fore, Style
+start_time = time.time()
+print(f"{Fore.GREEN}MedCAT package importing...{Style.RESET_ALL}", end="", flush=True)
+from medcat.cat import CAT
 import_time = time.time()
-print(f"Libraries imported in {import_time - start_time:.2f} seconds.")
+print(f"{Fore.GREEN} done. ({import_time - start_time:.2f} sec){Style.RESET_ALL}")
+
+
+# ===== Parameters =====
+#  -> system parameters
+#  -> target setting
+# ===============================
+# system parameters
+tool_name = "fhir_tool_1"
+version = "v1"
+preview_count = 5
+# target setting
+model = "mc_modelpack_snomed_int_16_mar_2022_25be3857ba34bdd5.zip"
+file = "TestingMedicalRecord.xlsx"
+umls_sub_dict = "filtered_data.csv"
+# helper
+NEWLINE = "\n"
+NONE_SYMBOL = "-"
 
 
 # ===== Step 0. Preparation =====
 #  -> Load the model pack
+#  -> Define the Pydantic model structure
 # ===============================
 # Load the model pack
-cat = CAT.load_model_pack('../model/mc_modelpack_snomed_int_16_mar_2022_25be3857ba34bdd5.zip')
+print(f"{Fore.GREEN}MedCAT Model and UMLS Dictionary Subset loading...{NEWLINE}{Style.RESET_ALL}", end="", flush=True)
+cat = CAT.load_model_pack(f'../models/{model}')
+print(f"{Fore.GREEN}waiting for UMLS Dictionary Subset...{NEWLINE}{Style.RESET_ALL}", end="", flush=True)
+umls_df = pd.read_csv(f"../data/dict/{umls_sub_dict}", sep='|', header=None)
+umls_df.columns = [
+    'CUI', 'LAT', 'TS', 'LUI', 'STT', 'SUI', 'ISPREF', 'AUI', 'SAUI', 
+    'SCUI', 'SDUI', 'SAB', 'TTY', 'CODE', 'STR', 'SRL', 'SUPPRESS', 'CVF'
+]
+print(umls_df.head())
 model_loaded_time = time.time()
-print(f"Model loaded in {model_loaded_time - import_time:.2f} seconds.")
+print(f"{Fore.GREEN} done. ({model_loaded_time - import_time:.2f} sec){Style.RESET_ALL}")
 
-
-# ===== Step 1. Preprocess =====
-#  -> 定義 Pydantic 模型結構
-# ===============================
 # 定義 Pydantic 模型結構
 class SNOMED_CT(BaseModel):
     raw_text_as_clues: list[str]
@@ -72,180 +97,141 @@ class JSONStructure(BaseModel):
 client = OpenAI(api_key="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")
 
 # 建立benchmark，紀錄初始時間
-import time
-start_time = time.time()
+preprocess_time = time.time()
 
+
+# ===== Step 1. Preprocess =====
+#  -> 判斷格式是否支援
+#  -> 轉換所有支援格式為txt (目前只處理一個xlsx檔案)
+#  -> 將每個病人的病歷分別存成一個txt檔案
+# ===============================
 # 開啟一個xlsx檔案，裡面每個row都是一個病人的病歷
-import pandas as pd
-file_name = "Testing EMR"
-df = pd.read_excel(f"../data/raw/{file_name}.xlsx")
+# get file name and extension
+# 藉由最後一個.的位置得到檔案名稱和副檔名
+file_name = file[:file.rfind(".")]
+file_ext = file[file.rfind(".")+1:]
+df = pd.read_excel(f"../data/input/{file}")
 # 依序處理每個病人的病歷
-# 每個row分別有四個欄位：seq, 急診去辨識病歷, 住院去辨識病歷, 檢驗紀錄
-# 我們要把他重新拼裝為一個以seq為檔名的txt檔案，並以＝＝＝＝＝<欄位名稱>＝＝＝＝＝\n\n<欄位內容>的形式存起來
+# 每個row分別有四個欄位：sqe, 急診去辨識病歷, 住院去辨識病歷, 檢驗紀錄
+# 我們要把他重新拼裝為一個以sqe為檔名的txt檔案，並以**********<欄位名稱>**********\n\n<欄位內容>的形式存起來
 for index, row in df.iterrows():
-    row_start_time = time.time()
-    with open(f"../data/{file_name}_v3plus_{index+1}.raw.txt", "w") as file:
-        file.write(f"==========sqe==========\n\n{row['sqe']}\n\n==========急診去辨識病歷==========\n\n{row['急診去辨識病歷']}\n\n==========住院去辨識病歷==========\n\n{row['住院去辨識病歷']}\n\n==========檢驗紀錄==========\n\n{row['檢驗紀錄']}")
+    if index != 1:
+        continue
+    sqe_start_time = time.time()
+    with open(f"../data/pipe_result/{file_name}_{tool_name}_{version}_{row['sqe']}.raw.txt", "w") as file:
+        file.write(f"**********急診去辨識病歷**********\n\n{row['急診去辨識病歷']}\n\n**********住院去辨識病歷**********\n\n{row['住院去辨識病歷']}\n\n**********檢驗紀錄**********\n\n{row['檢驗紀錄']}")
 
 
-    # 從f"../data/{file_name}_v3plus.{index+1}.raw.txt"讀取content
+    # ===== Step 2. LLM Polishing =====
+    #  -> load file content
+    #  -> segmentation
+    #  -> translation, normalization, polishing, and abbreviation expansion (word expansion)
+    #  -> merge all responses to a single Medical record string and save to a file
+    # ===============================
+    # 從f"../data/pipe_result/{file_name}_{tool_name}_v1.{row['sqe']}.raw.txt"讀取content
     content = ""
-    with open(f"../data/{file_name}_v3plus_{index+1}.raw.txt", "r") as file:
+    with open(f"../data/pipe_result/{file_name}_{tool_name}_{version}_{row['sqe']}.raw.txt", "r") as file:
         content = file.read()
         # print("split_content:")
         # print(content)
 
-    # 调用API进行标准化转换
-    standardization_completion = client.chat.completions.create(
-        model="gpt-4o-2024-08-06",
-        messages=[
-            {"role": "system", "content": "You are an expert in clinical text standardization. Convert the following unstructured medical text into standardized English format."},
-            {"role": "user", "content": content}
-        ]
-    )
+    # 將content拆分成多個段落
+    split_content = content.split("\n\n")
+    # 精準切割：
+    # 1. 在不破壞文意的情況下，將每個段落切割成多個子段落
+    # 2. 如果每個子段落的長度大於500，則將其拆分成多個孫段落
+    # TODO: 待實作
 
-    # 获取标准化后的文本
-    standardized_content = standardization_completion.choices[0].message.content
+    # 使用OpenAI的API對每個段落進行翻譯、標準化、精煉和縮寫展開（詞展開）
+    standardized_content = ""
+    for i in range(len(split_content)):
+        # 取得段落 split_content[i] 的前N行
+        lines = split_content[i].splitlines()
+        print(f"{Fore.YELLOW}{NEWLINE.join(lines[:preview_count])}{f' [... {len(lines)} lines]' if len(lines) > preview_count else ''}{Style.RESET_ALL}")
+        print(f"{Fore.WHITE}sqe {row['sqe']}: {i+1}/{len(split_content)} polishing...{Style.RESET_ALL}", end="", flush=True)
+        seqment_start_time = time.time()
+        standardization_completion = client.chat.completions.create(
+            model="gpt-4o-2024-08-06",
+            messages=[
+                {"role": "system", "content": """translation the user context to english and execute normalization, polishing, and abbreviation expansion (word expansion). For entities that follow status words, ensure the status word applies to each of the following entities."""},
+                {"role": "user", "content": split_content[i]}
+            ]
+        )
+        seqment_end_time = time.time()
+        print(f"{Fore.WHITE} done. ({round(seqment_end_time - seqment_start_time, 2)} sec.)\n{Style.RESET_ALL}")
+        # 合併所有回應到一個單一的醫療記錄字串
+        standardized_content += standardization_completion.choices[0].message.content
 
-    # 儲存標準化後的文本到f"../data/{file_name}_v3plus_{index+1}.raw.standardized.txt"
-    with open(f"../data/{file_name}_v3plus_{index+1}.raw.standardized.txt", "w") as file:
+    # 儲存標準化後的醫療記錄字串，保存到文件f"../data/pipe_result/{file_name}_{tool_name}_{version}_{row['sqe']}.raw.polishing.txt"
+    with open(f"../data/pipe_result/{file_name}_{tool_name}_{version}_{row['sqe']}.raw.polishing.txt", "w") as file:
         file.write(standardized_content)
-    row_standardized_time = time.time()
-    print(f"Row {index+1} standardized time: {row_standardized_time - row_start_time} seconds")
-
-    # 输出标准化后的文本（可选）
+    preprocess_time = time.time()
+    print(f"{Fore.GREEN}sqe {row['sqe']} polishing time: {round(preprocess_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
     # print("Standardized Content:")
     # print(standardized_content)
 
-    # 清空目錄
-    input_dir = "/Users/yangnoahlin/Downloads/apache-ctakes-4.0.0.1/data/input"
-    output_dir = "/Users/yangnoahlin/Downloads/apache-ctakes-4.0.0.1/data/output"
-    if os.path.exists(input_dir):
-        shutil.rmtree(input_dir)
-    os.makedirs(input_dir)
-
-    # 移动指定文件到输入目录
-    source_file = f"../data/{file_name}_v3plus_{index+1}.raw.standardized.txt"
-    destination_file = os.path.join(input_dir, f"{file_name}_v3plus_{index+1}.raw.standardized.txt")
-    shutil.copy2(source_file, destination_file)
-
-    # 调用外部程序
-    result = subprocess.run([
-        "/Users/yangnoahlin/Downloads/apache-ctakes-4.0.0.1/bin/runClinicalPipeline.sh",
-        "--key", "08b35fd3-57c5-4548-9463-b876602ed823",
-        "--inputDir", input_dir,
-        "--xmiOut", output_dir
-        ], capture_output=True, text=True)
     
-    cTAKES_output_file = f"{output_dir}/{file_name}_v3plus_{index+1}.raw.standardized.txt.xmi"
-    if result.returncode == 0:
-        print("cTAKES Pipeline executed successfully")
-        print(result.stdout)
-    else:
-        print("cTAKES Pipeline failed with return code", result.returncode)
-        print(result.stderr)
-        print("create a empty file to ensure the program can continue")
-        with open(cTAKES_output_file, "w") as file:
-            file.write("")
-
-
-    # 读取并解析 XMI 文件
-    tree = ET.parse(cTAKES_output_file)
-    root = tree.getroot()
-
-    # 定义命名空间，如果 XMI 文件中有命名空间前缀，需要在此处定义
-    namespaces = {
-        'refsem': "http:///org/apache/ctakes/typesystem/type/refsem.ecore"
-    }
-
-    # 创建一个默认字典来存储重组的数据结构
-    data = defaultdict(lambda: defaultdict(list))
-
-    # 提取所有 refsem:UmlsConcept 标签
-    umls_concepts = root.findall('.//refsem:UmlsConcept', namespaces)
-
-    for concept in umls_concepts:
-        coding_scheme = concept.get('codingScheme')
-        preferred_text = concept.get('preferredText')
-        code = concept.get('code')
-        cui = concept.get('cui')
-        tui = concept.get('tui')
-        
-        # 将数据加入到重组的结构中
-        data[coding_scheme][preferred_text].append({
-            "code": code,
-            "cui": cui,
-            "tui": tui
-        })
-
-    # 将默认字典转换为普通字典
-    data_dict = {k: dict(v) for k, v in data.items()}
-
-    # 转换为JSON格式的字符串
-    ctakes_json_data = json.dumps(data_dict)
-
+    # ===== Step 3. Linguistic Extraction (MedCAT)，一次一句 =====
+    #  -> get entities from the standardized content
+    # ===============================
+    # 使用MedCAT從文本中提取實體
+    # TODO: 一次一句
+    entities = cat.get_entities(standardized_content)
+    # Save the entities to a JSON file
+    with open(f"../data/pipe_result/{file_name}_{tool_name}_{version}_{row['sqe']}.raw.polishing.MedCAT.json", "w") as json_file:
+        json.dump(entities, json_file, indent=2)
+    linguistic_extraction_time = time.time()
+    print(f"{Fore.GREEN}sqe {row['sqe']} linguistic extraction time: {round(linguistic_extraction_time - preprocess_time, 2)} sec{Style.RESET_ALL}")
     
-    # create a new file named f"../data/{file_name}_v3plus_{index+1}.raw.standardized.cTAKES.txt" and write the content of source_file and cTAKES_output_file into it
-    standardized_with_cTAKES_file = f"../data/{file_name}_v3plus_{index+1}.raw.standardized.cTAKES.txt"
-    with open(standardized_with_cTAKES_file, "w") as file:
-        file.write(f"{content}\n\n==========cTAKES detection result==========\n\n")
-        with open(cTAKES_output_file, "r") as cTAKES_output:
-            file.write(ctakes_json_data)
-    standardized_with_cTAKES_content = ""
-    with open(standardized_with_cTAKES_file, "r") as file:
-        standardized_with_cTAKES_content = file.read()
-
     
-    row_run_cTAKES_time = time.time()
-    print(f"Row {index+1} run cTAKES time: {row_run_cTAKES_time - row_standardized_time} seconds")
-
-    # 调用API并传递模型
-    # standardized_with_cTAKES_content handler
-    completion = client.beta.chat.completions.parse(
-        model="gpt-4o-2024-08-06",
-        messages=[
-            {"role": "system", "content": """
-             You are an expert in structured medical data extraction, specializing in SNOMED_CT, RxNorm, and LOINC.
-             Your task is to analyze medical text in "急診去辨識病歷", "住院去辨識病歷" and "檢驗紀錄" and should identify and extract the relevant SNOMED_CT, RxNorm, and LOINC codes wherever applicable.
-             Convert the information into the given structured format and NOT to deduplicate the information:
-            
-            - `SNOMED_CT`: A list of dictionaries, each containing the following keys:
-                - `raw_text_as_clues`: The raw text list you found in the original content (copy the raw text chunk as clue to here).
-                - `implies_concepts_FSN`: The fully specified name (FSN) list of the concept.
-                - `id`: The unique SNOMED CT code from dictionary.
-
-            - `LOINC`: A list of dictionaries, each containing the following keys:
-                - `raw_text_as_clues`: The raw text list you found in the original content (copy the raw text chunk as clue to here).
-                - `implies_concepts_FSN`: The fully specified name (FSN) list of the [test / measurement].
-                - `id`: The unique LOINC code from dictionary.
-
-            - `RxNorm`: A list of dictionaries, each containing the following keys:
-                - `raw_text_as_clues`: The raw text list you found in the original content (copy the raw text chunk as clue to here).
-                - `implies_concepts_FSN`: The fully specified name (FSN) list of the drug.
-                - `id`: The unique RxNorm code from dictionary.
-            """},
-            {"role": "user", "content": standardized_with_cTAKES_content}
-        ],
-        response_format=JSONStructure,
-    )
-
-    # 获取解析后的结构化数据
-    parsed_response = completion.choices[0].message.parsed
-
-    # 输出结果
-    # print("parsed_response:")
-    # print(parsed_response.model_dump_json(indent=2))
-
-    # 儲存萃取出的結構化資訊到f"../data/{file_name}_v3plus_{index+1}.raw.(standardized).cTAKES.LLM.txt"
-    with open(f"../data/{file_name}_v3plus_{index+1}.raw.(standardized).cTAKES.LLM.txt", "w") as file:
-        file.write(parsed_response.model_dump_json(indent=2))
-    row_format_time = time.time()
-    print(f"Row {index+1} format time: {row_format_time - row_standardized_time} seconds")
-    row_end_time = time.time()
-    print(f"Row {index+1} total time: {row_end_time - row_start_time} seconds")
+    # ===== Step 4. Medical Normalization (ICD10 to SNOMED_CT, the final output is SNOMED_CT, RxNORM, and LOINC) =====
+    #  -> 按照 token|cui|source|code|string 的格式輸出到檔案，不屬於concept的token，以"-"呈現
+    # ===============================
+    # MedCAT提取出的資訊，可以依照此對照擷取資訊
+    #  -> token: source_value
+    #  -> cui: cui
+    #  -> source: 
+    #  -> code: 
+    #  -> string: pretty_name
+    with open(f"../data/pipe_result/{file_name}_{tool_name}_{version}_{row['sqe']}.raw.polishing.output.txt", "w") as file:
+        # print("index|chunk|cui|source|code|string")
+        file.write("index|chunk|cui|source|code|string\n")
+        entity_list = entities['entities']
+        index_now = 0
+        for key, entity in entity_list.items():
+            # print(entity.get('cui', NONE_SYMBOL), entity.get('pretty_name', NONE_SYMBOL)) 
+            # print(f"{entity.source_value}|{entity.cui}|{NONE_SYMBOL}|{NONE_SYMBOL}|{entity.pretty_name}")
+            cui_df = umls_df[umls_df['SCUI'] == entity.get('cui')]
+            preferred_df = cui_df[cui_df['ISPREF'] == 'Y']
+            if not preferred_df.empty:
+                target_df = preferred_df[preferred_df['TTY'] == 'PT']
+                if target_df.empty:
+                    target_df = preferred_df[preferred_df['TTY'] == 'FN']
+            else:
+                target_df = cui_df
+            if not target_df.empty:
+                cui_str = target_df.iloc[0]['CUI']
+                sab_str = target_df.iloc[0]['SAB']
+                code_str = target_df.iloc[0]['CODE']
+            else:
+                sab_str = "<LOST>"
+                code_str = "<LOST>"
+            if entity.get('start') > index_now:
+                file.write(f"{index_now}|{standardized_content[index_now:entity.get('start')].replace(NEWLINE, '<NEW_LINE>')}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}{NEWLINE}")
+                file.write(f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}{NEWLINE}")
+                index_now = entity.get('end')
+            elif entity.get('start') == index_now:
+                file.write(f"{entity.get('source_value', NONE_SYMBOL)}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}{NEWLINE}")
+    
+    medical_normalization_time = time.time()
+    print(f"{Fore.GREEN}sqe {row['sqe']} Medical Normalization time: {round(medical_normalization_time - linguistic_extraction_time, 2)} sec{Style.RESET_ALL}")
+    sqe_end_time = time.time()
+    print(f"{Fore.BLUE}sqe {row['sqe']} total time: {round(sqe_end_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
+    print("提前結束（快速測試）")
+    break
 
 end_time = time.time()
-print(f"Total time: {end_time - start_time} seconds")
+print(f"Total time: {round(end_time - start_time, 2)} sec")
 
 
 # Concept Names and Sources (File = MRCONSO.RRF)
@@ -378,20 +364,3 @@ CVF (Content View Flag)
     C4048847	LOINC Universal Lab Orders Value Set	    16384	The Universal Lab Order Codes Value Set from LOINC is a collection of the most frequent lab orders. It was created for use by developers of provider order entry systems that would deliver them in HL7 messages to laboratories where they could be understood and fulfilled. The content view is defined as any atom belonging to sab = 'LNC' with the attribute of UNIVERSAL_LAB_ORDERS_VALUE_SET = TRUE.
     C4050460	LOINC Panels and Forms	                    32768	This content view contains any LOINC identifier used as a grouper containing a set of child LOINC data elements. Any UMLS AUI sab = 'LNC' and tty='LN' with the attribute of 'PANEL_TYPE' belongs to this content view.
 """
-
-# ===== Step 3. Linguistic Extraction =====
-#  -> Open the input file to read the text
-#  -> Extract entities from the text
-# =========================================
-# Open the input file to read the text
-with open("../data/Testing EMR_v3plus_1.raw.standardized.txt", "r") as file:
-    text = file.read()
-    entities = cat.get_entities(text)
-entities_extracted_time = time.time()
-print(f"Entities extracted in {entities_extracted_time - model_loaded_time:.2f} seconds.")
-
-# Save the entities to a JSON file
-with open("../data/Testing EMR_v4_1_MedCAT.json", "w") as json_file:
-    json.dump(entities, json_file, indent=2)
-json_saved_time = time.time()
-print(f"Entities have been saved to '../data/Testing EMR_v4_1_MedCAT.json' in {json_saved_time - entities_extracted_time:.2f} seconds.")

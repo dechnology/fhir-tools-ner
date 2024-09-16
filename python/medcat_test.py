@@ -7,7 +7,7 @@ import_time = time.time()
 print(f"Libraries imported in {import_time - start_time:.2f} seconds.")
 
 # Load the model pack
-cat = CAT.load_model_pack('../model/umls_self_train_model_pt2ch_3760d588371755d0.zip')
+cat = CAT.load_model_pack('../models/umls_self_train_model_pt2ch_3760d588371755d0.zip')
 model_loaded_time = time.time()
 print(f"Model loaded in {model_loaded_time - import_time:.2f} seconds.")
 

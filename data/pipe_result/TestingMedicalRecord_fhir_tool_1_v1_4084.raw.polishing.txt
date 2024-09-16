@@ -1,0 +1,266 @@
+********** Emergency Departments Go to Identify Medical Records **********Triage Information:
+
+Triage Level: 2
+Computer Grading: 2
+
+Chief Complaint:
+Blurred vision in the right eye
+
+Determination Basis: Visual impairment, acute or sudden onset changes in vision
+
+Past History:
+None
+
+Travel, Occupation, Cluster, and Contact (TOCC) History:
+Travel History: None
+Cluster History: None
+Special Occupation: None
+Contact with Patients: None
+Contact with Animals: None
+
+Vital Signs:
+Blood Pressure: 93/62 mmHg
+Pulse Rate: 115/min
+Oxygen Saturation (SpO2): 97%
+Respirations: 20/min
+Body Temperature: 36.8°C
+Blood Sugar: Not Applicable
+Pain Index: 0 (no pain)
+Acute Changes: None
+Consciousness: Clear
+
+Special Notes:
+*Patient or their family has been informed that the emergency department is currently full and there might be a significant wait time for a bed and for physician examination.
+
+Method of Arrival: No referral slip
+Admission Reason: Illness
+High-Risk Mechanism: Not Applicable
+
+Triage Personnel: Lin Yi-shan
+
+Emergency Visit Medical Record:
+
+Chief Complaint:
+Blurred vision in the right eye
+
+Past History:
+None
+
+Drug Allergies: No
+
+Travel History: None
+Special Occupation: None
+Cluster Infection: None
+Contact with Special Patients: None
+Contact with Animals: None
+
+Present Illness:
+Past History: Lightening of visual field since last night.
+Referred from Mackay Memorial Hospital for retinal detachment operation
+
+Physical Examination:
+Consciousness: Clear
+Vital Signs:
+Blood Pressure: 93/62 mmHg
+Pulse Rate: 115/min
+Respiratory Rate: 20/min
+Temperature: 36.8°C
+SpO2: 97%
+
+Head: Scalp: Normal
+Pupils: Isocoric
+Conjunctiva: Not pale
+Sclera: Anicteric
+Neck: Supple
+Jugular Vein Engorgement: Negative
+Lymphadenopathy: Negative
+
+Chest: Symmetric expansion
+Breath sounds: Clear
+
+Heart: Regular heartbeat
+Murmur: Negative
+
+Abdomen: Soft
+Bowel Sounds: Normal
+
+Extremities: Normal
+
+Diagnosis Information:
+
+Admission Diagnosis:
+Retinal detachment, unspecified side (ICD Code: H33.20)
+
+Discharge Diagnosis:
+Retinal detachment, unspecified side (ICD Code: H33.20)
+
+Physician's Orders:
+Contact ophthalmology - Dr. Zhao Lifen (Code: 51001), consult Ophthalmology Department
+Bilateral eye Mydrin P, one drop for each eye
+Send patient to ward 12A, medical chart not needed
+Add or modify bed arrangement
+Admission to hospital********** Hospital Admission for Medical Record Identification ************Admission Diagnosis:** Retinal detachment, right eye
+
+**Discharge Diagnosis:** Rhegmatogenous retinal detachment, right eye, status post segmental scleral buckling and sulfur hexafluoride (SF6) injection
+
+**Diagnosis for Intensive Care Unit (ICU):** None
+
+**Chief Complaint:** 
+Informant: The patient and the medical chart
+Blurred vision in the right eye for two days
+
+**Patient History:**  
+- **Present Illness:**  
+A 22-year-old man, otherwise healthy with no systemic diseases, experienced progressive floaters in his right eye for 3-4 days and noted photopsia for two days. Initially, a local medical doctor (LMD) diagnosed him with retinal detachment (RD). He subsequently visited Mackay Hospital and was referred to National Taiwan University Hospital (NTUH) for surgical intervention, leading to his admission.Ophthalmology history: Outpatient procedures (none, see above), Trauma (none).  
+Past medical history: Diabetes Mellitus (none), Hypertension (none), Coronary Artery Disease (none), Asthma (none).  
+Allergies: None reported.  
+Family history: No hereditary ocular diseases.  
+Current Medication:  
+National Taiwan University Hospital (N.T.U.H): None  
+Other: None  
+Traditional Chinese Medicine: None  
+Health Supplements: None  
+Travel history: None  
+Physical Examination:  
+
+Physical Examination at admission:  
+Body Height: 164 cm  
+Body Weight: 48 kg  
+Temperature: 36.4 °C  
+Pulse: 77 beats per minute  
+Respiratory Rate: 17 per minute  
+Blood Pressure: 133/96 mmHg  
+Pain score: 3Neurological Examination:
+- Consciousness: 
+- Muscle power: 
+- Gait: Neurological Examination:
+- Consciousness: clear and oriented
+- Muscle power: no obvious abnormalities
+- Gait: no obvious abnormalitiesGeneral Appearance: The patient's overall appearance is fair.
+
+Consciousness: The patient is fully conscious and alert.
+
+HEENT: Head, Eyes, Ears, Nose, and Throat are grossly normal.
+
+Neck: The neck is supple, indicating good flexibility and no swelling.
+
+Chest: There is symmetric expansion of the chest with no use of accessory muscles for breathing.
+
+Abdomen: The abdomen is soft and flat with no tenderness.
+
+Extremities: There is no edema (swelling) or cyanosis (bluish discoloration) in the extremities.**Best Corrected Visual Acuity (BCVA):**  
+- Right Eye (OD): 0.25  
+- Left Eye (OS): 1.0  
+
+**Intraocular Pressure (IOP) - Tonometer Pressure (Tp):**  
+- Right Eye (OD): 15  
+- Left Eye (OS): 18  
+
+**Cornea:**  
+- Right Eye (OD): Clear  
+- Left Eye (OS): Clear  
+
+**Conjunctiva:**  
+- Right Eye (OD): No Pathology (NP)  
+- Left Eye (OS): No Pathology (NP)  
+
+**Anterior Chamber:**  
+- Right Eye (OD): Deep and Clear  
+- Left Eye (OS): Deep and Clear  
+
+**Lens:**  
+- Right Eye (OD): Clear  
+- Left Eye (OS): Clear  
+
+**Fundus:**  
+- Right Eye (OD): Cup-to-disc ratio (C/D) 40%, Retinal detachment from 9 to 1 o'clock, bullous detachment, retinal break at 11.5 to 12 o'clock  
+- Left Eye (OS): C/D 40%, Attached  
+
+**Evident Physical Changes at Transfer/Discharge:**  
+- Retina Attached  
+- Intraocular Pressure Within Normal Limits (WNL)  
+
+**Surgical Procedure:**  
+- Operation Date: February 24, 2017  
+- Surgeon: Dr. He Zichang  
+
+**Pre-operative Diagnosis:**  
+- Rhegmatogenous Retinal Detachment (Right Eye - OD)  
+
+**Post-operative Diagnosis:**  
+- Rhegmatogenous Retinal Detachment (Right Eye - OD)  
+
+**Operative Methods:**  
+- Segmental Scleral Buckle  
+- Cryopexy  
+- Sulfur Hexafluoride (SF6) 0.4 ml Injection (Right Eye - OD)  
+
+**Operative Findings:**  
+- Rhegmatogenous Retinal Detachment from 12 to 8 o'clock  
+- Retinal Break at 11 o'clock  
+
+**Course and Treatment in Hospital:**  
+After surgery, some subretinal fluid remained. The break was indented by buckling and surrounded by cryotherapy. Additional focal laser was applied in both eyes. On post-operative day 5, the retina was attached. The patient was then discharged in stable condition.
+
+**Medications during Hospital Stay:**  
+- Gentamicin Sulfate  
+- Acetaminophen  
+- Magnesium Oxide  
+- Sennoside A and B  
+- Diazepam  
+- Betamethasone Sodium Phosphate  
+- Triamcinolone Acetonide  
+- Tetracycline Hydrochloride (HCl)  
+- Atropine Sulfate  
+- Repeat of Betamethasone Sodium Phosphate  
+- Repeat of Gentamicin Sulfate  **********Examination Record************Laboratory Report**
+None
+
+**Examination Report**
+None
+
+**Imaging Report**
+None
+
+**Transfer/Discharge Status**
+Switched to outpatient treatment; Improvement observed
+
+**Pathology Report**
+None
+
+**Follow-up Instructions & Medications:**
+
+- **Post-discharge Bed Positioning:** Other: Keep head low
+- **Eye Dressing Procedure:** Sterile gauze with a metal cover
+- **Patient Activity Restrictions:** 
+  - Recommended resting more
+  - Suggested avoiding strenuous or intense activities
+
+- **Wound Care:**
+  - No suture removal needed
+  - Follow instructions for wound care or medication changes
+
+- **Dietary Considerations:** 
+  - No specific dietary restrictions
+  - Follow personal daily diet
+
+**Medications:**
+
+- **Gentamicin Sulfate:** Gentamicin Eye Drops, 3 mg/1 mL, 5 mL/bottle
+  - 1 drop in right eye four times a day, duration of prescription: 8 days
+
+- **Atropine Sulfate:** Atropine Sulfate Ophthalmic Solution 1%, 10 mL/bottle
+  - 1 drop in right eye every 12 hours, duration of prescription: 8 days
+
+- **Betamethasone Sodium Phosphate:** Betame Eye Drops 0.1%, 5 mL/bottle
+  - 1 drop in right eye four times a day, duration of prescription: 8 days
+
+- **Tetracycline HCl:** Tetracycline Ophthalmic Ointment, 10 mg/1 g, 1%, 5 g/tube
+  - 1 application in right eye at bedtime, duration of prescription: 8 days
+
+- **Betamethasone Sodium Phosphate:** Betame Eye Drops 0.1%, 5 mL/bottle
+  - 1 drop in left eye four times a day, duration of prescription: 8 days
+
+**Others**
+
+- **Isolation Orders:** None

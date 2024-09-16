@@ -1,8 +1,4 @@
-==========sqe==========
-
-4084
-
-==========急診去辨識病歷==========
+**********急診去辨識病歷**********
 
 檢傷內容
 檢傷級數: 2 電腦分級: 2
@@ -54,7 +50,7 @@ Retinal detachment, unspecified side (H33.20)
 Contact opth R:趙麗芳(簡碼:51001, 照會 眼科部(眼科部), Bilateral eye Mydrin P, one drop for each eye, send patient to 12A, medical chart is not needed, 新增或修改配床, 住院 Admission,
 
 
-==========住院去辨識病歷==========
+**********住院去辨識病歷**********
 
 入院診斷(Admission Diagnosis)
 Retinal detachment, right eye
@@ -130,7 +126,7 @@ After operation, there is still some subretinal fluid. The break is indented by 
 Gentamicin Sulfate, Acetaminophen, Magnesium Oxide, Sennoside A+B, Diazepam, Betamethasone Sodium Phosphate, Triamcinolone Acetonide, Tetracycline HCl, Atropine Sulfate, Betamethasone Sodium Phosphate, Gentamicin Sulfate
 
 
-==========檢驗紀錄==========
+**********檢驗紀錄**********
 
 檢驗紀錄(Laboratory Report)
 nil

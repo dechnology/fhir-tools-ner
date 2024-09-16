@@ -47,7 +47,7 @@ print(f"Libraries imported in {import_time - start_time:.2f} seconds.")
 #  -> Load the model pack
 # ===============================
 # Load the model pack
-cat = CAT.load_model_pack('../model/mc_modelpack_snomed_int_16_mar_2022_25be3857ba34bdd5.zip')
+cat = CAT.load_model_pack('../models/mc_modelpack_snomed_int_16_mar_2022_25be3857ba34bdd5.zip')
 model_loaded_time = time.time()
 print(f"Model loaded in {model_loaded_time - import_time:.2f} seconds.")
 
