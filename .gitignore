@@ -163,5 +163,5 @@ cython_debug/
 *.DS_Store
 
 # models
-model/
-models/
+model/*
+models/*
