@@ -6,6 +6,7 @@
     2-2. translation, normalization, polishing, and abbreviation expansion (word expansion)
     2-3. merge all responses to a single Medical record string and save to a file
 3. Linguistic Extraction (MedCAT)，一次一句
+    3-0. 執行MedCAT之後，連結到UMLS的條目
     3-1. 意思完備
         -> 如果句中出現qualifier values，則改寫整句話（將qualifier values應用到後續的entities）重跑一次Linguistic Extraction
     3-2. LLM based medical Entity Extraction (Concept Mapping)
@@ -173,6 +174,17 @@ for index, row in df.iterrows():
     
     # ===== Step 3. Linguistic Extraction (MedCAT)，一次一句 =====
     #  -> get entities from the standardized content
+    #  -> link all entities to UMLS entries
+    # 3-1. 意思完備
+    #     -> 如果句中出現qualifier values，則改寫整句話（將qualifier values應用到後續的entities）重跑一次Linguistic Extraction
+    # 3-2. LLM based medical Entity Extraction (Concept Mapping)
+    #     4-0. Blacklist (移除無意義概念，暫時不用)
+    #     4-1. Dictionary lookup (N=100)
+    #         -> 左右entity各自找出條目後聯集，使找到的UMLS條目數量在30條以內，若大於N條，則逐一加入夾在中間的token，直到找到的UMLS條目數量在N條以內
+    #     4-2. Concept Resolution
+    #         ->直接計算~Entiry_A~Entity_B~的字串嵌入值，比對出最相近的條目
+    #         or
+    #         ->用~Entiry_A~Entity_B~的字串請AI幫忙找出最相近的條目（~中沒有Entity）
     # ===============================
     # 使用MedCAT從文本中提取實體
     # TODO: 一次一句

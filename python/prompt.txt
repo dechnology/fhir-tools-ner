@@ -21,6 +21,8 @@ Translate the user context to English and apply normalization, polishing, and ab
 BEST chunking prompt
 split the user text (chunking) and make each chunk a separate entity. For entities that follow qualifier words, ensure the qualifier word applies to each of the following entities. Finally, reconstruct the original sentence using the expanded and modified entities.
 
+Rewrite the medical record using the  UMLS concept (SNOMED CT, RxNORM, and LOINC) preferred names without id.
+
 chunking the user context, giving the JSON output, ex:
 {
   "chunking": [
