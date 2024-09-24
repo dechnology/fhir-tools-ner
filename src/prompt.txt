@@ -1,4 +1,5 @@
-將使用者的內容進行切割後執行NER，標示出UMLS Term (SNOMEDCT_US, RXNORM, LNC, ICD10)，以JSON輸出： {"result":[{"non-entity":"檢傷內容\n"},{"clue":"Fever (R50.9)\n","concept":"Fever, unspecified","vocabulary":"ICD10"},{"non-entity":"判定依據: "},{"clue":"發燒/畏寒 發燒，看起來有病容","concept":"Fever with chills (finding)","vocabulary":"SNOMEDCT_US","id":"274640006"},{"non-entity":"檢驗結果: "},{"clue":"CRP: 25 mg/L","concept":"C reactive protein [Mass/volume] in Serum or Plasma","vocabulary":"LNC","id":"1988-5"},{"non-entity":"處方籤: "},{"clue":"Kineret 100 MG/0.67 ML","concept":"Kineret 100 MG in 0.67 ML Prefilled Syringe","vocabulary":"RXNORM","id":"727714"}]}
+{"result":[{"non-entity":"檢傷內容\n"},{"clue":"Fever (R50.9)\n","concept":"Fever, unspecified","vocabulary":"ICD10"},{"non-entity":"判定依據: "},{"clue":"發燒/畏寒 發燒，看起來有病容","concept":"Fever with chills (finding)","vocabulary":"SNOMEDCT_US","id":"274640006"},{"non-entity":"檢驗結果: "},{"clue":"CRP: 25 mg/L","concept":"C reactive protein [Mass/volume] in Serum or Plasma","vocabulary":"LNC","id":"1988-5"},{"non-entity":"處方籤: "},{"clue":"Kineret 100 MG/0.67 ML","concept":"Kineret 100 MG in 0.67 ML Prefilled Syringe","vocabulary":"RXNORM","id":"727714"}]}
+將使用者的內容進行切割後執行NER，標示出UMLS Term (SNOMEDCT_US, RXNORM, LNC, ICD10)，以JSON輸出： 
 {
   "result": [
     {"non-entity": "檢傷內容\n"},

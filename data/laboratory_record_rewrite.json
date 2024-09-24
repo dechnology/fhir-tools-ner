@@ -1,0 +1,996 @@
+{
+  "record": [
+    {
+      "laboratory": [
+        {
+          "name": "CBC+PLT",
+          "description": "全血細胞計數和血小板測定",
+          "details": [
+            {
+              "timestamp": "106/02/25 13:33",
+              "values": [
+                {
+                  "name": "WBC",
+                  "description": "白血球計數",
+                  "value": 60.52,
+                  "unit": "K/μL"
+                },
+                {
+                  "name": "RBC",
+                  "description": "紅血球計數",
+                  "value": 2.96,
+                  "unit": "M/μL"
+                },
+                {
+                  "name": "HB",
+                  "description": "血紅素",
+                  "value": 8.4,
+                  "unit": "g/dL"
+                },
+                {
+                  "name": "HCT",
+                  "description": "血球容積比",
+                  "value": 25.3,
+                  "unit": "%"
+                },
+                {
+                  "name": "MCV",
+                  "description": "平均紅血球體積",
+                  "value": 85.5,
+                  "unit": "fL"
+                },
+                {
+                  "name": "MCH",
+                  "description": "平均紅血球血紅素量",
+                  "value": 28.4,
+                  "unit": "pg"
+                },
+                {
+                  "name": "MCHC",
+                  "description": "平均紅血球血紅素濃度",
+                  "value": 33.2,
+                  "unit": "g/dL"
+                },
+                {
+                  "name": "PLT",
+                  "description": "血小板",
+                  "value": 54,
+                  "unit": "K/μL"
+                },
+                {
+                  "name": "RDW-CV",
+                  "description": "紅血球分佈寬度",
+                  "value": 20.6,
+                  "unit": "%"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/26 06:40",
+              "values": [
+                {
+                  "name": "WBC",
+                  "description": "白血球計數",
+                  "value": 27.08,
+                  "unit": "K/μL"
+                },
+                {
+                  "name": "RBC",
+                  "description": "紅血球計數",
+                  "value": 2.94,
+                  "unit": "M/μL"
+                },
+                {
+                  "name": "HB",
+                  "description": "血紅素",
+                  "value": 8.3,
+                  "unit": "g/dL"
+                },
+                {
+                  "name": "HCT",
+                  "description": "血球容積比",
+                  "value": 24.7,
+                  "unit": "%"
+                },
+                {
+                  "name": "MCV",
+                  "description": "平均紅血球體積",
+                  "value": 84,
+                  "unit": "fL"
+                },
+                {
+                  "name": "MCH",
+                  "description": "平均紅血球血紅素量",
+                  "value": 28.2,
+                  "unit": "pg"
+                },
+                {
+                  "name": "MCHC",
+                  "description": "平均紅血球血紅素濃度",
+                  "value": 33.6,
+                  "unit": "g/dL"
+                },
+                {
+                  "name": "PLT",
+                  "description": "血小板",
+                  "value": 48,
+                  "unit": "K/μL"
+                },
+                {
+                  "name": "RDW-CV",
+                  "description": "紅血球分佈寬度",
+                  "value": 20.4,
+                  "unit": "%"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/28 06:33",
+              "values": [
+                {
+                  "name": "WBC",
+                  "description": "白血球計數",
+                  "value": 3.76,
+                  "unit": "K/μL"
+                },
+                {
+                  "name": "RBC",
+                  "description": "紅血球計數",
+                  "value": 2.79,
+                  "unit": "M/μL"
+                },
+                {
+                  "name": "HB",
+                  "description": "血紅素",
+                  "value": 8.1,
+                  "unit": "g/dL"
+                },
+                {
+                  "name": "HCT",
+                  "description": "血球容積比",
+                  "value": 23.7,
+                  "unit": "%"
+                },
+                {
+                  "name": "MCV",
+                  "description": "平均紅血球體積",
+                  "value": 84.9,
+                  "unit": "fL"
+                },
+                {
+                  "name": "MCH",
+                  "description": "平均紅血球血紅素量",
+                  "value": 29,
+                  "unit": "pg"
+                },
+                {
+                  "name": "MCHC",
+                  "description": "平均紅血球血紅素濃度",
+                  "value": 34.2,
+                  "unit": "g/dL"
+                },
+                {
+                  "name": "PLT",
+                  "description": "血小板",
+                  "value": 30,
+                  "unit": "K/μL"
+                },
+                {
+                  "name": "RDW-CV",
+                  "description": "紅血球分佈寬度",
+                  "value": 19.3,
+                  "unit": "%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "WBC Classification",
+          "description": "白血球分類",
+          "details": [
+            {
+              "timestamp": "106/02/25 13:33",
+              "values": [
+                {
+                  "name": "Blast",
+                  "description": "幼稚細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Promyl.",
+                  "description": "早幼粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Myelo.",
+                  "description": "中幼粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Meta",
+                  "description": "後幼粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Band",
+                  "description": "帶狀核粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Seg",
+                  "description": "分葉核粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Eos.",
+                  "description": "嗜酸性球",
+                  "value": 0.7,
+                  "unit": "%"
+                },
+                {
+                  "name": "Baso.",
+                  "description": "嗜鹼性球",
+                  "value": 0.2,
+                  "unit": "%"
+                },
+                {
+                  "name": "Mono.",
+                  "description": "單核球",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Lym.",
+                  "description": "淋巴球",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Aty.Lym.",
+                  "description": "異型淋巴球",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "PlasmaCell",
+                  "description": "漿細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Normobl.",
+                  "description": "有核紅血球",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/26 06:40",
+              "values": [
+                {
+                  "name": "Blast",
+                  "description": "幼稚細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Promyl.",
+                  "description": "早幼粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Myelo.",
+                  "description": "中幼粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Meta",
+                  "description": "後幼粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Band",
+                  "description": "帶狀核粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Seg",
+                  "description": "分葉核粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Eos.",
+                  "description": "嗜酸性球",
+                  "value": 1.4,
+                  "unit": "%"
+                },
+                {
+                  "name": "Baso.",
+                  "description": "嗜鹼性球",
+                  "value": 0.1,
+                  "unit": "%"
+                },
+                {
+                  "name": "Mono.",
+                  "description": "單核球",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Lym.",
+                  "description": "淋巴球",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Aty.Lym.",
+                  "description": "異型淋巴球",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "PlasmaCell",
+                  "description": "漿細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Normobl.",
+                  "description": "有核紅血球",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/28 06:33",
+              "values": [
+                {
+                  "name": "Blast",
+                  "description": "幼稚細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Promyl.",
+                  "description": "早幼粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Myelo.",
+                  "description": "中幼粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Meta",
+                  "description": "後幼粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Band",
+                  "description": "帶狀核粒細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Seg",
+                  "description": "分葉核粒細胞",
+                  "value": 56.3,
+                  "unit": "%"
+                },
+                {
+                  "name": "Eos.",
+                  "description": "嗜酸性球",
+                  "value": 2.1,
+                  "unit": "%"
+                },
+                {
+                  "name": "Baso.",
+                  "description": "嗜鹼性球",
+                  "value": 0.3,
+                  "unit": "%"
+                },
+                {
+                  "name": "Mono.",
+                  "description": "單核球",
+                  "value": 16.8,
+                  "unit": "%"
+                },
+                {
+                  "name": "Lym.",
+                  "description": "淋巴球",
+                  "value": 24.5,
+                  "unit": "%"
+                },
+                {
+                  "name": "Aty.Lym.",
+                  "description": "異型淋巴球",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "PlasmaCell",
+                  "description": "漿細胞",
+                  "value": 0,
+                  "unit": "%"
+                },
+                {
+                  "name": "Normobl.",
+                  "description": "有核紅血球",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Yes",
+          "description": "其他特定檢驗",
+          "details": [
+            {
+              "timestamp": "106/02/25 13:33",
+              "values": [
+                {
+                  "name": "hsCRP",
+                  "description": "高敏感C反應蛋白",
+                  "value": 14.26,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "Fibrinogen",
+                  "description": "纖維蛋白原",
+                  "value": 274.1,
+                  "unit": "mg/dL"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/28 06:33",
+              "values": [
+                {
+                  "name": "hsCRP",
+                  "description": "高敏感C反應蛋白",
+                  "value": 6.24,
+                  "unit": "mg/dL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Coagulation",
+          "description": "凝血功能測定",
+          "details": [
+            {
+              "timestamp": "106/02/25 13:33",
+              "values": [
+                {
+                  "name": "PT",
+                  "description": "凝血酶原時間",
+                  "value": 14,
+                  "unit": "sec"
+                },
+                {
+                  "name": "PTT",
+                  "description": "部分凝血活酶時間",
+                  "value": 36.2,
+                  "unit": "sec"
+                },
+                {
+                  "name": "PT INR",
+                  "description": "國際標準化比值",
+                  "value": 1.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Biochemistry",
+          "description": "生化檢驗",
+          "details": [
+            {
+              "timestamp": "106/02/25 13:33",
+              "values": [
+                {
+                  "name": "BUN",
+                  "description": "血尿素氮",
+                  "value": 41.5,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "CRE",
+                  "description": "肌酸酐",
+                  "value": 1.5,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "Na",
+                  "description": "鈉",
+                  "value": 140,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "K",
+                  "description": "鉀",
+                  "value": 3.6,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "Cl",
+                  "description": "氯",
+                  "value": 109,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "T-BIL",
+                  "description": "總膽紅素",
+                  "value": 0.46,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "Ca",
+                  "description": "鈣",
+                  "value": 1.66,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "Mg",
+                  "description": "鎂",
+                  "value": 0.78,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "P",
+                  "description": "磷",
+                  "value": 6.6,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "AST",
+                  "description": "天冬氨酸轉氨酶",
+                  "value": 37,
+                  "unit": "U/L"
+                },
+                {
+                  "name": "LacticAcid",
+                  "description": "乳酸",
+                  "value": 0.86,
+                  "unit": "mmol/L"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/26 06:40",
+              "values": [
+                {
+                  "name": "BUN",
+                  "description": "血尿素氮",
+                  "value": 39.6,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "CRE",
+                  "description": "肌酸酐",
+                  "value": 1.3,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "Na",
+                  "description": "鈉",
+                  "value": 139,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "K",
+                  "description": "鉀",
+                  "value": 3.4,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "Cl",
+                  "description": "氯",
+                  "value": 108,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "T-BIL",
+                  "description": "總膽紅素",
+                  "value": 1.59,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "Ca",
+                  "description": "鈣",
+                  "value": 1.76,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "Mg",
+                  "description": "鎂",
+                  "value": 0.76,
+                  "unit": "mmol/L"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/28 06:33",
+              "values": [
+                {
+                  "name": "BUN",
+                  "description": "血尿素氮",
+                  "value": 29.3,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "CRE",
+                  "description": "肌酸酐",
+                  "value": 1.1,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "Na",
+                  "description": "鈉",
+                  "value": 134,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "K",
+                  "description": "鉀",
+                  "value": 3.2,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "T-BIL",
+                  "description": "總膽紅素",
+                  "value": 1.23,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "Ca",
+                  "description": "鈣",
+                  "value": 1.81,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "Mg",
+                  "description": "鎂",
+                  "value": 0.87,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "P",
+                  "description": "磷",
+                  "value": 3.3,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "AST",
+                  "description": "天冬氨酸轉氨酶",
+                  "value": 26,
+                  "unit": "U/L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General BioChemistry",
+          "description": "一般生化檢驗",
+          "details": [
+            {
+              "timestamp": "106/02/25 13:33",
+              "values": [
+                {
+                  "name": "GGT",
+                  "description": "γ-谷氨酰轉肽酶",
+                  "value": 92,
+                  "unit": "U/L"
+                },
+                {
+                  "name": "UA",
+                  "description": "尿酸",
+                  "value": 1.5,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "ALT",
+                  "description": "丙氨酸氨基轉移酶",
+                  "value": 43,
+                  "unit": "U/L"
+                },
+                {
+                  "name": "LDH",
+                  "description": "乳酸脫氫酶",
+                  "value": 716,
+                  "unit": "U/L"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/26 06:40",
+              "values": [
+                {
+                  "name": "UA",
+                  "description": "尿酸",
+                  "value": 2.4,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "ALT",
+                  "description": "丙氨酸氨基轉移酶",
+                  "value": 38,
+                  "unit": "U/L"
+                },
+                {
+                  "name": "LDH",
+                  "description": "乳酸脫氫酶",
+                  "value": 706,
+                  "unit": "U/L"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/28 06:33",
+              "values": [
+                {
+                  "name": "UA",
+                  "description": "尿酸",
+                  "value": 4.2,
+                  "unit": "mg/dL"
+                },
+                {
+                  "name": "ALB",
+                  "description": "白蛋白",
+                  "value": 2.7,
+                  "unit": "g/dL"
+                },
+                {
+                  "name": "ALT",
+                  "description": "丙氨酸氨基轉移酶",
+                  "value": 22,
+                  "unit": "U/L"
+                },
+                {
+                  "name": "LDH",
+                  "description": "乳酸脫氫酶",
+                  "value": 385,
+                  "unit": "U/L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blood pH/Gas",
+          "description": "血液pH和血氣分析",
+          "details": [
+            {
+              "timestamp": "106/02/25 13:33",
+              "values": [
+                {
+                  "name": "PH",
+                  "description": "酸鹼值",
+                  "value": 7.384
+                },
+                {
+                  "name": "PCO2",
+                  "description": "二氧化碳分壓",
+                  "value": 30.5,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "PO2",
+                  "description": "氧分壓",
+                  "value": 39.5,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "HCO3",
+                  "description": "碳酸氫鹽",
+                  "value": 18.4,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "BaseExcess",
+                  "description": "鹼剩餘",
+                  "value": -6.9,
+                  "unit": "mmol/L"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/26 06:40",
+              "values": [
+                {
+                  "name": "PH",
+                  "description": "酸鹼值",
+                  "value": 7.412
+                },
+                {
+                  "name": "PCO2",
+                  "description": "二氧化碳分壓",
+                  "value": 29.8,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "PO2",
+                  "description": "氧分壓",
+                  "value": 50.4,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "HCO3",
+                  "description": "碳酸氫鹽",
+                  "value": 19.2,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "BaseExcess",
+                  "description": "鹼剩餘",
+                  "value": -5.7,
+                  "unit": "mmol/L"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/27 01:48",
+              "values": [
+                {
+                  "name": "PH",
+                  "description": "酸鹼值",
+                  "value": 7.453
+                },
+                {
+                  "name": "PCO2",
+                  "description": "二氧化碳分壓",
+                  "value": 30.2,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "PO2",
+                  "description": "氧分壓",
+                  "value": 57.9,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "HCO3",
+                  "description": "碳酸氫鹽",
+                  "value": 21.3,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "BaseExcess",
+                  "description": "鹼剩餘",
+                  "value": -2.9,
+                  "unit": "mmol/L"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/28 06:33",
+              "values": [
+                {
+                  "name": "PH",
+                  "description": "酸鹼值",
+                  "value": 7.449
+                },
+                {
+                  "name": "PCO2",
+                  "description": "二氧化碳分壓",
+                  "value": 34.3,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "PO2",
+                  "description": "氧分壓",
+                  "value": 53.2,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "HCO3",
+                  "description": "碳酸氫鹽",
+                  "value": 24,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "BaseExcess",
+                  "description": "鹼剩餘",
+                  "value": -0.3,
+                  "unit": "mmol/L"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/03/01 12:04",
+              "values": [
+                {
+                  "name": "PH",
+                  "description": "酸鹼值",
+                  "value": 7.481
+                },
+                {
+                  "name": "PCO2",
+                  "description": "二氧化碳分壓",
+                  "value": 34.8,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "PO2",
+                  "description": "氧分壓",
+                  "value": 54.9,
+                  "unit": "mmHg"
+                },
+                {
+                  "name": "HCO3",
+                  "description": "碳酸氫鹽",
+                  "value": 26.2,
+                  "unit": "mmol/L"
+                },
+                {
+                  "name": "BaseExcess",
+                  "description": "鹼剩餘",
+                  "value": 2.5,
+                  "unit": "mmol/L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "eGFR",
+          "description": "估計腎絲球過濾率",
+          "details": [
+            {
+              "timestamp": "106/02/25 13:33",
+              "values": [
+                {
+                  "name": "eGFR",
+                  "description": "估計腎絲球過濾率",
+                  "value": 47.1,
+                  "unit": "mL/min/1.73 m^2"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/26 06:40",
+              "values": [
+                {
+                  "name": "eGFR",
+                  "description": "估計腎絲球過濾率",
+                  "value": 55.5,
+                  "unit": "mL/min/1.73 m^2"
+                }
+              ]
+            },
+            {
+              "timestamp": "106/02/28 06:33",
+              "values": [
+                {
+                  "name": "eGFR",
+                  "description": "估計腎絲球過濾率",
+                  "value": 67.3,
+                  "unit": "mL/min/1.73 m^2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
