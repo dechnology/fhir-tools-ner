@@ -5,6 +5,7 @@ import time
 import shutil
 import subprocess
 import xml.etree.ElementTree as ET
+import requests
 import json
 from collections import defaultdict
 from pydantic import BaseModel
@@ -94,6 +95,7 @@ def process_medical_records(file_path, sqe_list=None):
 
     # 讀取 Excel 檔案
     df = pd.read_excel(file_path)
+    print(df.head())
 
     # 逐行處理每個病患的紀錄
     for index, row in df.iterrows():
@@ -107,11 +109,13 @@ def process_medical_records(file_path, sqe_list=None):
         # 將每個病患的紀錄儲存為一個文字檔
         raw_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.txt"
         with open(raw_txt_path, "w") as file:
+            print(row)
             file.write(
-                f"**********急診去識別病歷**********\n\n{row['急診去識別病歷']}\n\n"
-                f"**********住院去識別病歷**********\n\n{row['住院去識別病歷']}\n\n"
+                f"**********急診去辨識病歷**********\n\n{row['急診去辨識病歷']}\n\n"
+                f"**********住院去辨識病歷**********\n\n{row['住院去辨識病歷']}\n\n"
                 f"**********檢驗紀錄**********\n\n{row['檢驗紀錄']}"
             )
+        print("Step1 done")
 
         # 第 2 步：LLM 精煉
         # 讀取內容並拆分
@@ -137,8 +141,7 @@ def process_medical_records(file_path, sqe_list=None):
                     {
                         "role": "system",
                         "content": (
-                            "將使用者的內容翻譯成英文並執行標準化、精煉、以及縮寫展開（詞展開）。對於狀態詞後的實體，"
-                            "確保狀態詞適用於後續的每個實體。"
+                            "將使用者的內容翻譯成英文並執行標準化、精煉、以及縮寫展開（詞展開）。對於狀態詞後的實體，確保狀態詞適用於後續的每個實體。"
                         )
                     },
                     {"role": "user", "content": segment}
@@ -202,6 +205,15 @@ def process_medical_records(file_path, sqe_list=None):
         print(f"{Fore.GREEN}sqe {sqe} 醫學規範化時間: {round(medical_normalization_time - linguistic_extraction_time, 2)} sec{Style.RESET_ALL}")
         sqe_end_time = time.time()
         print(f"{Fore.BLUE}sqe {sqe} 總時間: {round(sqe_end_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
+
+        # 把整份output.txt檔案傳送到指定的API
+        with open(output_txt_path, "r") as file:
+            content = file.read()
+            url = "http://34.80.16.223:8090/contentListener"
+            headers = {
+                'Content-Type': 'application/json'
+            }
+            response = requests.request("POST", url, headers=headers, data=content)
 
         # 如果只想處理一筆記錄，可以在此處加入 break
         # break
