@@ -25,7 +25,8 @@ print(f"{Fore.GREEN} done. ({import_time - start_time:.2f} sec){Style.RESET_ALL}
 # 初始化 Flask 應用程式
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}}, methods=["GET", "POST", "PUT", "DELETE"])
-app.config['UPLOAD_FOLDER'] = './data/input'
+app.config['UPLOAD_FOLDER'] = '../data/input'
+app.config['PIPE_FOLDER'] = '../data/pipe_result'
 
 # 確保上傳目錄存在
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
@@ -221,6 +222,117 @@ def process_medical_records(file_path, sqe_list=None):
     end_time = time.time()
     print(f"總處理時間: {round(end_time - start_time, 2)} sec")
 
+
+# 封裝從第 1 步開始的邏輯為函式
+def process_medical_text(file_path):
+    sqe = uuid.uuid4().hex
+    sqe_start_time = time.time()
+
+    # 第 1 步：預處理
+    # 將每個病患的紀錄儲存為一個文字檔
+    file_name = os.path.basename(file_path)
+    file_base_name = ".".join(file_name.split(".")[:-2])
+    file_ext = file_name[file_name.rfind(".")+1:]
+
+    # 第 2 步：LLM 精煉
+    # 讀取內容並拆分
+    with open(file_path, "r") as file:
+        content = file.read()
+
+    split_content = content.split("\n\n")
+    standardized_content = ""
+
+    for i, segment in enumerate(split_content):
+        # 顯示預覽
+        lines = segment.splitlines()
+        print(
+            f"{Fore.YELLOW}{NEWLINE.join(lines[:5])}{f' [... {len(lines)} 行]' if len(lines) > 5 else ''}{Style.RESET_ALL}"
+        )
+        print(f"{Fore.WHITE}sqe {sqe}: {i+1}/{len(split_content)} 正在精煉...{Style.RESET_ALL}", end="", flush=True)
+        seqment_start_time = time.time()
+
+        # 呼叫 OpenAI API 進行處理
+        standardization_completion = client.chat.completions.create(
+            model="gpt-4o-2024-08-06",
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "將使用者的內容翻譯成英文並執行標準化、精煉、以及縮寫展開（詞展開）。對於狀態詞後的實體，確保狀態詞適用於後續的每個實體。"
+                    )
+                },
+                {"role": "user", "content": segment}
+            ]
+        )
+
+        seqment_end_time = time.time()
+        print(f"{Fore.WHITE} 完成。({round(seqment_end_time - seqment_start_time, 2)} sec)\n{Style.RESET_ALL}")
+        # 合併所有段落
+        standardized_content += standardization_completion.choices[0].message.content
+
+    # 儲存標準化後的內容
+    polishing_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.txt"
+    with open(polishing_txt_path, "w") as file:
+        file.write(standardized_content)
+    preprocess_time = time.time()
+    print(f"{Fore.GREEN}sqe {sqe} 精煉時間: {round(preprocess_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
+
+    # 第 3 步：語言學擷取（MedCAT）
+    entities = cat.get_entities(standardized_content)
+    # 儲存實體為 JSON 檔案
+    medcat_json_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.MedCAT.json"
+    with open(medcat_json_path, "w") as json_file:
+        json.dump(entities, json_file, indent=2)
+    linguistic_extraction_time = time.time()
+    print(f"{Fore.GREEN}sqe {sqe} 語言學擷取時間: {round(linguistic_extraction_time - preprocess_time, 2)} sec{Style.RESET_ALL}")
+
+    # 第 4 步：醫學規範化
+    output_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.output.txt"
+    with open(output_txt_path, "w") as file:
+        file.write("index|chunk|cui|source|code|string\n")
+        entity_list = entities['entities']
+        index_now = 0
+        for key, entity in entity_list.items():
+            cui_str = entity.get('cui', NONE_SYMBOL)
+            sab_str = NONE_SYMBOL
+            code_str = NONE_SYMBOL
+            # 從 UMLS 資料集中取得詳細資訊
+            cui_df = umls_df[umls_df['SCUI'] == cui_str]
+            preferred_df = cui_df[cui_df['ISPREF'] == 'Y']
+            if not preferred_df.empty:
+                target_df = preferred_df[preferred_df['TTY'] == 'PT']
+                if target_df.empty:
+                    target_df = preferred_df[preferred_df['TTY'] == 'FN']
+            else:
+                target_df = cui_df
+            if not target_df.empty:
+                cui_str = target_df.iloc[0]['CUI']
+                sab_str = target_df.iloc[0]['SAB']
+                code_str = target_df.iloc[0]['CODE']
+            else:
+                sab_str = "<LOST>"
+                code_str = "<LOST>"
+            # 寫入檔案
+            if entity.get('start') > index_now:
+                file.write(f"{index_now}|{standardized_content[index_now:entity.get('start')].replace(NEWLINE, '<NEW_LINE>')}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}{NEWLINE}")
+            file.write(f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}{NEWLINE}")
+            index_now = entity.get('end')
+
+    medical_normalization_time = time.time()
+    print(f"{Fore.GREEN}sqe {sqe} 醫學規範化時間: {round(medical_normalization_time - linguistic_extraction_time, 2)} sec{Style.RESET_ALL}")
+    sqe_end_time = time.time()
+    print(f"{Fore.BLUE}sqe {sqe} 總時間: {round(sqe_end_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
+
+    # 把整份output.txt檔案傳送到指定的API
+    with open(output_txt_path, "r") as file:
+        content = file.read()
+        url = "http://34.80.16.223:8090/contentListener"
+        headers = {
+            'Content-Type': 'application/json'
+        }
+        response = requests.request("POST", url, headers=headers, data=content)
+
+
 # 修改 Flask 應用程式的 xml_ner 路由，呼叫上述函式
 @app.route('/xml_ner', methods=['POST'])
 def xml_ner():
@@ -246,6 +358,35 @@ def xml_ner():
         return jsonify({"error": str(e)}), 500
 
     return jsonify({"message": "檔案處理成功", "filename": secure_filename}), 200
+
+
+# 修改 Flask 應用程式的 txt_ner 路由，呼叫上述函式
+@app.route('/txt_ner', methods=['POST'])
+def txt_ner():
+    # 從request中獲取原始數據
+    medical_text = request.get_data(as_text=True)
+
+    # 檢查medical_text是否存在或為空
+    if not medical_text:
+        return jsonify({"error": "請求中沒有醫學文字內容或內容為空"}), 400
+
+    # 儲存檔案到指定目錄
+    timestamp = datetime.now().strftime('%Y%m%d%H%M%S%f')
+    random_string = uuid.uuid4().hex
+    secure_filename = f"{timestamp}_medical_text_{random_string}.raw.txt"
+    file_path = os.path.join(app.config['PIPE_FOLDER'], secure_filename)
+    with open(file_path, "w") as file:
+        file.write(medical_text)
+
+    # 呼叫處理函式
+    try:
+        process_medical_text(file_path)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+    return jsonify({"message": "檔案處理成功", "filename": secure_filename}), 200
+
+
 
 if __name__ == '__main__':
     app.run(port=8081, debug=True, use_reloader=False)

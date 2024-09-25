@@ -3,26 +3,28 @@
 {
   "result": [
     {"non-entity": "檢傷內容\n"},
-    {"clue": "Fever (R50.9)\n", "concept": "Fever, unspecified", "vocabulary": "ICD10"},
+    {"clue": "Fever (R50.9)\n", "concept": "Fever, unspecified", "vocabulary": "ICD10", "keyword": ["Fever"]},
     {"non-entity": "判定依據: "},
-    {"clue": "發燒/畏寒 發燒，看起來有病容", "concept": "Fever with chills (finding)", "vocabulary": "SNOMEDCT_US", "id": "274640006"},
+    {"clue": "發燒/畏寒 發燒，看起來有病容", "concept": "Fever with chills (finding)", "vocabulary": "SNOMEDCT_US", "id": "274640006", "keyword": ["Fever", "chills", "finding"]},
     {"non-entity": "檢驗結果: "},
-    {"clue": "CRP: 25 mg/L", "concept": "C reactive protein [Mass/volume] in Serum or Plasma", "vocabulary": "LNC", "id": "1988-5"},
+    {"clue": "CRP: 25 mg/L", "concept": "C reactive protein [Mass/volume] in Serum or Plasma", "vocabulary": "LNC", "id": "1988-5", "keyword": ["C reactive protein", "Mass/volume", "Serum", "Plasma"]},
     {"non-entity": "處方籤: "},
-    {"clue": "Kineret 100 MG/0.67 ML", "concept": "Kineret 100 MG in 0.67 ML Prefilled Syringe", "vocabulary": "RXNORM", "id": "727714"}
+    {"clue": "Kineret 100 MG/0.67 ML", "concept": "Kineret 100 MG in 0.67 ML Prefilled Syringe", "vocabulary": "RXNORM", "id": "727714", "keyword": ["Kineret", "100 MG", "0.67 ML", "Prefilled Syringe"]}
   ]
 }
 
-system prompt:
+===== 翻譯 =====
 translation the user context to english and execute normalization, polishing, and abbreviation expansion (word expansion). For entities that follow status words, ensure the status word applies to each of the following entities.
 
-X
+效果不佳，待修正
 Translate the user context to English and apply normalization, polishing, and abbreviation expansion (word expansion). For words whose meaning is significantly impacted by qualifier values in sentence, ensure the qualifier value is duplicated (to each entity) to maintain their intended meaning.
 
-BEST chunking prompt
+===== 縮寫展開、正規化、拼寫修正 =====
+Rewrite the medical record using the  UMLS concept (SNOMED CT, RxNORM, and LOINC) preferred names without id.
+
+===== chunking =====
 split the user text (chunking) and make each chunk a separate entity. For entities that follow qualifier words, ensure the qualifier word applies to each of the following entities. Finally, reconstruct the original sentence using the expanded and modified entities.
 
-Rewrite the medical record using the  UMLS concept (SNOMED CT, RxNORM, and LOINC) preferred names without id.
 
 chunking the user context, giving the JSON output, ex:
 {
