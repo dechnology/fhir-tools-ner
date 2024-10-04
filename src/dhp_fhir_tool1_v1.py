@@ -6,9 +6,7 @@
     2-2. translation, normalization, polishing, and abbreviation expansion (word expansion)
     2-3. merge all responses to a single Medical record string and save to a file
 3. Linguistic Extraction (MedCAT)，一次一句
-    3-0. 執行MedCAT之後，連結到UMLS的條目
-    3-1. 意思完備
-        -> 如果句中出現qualifier values，則改寫整句話（將qualifier values應用到後續的entities）重跑一次Linguistic Extraction
+    3-1. 執行MedCAT之後，連結到UMLS的條目
     3-2. LLM based medical Entity Extraction (Concept Mapping)
         4-0. Blacklist (移除無意義概念，暫時不用)
         4-1. Dictionary lookup (N=100)
@@ -154,14 +152,28 @@ for index, row in df.iterrows():
         standardization_completion = client.chat.completions.create(
             model="gpt-4o-2024-08-06",
             messages=[
-                {"role": "system", "content": """translation the user context to english and execute normalization, polishing, and abbreviation expansion (word expansion). For entities that follow status words, ensure the status word applies to each of the following entities."""},
+                {"role": "system", "content": """translation the user context to english and execute normalization, polishing, and abbreviation expansion (word expansion)."""},
                 {"role": "user", "content": split_content[i]}
+            ]
+        )
+        rewtire_completion = client.chat.completions.create(
+            model="gpt-4o-2024-08-06",
+            messages=[
+                {"role": "system", "content": """Rewrite the medical record using the  UMLS concept (SNOMED CT, RxNORM, and LOINC) preferred names without id."""},
+                {"role": "user", "content": standardization_completion.choices[0].message.content}
+            ]
+        )
+        chunk_completion = client.chat.completions.create(
+            model="gpt-4o-2024-08-06",
+            messages=[
+                {"role": "system", "content": """split the user text (chunking) and make each chunk a separate entity. For entities that follow qualifier words, ensure the qualifier word applies to each of the following entities. Finally, reconstruct the original sentence using the expanded and modified entities."""},
+                {"role": "user", "content": rewtire_completion.choices[0].message.content}
             ]
         )
         seqment_end_time = time.time()
         print(f"{Fore.WHITE} done. ({round(seqment_end_time - seqment_start_time, 2)} sec.)\n{Style.RESET_ALL}")
         # 合併所有回應到一個單一的醫療記錄字串
-        standardized_content += standardization_completion.choices[0].message.content
+        standardized_content += chunk_completion.choices[0].message.content
 
     # 儲存標準化後的醫療記錄字串，保存到文件f"../data/pipe_result/{file_name}_{tool_name}_{version}_{row['sqe']}.raw.polishing.txt"
     with open(f"../data/pipe_result/{file_name}_{tool_name}_{version}_{row['sqe']}.raw.polishing.txt", "w") as file:

@@ -7,7 +7,7 @@
     {"non-entity": "判定依據: "},
     {"clue": "發燒/畏寒 發燒，看起來有病容", "concept": "Fever with chills (finding)", "vocabulary": "SNOMEDCT_US", "id": "274640006", "keyword": ["Fever", "chills", "finding"]},
     {"non-entity": "檢驗結果: "},
-    {"clue": "CRP: 25 mg/L", "concept": "C reactive protein [Mass/volume] in Serum or Plasma", "vocabulary": "LNC", "id": "1988-5", "keyword": ["C reactive protein", "Mass/volume", "Serum", "Plasma"]},
+    {"clue": "CRP: 25 mg/L", "concept": "C reactive protein [Mass/volume] in Serum or Plasma", "vocabulary": "LNC", "id": "1988-5", "keyword": ["C reactive protein", "Mass/volume", "Serum", "Plasma"], "value": "25", "unit": "mg/L"},
     {"non-entity": "處方籤: "},
     {"clue": "Kineret 100 MG/0.67 ML", "concept": "Kineret 100 MG in 0.67 ML Prefilled Syringe", "vocabulary": "RXNORM", "id": "727714", "keyword": ["Kineret", "100 MG", "0.67 ML", "Prefilled Syringe"]}
   ]
@@ -47,6 +47,9 @@ SNOMEDCT_US\|.+?\|.*?XXXXXXXXXXXXXX.*?\|
 
 
 SNOMEDCT_US\|.+?\|.*?denied\|
+
+
+\|.+?(Heart|beats|per minute).+?\n
 
 
 
