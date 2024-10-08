@@ -13,6 +13,8 @@ import pandas as pd
 from datetime import datetime
 import uuid
 from celery import Celery
+from celery.result import AsyncResult
+import redis
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from openai import OpenAI
@@ -29,8 +31,7 @@ CORS(app, resources={r"/*": {"origins": "*"}}, methods=["GET", "POST", "PUT", "D
 app.config['UPLOAD_FOLDER'] = '../data/input'
 app.config['PIPE_FOLDER'] = '../data/pipe_result'
 
-print("app.import_name", app.import_name)
-
+# ===== Queue =====
 celery = Celery(
     "app",
     backend='redis://localhost:6379/0',
@@ -52,9 +53,12 @@ celery.Task = ContextTask
 def process_medical_records_task(file_path, sqe_list=None):
     process_medical_records(file_path, sqe_list)
 
-@celery.task
-def process_medical_text_task(file_path):
-    process_medical_text(file_path)
+@celery.task(bind=True)
+def process_medical_text_task(self, sqe, type, file_path):
+    process_medical_text(self.request.id, sqe, type, file_path)
+
+# ===== Redis with persistence configuration =====
+r = redis.Redis(host='localhost', port=6379, db=0)
 
 # 確保上傳目錄存在
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
@@ -109,6 +113,8 @@ client = OpenAI(api_key=openai_api_key)
 
 # 封裝從第 1 步開始的邏輯為函式
 def process_medical_records(file_path, sqe_list=None):
+    global r
+    
     """
     處理醫學紀錄的主要函式。
 
@@ -256,8 +262,10 @@ def process_medical_records(file_path, sqe_list=None):
 
 
 # 封裝從第 1 步開始的邏輯為函式
-def process_medical_text(file_path):
-    sqe = uuid.uuid4().hex
+def process_medical_text(task_id, sqe, type, file_path):
+    global r
+    
+    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'running')
     sqe_start_time = time.time()
 
     # 第 1 步：預處理
@@ -308,6 +316,7 @@ def process_medical_text(file_path):
         file.write(standardized_content)
     preprocess_time = time.time()
     print(f"{Fore.GREEN}sqe {sqe} 精煉時間: {round(preprocess_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
+    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'polished')
 
     # 第 3 步：語言學擷取（MedCAT）
     entities = cat.get_entities(standardized_content)
@@ -317,6 +326,7 @@ def process_medical_text(file_path):
         json.dump(entities, json_file, indent=2)
     linguistic_extraction_time = time.time()
     print(f"{Fore.GREEN}sqe {sqe} 語言學擷取時間: {round(linguistic_extraction_time - preprocess_time, 2)} sec{Style.RESET_ALL}")
+    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'extracted')
 
     # 第 4 步：醫學規範化
     output_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.output.txt"
@@ -354,6 +364,7 @@ def process_medical_text(file_path):
     print(f"{Fore.GREEN}sqe {sqe} 醫學規範化時間: {round(medical_normalization_time - linguistic_extraction_time, 2)} sec{Style.RESET_ALL}")
     sqe_end_time = time.time()
     print(f"{Fore.BLUE}sqe {sqe} 總時間: {round(sqe_end_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
+    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'normalized')
 
     # 把整份output.txt檔案傳送到指定的API
     with open(output_txt_path, "r") as file:
@@ -363,11 +374,14 @@ def process_medical_text(file_path):
             'Content-Type': 'application/json'
         }
         response = requests.request("POST", url, headers=headers, data=content)
+    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'uploaded')
 
 
 # 修改 Flask 應用程式的 xml_ner 路由，呼叫上述函式
-@app.route('/xml_ner', methods=['POST'])
-def xml_ner():
+@app.route('/xlsx_ner', methods=['POST'])
+def xlsx_ner():
+    global r
+    
     if 'file' not in request.files:
         return jsonify({"error": "請求中沒有檔案部分"}), 400
 
@@ -395,29 +409,107 @@ def xml_ner():
     # return jsonify({"message": "檔案處理成功", "filename": secure_filename}), 200
 
 
+@app.route('/txt_ner_status', methods=['POST'])
+def txt_ner_status():
+    global r
+
+    type_mapping = {
+        "A": "ER", # 急診病例
+        "B": "HR", # 住院病例
+        "C": "LR" # 檢驗紀錄
+        }
+
+    # 從request中獲取原始數據
+    data = request.get_json()
+
+    # 檢查medical_text是否存在或為空
+    if not data:
+        return jsonify({"error": "請求中沒有內容"}), 400
+    if 'sqe' not in data or not data['sqe']:
+        return jsonify({"error": "病例序號為空"}), 400
+    if 'task_id' not in data or not data['task_id']:
+        return jsonify({"error": "任務ID為空"}), 400
+    
+    
+    keys = []
+    for tmp_type_str in type_mapping.values():
+        keys.extend(r.keys(f'sqe:{data["sqe"]}-{tmp_type_str}-{data["task_id"]}'))
+    
+    all_data = {}
+    for key in keys:
+        hash_data = r.hgetall(key)
+        if hash_data:
+            decoded_data = {k.decode(): v.decode() for k, v in hash_data.items()}
+            all_data[key.decode()] = decoded_data
+
+    return jsonify(all_data), 200
+
 # 修改 Flask 應用程式的 txt_ner 路由，呼叫上述函式
 @app.route('/txt_ner', methods=['POST'])
 def txt_ner():
+    global r
+
+    type_mapping = {
+        "A": "ER", # 急診病例
+        "B": "HR", # 住院病例
+        "C": "LR" # 檢驗紀錄
+        }
+
     # 從request中獲取原始數據
-    medical_text = request.get_data(as_text=True)
+    data = request.get_json()
 
     # 檢查medical_text是否存在或為空
-    if not medical_text:
+    if not data:
+        return jsonify({"error": "請求中沒有內容"}), 400
+    if 'sqe' not in data or not data['sqe']:
+        return jsonify({"error": "病例序號為空"}), 400
+    if 'type' in data and data['type'] not in list(type_mapping.keys()):
+        return jsonify({"error": "病例種類必須是A、B、C其中一種"}), 400
+    if 'text' not in data or not data['text']:
         return jsonify({"error": "請求中沒有醫學文字內容或內容為空"}), 400
+    
+    # 轉換
+    type_str = None
+    if 'type' not in data or data['type'] is None:
+        type_str = "Full"  # 預設為全文
+    else:
+        type_str = type_mapping[data['type']]
 
     # 儲存檔案到指定目錄
     timestamp = datetime.now().strftime('%Y%m%d%H%M%S%f')
     random_string = uuid.uuid4().hex
-    secure_filename = f"{timestamp}_medical_text_{random_string}.raw.txt"
+    secure_filename = f"{timestamp}_medical_text_{type_str}_{random_string}.raw.txt"
     file_path = os.path.join(app.config['PIPE_FOLDER'], secure_filename)
     with open(file_path, "w") as file:
-        file.write(medical_text)
+        file.write(data['text'])
 
     # 呼叫處理函式
     try:
+        # ensure all queued task or running task NOT exist (delete with task.id)
+        keys = []
+        if type_str == "Full":
+            for tmp_type_str in type_mapping.values():
+                keys.extend(r.keys(f'sqe:{data["sqe"]}-{tmp_type_str}-*'))
+        else:
+            keys.extend(r.keys(f'sqe:{data["sqe"]}-{type_str}-*'))
+        if keys:
+            # f'sqe:{data["sqe"]}-{type_str}-*')中的星號部分就是task.id，終止這些任務
+            for key in keys:
+                # task_id像這樣：dbf2873c-89f4-4217-8107-4dc7edc08bee
+                task_id = "-".join(key.decode().split("-")[-5:])
+                print("try to revoke task_id:", task_id)
+                task = AsyncResult(task_id, app=celery) 
+                task.revoke(terminate=True)
+            r.delete(*keys)
+            print(f"Deleted {len(keys)} keys.")
         # 呼叫 Celery 任務
-        task = process_medical_text_task.delay(file_path)
+        task = process_medical_text_task.delay(data['sqe'], type_str, file_path)
         # process_medical_text(file_path)
+        if type_str == "Full":
+            for type_str in type_mapping.values():
+                r.hset(f'sqe:{data["sqe"]}-{type_str}-{task.id}', 'status', 'queued')
+        else:
+            r.hset(f'sqe:{data["sqe"]}-{type_str}-{task.id}', 'status', 'queued')
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
