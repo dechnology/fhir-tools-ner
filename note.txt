@@ -1,0 +1,3 @@
+python app.py
+
+celery -A app.celery worker --loglevel=info --pool=solo

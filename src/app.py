@@ -370,10 +370,38 @@ def process_medical_text(task_id, sqe, type, file_path):
     with open(output_txt_path, "r") as file:
         content = file.read()
         url = "http://35.229.136.14:8090/contentListener"
-        headers = {
-            'Content-Type': 'application/json'
-        }
-        response = requests.request("POST", url, headers=headers, data=content)
+        if type == "Full":
+            headers = {
+                'Content-Type': 'application/json',
+                'uid': sqe,
+                'type': 'A'
+            }
+            response = requests.request("POST", url, headers=headers, data=content)
+            headers = {
+                'Content-Type': 'application/json',
+                'uid': sqe,
+                'type': 'B'
+            }
+            response = requests.request("POST", url, headers=headers, data=content)
+            headers = {
+                'Content-Type': 'application/json',
+                'uid': sqe,
+                'type': 'C'
+            }
+            response = requests.request("POST", url, headers=headers, data=content)
+        else:
+            type_mapping = {
+                "ER": "A", # 急診病例
+                "HR": "B", # 住院病例
+                "LR": "C" # 檢驗紀錄
+                }
+            headers = {
+                'Content-Type': 'application/json',
+                'uid': sqe,
+                'type': type_mapping[type]
+            }
+            response = requests.request("POST", url, headers=headers, data=content)
+
     r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'uploaded')
 
 
@@ -519,4 +547,4 @@ def txt_ner():
 
 
 if __name__ == '__main__':
-    app.run(port=8081, debug=True, use_reloader=False)
+    app.run(host='0.0.0.0', port=62593, debug=True, use_reloader=False)
