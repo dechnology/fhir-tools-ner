@@ -1,1157 +1,1291 @@
 index|chunk|cui|source|code|string
-0|********** |-|-|-|-
-11|Emergency Department|C0562508|SNOMEDCT_US|225728007|Accident and Emergency department
-31| |-|-|-|-
-32|Medical Record|C0025102|SNOMEDCT_US|129465004|Medical record, device
-46| ********** Identification **********|-|-|-|-
-83|Triage|C0040861|SNOMEDCT_US|225390008|Triage
-89| Information:<NEW_LINE><NEW_LINE>- |-|-|-|-
-106|Triage|C0040861|SNOMEDCT_US|225390008|Triage
-112| |-|-|-|-
-113|Level|C0456079|SNOMEDCT_US|276625007|Level
-118|: |-|-|-|-
-120|Emergency severity index|C3864289|SNOMEDCT_US|713010006|Emergency Severity Index
-144| |-|-|-|-
-145|level 2|C0456948|SNOMEDCT_US|277734003|Level 2
-152|<NEW_LINE>- |-|-|-|-
-155|Computer|C0009622|SNOMEDCT_US|706692004|Computer
-163| |-|-|-|-
-164|Classification|C0008902|SNOMEDCT_US|278201002|Classification
-178|: |-|-|-|-
-180|Emergency severity index|C3864289|SNOMEDCT_US|713010006|Emergency Severity Index
-204| |-|-|-|-
-205|level 2|C0456948|SNOMEDCT_US|277734003|Level 2
-212|<NEW_LINE><NEW_LINE>|-|-|-|-
-214|Chief Complaint|C0456948|<LOST>|<LOST>|Chief complaint
-229|:<NEW_LINE><NEW_LINE>- Blurred |-|-|-|-
-242|vision|C0042789|SNOMEDCT_US|281004000|Visual function
-248| in |-|-|-|-
-252|right eye|C0042789|<LOST>|<LOST>|Right eye structure
-261|.<NEW_LINE>- |-|-|-|-
-265|Assessment|C1261322|SNOMEDCT_US|129265001|Evaluation - action
-275| Basis: Acute |-|-|-|-
-289|visual disturbance|C0547030|SNOMEDCT_US|63102001|Visual disturbance
-307|<NEW_LINE><NEW_LINE>|-|-|-|-
-309|Past Medical History|C2317559|SNOMEDCT_US|417662000|History of clinical finding in subject
-329|:<NEW_LINE><NEW_LINE>- No |-|-|-|-
-337|previous|C0205156|SNOMEDCT_US|9130008|Previous
-345| |-|-|-|-
-346|condition|C0348080|SNOMEDCT_US|260905004|Condition
-355| |-|-|-|-
-356|reported|C0684224|SNOMEDCT_US|229059009|Report
-364|.<NEW_LINE><NEW_LINE>|-|-|-|-
-367|Travel|C0040802|SNOMEDCT_US|420008001|Travel
-373|, |-|-|-|-
-375|Occupation|C0028811|SNOMEDCT_US|14679004|Occupation
-385|, |-|-|-|-
-387|Contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
-394| & Cluster |-|-|-|-
-405|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-412|:<NEW_LINE><NEW_LINE>- |-|-|-|-
-417|Travel|C0040802|SNOMEDCT_US|420008001|Travel
-423| |-|-|-|-
-424|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-431|: No |-|-|-|-
-436|recent|C0332185|SNOMEDCT_US|6493001|Recent
-442| |-|-|-|-
-443|travel|C0040802|SNOMEDCT_US|420008001|Travel
-449|<NEW_LINE>- Cluster |-|-|-|-
-460|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-467|: No |-|-|-|-
-472|known|C0205309|SNOMEDCT_US|36692007|Known
-477| cluster |-|-|-|-
-486|exposure|C0332157|SNOMEDCT_US|24932003|Exposure to (contextual qualifier)
-494|<NEW_LINE>- |-|-|-|-
-497|Occupation:|C0421456|SNOMEDCT_US|184104002|Patient occupation
-508| No |-|-|-|-
-512|special|C0205555|SNOMEDCT_US|67995009|Special
+0|**|-|-|-|-
+2|Urgent|C0439609|SNOMEDCT_US|103391001|Urgency
+8|: Identifying |-|-|-|-
+22|Medical Records|C0025102|SNOMEDCT_US|129465004|Medical record, device
+37| in the |-|-|-|-
+45|Emergency Department|C0562508|SNOMEDCT_US|225728007|Accident and Emergency department
+65|**, **|-|-|-|-
+71|Urgent|C0439609|SNOMEDCT_US|103391001|Urgency
+77|: Identifying |-|-|-|-
+91|Medical Records|C0025102|SNOMEDCT_US|129465004|Medical record, device
+106| in the |-|-|-|-
+114|Emergency Department|C0562508|SNOMEDCT_US|225728007|Accident and Emergency department
+134|**.**|-|-|-|-
+139|Emergency Department|C0562508|SNOMEDCT_US|225728007|Accident and Emergency department
+159| |-|-|-|-
+160|Triage|C0040861|SNOMEDCT_US|225390008|Triage
+166| Information**<NEW_LINE><NEW_LINE>- **|-|-|-|-
+186|Triage|C0040861|SNOMEDCT_US|225390008|Triage
+192| Acuity |-|-|-|-
+200|Level|C0456079|SNOMEDCT_US|276625007|Level
+205|:** |-|-|-|-
+209|Emergency|C0175673|SNOMEDCT_US|25876001|Emergency
+218| |-|-|-|-
+219|Severity|C0439793|SNOMEDCT_US|272141005|Severities
+227| |-|-|-|-
+228|Level 2|C0456948|SNOMEDCT_US|277734003|Level 2
+235|<NEW_LINE>- **|-|-|-|-
+240|Computer|C0009622|SNOMEDCT_US|706692004|Computer
+248|-|-|-|-|-
+249|Assisted|C1269765|SNOMEDCT_US|371152001|Assisted
+257| |-|-|-|-
+258|Triage|C0040861|SNOMEDCT_US|225390008|Triage
+264| Decision:** |-|-|-|-
+277|Supports|C0183683|SNOMEDCT_US|9096001|Support, device
+285| |-|-|-|-
+286|Emergency|C0175673|SNOMEDCT_US|25876001|Emergency
+295| |-|-|-|-
+296|Severity|C0439793|SNOMEDCT_US|272141005|Severities
+304| |-|-|-|-
+305|Level 2|C0456948|SNOMEDCT_US|277734003|Level 2
+312|<NEW_LINE><NEW_LINE>**|-|-|-|-
+316|Chief Complaint|C0456948|<LOST>|<LOST>|Chief complaint
+331|:**<NEW_LINE>- Blurred |-|-|-|-
+345|vision|C0042789|SNOMEDCT_US|281004000|Visual function
+351| of the |-|-|-|-
+359|right eye|C0042789|<LOST>|<LOST>|Right eye structure
+368|<NEW_LINE><NEW_LINE>**Rationale for |-|-|-|-
+386|Triage|C0040861|SNOMEDCT_US|225390008|Triage
+392| Decision:**<NEW_LINE>- Acute |-|-|-|-
+413|vision|C0042789|SNOMEDCT_US|281004000|Visual function
+419| changes |-|-|-|-
+428|resulting in|C0332294|SNOMEDCT_US|79409006|Resulting in
+440| |-|-|-|-
+441|visual impairment|C3665347|SNOMEDCT_US|397540003|Visual impairment
+458|<NEW_LINE><NEW_LINE>**|-|-|-|-
+462|Medical History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
+477|**<NEW_LINE>- **|-|-|-|-
+484|Past Medical History|C2317559|SNOMEDCT_US|417662000|History of clinical finding in subject
+504|:** No |-|-|-|-
+511|previous|C0205156|SNOMEDCT_US|9130008|Previous
 519| |-|-|-|-
-520|occupational|C0521127|SNOMEDCT_US|87923000|Occupational
-532| |-|-|-|-
-533|risks|C0035647|SNOMEDCT_US|30207005|Risk of (contextual qualifier)
-538|<NEW_LINE>- |-|-|-|-
-541|Contact with|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
-553| |-|-|-|-
-554|Patients|C0030705|SNOMEDCT_US|116154003|Patient
-562|: No |-|-|-|-
-567|patient|C0030705|SNOMEDCT_US|116154003|Patient
-574| |-|-|-|-
-575|contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
-582|<NEW_LINE>- |-|-|-|-
-585|Contact with|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
-597| |-|-|-|-
-598|Animals|C0003062|SNOMEDCT_US|387961004|Kingdom Animalia
-605|: No |-|-|-|-
-610|animal|C0003062|SNOMEDCT_US|387961004|Kingdom Animalia
-616| |-|-|-|-
-617|contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
-624|<NEW_LINE><NEW_LINE>|-|-|-|-
-626|Vital Signs|C0150404|SNOMEDCT_US|61746007|Taking patient vital signs
-637|:<NEW_LINE><NEW_LINE>- |-|-|-|-
-642|Blood Pressure|C0005823|SNOMEDCT_US|75367002|Blood pressure
-656|: |-|-|-|-
-658|Hypotension|C0020649|SNOMEDCT_US|45007003|Low blood pressure
-669|<NEW_LINE>- |-|-|-|-
-672|Heart Rate|C0018810|SNOMEDCT_US|364075005|Heart rate
-682|: |-|-|-|-
-684|Tachycardia|C0039231|SNOMEDCT_US|3424008|Tachycardia
-695|<NEW_LINE>- |-|-|-|-
-698|Oxygen Saturation|C0428174|SNOMEDCT_US|103228002|Hemoglobin saturation with oxygen
-715|: |-|-|-|-
-717|Normal|C0439166|SNOMEDCT_US|258744000|% normal
-723| |-|-|-|-
-724|saturation|C0428174|SNOMEDCT_US|103228002|Hemoglobin saturation with oxygen
-734|<NEW_LINE>- |-|-|-|-
-737|Respiratory Rate|C0231832|SNOMEDCT_US|86290005|Respiratory rate
-753|: |-|-|-|-
-755|Normal respiratory rate|C0231833|SNOMEDCT_US|20716004|Respiratory rate normal
-778|<NEW_LINE>- |-|-|-|-
-781|Body Temperature|C0005903|SNOMEDCT_US|386725007|Body temperature
-797|: |-|-|-|-
-799|Normal body temperature|C0231262|SNOMEDCT_US|87273009|Temperature normal
-822|<NEW_LINE>- |-|-|-|-
-825|Pain Score|C0582148|SNOMEDCT_US|225908003|Pain score
-835|: |-|-|-|-
-837|No pain|C0234225|SNOMEDCT_US|81765008|No pain
-844|<NEW_LINE>- Consciousness: Conscious<NEW_LINE><NEW_LINE>|-|-|-|-
-873|Special|C0205555|SNOMEDCT_US|67995009|Special
-880| Notes:<NEW_LINE><NEW_LINE>- Informed about |-|-|-|-
-906|emergency department|C0562508|SNOMEDCT_US|225728007|Accident and Emergency department
-926| overcrowding and potential waiting |-|-|-|-
-962|period|C1948053|SNOMEDCT_US|272117007|Time periods
-968| for |-|-|-|-
-973|assessment|C1261322|SNOMEDCT_US|129265001|Evaluation - action
-983| and |-|-|-|-
-988|admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
-997|.<NEW_LINE><NEW_LINE>Mode of Arrival:<NEW_LINE><NEW_LINE>- No |-|-|-|-
-1023|referral note|C2734725|SNOMEDCT_US|721927009|Referral note
-1036| |-|-|-|-
-1037|available|C0470187|SNOMEDCT_US|103328004|Availability of (contextual qualifier)
-1046|.<NEW_LINE>- |-|-|-|-
-1050|Reason for|C0392360|SNOMEDCT_US|410666004|Reason for
-1060| |-|-|-|-
-1061|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
-1070|: |-|-|-|-
-1072|Medical|C0205476|SNOMEDCT_US|74188005|Medical
-1079| |-|-|-|-
-1080|illness|C0221423|SNOMEDCT_US|39104002|Illness
-1087|<NEW_LINE>- |-|-|-|-
-1090|High-Risk|C4319571|SNOMEDCT_US|723509005|High risk
-1099| |-|-|-|-
-1100|Mechanism|C0441712|SNOMEDCT_US|257544000|Mechanisms
-1109|: |-|-|-|-
-1111|Not applicable|C1272460|SNOMEDCT_US|385432009|Not applicable
-1125|<NEW_LINE><NEW_LINE>|-|-|-|-
-1127|Triage|C0040861|SNOMEDCT_US|225390008|Triage
-1133| |-|-|-|-
-1134|Personnel|C0035173|SNOMEDCT_US|769038007|Researcher
-1143|:<NEW_LINE><NEW_LINE>- Lin Yi-Shan<NEW_LINE><NEW_LINE>|-|-|-|-
-1161|Emergency Department Visit|C0586082|SNOMEDCT_US|4525004|Emergency department patient visit
-1187| Record:<NEW_LINE><NEW_LINE>- |-|-|-|-
-1199|Chief Complaint|C0586082|<LOST>|<LOST>|Chief complaint
-1214|: Blurred |-|-|-|-
-1224|vision|C0042789|SNOMEDCT_US|281004000|Visual function
-1230| in |-|-|-|-
-1234|right eye|C0042789|<LOST>|<LOST>|Right eye structure
-1243|<NEW_LINE><NEW_LINE>|-|-|-|-
-1245|Past|C1444637|SNOMEDCT_US|410513005|In the past
-1249| |-|-|-|-
-1250|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-1257|:<NEW_LINE><NEW_LINE>- None<NEW_LINE><NEW_LINE>Medication Allergies:<NEW_LINE><NEW_LINE>- None<NEW_LINE><NEW_LINE>|-|-|-|-
-1299|Travel|C0040802|SNOMEDCT_US|420008001|Travel
-1305| |-|-|-|-
-1306|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-1313|:<NEW_LINE><NEW_LINE>- None<NEW_LINE><NEW_LINE>|-|-|-|-
-1324|Contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
-1331| Information:<NEW_LINE><NEW_LINE>- No |-|-|-|-
-1351|special|C0205555|SNOMEDCT_US|67995009|Special
-1358| |-|-|-|-
-1359|occupation|C0028811|SNOMEDCT_US|14679004|Occupation
-1369|, no cluster |-|-|-|-
-1382|infection|C0009450|SNOMEDCT_US|40733004|Infectious disease
-1391| |-|-|-|-
-1392|history|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-1399|, no |-|-|-|-
-1404|patient|C0030705|SNOMEDCT_US|116154003|Patient
-1411| |-|-|-|-
-1412|contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
-1419|, or no |-|-|-|-
-1427|animal|C0003062|SNOMEDCT_US|387961004|Kingdom Animalia
-1433| |-|-|-|-
-1434|contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
-1441|<NEW_LINE><NEW_LINE>|-|-|-|-
-1443|Present|C0150312|SNOMEDCT_US|52101004|Present
-1450| |-|-|-|-
-1451|Illness|C0221423|SNOMEDCT_US|39104002|Illness
-1458|:<NEW_LINE><NEW_LINE>- |-|-|-|-
-1463|Onset of|C0332162|SNOMEDCT_US|77374008|Onset of (contextual qualifier)
-1471| |-|-|-|-
-1472|visual field|C0042826|SNOMEDCT_US|73750009|Visual field
-1484| dimming |-|-|-|-
-1493|overnight|C0439583|SNOMEDCT_US|255270004|Overnight
-1502|. |-|-|-|-
-1504|Transferred|C0348011|SNOMEDCT_US|129347002|Surgical transfer - action
-1515| from Mackay |-|-|-|-
-1528|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
-1536| for |-|-|-|-
-1541|retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
-1559| |-|-|-|-
-1560|surgery|C0543467|SNOMEDCT_US|257556004|Surgery
-1567| |-|-|-|-
-1568|evaluation|C1261322|SNOMEDCT_US|129265001|Evaluation - action
-1578|.<NEW_LINE><NEW_LINE>|-|-|-|-
-1581|Physical Examination|C0031809|SNOMEDCT_US|5880005|Physical examination procedure
-1601|:<NEW_LINE><NEW_LINE>- Consciousness: Conscious<NEW_LINE><NEW_LINE>|-|-|-|-
-1632|Vital Signs|C0150404|SNOMEDCT_US|61746007|Taking patient vital signs
-1643|:<NEW_LINE><NEW_LINE>- |-|-|-|-
-1648|Blood Pressure|C0005823|SNOMEDCT_US|75367002|Blood pressure
-1662|: |-|-|-|-
-1664|Hypotension|C0020649|SNOMEDCT_US|45007003|Low blood pressure
-1675|<NEW_LINE>- |-|-|-|-
-1678|Heart Rate|C0018810|SNOMEDCT_US|364075005|Heart rate
-1688|: |-|-|-|-
-1690|Tachycardia|C0039231|SNOMEDCT_US|3424008|Tachycardia
-1701|<NEW_LINE>- |-|-|-|-
-1704|Respiratory Rate|C0231832|SNOMEDCT_US|86290005|Respiratory rate
-1720|: |-|-|-|-
-1722|Normal respiratory rate|C0231833|SNOMEDCT_US|20716004|Respiratory rate normal
-1745|<NEW_LINE>- |-|-|-|-
-1748|Temperature|C0039476|SNOMEDCT_US|246508008|Temperature
-1759|: |-|-|-|-
-1761|Normal temperature|C0231262|SNOMEDCT_US|87273009|Temperature normal
-1779|<NEW_LINE>- |-|-|-|-
-1782|Oxygen Saturation|C0428174|SNOMEDCT_US|103228002|Hemoglobin saturation with oxygen
-1799|: |-|-|-|-
-1801|Normal|C0439166|SNOMEDCT_US|258744000|% normal
-1807| |-|-|-|-
-1808|saturation|C0428174|SNOMEDCT_US|103228002|Hemoglobin saturation with oxygen
-1818|<NEW_LINE><NEW_LINE>Head:<NEW_LINE><NEW_LINE>- |-|-|-|-
-1829|Scalp|C0036270|SNOMEDCT_US|41695006|Scalp structure
-1834|: No abnormalities<NEW_LINE><NEW_LINE>Eyes:<NEW_LINE><NEW_LINE>- Pupils: |-|-|-|-
-1871|Equal|C0205163|SNOMEDCT_US|9726003|Equal
-1876| size<NEW_LINE>- |-|-|-|-
-1884|Conjunctiva|C0009758|SNOMEDCT_US|29445007|Conjunctival structure
-1895|: No |-|-|-|-
-1900|anemia|C0002871|SNOMEDCT_US|271737000|Anemia
-1906|<NEW_LINE>- |-|-|-|-
-1909|Sclera|C0036410|SNOMEDCT_US|18619003|Scleral structure
-1915|: No |-|-|-|-
-1920|icterus|C0022346|SNOMEDCT_US|18165001|Jaundice
-1927|<NEW_LINE><NEW_LINE>|-|-|-|-
-1929|Neck|C0027530|SNOMEDCT_US|45048000|Neck structure
-1933|:<NEW_LINE><NEW_LINE>- |-|-|-|-
-1938|Neck|C0027530|SNOMEDCT_US|45048000|Neck structure
-1942|: |-|-|-|-
-1944|Supple|C0332254|SNOMEDCT_US|48162006|Supple
-1950|<NEW_LINE>- |-|-|-|-
-1953|Jugular Veins|C0022427|SNOMEDCT_US|63190004|Structure of jugular vein
-1966|: No |-|-|-|-
-1971|distension|C0012359|SNOMEDCT_US|25322007|Dilatation
-1981|<NEW_LINE>- |-|-|-|-
-1984|Lymph Nodes|C0024204|SNOMEDCT_US|59441001|Structure of lymph node
-1995|: |-|-|-|-
-1997|No lymphadenopathy|C0558762|SNOMEDCT_US|274621000|Lymphadenopathy absent
-2015|<NEW_LINE><NEW_LINE>|-|-|-|-
-2017|Chest|C0817096|SNOMEDCT_US|51185008|Thoracic structure
-2022|:<NEW_LINE><NEW_LINE>- |-|-|-|-
-2027|Chest expansion|C0231902|SNOMEDCT_US|6427007|Chest expansion
-2042|: Symmetric<NEW_LINE>- |-|-|-|-
-2056|Breath Sounds|C0035234|SNOMEDCT_US|52653008|Respiratory sounds
-2069|: |-|-|-|-
-2071|Clear|C2963144|SNOMEDCT_US|263707001|Clear
-2076|<NEW_LINE><NEW_LINE>|-|-|-|-
-2078|Heart|C0018787|SNOMEDCT_US|80891009|Heart structure
-2083|:<NEW_LINE><NEW_LINE>- |-|-|-|-
-2088|Heart Rate|C0018810|SNOMEDCT_US|364075005|Heart rate
-2098|: |-|-|-|-
-2100|Regular|C0205272|SNOMEDCT_US|17854005|Regular
-2107| rhythm, No |-|-|-|-
-2119|heart murmurs|C0018808|SNOMEDCT_US|88610006|Heart murmur
-2132|<NEW_LINE><NEW_LINE>|-|-|-|-
-2134|Abdomen|C0000726|SNOMEDCT_US|818983003|Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall
-2141|:<NEW_LINE><NEW_LINE>- |-|-|-|-
-2146|Abdomen|C0000726|SNOMEDCT_US|818983003|Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall
-2153|: |-|-|-|-
-2155|Soft|C0205358|SNOMEDCT_US|37378003|Soft (qualifier value)
-2159|, |-|-|-|-
-2161|Non-tender|C0520960|SNOMEDCT_US|300821004|Non-tender
-2171|<NEW_LINE>- |-|-|-|-
-2174|Bowel Sounds|C0232693|SNOMEDCT_US|87042004|Bowel sounds
-2186|: |-|-|-|-
-2188|Normal|C0205307|SNOMEDCT_US|17621005|Normal
-2194|<NEW_LINE><NEW_LINE>|-|-|-|-
-2196|Extremities|C0015385|SNOMEDCT_US|66019005|Limb structure
-2207|:<NEW_LINE><NEW_LINE>- |-|-|-|-
-2212|Musculoskeletal|C0426779|SNOMEDCT_US|106028002|Musculoskeletal finding
-2227|: |-|-|-|-
-2229|Normal|C0205307|SNOMEDCT_US|17621005|Normal
-2235| findings<NEW_LINE><NEW_LINE>|-|-|-|-
-2246|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
-2255| Information:<NEW_LINE><NEW_LINE>- |-|-|-|-
-2272|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
-2281| |-|-|-|-
-2282|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
-2291|: |-|-|-|-
-2293|Retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
-2311|<NEW_LINE>- |-|-|-|-
-2314|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
-2323| |-|-|-|-
-2324|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
-2333|: |-|-|-|-
-2335|Retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
-2353|<NEW_LINE><NEW_LINE>|-|-|-|-
-2355|Physician|C0031831|SNOMEDCT_US|309343006|Physician
-2364| Orders:<NEW_LINE><NEW_LINE>- |-|-|-|-
-2376|Ophthalmology|C0029087|SNOMEDCT_US|394594003|Ophthalmology
-2389| |-|-|-|-
-2390|Consultation|C0009818|SNOMEDCT_US|11429006|Consultation
-2402|: |-|-|-|-
-2404|Contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
-2411| Dr. Zhao Li-Fang, |-|-|-|-
-2430|Ophthalmology Department|C0587524|SNOMEDCT_US|309988001|Ophthalmology department
-2454|<NEW_LINE>- Administer |-|-|-|-
-2468|Tropicamide ophthalmic|C3213744|SNOMEDCT_US|771794000|Product containing tropicamide in ocular dose form
-2490| |-|-|-|-
-2491|solution|C1382100|SNOMEDCT_US|739006009|Solution
-2499| in both |-|-|-|-
-2508|left|C0205091|SNOMEDCT_US|7771000|Left (qualifier value)
-2512| and |-|-|-|-
-2517|right|C0205090|SNOMEDCT_US|24028007|Right
-2522| eyes, one |-|-|-|-
-2533|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
-2537| per each eye<NEW_LINE>- |-|-|-|-
-2553|Transfer|C0348011|SNOMEDCT_US|129347002|Surgical transfer - action
-2561| to |-|-|-|-
-2565|ward|C1305702|SNOMEDCT_US|225746001|Ward (environment)
-2569| 12A, no |-|-|-|-
-2578|chart|C0684240|SNOMEDCT_US|706825008|Chart
-2583| required<NEW_LINE>- Bed allocation for |-|-|-|-
-2614|inpatient|C0021562|SNOMEDCT_US|416800000|Inpatient
-2623| |-|-|-|-
-2624|admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
-2633|.|-|-|-|-
-2634|Hospitalization|C0019993|SNOMEDCT_US|394656005|Inpatient care
-2649| and |-|-|-|-
-2654|Medical Record|C0025102|SNOMEDCT_US|129465004|Medical record, device
-2668| Identification<NEW_LINE><NEW_LINE>|-|-|-|-
-2685|Hospital Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
-2703| Note:<NEW_LINE><NEW_LINE>|-|-|-|-
-2711|Patient|C0030705|SNOMEDCT_US|116154003|Patient
-2718| Information:<NEW_LINE>- Age: 64 |-|-|-|-
-2742|years|C0439508|SNOMEDCT_US|259039008|per year
-2747| old<NEW_LINE>- |-|-|-|-
-2754|Gender|C0079399|SNOMEDCT_US|263495000|Gender
-2760|: |-|-|-|-
-2762|Female|C0086287|SNOMEDCT_US|248152002|Female
-2768|<NEW_LINE><NEW_LINE>|-|-|-|-
-2770|Chief Complaint|C0086287|<LOST>|<LOST>|Chief complaint
-2785|:<NEW_LINE>- |-|-|-|-
-2789|Shortness of breath|C0013404|SNOMEDCT_US|267036007|Dyspnea
-2808|<NEW_LINE>- |-|-|-|-
-2811|Chest pain|C0008031|SNOMEDCT_US|29857009|Chest pain
-2821|<NEW_LINE><NEW_LINE>|-|-|-|-
-2823|History of|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-2833| |-|-|-|-
-2834|Present|C0150312|SNOMEDCT_US|52101004|Present
-2841| |-|-|-|-
-2842|Illness|C0221423|SNOMEDCT_US|39104002|Illness
-2849|:<NEW_LINE>The |-|-|-|-
-2855|patient|C0030705|SNOMEDCT_US|116154003|Patient
-2862| |-|-|-|-
-2863|presents|C0150312|SNOMEDCT_US|52101004|Present
-2871| with a 3-day |-|-|-|-
-2885|history of|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-2895| progressively |-|-|-|-
-2910|worsening|C0332271|SNOMEDCT_US|230993007|Worsening
-2919| |-|-|-|-
-2920|shortness of breath|C0013404|SNOMEDCT_US|267036007|Dyspnea
-2939| and progressively |-|-|-|-
-2958|worsening|C0332271|SNOMEDCT_US|230993007|Worsening
-2967| |-|-|-|-
-2968|chest pain|C0008031|SNOMEDCT_US|29857009|Chest pain
-2978|. The |-|-|-|-
-2984|pain|C0030193|SNOMEDCT_US|22253000|Pain (finding)
-2988| is described as a |-|-|-|-
-3007|pressure|C0460139|SNOMEDCT_US|13543005|Pressure
-3015|-like sensation, primarily |-|-|-|-
-3042|located in|C0332285|SNOMEDCT_US|18720000|In (attribute)
-3052| the |-|-|-|-
-3057|central|C0205099|SNOMEDCT_US|26216008|Central
-3064| |-|-|-|-
-3065|chest region|C1269614|SNOMEDCT_US|302551006|Entire thorax
-3077|. Accompanying symptoms |-|-|-|-
-3101|include|C0332257|SNOMEDCT_US|55919000|Including
-3108| |-|-|-|-
-3109|nausea|C0027497|SNOMEDCT_US|422587007|Nausea
-3115| and accompanying symptoms |-|-|-|-
-3142|include|C0332257|SNOMEDCT_US|55919000|Including
-3149| |-|-|-|-
-3150|diaphoresis|C0700590|SNOMEDCT_US|52613005|Excessive sweating
-3161|.<NEW_LINE><NEW_LINE>|-|-|-|-
-3164|Past Medical History|C2317559|SNOMEDCT_US|417662000|History of clinical finding in subject
-3184|:<NEW_LINE>- |-|-|-|-
-3188|Hypertension|C0455405|SNOMEDCT_US|160357008|Family history: Hypertension
-3200|<NEW_LINE>- |-|-|-|-
-3203|Hyperlipidemia|C0020473|SNOMEDCT_US|55822004|Hyperlipidemia
-3217|<NEW_LINE>- |-|-|-|-
-3220|Type 2 diabetes mellitus|C0011860|SNOMEDCT_US|44054006|Diabetes mellitus type 2
-3244|<NEW_LINE><NEW_LINE>|-|-|-|-
-3246|Medications:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
-3258|<NEW_LINE>- |-|-|-|-
-3261|Metformin|C0025598|SNOMEDCT_US|372567009|Metformin
-3270|<NEW_LINE>- |-|-|-|-
-3273|Lisinopril|C0065374|SNOMEDCT_US|386873009|Lisinopril
-3283|<NEW_LINE>- |-|-|-|-
-3286|Atorvastatin|C0286651|SNOMEDCT_US|373444002|Atorvastatin
-3298|<NEW_LINE><NEW_LINE>|-|-|-|-
-3300|Physical Examination|C0031809|SNOMEDCT_US|5880005|Physical examination procedure
-3320|:<NEW_LINE>- |-|-|-|-
-3324|Vital signs|C0150404|SNOMEDCT_US|61746007|Taking patient vital signs
-3335|: |-|-|-|-
-3337|Blood pressure|C0005823|SNOMEDCT_US|75367002|Blood pressure
-3351|: 145/85 mmHg, |-|-|-|-
-3366|Heart rate|C0018810|SNOMEDCT_US|364075005|Heart rate
-3376|: 98 bpm, |-|-|-|-
-3386|Respiratory rate|C0231832|SNOMEDCT_US|86290005|Respiratory rate
-3402|: 22 |-|-|-|-
-3407|breaths/min|C0439386|SNOMEDCT_US|258984001|Breaths/minute
-3418|, |-|-|-|-
-3420|Temperature|C0039476|SNOMEDCT_US|246508008|Temperature
-3431|: 37.2°C<NEW_LINE>- Cardiovascular: |-|-|-|-
-3458|Regular|C0205272|SNOMEDCT_US|17854005|Regular
-3465| rhythm, no |-|-|-|-
-3477|murmurs|C0018808|SNOMEDCT_US|414786004|Murmur
-3484|<NEW_LINE>- |-|-|-|-
-3487|Respiratory|C0035237|SNOMEDCT_US|20139000|Structure of respiratory system
-3498|: |-|-|-|-
-3500|Diminished|C0205216|SNOMEDCT_US|1250004|Decreased
-3510| |-|-|-|-
-3511|breath sounds|C0035234|SNOMEDCT_US|52653008|Respiratory sounds
-3524| at bases<NEW_LINE>- |-|-|-|-
-3536|Abdomen|C0000726|SNOMEDCT_US|818983003|Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall
-3543|: |-|-|-|-
-3545|Soft|C0205358|SNOMEDCT_US|37378003|Soft (qualifier value)
-3549|, |-|-|-|-
-3551|non-tender|C0520960|SNOMEDCT_US|300821004|Non-tender
-3561|<NEW_LINE>- |-|-|-|-
-3564|Extremities|C0015385|SNOMEDCT_US|66019005|Limb structure
-3575|: No |-|-|-|-
-3580|edema|C0013604|SNOMEDCT_US|79654002|Edema
-3585|<NEW_LINE><NEW_LINE>|-|-|-|-
-3587|Laboratory|C0022877|SNOMEDCT_US|261904005|Laboratory
-3597| and |-|-|-|-
-3602|Imaging|C0011923|SNOMEDCT_US|363679005|Imaging
-3609| Studies:<NEW_LINE>- |-|-|-|-
-3621|Electrocardiogram|C1623258|SNOMEDCT_US|29303009|Electrocardiographic procedure
-3638|: |-|-|-|-
-3640|ST elevation|C0520886|SNOMEDCT_US|164931005|ST elevation
-3652|<NEW_LINE>- |-|-|-|-
-3655|Troponin I|C0077401|SNOMEDCT_US|102683006|Troponin I
-3665|: |-|-|-|-
-3667|Elevated|C0205250|SNOMEDCT_US|75540009|High (qualifier value)
-3675|<NEW_LINE>- |-|-|-|-
-3678|Chest|C0817096|SNOMEDCT_US|51185008|Thoracic structure
-3683| |-|-|-|-
-3684|radiograph|C1306645|SNOMEDCT_US|168537006|Plain radiography
-3694|: |-|-|-|-
-3696|Cardiomegaly|C0018800|SNOMEDCT_US|8186001|Cardiomegaly
-3708|, |-|-|-|-
-3710|Pulmonary congestion|C0242073|SNOMEDCT_US|67599009|Pulmonary congestion
-3730|<NEW_LINE><NEW_LINE>|-|-|-|-
-3732|Assessment|C1261322|SNOMEDCT_US|129265001|Evaluation - action
-3742| and Plan:<NEW_LINE>- |-|-|-|-
-3755|Acute myocardial infarction|C0155626|SNOMEDCT_US|57054005|Acute myocardial infarction
-3782|<NEW_LINE>- Initiate |-|-|-|-
-3794|aspirin therapy|C4303556|SNOMEDCT_US|717854002|Aspirin therapy
-3809| and initiate |-|-|-|-
-3823|clopidogrel|C0070166|SNOMEDCT_US|386952008|Clopidogrel
-3834| |-|-|-|-
-3835|therapy|C0087111|SNOMEDCT_US|276239002|Therapy
-3842|<NEW_LINE>- |-|-|-|-
-3845|Administer|C4521681|SNOMEDCT_US|738990001|Administer
-3855| |-|-|-|-
-3856|nitroglycerin|C0017887|SNOMEDCT_US|387404004|Glyceryl trinitrate
-3869| for |-|-|-|-
-3874|chest pain|C0008031|SNOMEDCT_US|29857009|Chest pain
-3884|<NEW_LINE>- Consult |-|-|-|-
-3895|cardiology|C0007189|SNOMEDCT_US|394579002|Cardiology
-3905| for further management<NEW_LINE>- |-|-|-|-
-3931|Monitor cardiac|C0150496|SNOMEDCT_US|23852006|Cardiac monitoring
-3946| |-|-|-|-
-3947|enzymes|C0014442|SNOMEDCT_US|90668006|Enzyme
-3954| |-|-|-|-
-3955|every 6 hours|C0585325|SNOMEDCT_US|307468000|Every six hours
-3968|<NEW_LINE><NEW_LINE>|-|-|-|-
-3970|Disposition|C0743223|SNOMEDCT_US|726711005|Disposition
-3981|:<NEW_LINE>|-|-|-|-
-3983|Admit|C0184666|SNOMEDCT_US|32485007|Hospital admission
-3988| to the |-|-|-|-
-3996|coronary|C0018787|SNOMEDCT_US|80891009|Heart structure
-4004| care |-|-|-|-
-4010|unit|C1303273|SNOMEDCT_US|401322007|Under care of team
-4014| for |-|-|-|-
-4019|continuous|C0549178|SNOMEDCT_US|255238004|Continuous
-4029| monitoring and for |-|-|-|-
-4049|continuous|C0549178|SNOMEDCT_US|255238004|Continuous
-4059| further |-|-|-|-
-4068|evaluation|C1261322|SNOMEDCT_US|129265001|Evaluation - action
-4078|.**|-|-|-|-
-4081|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
-4090| |-|-|-|-
-4091|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
-4100|:**  <NEW_LINE>- |-|-|-|-
-4108|Retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
-4126| of the |-|-|-|-
-4134|right eye|C0035305|<LOST>|<LOST>|Right eye structure
-4143|<NEW_LINE><NEW_LINE>**|-|-|-|-
-4147|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
-4156| |-|-|-|-
-4157|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
-4166|:**  <NEW_LINE>- |-|-|-|-
-4174|Rhegmatogenous retinal detachment|C0271055|SNOMEDCT_US|19620000|Rhegmatogenous retinal detachment
-4207| of the |-|-|-|-
-4215|right eye|C0271055|<LOST>|<LOST>|Right eye structure
-4224| <NEW_LINE>- |-|-|-|-
-4228|Segmental|C0205122|SNOMEDCT_US|62372003|Segmental
-4237| |-|-|-|-
-4238|scleral buckling|C0036411|SNOMEDCT_US|26786002|Scleral buckling
-4254| of the |-|-|-|-
-4262|right eye|C0036411|<LOST>|<LOST>|Right eye structure
-4271| <NEW_LINE>- |-|-|-|-
-4275|Sulfur hexafluoride|C0038779|SNOMEDCT_US|259276004|Sulfur hexafluoride
-4294| |-|-|-|-
-4295|injection|C1533685|SNOMEDCT_US|59108006|Injection
-4304| of the |-|-|-|-
-4312|right eye|C1533685|<LOST>|<LOST>|Right eye structure
-4321|<NEW_LINE><NEW_LINE>**|-|-|-|-
-4325|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
-4334| for |-|-|-|-
-4339|Intensive Care Unit|C0021708|SNOMEDCT_US|309904001|Intensive care unit
-4358|:**  <NEW_LINE>- None<NEW_LINE><NEW_LINE>**|-|-|-|-
-4374|Chief Complaint|C0021708|<LOST>|<LOST>|Chief complaint
-4389|:**  <NEW_LINE>- Informant: the |-|-|-|-
-4412|patient|C0030705|SNOMEDCT_US|116154003|Patient
-4419| <NEW_LINE>- Informant: the |-|-|-|-
-4438|medical record|C0025102|SNOMEDCT_US|129465004|Medical record, device
-4452| <NEW_LINE>- Blurred |-|-|-|-
-4464|vision|C0042789|SNOMEDCT_US|281004000|Visual function
-4470| in the |-|-|-|-
-4478|right eye|C0042789|<LOST>|<LOST>|Right eye structure
-4487| for 2 days<NEW_LINE><NEW_LINE>**|-|-|-|-
-4502|Patient|C0030705|SNOMEDCT_US|116154003|Patient
-4509| |-|-|-|-
-4510|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-4517|:**<NEW_LINE><NEW_LINE>**|-|-|-|-
-4524|Present|C0150312|SNOMEDCT_US|52101004|Present
-4531| |-|-|-|-
-4532|Illness|C0221423|SNOMEDCT_US|39104002|Illness
-4539|:**  <NEW_LINE>- 22-|-|-|-|-
-4550|year|C0439508|SNOMEDCT_US|259039008|per year
-4554|-old |-|-|-|-
-4559|male|C0086582|SNOMEDCT_US|10052007|Male structure
-4563|<NEW_LINE>- Generally healthy<NEW_LINE>- |-|-|-|-
-4586|No history of|C0332122|SNOMEDCT_US|14732006|No history of (contextual qualifier)
-4599| |-|-|-|-
-4600|systemic disease|C0442893|SNOMEDCT_US|56019007|Systemic disease
-4616|<NEW_LINE>- |-|-|-|-
-4619|Increasing|C0442808|SNOMEDCT_US|260369004|Increasing
-4629| floaters in the |-|-|-|-
-4646|right eye|C0442808|<LOST>|<LOST>|Right eye structure
-4655| for 3 to 4 days <NEW_LINE>- |-|-|-|-
-4675|Photopsia|C0085635|SNOMEDCT_US|56170001|Photopsia
-4684| in the |-|-|-|-
-4692|right eye|C0085635|<LOST>|<LOST>|Right eye structure
-4701| for 2 days <NEW_LINE>- |-|-|-|-
-4716|Initially|C0205265|SNOMEDCT_US|884001|Initial
-4725| consulted a |-|-|-|-
-4738|local|C0205276|SNOMEDCT_US|255470001|Local
-4743| |-|-|-|-
-4744|medical doctor|C0031831|SNOMEDCT_US|309343006|Physician
-4758|<NEW_LINE>- |-|-|-|-
-4761|Diagnosed|C0011900|SNOMEDCT_US|439401001|Diagnosis
-4770| with |-|-|-|-
-4776|retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
-4794| by the |-|-|-|-
-4802|local|C0205276|SNOMEDCT_US|255470001|Local
-4807| |-|-|-|-
-4808|medical|C0205476|SNOMEDCT_US|74188005|Medical
-4815| |-|-|-|-
-4816|doctor <NEW_LINE>- Referred|C0583803|SNOMEDCT_US|309014007|Referred by doctor
-4834| to Mackay |-|-|-|-
-4845|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
-4853|<NEW_LINE>- |-|-|-|-
-4856|Referred|C0034927|SNOMEDCT_US|3457005|Patient referral
-4864| to National |-|-|-|-
-4877|Taiwan|C0039260|SNOMEDCT_US|428675004|Taiwan
-4883| |-|-|-|-
-4884|University|C0041740|SNOMEDCT_US|224871002|University
+520|medical|C0205476|SNOMEDCT_US|74188005|Medical
+527| |-|-|-|-
+528|conditions|C0348080|SNOMEDCT_US|260905004|Condition
+538| |-|-|-|-
+539|reported|C0684224|SNOMEDCT_US|229059009|Report
+547|<NEW_LINE><NEW_LINE>**|-|-|-|-
+551|Travel|C0040802|SNOMEDCT_US|420008001|Travel
+557| Information:**<NEW_LINE>- No |-|-|-|-
+578|recent|C0332185|SNOMEDCT_US|6493001|Recent
+584| |-|-|-|-
+585|travel|C0040802|SNOMEDCT_US|420008001|Travel
+591|<NEW_LINE><NEW_LINE>**Cluster Information:**<NEW_LINE>- No |-|-|-|-
+623|contact with|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
+635| |-|-|-|-
+636|confirmed|C0521091|SNOMEDCT_US|74996004|Confirmation of (contextual qualifier)
+645| cluster |-|-|-|-
+654|infection|C0009450|SNOMEDCT_US|40733004|Infectious disease
+663|<NEW_LINE><NEW_LINE>**|-|-|-|-
+667|Special|C0205555|SNOMEDCT_US|67995009|Special
+674| |-|-|-|-
+675|Occupation:|C0421456|SNOMEDCT_US|184104002|Patient occupation
+686|** <NEW_LINE>- None<NEW_LINE><NEW_LINE>**|-|-|-|-
+700|Patient|C0030705|SNOMEDCT_US|116154003|Patient
+707| |-|-|-|-
+708|Contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
+715| Information:**<NEW_LINE>- No |-|-|-|-
+736|contact with|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
+748| |-|-|-|-
+749|infectious disease|C0009450|SNOMEDCT_US|40733004|Infectious disease
+767|<NEW_LINE><NEW_LINE>**|-|-|-|-
+771|Animal|C0003062|SNOMEDCT_US|387961004|Kingdom Animalia
+777| |-|-|-|-
+778|Contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
+785| Information:**<NEW_LINE>- No |-|-|-|-
+806|contact with|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
+818| |-|-|-|-
+819|animals|C0003062|SNOMEDCT_US|387961004|Kingdom Animalia
+826|<NEW_LINE><NEW_LINE>**|-|-|-|-
+830|Vital Signs|C0150404|SNOMEDCT_US|61746007|Taking patient vital signs
+841|:**<NEW_LINE>- **|-|-|-|-
+849|Blood Pressure|C0005823|SNOMEDCT_US|75367002|Blood pressure
+863|:** 93/62 |-|-|-|-
+873|mmHg|C0439475|SNOMEDCT_US|259018001|Millimeter of mercury
+877| <NEW_LINE>- **|-|-|-|-
+883|Heart Rate|C0018810|SNOMEDCT_US|364075005|Heart rate
+893|:** 115 |-|-|-|-
+901|beats per minute|C0439385|SNOMEDCT_US|258983007|Beats/minute
+917|<NEW_LINE>- **|-|-|-|-
+922|Oxygen Saturation|C0428174|SNOMEDCT_US|103228002|Hemoglobin saturation with oxygen
+939| (SpO2):** 97%<NEW_LINE>- **|-|-|-|-
+958|Respiratory Rate|C0231832|SNOMEDCT_US|86290005|Respiratory rate
+974|:** 20 |-|-|-|-
+981|breaths per minute|C0439386|SNOMEDCT_US|258984001|Breaths/minute
+999|<NEW_LINE>- **|-|-|-|-
+1004|Body Temperature|C0005903|SNOMEDCT_US|386725007|Body temperature
+1020|:** 36.8 |-|-|-|-
+1029|degrees Celsius|C0439237|SNOMEDCT_US|258710007|Degrees Celsius
+1044|<NEW_LINE>- **|-|-|-|-
+1049|Blood Glucose Level|C0428554|SNOMEDCT_US|365812005|Finding of blood glucose level
+1068|:** Not |-|-|-|-
+1076|measured|C0444706|SNOMEDCT_US|258104002|Measured
+1084|<NEW_LINE>- **|-|-|-|-
+1089|Pain Assessment|C0030198|SNOMEDCT_US|225399009|Pain assessment
+1104|:** |-|-|-|-
+1108|No pain|C0234225|SNOMEDCT_US|81765008|No pain
+1115| |-|-|-|-
+1116|reported|C4319718|SNOMEDCT_US|733985002|Reported
+1124|<NEW_LINE>- **Acute Changes in |-|-|-|-
+1146|Condition|C0348080|SNOMEDCT_US|260905004|Condition
+1155|:** None<NEW_LINE>- **|-|-|-|-
+1168|Level of Consciousness|C0234425|SNOMEDCT_US|6942003|Level of consciousness
+1190|:** Alert and |-|-|-|-
+1204|oriented|C0424013|SNOMEDCT_US|247663003|Orientated
+1212|<NEW_LINE><NEW_LINE>**|-|-|-|-
+1216|Special|C0205555|SNOMEDCT_US|67995009|Special
+1223| Notes:**<NEW_LINE>- |-|-|-|-
+1235|Patient informed|C1631603|SNOMEDCT_US|419733004|Patient notified
+1251| of potential |-|-|-|-
+1265|extended|C0231449|SNOMEDCT_US|288467006|Extended
+1273| wait |-|-|-|-
+1279|time|C1632851|SNOMEDCT_US|417929005|Times
+1283| |-|-|-|-
+1284|due to|C0678226|SNOMEDCT_US|42752001|Due to
+1290| |-|-|-|-
+1291|emergency department|C0562508|SNOMEDCT_US|225728007|Accident and Emergency department
+1311| being at full capacity.<NEW_LINE><NEW_LINE>**Mode of |-|-|-|-
+1347|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
+1356|:**<NEW_LINE>- **|-|-|-|-
+1364|Referral|C0034927|SNOMEDCT_US|3457005|Patient referral
+1372| |-|-|-|-
+1373|Documentation|C0684224|SNOMEDCT_US|229059009|Report
+1386|:** None provided<NEW_LINE>- **|-|-|-|-
+1408|Reason for|C0392360|SNOMEDCT_US|410666004|Reason for
+1418| |-|-|-|-
+1419|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
+1428|:** |-|-|-|-
+1432|Presenting|C0449450|SNOMEDCT_US|246105001|Presentation
+1442| |-|-|-|-
+1443|illness|C0221423|SNOMEDCT_US|39104002|Illness
+1450|<NEW_LINE><NEW_LINE>**|-|-|-|-
+1454|High-Risk|C4319571|SNOMEDCT_US|723509005|High risk
+1463| |-|-|-|-
+1464|Mechanism|C0441712|SNOMEDCT_US|278109006|Mechanism
+1473|:**<NEW_LINE>- |-|-|-|-
+1479|Not applicable|C1272460|SNOMEDCT_US|385432009|Not applicable
+1493|<NEW_LINE><NEW_LINE>**|-|-|-|-
+1497|Triage|C0040861|SNOMEDCT_US|225390008|Triage
+1503| |-|-|-|-
+1504|Personnel|C0035173|SNOMEDCT_US|769038007|Researcher
+1513|:**<NEW_LINE>- |-|-|-|-
+1519|Triage|C0040861|SNOMEDCT_US|225390008|Triage
+1525| |-|-|-|-
+1526|performed|C0884358|SNOMEDCT_US|398166005|Performed
+1535| by Lin Yi-Shan<NEW_LINE><NEW_LINE>---<NEW_LINE><NEW_LINE>**|-|-|-|-
+1559|Emergency Department Visit|C0586082|SNOMEDCT_US|4525004|Emergency department patient visit
+1585| Record**<NEW_LINE><NEW_LINE>**|-|-|-|-
+1598|Chief Complaint|C0586082|<LOST>|<LOST>|Chief complaint
+1613|:**<NEW_LINE>- Blurred |-|-|-|-
+1627|vision|C0042789|SNOMEDCT_US|281004000|Visual function
+1633| of the |-|-|-|-
+1641|right eye|C0042789|<LOST>|<LOST>|Right eye structure
+1650|<NEW_LINE><NEW_LINE>**|-|-|-|-
+1654|Medical History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
+1669|**<NEW_LINE>- **|-|-|-|-
+1676|Past Medical History|C2317559|SNOMEDCT_US|417662000|History of clinical finding in subject
+1696|:** No |-|-|-|-
+1703|previous|C0205156|SNOMEDCT_US|9130008|Previous
+1711| |-|-|-|-
+1712|medical|C0205476|SNOMEDCT_US|74188005|Medical
+1719| |-|-|-|-
+1720|conditions|C0348080|SNOMEDCT_US|260905004|Condition
+1730| |-|-|-|-
+1731|reported|C0684224|SNOMEDCT_US|229059009|Report
+1739|<NEW_LINE>- **Drug Allergies:** None |-|-|-|-
+1767|known|C0205309|SNOMEDCT_US|36692007|Known
+1772|<NEW_LINE><NEW_LINE>**|-|-|-|-
+1776|Travel|C0040802|SNOMEDCT_US|420008001|Travel
+1782| Information:**<NEW_LINE>- No |-|-|-|-
+1803|recent|C0332185|SNOMEDCT_US|6493001|Recent
+1809| |-|-|-|-
+1810|travel|C0040802|SNOMEDCT_US|420008001|Travel
+1816|<NEW_LINE><NEW_LINE>**|-|-|-|-
+1820|Special|C0205555|SNOMEDCT_US|67995009|Special
+1827| |-|-|-|-
+1828|Occupation|C0028811|SNOMEDCT_US|14679004|Occupation
+1838| Information:**<NEW_LINE>- None<NEW_LINE><NEW_LINE>**Cluster Information:**<NEW_LINE>- No |-|-|-|-
+1892|contact with|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
+1904| |-|-|-|-
+1905|confirmed|C0521091|SNOMEDCT_US|74996004|Confirmation of (contextual qualifier)
+1914| cluster |-|-|-|-
+1923|infection|C0009450|SNOMEDCT_US|40733004|Infectious disease
+1932|<NEW_LINE><NEW_LINE>**|-|-|-|-
+1936|Patient|C0030705|SNOMEDCT_US|116154003|Patient
+1943| |-|-|-|-
+1944|Contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
+1951| Information:**<NEW_LINE>- No |-|-|-|-
+1972|contact with|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
+1984| |-|-|-|-
+1985|specific|C0205369|SNOMEDCT_US|69658003|Specific
+1993| |-|-|-|-
+1994|infectious disease|C0009450|SNOMEDCT_US|40733004|Infectious disease
+2012|<NEW_LINE><NEW_LINE>**|-|-|-|-
+2016|Animal|C0003062|SNOMEDCT_US|387961004|Kingdom Animalia
+2022| |-|-|-|-
+2023|Contact|C0332158|SNOMEDCT_US|11723008|Contact with (contextual qualifier)
+2030| Information:**<NEW_LINE>- None<NEW_LINE><NEW_LINE>**|-|-|-|-
+2056|Current|C0521116|SNOMEDCT_US|15240007|Current
+2063| |-|-|-|-
+2064|Illness|C0221423|SNOMEDCT_US|39104002|Illness
+2071|:**<NEW_LINE>- |-|-|-|-
+2077|Sudden|C5201090|SNOMEDCT_US|255363002|Sudden
+2083| |-|-|-|-
+2084|diminished|C0205216|SNOMEDCT_US|1250004|Decreased
+2094| |-|-|-|-
+2095|visual field|C0042826|SNOMEDCT_US|73750009|Visual field
+2107| noticed since the |-|-|-|-
+2126|previous|C0205156|SNOMEDCT_US|9130008|Previous
+2134| |-|-|-|-
+2135|evening|C0587117|SNOMEDCT_US|3157002|Evening
+2142|<NEW_LINE><NEW_LINE>**|-|-|-|-
+2146|Referral|C0034927|SNOMEDCT_US|3457005|Patient referral
+2154| Information:**<NEW_LINE>- |-|-|-|-
+2172|Referred|C0034927|SNOMEDCT_US|3457005|Patient referral
+2180| by Mackay Memorial |-|-|-|-
+2200|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
+2208| for |-|-|-|-
+2213|possible|C0332149|SNOMEDCT_US|371930009|Possible
+2221| |-|-|-|-
+2222|surgical|C0543467|SNOMEDCT_US|83578000|Surgical
+2230| |-|-|-|-
+2231|intervention|C1273869|SNOMEDCT_US|225334002|Intervention regime
+2243| |-|-|-|-
+2244|due to|C0678226|SNOMEDCT_US|42752001|Due to
+2250| |-|-|-|-
+2251|suspected|C0750491|SNOMEDCT_US|415684004|Suspected
+2260| |-|-|-|-
+2261|retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
+2279|<NEW_LINE><NEW_LINE>**|-|-|-|-
+2283|Physical Examination|C0031809|SNOMEDCT_US|5880005|Physical examination procedure
+2303|:**<NEW_LINE><NEW_LINE>- **|-|-|-|-
+2312|Level of Consciousness|C0234425|SNOMEDCT_US|6942003|Level of consciousness
+2334|:** |-|-|-|-
+2338|Alert|C0424536|SNOMEDCT_US|248234008|Mentally alert
+2343| and |-|-|-|-
+2348|oriented|C0424013|SNOMEDCT_US|247663003|Orientated
+2356|<NEW_LINE>- **|-|-|-|-
+2361|Vital Signs|C0150404|SNOMEDCT_US|61746007|Taking patient vital signs
+2372|:**<NEW_LINE>  - **|-|-|-|-
+2382|Blood Pressure|C0005823|SNOMEDCT_US|75367002|Blood pressure
+2396|:** 93/62 |-|-|-|-
+2406|mmHg|C0439475|SNOMEDCT_US|259018001|Millimeter of mercury
+2410|<NEW_LINE>  - **|-|-|-|-
+2417|Heart Rate|C0018810|SNOMEDCT_US|364075005|Heart rate
+2427|:** 115 |-|-|-|-
+2435|beats per minute|C0439385|SNOMEDCT_US|258983007|Beats/minute
+2451|<NEW_LINE>  - **|-|-|-|-
+2458|Respiratory Rate|C0231832|SNOMEDCT_US|86290005|Respiratory rate
+2474|:** 20 |-|-|-|-
+2481|breaths per minute|C0439386|SNOMEDCT_US|258984001|Breaths/minute
+2499|<NEW_LINE>  - **|-|-|-|-
+2506|Body Temperature|C0005903|SNOMEDCT_US|386725007|Body temperature
+2522|:** 36.8 |-|-|-|-
+2531|degrees Celsius|C0439237|SNOMEDCT_US|258710007|Degrees Celsius
+2546|<NEW_LINE>  - **|-|-|-|-
+2553|Oxygen Saturation|C0428174|SNOMEDCT_US|103228002|Hemoglobin saturation with oxygen
+2570| (SpO2):** 97%<NEW_LINE>  <NEW_LINE>- **|-|-|-|-
+2592|Head Examination|C1273867|SNOMEDCT_US|394831002|Examination (heading)
+2608|:**<NEW_LINE>  - **|-|-|-|-
+2618|Scalp|C0036270|SNOMEDCT_US|41695006|Scalp structure
+2623|:** |-|-|-|-
+2627|Normal appearance|C1271005|SNOMEDCT_US|386549008|Normal appearance
+2644|<NEW_LINE><NEW_LINE>- **|-|-|-|-
+2650|Eye Examination|C0200149|SNOMEDCT_US|36228007|Ophthalmic examination and evaluation
+2665|:**<NEW_LINE>  - **Pupils:** |-|-|-|-
+2685|Equal|C0205163|SNOMEDCT_US|9726003|Equal
+2690| in size<NEW_LINE>  - **|-|-|-|-
+2705|Conjunctiva|C0009758|SNOMEDCT_US|29445007|Conjunctival structure
+2716|:** |-|-|-|-
+2720|Normal|C0439166|SNOMEDCT_US|258744000|% normal
+2726|, without |-|-|-|-
+2736|pallor|C0439166|<LOST>|<LOST>|Pale - symptom
+2742|<NEW_LINE>  - **|-|-|-|-
+2749|Sclera|C0036410|SNOMEDCT_US|18619003|Scleral structure
+2755|:** No |-|-|-|-
+2762|jaundice|C0022346|SNOMEDCT_US|18165001|Jaundice
+2770|<NEW_LINE><NEW_LINE>- **|-|-|-|-
+2776|Neck|C0027530|SNOMEDCT_US|45048000|Neck structure
+2780| |-|-|-|-
+2781|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+2792|:**<NEW_LINE>  - |-|-|-|-
+2800|Supple|C0332254|SNOMEDCT_US|48162006|Supple
+2806|, no |-|-|-|-
+2811|jugular venous distension|C0425687|SNOMEDCT_US|271653008|Jugular venous engorgement
+2836| or |-|-|-|-
+2840|lymphadenopathy|C0497156|SNOMEDCT_US|30746006|Lymphadenopathy
+2855|<NEW_LINE><NEW_LINE>- **|-|-|-|-
+2861|Thoracic|C0497156|<LOST>|<LOST>|Thoracic
+2869| |-|-|-|-
+2870|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+2881|:**<NEW_LINE>  - **|-|-|-|-
+2891|Chest Expansion|C0231902|SNOMEDCT_US|6427007|Chest expansion
+2906|:** |-|-|-|-
+2910|Symmetrical|C0332516|SNOMEDCT_US|255473004|Symmetrical
+2921|<NEW_LINE>  - **|-|-|-|-
+2928|Breath Sounds|C0035234|SNOMEDCT_US|52653008|Respiratory sounds
+2941|:** |-|-|-|-
+2945|Clear|C2963144|SNOMEDCT_US|263707001|Clear
+2950| on |-|-|-|-
+2954|auscultation|C0004339|SNOMEDCT_US|37931006|Auscultation
+2966|<NEW_LINE><NEW_LINE>- **|-|-|-|-
+2972|Cardiac|C0018787|SNOMEDCT_US|80891009|Heart structure
+2979| |-|-|-|-
+2980|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+2991|:**<NEW_LINE>  - **|-|-|-|-
+3001|Heart Rate|C0018810|SNOMEDCT_US|364075005|Heart rate
+3011| and Rhythm:** |-|-|-|-
+3026|Regular|C0205272|SNOMEDCT_US|17854005|Regular
+3033| rhythm<NEW_LINE>  - **|-|-|-|-
+3047|Heart Sounds|C0018820|SNOMEDCT_US|271660002|Heart sounds
+3059|:** No |-|-|-|-
+3066|murmur|C0018808|SNOMEDCT_US|414786004|Murmur
+3072| |-|-|-|-
+3073|detected|C0442726|SNOMEDCT_US|260373001|Detected
+3081|<NEW_LINE><NEW_LINE>- **|-|-|-|-
+3087|Abdominal Examination|C0562238|SNOMEDCT_US|225162003|Examination of abdomen
+3108|:**<NEW_LINE>  - **|-|-|-|-
+3118|Abdomen|C0000726|SNOMEDCT_US|818983003|Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall
+3125|:** |-|-|-|-
+3129|Soft|C0205358|SNOMEDCT_US|37378003|Soft (qualifier value)
+3133| on |-|-|-|-
+3137|palpation|C0030247|SNOMEDCT_US|113011001|Palpation
+3146|, |-|-|-|-
+3148|normal bowel sounds|C0278005|SNOMEDCT_US|61539000|Normal bowel sounds
+3167|<NEW_LINE><NEW_LINE>- **|-|-|-|-
+3173|Extremities|C0015385|SNOMEDCT_US|66019005|Limb structure
+3184| |-|-|-|-
+3185|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+3196|:**<NEW_LINE>  - |-|-|-|-
+3204|Normal|C0205307|SNOMEDCT_US|17621005|Normal
+3210| |-|-|-|-
+3211|examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+3222|<NEW_LINE><NEW_LINE>**|-|-|-|-
+3226|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+3235| Information**<NEW_LINE><NEW_LINE>- **|-|-|-|-
+3255|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
+3264| |-|-|-|-
+3265|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+3274|:** |-|-|-|-
+3278|Retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
+3296| of |-|-|-|-
+3300|unspecified|C0205370|SNOMEDCT_US|10003008|Non-specific
+3311| |-|-|-|-
+3312|laterality|C0332304|SNOMEDCT_US|272741003|Laterality
+3322|<NEW_LINE>- **|-|-|-|-
+3327|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
+3336| |-|-|-|-
+3337|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+3346|:** |-|-|-|-
+3350|Retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
+3368| of |-|-|-|-
+3372|unspecified|C0205370|SNOMEDCT_US|10003008|Non-specific
+3383| |-|-|-|-
+3384|laterality|C0332304|SNOMEDCT_US|272741003|Laterality
+3394|<NEW_LINE><NEW_LINE>**|-|-|-|-
+3398|Physician|C0031831|SNOMEDCT_US|309343006|Physician
+3407|'s Orders:**<NEW_LINE><NEW_LINE>- **|-|-|-|-
+3425|Clinical|C0205210|SNOMEDCT_US|58147004|Clinical
+3433| Management Orders:**<NEW_LINE>  - Consult |-|-|-|-
+3467|ophthalmologist|C1704292|SNOMEDCT_US|422234006|Ophthalmologist
+3482| Dr. Zhao Li-Fang using |-|-|-|-
+3506|extension|C0231448|SNOMEDCT_US|255536004|Extension
+3515| 51001 in the |-|-|-|-
+3529|ophthalmology department|C0587524|SNOMEDCT_US|309988001|Ophthalmology department
+3553|<NEW_LINE>  - |-|-|-|-
+3558|Instill|C4521682|SNOMEDCT_US|738994005|Instill
+3565| Mydrin P |-|-|-|-
+3575|ophthalmic solution|C0029083|SNOMEDCT_US|422060001|Conventional release eye solution
+3594|, one |-|-|-|-
+3600|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
+3604| each in eye<NEW_LINE>  - Arrange |-|-|-|-
+3629|patient transfer|C0030704|SNOMEDCT_US|107724000|Patient transfer
+3645| to |-|-|-|-
+3649|ward|C1305702|SNOMEDCT_US|225746001|Ward (environment)
+3653| 12A<NEW_LINE>  - |-|-|-|-
+3662|Medical records|C0025102|SNOMEDCT_US|129465004|Medical record, device
+3677| not required<NEW_LINE>  - Bed allocation modifications to be |-|-|-|-
+3730|performed|C0884358|SNOMEDCT_US|398166005|Performed
+3739|<NEW_LINE>  - |-|-|-|-
+3744|Confirm|C0521093|SNOMEDCT_US|59156000|Confirmed by (contextual qualifier)
+3751| |-|-|-|-
+3752|patient|C0030705|SNOMEDCT_US|116154003|Patient
+3759| |-|-|-|-
+3760|admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
+3769| to the facility**|-|-|-|-
+3787|In-Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
+3798| |-|-|-|-
+3799|Medical Records|C0025102|SNOMEDCT_US|129465004|Medical record, device
+3814| Identification**<NEW_LINE><NEW_LINE>**|-|-|-|-
+3835|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
+3844| Information:**<NEW_LINE>- **|-|-|-|-
+3864|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
+3873| |-|-|-|-
+3874|Date|C0011008|SNOMEDCT_US|410671006|Date (attribute)
+3878|**: |-|-|-|-
+3882|Date|C0011008|SNOMEDCT_US|410671006|Date (attribute)
+3886| of |-|-|-|-
+3890|patient|C0030705|SNOMEDCT_US|116154003|Patient
+3897| |-|-|-|-
+3898|admission to hospital|C0184666|SNOMEDCT_US|32485007|Hospital admission
+3919|<NEW_LINE>- **|-|-|-|-
+3924|Chief Complaint|C0184666|<LOST>|<LOST>|Chief complaint
+3939|**: |-|-|-|-
+3943|Complaint|C0184666|<LOST>|<LOST>|Complaint
+3952| of |-|-|-|-
+3956|chest pain|C0008031|SNOMEDCT_US|29857009|Chest pain
+3966| by |-|-|-|-
+3970|patient|C0030705|SNOMEDCT_US|116154003|Patient
+3977|<NEW_LINE><NEW_LINE>**|-|-|-|-
+3981|Medical History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
+3996|:**<NEW_LINE>- |-|-|-|-
+4002|History of hypertension|C0455527|SNOMEDCT_US|161501007|History of hypertension
+4025|<NEW_LINE>- |-|-|-|-
+4028|History of diabetes mellitus|C0455488|SNOMEDCT_US|161445009|History of diabetes mellitus
+4056|<NEW_LINE><NEW_LINE>**Medications |-|-|-|-
+4072|on Admission|C0457453|SNOMEDCT_US|278307001|On admission
+4084|:**<NEW_LINE>- Medication of |-|-|-|-
+4104|Hydrochlorothiazide|C0020261|SNOMEDCT_US|387525002|Hydrochlorothiazide
+4123| <NEW_LINE>- Medication of |-|-|-|-
+4141|Metformin|C0025598|SNOMEDCT_US|372567009|Metformin
+4150|<NEW_LINE><NEW_LINE>**|-|-|-|-
+4154|Physical Examination|C0031809|SNOMEDCT_US|5880005|Physical examination procedure
+4174|:**<NEW_LINE>- **|-|-|-|-
+4182|Blood Pressure|C0005823|SNOMEDCT_US|75367002|Blood pressure
+4196|**: |-|-|-|-
+4200|Measurement|C0242485|SNOMEDCT_US|122869004|Measurement procedure
+4211| of |-|-|-|-
+4215|arterial blood pressure|C1272641|SNOMEDCT_US|386534000|Arterial blood pressure
+4238| showing 160/90 |-|-|-|-
+4254|mmHg|C0439475|SNOMEDCT_US|259018001|Millimeter of mercury
+4258|<NEW_LINE>- **|-|-|-|-
+4263|Heart Rate|C0018810|SNOMEDCT_US|364075005|Heart rate
+4273|**: |-|-|-|-
+4277|Heart rate|C0018810|SNOMEDCT_US|364075005|Heart rate
+4287| recorded as 88 |-|-|-|-
+4303|beats per minute|C0439385|SNOMEDCT_US|258983007|Beats/minute
+4319|<NEW_LINE>- **|-|-|-|-
+4324|Respiratory Rate|C0231832|SNOMEDCT_US|86290005|Respiratory rate
+4340|**: |-|-|-|-
+4344|Respiratory rate|C0231832|SNOMEDCT_US|86290005|Respiratory rate
+4360| recorded as 18 |-|-|-|-
+4376|breaths per minute|C0439386|SNOMEDCT_US|258984001|Breaths/minute
+4394|<NEW_LINE>- **|-|-|-|-
+4399|Temperature|C0039476|SNOMEDCT_US|246508008|Temperature
+4410|**: |-|-|-|-
+4414|Measurement|C0242485|SNOMEDCT_US|122869004|Measurement procedure
+4425| of |-|-|-|-
+4429|body temperature|C0005903|SNOMEDCT_US|386725007|Body temperature
+4445| recorded as 98.6°F<NEW_LINE><NEW_LINE>**|-|-|-|-
+4468|Laboratory|C0022877|SNOMEDCT_US|261904005|Laboratory
+4478| |-|-|-|-
+4479|Tests|C0392366|SNOMEDCT_US|272393004|Tests
+4484|:**<NEW_LINE>- |-|-|-|-
+4490|Test|C0392366|SNOMEDCT_US|272393004|Tests
+4494| for |-|-|-|-
+4499|complete blood count|C0009555|SNOMEDCT_US|26604007|Complete blood count
+4519|<NEW_LINE>- |-|-|-|-
+4522|Test|C0392366|SNOMEDCT_US|272393004|Tests
+4526| for basic metabolic panel<NEW_LINE>- |-|-|-|-
+4555|Test|C0392366|SNOMEDCT_US|272393004|Tests
+4559| for |-|-|-|-
+4564|troponin I|C0077401|SNOMEDCT_US|102683006|Troponin I
+4574| indicating |-|-|-|-
+4586|positive|C1446409|SNOMEDCT_US|10828004|Positive
+4594| |-|-|-|-
+4595|result|C1274040|SNOMEDCT_US|394617004|Result
+4601|<NEW_LINE><NEW_LINE>**|-|-|-|-
+4605|Imaging|C0011923|SNOMEDCT_US|363679005|Imaging
+4612| Studies:**<NEW_LINE>- |-|-|-|-
+4626|Imaging|C0011923|SNOMEDCT_US|363679005|Imaging
+4633| |-|-|-|-
+4634|study|C0557651|SNOMEDCT_US|224699009|Study
+4639| of |-|-|-|-
+4643|chest|C0817096|SNOMEDCT_US|51185008|Thoracic structure
+4648| |-|-|-|-
+4649|X-ray<NEW_LINE>- Imaging|C1962945|SNOMEDCT_US|363680008|Radiographic imaging procedure
+4664| |-|-|-|-
+4665|study|C0557651|SNOMEDCT_US|224699009|Study
+4670| of |-|-|-|-
+4674|electrocardiogram|C1623258|SNOMEDCT_US|29303009|Electrocardiographic procedure
+4691|<NEW_LINE><NEW_LINE>**|-|-|-|-
+4695|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+4704|:**<NEW_LINE>- |-|-|-|-
+4710|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+4719| of |-|-|-|-
+4723|acute myocardial infarction|C0155626|SNOMEDCT_US|57054005|Acute myocardial infarction
+4750|<NEW_LINE><NEW_LINE>**|-|-|-|-
+4754|Treatment|C0199174|SNOMEDCT_US|7922000|General treatment
+4763| Plan:**<NEW_LINE>- |-|-|-|-
+4774|Treatment|C0199174|SNOMEDCT_US|7922000|General treatment
+4783| with |-|-|-|-
+4789|aspirin|C0004057|SNOMEDCT_US|387458008|Aspirin
+4796|<NEW_LINE>- |-|-|-|-
+4799|Treatment|C0199174|SNOMEDCT_US|7922000|General treatment
+4808| with |-|-|-|-
+4814|clopidogrel|C0070166|SNOMEDCT_US|386952008|Clopidogrel
+4825|<NEW_LINE>- |-|-|-|-
+4828|Treatment|C0199174|SNOMEDCT_US|7922000|General treatment
+4837| with |-|-|-|-
+4843|atenolol|C0004147|SNOMEDCT_US|387506000|Atenolol
+4851|<NEW_LINE>- |-|-|-|-
+4854|Lifestyle|C0023676|SNOMEDCT_US|134436002|Lifestyle
+4863| changes |-|-|-|-
+4872|consultation|C0009818|SNOMEDCT_US|11429006|Consultation
+4884| |-|-|-|-
+4885|including|C0332257|SNOMEDCT_US|55919000|Including
 4894| |-|-|-|-
-4895|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
-4903| for |-|-|-|-
-4908|surgical|C0543467|SNOMEDCT_US|83578000|Surgical
-4916| treatmentOphthalmology |-|-|-|-
-4940|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-4947|: No eye |-|-|-|-
-4956|surgery|C0543467|SNOMEDCT_US|257556004|Surgery
-4963|, no |-|-|-|-
-4968|eye injury|C0438624|SNOMEDCT_US|367423000|Contusion of eye
-4978|.  <NEW_LINE>|-|-|-|-
-4982|Past Medical History|C2317559|SNOMEDCT_US|417662000|History of clinical finding in subject
-5002|: No |-|-|-|-
-5007|diabetes|C0011849|SNOMEDCT_US|73211009|Diabetes mellitus
-5015|, no |-|-|-|-
-5020|high blood pressure|C0020538|SNOMEDCT_US|38341003|Hypertensive disorder, systemic arterial
-5039|, no |-|-|-|-
-5044|ischemic heart disease|C0151744|SNOMEDCT_US|414545008|Ischemic heart disease
-5066|, no |-|-|-|-
-5071|asthma|C0004096|SNOMEDCT_US|195967001|Asthma
-5077|.  <NEW_LINE>Allergies: |-|-|-|-
-5092|No known drug allergy|C0262581|SNOMEDCT_US|409137002|No known drug allergy
-5113|.  <NEW_LINE>|-|-|-|-
-5117|Family|C0015576|SNOMEDCT_US|35359004|Family
-5123| |-|-|-|-
-5124|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-5131|: No |-|-|-|-
-5136|genetic|C0017296|SNOMEDCT_US|394613000|Gene therapy
-5143| |-|-|-|-
-5144|ocular|C4521296|SNOMEDCT_US|738952007|Ocular
-5150| |-|-|-|-
-5151|disorders|C0012634|SNOMEDCT_US|64572001|Disease
-5160|.  <NEW_LINE>|-|-|-|-
-5164|Current Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
-5183|  <NEW_LINE>- National |-|-|-|-
-5197|Taiwan|C0039260|SNOMEDCT_US|428675004|Taiwan
-5203| |-|-|-|-
-5204|University|C0041740|SNOMEDCT_US|224871002|University
-5214| |-|-|-|-
-5215|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
-5223|: None  <NEW_LINE>- Other |-|-|-|-
-5240|medications:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
-5252| None  <NEW_LINE>- |-|-|-|-
-5262|Chinese Herbal Medicine|C1273412|SNOMEDCT_US|395114000|Chinese herbal medicine
-5285|: None  <NEW_LINE>- |-|-|-|-
-5296|Nutritional Supplements|C0242295|SNOMEDCT_US|108961000|Nutritional supplement
-5319|: None  <NEW_LINE>|-|-|-|-
-5328|Travel|C0040802|SNOMEDCT_US|420008001|Travel
-5334| |-|-|-|-
-5335|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
-5342|: No |-|-|-|-
-5347|recent|C0332185|SNOMEDCT_US|6493001|Recent
-5353| |-|-|-|-
-5354|travel|C0040802|SNOMEDCT_US|420008001|Travel
-5360|.  <NEW_LINE><NEW_LINE>|-|-|-|-
-5365|Physical Examination|C0031809|SNOMEDCT_US|5880005|Physical examination procedure
-5385| upon |-|-|-|-
-5391|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
-5400|:  <NEW_LINE>- |-|-|-|-
-5406|Body height|C0005890|SNOMEDCT_US|50373000|Body height measure
-5417|: 164 cm  <NEW_LINE>- |-|-|-|-
-5430|Body weight|C0005910|SNOMEDCT_US|27113001|Body weight
-5441|: 48 kg  <NEW_LINE>- |-|-|-|-
-5453|Body temperature|C0005903|SNOMEDCT_US|386725007|Body temperature
-5469|: 36.4°C  <NEW_LINE>- |-|-|-|-
-5482|Heart rate|C0018810|SNOMEDCT_US|364075005|Heart rate
-5492|: 77 |-|-|-|-
-5497|per minute|C0702093|SNOMEDCT_US|286549009|per minute
-5507|  <NEW_LINE>- |-|-|-|-
-5512|Respiratory rate|C0231832|SNOMEDCT_US|86290005|Respiratory rate
-5528|: 17 |-|-|-|-
-5533|per minute|C0702093|SNOMEDCT_US|286549009|per minute
-5543|  <NEW_LINE>- |-|-|-|-
-5548|Arterial blood pressure|C1272641|SNOMEDCT_US|386534000|Arterial blood pressure
-5571|: 133/96 |-|-|-|-
-5580|mmHg|C0439475|SNOMEDCT_US|259018001|Millimeter of mercury
-5584|  <NEW_LINE>- Pain |-|-|-|-
-5594|severity|C0439793|SNOMEDCT_US|272141005|Severities
-5602| rating scale: 3**|-|-|-|-
-5620|Neurological Examination|C0027853|SNOMEDCT_US|84728005|Neurological examination
-5644|:**<NEW_LINE><NEW_LINE>- **|-|-|-|-
-5653|Level of consciousness|C0234425|SNOMEDCT_US|6942003|Level of consciousness
-5675|:** The |-|-|-|-
-5683|level of consciousness|C0234425|SNOMEDCT_US|6942003|Level of consciousness
-5705| of the |-|-|-|-
-5713|patient|C0030705|SNOMEDCT_US|116154003|Patient
-5720| was observed and noted.<NEW_LINE>- **|-|-|-|-
-5749|Muscle|C0026845|SNOMEDCT_US|91727004|Muscle tissue
-5755| strength:** The |-|-|-|-
-5772|muscle|C0026845|SNOMEDCT_US|91727004|Muscle tissue
-5778| strength of the |-|-|-|-
-5795|patient|C0030705|SNOMEDCT_US|116154003|Patient
-5802| in each |-|-|-|-
-5811|limb|C0015385|SNOMEDCT_US|66019005|Limb structure
-5815| was assessed.<NEW_LINE>- **Gait assessment:** The gait of the |-|-|-|-
-5869|patient|C0030705|SNOMEDCT_US|116154003|Patient
-5876| was |-|-|-|-
-5881|thoroughly|C4708903|SNOMEDCT_US|769407000|Thoroughly - dosing instruction fragment
-5891| |-|-|-|-
-5892|assessed|C1261322|SNOMEDCT_US|129265001|Evaluation - action
-5900|.**|-|-|-|-
-5903|Neurological Examination|C0027853|SNOMEDCT_US|84728005|Neurological examination
-5927|:**<NEW_LINE><NEW_LINE>- **|-|-|-|-
-5936|Level of Consciousness|C0234425|SNOMEDCT_US|6942003|Level of consciousness
-5958|:** |-|-|-|-
-5962|Clear|C2963144|SNOMEDCT_US|263707001|Clear
-5967| and |-|-|-|-
-5972|Level of Consciousness|C0234425|SNOMEDCT_US|6942003|Level of consciousness
-5994|: |-|-|-|-
-5996|Oriented|C0424013|SNOMEDCT_US|247663003|Orientated
-6004|<NEW_LINE>- **|-|-|-|-
-6009|Muscle|C0026845|SNOMEDCT_US|91727004|Muscle tissue
-6015| Strength:** |-|-|-|-
-6028|Normal|C0439166|SNOMEDCT_US|258744000|% normal
-6034|<NEW_LINE>- **|-|-|-|-
-6039|Gait Analysis|C0558820|SNOMEDCT_US|274787008|Examination of gait
-6052|:** NormalGeneral |-|-|-|-
-6070|Appearance|C0700364|SNOMEDCT_US|255412001|Appearances
-6080|: Fair.  <NEW_LINE>Consciousness: |-|-|-|-
-6105|Clear|C2963144|SNOMEDCT_US|263707001|Clear
-6110|.  <NEW_LINE>Head: Generally |-|-|-|-
-6130|normal|C0439166|SNOMEDCT_US|258744000|% normal
-6136|.  <NEW_LINE>Eyes: Generally |-|-|-|-
-6156|normal|C0439166|SNOMEDCT_US|258744000|% normal
-6162|.  <NEW_LINE>Ears: Generally |-|-|-|-
-6182|normal|C0439166|SNOMEDCT_US|258744000|% normal
-6188|.  <NEW_LINE>Nose: Generally |-|-|-|-
-6208|normal|C0439166|SNOMEDCT_US|258744000|% normal
-6214|.  <NEW_LINE>|-|-|-|-
-6218|Throat|C0031354|SNOMEDCT_US|54066008|Pharyngeal structure
-6224|: Generally |-|-|-|-
-6236|normal|C0439166|SNOMEDCT_US|258744000|% normal
-6242|.  <NEW_LINE>|-|-|-|-
-6246|Neck|C0027530|SNOMEDCT_US|45048000|Neck structure
-6250|: |-|-|-|-
-6252|Flexible|C0443220|SNOMEDCT_US|261012000|Flexible
-6260|.  <NEW_LINE>|-|-|-|-
-6264|Chest|C0817096|SNOMEDCT_US|51185008|Thoracic structure
-6269|: |-|-|-|-
-6271|Symmetrical|C0332516|SNOMEDCT_US|255473004|Symmetrical
-6282| expansion. No |-|-|-|-
-6297|use of|C1524063|SNOMEDCT_US|260676000|Use of
-6303| |-|-|-|-
-6304|accessory muscles|C0158784|SNOMEDCT_US|50847000|Accessory skeletal muscle
-6321| for |-|-|-|-
-6326|respiration|C0035203|SNOMEDCT_US|719983008|Breathing process
-6337|.  <NEW_LINE>|-|-|-|-
-6341|Abdomen|C0000726|SNOMEDCT_US|818983003|Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall
-6348|: |-|-|-|-
-6350|Soft|C0205358|SNOMEDCT_US|37378003|Soft (qualifier value)
-6354| and flat. |-|-|-|-
-6365|Non-tender|C0520960|SNOMEDCT_US|300821004|Non-tender
-6375|.  <NEW_LINE>|-|-|-|-
-6379|Extremities|C0015385|SNOMEDCT_US|66019005|Limb structure
-6390|: No |-|-|-|-
-6395|edema|C0013604|SNOMEDCT_US|79654002|Edema
-6400|. No |-|-|-|-
-6405|cyanosis|C0010520|SNOMEDCT_US|3415004|Cyanosis
-6413|.**|-|-|-|-
-6416|Best Corrected Visual Acuity|C1690532|SNOMEDCT_US|419775003|Best corrected visual acuity
-6444|:**  <NEW_LINE>- |-|-|-|-
-6452|Right Eye|C1690532|<LOST>|<LOST>|Right eye structure
-6461|: |-|-|-|-
-6463|Best Corrected Visual Acuity|C1690532|SNOMEDCT_US|419775003|Best corrected visual acuity
-6491| |-|-|-|-
-6492|Reduced|C0392756|SNOMEDCT_US|260400001|Reduced
-6499|  <NEW_LINE>- |-|-|-|-
-6504|Left Eye|C0392756|<LOST>|<LOST>|Left eye structure
-6512|: |-|-|-|-
-6514|Best Corrected Visual Acuity|C1690532|SNOMEDCT_US|419775003|Best corrected visual acuity
-6542| |-|-|-|-
-6543|Normal|C0439166|SNOMEDCT_US|258744000|% normal
-6549|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-6555|Intraocular Pressure|C0021888|SNOMEDCT_US|41633001|Intraocular pressure
-6575|:**  <NEW_LINE>- |-|-|-|-
-6583|Right Eye|C0021888|<LOST>|<LOST>|Right eye structure
-6592|: |-|-|-|-
-6594|Intraocular Pressure Measurement|C0040420|SNOMEDCT_US|164729009|Tonometry
-6626| |-|-|-|-
-6627|Normal|C0439166|SNOMEDCT_US|258744000|% normal
-6633|  <NEW_LINE>- |-|-|-|-
-6638|Left Eye|C0439166|<LOST>|<LOST>|Left eye structure
-6646|: |-|-|-|-
-6648|Intraocular Pressure Measurement|C0040420|SNOMEDCT_US|164729009|Tonometry
-6680| |-|-|-|-
-6681|Normal|C0439166|SNOMEDCT_US|258744000|% normal
-6687|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-6693|Cornea|C0010031|SNOMEDCT_US|28726007|Corneal structure
-6699|:**  <NEW_LINE>- |-|-|-|-
-6707|Right Eye|C0010031|<LOST>|<LOST>|Right eye structure
-6716|: |-|-|-|-
-6718|Cornea|C0010031|SNOMEDCT_US|28726007|Corneal structure
-6724| |-|-|-|-
-6725|Normal|C0439166|SNOMEDCT_US|258744000|% normal
-6731|  <NEW_LINE>- |-|-|-|-
-6736|Left Eye|C0439166|<LOST>|<LOST>|Left eye structure
-6744|: |-|-|-|-
-6746|Cornea|C0010031|SNOMEDCT_US|28726007|Corneal structure
-6752| |-|-|-|-
-6753|Normal|C0205307|SNOMEDCT_US|17621005|Normal
-6759|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-6765|Conjunctiva|C0009758|SNOMEDCT_US|29445007|Conjunctival structure
-6776|:**  <NEW_LINE>- |-|-|-|-
-6784|Right Eye|C0009758|<LOST>|<LOST>|Right eye structure
-6793|: |-|-|-|-
-6795|Conjunctiva Normal|C0578603|SNOMEDCT_US|301926003|Conjunctiva normal
-6813|  <NEW_LINE>- |-|-|-|-
-6818|Left Eye|C0578603|<LOST>|<LOST>|Left eye structure
-6826|: |-|-|-|-
-6828|Conjunctiva Normal|C0578603|SNOMEDCT_US|301926003|Conjunctiva normal
-6846|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-6852|Anterior Chamber|C0003151|SNOMEDCT_US|31636006|Anterior chamber of eye structure
-6868|:**  <NEW_LINE>- |-|-|-|-
-6876|Right Eye|C0003151|<LOST>|<LOST>|Right eye structure
-6885|: |-|-|-|-
-6887|Anterior Chamber|C0003151|SNOMEDCT_US|31636006|Anterior chamber of eye structure
-6903| |-|-|-|-
-6904|Normal|C0439166|SNOMEDCT_US|258744000|% normal
-6910|  <NEW_LINE>- |-|-|-|-
-6915|Left Eye|C0439166|<LOST>|<LOST>|Left eye structure
-6923|: |-|-|-|-
-6925|Anterior Chamber|C0003151|SNOMEDCT_US|31636006|Anterior chamber of eye structure
-6941| |-|-|-|-
-6942|Normal|C0205307|SNOMEDCT_US|17621005|Normal
-6948|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-6954|Lens|C0023317|SNOMEDCT_US|78076003|Structure of lens of eye
-6958|:**  <NEW_LINE>- |-|-|-|-
-6966|Right Eye|C0023317|<LOST>|<LOST>|Right eye structure
-6975|: |-|-|-|-
-6977|Lens Structure|C0023317|SNOMEDCT_US|78076003|Structure of lens of eye
-6991| |-|-|-|-
-6992|Normal|C0205307|SNOMEDCT_US|17621005|Normal
-6998|  <NEW_LINE>- |-|-|-|-
-7003|Left Eye|C0205307|<LOST>|<LOST>|Left eye structure
-7011|: |-|-|-|-
-7013|Lens Structure|C0023317|SNOMEDCT_US|78076003|Structure of lens of eye
-7027| |-|-|-|-
-7028|Normal|C0205307|SNOMEDCT_US|17621005|Normal
-7034|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-7040|Fundus|C0227544|SNOMEDCT_US|14347000|Structure of fundus of gallbladder
-7046| |-|-|-|-
-7047|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
-7058|:**  <NEW_LINE>- |-|-|-|-
-7066|Right Eye|C0031809|<LOST>|<LOST>|Right eye structure
-7075|: |-|-|-|-
-7077|Cup Disc Ratio|C0423471|SNOMEDCT_US|247225001|Optic cup/disc ratio
-7091| |-|-|-|-
-7092|Increased|C0205217|SNOMEDCT_US|35105006|Increased
-7101|; |-|-|-|-
-7103|Fundus|C0227544|SNOMEDCT_US|14347000|Structure of fundus of gallbladder
-7109| |-|-|-|-
-7110|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
-7121| |-|-|-|-
-7122|Retinal Detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
-7140|; |-|-|-|-
-7142|Fundus|C0227544|SNOMEDCT_US|14347000|Structure of fundus of gallbladder
-7148| |-|-|-|-
-7149|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
-7160| |-|-|-|-
-7161|Retinal Break|C0031809|<LOST>|<LOST>|Retinal defect
-7174|  <NEW_LINE>- |-|-|-|-
-7179|Left Eye|C0031809|<LOST>|<LOST>|Left eye structure
-7187|: |-|-|-|-
-7189|Cup Disc Ratio|C0423471|SNOMEDCT_US|247225001|Optic cup/disc ratio
-7203| |-|-|-|-
-7204|Increased|C0205217|SNOMEDCT_US|35105006|Increased
-7213|; |-|-|-|-
-7215|Fundus|C0227544|SNOMEDCT_US|14347000|Structure of fundus of gallbladder
-7221| |-|-|-|-
-7222|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
-7233| |-|-|-|-
-7234|Retina|C0035298|SNOMEDCT_US|5665001|Retinal structure
-7240| Attached  <NEW_LINE><NEW_LINE>**Changes on |-|-|-|-
-7266|Transfer|C0348011|SNOMEDCT_US|129347002|Surgical transfer - action
-7274|/|-|-|-|-
-7275|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
-7284|:**  <NEW_LINE>- |-|-|-|-
-7292|Retina|C0035298|SNOMEDCT_US|5665001|Retinal structure
-7298| Attached  <NEW_LINE>- |-|-|-|-
-7312|Intraocular Pressure Normal|C0578863|SNOMEDCT_US|60280003|Normal intraocular pressure
-7339|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-7345|Operation|C0543467|SNOMEDCT_US|387713003|Surgical procedure
-7354|:**  <NEW_LINE>- |-|-|-|-
-7362|Date|C0011008|SNOMEDCT_US|410671006|Date (attribute)
-7366| of |-|-|-|-
-7370|Surgery|C0543467|SNOMEDCT_US|257556004|Surgery
-7377|: |-|-|-|-
-7379|Date|C0011008|SNOMEDCT_US|410671006|Date (attribute)
-7383| of |-|-|-|-
-7387|Surgical|C0543467|SNOMEDCT_US|257556004|Surgery
-7395| Treatment  <NEW_LINE>- |-|-|-|-
-7410|Surgeon|C0582175|SNOMEDCT_US|304292004|Surgeon
-7417|: |-|-|-|-
-7419|Person|C0027361|SNOMEDCT_US|125676002|Person
-7425| Performing |-|-|-|-
-7437|Surgery|C0543467|SNOMEDCT_US|257556004|Surgery
-7444|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-7450|Pre-operative|C0445204|SNOMEDCT_US|262068006|Preoperative
-7463| |-|-|-|-
-7464|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
-7473|:**  <NEW_LINE>- |-|-|-|-
-7481|Retinal Detachment Rhegmatogenous|C0271055|SNOMEDCT_US|19620000|Rhegmatogenous retinal detachment
-7514|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-7520|Post-operative|C0032790|SNOMEDCT_US|262061000|Postoperative period
-7534| |-|-|-|-
-7535|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
-7544|:**  <NEW_LINE>- |-|-|-|-
-7552|Retinal Detachment Rhegmatogenous|C0271055|SNOMEDCT_US|19620000|Rhegmatogenous retinal detachment
-7585|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-7591|Surgical Procedure|C0543467|SNOMEDCT_US|387713003|Surgical procedure
-7609|:**  <NEW_LINE>- |-|-|-|-
-7617|Scleral Buckle Procedure|C0036411|SNOMEDCT_US|26786002|Scleral buckling
-7641|  <NEW_LINE>- |-|-|-|-
-7646|Cryopexy Procedure|C0185024|SNOMEDCT_US|4344007|Cryopexy
-7664|  <NEW_LINE>- |-|-|-|-
-7669|Injection|C1533685|SNOMEDCT_US|59108006|Injection
-7678| of |-|-|-|-
-7682|Sulfur Hexafluoride|C0038779|SNOMEDCT_US|259276004|Sulfur hexafluoride
-7701|  <NEW_LINE><NEW_LINE>**Operative Findings:**  <NEW_LINE>- |-|-|-|-
-7733|Retinal Detachment Rhegmatogenous|C0271055|SNOMEDCT_US|19620000|Rhegmatogenous retinal detachment
-7766|  <NEW_LINE>- |-|-|-|-
-7771|Retinal Break|C0271055|<LOST>|<LOST>|Retinal defect
-7784|  <NEW_LINE><NEW_LINE>**|-|-|-|-
-7790|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
-7798| |-|-|-|-
-7799|Course|C0750729|SNOMEDCT_US|288524001|Courses
-7805| and Treatment:**  <NEW_LINE>Post-|-|-|-|-
-7830|operation|C0543467|SNOMEDCT_US|387713003|Surgical procedure
-7839| subretinal |-|-|-|-
-7851|fluid|C0444611|SNOMEDCT_US|255765007|Fluid
-7856| observed. |-|-|-|-
-7867|Buckling|C0231748|SNOMEDCT_US|19352007|Giving-way
-7875| and |-|-|-|-
-7880|cryotherapy|C4551716|SNOMEDCT_US|26782000|Cryotherapy
-7891| were applied at the |-|-|-|-
-7912|retinal break|C4551716|<LOST>|<LOST>|Retinal defect
-7925| site and additional |-|-|-|-
-7946|areas|C0205146|SNOMEDCT_US|42798000|Area (qualifier value)
-7951|. |-|-|-|-
-7953|Focal|C0205234|SNOMEDCT_US|87017008|Focal
-7958| |-|-|-|-
-7959|laser|C0023089|SNOMEDCT_US|122456005|Laser device
-7964| |-|-|-|-
-7965|photocoagulation|C0023694|SNOMEDCT_US|64879003|Photocoagulation
-7981| applied bilaterally. On |-|-|-|-
-8006|post-operative|C0032790|SNOMEDCT_US|262061000|Postoperative period
-8020| day five, post-|-|-|-|-
-8036|operation|C0543467|SNOMEDCT_US|387713003|Surgical procedure
-8045| retinal reattachment was |-|-|-|-
-8071|confirmed|C0521091|SNOMEDCT_US|74996004|Confirmation of (contextual qualifier)
-8080|. |-|-|-|-
-8082|Discharged|C0438953|SNOMEDCT_US|183665006|Discharged from hospital
-8092| |-|-|-|-
-8093|stable|C0205360|SNOMEDCT_US|58158008|Stable
-8099|.<NEW_LINE><NEW_LINE>**Summary of |-|-|-|-
-8115|In-hospital|C1510665|SNOMEDCT_US|22232009|Hospital
-8126| |-|-|-|-
-8127|Medications:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
-8139|**  <NEW_LINE>- |-|-|-|-
-8146|Gentamicin|C3854019|SNOMEDCT_US|387321007|Gentamicin
-8156| Medication  <NEW_LINE>- |-|-|-|-
-8172|Acetaminophen|C0373527|SNOMEDCT_US|46093004|Acetaminophen measurement
-8185| Medication  <NEW_LINE>- |-|-|-|-
-8201|Magnesium|C0024467|SNOMEDCT_US|72717003|Magnesium
-8210| Medication  <NEW_LINE>- Sennosides Medication  <NEW_LINE>- |-|-|-|-
-8252|Diazepam|C0012010|SNOMEDCT_US|387264003|Diazepam
-8260| Medication  <NEW_LINE>- |-|-|-|-
-8276|Betamethasone|C0005308|SNOMEDCT_US|116571008|Betamethasone
-8289| Medication  <NEW_LINE>- |-|-|-|-
-8305|Triamcinolone|C0040864|SNOMEDCT_US|116594009|Triamcinolone
-8318| Medication  <NEW_LINE>- |-|-|-|-
-8334|Tetracycline|C0039644|SNOMEDCT_US|372809001|Tetracycline
-8346| Medication  <NEW_LINE>- |-|-|-|-
-8362|Atropine|C0004259|SNOMEDCT_US|372832002|Atropine
-8370| Medication  <NEW_LINE>- |-|-|-|-
-8386|Betamethasone|C0005308|SNOMEDCT_US|116571008|Betamethasone
-8399| Medication  <NEW_LINE>- |-|-|-|-
-8415|Gentamicin|C3854019|SNOMEDCT_US|387321007|Gentamicin
-8425| Medication  ********** |-|-|-|-
-8449|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
-8460| **********  <NEW_LINE>********** Record ************|-|-|-|-
-8504|Laboratory|C0022877|SNOMEDCT_US|261904005|Laboratory
-8514| Studies**  <NEW_LINE>None  <NEW_LINE><NEW_LINE>**|-|-|-|-
-8537|Physical Findings|C0311392|SNOMEDCT_US|72670004|Sign (finding)
-8554| |-|-|-|-
-8555|Report|C0684224|SNOMEDCT_US|229059009|Report
-8561|**  <NEW_LINE>None  <NEW_LINE><NEW_LINE>**|-|-|-|-
-8576|Diagnostic Imaging|C0011923|SNOMEDCT_US|363679005|Imaging
-8594| |-|-|-|-
-8595|Study|C0557651|SNOMEDCT_US|224699009|Study
-8600|**  <NEW_LINE>None  <NEW_LINE><NEW_LINE>**|-|-|-|-
-8615|Transfer|C0348011|SNOMEDCT_US|129347002|Surgical transfer - action
-8623|/|-|-|-|-
-8624|Discharge Status|C0586514|SNOMEDCT_US|309039003|Discharge status
-8640|**  <NEW_LINE>|-|-|-|-
-8645|Changed|C0443172|SNOMEDCT_US|263703002|Changed status
-8652| to |-|-|-|-
-8656|outpatient|C0029921|SNOMEDCT_US|373864002|Outpatient
-8666| care, showing improvement.  <NEW_LINE><NEW_LINE>**|-|-|-|-
-8699|Pathology|C0030664|SNOMEDCT_US|394595002|Pathology
-8708| Findings**  <NEW_LINE>None  <NEW_LINE><NEW_LINE>**|-|-|-|-
-8732|Follow-up|C0589120|SNOMEDCT_US|308273005|Follow-up status
-8741| Instructions and Medicinal Products**  <NEW_LINE>- **Post-|-|-|-|-
-8791|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
-8800| |-|-|-|-
-8801|Position|C0733755|SNOMEDCT_US|246268007|Position
-8809|:** Other: Head |-|-|-|-
-8825|elevated|C0205250|SNOMEDCT_US|75540009|High (qualifier value)
-8833|  <NEW_LINE>- **|-|-|-|-
-8840|Eye Dressing|C1655207|SNOMEDCT_US|470138006|Eye dressing
-8852| |-|-|-|-
-8853|Technique|C0449851|SNOMEDCT_US|272394005|Technique
-8862|:** |-|-|-|-
-8866|Sterile|C0232920|SNOMEDCT_US|261029002|Sterile
-8873| |-|-|-|-
-8874|gauze|C0590323|SNOMEDCT_US|350785008|Gauzes
-8879| pad with eye |-|-|-|-
-8893|shield|C0183251|SNOMEDCT_US|30115002|Shield, device
-8899|  <NEW_LINE>- **|-|-|-|-
-8906|Activity|C0441655|SNOMEDCT_US|257733005|Activity
-8914| |-|-|-|-
-8915|Limitation|C0449295|SNOMEDCT_US|246175000|Limitation
-8925| of |-|-|-|-
-8929|Patient|C0030705|SNOMEDCT_US|116154003|Patient
-8936|:** |-|-|-|-
-8940|Advised|C0557061|SNOMEDCT_US|223482009|Discussion
-8947| to |-|-|-|-
-8951|rest|C0035253|SNOMEDCT_US|258157001|Rest (observable entity)
-8955| extensively; |-|-|-|-
-8969|advised|C0557061|SNOMEDCT_US|223482009|Discussion
-8976| to refrain from strenuous |-|-|-|-
-9003|activities|C0441655|SNOMEDCT_US|257733005|Activity
-9013|; |-|-|-|-
-9015|advised|C0557061|SNOMEDCT_US|223482009|Discussion
-9022| to refrain from intense |-|-|-|-
-9047|activities|C0441655|SNOMEDCT_US|257733005|Activity
-9057|  <NEW_LINE>- **|-|-|-|-
-9064|Wound Management|C1272654|SNOMEDCT_US|385942004|Wound care management
-9080|:** No requirement for |-|-|-|-
-9103|suture removal|C0184936|SNOMEDCT_US|30549001|Removal of suture
-9117|; please manage the |-|-|-|-
-9137|wound|C0043250|SNOMEDCT_US|13924000|Wound
-9142| as directed; please |-|-|-|-
-9163|replace|C1299987|SNOMEDCT_US|370124000|REPLACED BY
-9170| the |-|-|-|-
-9175|dressing|C1305428|SNOMEDCT_US|129003000|Dressing
-9183| as directed  <NEW_LINE>- **|-|-|-|-
-9202|Dietary|C0012155|SNOMEDCT_US|41829006|Dietary finding
-9209| Guidelines:** No |-|-|-|-
-9227|specific|C0205369|SNOMEDCT_US|69658003|Specific
-9235| |-|-|-|-
-9236|dietary|C0012155|SNOMEDCT_US|41829006|Dietary finding
-9243| |-|-|-|-
-9244|restrictions|C0443288|SNOMEDCT_US|263856008|Restricted
-9256|; |-|-|-|-
-9258|continue|C0549178|SNOMEDCT_US|255238004|Continuous
-9266| with usual |-|-|-|-
-9278|diet|C0012155|SNOMEDCT_US|41829006|Dietary finding
-9282|  <NEW_LINE><NEW_LINE>**Medicinal Products:**  <NEW_LINE>- **|-|-|-|-
-9316|Gentamicin Sulfate|C0546866|SNOMEDCT_US|2249001|Gentamicin sulfate
-9334|**: |-|-|-|-
-9338|Ophthalmic Gentamicin|C0717784|SNOMEDCT_US|771959000|Product containing gentamicin in ocular dose form
-9359| |-|-|-|-
-9360|Solution|C0037633|SNOMEDCT_US|8537005|Solution
-9368| 3 |-|-|-|-
-9371|mg/mL|C0439294|SNOMEDCT_US|258798001|Milligram/milliliter
-9376| 5 mL/|-|-|-|-
-9382|bottle|C4319838|SNOMEDCT_US|732986007|Bottle
-9388|  <NEW_LINE>  - |-|-|-|-
-9395|Dose|C0869039|SNOMEDCT_US|408102007|Unit dose
-9399|: 1 |-|-|-|-
-9403|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
-9407| in the |-|-|-|-
-9415|right eye|C0015399|<LOST>|<LOST>|Right eye structure
-9424| |-|-|-|-
-9425|four times daily|C0585291|SNOMEDCT_US|307439001|Four times daily
-9441|  <NEW_LINE>  - |-|-|-|-
-9448|Duration|C0449238|SNOMEDCT_US|103335007|Duration
-9456|: 8 days |-|-|-|-
-9465|following|C0332282|SNOMEDCT_US|255260001|Following
-9474| |-|-|-|-
-9475|discharge|C0012621|SNOMEDCT_US|75823008|Discharge
-9484|  <NEW_LINE><NEW_LINE>- **|-|-|-|-
-9492|Atropine Sulfate|C0596005|SNOMEDCT_US|74237004|Atropine sulfate
-9508|**: |-|-|-|-
-9512|Atropine Ophthalmic|C3209451|SNOMEDCT_US|771928002|Product containing atropine in ocular dose form
-9531| |-|-|-|-
-9532|Solution|C0037633|SNOMEDCT_US|8537005|Solution
-9540| 1% 10 mL/|-|-|-|-
-9550|bottle|C4319838|SNOMEDCT_US|732986007|Bottle
-9556|  <NEW_LINE>  - |-|-|-|-
-9563|Dose|C0869039|SNOMEDCT_US|408102007|Unit dose
-9567|: 1 |-|-|-|-
-9571|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
-9575| in the |-|-|-|-
-9583|right eye|C0015399|<LOST>|<LOST>|Right eye structure
-9592| |-|-|-|-
-9593|every 12 hours|C0585327|SNOMEDCT_US|307470009|Every twelve hours
-9607|  <NEW_LINE>  - |-|-|-|-
-9614|Duration|C0449238|SNOMEDCT_US|103335007|Duration
-9622|: 8 days |-|-|-|-
-9631|following|C0332282|SNOMEDCT_US|255260001|Following
-9640| |-|-|-|-
-9641|discharge|C0012621|SNOMEDCT_US|75823008|Discharge
-9650|  <NEW_LINE><NEW_LINE>- **|-|-|-|-
-9658|Betamethasone Sodium Phosphate|C0700603|SNOMEDCT_US|116573006|Betamethasone sodium phosphate
-9688|**: |-|-|-|-
-9692|Betamethasone|C0005308|SNOMEDCT_US|116571008|Betamethasone
-9705| |-|-|-|-
-9706|Ophthalmic Solution|C0029083|SNOMEDCT_US|422060001|Conventional release eye solution
-9725| 0.1% 5 mL/|-|-|-|-
-9736|bottle|C4319838|SNOMEDCT_US|732986007|Bottle
-9742|  <NEW_LINE>  - |-|-|-|-
-9749|Dose|C0869039|SNOMEDCT_US|408102007|Unit dose
-9753|: 1 |-|-|-|-
-9757|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
-9761| in the |-|-|-|-
-9769|right eye|C0015399|<LOST>|<LOST>|Right eye structure
-9778| |-|-|-|-
-9779|four times daily|C0585291|SNOMEDCT_US|307439001|Four times daily
-9795|  <NEW_LINE>  - |-|-|-|-
-9802|Duration|C0449238|SNOMEDCT_US|103335007|Duration
-9810|: 8 days |-|-|-|-
-9819|following|C0332282|SNOMEDCT_US|255260001|Following
-9828| |-|-|-|-
-9829|discharge|C0012621|SNOMEDCT_US|75823008|Discharge
-9838|  <NEW_LINE><NEW_LINE>- **|-|-|-|-
-9846|Tetracycline Hydrochloride|C0546879|SNOMEDCT_US|16355005|Tetracycline hydrochloride
-9872|**: |-|-|-|-
-9876|Tetracycline|C0039644|SNOMEDCT_US|372809001|Tetracycline
-9888| |-|-|-|-
-9889|Ophthalmic Ointment|C0304651|SNOMEDCT_US|385123004|Conventional release eye ointment
-9908| 1% 5 g/tube  <NEW_LINE>  - |-|-|-|-
-9927|Dose|C0869039|SNOMEDCT_US|408102007|Unit dose
-9931|: 1 |-|-|-|-
-9935|application|C0185125|SNOMEDCT_US|410618006|Application
-9946| in the |-|-|-|-
-9954|right eye|C0185125|<LOST>|<LOST>|Right eye structure
-9963| |-|-|-|-
-9964|at bedtime|C1275563|SNOMEDCT_US|396142006|Once a day, at bedtime
-9974|  <NEW_LINE>  - |-|-|-|-
-9981|Duration|C0449238|SNOMEDCT_US|103335007|Duration
-9989|: 8 days |-|-|-|-
-9998|following|C0332282|SNOMEDCT_US|255260001|Following
-10007| |-|-|-|-
-10008|discharge|C0012621|SNOMEDCT_US|75823008|Discharge
-10017|  <NEW_LINE><NEW_LINE>- **|-|-|-|-
-10025|Betamethasone Sodium Phosphate|C0700603|SNOMEDCT_US|116573006|Betamethasone sodium phosphate
-10055|**: |-|-|-|-
-10059|Betamethasone|C0005308|SNOMEDCT_US|116571008|Betamethasone
-10072| |-|-|-|-
-10073|Ophthalmic Solution|C0029083|SNOMEDCT_US|422060001|Conventional release eye solution
-10092| 0.1% 5 mL/|-|-|-|-
-10103|bottle|C4319838|SNOMEDCT_US|732986007|Bottle
-10109|  <NEW_LINE>  - |-|-|-|-
-10116|Dose|C0869039|SNOMEDCT_US|408102007|Unit dose
-10120|: 1 |-|-|-|-
-10124|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
-10128| in the |-|-|-|-
-10136|left eye|C0015399|<LOST>|<LOST>|Left eye structure
-10144| |-|-|-|-
-10145|four times daily|C0585291|SNOMEDCT_US|307439001|Four times daily
-10161|  <NEW_LINE>  - |-|-|-|-
-10168|Duration|C0449238|SNOMEDCT_US|103335007|Duration
-10176|: 8 days |-|-|-|-
-10185|following|C0332282|SNOMEDCT_US|255260001|Following
-10194| |-|-|-|-
-10195|discharge|C0012621|SNOMEDCT_US|75823008|Discharge
-10204|  <NEW_LINE><NEW_LINE>**Additional Information**  <NEW_LINE>- **|-|-|-|-
-10241|Isolation Precautions|C0204727|SNOMEDCT_US|40174006|Isolation procedure
+4895|dietary|C0012155|SNOMEDCT_US|41829006|Dietary finding
+4902| |-|-|-|-
+4903|counseling<NEW_LINE>- Smoking|C1621885|SNOMEDCT_US|225323000|Smoking cessation education
+4923| cessation |-|-|-|-
+4934|counseling|C0010210|SNOMEDCT_US|409063005|Counseling
+4944|<NEW_LINE><NEW_LINE>**|-|-|-|-
+4948|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
+4957| Information:**<NEW_LINE>- **|-|-|-|-
+4977|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
+4986| |-|-|-|-
+4987|Date|C2348077|SNOMEDCT_US|227423000|Dates - food
+4991|**: |-|-|-|-
+4995|Date|C2348077|SNOMEDCT_US|227423000|Dates - food
+4999| of |-|-|-|-
+5003|discharge from hospital|C0586003|SNOMEDCT_US|308283009|Discharge from hospital
+5026|<NEW_LINE>- **|-|-|-|-
+5031|Follow-Up|C0422322|SNOMEDCT_US|281036007|Follow-up consultation
+5040| Appointments**: Schedule |-|-|-|-
+5066|follow-up|C0422322|SNOMEDCT_US|281036007|Follow-up consultation
+5075| appointment with |-|-|-|-
+5093|cardiology|C0007189|SNOMEDCT_US|394579002|Cardiology
+5103| |-|-|-|-
+5104|team|C1303273|SNOMEDCT_US|401322007|Under care of team
+5108|<NEW_LINE>- **|-|-|-|-
+5113|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
+5122| |-|-|-|-
+5123|Medications**:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+5137|<NEW_LINE>  - Medication of |-|-|-|-
+5156|Aspirin|C0004057|SNOMEDCT_US|387458008|Aspirin
+5163|<NEW_LINE>  - Medication of |-|-|-|-
+5182|Clopidogrel|C0070166|SNOMEDCT_US|386952008|Clopidogrel
+5193|<NEW_LINE>  - Medication of |-|-|-|-
+5212|Atenolol|C0004147|SNOMEDCT_US|387506000|Atenolol
+5220|<NEW_LINE>- **|-|-|-|-
+5225|Patient|C0030705|SNOMEDCT_US|116154003|Patient
+5232| Instructions**: |-|-|-|-
+5249|Instructions|C0039401|SNOMEDCT_US|409073007|Education
+5261| given for post-|-|-|-|-
+5277|discharge|C0012621|SNOMEDCT_US|75823008|Discharge
+5286| care<NEW_LINE><NEW_LINE>**|-|-|-|-
+5295|Physician|C0031831|SNOMEDCT_US|309343006|Physician
+5304|'s Signature**: Authentication of record by |-|-|-|-
+5348|physician|C0031831|SNOMEDCT_US|309343006|Physician
+5357|**|-|-|-|-
+5359|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
+5368| |-|-|-|-
+5369|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+5378|**  <NEW_LINE>|-|-|-|-
+5383|Retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
+5401| of the |-|-|-|-
+5409|right eye|C0035305|<LOST>|<LOST>|Right eye structure
+5418|<NEW_LINE><NEW_LINE>**|-|-|-|-
+5422|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
+5431| |-|-|-|-
+5432|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+5441|**  <NEW_LINE>|-|-|-|-
+5446|Rhegmatogenous retinal detachment|C0271055|SNOMEDCT_US|19620000|Rhegmatogenous retinal detachment
+5479| of the |-|-|-|-
+5487|right eye|C0271055|<LOST>|<LOST>|Right eye structure
+5496|, |-|-|-|-
+5498|status|C0449438|SNOMEDCT_US|263490005|Status
+5504| post |-|-|-|-
+5510|scleral buckling|C0036411|SNOMEDCT_US|26786002|Scleral buckling
+5526| of the |-|-|-|-
+5534|right eye|C0036411|<LOST>|<LOST>|Right eye structure
+5543| and |-|-|-|-
+5548|sulfur hexafluoride|C0038779|SNOMEDCT_US|259276004|Sulfur hexafluoride
+5567| gas |-|-|-|-
+5572|tamponade|C0579016|SNOMEDCT_US|257933004|Tamponade - action
+5581| of the |-|-|-|-
+5589|right eye|C0579016|<LOST>|<LOST>|Right eye structure
+5598|<NEW_LINE><NEW_LINE>**|-|-|-|-
+5602|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+5611| for |-|-|-|-
+5616|Intensive Care Unit|C0021708|SNOMEDCT_US|309904001|Intensive care unit
+5635|**  <NEW_LINE>None<NEW_LINE><NEW_LINE>**|-|-|-|-
+5648|Chief Complaint|C0021708|<LOST>|<LOST>|Chief complaint
+5663|**  <NEW_LINE>Informant: The |-|-|-|-
+5683|patient|C0030705|SNOMEDCT_US|116154003|Patient
+5690| and |-|-|-|-
+5695|medical records|C0025102|SNOMEDCT_US|129465004|Medical record, device
+5710|  <NEW_LINE>Blurred |-|-|-|-
+5721|vision|C0042789|SNOMEDCT_US|281004000|Visual function
+5727| in the |-|-|-|-
+5735|right eye|C0042789|<LOST>|<LOST>|Right eye structure
+5744| for 2 days<NEW_LINE><NEW_LINE>**|-|-|-|-
+5759|History of|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
+5769| |-|-|-|-
+5770|Present|C0150312|SNOMEDCT_US|52101004|Present
+5777| |-|-|-|-
+5778|Illness|C0221423|SNOMEDCT_US|39104002|Illness
+5785|**  <NEW_LINE>A 22-|-|-|-|-
+5795|year|C0439508|SNOMEDCT_US|259039008|per year
+5799|-old |-|-|-|-
+5804|male|C0086582|SNOMEDCT_US|10052007|Male structure
+5808| without a |-|-|-|-
+5819|history of|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
+5829| |-|-|-|-
+5830|systemic disease|C0442893|SNOMEDCT_US|56019007|Systemic disease
+5846|. The |-|-|-|-
+5852|patient|C0030705|SNOMEDCT_US|116154003|Patient
+5859| |-|-|-|-
+5860|reported|C0684224|SNOMEDCT_US|229059009|Report
+5868| |-|-|-|-
+5869|progressive|C0205329|SNOMEDCT_US|255314001|Progressive
+5880| floaters in the |-|-|-|-
+5897|right eye|C0205329|<LOST>|<LOST>|Right eye structure
+5906| for 3 to 4 days and |-|-|-|-
+5927|photopsia|C0085635|SNOMEDCT_US|56170001|Photopsia
+5936| in the |-|-|-|-
+5944|right eye|C0085635|<LOST>|<LOST>|Right eye structure
+5953| for 2 days. He was |-|-|-|-
+5973|diagnosed|C0011900|SNOMEDCT_US|439401001|Diagnosis
+5982| with |-|-|-|-
+5988|retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
+6006| by a |-|-|-|-
+6012|local|C0205276|SNOMEDCT_US|255470001|Local
+6017| |-|-|-|-
+6018|physician|C0031831|SNOMEDCT_US|309343006|Physician
+6027| and |-|-|-|-
+6032|referred|C0034927|SNOMEDCT_US|3457005|Patient referral
+6040| from Mackay |-|-|-|-
+6053|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
+6061| to National |-|-|-|-
+6074|Taiwan|C0039260|SNOMEDCT_US|428675004|Taiwan
+6080| |-|-|-|-
+6081|University|C0041740|SNOMEDCT_US|224871002|University
+6091| |-|-|-|-
+6092|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
+6100| for |-|-|-|-
+6105|surgery|C0543467|SNOMEDCT_US|257556004|Surgery
+6112|.Ophthalmological |-|-|-|-
+6130|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
+6137|: <NEW_LINE>- No encounters in the |-|-|-|-
+6163|outpatient|C0029921|SNOMEDCT_US|373864002|Outpatient
+6173| setting<NEW_LINE>- No |-|-|-|-
+6187|history of injury|C0455586|SNOMEDCT_US|161586000|History of injury
+6204| <NEW_LINE>- |-|-|-|-
+6208|Refer|C0034927|SNOMEDCT_US|3457005|Patient referral
+6213| to |-|-|-|-
+6217|previous|C0205156|SNOMEDCT_US|9130008|Previous
+6225| notes <NEW_LINE><NEW_LINE>|-|-|-|-
+6234|Past Medical History|C2317559|SNOMEDCT_US|417662000|History of clinical finding in subject
+6254|: <NEW_LINE>- No |-|-|-|-
+6262|diabetes mellitus|C0011849|SNOMEDCT_US|73211009|Diabetes mellitus
+6279| <NEW_LINE>- No |-|-|-|-
+6286|essential hypertension|C0085580|SNOMEDCT_US|59621000|Essential hypertension
+6308| <NEW_LINE>- No |-|-|-|-
+6315|coronary arteriosclerosis|C0010054|SNOMEDCT_US|53741008|Coronary arteriosclerosis
+6340| <NEW_LINE>- No |-|-|-|-
+6347|bronchial asthma|C0004096|SNOMEDCT_US|195967001|Asthma
+6363| <NEW_LINE><NEW_LINE>Allergies: <NEW_LINE>- No |-|-|-|-
+6383|known|C0205309|SNOMEDCT_US|36692007|Known
+6388| drug |-|-|-|-
+6394|allergies <NEW_LINE><NEW_LINE>Family History|C0455453|SNOMEDCT_US|160469004|Family history: Allergy
+6420|: <NEW_LINE>- No |-|-|-|-
+6428|familial|C0241888|SNOMEDCT_US|255401001|Familial
+6436| |-|-|-|-
+6437|eye disorder|C0015397|SNOMEDCT_US|371405004|Disorder of eye proper
+6449| <NEW_LINE><NEW_LINE>|-|-|-|-
+6452|Current Medications:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+6472|<NEW_LINE>- No medications from |-|-|-|-
+6495|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
+6503| <NEW_LINE>- No other medications <NEW_LINE>- Not taking any |-|-|-|-
+6546|Chinese Herbal Medicine|C1273412|SNOMEDCT_US|395114000|Chinese herbal medicine
+6569| <NEW_LINE>- No |-|-|-|-
+6576|use of|C1524063|SNOMEDCT_US|260676000|Use of
+6582| |-|-|-|-
+6583|Dietary|C0012155|SNOMEDCT_US|41829006|Dietary finding
+6590| Supplements<NEW_LINE><NEW_LINE>|-|-|-|-
+6604|Travel|C0040802|SNOMEDCT_US|420008001|Travel
+6610| |-|-|-|-
+6611|History|C0262926|SNOMEDCT_US|392521001|History of (contextual qualifier)
+6618|: <NEW_LINE>- No |-|-|-|-
+6626|recent|C0332185|SNOMEDCT_US|6493001|Recent
+6632| |-|-|-|-
+6633|travel|C0040802|SNOMEDCT_US|420008001|Travel
+6639| <NEW_LINE><NEW_LINE>|-|-|-|-
+6642|Physical Examination|C0031809|SNOMEDCT_US|5880005|Physical examination procedure
+6662| at |-|-|-|-
+6666|Admission|C0184666|SNOMEDCT_US|32485007|Hospital admission
+6675|:<NEW_LINE>- Height: 164 |-|-|-|-
+6691|centimeters|C0475210|SNOMEDCT_US|258672001|Centimeter
+6702|<NEW_LINE>- |-|-|-|-
+6705|Weight|C0043100|SNOMEDCT_US|272102008|Weights
+6711|: 48 |-|-|-|-
+6716|kilograms|C0439209|SNOMEDCT_US|258683005|kilogram
+6725|<NEW_LINE>- |-|-|-|-
+6728|Body Temperature|C0005903|SNOMEDCT_US|386725007|Body temperature
+6744|: 36.4 |-|-|-|-
+6751|degrees Celsius|C0439237|SNOMEDCT_US|258710007|Degrees Celsius
+6766|<NEW_LINE>- |-|-|-|-
+6769|Heart Rate|C0018810|SNOMEDCT_US|364075005|Heart rate
+6779|: 77 |-|-|-|-
+6784|per minute|C0702093|SNOMEDCT_US|286549009|per minute
+6794|<NEW_LINE>- |-|-|-|-
+6797|Respiratory Rate|C0231832|SNOMEDCT_US|86290005|Respiratory rate
+6813|: 17 |-|-|-|-
+6818|per minute|C0702093|SNOMEDCT_US|286549009|per minute
+6828|<NEW_LINE>- |-|-|-|-
+6831|Blood Pressure|C0005823|SNOMEDCT_US|75367002|Blood pressure
+6845|: 133/96 |-|-|-|-
+6854|millimeters of mercury|C0439475|SNOMEDCT_US|259018001|Millimeter of mercury
+6876|<NEW_LINE>- |-|-|-|-
+6879|Pain Intensity|C1507013|SNOMEDCT_US|406127006|Pain intensity
+6893|: |-|-|-|-
+6895|Score|C0449820|SNOMEDCT_US|278061009|Scores
+6900| of 3Neurological |-|-|-|-
+6918|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+6929|:  <NEW_LINE>- Conscious |-|-|-|-
+6945|mental state|C0278060|SNOMEDCT_US|363871006|Mental state
+6957|: |-|-|-|-
+6959|Conscious state|C0009791|SNOMEDCT_US|106167005|Consciousness related finding
+6974|, |-|-|-|-
+6976|Mental state|C0278060|SNOMEDCT_US|363871006|Mental state
+6988|  <NEW_LINE>- |-|-|-|-
+6993|Muscle|C0026845|SNOMEDCT_US|91727004|Muscle tissue
+6999| strength: |-|-|-|-
+7010|Muscle|C0026845|SNOMEDCT_US|91727004|Muscle tissue
+7016| strength in |-|-|-|-
+7029|right arm|C0230346|SNOMEDCT_US|368209003|Right upper arm structure
+7038|, |-|-|-|-
+7040|Muscle|C0026845|SNOMEDCT_US|91727004|Muscle tissue
+7046| strength in |-|-|-|-
+7059|left arm|C0230347|SNOMEDCT_US|368208006|Left upper arm structure
+7067|, |-|-|-|-
+7069|Muscle|C0026845|SNOMEDCT_US|91727004|Muscle tissue
+7075| strength in |-|-|-|-
+7088|right|C0205090|SNOMEDCT_US|24028007|Right
+7093| |-|-|-|-
+7094|leg, Muscle|C0224456|SNOMEDCT_US|41123005|Skeletal muscle structure of lower leg
+7105| strength in |-|-|-|-
+7118|left leg|C0230443|SNOMEDCT_US|48979004|Structure of left lower leg
+7126|  <NEW_LINE>- |-|-|-|-
+7131|Walking|C0080331|SNOMEDCT_US|129006008|Walking
+7138| |-|-|-|-
+7139|pattern|C0449774|SNOMEDCT_US|255711007|Pattern
+7146|: |-|-|-|-
+7148|Walking|C0080331|SNOMEDCT_US|129006008|Walking
+7155| |-|-|-|-
+7156|pattern|C0449774|SNOMEDCT_US|255711007|Pattern
+7163| |-|-|-|-
+7164|analysis, Gait|C0558820|SNOMEDCT_US|274787008|Examination of gait
+7178| assessmentNeurological |-|-|-|-
+7202|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+7213|:  <NEW_LINE>- |-|-|-|-
+7219|Level of consciousness|C0234425|SNOMEDCT_US|6942003|Level of consciousness
+7241|: Alert and |-|-|-|-
+7253|oriented|C0424013|SNOMEDCT_US|247663003|Orientated
+7261|  <NEW_LINE>- |-|-|-|-
+7266|Muscle|C0026845|SNOMEDCT_US|91727004|Muscle tissue
+7272| strength: |-|-|-|-
+7283|Normal|C0439166|SNOMEDCT_US|258744000|% normal
+7289|  <NEW_LINE>- Gait: NormalGeneral |-|-|-|-
+7314|Appearance|C0700364|SNOMEDCT_US|255412001|Appearances
+7324|: Fair |-|-|-|-
+7331|general|C0205246|SNOMEDCT_US|60132005|Generalized
+7338| |-|-|-|-
+7339|appearance|C0700364|SNOMEDCT_US|255412001|Appearances
+7349|  <NEW_LINE>Consciousness: |-|-|-|-
+7367|Clear consciousness|C0234422|SNOMEDCT_US|248218005|Awake
+7386|  <NEW_LINE>Head: |-|-|-|-
+7395|Normal|C0205307|SNOMEDCT_US|17621005|Normal
+7401| |-|-|-|-
+7402|appearance of head|C1286116|SNOMEDCT_US|364407007|Appearance of head
+7420|  <NEW_LINE>Eyes: |-|-|-|-
+7429|Normal appearance|C1271005|SNOMEDCT_US|386549008|Normal appearance
+7446| of eyes  <NEW_LINE>Ears: |-|-|-|-
+7463|Normal appearance|C1271005|SNOMEDCT_US|386549008|Normal appearance
+7480| of ears  <NEW_LINE>Nose: |-|-|-|-
+7497|Normal|C0205307|SNOMEDCT_US|17621005|Normal
+7503| |-|-|-|-
+7504|appearance of nose|C1285781|SNOMEDCT_US|364031006|Appearance of nose
+7522|  <NEW_LINE>|-|-|-|-
+7525|Throat|C0031354|SNOMEDCT_US|54066008|Pharyngeal structure
+7531|: |-|-|-|-
+7533|Normal appearance|C1271005|SNOMEDCT_US|386549008|Normal appearance
+7550| of |-|-|-|-
+7554|throat|C0031354|SNOMEDCT_US|54066008|Pharyngeal structure
+7560|  <NEW_LINE>|-|-|-|-
+7563|Neck|C0027530|SNOMEDCT_US|45048000|Neck structure
+7567|: |-|-|-|-
+7569|Supple|C0332254|SNOMEDCT_US|48162006|Supple
+7575| |-|-|-|-
+7576|neck  <NEW_LINE>Chest|C1562459|SNOMEDCT_US|417437006|Neck and/or chest structure
+7588|: Symmetric |-|-|-|-
+7600|chest expansion|C0231902|SNOMEDCT_US|6427007|Chest expansion
+7615|; no |-|-|-|-
+7620|use of|C1524063|SNOMEDCT_US|260676000|Use of
+7626| |-|-|-|-
+7627|accessory muscles|C0158784|SNOMEDCT_US|50847000|Accessory skeletal muscle
+7644| of |-|-|-|-
+7648|respiration|C0035203|SNOMEDCT_US|719983008|Breathing process
+7659| in |-|-|-|-
+7663|chest  <NEW_LINE>Abdomen|C1442171|SNOMEDCT_US|416550000|Chest and/or abdomen structure
+7678|: |-|-|-|-
+7680|Soft|C0205358|SNOMEDCT_US|37378003|Soft (qualifier value)
+7684| |-|-|-|-
+7685|abdomen|C0000726|SNOMEDCT_US|818983003|Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall
+7692|, flat |-|-|-|-
+7699|abdomen|C0000726|SNOMEDCT_US|818983003|Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall
+7706|, non-|-|-|-|-
+7712|tender abdomen|C0573980|SNOMEDCT_US|297125009|Abdominal tenderness absent
+7726|  <NEW_LINE>|-|-|-|-
+7729|Extremities|C0015385|SNOMEDCT_US|66019005|Limb structure
+7740|: No |-|-|-|-
+7745|edema|C0013604|SNOMEDCT_US|79654002|Edema
+7750| in |-|-|-|-
+7754|extremities|C0015385|SNOMEDCT_US|66019005|Limb structure
+7765|, no |-|-|-|-
+7770|cyanosis|C0010520|SNOMEDCT_US|3415004|Cyanosis
+7778| in |-|-|-|-
+7782|extremities|C0015385|SNOMEDCT_US|66019005|Limb structure
+7793|**|-|-|-|-
+7795|Best Corrected Visual Acuity|C1690532|SNOMEDCT_US|419775003|Best corrected visual acuity
+7823|:**  <NEW_LINE>- Eye: |-|-|-|-
+7836|Right Eye|C1690532|<LOST>|<LOST>|Right eye structure
+7845|; |-|-|-|-
+7847|Visual Acuity|C0042812|SNOMEDCT_US|363983007|Visual acuity
+7860|: 0.25  <NEW_LINE>- Eye: |-|-|-|-
+7876|Left Eye|C0042812|<LOST>|<LOST>|Left eye structure
+7884|; |-|-|-|-
+7886|Visual Acuity|C0042812|SNOMEDCT_US|363983007|Visual acuity
+7899|: 1.0  <NEW_LINE><NEW_LINE>**|-|-|-|-
+7910|Intraocular Pressure|C0021888|SNOMEDCT_US|41633001|Intraocular pressure
+7930|:**  <NEW_LINE>- Eye: |-|-|-|-
+7943|Right Eye|C0021888|<LOST>|<LOST>|Right eye structure
+7952|; |-|-|-|-
+7954|Intraocular Pressure|C0021888|SNOMEDCT_US|41633001|Intraocular pressure
+7974|: 15 |-|-|-|-
+7979|mmHg|C0439475|SNOMEDCT_US|259018001|Millimeter of mercury
+7983|  <NEW_LINE>- Eye: |-|-|-|-
+7993|Left Eye|C0439475|<LOST>|<LOST>|Left eye structure
+8001|; |-|-|-|-
+8003|Intraocular Pressure|C0021888|SNOMEDCT_US|41633001|Intraocular pressure
+8023|: 18 |-|-|-|-
+8028|mmHg|C0439475|SNOMEDCT_US|259018001|Millimeter of mercury
+8032|  <NEW_LINE><NEW_LINE>**|-|-|-|-
+8038|Cornea|C0010031|SNOMEDCT_US|28726007|Corneal structure
+8044| |-|-|-|-
+8045|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8056|:**  <NEW_LINE>- Eye: |-|-|-|-
+8069|Right|C0205090|SNOMEDCT_US|24028007|Right
+8074| |-|-|-|-
+8075|Eye; Cornea|C0010031|SNOMEDCT_US|28726007|Corneal structure
+8086| |-|-|-|-
+8087|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8098| Description: |-|-|-|-
+8112|Clear|C2963144|SNOMEDCT_US|263707001|Clear
+8117|  <NEW_LINE>- Eye: |-|-|-|-
+8127|Left|C0205091|SNOMEDCT_US|7771000|Left (qualifier value)
+8131| |-|-|-|-
+8132|Eye; Cornea|C0010031|SNOMEDCT_US|28726007|Corneal structure
+8143| |-|-|-|-
+8144|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8155| Description: |-|-|-|-
+8169|Clear|C2963144|SNOMEDCT_US|263707001|Clear
+8174|  <NEW_LINE><NEW_LINE>**|-|-|-|-
+8180|Conjunctiva|C0009758|SNOMEDCT_US|29445007|Conjunctival structure
+8191| |-|-|-|-
+8192|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8203|:**  <NEW_LINE>- Eye: |-|-|-|-
+8216|Right|C0205090|SNOMEDCT_US|24028007|Right
+8221| |-|-|-|-
+8222|Eye; Conjunctiva|C0229278|SNOMEDCT_US|55654005|Structure of conjunctiva of both eyes
+8238| |-|-|-|-
+8239|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8250| Description: No |-|-|-|-
+8267|pathology|C0030664|SNOMEDCT_US|394595002|Pathology
+8276|  <NEW_LINE>- Eye: |-|-|-|-
+8286|Left|C0205091|SNOMEDCT_US|7771000|Left (qualifier value)
+8290| |-|-|-|-
+8291|Eye; Conjunctiva|C0229278|SNOMEDCT_US|55654005|Structure of conjunctiva of both eyes
+8307| |-|-|-|-
+8308|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8319| Description: No |-|-|-|-
+8336|pathology|C0030664|SNOMEDCT_US|394595002|Pathology
+8345|  <NEW_LINE><NEW_LINE>**|-|-|-|-
+8351|Anterior Chamber|C0003151|SNOMEDCT_US|31636006|Anterior chamber of eye structure
+8367| |-|-|-|-
+8368|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8379|:**  <NEW_LINE>- Eye: |-|-|-|-
+8392|Right|C0205090|SNOMEDCT_US|24028007|Right
+8397| |-|-|-|-
+8398|Eye; Anterior Chamber|C0003151|SNOMEDCT_US|31636006|Anterior chamber of eye structure
+8419| Description: Deep and |-|-|-|-
+8442|clear|C2963144|SNOMEDCT_US|263707001|Clear
+8447|  <NEW_LINE>- Eye: |-|-|-|-
+8457|Left|C0205091|SNOMEDCT_US|7771000|Left (qualifier value)
+8461| |-|-|-|-
+8462|Eye; Anterior Chamber|C0003151|SNOMEDCT_US|31636006|Anterior chamber of eye structure
+8483| Description: Deep and |-|-|-|-
+8506|clear|C2963144|SNOMEDCT_US|263707001|Clear
+8511|  <NEW_LINE><NEW_LINE>**|-|-|-|-
+8517|Lens|C0023317|SNOMEDCT_US|78076003|Structure of lens of eye
+8521| |-|-|-|-
+8522|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8533|:**  <NEW_LINE>- Eye: |-|-|-|-
+8546|Right Eye|C0031809|<LOST>|<LOST>|Right eye structure
+8555|; |-|-|-|-
+8557|Lens|C0023317|SNOMEDCT_US|78076003|Structure of lens of eye
+8561| |-|-|-|-
+8562|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8573| Description: |-|-|-|-
+8587|Clear|C2963144|SNOMEDCT_US|263707001|Clear
+8592|  <NEW_LINE>- Eye: |-|-|-|-
+8602|Left|C0205091|SNOMEDCT_US|7771000|Left (qualifier value)
+8606| |-|-|-|-
+8607|Eye; Lens|C0023317|SNOMEDCT_US|78076003|Structure of lens of eye
+8616| |-|-|-|-
+8617|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8628| Description: |-|-|-|-
+8642|Clear|C2963144|SNOMEDCT_US|263707001|Clear
+8647|  <NEW_LINE><NEW_LINE>**|-|-|-|-
+8653|Fundus|C0227544|SNOMEDCT_US|14347000|Structure of fundus of gallbladder
+8659| |-|-|-|-
+8660|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+8671|:**  <NEW_LINE>- Eye: |-|-|-|-
+8684|Right|C0205090|SNOMEDCT_US|24028007|Right
+8689| |-|-|-|-
+8690|Eye; Fundus|C0016823|SNOMEDCT_US|65784005|Structure of fundus of eye
+8701| Description: |-|-|-|-
+8715|Cup-to-disc ratio|C0423471|SNOMEDCT_US|247225001|Optic cup/disc ratio
+8732| 0.4, |-|-|-|-
+8738|Retinal Detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment
+8756|, |-|-|-|-
+8758|Bullous|C0205405|SNOMEDCT_US|46077008|Bullous
+8765|, |-|-|-|-
+8767|Retinal break|C0205405|<LOST>|<LOST>|Retinal defect
+8780|  <NEW_LINE>- Eye: |-|-|-|-
+8790|Left|C0205091|SNOMEDCT_US|7771000|Left (qualifier value)
+8794| |-|-|-|-
+8795|Eye; Fundus|C0016823|SNOMEDCT_US|65784005|Structure of fundus of eye
+8806| Description: |-|-|-|-
+8820|Cup-to-disc ratio|C0423471|SNOMEDCT_US|247225001|Optic cup/disc ratio
+8837| 0.4, Attached  <NEW_LINE><NEW_LINE>**Notable Changes at |-|-|-|-
+8876|Discharge|C0012621|SNOMEDCT_US|75823008|Discharge
+8885|/|-|-|-|-
+8886|Transfer|C0348011|SNOMEDCT_US|129347002|Surgical transfer - action
+8894|:**  <NEW_LINE>- |-|-|-|-
+8902|Retina|C0035298|SNOMEDCT_US|5665001|Retinal structure
+8908| |-|-|-|-
+8909|Status|C0449438|SNOMEDCT_US|263490005|Status
+8915|: |-|-|-|-
+8917|Retina|C0035298|SNOMEDCT_US|5665001|Retinal structure
+8923| |-|-|-|-
+8924|Status|C0449438|SNOMEDCT_US|263490005|Status
+8930| Attached, |-|-|-|-
+8941|Retina|C0035298|SNOMEDCT_US|5665001|Retinal structure
+8947| |-|-|-|-
+8948|Status|C0449438|SNOMEDCT_US|263490005|Status
+8954| |-|-|-|-
+8955|Within Normal Limits|C1265570|SNOMEDCT_US|125112009|Morphology within normal limits
+8975|  <NEW_LINE>- |-|-|-|-
+8980|Intraocular Pressure|C0021888|SNOMEDCT_US|41633001|Intraocular pressure
+9000|: |-|-|-|-
+9002|Intraocular Pressure|C0021888|SNOMEDCT_US|41633001|Intraocular pressure
+9022| |-|-|-|-
+9023|Within Normal Limits|C1265570|SNOMEDCT_US|125112009|Morphology within normal limits
+9043|  <NEW_LINE><NEW_LINE>**|-|-|-|-
+9049|Surgical Procedure|C0543467|SNOMEDCT_US|387713003|Surgical procedure
+9067| Details:**  <NEW_LINE>- |-|-|-|-
+9083|Operation|C0543467|SNOMEDCT_US|387713003|Surgical procedure
+9092| |-|-|-|-
+9093|Date|C0011008|SNOMEDCT_US|410671006|Date (attribute)
+9097|: February 24, 2017  <NEW_LINE>- |-|-|-|-
+9121|Surgeon|C0582175|SNOMEDCT_US|304292004|Surgeon
+9128|: He Zi-Chang  <NEW_LINE><NEW_LINE>**|-|-|-|-
+9147|Pre-operative|C0445204|SNOMEDCT_US|262068006|Preoperative
+9160| |-|-|-|-
+9161|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+9170|:**  <NEW_LINE>- |-|-|-|-
+9178|Condition|C0348080|SNOMEDCT_US|260905004|Condition
+9187|: |-|-|-|-
+9189|Rhegmatogenous Retinal Detachment|C0271055|SNOMEDCT_US|19620000|Rhegmatogenous retinal detachment
+9222|, |-|-|-|-
+9224|Right Eye|C0271055|<LOST>|<LOST>|Right eye structure
+9233|  <NEW_LINE><NEW_LINE>**|-|-|-|-
+9239|Post-operative|C0032790|SNOMEDCT_US|262061000|Postoperative period
+9253| |-|-|-|-
+9254|Diagnosis|C0011900|SNOMEDCT_US|439401001|Diagnosis
+9263|:**  <NEW_LINE>- |-|-|-|-
+9271|Condition|C0348080|SNOMEDCT_US|260905004|Condition
+9280|: |-|-|-|-
+9282|Rhegmatogenous Retinal Detachment|C0271055|SNOMEDCT_US|19620000|Rhegmatogenous retinal detachment
+9315|, |-|-|-|-
+9317|Right Eye|C0271055|<LOST>|<LOST>|Right eye structure
+9326|  <NEW_LINE><NEW_LINE>**Operative |-|-|-|-
+9342|Method|C0025663|SNOMEDCT_US|260686004|Method
+9348|:**  <NEW_LINE>- |-|-|-|-
+9356|Procedure|C0184661|SNOMEDCT_US|71388002|Procedure
+9365|: |-|-|-|-
+9367|Scleral Buckling|C0036411|SNOMEDCT_US|26786002|Scleral buckling
+9383|, |-|-|-|-
+9385|Right Eye|C0036411|<LOST>|<LOST>|Right eye structure
+9394|  <NEW_LINE>- |-|-|-|-
+9399|Procedure|C0184661|SNOMEDCT_US|71388002|Procedure
+9408|: |-|-|-|-
+9410|Cryopexy|C0185024|SNOMEDCT_US|4344007|Cryopexy
+9418|, |-|-|-|-
+9420|Right Eye|C0185024|<LOST>|<LOST>|Right eye structure
+9429|  <NEW_LINE>- |-|-|-|-
+9434|Procedure|C0184661|SNOMEDCT_US|71388002|Procedure
+9443|: |-|-|-|-
+9445|Injection|C1533685|SNOMEDCT_US|59108006|Injection
+9454| of |-|-|-|-
+9458|Sulfur Hexafluoride|C0038779|SNOMEDCT_US|259276004|Sulfur hexafluoride
+9477|, |-|-|-|-
+9479|Right Eye|C0038779|<LOST>|<LOST>|Right eye structure
+9488|  <NEW_LINE><NEW_LINE>**Operative Findings:**  <NEW_LINE>- Finding: |-|-|-|-
+9529|Rhegmatogenous Retinal Detachment|C0271055|SNOMEDCT_US|19620000|Rhegmatogenous retinal detachment
+9562| from 12 to 8 o'clock  <NEW_LINE>- Finding: |-|-|-|-
+9597|Retinal Break|C0271055|<LOST>|<LOST>|Retinal defect
+9610| at 11 o'clock  <NEW_LINE><NEW_LINE>**|-|-|-|-
+9630|Hospital|C1510665|SNOMEDCT_US|22232009|Hospital
+9638| |-|-|-|-
+9639|Course|C0750729|SNOMEDCT_US|288524001|Courses
+9645| and Treatment:**  <NEW_LINE>|-|-|-|-
+9665|After surgery|C0032790|SNOMEDCT_US|262061000|Postoperative period
+9678|, some subretinal |-|-|-|-
+9696|fluid|C0444611|SNOMEDCT_US|255765007|Fluid
+9701| persisted. The |-|-|-|-
+9717|retinal break|C0444611|<LOST>|<LOST>|Retinal defect
+9730| was |-|-|-|-
+9735|indented|C0332467|SNOMEDCT_US|82448003|Indented structure
+9743| with |-|-|-|-
+9749|scleral buckle|C0036411|SNOMEDCT_US|26786002|Scleral buckling
+9763| and surrounded by |-|-|-|-
+9782|cryotherapy|C4551716|SNOMEDCT_US|26782000|Cryotherapy
+9793|. Additional |-|-|-|-
+9806|focal|C0205234|SNOMEDCT_US|87017008|Focal
+9811| |-|-|-|-
+9812|laser|C0023089|SNOMEDCT_US|122456005|Laser device
+9817| treatment was applied to both the |-|-|-|-
+9852|Right Eye|C0023089|<LOST>|<LOST>|Right eye structure
+9861| and the |-|-|-|-
+9870|Left Eye|C0023089|<LOST>|<LOST>|Left eye structure
+9878|. By the |-|-|-|-
+9887|fifth|C0205439|SNOMEDCT_US|32088001|Fifth
+9892| |-|-|-|-
+9893|post-operative|C0032790|SNOMEDCT_US|262061000|Postoperative period
+9907| day, the |-|-|-|-
+9917|retina|C0035298|SNOMEDCT_US|5665001|Retinal structure
+9923| was attached. The |-|-|-|-
+9942|patient|C0030705|SNOMEDCT_US|116154003|Patient
+9949| was |-|-|-|-
+9954|discharged|C0438953|SNOMEDCT_US|183665006|Discharged from hospital
+9964| in |-|-|-|-
+9968|stable|C0205360|SNOMEDCT_US|58158008|Stable
+9974| |-|-|-|-
+9975|condition|C0348080|SNOMEDCT_US|260905004|Condition
+9984|.  <NEW_LINE><NEW_LINE>**Medications Administered During |-|-|-|-
+10023|Hospitalization|C0019993|SNOMEDCT_US|394656005|Inpatient care
+10038|:**  <NEW_LINE>- |-|-|-|-
+10046|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10057| |-|-|-|-
+10058|Gentamicin|C3854019|SNOMEDCT_US|387321007|Gentamicin
+10068|  <NEW_LINE>- |-|-|-|-
+10073|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10084| |-|-|-|-
+10085|Acetaminophen|C0373527|SNOMEDCT_US|46093004|Acetaminophen measurement
+10098|  <NEW_LINE>- |-|-|-|-
+10103|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10114| |-|-|-|-
+10115|Magnesium Oxide|C0024477|SNOMEDCT_US|66389008|Magnesium oxide
+10130|  <NEW_LINE>- |-|-|-|-
+10135|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10146| |-|-|-|-
+10147|Sennoside|C3489575|SNOMEDCT_US|412302003|Sennoside
+10156| A + B  <NEW_LINE>- |-|-|-|-
+10167|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10178| |-|-|-|-
+10179|Diazepam|C0012010|SNOMEDCT_US|387264003|Diazepam
+10187|  <NEW_LINE>- |-|-|-|-
+10192|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10203| |-|-|-|-
+10204|Betamethasone|C0005308|SNOMEDCT_US|116571008|Betamethasone
+10217|  <NEW_LINE>- |-|-|-|-
+10222|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10233| |-|-|-|-
+10234|Triamcinolone|C0040864|SNOMEDCT_US|116594009|Triamcinolone
+10247|  <NEW_LINE>- |-|-|-|-
+10252|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10263| |-|-|-|-
+10264|Tetracycline|C0039644|SNOMEDCT_US|372809001|Tetracycline
+10276|  <NEW_LINE>- |-|-|-|-
+10281|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10292| |-|-|-|-
+10293|Atropine|C0004259|SNOMEDCT_US|372832002|Atropine
+10301|  <NEW_LINE>- |-|-|-|-
+10306|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10317| |-|-|-|-
+10318|Betamethasone|C0005308|SNOMEDCT_US|116571008|Betamethasone
+10331|  <NEW_LINE>- |-|-|-|-
+10336|Medication:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10347| |-|-|-|-
+10348|Gentamicin|C3854019|SNOMEDCT_US|387321007|Gentamicin
+10358|  ********** |-|-|-|-
+10371|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+10382| Record **********### |-|-|-|-
+10404|Laboratory Report|C4082310|SNOMEDCT_US|4241000179101|Laboratory report
+10421|: <NEW_LINE>- No findings<NEW_LINE><NEW_LINE>### |-|-|-|-
+10443|Examination|C0031809|SNOMEDCT_US|302199004|Examination - action
+10454| |-|-|-|-
+10455|Report|C0684224|SNOMEDCT_US|229059009|Report
+10461|: <NEW_LINE>- No findings<NEW_LINE><NEW_LINE>### |-|-|-|-
+10483|Imaging Report|C4274373|SNOMEDCT_US|4201000179104|Imaging report
+10497|: <NEW_LINE>- No findings<NEW_LINE><NEW_LINE>### |-|-|-|-
+10519|Transfer|C0348011|SNOMEDCT_US|129347002|Surgical transfer - action
+10527|/|-|-|-|-
+10528|Discharge Status|C0586514|SNOMEDCT_US|309039003|Discharge status
+10544|: <NEW_LINE>- |-|-|-|-
+10549|Transferred|C0348011|SNOMEDCT_US|129347002|Surgical transfer - action
+10560| to |-|-|-|-
+10564|ambulatory|C0439841|SNOMEDCT_US|255327002|Ambulatory
+10574| care<NEW_LINE>- |-|-|-|-
+10582|Condition|C0348080|SNOMEDCT_US|260905004|Condition
+10591| |-|-|-|-
+10592|improved|C0184511|SNOMEDCT_US|385425000|Improved
+10600|<NEW_LINE><NEW_LINE>### |-|-|-|-
+10606|Pathology Report|C0807321|SNOMEDCT_US|371528001|Pathology report
+10622|: <NEW_LINE>- No findings<NEW_LINE><NEW_LINE>### |-|-|-|-
+10644|Follow-up|C0589120|SNOMEDCT_US|308273005|Follow-up status
+10653| Instructions & |-|-|-|-
+10669|Medications:|C5397314|SNOMEDCT_US|513881000000106|Current medication as reported by patient
+10681|<NEW_LINE><NEW_LINE>- **Post-|-|-|-|-
+10692|discharge|C0012621|SNOMEDCT_US|75823008|Discharge
+10701| Bed |-|-|-|-
+10706|Position|C0733755|SNOMEDCT_US|246268007|Position
+10714|:** <NEW_LINE>  - |-|-|-|-
+10723|Head-down position|C0277812|SNOMEDCT_US|34106002|Trendelenburg position
+10741|<NEW_LINE>- **|-|-|-|-
+10746|Eye Dressing|C1655207|SNOMEDCT_US|470138006|Eye dressing
+10758| |-|-|-|-
+10759|Method|C0025663|SNOMEDCT_US|260686004|Method
+10765|:** <NEW_LINE>  - Use |-|-|-|-
+10778|sterile|C0232920|SNOMEDCT_US|261029002|Sterile
+10785| |-|-|-|-
+10786|gauze|C0590323|SNOMEDCT_US|350785008|Gauzes
+10791|<NEW_LINE>  - Use protective eye |-|-|-|-
+10815|shield|C0183251|SNOMEDCT_US|30115002|Shield, device
+10821|<NEW_LINE>- **|-|-|-|-
+10826|Patient|C0030705|SNOMEDCT_US|116154003|Patient
+10833| |-|-|-|-
+10834|Activity|C0441655|SNOMEDCT_US|257733005|Activity
+10842| Restrictions:** <NEW_LINE>  - Encourage |-|-|-|-
+10874|increased|C0205217|SNOMEDCT_US|35105006|Increased
+10883| |-|-|-|-
+10884|rest|C0035253|SNOMEDCT_US|258157001|Rest (observable entity)
+10888|<NEW_LINE>  - Advise against strenuous |-|-|-|-
+10918|activities|C0441655|SNOMEDCT_US|257733005|Activity
+10928|<NEW_LINE>  - Advise against physically demanding |-|-|-|-
+10969|activities|C0441655|SNOMEDCT_US|257733005|Activity
+10979|<NEW_LINE>- **|-|-|-|-
+10984|Wound Care|C0886052|SNOMEDCT_US|225358003|Wound care
+10994|:** <NEW_LINE>  - No |-|-|-|-
+11006|sutures|C0038969|SNOMEDCT_US|408099007|Suture
+11013| to |-|-|-|-
+11017|remove|C1883720|SNOMEDCT_US|127485006|Removes
+11023|<NEW_LINE>  - Adhere to |-|-|-|-
+11038|wound care|C0886052|SNOMEDCT_US|225358003|Wound care
+11048| |-|-|-|-
+11049|instructions|C0039401|SNOMEDCT_US|409073007|Education
+11061|<NEW_LINE>  - Adhere to |-|-|-|-
+11076|dressing change|C0085671|SNOMEDCT_US|18949003|Change of dressing
+11091| |-|-|-|-
+11092|instructions|C0039401|SNOMEDCT_US|409073007|Education
+11104|<NEW_LINE>- **|-|-|-|-
+11109|Dietary|C0012155|SNOMEDCT_US|41829006|Dietary finding
+11116| |-|-|-|-
+11117|Considerations|C1272681|SNOMEDCT_US|385642001|Under consideration
+11131|:** <NEW_LINE>  - No |-|-|-|-
+11143|restrictions|C0443288|SNOMEDCT_US|263856008|Restricted
+11155| |-|-|-|-
+11156|indicated|C1444656|SNOMEDCT_US|410535002|Indicated
+11165|<NEW_LINE>  - |-|-|-|-
+11170|Continue|C0549178|SNOMEDCT_US|255238004|Continuous
+11178| |-|-|-|-
+11179|regular diet|C0184625|SNOMEDCT_US|36823005|Normal diet
+11191|<NEW_LINE><NEW_LINE>### |-|-|-|-
+11197|Prescribed Medications|C2239117|SNOMEDCT_US|33633005|Prescription of drug
+11219|:<NEW_LINE><NEW_LINE>- **|-|-|-|-
+11226|Gentamicin|C3854019|SNOMEDCT_US|387321007|Gentamicin
+11236|:** <NEW_LINE>  - |-|-|-|-
+11245|Apply|C4521676|SNOMEDCT_US|738991002|Apply
+11250| 1 |-|-|-|-
+11253|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
+11257| in the |-|-|-|-
+11265|right eye|C0015399|<LOST>|<LOST>|Right eye structure
+11274| |-|-|-|-
+11275|four times a day|C0585291|SNOMEDCT_US|307439001|Four times daily
+11291|<NEW_LINE>  - |-|-|-|-
+11296|Duration|C0449238|SNOMEDCT_US|103335007|Duration
+11304|: 8 |-|-|-|-
+11308|days|C0439228|SNOMEDCT_US|258703001|day (qualifier value)
+11312|<NEW_LINE>  <NEW_LINE>- **|-|-|-|-
+11320|Atropine|C0004259|SNOMEDCT_US|372832002|Atropine
+11328|:** <NEW_LINE>  - |-|-|-|-
+11337|Apply|C4521676|SNOMEDCT_US|738991002|Apply
+11342| 1 |-|-|-|-
+11345|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
+11349| in the |-|-|-|-
+11357|right eye|C0015399|<LOST>|<LOST>|Right eye structure
+11366| |-|-|-|-
+11367|every 12 hours|C0585327|SNOMEDCT_US|307470009|Every twelve hours
+11381|<NEW_LINE>  - |-|-|-|-
+11386|Duration|C0449238|SNOMEDCT_US|103335007|Duration
+11394|: 8 days<NEW_LINE>  <NEW_LINE>- **|-|-|-|-
+11410|Betamethasone|C0005308|SNOMEDCT_US|116571008|Betamethasone
+11423| for |-|-|-|-
+11428|Right Eye|C0005308|<LOST>|<LOST>|Right eye structure
+11437|:** <NEW_LINE>  - |-|-|-|-
+11446|Apply|C4521676|SNOMEDCT_US|738991002|Apply
+11451| 1 |-|-|-|-
+11454|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
+11458| in the |-|-|-|-
+11466|right eye|C0015399|<LOST>|<LOST>|Right eye structure
+11475| |-|-|-|-
+11476|four times a day|C0585291|SNOMEDCT_US|307439001|Four times daily
+11492|<NEW_LINE>  - |-|-|-|-
+11497|Duration|C0449238|SNOMEDCT_US|103335007|Duration
+11505|: 8 days<NEW_LINE>  <NEW_LINE>- **|-|-|-|-
+11521|Tetracycline|C0039644|SNOMEDCT_US|372809001|Tetracycline
+11533|:** <NEW_LINE>  - |-|-|-|-
+11542|Apply|C4521676|SNOMEDCT_US|738991002|Apply
+11547| 1 |-|-|-|-
+11550|application|C0185125|SNOMEDCT_US|410618006|Application
+11561| in the |-|-|-|-
+11569|right eye|C0185125|<LOST>|<LOST>|Right eye structure
+11578| |-|-|-|-
+11579|at bedtime|C1275563|SNOMEDCT_US|396142006|Once a day, at bedtime
+11589|<NEW_LINE>  - |-|-|-|-
+11594|Duration|C0449238|SNOMEDCT_US|103335007|Duration
+11602|: 8 days<NEW_LINE>  <NEW_LINE>- **|-|-|-|-
+11618|Betamethasone|C0005308|SNOMEDCT_US|116571008|Betamethasone
+11631| for |-|-|-|-
+11636|Left Eye|C0005308|<LOST>|<LOST>|Left eye structure
+11644|:** <NEW_LINE>  - |-|-|-|-
+11653|Apply|C4521676|SNOMEDCT_US|738991002|Apply
+11658| 1 |-|-|-|-
+11661|drop|C0015399|SNOMEDCT_US|385124005|Conventional release eye drops
+11665| in the |-|-|-|-
+11673|left eye|C0015399|<LOST>|<LOST>|Left eye structure
+11681| |-|-|-|-
+11682|four times a day|C0585291|SNOMEDCT_US|307439001|Four times daily
+11698|<NEW_LINE>  - |-|-|-|-
+11703|Duration|C0449238|SNOMEDCT_US|103335007|Duration
+11711|: 8 |-|-|-|-
+11715|days|C0439228|SNOMEDCT_US|258703001|day (qualifier value)
+11719|<NEW_LINE><NEW_LINE>### Others:<NEW_LINE><NEW_LINE>- **|-|-|-|-
+11738|Isolation|C0204727|SNOMEDCT_US|40174006|Isolation procedure
+11747| |-|-|-|-
+11748|Orders|C4284072|SNOMEDCT_US|721963009|Order

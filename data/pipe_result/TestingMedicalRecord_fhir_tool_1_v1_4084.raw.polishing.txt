@@ -1,346 +1,370 @@
-********** Emergency Department Medical Record ********** Identification **********Triage Information:
+**Urgent: Identifying Medical Records in the Emergency Department**, **Urgent: Identifying Medical Records in the Emergency Department**.**Emergency Department Triage Information**
 
-- Triage Level: Emergency severity index level 2
-- Computer Classification: Emergency severity index level 2
+- **Triage Acuity Level:** Emergency Severity Level 2
+- **Computer-Assisted Triage Decision:** Supports Emergency Severity Level 2
 
-Chief Complaint:
+**Chief Complaint:**
+- Blurred vision of the right eye
 
-- Blurred vision in right eye.
-- Assessment Basis: Acute visual disturbance
+**Rationale for Triage Decision:**
+- Acute vision changes resulting in visual impairment
 
-Past Medical History:
+**Medical History**
+- **Past Medical History:** No previous medical conditions reported
 
-- No previous condition reported.
+**Travel Information:**
+- No recent travel
 
-Travel, Occupation, Contact & Cluster History:
+**Cluster Information:**
+- No contact with confirmed cluster infection
 
-- Travel History: No recent travel
-- Cluster History: No known cluster exposure
-- Occupation: No special occupational risks
-- Contact with Patients: No patient contact
-- Contact with Animals: No animal contact
-
-Vital Signs:
-
-- Blood Pressure: Hypotension
-- Heart Rate: Tachycardia
-- Oxygen Saturation: Normal saturation
-- Respiratory Rate: Normal respiratory rate
-- Body Temperature: Normal body temperature
-- Pain Score: No pain
-- Consciousness: Conscious
-
-Special Notes:
-
-- Informed about emergency department overcrowding and potential waiting period for assessment and admission.
-
-Mode of Arrival:
-
-- No referral note available.
-- Reason for Admission: Medical illness
-- High-Risk Mechanism: Not applicable
-
-Triage Personnel:
-
-- Lin Yi-Shan
-
-Emergency Department Visit Record:
-
-- Chief Complaint: Blurred vision in right eye
-
-Past History:
-
+**Special Occupation:** 
 - None
 
-Medication Allergies:
+**Patient Contact Information:**
+- No contact with infectious disease
 
+**Animal Contact Information:**
+- No contact with animals
+
+**Vital Signs:**
+- **Blood Pressure:** 93/62 mmHg 
+- **Heart Rate:** 115 beats per minute
+- **Oxygen Saturation (SpO2):** 97%
+- **Respiratory Rate:** 20 breaths per minute
+- **Body Temperature:** 36.8 degrees Celsius
+- **Blood Glucose Level:** Not measured
+- **Pain Assessment:** No pain reported
+- **Acute Changes in Condition:** None
+- **Level of Consciousness:** Alert and oriented
+
+**Special Notes:**
+- Patient informed of potential extended wait time due to emergency department being at full capacity.
+
+**Mode of Admission:**
+- **Referral Documentation:** None provided
+- **Reason for Admission:** Presenting illness
+
+**High-Risk Mechanism:**
+- Not applicable
+
+**Triage Personnel:**
+- Triage performed by Lin Yi-Shan
+
+---
+
+**Emergency Department Visit Record**
+
+**Chief Complaint:**
+- Blurred vision of the right eye
+
+**Medical History**
+- **Past Medical History:** No previous medical conditions reported
+- **Drug Allergies:** None known
+
+**Travel Information:**
+- No recent travel
+
+**Special Occupation Information:**
 - None
 
-Travel History:
+**Cluster Information:**
+- No contact with confirmed cluster infection
 
+**Patient Contact Information:**
+- No contact with specific infectious disease
+
+**Animal Contact Information:**
 - None
 
-Contact Information:
+**Current Illness:**
+- Sudden diminished visual field noticed since the previous evening
 
-- No special occupation, no cluster infection history, no patient contact, or no animal contact
+**Referral Information:**
+- Referred by Mackay Memorial Hospital for possible surgical intervention due to suspected retinal detachment
 
-Present Illness:
+**Physical Examination:**
 
-- Onset of visual field dimming overnight. Transferred from Mackay Hospital for retinal detachment surgery evaluation.
+- **Level of Consciousness:** Alert and oriented
+- **Vital Signs:**
+  - **Blood Pressure:** 93/62 mmHg
+  - **Heart Rate:** 115 beats per minute
+  - **Respiratory Rate:** 20 breaths per minute
+  - **Body Temperature:** 36.8 degrees Celsius
+  - **Oxygen Saturation (SpO2):** 97%
+  
+- **Head Examination:**
+  - **Scalp:** Normal appearance
 
-Physical Examination:
+- **Eye Examination:**
+  - **Pupils:** Equal in size
+  - **Conjunctiva:** Normal, without pallor
+  - **Sclera:** No jaundice
 
-- Consciousness: Conscious
+- **Neck Examination:**
+  - Supple, no jugular venous distension or lymphadenopathy
 
-Vital Signs:
+- **Thoracic Examination:**
+  - **Chest Expansion:** Symmetrical
+  - **Breath Sounds:** Clear on auscultation
 
-- Blood Pressure: Hypotension
-- Heart Rate: Tachycardia
-- Respiratory Rate: Normal respiratory rate
-- Temperature: Normal temperature
-- Oxygen Saturation: Normal saturation
+- **Cardiac Examination:**
+  - **Heart Rate and Rhythm:** Regular rhythm
+  - **Heart Sounds:** No murmur detected
 
-Head:
+- **Abdominal Examination:**
+  - **Abdomen:** Soft on palpation, normal bowel sounds
 
-- Scalp: No abnormalities
+- **Extremities Examination:**
+  - Normal examination
 
-Eyes:
+**Diagnosis Information**
 
-- Pupils: Equal size
-- Conjunctiva: No anemia
-- Sclera: No icterus
+- **Admission Diagnosis:** Retinal detachment of unspecified laterality
+- **Discharge Diagnosis:** Retinal detachment of unspecified laterality
 
-Neck:
+**Physician's Orders:**
 
-- Neck: Supple
-- Jugular Veins: No distension
-- Lymph Nodes: No lymphadenopathy
+- **Clinical Management Orders:**
+  - Consult ophthalmologist Dr. Zhao Li-Fang using extension 51001 in the ophthalmology department
+  - Instill Mydrin P ophthalmic solution, one drop each in eye
+  - Arrange patient transfer to ward 12A
+  - Medical records not required
+  - Bed allocation modifications to be performed
+  - Confirm patient admission to the facility**In-Hospital Medical Records Identification**
 
-Chest:
+**Admission Information:**
+- **Admission Date**: Date of patient admission to hospital
+- **Chief Complaint**: Complaint of chest pain by patient
 
-- Chest expansion: Symmetric
-- Breath Sounds: Clear
+**Medical History:**
+- History of hypertension
+- History of diabetes mellitus
 
-Heart:
+**Medications on Admission:**
+- Medication of Hydrochlorothiazide 
+- Medication of Metformin
 
-- Heart Rate: Regular rhythm, No heart murmurs
+**Physical Examination:**
+- **Blood Pressure**: Measurement of arterial blood pressure showing 160/90 mmHg
+- **Heart Rate**: Heart rate recorded as 88 beats per minute
+- **Respiratory Rate**: Respiratory rate recorded as 18 breaths per minute
+- **Temperature**: Measurement of body temperature recorded as 98.6°F
 
-Abdomen:
+**Laboratory Tests:**
+- Test for complete blood count
+- Test for basic metabolic panel
+- Test for troponin I indicating positive result
 
-- Abdomen: Soft, Non-tender
-- Bowel Sounds: Normal
+**Imaging Studies:**
+- Imaging study of chest X-ray
+- Imaging study of electrocardiogram
 
-Extremities:
+**Diagnosis:**
+- Diagnosis of acute myocardial infarction
 
-- Musculoskeletal: Normal findings
+**Treatment Plan:**
+- Treatment with aspirin
+- Treatment with clopidogrel
+- Treatment with atenolol
+- Lifestyle changes consultation including dietary counseling
+- Smoking cessation counseling
 
-Diagnosis Information:
+**Discharge Information:**
+- **Discharge Date**: Date of discharge from hospital
+- **Follow-Up Appointments**: Schedule follow-up appointment with cardiology team
+- **Discharge Medications**:
+  - Medication of Aspirin
+  - Medication of Clopidogrel
+  - Medication of Atenolol
+- **Patient Instructions**: Instructions given for post-discharge care
 
-- Admission Diagnosis: Retinal detachment
-- Discharge Diagnosis: Retinal detachment
+**Physician's Signature**: Authentication of record by physician**Admission Diagnosis**  
+Retinal detachment of the right eye
 
-Physician Orders:
+**Discharge Diagnosis**  
+Rhegmatogenous retinal detachment of the right eye, status post scleral buckling of the right eye and sulfur hexafluoride gas tamponade of the right eye
 
-- Ophthalmology Consultation: Contact Dr. Zhao Li-Fang, Ophthalmology Department
-- Administer Tropicamide ophthalmic solution in both left and right eyes, one drop per each eye
-- Transfer to ward 12A, no chart required
-- Bed allocation for inpatient admission.Hospitalization and Medical Record Identification
+**Diagnosis for Intensive Care Unit**  
+None
 
-Hospital Admission Note:
+**Chief Complaint**  
+Informant: The patient and medical records  
+Blurred vision in the right eye for 2 days
 
-Patient Information:
-- Age: 64 years old
-- Gender: Female
+**History of Present Illness**  
+A 22-year-old male without a history of systemic disease. The patient reported progressive floaters in the right eye for 3 to 4 days and photopsia in the right eye for 2 days. He was diagnosed with retinal detachment by a local physician and referred from Mackay Hospital to National Taiwan University Hospital for surgery.Ophthalmological History: 
+- No encounters in the outpatient setting
+- No history of injury 
+- Refer to previous notes 
 
-Chief Complaint:
-- Shortness of breath
-- Chest pain
+Past Medical History: 
+- No diabetes mellitus 
+- No essential hypertension 
+- No coronary arteriosclerosis 
+- No bronchial asthma 
 
-History of Present Illness:
-The patient presents with a 3-day history of progressively worsening shortness of breath and progressively worsening chest pain. The pain is described as a pressure-like sensation, primarily located in the central chest region. Accompanying symptoms include nausea and accompanying symptoms include diaphoresis.
+Allergies: 
+- No known drug allergies 
 
-Past Medical History:
-- Hypertension
-- Hyperlipidemia
-- Type 2 diabetes mellitus
+Family History: 
+- No familial eye disorder 
 
-Medications:
-- Metformin
-- Lisinopril
-- Atorvastatin
+Current Medications:
+- No medications from Hospital 
+- No other medications 
+- Not taking any Chinese Herbal Medicine 
+- No use of Dietary Supplements
 
-Physical Examination:
-- Vital signs: Blood pressure: 145/85 mmHg, Heart rate: 98 bpm, Respiratory rate: 22 breaths/min, Temperature: 37.2°C
-- Cardiovascular: Regular rhythm, no murmurs
-- Respiratory: Diminished breath sounds at bases
-- Abdomen: Soft, non-tender
-- Extremities: No edema
+Travel History: 
+- No recent travel 
 
-Laboratory and Imaging Studies:
-- Electrocardiogram: ST elevation
-- Troponin I: Elevated
-- Chest radiograph: Cardiomegaly, Pulmonary congestion
-
-Assessment and Plan:
-- Acute myocardial infarction
-- Initiate aspirin therapy and initiate clopidogrel therapy
-- Administer nitroglycerin for chest pain
-- Consult cardiology for further management
-- Monitor cardiac enzymes every 6 hours
-
-Disposition:
-Admit to the coronary care unit for continuous monitoring and for continuous further evaluation.**Admission Diagnosis:**  
-- Retinal detachment of the right eye
-
-**Discharge Diagnosis:**  
-- Rhegmatogenous retinal detachment of the right eye 
-- Segmental scleral buckling of the right eye 
-- Sulfur hexafluoride injection of the right eye
-
-**Diagnosis for Intensive Care Unit:**  
-- None
-
-**Chief Complaint:**  
-- Informant: the patient 
-- Informant: the medical record 
-- Blurred vision in the right eye for 2 days
-
-**Patient History:**
-
-**Present Illness:**  
-- 22-year-old male
-- Generally healthy
-- No history of systemic disease
-- Increasing floaters in the right eye for 3 to 4 days 
-- Photopsia in the right eye for 2 days 
-- Initially consulted a local medical doctor
-- Diagnosed with retinal detachment by the local medical doctor 
-- Referred to Mackay Hospital
-- Referred to National Taiwan University Hospital for surgical treatmentOphthalmology History: No eye surgery, no eye injury.  
-Past Medical History: No diabetes, no high blood pressure, no ischemic heart disease, no asthma.  
-Allergies: No known drug allergy.  
-Family History: No genetic ocular disorders.  
-Current Medication:  
-- National Taiwan University Hospital: None  
-- Other medications: None  
-- Chinese Herbal Medicine: None  
-- Nutritional Supplements: None  
-Travel History: No recent travel.  
-
-Physical Examination upon Admission:  
-- Body height: 164 cm  
-- Body weight: 48 kg  
-- Body temperature: 36.4°C  
-- Heart rate: 77 per minute  
-- Respiratory rate: 17 per minute  
-- Arterial blood pressure: 133/96 mmHg  
-- Pain severity rating scale: 3**Neurological Examination:**
-
-- **Level of consciousness:** The level of consciousness of the patient was observed and noted.
-- **Muscle strength:** The muscle strength of the patient in each limb was assessed.
-- **Gait assessment:** The gait of the patient was thoroughly assessed.**Neurological Examination:**
-
-- **Level of Consciousness:** Clear and Level of Consciousness: Oriented
-- **Muscle Strength:** Normal
-- **Gait Analysis:** NormalGeneral Appearance: Fair.  
-Consciousness: Clear.  
-Head: Generally normal.  
-Eyes: Generally normal.  
-Ears: Generally normal.  
-Nose: Generally normal.  
-Throat: Generally normal.  
-Neck: Flexible.  
-Chest: Symmetrical expansion. No use of accessory muscles for respiration.  
-Abdomen: Soft and flat. Non-tender.  
-Extremities: No edema. No cyanosis.**Best Corrected Visual Acuity:**  
-- Right Eye: Best Corrected Visual Acuity Reduced  
-- Left Eye: Best Corrected Visual Acuity Normal  
+Physical Examination at Admission:
+- Height: 164 centimeters
+- Weight: 48 kilograms
+- Body Temperature: 36.4 degrees Celsius
+- Heart Rate: 77 per minute
+- Respiratory Rate: 17 per minute
+- Blood Pressure: 133/96 millimeters of mercury
+- Pain Intensity: Score of 3Neurological Examination:  
+- Conscious mental state: Conscious state, Mental state  
+- Muscle strength: Muscle strength in right arm, Muscle strength in left arm, Muscle strength in right leg, Muscle strength in left leg  
+- Walking pattern: Walking pattern analysis, Gait assessmentNeurological Examination:  
+- Level of consciousness: Alert and oriented  
+- Muscle strength: Normal  
+- Gait: NormalGeneral Appearance: Fair general appearance  
+Consciousness: Clear consciousness  
+Head: Normal appearance of head  
+Eyes: Normal appearance of eyes  
+Ears: Normal appearance of ears  
+Nose: Normal appearance of nose  
+Throat: Normal appearance of throat  
+Neck: Supple neck  
+Chest: Symmetric chest expansion; no use of accessory muscles of respiration in chest  
+Abdomen: Soft abdomen, flat abdomen, non-tender abdomen  
+Extremities: No edema in extremities, no cyanosis in extremities**Best Corrected Visual Acuity:**  
+- Eye: Right Eye; Visual Acuity: 0.25  
+- Eye: Left Eye; Visual Acuity: 1.0  
 
 **Intraocular Pressure:**  
-- Right Eye: Intraocular Pressure Measurement Normal  
-- Left Eye: Intraocular Pressure Measurement Normal  
+- Eye: Right Eye; Intraocular Pressure: 15 mmHg  
+- Eye: Left Eye; Intraocular Pressure: 18 mmHg  
 
-**Cornea:**  
-- Right Eye: Cornea Normal  
-- Left Eye: Cornea Normal  
+**Cornea Examination:**  
+- Eye: Right Eye; Cornea Examination Description: Clear  
+- Eye: Left Eye; Cornea Examination Description: Clear  
 
-**Conjunctiva:**  
-- Right Eye: Conjunctiva Normal  
-- Left Eye: Conjunctiva Normal  
+**Conjunctiva Examination:**  
+- Eye: Right Eye; Conjunctiva Examination Description: No pathology  
+- Eye: Left Eye; Conjunctiva Examination Description: No pathology  
 
-**Anterior Chamber:**  
-- Right Eye: Anterior Chamber Normal  
-- Left Eye: Anterior Chamber Normal  
+**Anterior Chamber Examination:**  
+- Eye: Right Eye; Anterior Chamber Description: Deep and clear  
+- Eye: Left Eye; Anterior Chamber Description: Deep and clear  
 
-**Lens:**  
-- Right Eye: Lens Structure Normal  
-- Left Eye: Lens Structure Normal  
+**Lens Examination:**  
+- Eye: Right Eye; Lens Examination Description: Clear  
+- Eye: Left Eye; Lens Examination Description: Clear  
 
 **Fundus Examination:**  
-- Right Eye: Cup Disc Ratio Increased; Fundus Examination Retinal Detachment; Fundus Examination Retinal Break  
-- Left Eye: Cup Disc Ratio Increased; Fundus Examination Retina Attached  
+- Eye: Right Eye; Fundus Description: Cup-to-disc ratio 0.4, Retinal Detachment, Bullous, Retinal break  
+- Eye: Left Eye; Fundus Description: Cup-to-disc ratio 0.4, Attached  
 
-**Changes on Transfer/Discharge:**  
-- Retina Attached  
-- Intraocular Pressure Normal  
+**Notable Changes at Discharge/Transfer:**  
+- Retina Status: Retina Status Attached, Retina Status Within Normal Limits  
+- Intraocular Pressure: Intraocular Pressure Within Normal Limits  
 
-**Operation:**  
-- Date of Surgery: Date of Surgical Treatment  
-- Surgeon: Person Performing Surgery  
+**Surgical Procedure Details:**  
+- Operation Date: February 24, 2017  
+- Surgeon: He Zi-Chang  
 
 **Pre-operative Diagnosis:**  
-- Retinal Detachment Rhegmatogenous  
+- Condition: Rhegmatogenous Retinal Detachment, Right Eye  
 
 **Post-operative Diagnosis:**  
-- Retinal Detachment Rhegmatogenous  
+- Condition: Rhegmatogenous Retinal Detachment, Right Eye  
 
-**Surgical Procedure:**  
-- Scleral Buckle Procedure  
-- Cryopexy Procedure  
-- Injection of Sulfur Hexafluoride  
+**Operative Method:**  
+- Procedure: Scleral Buckling, Right Eye  
+- Procedure: Cryopexy, Right Eye  
+- Procedure: Injection of Sulfur Hexafluoride, Right Eye  
 
 **Operative Findings:**  
-- Retinal Detachment Rhegmatogenous  
-- Retinal Break  
+- Finding: Rhegmatogenous Retinal Detachment from 12 to 8 o'clock  
+- Finding: Retinal Break at 11 o'clock  
 
 **Hospital Course and Treatment:**  
-Post-operation subretinal fluid observed. Buckling and cryotherapy were applied at the retinal break site and additional areas. Focal laser photocoagulation applied bilaterally. On post-operative day five, post-operation retinal reattachment was confirmed. Discharged stable.
+After surgery, some subretinal fluid persisted. The retinal break was indented with scleral buckle and surrounded by cryotherapy. Additional focal laser treatment was applied to both the Right Eye and the Left Eye. By the fifth post-operative day, the retina was attached. The patient was discharged in stable condition.  
 
-**Summary of In-hospital Medications:**  
-- Gentamicin Medication  
-- Acetaminophen Medication  
-- Magnesium Medication  
-- Sennosides Medication  
-- Diazepam Medication  
-- Betamethasone Medication  
-- Triamcinolone Medication  
-- Tetracycline Medication  
-- Atropine Medication  
-- Betamethasone Medication  
-- Gentamicin Medication  ********** Examination **********  
-********** Record ************Laboratory Studies**  
-None  
+**Medications Administered During Hospitalization:**  
+- Medication: Gentamicin  
+- Medication: Acetaminophen  
+- Medication: Magnesium Oxide  
+- Medication: Sennoside A + B  
+- Medication: Diazepam  
+- Medication: Betamethasone  
+- Medication: Triamcinolone  
+- Medication: Tetracycline  
+- Medication: Atropine  
+- Medication: Betamethasone  
+- Medication: Gentamicin  ********** Examination Record **********### Laboratory Report: 
+- No findings
 
-**Physical Findings Report**  
-None  
+### Examination Report: 
+- No findings
 
-**Diagnostic Imaging Study**  
-None  
+### Imaging Report: 
+- No findings
 
-**Transfer/Discharge Status**  
-Changed to outpatient care, showing improvement.  
+### Transfer/Discharge Status: 
+- Transferred to ambulatory care
+- Condition improved
 
-**Pathology Findings**  
-None  
+### Pathology Report: 
+- No findings
 
-**Follow-up Instructions and Medicinal Products**  
-- **Post-Discharge Position:** Other: Head elevated  
-- **Eye Dressing Technique:** Sterile gauze pad with eye shield  
-- **Activity Limitation of Patient:** Advised to rest extensively; advised to refrain from strenuous activities; advised to refrain from intense activities  
-- **Wound Management:** No requirement for suture removal; please manage the wound as directed; please replace the dressing as directed  
-- **Dietary Guidelines:** No specific dietary restrictions; continue with usual diet  
+### Follow-up Instructions & Medications:
 
-**Medicinal Products:**  
-- **Gentamicin Sulfate**: Ophthalmic Gentamicin Solution 3 mg/mL 5 mL/bottle  
-  - Dose: 1 drop in the right eye four times daily  
-  - Duration: 8 days following discharge  
+- **Post-discharge Bed Position:** 
+  - Head-down position
+- **Eye Dressing Method:** 
+  - Use sterile gauze
+  - Use protective eye shield
+- **Patient Activity Restrictions:** 
+  - Encourage increased rest
+  - Advise against strenuous activities
+  - Advise against physically demanding activities
+- **Wound Care:** 
+  - No sutures to remove
+  - Adhere to wound care instructions
+  - Adhere to dressing change instructions
+- **Dietary Considerations:** 
+  - No restrictions indicated
+  - Continue regular diet
 
-- **Atropine Sulfate**: Atropine Ophthalmic Solution 1% 10 mL/bottle  
-  - Dose: 1 drop in the right eye every 12 hours  
-  - Duration: 8 days following discharge  
+### Prescribed Medications:
 
-- **Betamethasone Sodium Phosphate**: Betamethasone Ophthalmic Solution 0.1% 5 mL/bottle  
-  - Dose: 1 drop in the right eye four times daily  
-  - Duration: 8 days following discharge  
+- **Gentamicin:** 
+  - Apply 1 drop in the right eye four times a day
+  - Duration: 8 days
+  
+- **Atropine:** 
+  - Apply 1 drop in the right eye every 12 hours
+  - Duration: 8 days
+  
+- **Betamethasone for Right Eye:** 
+  - Apply 1 drop in the right eye four times a day
+  - Duration: 8 days
+  
+- **Tetracycline:** 
+  - Apply 1 application in the right eye at bedtime
+  - Duration: 8 days
+  
+- **Betamethasone for Left Eye:** 
+  - Apply 1 drop in the left eye four times a day
+  - Duration: 8 days
 
-- **Tetracycline Hydrochloride**: Tetracycline Ophthalmic Ointment 1% 5 g/tube  
-  - Dose: 1 application in the right eye at bedtime  
-  - Duration: 8 days following discharge  
+### Others:
 
-- **Betamethasone Sodium Phosphate**: Betamethasone Ophthalmic Solution 0.1% 5 mL/bottle  
-  - Dose: 1 drop in the left eye four times daily  
-  - Duration: 8 days following discharge  
-
-**Additional Information**  
-- **Isolation Precautions:**  
-  None
+- **Isolation Orders:** 
+  - None

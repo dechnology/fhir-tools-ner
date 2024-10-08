@@ -12,6 +12,7 @@ from pydantic import BaseModel
 import pandas as pd
 from datetime import datetime
 import uuid
+from celery import Celery
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from openai import OpenAI
@@ -27,6 +28,33 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}}, methods=["GET", "POST", "PUT", "DELETE"])
 app.config['UPLOAD_FOLDER'] = '../data/input'
 app.config['PIPE_FOLDER'] = '../data/pipe_result'
+
+print("app.import_name", app.import_name)
+
+celery = Celery(
+    "app",
+    backend='redis://localhost:6379/0',
+    broker='redis://localhost:6379/0'
+)
+celery.conf.update(app.config)
+TaskBase = celery.Task
+
+print("celery.main", celery.main)
+
+class ContextTask(TaskBase):
+    def __call__(self, *args, **kwargs):
+        with app.app_context():
+            return TaskBase.__call__(self, *args, **kwargs)
+
+celery.Task = ContextTask
+
+@celery.task
+def process_medical_records_task(file_path, sqe_list=None):
+    process_medical_records(file_path, sqe_list)
+
+@celery.task
+def process_medical_text_task(file_path):
+    process_medical_text(file_path)
 
 # 確保上傳目錄存在
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
@@ -73,7 +101,7 @@ class JSONStructure(BaseModel):
     RxNorm: list[RxNorm]
 
 # 初始化 OpenAI 客戶端（建議使用環境變數來存放 API 金鑰）
-openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = os.getenv("OPENAI_API_KEY", "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")
 if not openai_api_key:
     raise ValueError("請設定 OPENAI_API_KEY 環境變數")
 client = OpenAI(api_key=openai_api_key)
@@ -163,10 +191,14 @@ def process_medical_records(file_path, sqe_list=None):
 
         # 第 3 步：語言學擷取（MedCAT）
         entities = cat.get_entities(standardized_content)
+        print(1)
         # 儲存實體為 JSON 檔案
         medcat_json_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.MedCAT.json"
+        print(2)
         with open(medcat_json_path, "w") as json_file:
+            print(3)
             json.dump(entities, json_file, indent=2)
+        print(4)
         linguistic_extraction_time = time.time()
         print(f"{Fore.GREEN}sqe {sqe} 語言學擷取時間: {round(linguistic_extraction_time - preprocess_time, 2)} sec{Style.RESET_ALL}")
 
@@ -210,7 +242,7 @@ def process_medical_records(file_path, sqe_list=None):
         # 把整份output.txt檔案傳送到指定的API
         with open(output_txt_path, "r") as file:
             content = file.read()
-            url = "http://34.80.16.223:8090/contentListener"
+            url = "http://35.229.136.14:8090/contentListener"
             headers = {
                 'Content-Type': 'application/json'
             }
@@ -326,7 +358,7 @@ def process_medical_text(file_path):
     # 把整份output.txt檔案傳送到指定的API
     with open(output_txt_path, "r") as file:
         content = file.read()
-        url = "http://34.80.16.223:8090/contentListener"
+        url = "http://35.229.136.14:8090/contentListener"
         headers = {
             'Content-Type': 'application/json'
         }
@@ -353,11 +385,14 @@ def xml_ner():
 
     # 呼叫處理函式
     try:
-        process_medical_records(file_path)
+        # 呼叫 Celery 任務
+        task = process_medical_records_task.delay(file_path)
+        # process_medical_records(file_path)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-    return jsonify({"message": "檔案處理成功", "filename": secure_filename}), 200
+    return jsonify({"message": "檔案已接收，正在處理", "task_id": task.id}), 202
+    # return jsonify({"message": "檔案處理成功", "filename": secure_filename}), 200
 
 
 # 修改 Flask 應用程式的 txt_ner 路由，呼叫上述函式
@@ -380,11 +415,14 @@ def txt_ner():
 
     # 呼叫處理函式
     try:
-        process_medical_text(file_path)
+        # 呼叫 Celery 任務
+        task = process_medical_text_task.delay(file_path)
+        # process_medical_text(file_path)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-    return jsonify({"message": "檔案處理成功", "filename": secure_filename}), 200
+    return jsonify({"message": "文字內容已接收，正在處理", "task_id": task.id}), 202
+    # return jsonify({"message": "檔案處理成功", "filename": secure_filename}), 200
 
 
 

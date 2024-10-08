@@ -240,6 +240,7 @@ for index, row in df.iterrows():
             else:
                 sab_str = "<LOST>"
                 code_str = "<LOST>"
+                # TODO: 有部分MedCAT輸出的cui會落在MRCONSO.RRF，但是不會落在filtered_data.csv，也就是說並非snomedct_us
             if entity.get('start') > index_now:
                 file.write(f"{index_now}|{standardized_content[index_now:entity.get('start')].replace(NEWLINE, '<NEW_LINE>')}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}{NEWLINE}")
                 file.write(f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}{NEWLINE}")
