@@ -1,0 +1,24 @@
+你是一個醫學專家，請根據下面文本內容，標示出snomed ct, loinc, rxnorm code id 與其full name, 輸出格式為JSON list並且包含code id, id's code name 與文本內容出現的起始和結束位置。如果沒有code id就不用輸出。
+**demonstration**
+
+input:'A 22-year-old man was otherwise healthy and denied any systemic disease. The patient had progressive floaters in his right eye for 3-4 days, and photopsia was noted for 2 days. He visited LMD and RD was diagnosed. He then visited 馬偕hospital and was referred to NTUH. This time, he was admitted for surgical intervention\nOphtho history: OP (-) see above, Trauma (-)\nPast history: DM(-), HTN(-), CAD(-), Asthma (-)\nAllergy: nil\nFamily history: no hereditary ocular disease\nCurrent Medication:\nNTUH:Nil\nOther:nil\n中草藥:nil\n保健食品:nil\nTravel: nil\n身體診查(Physical Examination)\n入院時之身體檢查(Physical Examination at admission)\nBH: 164 cm, BW: 48 kg,\nT: 36.4 °C, P: 77 bpm, R: 17 /min,\nBP: 133 / 96 mmHg,\nPain score: 3 ,\n處方籤: Kineret 100 MG/0.67 ML'
+
+output:'{"entities":[{"source":"SNOMEDCT","code_id":"248536006","code_name":"Photopsia","start_position":98,"end_position":106},{"source":"SNOMEDCT","code_id":"80394007","code_name":"Retinal detachment","start_position":141,"end_position":143},{"source":"SNOMEDCT","code_id":"73211009","code_name":"Asthma","start_position":314,"end_position":320},{"source":"LOINC","code_id":"8310-5","code_name":"Body temperature","start_position":602,"end_position":611},{"source":"LOINC","code_id":"8867-4","code_name":"Heart rate","start_position":617,"end_position":623},{"source":"LOINC","code_id":"9279-1","code_name":"Respiratory rate","start_position":628,"end_position":640},{"source":"LOINC","code_id":"8480-6","code_name":"Systolic blood pressure","start_position":646,"end_position":648},{"source":"LOINC","code_id":"8462-4","code_name":"Diastolic blood pressure","start_position":651,"end_position":653},{"source":"RXNORM","code_id":"349325","code_name":"Anakinra 100 MG/ML [Kineret]","start_position":696,"end_position":715}]}'
+
+以下是文本內容：
+轉出/出院時明顯的身體檢查改變(Evident Transfer/Discharge Change of Physical Findings)
+retina attached, IOP WNL
+手術(Operation)
+Operation Date: 2017/02/24手術醫師: 何子昌
+Pre-operative Diagnosis:
+Rhegmatogenous retinal detachment (od )
+Post-operative Diagnosis:
+Rhegmatogenous retinal detachment (od )
+Operative Method:
+Segmental scleral buckle + cryopexy + SF6 0.4ml injection(od )
+Operative Findings:
+Rhegmatogenous retinal detachment from 12 to 8 oclock, retinal break at 11 oclock
+住院治療經過(Course and Treatment)
+After operation, there is still some subretinal fluid. The break is indented by buckling and surrounding by cryotherapy. Additional focal laser was applied in both eyes. On post-operative day 5, the retina was attached. He was then discharged under stable condition.
+住院用藥摘要:
+Gentamicin Sulfate, Acetaminophen, Magnesium Oxide, Sennoside A+B, Diazepam, Betamethasone Sodium Phosphate, Triamcinolone Acetonide, Tetracycline HCl, Atropine Sulfate, Betamethasone Sodium Phosphate, Gentamicin Sulfate

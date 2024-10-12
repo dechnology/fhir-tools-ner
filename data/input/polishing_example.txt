@@ -1,0 +1,321 @@
+檢驗紀錄(Laboratory Report)
+*********檢驗室:RL***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060225 [1333] 60.52         2.96          8.4           25.3          85.5         
+1060226 [0640] 27.08         2.94          8.3           24.7          84.0         
+1060228 [0633] 3.76          2.79          8.1           23.7          84.9         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060225 [1333] 28.4          33.2          54            20.6          -            
+1060226 [0640] 28.2          33.6          48            20.4          -            
+1060228 [0633] 29.0          34.2          30            19.3          -            
+群組:WBC Classification
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060225 [1333] 0.0           0.0           0.0           0.0           0.0          
+1060226 [0640] 0.0           0.0           0.0           0.0           0.0          
+1060228 [0633] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060225 [1333] * 0.0         0.7           0.2           * 0.0         * 0.0        
+1060226 [0640] * 0.0         1.4           0.1           * 0.0         * 0.0        
+1060228 [0633] 56.3          2.1           0.3           16.8          24.5         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060225 [1333] 0.0           0.0           0             僅供參考         
+1060226 [0640] 0.0           0.0           0             僅供參考         
+1060228 [0633] 0.0           0.0           0             僅供參考         
+群組:Yes
+
+               hsCRP         Fibrinogen   
+time/item      (mg/dL)       (mg/dL)      
+1060225 [1333] 14.26         274.1        
+1060228 [0633] 6.24                       
+群組:Coagulation
+
+               PT            PTT           PT INR       
+time/item      (sec)         (sec)         ()           
+1060225 [1333] 14.0          36.2          1.30         
+群組:Biochemistry
+
+               BUN           CRE           Na            K             Cl           
+time/item      (mg/dL)       (mg/dL)       (mmol/L)      (mmol/L)      (mmol/L)     
+1060225 [1333] 41.5          1.5           140           3.6           109          
+1060226 [0640] 39.6          1.3           139           3.4           108          
+1060228 [0633] 29.3          1.1           134           3.2                        
+               T-BIL         Ca            Mg            P             AST          
+time/item      (mg/dL)       (mmol/L)      (mmol/L)      (mg/dL)       (U/L)        
+1060225 [1333] 0.46          1.66          0.78          6.6           37           
+1060226 [0640] 1.59          1.76          0.76                                     
+1060228 [0633] 1.23          1.81          0.87          3.3           26           
+               LacticAcid   
+time/item      (mmol/L)     
+1060225 [1333] 0.86         
+1060226 [0640]              
+1060228 [0633]              
+群組:General BioChemistry
+
+               GGT           UA            ALB           ALT           LDH          
+time/item      (U/L)         (mg/dL)       (g/dL)        (U/L)         (U/L)        
+1060225 [1333] 92            <1.5                        43            716          
+1060226 [0640]               2.4                         38            706          
+1060228 [0633]               4.2           2.7           22            385          
+群組:Blood pH/Gas
+
+               PH            PCO2          PO2           HCO3          BaseExcess   
+time/item      (*)           (mmHg)        (mmHg)        (mmol/L)      (mmol/L)     
+1060225 [1333] 7.384         30.5          39.5          18.4          -6.9         
+1060226 [0640] 7.412         29.8          50.4          19.2          -5.7         
+1060227 [0148] 7.453         30.2          57.9          21.3          -2.9         
+1060228 [0633] 7.449         34.3          53.2          24.0          -0.3         
+1060301 [1204] 7.481         34.8          54.9          26.2          2.5          
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060225 [1333] 47.1         
+1060226 [0640] 55.5         
+1060228 [0633] 67.3         
+*********檢驗室:HE***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (k/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060227 [0148] 8.98          2.61          7.6           22.0          84.3         
+1060301 [0849] 3.18          2.78          7.9           24.0          86.3         
+1060303 [0824] 3.76          2.86          8.4           24.7          86.4         
+1060306 [0758] 8.16          2.83          8.0           24.8          87.6         
+1060308 [1009] 32.08         3.41          10.2          30.4          89.1         
+1060310 [0844] 73.57         3.50          10.3          31.5          90.0         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (k/μL)        (%)           ()           
+1060227 [0148] 29.1          34.5          28            20.3          -            
+1060301 [0849] 28.4          32.9          26            19.6          -            
+1060303 [0824] 29.4          34.0          18            18.0          -            
+1060306 [0758] 28.3          32.3          16            18.0          -            
+1060308 [1009] 29.9          33.6          90            17.3          -            
+1060310 [0844] 29.4          32.7          55            18.2          -            
+群組:WBC D/C
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060227 [0148] 7.0           4.0           2.0           1.0           3.0          
+1060301 [0849] 2.0           1.0           7.0           6.0           10.0         
+1060303 [0824] (+)           2.0           3.0           3.0           1.0          
+1060306 [0758] 3.0           1.0           5.0           3.0           0.0          
+1060308 [1009] 6.5           1.0           0.5           3.5           3.5          
+1060310 [0844] 14.0          2.5           0.5           1.5           3.5          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060227 [0148] 42.0          2.0           0.0           26.0          13.0         
+1060301 [0849] 46.0          1.0           0.0           13.0          14.0         
+1060303 [0824] 36.0          4.0           1.0           26.0          24.0         
+1060306 [0758] 28.0          0.0           1.0           40.0          19.0         
+1060308 [1009] 39.0          1.0           0.0           34.0          11.0         
+1060310 [0844] 14.0          1.0           0.0           57.5 (with i  5.0          
+                                                       mmature)                   
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060227 [0148] 0.0           0.0           0.0 /100 WBC  WBC 100                    
+1060301 [0849] 0.0           0.0           0.0 /100 WBC  WBC 100                    
+1060303 [0824] 0.0           0.0           1.0 /100 WBC  WBC 100                    
+1060306 [0758] 0.0           0.0           0.0 /100 WBC  WBC 100                    
+1060308 [1009] 0.0           0.0           0 /200 WBC    WBC 200      
+1060310 [0844] 0.5           0.0           0 /200 WBC    WBC 200      
+*********檢驗室:HR***********
+
+群組:Bone Marrow
+
+               Hematologica 
+               l Diagnosis  
+               of BM        
+time/item      ()           
+1060309 [1203] MDS, RAEB-t  
+群組:
+
+               Abnormal cel  PB smear      Comment      
+               l/Pattern                                
+time/item      ()            ()            ()           
+1060309 [1203] Excess of bl  Circulating   Please also  
+               asts, mostly  blasts, imma  correlate wi 
+                with monobl  ture monocyt  th flow cyto 
+               ast morpholo  es, and thro  metry and cy 
+               gy.           mbocytopenia  togenetics d 
+                              are noted.   ata.         
+*********檢驗室:BC***********
+
+群組:General BioChemistry
+
+               Alb           TP            T-BIL         AST           ALT          
+time/item      (g/dL)        (g/dL)        (mg/dL)       (U/L)         (U/L)        
+1060227 [0148] 2.6                         1.02                        29           
+1060301 [0849]                             1.22          22            22           
+1060303 [0824]                             1.31                        23           
+1060306 [0758] 2.8           5.2                                       26           
+1060308 [1009]                             0.86                                     
+1060310 [0844]                             0.79                        26           
+               ALP           LDH           UN            CRE           UA           
+time/item      (U/L)         (U/L)         (mg/dL)       (mg/dL)       (mg/dL)      
+1060227 [0148]               470           36.6          1.2           3.8          
+1060301 [0849]               273           26.6          1.0           3.0          
+1060303 [0824] 44                          28.3          1.0                        
+1060306 [0758] 41            166           17.0          1.0           2.9          
+1060308 [1009]                                           1.1                        
+1060310 [0844] 47                                        1.3                        
+               Na            K             Ca            P             Mg           
+time/item      (mmol/L)      (mmol/L)      (mmol/L)      (mg/dL)       (mmol/L)     
+1060227 [0148] 138           3.1           1.72                        0.62         
+1060301 [0849] 140           3.2           1.85          2.8           0.78         
+1060303 [0824] 136           3.4           1.90                        0.87         
+1060306 [0758] 139           3.4           2.00                        0.83         
+1060308 [1009] 137           3.3                                       0.84         
+1060310 [0844] 135           4.8                                       1.00         
+群組:Hormones
+
+               Free T4(CIA)  hsTSH(CIA)                 
+time/item      (ng/dL)       (μIU/mL)     
+1060227 [0148] 0.899         2.28         
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060227 [0148] 60.9         
+1060301 [0849] 75.1         
+1060303 [0824] 75.1         
+1060306 [0758] 75.1         
+1060308 [1009] 67.3         
+1060310 [0844] 55.5         
+*********檢驗室:B2***********
+B2-1060227-7019891   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060227-7019889   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+
+*********檢驗室:B3***********
+B3-1060227-7019893   RANDOM URINE
+     ID+DS Urine #1:       No aerobic  pathogen
+
+
+*********檢驗室:OP***********
+
+群組:MULTISTIX
+
+               Sp. Gr.(C)    pH            Protein(C)    Glu.(C)       Ketone body  
+                                                                    (U)          
+time/item      (*)           (*)           (mg/dL)       (mg/dL)       (*)          
+1060227 [0824] 1.013         5.0           30 ( 1+ )     -             -            
+               O.B.(C)       Urobil.(C)    Bil.(C)       Nitrite(C)    WBC esterase 
+                                                                     (U)         
+time/item      (*)           (mg/dL)       (*)           (*)           (*)          
+1060227 [0824] 1+            ≦1.5          -             -             -            
+               Color         Turbidity    
+time/item      (*)           (*)          
+1060227 [0824] Light Yellow  -                          
+群組:SEDIMENT
+
+               RBC (S)       WBC (S)       Epith (S)     Cast (S)      Crystal (S)  
+time/item      (/HPF)        (/HPF)        (/HPF)        (/LPF)        (*)          
+1060227 [0824] 0-2           2-5           2-5           Gr(2-5)       -            
+               Bacteria      Mucus(S)      Others (S)   
+time/item      (*)           (*)           (*)          
+1060227 [0824] -             -             -            
+*********檢驗室:B4***********
+B4-1060227-5010355   SPUTUM (EXPECTORATED)
+     AF Stain(AF) #1:       Acid fast bacilli - negative
+
+B4-1060228-5010354   SPUTUM (EXPECTORATED)
+     AF Stain(AF) #1:       Acid fast bacilli - negative
+
+B4-1060226-5010353   SPUTUM (EXPECTORATED)
+     AF Stain(AF) #1:       Acid fast bacilli - negative
+
+
+*********檢驗室:BK***********
+
+群組:Blood Type
+
+               ABO Typing    RH Typing    
+time/item      (*)           (*)          
+1060301 [1147] A             Positive     
+1060306 [1054] A             Positive     
+1060310 [1855] A             Positive     
+群組:Yes
+
+               antibody scr 
+               een(New Lis)               
+time/item      (*)          
+1060301 [1147] Negative     
+1060306 [1054] Negative     
+1060310 [1855] Negative     
+*********檢驗室:B5***********
+
+群組:
+
+               VRE screenin 
+               g            
+time/item      ()           
+1060225 [1346] No VRE
+檢查紀錄(Examination Report)
+nil
+影像報告(Imaging Report)
+2017/02/27 Chest : PA View (Standing) EXAMINATION: Chest : PA View (Standing)
+FINDINGS:
+Cardiomegaly with calcified aorta. Increased infiltration over bilateral lungs.
+
+2017/03/01 Abdomen:KUB blurring of bilateral psoas shadows. marked increased bowel gas with dilatation of bowel loops in the abdomen, r/o ileus. no definite radiopaque stones. osteopenia of the visible bony structures. thoracolumbar spondylosis with marginal spur formation at multiple levels. (previous) compression fracture(s) and wedge deformity or decrease in height at T12 and L1 with retention of some bone cement(s).
+
+2017/03/07 Abdomen:KUB unremarkable bowel gas pattern. compression fracture at T12 and L1 s/p vertebroplasty. pelvic phleboliths.
+轉出/出院情況(Transfer/Discharge Status)
+改門診治療 穩定
+【Injury Severity Score】
+Head Neck: 0
+Face: 0
+Chest: 0
+Abdomen: 2
+[脊椎] 輕微腰椎壓迫性骨折(<20%) [2分]
+Extremity: 0
+External: 0
+Total ISS: 4
+病理報告(Pathology Report)
+nil
+轉出/出院指示(Follow-up Instructions & Medications)
+病人活動限制：無特殊限制，可依個人日常生活進行
+飲食注意事項：無特別飲食限制，請依個人日常飲食進行
+其他指示：請依預約日期返院門診
+Megestrol Acetate【液 Megest Oral Susp 40 mg/1 mL 120 mL/btl】 4 mL PO QD 出院藥天數4天
+Sennoside A+B【Sennapur 12.5 mg/tab】 2 tab PO HS 出院藥天數4天
+Amiodarone HCl【Cordarone 200 mg/tab】 1 tab PO BID 出院藥天數4天
+Hydroxyurea【Hydrea 500 mg/cap】 1 cap PO TID 出院藥天數4天
+Febuxostat【Feburic 80 mg/tab】 0.5 tab PO QD 出院藥天數4天
+Metoclopramide HCl【Prometin 5 mg/tab】 1 tab PO TIDAC30 出院藥天數4天
+Tamsulosin HCl【HARNALIDGE D 0.2 mg/tab】 1 tab LZ HS 出院藥天數4天
+門診預約:
+預約日期:2017/03/14 內科部 下午 13診 49號
+預約日期:2017/07/20 外科部 上午 10診 2號
+出院排程:
+2017/2/25 CBC & platelet
+2017/2/25 WBC classification
+2017/2/25 Albumin(Blood)
+2017/2/25 ALT(GPT)
+2017/2/25 BIL T
+2017/2/25 ALP
+2017/2/25 LDH
+2017/2/25 BUN
+2017/2/25 Creatinine(Blood)
+2017/2/25 Uric acid
+2017/2/25 Sodium, Na
+2017/2/25 Potassium, K
+2017/2/25 Calcium, Ca
+2017/2/25 Magnesium, Mg
+其他(Others)
+隔離醫囑:Nil

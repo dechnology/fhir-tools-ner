@@ -1,0 +1,22 @@
+{
+    "entities": [
+        {
+            "source": "SNOMEDCT_US",
+            "code": "420190008",
+            "full_name": "Retinal detachment (disorder)",
+            "confidence": 1.0
+        },
+        {
+            "source": "LOINC",
+            "code": "8310-5",
+            "full_name": "Body temperature",
+            "confidence": 0.66
+        },
+        {
+            "source": "RXNORM",
+            "code": "448141",
+            "full_name": "Sennosides",
+            "confidence": 0.33
+        }
+    ]
+}
