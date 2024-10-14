@@ -1,0 +1,553 @@
+{
+  "entities": {
+    "1": {
+      "pretty_name": "Family history",
+      "cui": "C0241889",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        "Finding"
+      ],
+      "source_value": "Family History:",
+      "detected_name": "family~history~:",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 0,
+      "end": 15,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [
+        "S-137667000",
+        "S-137863003",
+        "S-160470003",
+        "S-266909004",
+        "S-276502004",
+        "S-416471007",
+        "S-57177007"
+      ],
+      "id": 1,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9904787540435791,
+          "name": "Status"
+        }
+      }
+    },
+    "4": {
+      "pretty_name": "Drug Allergy",
+      "cui": "C0013182",
+      "type_ids": [
+        "T046"
+      ],
+      "types": [
+        "Pathologic Function"
+      ],
+      "source_value": "Medication Allergy",
+      "detected_name": "medication~allergy",
+      "acc": 0.4336429604563805,
+      "context_similarity": 0.4336429604563805,
+      "start": 32,
+      "end": 50,
+      "icd10": [
+        {
+          "chapter": "T88.7",
+          "name": "Unspecified adverse effect of drug or medicament"
+        }
+      ],
+      "ontologies": [],
+      "snomed": [
+        "S-157757006",
+        "S-212996000",
+        "S-269283009",
+        "S-269434008",
+        "S-416093006",
+        "S-416098002",
+        "S-74069000",
+        "S-93431001"
+      ],
+      "id": 4,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.999963641166687,
+          "name": "Status"
+        }
+      }
+    },
+    "6": {
+      "pretty_name": "Medications",
+      "cui": "C4284232",
+      "type_ids": [
+        "T170"
+      ],
+      "types": [
+        "Intellectual Product"
+      ],
+      "source_value": "Medication",
+      "detected_name": "medication",
+      "acc": 0.7006325298673272,
+      "context_similarity": 0.7006325298673272,
+      "start": 70,
+      "end": 80,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [],
+      "id": 6,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.998384952545166,
+          "name": "Status"
+        }
+      }
+    },
+    "7": {
+      "pretty_name": "Adverse reaction to drug",
+      "cui": "C0041755",
+      "type_ids": [
+        "T046"
+      ],
+      "types": [
+        "Pathologic Function"
+      ],
+      "source_value": "ADR",
+      "detected_name": "adr",
+      "acc": 0.2692073230264339,
+      "context_similarity": 0.2692073230264339,
+      "start": 81,
+      "end": 84,
+      "icd10": [
+        {
+          "chapter": "T88.7",
+          "name": "Unspecified adverse effect of drug or medicament"
+        }
+      ],
+      "ontologies": [],
+      "snomed": [
+        "S-158060007",
+        "S-212996000",
+        "S-219105008",
+        "S-264519003",
+        "S-62014003"
+      ],
+      "id": 7,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.993800938129425,
+          "name": "Status"
+        }
+      }
+    },
+    "8": {
+      "pretty_name": "Unknown",
+      "cui": "C0439673",
+      "type_ids": [
+        "T080"
+      ],
+      "types": [
+        "Qualitative Concept"
+      ],
+      "source_value": "unknown",
+      "detected_name": "unknown",
+      "acc": 0.7750853827999289,
+      "context_similarity": 0.7750853827999289,
+      "start": 85,
+      "end": 92,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [
+        "S-261665006"
+      ],
+      "id": 8,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.993800938129425,
+          "name": "Status"
+        }
+      }
+    },
+    "9": {
+      "pretty_name": "Allergic Reaction",
+      "cui": "C1527304",
+      "type_ids": [
+        "T046"
+      ],
+      "types": [
+        "Pathologic Function"
+      ],
+      "source_value": "Allergy",
+      "detected_name": "allergy",
+      "acc": 0.29625032232245374,
+      "context_similarity": 0.29625032232245374,
+      "start": 93,
+      "end": 100,
+      "icd10": [
+        {
+          "chapter": "T78.40",
+          "name": "Allergy, unspecified"
+        }
+      ],
+      "ontologies": [],
+      "snomed": [
+        "S-419076005"
+      ],
+      "id": 9,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.993800938129425,
+          "name": "Status"
+        }
+      }
+    },
+    "10": {
+      "pretty_name": "Medical Devices",
+      "cui": "C0025080",
+      "type_ids": [
+        "T074"
+      ],
+      "types": [
+        "Medical Device"
+      ],
+      "source_value": "Medical Device",
+      "detected_name": "medical~device",
+      "acc": 0.5366041008328692,
+      "context_similarity": 0.5366041008328692,
+      "start": 104,
+      "end": 118,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [
+        "S-105783009",
+        "S-303607000",
+        "S-303629001",
+        "S-360286006",
+        "S-393291003",
+        "S-394241008",
+        "S-63653004"
+      ],
+      "id": 10,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9985144734382629,
+          "name": "Status"
+        }
+      }
+    },
+    "12": {
+      "pretty_name": "Medication . Current",
+      "cui": "C0746467",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        "Finding"
+      ],
+      "source_value": "Current Medication",
+      "detected_name": "current~medication",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 152,
+      "end": 170,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [],
+      "id": 12,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9835795760154724,
+          "name": "Status"
+        }
+      }
+    },
+    "14": {
+      "pretty_name": "Paramol",
+      "cui": "C0591952",
+      "type_ids": [
+        "T121"
+      ],
+      "types": [
+        "Pharmacologic Substance"
+      ],
+      "source_value": "PARAMOL",
+      "detected_name": "paramol",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 177,
+      "end": 184,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [],
+      "id": 14,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9998890161514282,
+          "name": "Status"
+        }
+      }
+    },
+    "16": {
+      "pretty_name": "Paramol",
+      "cui": "C0591952",
+      "type_ids": [
+        "T121"
+      ],
+      "types": [
+        "Pharmacologic Substance"
+      ],
+      "source_value": "PARAMOL",
+      "detected_name": "paramol",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 217,
+      "end": 224,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [],
+      "id": 16,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.867698609828949,
+          "name": "Status"
+        }
+      }
+    },
+    "20": {
+      "pretty_name": "Hydrea",
+      "cui": "C0591617",
+      "type_ids": [
+        "T121"
+      ],
+      "types": [
+        "Pharmacologic Substance"
+      ],
+      "source_value": "Hydrea",
+      "detected_name": "hydrea",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 347,
+      "end": 353,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [],
+      "id": 20,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9963321089744568,
+          "name": "Status"
+        }
+      }
+    },
+    "21": {
+      "pretty_name": "CAP - NOS",
+      "cui": "C0549222",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        "Finding"
+      ],
+      "source_value": "cap",
+      "detected_name": "cap",
+      "acc": 0.9187160398958304,
+      "context_similarity": 0.9187160398958304,
+      "start": 361,
+      "end": 364,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [
+        "S-146735002",
+        "S-169502003"
+      ],
+      "id": 21,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9999790191650391,
+          "name": "Status"
+        }
+      }
+    },
+    "22": {
+      "pretty_name": "CAP - NOS",
+      "cui": "C0549222",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        "Finding"
+      ],
+      "source_value": "cap",
+      "detected_name": "cap",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 367,
+      "end": 370,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [
+        "S-146735002",
+        "S-169502003"
+      ],
+      "id": 22,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9903846979141235,
+          "name": "Status"
+        }
+      }
+    },
+    "23": {
+      "pretty_name": "Fasturtec",
+      "cui": "C1174785",
+      "type_ids": [
+        "T126"
+      ],
+      "types": [
+        "Enzyme"
+      ],
+      "source_value": "Fasturtec",
+      "detected_name": "fasturtec",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 385,
+      "end": 394,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [],
+      "id": 23,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9998711347579956,
+          "name": "Status"
+        }
+      }
+    },
+    "26": {
+      "pretty_name": "Po 12",
+      "cui": "C1569564",
+      "type_ids": [
+        "T121"
+      ],
+      "types": [
+        "Pharmacologic Substance"
+      ],
+      "source_value": "PO 12",
+      "detected_name": "po~12",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 536,
+      "end": 541,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [],
+      "id": 26,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9942812919616699,
+          "name": "Status"
+        }
+      }
+    },
+    "27": {
+      "pretty_name": "CAP - NOS",
+      "cui": "C0549222",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        "Finding"
+      ],
+      "source_value": "cap",
+      "detected_name": "cap",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 572,
+      "end": 575,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [
+        "S-146735002",
+        "S-169502003"
+      ],
+      "id": 27,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.998440682888031,
+          "name": "Status"
+        }
+      }
+    },
+    "28": {
+      "pretty_name": "CAP - NOS",
+      "cui": "C0549222",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        "Finding"
+      ],
+      "source_value": "cap",
+      "detected_name": "cap",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 578,
+      "end": 581,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [
+        "S-146735002",
+        "S-169502003"
+      ],
+      "id": 28,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9903846979141235,
+          "name": "Status"
+        }
+      }
+    },
+    "29": {
+      "pretty_name": "Po 12",
+      "cui": "C1569564",
+      "type_ids": [
+        "T121"
+      ],
+      "types": [
+        "Pharmacologic Substance"
+      ],
+      "source_value": "PO 12",
+      "detected_name": "po~12",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 585,
+      "end": 590,
+      "icd10": [],
+      "ontologies": [],
+      "snomed": [],
+      "id": 29,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9985144734382629,
+          "name": "Status"
+        }
+      }
+    }
+  },
+  "tokens": []
+}

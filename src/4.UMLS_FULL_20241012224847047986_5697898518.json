@@ -1,0 +1,798 @@
+{
+  "entities": {
+    "1": {
+      "pretty_name": "Family History With Explicit Context",
+      "cui": "C0241889",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "Family History",
+      "detected_name": "family~history",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 0,
+      "end": 14,
+      "icd10": [],
+      "ontologies": [
+        "NCI_NCI-GLOSS",
+        "MEDCIN",
+        "CCPSS",
+        "CSP",
+        "ICPC2ICD10ENG",
+        "NCI_CADSR",
+        "HPO",
+        "SNOMEDCT_US",
+        "DXP",
+        "RCD",
+        "MSH",
+        "LNC",
+        "MTH",
+        "MEDLINEPLUS",
+        "NCI",
+        "CHV"
+      ],
+      "snomed": [],
+      "id": 1,
+      "meta_anns": {}
+    },
+    "3": {
+      "pretty_name": "Contributing",
+      "cui": "C1880177",
+      "type_ids": [
+        "T052"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "contributory",
+      "detected_name": "contributory",
+      "acc": 0.3292531649358809,
+      "context_similarity": 0.3292531649358809,
+      "start": 19,
+      "end": 31,
+      "icd10": [],
+      "ontologies": [
+        "MTH",
+        "NCI",
+        "NCI_CADSR",
+        "LNC"
+      ],
+      "snomed": [],
+      "id": 3,
+      "meta_anns": {}
+    },
+    "5": {
+      "pretty_name": "Known History Of Allergy To Medication",
+      "cui": "C5238773",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "Medication Allergy",
+      "detected_name": "medication~allergy",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 32,
+      "end": 50,
+      "icd10": [],
+      "ontologies": [
+        "NCI",
+        "NCI_ACC-AHA"
+      ],
+      "snomed": [],
+      "id": 5,
+      "meta_anns": {}
+    },
+    "7": {
+      "pretty_name": "Medication History History",
+      "cui": "C5238735",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "Medication",
+      "detected_name": "medication",
+      "acc": 0.8531310882333141,
+      "context_similarity": 0.8531310882333141,
+      "start": 70,
+      "end": 80,
+      "icd10": [],
+      "ontologies": [
+        "MEDCIN",
+        "NCI_ACC-AHA",
+        "MTH",
+        "NCI",
+        "HL7V3.0"
+      ],
+      "snomed": [],
+      "id": 7,
+      "meta_anns": {}
+    },
+    "10": {
+      "pretty_name": "Reactions Allergic",
+      "cui": "C1527304",
+      "type_ids": [
+        "T046"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "Allergy",
+      "detected_name": "allergy",
+      "acc": 0.99,
+      "context_similarity": 0.99,
+      "start": 93,
+      "end": 100,
+      "icd10": [],
+      "ontologies": [
+        "NCI_NCI-GLOSS",
+        "MEDCIN",
+        "CCPSS",
+        "SNOMEDCT_US",
+        "NCI_NICHD",
+        "MSH",
+        "RCD",
+        "LNC",
+        "MTH",
+        "NCI_CTCAE",
+        "MDR",
+        "NCI_GDC",
+        "ICD10CM",
+        "NCI",
+        "CCS",
+        "CCSR_ICD10CM"
+      ],
+      "snomed": [],
+      "id": 10,
+      "meta_anns": {}
+    },
+    "16": {
+      "pretty_name": "Medication . Current",
+      "cui": "C0746467",
+      "type_ids": [
+        "T033"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "Current Medication",
+      "detected_name": "current~medication",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 152,
+      "end": 170,
+      "icd10": [],
+      "ontologies": [
+        "NCI",
+        "CHV",
+        "CCPSS",
+        "LNC"
+      ],
+      "snomed": [],
+      "id": 16,
+      "meta_anns": {}
+    },
+    "24": {
+      "pretty_name": "Po 1",
+      "cui": "C0297198",
+      "type_ids": [
+        "T109"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "PO 1",
+      "detected_name": "po~1",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 207,
+      "end": 211,
+      "icd10": [],
+      "ontologies": [
+        "MSH"
+      ],
+      "snomed": [],
+      "id": 24,
+      "meta_anns": {}
+    },
+    "29": {
+      "pretty_name": "Orally",
+      "cui": "C0442027",
+      "type_ids": [
+        "T082"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "PO",
+      "detected_name": "po",
+      "acc": 0.4111101234886646,
+      "context_similarity": 0.4111101234886646,
+      "start": 249,
+      "end": 251,
+      "icd10": [],
+      "ontologies": [
+        "NCI_EDQM-HC",
+        "SNOMEDCT_US",
+        "SNMI",
+        "RCD",
+        "LNC",
+        "MTH",
+        "NCI",
+        "NCI_NCI-GLOSS",
+        "AOD",
+        "CHV"
+      ],
+      "snomed": [],
+      "id": 29,
+      "meta_anns": {}
+    },
+    "31": {
+      "pretty_name": "2 Days",
+      "cui": "C1442455",
+      "type_ids": [
+        "T079"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "2 days",
+      "detected_name": "2~days",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 252,
+      "end": 258,
+      "icd10": [],
+      "ontologies": [
+        "MTH",
+        "HL7V2.5",
+        "LNC"
+      ],
+      "snomed": [],
+      "id": 31,
+      "meta_anns": {}
+    },
+    "33": {
+      "pretty_name": "Maxipime",
+      "cui": "C0284915",
+      "type_ids": [
+        "T109",
+        "T195"
+      ],
+      "types": [
+        "",
+        ""
+      ],
+      "source_value": "Maxipime",
+      "detected_name": "maxipime",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 259,
+      "end": 267,
+      "icd10": [],
+      "ontologies": [
+        "RXNORM"
+      ],
+      "snomed": [],
+      "id": 33,
+      "meta_anns": {}
+    },
+    "34": {
+      "pretty_name": "Milligram Per Vial",
+      "cui": "C2347142",
+      "type_ids": [
+        "T081"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "mg/vial",
+      "detected_name": "mg~vial",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 272,
+      "end": 279,
+      "icd10": [],
+      "ontologies": [
+        "NCI"
+      ],
+      "snomed": [],
+      "id": 34,
+      "meta_anns": {}
+    },
+    "39": {
+      "pretty_name": "Maxipime",
+      "cui": "C0284915",
+      "type_ids": [
+        "T109",
+        "T195"
+      ],
+      "types": [
+        "",
+        ""
+      ],
+      "source_value": "Maxipime",
+      "detected_name": "maxipime",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 303,
+      "end": 311,
+      "icd10": [],
+      "ontologies": [
+        "RXNORM"
+      ],
+      "snomed": [],
+      "id": 39,
+      "meta_anns": {}
+    },
+    "40": {
+      "pretty_name": "Milligram Per Vial",
+      "cui": "C2347142",
+      "type_ids": [
+        "T081"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "mg/vial",
+      "detected_name": "mg~vial",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 316,
+      "end": 323,
+      "icd10": [],
+      "ontologies": [
+        "NCI"
+      ],
+      "snomed": [],
+      "id": 40,
+      "meta_anns": {}
+    },
+    "44": {
+      "pretty_name": "2 Days",
+      "cui": "C1442455",
+      "type_ids": [
+        "T079"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "2 days",
+      "detected_name": "2~days",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 340,
+      "end": 346,
+      "icd10": [],
+      "ontologies": [
+        "MTH",
+        "HL7V2.5",
+        "LNC"
+      ],
+      "snomed": [],
+      "id": 44,
+      "meta_anns": {}
+    },
+    "46": {
+      "pretty_name": "Hydrea",
+      "cui": "C0591617",
+      "type_ids": [
+        "T109",
+        "T121"
+      ],
+      "types": [
+        "",
+        ""
+      ],
+      "source_value": "Hydrea",
+      "detected_name": "hydrea",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 347,
+      "end": 353,
+      "icd10": [],
+      "ontologies": [
+        "RXNORM"
+      ],
+      "snomed": [],
+      "id": 46,
+      "meta_anns": {}
+    },
+    "49": {
+      "pretty_name": "Four Times Daily",
+      "cui": "C0585291",
+      "type_ids": [
+        "T079"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "QID",
+      "detected_name": "qid",
+      "acc": 0.5730413041646977,
+      "context_similarity": 0.5730413041646977,
+      "start": 371,
+      "end": 374,
+      "icd10": [],
+      "ontologies": [
+        "SNOMEDCT_US",
+        "NCI_CADSR",
+        "NCI_CDISC",
+        "RCD",
+        "LNC",
+        "NCI",
+        "HL7V3.0"
+      ],
+      "snomed": [],
+      "id": 49,
+      "meta_anns": {}
+    },
+    "50": {
+      "pretty_name": "Orally",
+      "cui": "C0442027",
+      "type_ids": [
+        "T082"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "PO",
+      "detected_name": "po",
+      "acc": 0.49535630877981696,
+      "context_similarity": 0.49535630877981696,
+      "start": 375,
+      "end": 377,
+      "icd10": [],
+      "ontologies": [
+        "NCI_EDQM-HC",
+        "SNOMEDCT_US",
+        "SNMI",
+        "RCD",
+        "LNC",
+        "MTH",
+        "NCI",
+        "NCI_NCI-GLOSS",
+        "AOD",
+        "CHV"
+      ],
+      "snomed": [],
+      "id": 50,
+      "meta_anns": {}
+    },
+    "52": {
+      "pretty_name": "2 Days",
+      "cui": "C1442455",
+      "type_ids": [
+        "T079"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "2 days",
+      "detected_name": "2~days",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 378,
+      "end": 384,
+      "icd10": [],
+      "ontologies": [
+        "MTH",
+        "HL7V2.5",
+        "LNC"
+      ],
+      "snomed": [],
+      "id": 52,
+      "meta_anns": {}
+    },
+    "55": {
+      "pretty_name": "Milligram Per Vial",
+      "cui": "C2347142",
+      "type_ids": [
+        "T081"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "mg/vial",
+      "detected_name": "mg~vial",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 399,
+      "end": 406,
+      "icd10": [],
+      "ontologies": [
+        "NCI"
+      ],
+      "snomed": [],
+      "id": 55,
+      "meta_anns": {}
+    },
+    "57": {
+      "pretty_name": "9 1 Hydroxy 2 Hydroxymethyl Ethoxy Methylguanine",
+      "cui": "C0651569",
+      "type_ids": [
+        "T114"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "9 mg",
+      "detected_name": "9~mg",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 407,
+      "end": 411,
+      "icd10": [],
+      "ontologies": [
+        "MSH"
+      ],
+      "snomed": [],
+      "id": 57,
+      "meta_anns": {}
+    },
+    "63": {
+      "pretty_name": "Po 1",
+      "cui": "C0297198",
+      "type_ids": [
+        "T109"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "PO 1",
+      "detected_name": "po~1",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 458,
+      "end": 462,
+      "icd10": [],
+      "ontologies": [
+        "MSH"
+      ],
+      "snomed": [],
+      "id": 63,
+      "meta_anns": {}
+    },
+    "67": {
+      "pretty_name": "Every Day",
+      "cui": "C0332173",
+      "type_ids": [
+        "T079"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "QD",
+      "detected_name": "qd",
+      "acc": 0.44074654509955324,
+      "context_similarity": 0.44074654509955324,
+      "start": 494,
+      "end": 496,
+      "icd10": [],
+      "ontologies": [
+        "CCPSS",
+        "SNOMEDCT_US",
+        "NCI_CADSR",
+        "SNMI",
+        "NCI_CDISC",
+        "RCD",
+        "LNC",
+        "MTH",
+        "NCI",
+        "HL7V3.0",
+        "CHV"
+      ],
+      "snomed": [],
+      "id": 67,
+      "meta_anns": {}
+    },
+    "68": {
+      "pretty_name": "Orally",
+      "cui": "C0442027",
+      "type_ids": [
+        "T082"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "PO",
+      "detected_name": "po",
+      "acc": 0.4394345280402848,
+      "context_similarity": 0.4394345280402848,
+      "start": 497,
+      "end": 499,
+      "icd10": [],
+      "ontologies": [
+        "NCI_EDQM-HC",
+        "SNOMEDCT_US",
+        "SNMI",
+        "RCD",
+        "LNC",
+        "MTH",
+        "NCI",
+        "NCI_NCI-GLOSS",
+        "AOD",
+        "CHV"
+      ],
+      "snomed": [],
+      "id": 68,
+      "meta_anns": {}
+    },
+    "70": {
+      "pretty_name": "2 Days",
+      "cui": "C1442455",
+      "type_ids": [
+        "T079"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "2 days",
+      "detected_name": "2~days",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 500,
+      "end": 506,
+      "icd10": [],
+      "ontologies": [
+        "MTH",
+        "HL7V2.5",
+        "LNC"
+      ],
+      "snomed": [],
+      "id": 70,
+      "meta_anns": {}
+    },
+    "74": {
+      "pretty_name": "Every Day",
+      "cui": "C0332173",
+      "type_ids": [
+        "T079"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "QD",
+      "detected_name": "qd",
+      "acc": 0.430436952104192,
+      "context_similarity": 0.430436952104192,
+      "start": 533,
+      "end": 535,
+      "icd10": [],
+      "ontologies": [
+        "CCPSS",
+        "SNOMEDCT_US",
+        "NCI_CADSR",
+        "SNMI",
+        "NCI_CDISC",
+        "RCD",
+        "LNC",
+        "MTH",
+        "NCI",
+        "HL7V3.0",
+        "CHV"
+      ],
+      "snomed": [],
+      "id": 74,
+      "meta_anns": {}
+    },
+    "76": {
+      "pretty_name": "Po 12",
+      "cui": "C1569564",
+      "type_ids": [
+        "T109",
+        "T121"
+      ],
+      "types": [
+        "",
+        ""
+      ],
+      "source_value": "PO 12",
+      "detected_name": "po~12",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 536,
+      "end": 541,
+      "icd10": [],
+      "ontologies": [
+        "MSH"
+      ],
+      "snomed": [],
+      "id": 76,
+      "meta_anns": {}
+    },
+    "82": {
+      "pretty_name": "Tnf Receptor Associated Factor 3 Protein Human",
+      "cui": "C1437911",
+      "type_ids": [
+        "T123",
+        "T116"
+      ],
+      "types": [
+        "",
+        ""
+      ],
+      "source_value": "cap 1",
+      "detected_name": "cap~1",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 572,
+      "end": 577,
+      "icd10": [],
+      "ontologies": [
+        "MTH",
+        "NCI",
+        "MSH"
+      ],
+      "snomed": [],
+      "id": 82,
+      "meta_anns": {}
+    },
+    "84": {
+      "pretty_name": "Every Day",
+      "cui": "C0332173",
+      "type_ids": [
+        "T079"
+      ],
+      "types": [
+        ""
+      ],
+      "source_value": "QD",
+      "detected_name": "qd",
+      "acc": 0.33141312775966286,
+      "context_similarity": 0.33141312775966286,
+      "start": 582,
+      "end": 584,
+      "icd10": [],
+      "ontologies": [
+        "CCPSS",
+        "SNOMEDCT_US",
+        "NCI_CADSR",
+        "SNMI",
+        "NCI_CDISC",
+        "RCD",
+        "LNC",
+        "MTH",
+        "NCI",
+        "HL7V3.0",
+        "CHV"
+      ],
+      "snomed": [],
+      "id": 84,
+      "meta_anns": {}
+    },
+    "86": {
+      "pretty_name": "Po 12",
+      "cui": "C1569564",
+      "type_ids": [
+        "T109",
+        "T121"
+      ],
+      "types": [
+        "",
+        ""
+      ],
+      "source_value": "PO 12",
+      "detected_name": "po~12",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 585,
+      "end": 590,
+      "icd10": [],
+      "ontologies": [
+        "MSH"
+      ],
+      "snomed": [],
+      "id": 86,
+      "meta_anns": {}
+    }
+  },
+  "tokens": []
+}

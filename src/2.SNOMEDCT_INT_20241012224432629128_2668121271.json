@@ -1,0 +1,529 @@
+{
+  "entities": {
+    "0": {
+      "pretty_name": "Family",
+      "cui": "35359004",
+      "type_ids": [
+        "13371933"
+      ],
+      "types": [
+        "social concept"
+      ],
+      "source_value": "Family",
+      "detected_name": "family",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 0,
+      "end": 6,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 0,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9948521256446838,
+          "name": "Status"
+        }
+      }
+    },
+    "1": {
+      "pretty_name": "History of (contextual qualifier)",
+      "cui": "392521001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "History",
+      "detected_name": "history",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 7,
+      "end": 14,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 1,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.998802900314331,
+          "name": "Status"
+        }
+      }
+    },
+    "2": {
+      "pretty_name": "Allergy to drug",
+      "cui": "416098002",
+      "type_ids": [
+        "67667581"
+      ],
+      "types": [
+        "finding"
+      ],
+      "source_value": "Medication Allergy",
+      "detected_name": "medication~allergy",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 32,
+      "end": 50,
+      "icd10": [
+        "Z88.9"
+      ],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 2,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9999901056289673,
+          "name": "Status"
+        }
+      }
+    },
+    "5": {
+      "pretty_name": "Unknown",
+      "cui": "261665006",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "unknown",
+      "detected_name": "unknown",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 85,
+      "end": 92,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 5,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.985506534576416,
+          "name": "Status"
+        }
+      }
+    },
+    "8": {
+      "pretty_name": "Biomedical device",
+      "cui": "63653004",
+      "type_ids": [
+        "32816260"
+      ],
+      "types": [
+        "physical object"
+      ],
+      "source_value": "Medical Device",
+      "detected_name": "medical~device",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 104,
+      "end": 118,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 8,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9999955892562866,
+          "name": "Status"
+        }
+      }
+    },
+    "12": {
+      "pretty_name": "Current medication as reported by patient",
+      "cui": "513881000000106",
+      "type_ids": [
+        "2680757"
+      ],
+      "types": [
+        "observable entity"
+      ],
+      "source_value": "Current Medication:",
+      "detected_name": "current~medication~:",
+      "acc": 1.0,
+      "context_similarity": 1.0,
+      "start": 152,
+      "end": 171,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 12,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9841189384460449,
+          "name": "Status"
+        }
+      }
+    },
+    "15": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.23690600788770705,
+      "context_similarity": 0.23690600788770705,
+      "start": 212,
+      "end": 216,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 15,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9994889497756958,
+          "name": "Status"
+        }
+      }
+    },
+    "16": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.24549896612661282,
+      "context_similarity": 0.24549896612661282,
+      "start": 254,
+      "end": 258,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 16,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9984329342842102,
+          "name": "Status"
+        }
+      }
+    },
+    "19": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.21382261907804156,
+      "context_similarity": 0.21382261907804156,
+      "start": 298,
+      "end": 302,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 19,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.757796585559845,
+          "name": "Status"
+        }
+      }
+    },
+    "21": {
+      "pretty_name": "Every twelve hours",
+      "cui": "307470009",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "Q12H",
+      "detected_name": "q12h",
+      "acc": 0.6820925106308283,
+      "context_similarity": 0.6820925106308283,
+      "start": 332,
+      "end": 336,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 21,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.970023512840271,
+          "name": "Status"
+        }
+      }
+    },
+    "22": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.21328866785998,
+      "context_similarity": 0.21328866785998,
+      "start": 342,
+      "end": 346,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 22,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9999420642852783,
+          "name": "Status"
+        }
+      }
+    },
+    "23": {
+      "pretty_name": "Four times daily",
+      "cui": "307439001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "QID",
+      "detected_name": "qid",
+      "acc": 0.6413531995179972,
+      "context_similarity": 0.6413531995179972,
+      "start": 371,
+      "end": 374,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 23,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9995662569999695,
+          "name": "Status"
+        }
+      }
+    },
+    "24": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.23319132214812407,
+      "context_similarity": 0.23319132214812407,
+      "start": 380,
+      "end": 384,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 24,
+      "meta_anns": {
+        "Status": {
+          "value": "Other",
+          "confidence": 0.9999420642852783,
+          "name": "Status"
+        }
+      }
+    },
+    "26": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.21066109422143625,
+      "context_similarity": 0.21066109422143625,
+      "start": 422,
+      "end": 426,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 26,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9984329342842102,
+          "name": "Status"
+        }
+      }
+    },
+    "28": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.24737932605856927,
+      "context_similarity": 0.24737932605856927,
+      "start": 463,
+      "end": 467,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 28,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9959636926651001,
+          "name": "Status"
+        }
+      }
+    },
+    "29": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.2731964772654517,
+      "context_similarity": 0.2731964772654517,
+      "start": 502,
+      "end": 506,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 29,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9959636926651001,
+          "name": "Status"
+        }
+      }
+    },
+    "30": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.27836500739302517,
+      "context_similarity": 0.27836500739302517,
+      "start": 542,
+      "end": 546,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 30,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9959636926651001,
+          "name": "Status"
+        }
+      }
+    },
+    "31": {
+      "pretty_name": "day (qualifier value)",
+      "cui": "258703001",
+      "type_ids": [
+        "7882689"
+      ],
+      "types": [
+        "qualifier value"
+      ],
+      "source_value": "days",
+      "detected_name": "days",
+      "acc": 0.27059124220854236,
+      "context_similarity": 0.27059124220854236,
+      "start": 591,
+      "end": 595,
+      "icd10": [],
+      "ontologies": [
+        "SNOMED-CT"
+      ],
+      "snomed": [],
+      "id": 31,
+      "meta_anns": {
+        "Status": {
+          "value": "Affirmed",
+          "confidence": 0.9959636926651001,
+          "name": "Status"
+        }
+      }
+    }
+  },
+  "tokens": []
+}

@@ -396,7 +396,7 @@ def process_medical_text(task_id, sqe, type, file_path):
             print(
                 f"{Fore.YELLOW}{NEWLINE.join(lines[:5])}{f' [... {len(lines)} 行]' if len(lines) > 5 else ''}{Style.RESET_ALL}"
             )
-            print(f"{Fore.WHITE}LLM_Try({try_index}/{total_retry}) sqe {sqe}: {i+1}/{len(split_content)} 正在透過LLM抓取...{Style.RESET_ALL}", end="", flush=True)
+            print(f"{Fore.WHITE}LLM_Try({try_index+1}/{total_retry}) sqe {sqe}: {i+1}/{len(split_content)} 正在透過LLM抓取...{Style.RESET_ALL}", end="", flush=True)
             llm_extract_start_time = time.time()
 
             # 呼叫 OpenAI API 進行處理
@@ -446,6 +446,7 @@ output:
                     }
                 ],
                 temperature=0.5,
+                max_completion_tokens=16383,
                 response_format={"type": "json_object"}
             )
 
