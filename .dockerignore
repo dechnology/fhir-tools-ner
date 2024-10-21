@@ -1,0 +1,9 @@
+# normal
+.git
+__pycache__
+venv
+*.pyc
+*.pyo
+
+# models
+models/*

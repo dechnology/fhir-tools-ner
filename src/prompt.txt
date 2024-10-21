@@ -44,6 +44,8 @@ chunking the user context, giving the JSON output, ex:
   ]
 }
 
+C0013182\|.+?\|+SNOMEDCT_US\|
+
 
 SNOMEDCT_US\|.+?\|+25064002\|
 

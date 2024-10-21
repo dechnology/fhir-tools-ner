@@ -1,0 +1,44 @@
+version: '3'
+services:
+  flask_app:
+    build: .
+    mem_limit: 16g
+    ports:
+      - "62593:62593"
+    volumes:
+      - .:/app
+      - ./models:/app/models
+    working_dir: /app/src
+    command: python app.py
+    env_file:
+      - .env
+    depends_on:
+      - redis
+
+  celery_worker:
+    build: .
+    mem_limit: 16g
+    volumes:
+      - .:/app
+      - ./models:/app/models
+    working_dir: /app/src
+    command: python -m celery -A app.celery worker --loglevel=info --pool=solo
+    env_file:
+      - .env
+    depends_on:
+      - redis
+
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/app/redis_data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  redis_data:

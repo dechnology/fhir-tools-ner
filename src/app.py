@@ -49,13 +49,9 @@ class ContextTask(TaskBase):
 
 celery.Task = ContextTask
 
-@celery.task
-def process_medical_records_task(file_path, sqe_list=None):
-    process_medical_records(file_path, sqe_list)
-
 @celery.task(bind=True)
-def process_medical_text_task(self, sqe, type, file_path):
-    process_medical_text(self.request.id, sqe, type, file_path)
+def process_medical_text_task(self, file_id, sqe, type, file_path):
+    process_medical_text(self.request.id, file_id, sqe, type, file_path)
 
 # ===== Redis with persistence configuration =====
 r = redis.Redis(host='localhost', port=6379, db=0)
@@ -83,189 +79,18 @@ print(umls_df.head())
 model_loaded_time = time.time()
 print(f"{Fore.GREEN} done. ({model_loaded_time - import_time:.2f} sec){Style.RESET_ALL}")
 
-# 定義 Pydantic 模型結構（若需要，可以保留）
-class SNOMED_CT(BaseModel):
-    raw_text_as_clues: list[str]
-    implies_concepts_FSN: list[str]
-    id: str
-
-class LOINC(BaseModel):
-    raw_text_as_clues: list[str]
-    implies_concepts_FSN: list[str]
-    id: str
-
-class RxNorm(BaseModel):
-    raw_text_as_clues: list[str]
-    implies_concepts_FSN: list[str]
-    id: str
-
-class JSONStructure(BaseModel):
-    SNOMED_CT: list[SNOMED_CT]
-    LOINC: list[LOINC]
-    RxNorm: list[RxNorm]
-
 # 初始化 OpenAI 客戶端（建議使用環境變數來存放 API 金鑰）
-openai_api_key = os.getenv("OPENAI_API_KEY", "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")
+openai_api_key = os.getenv("OPENAI_API_KEY")
 if not openai_api_key:
     raise ValueError("請設定 OPENAI_API_KEY 環境變數")
 client = OpenAI(api_key=openai_api_key)
 
 
 # 封裝從第 1 步開始的邏輯為函式
-def process_medical_records(file_path, sqe_list=None):
+def process_medical_text(task_id, file_id, sqe, type, file_path):
     global r
     
-    """
-    處理醫學紀錄的主要函式。
-
-    參數：
-    - file_path: 上傳的檔案路徑
-    - sqe_list: 選填，指定要處理的行序號列表
-    """
-    start_time = time.time()
-    # 取得檔案名稱和副檔名
-    file_name = os.path.basename(file_path)
-    file_base_name = file_name[:file_name.rfind(".")]
-    file_ext = file_name[file_name.rfind(".")+1:]
-
-    # 讀取 Excel 檔案
-    df = pd.read_excel(file_path)
-    print(df.head())
-
-    # 逐行處理每個病患的紀錄
-    for index, row in df.iterrows():
-        if sqe_list and index not in sqe_list:
-            continue  # 如果有提供 sqe_list，則只處理指定的行
-
-        sqe_start_time = time.time()
-        sqe = row['sqe']
-
-        # 第 1 步：預處理
-        # 將每個病患的紀錄儲存為一個文字檔
-        raw_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.txt"
-        with open(raw_txt_path, "w") as file:
-            print(row)
-            file.write(
-                f"**********急診去辨識病歷**********\n\n{row['急診去辨識病歷']}\n\n"
-                f"**********住院去辨識病歷**********\n\n{row['住院去辨識病歷']}\n\n"
-                f"**********檢驗紀錄**********\n\n{row['檢驗紀錄']}"
-            )
-        print("Step1 done")
-
-        # 第 2 步：LLM 精煉
-        # 讀取內容並拆分
-        with open(raw_txt_path, "r") as file:
-            content = file.read()
-
-        split_content = content.split("\n\n")
-        standardized_content = ""
-
-        for i, segment in enumerate(split_content):
-            # 顯示預覽
-            lines = segment.splitlines()
-            print(
-                f"{Fore.YELLOW}{NEWLINE.join(lines[:5])}{f' [... {len(lines)} 行]' if len(lines) > 5 else ''}{Style.RESET_ALL}"
-            )
-            print(f"{Fore.WHITE}sqe {sqe}: {i+1}/{len(split_content)} 正在精煉...{Style.RESET_ALL}", end="", flush=True)
-            seqment_start_time = time.time()
-
-            # 呼叫 OpenAI API 進行處理
-            standardization_completion = client.chat.completions.create(
-                model="gpt-4o-2024-08-06",
-                messages=[
-                    {
-                        "role": "system",
-                        "content": (
-                            "將使用者的內容翻譯成英文並執行標準化、精煉、以及縮寫展開（詞展開）。對於狀態詞後的實體，確保狀態詞適用於後續的每個實體。"
-                        )
-                    },
-                    {"role": "user", "content": segment}
-                ]
-            )
-
-            seqment_end_time = time.time()
-            print(f"{Fore.WHITE} 完成。({round(seqment_end_time - seqment_start_time, 2)} sec)\n{Style.RESET_ALL}")
-            # 合併所有段落
-            standardized_content += standardization_completion.choices[0].message.content
-
-        # 儲存標準化後的內容
-        polishing_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.txt"
-        with open(polishing_txt_path, "w") as file:
-            file.write(standardized_content)
-        preprocess_time = time.time()
-        print(f"{Fore.GREEN}sqe {sqe} 精煉時間: {round(preprocess_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
-
-        # 第 3 步：語言學擷取（MedCAT）
-        entities = cat.get_entities(standardized_content)
-        print(1)
-        # 儲存實體為 JSON 檔案
-        medcat_json_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.MedCAT.json"
-        print(2)
-        with open(medcat_json_path, "w") as json_file:
-            print(3)
-            json.dump(entities, json_file, indent=2)
-        print(4)
-        linguistic_extraction_time = time.time()
-        print(f"{Fore.GREEN}sqe {sqe} 語言學擷取時間: {round(linguistic_extraction_time - preprocess_time, 2)} sec{Style.RESET_ALL}")
-
-        # 第 4 步：醫學規範化
-        output_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.output.txt"
-        with open(output_txt_path, "w") as file:
-            file.write("index|chunk|cui|source|code|string\n")
-            entity_list = entities['entities']
-            index_now = 0
-            for key, entity in entity_list.items():
-                cui_str = entity.get('cui', NONE_SYMBOL)
-                sab_str = NONE_SYMBOL
-                code_str = NONE_SYMBOL
-                # 從 UMLS 資料集中取得詳細資訊
-                cui_df = umls_df[umls_df['SCUI'] == cui_str]
-                preferred_df = cui_df[cui_df['ISPREF'] == 'Y']
-                if not preferred_df.empty:
-                    target_df = preferred_df[preferred_df['TTY'] == 'PT']
-                    if target_df.empty:
-                        target_df = preferred_df[preferred_df['TTY'] == 'FN']
-                else:
-                    target_df = cui_df
-                if not target_df.empty:
-                    cui_str = target_df.iloc[0]['CUI']
-                    sab_str = target_df.iloc[0]['SAB']
-                    code_str = target_df.iloc[0]['CODE']
-                else:
-                    sab_str = "<LOST>"
-                    code_str = "<LOST>"
-                # 寫入檔案
-                if entity.get('start') > index_now:
-                    file.write(f"{index_now}|{standardized_content[index_now:entity.get('start')].replace(NEWLINE, '<NEW_LINE>')}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}{NEWLINE}")
-                file.write(f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}{NEWLINE}")
-                index_now = entity.get('end')
-
-        medical_normalization_time = time.time()
-        print(f"{Fore.GREEN}sqe {sqe} 醫學規範化時間: {round(medical_normalization_time - linguistic_extraction_time, 2)} sec{Style.RESET_ALL}")
-        sqe_end_time = time.time()
-        print(f"{Fore.BLUE}sqe {sqe} 總時間: {round(sqe_end_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
-
-        # 把整份output.txt檔案傳送到指定的API
-        with open(output_txt_path, "r") as file:
-            content = file.read()
-            url = "http://35.229.136.14:8090/contentListener"
-            headers = {
-                'Content-Type': 'application/json'
-            }
-            response = requests.request("POST", url, headers=headers, data=content)
-
-        # 如果只想處理一筆記錄，可以在此處加入 break
-        # break
-
-    end_time = time.time()
-    print(f"總處理時間: {round(end_time - start_time, 2)} sec")
-
-
-# 封裝從第 1 步開始的邏輯為函式
-def process_medical_text(task_id, sqe, type, file_path):
-    global r
-    
-    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'running')
+    r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'running')
     sqe_start_time = time.time()
 
     # 第 1 步：預處理
@@ -288,7 +113,7 @@ def process_medical_text(task_id, sqe, type, file_path):
         print(
             f"{Fore.YELLOW}{NEWLINE.join(lines[:5])}{f' [... {len(lines)} 行]' if len(lines) > 5 else ''}{Style.RESET_ALL}"
         )
-        print(f"{Fore.WHITE}sqe {sqe}: {i+1}/{len(split_content)} 正在精煉...{Style.RESET_ALL}", end="", flush=True)
+        print(f"{Fore.WHITE}file_id {file_id} sqe {sqe}: {i+1}/{len(split_content)} 正在精煉...{Style.RESET_ALL}", end="", flush=True)
         seqment_start_time = time.time()
 
         # 呼叫 OpenAI API 進行處理
@@ -311,28 +136,29 @@ def process_medical_text(task_id, sqe, type, file_path):
         standardized_content += standardization_completion.choices[0].message.content
 
     # 儲存標準化後的內容
-    polishing_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.txt"
+    polishing_txt_path = f"../data/pipe_result/{file_base_name}.raw.polishing.txt"
     with open(polishing_txt_path, "w") as file:
         file.write(standardized_content)
     preprocess_time = time.time()
-    print(f"{Fore.GREEN}sqe {sqe} 精煉時間: {round(preprocess_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
-    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'polished')
-    latest_task_id = r.hget(f'latest_sqe:{sqe}-{type}', 'task_id').decode('utf-8')
+    print(f"{Fore.GREEN}file_id {file_id} sqe {sqe} 精煉時間: {round(preprocess_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
+    r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'polished')
+    latest_task_id = r.hget(f'latest_sqe:{file_id}-{sqe}-{type}', 'task_id').decode('utf-8')
     if task_id == latest_task_id:
-        r.hset(f'latest_sqe:{sqe}-{type}', 'filepath_polish', polishing_txt_path)
+        r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'filepath_polish', polishing_txt_path)
 
     # 第 3 步：語言學擷取（MedCAT）
+    ref_data = ""
     entities = cat.get_entities(standardized_content)
     # 儲存實體為 JSON 檔案
-    medcat_json_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.MedCAT.json"
+    medcat_json_path = f"../data/pipe_result/{file_base_name}.raw.polishing.MedCAT.json"
     with open(medcat_json_path, "w") as json_file:
         json.dump(entities, json_file, indent=2)
     linguistic_extraction_time = time.time()
-    print(f"{Fore.GREEN}sqe {sqe} 語言學擷取時間: {round(linguistic_extraction_time - preprocess_time, 2)} sec{Style.RESET_ALL}")
-    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'extracted')
+    print(f"{Fore.GREEN}file_id {file_id} sqe {sqe} 語言學擷取時間: {round(linguistic_extraction_time - preprocess_time, 2)} sec{Style.RESET_ALL}")
+    r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'extracted')
 
     # 第 4 步：醫學規範化
-    output_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.output.txt"
+    output_txt_path = f"../data/pipe_result/{file_base_name}.raw.polishing.output.txt"
     with open(output_txt_path, "w") as file:
         file.write("index|chunk|cui|source|code|string|acc\n")
         entity_list = entities['entities']
@@ -361,16 +187,17 @@ def process_medical_text(task_id, sqe, type, file_path):
             if entity.get('start') > index_now:
                 file.write(f"{index_now}|{standardized_content[index_now:entity.get('start')].replace(NEWLINE, '<NEW_LINE>')}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}{NEWLINE}")
             file.write(f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}|{entity.get('acc', NONE_SYMBOL)}{NEWLINE}")
+            # ref_data += f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}|{entity.get('acc', NONE_SYMBOL)}{NEWLINE}"
             index_now = entity.get('end')
         # 有可能最後一個entity的end不是content的結尾
         if index_now < len(standardized_content):
             file.write(f"{index_now}|{standardized_content[index_now:].replace(NEWLINE, '<NEW_LINE>')}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}{NEWLINE}")
 
     medical_normalization_time = time.time()
-    print(f"{Fore.GREEN}sqe {sqe} 醫學規範化時間: {round(medical_normalization_time - linguistic_extraction_time, 2)} sec{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}file_id {file_id} sqe {sqe} 醫學規範化時間: {round(medical_normalization_time - linguistic_extraction_time, 2)} sec{Style.RESET_ALL}")
     sqe_end_time = time.time()
-    print(f"{Fore.BLUE}sqe {sqe} 總時間: {round(sqe_end_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
-    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'normalized')
+    print(f"{Fore.BLUE}file_id {file_id} sqe {sqe} 總時間: {round(sqe_end_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
+    r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'normalized')
 
 
 
@@ -396,7 +223,7 @@ def process_medical_text(task_id, sqe, type, file_path):
             print(
                 f"{Fore.YELLOW}{NEWLINE.join(lines[:5])}{f' [... {len(lines)} 行]' if len(lines) > 5 else ''}{Style.RESET_ALL}"
             )
-            print(f"{Fore.WHITE}LLM_Try({try_index+1}/{total_retry}) sqe {sqe}: {i+1}/{len(split_content)} 正在透過LLM抓取...{Style.RESET_ALL}", end="", flush=True)
+            print(f"{Fore.WHITE}file_id {file_id} sqe {sqe}: {i+1}/{len(split_content)} LLM_Try({try_index+1}/{total_retry}) 正在透過LLM抓取...{Style.RESET_ALL}", end="", flush=True)
             llm_extract_start_time = time.time()
 
             # 呼叫 OpenAI API 進行處理
@@ -428,6 +255,22 @@ def process_medical_text(task_id, sqe, type, file_path):
 #                 ],
 
                 # 組長的prompt
+#                 messages=[
+#                     {
+#                         "role": "user",
+#                         "content": (
+#                             """你是一個醫學專家，請根據下面文本內容，標示出snomed ct, loinc, rxnorm code id 與其full name, 輸出格式為JSON list並且包含code id, id's code name 與文本內容出現的起始和結束位置。如果沒有code id就不用輸出。
+# **demonstration**
+
+# input:"A 22-year-old man was otherwise healthy and denied any systemic disease. The patient had progressive floaters in his right eye for 3-4 days, and photopsia was noted for 2 days. He visited LMD and RD was diagnosed. He then visited 馬偕hospital and was referred to NTUH. This time, he was admitted for surgical intervention\nOphtho history: OP (-) see above, Trauma (-)\nPast history: DM(-), HTN(-), CAD(-), Asthma (-)\nAllergy: nil\nFamily history: no hereditary ocular disease\nCurrent Medication:\nNTUH:Nil\nOther:nil\n中草藥:nil\n保健食品:nil\nTravel: nil\n身體診查(Physical Examination)\n入院時之身體檢查(Physical Examination at admission)\nBH: 164 cm, BW: 48 kg,\nT: 36.4 °C, P: 77 bpm, R: 17 /min,\nBP: 133 / 96 mmHg,\nPain score: 3 ,\n處方籤: Kineret 100 MG/0.67 ML"
+
+# output:
+# {"entities":[{"source":"SNOMEDCT","code_id":"248536006","code_name":"Photopsia","start_position":98,"end_position":106},{"source":"SNOMEDCT","code_id":"80394007","code_name":"Retinal detachment","start_position":141,"end_position":143},{"source":"SNOMEDCT","code_id":"73211009","code_name":"Asthma","start_position":314,"end_position":320},{"source":"LOINC","code_id":"8310-5","code_name":"Body temperature","start_position":602,"end_position":611},{"source":"LOINC","code_id":"8867-4","code_name":"Heart rate","start_position":617,"end_position":623},{"source":"LOINC","code_id":"9279-1","code_name":"Respiratory rate","start_position":628,"end_position":640},{"source":"LOINC","code_id":"8480-6","code_name":"Systolic blood pressure","start_position":646,"end_position":648},{"source":"LOINC","code_id":"8462-4","code_name":"Diastolic blood pressure","start_position":651,"end_position":653},{"source":"RXNORM","code_id":"349325","code_name":"Anakinra 100 MG/ML [Kineret]","start_position":696,"end_position":715}]}
+# """ + f"參考資料\n{ref_data}\n\n" + """以下是文本內容：
+# """ + segment
+#                         )
+#                     }
+#                 ],
                 messages=[
                     {
                         "role": "user",
@@ -453,8 +296,8 @@ output:
             llm_extract_end_time = time.time()
             print(f"{Fore.WHITE} 完成。({round(llm_extract_end_time - llm_extract_start_time, 2)} sec)\n{Style.RESET_ALL}")
             # 以concept id當key，統計出現次數
-            # 1. 對llm_extract_completion.choices[0].message.content進行json解碼
-            # 2. 以result中每個entity元素的id這個key進行次數統計，輸出到id_count_dict
+            # count-1. 對llm_extract_completion.choices[0].message.content進行json解碼
+            # count-2. 以result中每個entity元素的id這個key進行次數統計，輸出到id_count_dict
             llm_extract_json = json.loads(llm_extract_completion.choices[0].message.content)
             # print(llm_extract_json)
 
@@ -508,19 +351,19 @@ output:
     tmp_entities = [{"source":v["source"], "code":v["code"], "code_name":v["code_name"], "confidence":v["confidence"], "count":v["count"]} for k,v in id_count_dict.items()]
     llm_extract_json = {"entities":tmp_entities}
 
-    # 3. 輸出id_count_dict結果
-    llmExtract_txt_path = f"../data/pipe_result/{file_base_name}_{sqe}.raw.polishing.llmExtract.txt"
+    # count-3. 輸出id_count_dict結果
+    llmExtract_txt_path = f"../data/pipe_result/{file_base_name}.raw.polishing.llmExtract.txt"
     with open(llmExtract_txt_path, "w") as file:
         # 原始prompt對應的輸出方式
         # file.write(json.dumps(id_count_dict, indent=4))
         # 組長prompt對應的輸出方式
         file.write(json.dumps(llm_extract_json, indent=4))
     llm_extract_time = time.time()
-    print(f"{Fore.GREEN}sqe {sqe} LLM抓取時間: {round(llm_extract_time - sqe_end_time, 2)} sec{Style.RESET_ALL}")
-    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'llm_extracted')
-    latest_task_id = r.hget(f'latest_sqe:{sqe}-{type}', 'task_id').decode('utf-8')
+    print(f"{Fore.GREEN}file_id {file_id} sqe {sqe} LLM抓取時間: {round(llm_extract_time - sqe_end_time, 2)} sec{Style.RESET_ALL}")
+    r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'llm_extracted')
+    latest_task_id = r.hget(f'latest_sqe:{file_id}-{sqe}-{type}', 'task_id').decode('utf-8')
     if task_id == latest_task_id:
-        r.hset(f'latest_sqe:{sqe}-{type}', 'filepath_llmExtract', llmExtract_txt_path)
+        r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'filepath_llmExtract', llmExtract_txt_path)
 
     # 把整份output.txt檔案傳送到指定的API
     with open(llmExtract_txt_path, "r") as file:
@@ -529,18 +372,21 @@ output:
         if type == "Full":
             headers = {
                 'Content-Type': 'application/json',
+                'file_id': file_id,
                 'uid': sqe,
                 'type': 'A'
             }
             response = requests.request("POST", url, headers=headers, data=content)
             headers = {
                 'Content-Type': 'application/json',
+                'file_id': file_id,
                 'uid': sqe,
                 'type': 'B'
             }
             response = requests.request("POST", url, headers=headers, data=content)
             headers = {
                 'Content-Type': 'application/json',
+                'file_id': file_id,
                 'uid': sqe,
                 'type': 'C'
             }
@@ -553,49 +399,20 @@ output:
                 }
             headers = {
                 'Content-Type': 'application/json',
+                'file_id': file_id,
                 'uid': sqe,
                 'type': type_mapping[type]
             }
             response = requests.request("POST", url, headers=headers, data=content)
 
-    r.hset(f'sqe:{sqe}-{type}-{task_id}', 'status', 'uploaded')
+    r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'uploaded')
     # get latest task_id
-    latest_task_id = r.hget(f'latest_sqe:{sqe}-{type}', 'task_id').decode('utf-8')
+    latest_task_id = r.hget(f'latest_sqe:{file_id}-{sqe}-{type}', 'task_id').decode('utf-8')
+    print(f"latest_task_id: {latest_task_id}")
+    print(f"task_id: {task_id}")
     if task_id == latest_task_id:
-        r.hset(f'latest_sqe:{sqe}-{type}', 'filepath_output', output_txt_path)
-        r.hset(f'latest_sqe:{sqe}-{type}', 'status', "uploaded")
-
-
-# 修改 Flask 應用程式的 xml_ner 路由，呼叫上述函式
-@app.route('/xlsx_ner', methods=['POST'])
-def xlsx_ner():
-    global r
-    
-    if 'file' not in request.files:
-        return jsonify({"error": "請求中沒有檔案部分"}), 400
-
-    file = request.files['file']
-
-    if file.filename == '':
-        return jsonify({"error": "未選擇檔案"}), 400
-
-    # 儲存檔案到指定目錄
-    timestamp = datetime.now().strftime('%Y%m%d%H%M%S%f')
-    random_string = uuid.uuid4().hex
-    secure_filename = f"{timestamp}_{file.filename}_{random_string}"
-    file_path = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename)
-    file.save(file_path)
-
-    # 呼叫處理函式
-    try:
-        # 呼叫 Celery 任務
-        task = process_medical_records_task.delay(file_path)
-        # process_medical_records(file_path)
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-    return jsonify({"message": "檔案已接收，正在處理", "task_id": task.id}), 202
-    # return jsonify({"message": "檔案處理成功", "filename": secure_filename}), 200
+        r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'filepath_output', output_txt_path)
+        r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'status', "uploaded")
 
 
 @app.route('/txt_ner_status', methods=['POST'])
@@ -650,6 +467,8 @@ def txt_ner():
     # 檢查medical_text是否存在或為空
     if not data:
         return jsonify({"error": "請求中沒有內容"}), 400
+    if 'file_id' not in data or not data['file_id']:
+        return jsonify({"error": "病例檔案ID為空"}), 400
     if 'sqe' not in data or not data['sqe']:
         return jsonify({"error": "病例序號為空"}), 400
     if 'type' in data and data['type'] not in list(type_mapping.keys()):
@@ -666,8 +485,8 @@ def txt_ner():
 
     # 儲存檔案到指定目錄
     timestamp = datetime.now().strftime('%Y%m%d%H%M%S%f')
-    random_string = uuid.uuid4().hex
-    secure_filename = f'{timestamp}_medical_text_{data["sqe"]}_{type_str}_{random_string}.raw.txt'
+    random_string = uuid.uuid4().hex[:4]
+    secure_filename = f'{timestamp}_medical_text_{data["file_id"]}_{data["sqe"]}_{type_str}_{random_string}.raw.txt'
     file_path = os.path.join(app.config['PIPE_FOLDER'], secure_filename)
     with open(file_path, "w") as file:
         file.write(data['text'])
@@ -678,11 +497,11 @@ def txt_ner():
         keys = []
         if type_str == "Full":
             for tmp_type_str in type_mapping.values():
-                keys.extend(r.keys(f'sqe:{data["sqe"]}-{tmp_type_str}-*'))
+                keys.extend(r.keys(f'sqe:{data["file_id"]}-{data["sqe"]}-{tmp_type_str}-*'))
         else:
-            keys.extend(r.keys(f'sqe:{data["sqe"]}-{type_str}-*'))
+            keys.extend(r.keys(f'sqe:{data["file_id"]}-{data["sqe"]}-{type_str}-*'))
         if keys:
-            # f'sqe:{data["sqe"]}-{type_str}-*')中的星號部分就是task.id，終止這些任務
+            # f'sqe:{data["file_id"]}-{data["sqe"]}-{type_str}-*')中的星號部分就是task.id，終止這些任務
             for key in keys:
                 # task_id像這樣：dbf2873c-89f4-4217-8107-4dc7edc08bee
                 task_id = "-".join(key.decode().split("-")[-5:])
@@ -692,19 +511,19 @@ def txt_ner():
             r.delete(*keys)
             print(f"Deleted {len(keys)} keys.")
         # 呼叫 Celery 任務
-        task = process_medical_text_task.delay(data['sqe'], type_str, file_path)
+        task = process_medical_text_task.delay(data['file_id'], data['sqe'], type_str, file_path)
         # process_medical_text(file_path)
         # TODO: 這裡會有race condition，基本上沒辦法確定最新的task一定會是最新的
         if type_str == "Full":
             for type_str in type_mapping.values():
-                r.hset(f'sqe:{data["sqe"]}-{type_str}-{task.id}', 'status', 'queued')
-                r.hset(f'latest_sqe:{data["sqe"]}-{type_str}', 'task_id', task.id)
-                r.hset(f'latest_sqe:{data["sqe"]}-{type_str}', 'status', 'processing')
+                r.hset(f'sqe:{data["file_id"]}-{data["sqe"]}-{type_str}-{task.id}', 'status', 'queued')
+                r.hset(f'latest_sqe:{data["file_id"]}-{data["sqe"]}-{type_str}', 'task_id', task.id)
+                r.hset(f'latest_sqe:{data["file_id"]}-{data["sqe"]}-{type_str}', 'status', 'processing')
         else:
-            r.hset(f'sqe:{data["sqe"]}-{type_str}-{task.id}', 'status', 'queued')
-            r.hset(f'latest_sqe:{data["sqe"]}-{type_str}', 'task_id', task.id)
-            r.hset(f'latest_sqe:{data["sqe"]}-{type_str}', 'filepath_raw', file_path)
-            r.hset(f'latest_sqe:{data["sqe"]}-{type_str}', 'status', 'processing')
+            r.hset(f'sqe:{data["file_id"]}-{data["sqe"]}-{type_str}-{task.id}', 'status', 'queued')
+            r.hset(f'latest_sqe:{data["file_id"]}-{data["sqe"]}-{type_str}', 'task_id', task.id)
+            r.hset(f'latest_sqe:{data["file_id"]}-{data["sqe"]}-{type_str}', 'filepath_raw', file_path)
+            r.hset(f'latest_sqe:{data["file_id"]}-{data["sqe"]}-{type_str}', 'status', 'processing')
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -759,7 +578,8 @@ def txt_ner_list():
     # 3. 回傳JSON
     unique_sqe = set()
     for key in unit_uploaded_keys:
-        sqe = key.split(":")[-1].split("-")[0]
+        file_id = key.split(":")[-1].split("-")[0]
+        sqe = key.split(":")[-1].split("-")[1]
         unique_sqe.add(sqe)
     records = []
     for sqe in unique_sqe:
@@ -767,15 +587,15 @@ def txt_ner_list():
         text = ""
         all_exist = True
         for type_str in ["ER", "HR", "LR"]:
-            key = f'latest_sqe:{sqe}-{type_str}'
+            key = f'latest_sqe:{file_id}-{sqe}-{type_str}'
             if key not in unit_uploaded_keys:
                 all_exist = False
                 break
         if all_exist:
             status = "uploaded"
             for type_str in ["ER", "HR", "LR"]:
-                key = f'latest_sqe:{sqe}-{type_str}'
-                filepath = r.hget(key, 'filepath_polish')
+                key = f'latest_sqe:{file_id}-{sqe}-{type_str}'
+                filepath = r.hget(key, 'filepath_raw')
                 if filepath is not None:
                     filepath = filepath.decode('utf-8')
                 else:
@@ -786,7 +606,7 @@ def txt_ner_list():
                     text += file.read()
                     text += "\n\n\n\n\n\n\n\n"
         records.append({
-            "sqe": sqe,
+            "sqe": f'{file_id}-{sqe}',
             "status": status,
             "text": text
         })
@@ -846,6 +666,8 @@ def txt_ner_result():
     base_ind = 0
     for type_str in ["ER", "HR", "LR"]:
         key = f'latest_sqe:{sqe}-{type_str}'
+        print(key)
+        print(r.hget(key, 'filepath_output'))
         filepath = r.hget(key, 'filepath_output').decode('utf-8')
         last_ind = 0
         last_chunk = ""
