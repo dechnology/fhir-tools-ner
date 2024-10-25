@@ -1,3 +1,4 @@
+===== 組長 v1.0 =====
 你是一個醫學專家，請根據下面文本內容，標示出snomed ct, loinc, rxnorm code id 與其full name, 輸出格式為JSON list並且包含code id, id's code name 與文本內容出現的起始和結束位置。如果沒有code id就不用輸出。
 **demonstration**
 
@@ -22,3 +23,69 @@ Rhegmatogenous retinal detachment from 12 to 8 oclock, retinal break at 11 ocloc
 After operation, there is still some subretinal fluid. The break is indented by buckling and surrounding by cryotherapy. Additional focal laser was applied in both eyes. On post-operative day 5, the retina was attached. He was then discharged under stable condition.
 住院用藥摘要:
 Gentamicin Sulfate, Acetaminophen, Magnesium Oxide, Sennoside A+B, Diazepam, Betamethasone Sodium Phosphate, Triamcinolone Acetonide, Tetracycline HCl, Atropine Sulfate, Betamethasone Sodium Phosphate, Gentamicin Sulfate
+
+===== 組長 v2.0 =====
+你是一個醫學專家，請根據下面文本內容，標示出SNOMED CT International (SNOMEDCT_US), RxNorm (RXNORM), LOINC(LNC) 三類的code id 與其full name，並附加code與適合用來對各來源進行搜尋的關鍵詞，結果以JSON輸出
+**demonstration**
+
+input:
+檢傷內容\nFever (R50.9)\n判定依據: 發燒/畏寒 發燒，看起來有病容\n檢驗結果: CRP: 25 mg/L\n處方籤: Kineret 100 MG/0.67 ML
+
+output:
+{
+  "result": [
+    {"non-entity": "檢傷內容\n"},
+    {
+      "clue": "Fever (R50.9)\n",
+      "concept": "Fever, unspecified",
+      "vocabulary": "SNOMEDCT_US",
+      "search": {
+        "Concept_Name": ["Fever"],
+        "Descriptions": ["unspecified"],
+        "Attributes": [],
+        "Relationships": []
+      }
+    },
+    {"non-entity": "判定依據: "},
+    {
+      "clue": "發燒/畏寒 發燒，看起來有病容\n",
+      "concept": "Fever with chills (finding)",
+      "vocabulary": "SNOMEDCT_US",
+      "search": {
+        "Concept_Name": ["Fever", "chills"],
+        "Descriptions": ["finding"],
+        "Attributes": [],
+        "Relationships": []
+      }
+    },
+    {"non-entity": "檢驗結果: "},
+    {
+      "clue": "CRP: 25 mg/L\n",
+      "concept": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "vocabulary": "LNC",
+      "search": {
+        "Component": ["C reactive protein", "CRP"],
+        "Property": ["Mass/volume", "Concentration"],
+        "System": ["Serum", "Plasma"],
+        "Time_Aspect": ["Point in time", "Pt"],
+        "Scale/Method": ["Quantitative", "Qn"]
+      },
+      "value": "25",
+      "unit": "mg/L"
+    },
+    {"non-entity": "處方籤: "},
+    {
+      "clue": "Kineret 100 MG/0.67 ML",
+      "concept": "Kineret 100 MG in 0.67 ML Prefilled Syringe",
+      "vocabulary": "RXNORM",
+      "search": {
+        "Ingredient": ["Kineret"],
+        "Strength/Dose": ["100 MG"],
+        "Dosage_Form": ["Prefilled Syringe"],
+        "Route_of_Administration": [],
+        "Frequency_and_Duration": [],
+        "Brand_Name": ["Kineret"]
+      }
+    }
+  ]
+}

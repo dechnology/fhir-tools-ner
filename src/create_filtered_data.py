@@ -69,14 +69,14 @@ with open('../data/dict/MRCONSO.RRF', 'r') as f:
         handle_count += 1
         columns = line.split('|')
         # 只处理符合条件的行
-        if columns[1] == 'ENG' and columns[2] == 'P' and columns[11] in ['SNOMEDCT_US'] and columns[12] in ['PT']:
+        if columns[1] == 'ENG' and columns[11] in ['SNOMEDCT_US']:
             count += 1
             current_line_count += 1  # 计数当前文件中的有效行
             if columns[11] == 'SNOMEDCT_US':
                 count_SNOMEDCT_US += 1
 
             NEW_LINE = "\n"
-            line_content = f"{columns[0]}|{columns[13]}|{columns[14]}{NEW_LINE}"
+            line_content = f"{columns[0]}|{columns[12]}|{columns[13]}|{columns[14]}{NEW_LINE}"
             fo.write(line_content)
             
             # 每500行或达到文件大小限制时，换一个文件
@@ -114,7 +114,7 @@ with open('../data/dict/MRCONSO.RRF', 'r') as f:
         handle_count += 1
         columns = line.split('|')
         # 只处理符合条件的行
-        if columns[1] == 'ENG' and columns[2] == 'P' and columns[11] in ['RXNORM']:
+        if columns[1] == 'ENG' and columns[11] in ['RXNORM']:
             count += 1
             current_line_count += 1  # 计数当前文件中的有效行
             if columns[11] == 'SNOMEDCT_US':
@@ -158,7 +158,7 @@ with open('../data/dict/MRCONSO.RRF', 'r') as f:
         handle_count += 1
         columns = line.split('|')
         # 只处理符合条件的行
-        if columns[1] == 'ENG' and columns[2] == 'P' and columns[11] in ['LNC']:
+        if columns[1] == 'ENG' and columns[11] in ['LNC']:
             count += 1
             current_line_count += 1  # 计数当前文件中的有效行
             if columns[11] == 'SNOMEDCT_US':

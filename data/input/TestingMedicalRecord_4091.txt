@@ -1,0 +1,548 @@
+檢傷內容
+檢傷級數: 3 電腦分級: 3
+Chief Complaint:
+今天開始發燒，雙腳水腫，肢體無力
+判定依據: 發燒/畏寒 發燒(看起來有病容);肢體無力 血壓或心跳有異於病人之平常數值，但血行動力穩定
+Past History:
+門:Macular degeneration (senile),門:Senile cataract, unspecified.高血壓,門:Diabetes mellitus,,,門:Chronic kidney disease
+TOCC :
+旅遊史: 無 群聚史: 無 特殊職業: 無 接觸病患:無 接觸動物:無
+Vital Signs:
+BP: 173/64 mmHg PR: 85/min SpO2: 94% Respirations: 20/min BT: 37.6 C Blood Sugar: NAmg/dl 疼痛指數: 0(無疼痛) 急性改變:N 意識 E:4 V:4 M:6 來診方式: 輪椅 入院原因: 檢查
+高危險機轉:NA
+檢傷人員:林秀燕
+急診來診病歷
+ChiefCompliant:
+今天開始發燒，雙腳水腫，肢體無力
+PastHistory:
+門:Macular degeneration (senile),門:Senile cataract, unspecified.高血壓,門:Diabetes mellitus,,,門:Chronic kidney disease
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:Ferric-hydroxide-sucrose complex (Fe-Back inj 2% 100 mg/5 mL /vial)
+旅遊史: 無
+特殊職業: 無, 群聚感染: 無, 特殊病患接觸: 無, 動物接觸: 無,
+PresentIllness:
+CKD, s/p perm-cath insertion 2 days ago
+Poor appetite and weakness in recent 2 days
+Nausea (+) and vomiting (+/-).
+Low grade fever noticed by family this morning.
+Cough (+). Sputum (-)
+Physical Exam:
+Consciousness: Clear Aphasia, E: 4, V: 4, M: 6
+Vital signs: Blood Pressure: 173/64mmHg, Pulse Rate: 85/min,
+Respiratory Rate: 20/min, Temperature: 37.6℃, SPO2: 94％
+Head: Scalp: Normal
+Pupils: Isocoric
+Conjunctiva: Not Pale Sclera: Anicteric
+Neck: Supple Jugular Vein Engorgement: - Lymphadenopathy: -
+Chest: Symmetric expansion, Breath sound: Coarse, over LeftRight, Lower lung
+Heart: Regular Heart Beat, Murmur: + (Grade: I/VI Systolic over LLSB )
+Abdomen: Soft
+Bowel sound: Normal
+Extremities: Pitting edema, over mild, both legs
+診斷內容
+入院診斷
+Chronic kidney disease, unspecified (N18.9)
+Pneumonia (J18.9)
+出院診斷
+Chronic kidney disease, unspecified (N18.9)
+Pneumonia (J18.9)
+急診處方內容
+組合商品名	(Date, Dose, Frequency, UseDays)
+Zithromax 250 mg/tab	(20170225, 2 tab, QD, 3days) (20170225, 2 tab, STAT, 1day)
+Atanaal 5 mg/cap	(20170225, 1 cap, STAT, 1day)
+Trandate 200 mg/tab	(20170225, 1 tab, STAT, 1day)
+栓 Bisacodyl Supp 10 mg/pill	(20170225, 2 pill, STAT, 1day)
+口服 Dulcolax EC 5 mg/tab	(20170225, 1 tab, STAT, 1day)
+PARAMOL 500 mg/tab	(20170225, 1 tab, Q4HPRN, 0days)
+警 導管沖洗用 Heparin 25000 U/5 mL /vial (洗腎室專用不發藥) (常備藥)	(20170224, 16000 U, ASORDER, 0days)
+TAZOCIN (based on piperacillin content) 2000 mg/vial	(20170224, 2000 mg, STAT, 1day) (20170224, 2000 mg, Q8H, 0days)
+警 Vitagen 50% 20 mL/amp (常備藥)	(20170224, 40 mL, ASORDER, 0days)
+Atrovent Neb Soln 250 mcg/1 mL 2 mL/amp	(20170224, 1 amp, STAT, 1day) (20170224, 1 amp, Q6H, 0days)
+Rasitol Inj 20 mg/2 mL /amp	(20170224, 20 mg, Q6H, 0days) (20170224, 40 mg, STAT, 1day)
+PCN Test (Penicillin G Skin Test) 1000 U/1 mL 2 mL/vial	(20170224, 0.1 mL, ONCE, 1day)
+Recormon 2000 IU/0.3 mL /syrg (常備藥)	(20170224, 2000 IU, ASORDER, 0days)
+Diphenhydramine HCl 30 mg/1 mL /amp	(20170224, 30 mg, STAT, 1day)
+醫師醫令
+Blood Cultures, Sputum Culture + Gram Stain (細菌室痰液培養專用套裝檢查 同一管檢體即可 抹片只為確認痰液培養品質 不即時報告), Occult Blood(OB), CBC & platelet, WBC Classification, Legionella Ag (Urine), Acid fast stain [緊急], Creatinine (Blood), Na, K, Ca, P (STAT), Troponin-T(STAT)(急), Blood gas(緊急檢查室), Blood Cultures, Multistix (STAT), Sediment (STAT), BUN(Blood)(STAT), (備血單 1869022) ABO Blood Type (NewLis), (備血單 1869022) Rh blood Type (NewLis), (備血單 1869022) Antibody (Ab) screening (NewLis), HIV Ag/Ab Combo-for screening, Anti-HCV Ab, HBsAg (EIA), Anti-HBs Ab, S.T.S (VDRL/RPR), CBC & platelet, Troponin-T(STAT)(急),
+Chest: AP View (Supine),
+醫師醫囑
+On intra-venous catheter, 單次血糖測試 (Stat One-touch sugar), 單次十二導程心電圖 (Complete EKG), 預入暫留床位: M25, 備 (1869022) Packed RBC * 4 U 慢速輸注 (適用於老年人，心肺功能不佳者等情形), 囑: pRBC 1U transfusion stat, Record urine output (U/O), 囑: Consult nephrologist for hemodialysis evaluation, 電話聯絡腎臟科照會醫師:R:林妤芳(簡碼:51968)/ VS:吳明修(簡碼:51074), 照會 內科部(腎臟科緊急透析兼Cr大於4兼血漿置換術), 血液透析(急), 囑: pRBC 改 1U transfusion stat when hemodialysis today, 囑: pRBC 改 2U transfusion stat when hemodialysis today, PCT: negative, 輸 (1869022-01) Packed RBC * 2 U。預計輸血日：2017/02/24。 慢速輸注 (適用於老年人，心肺功能不佳者等情形), On saturation monitor / 測SpO2 PRN, O2 cannula 3 L/min, 囑:check TnT/ECG 5am 2/25, 單次十二導程心電圖 (Complete EKG), 預入暫留床位: M21, 血液透析(急), 住院配床, 自備藥自服 (請簽署切結書), 住院 Admission, 取消配床, 預入暫留床位: M21, 單次血糖測試( Stat one touch), 住院配床, 住院 Admission,
+
+
+
+
+
+入院診斷(Admission Diagnosis)
+1)Chronic kidney disease, stage 5, suspecting diabetes mellitus-related, status post Permcath insertion on 2017/02/22, status post urgent hemodialysis on 2/24 and 2/25, now under maintenancne hemodialysis QW135
+2)Pneumonia, bilateral upper lung fields
+3)Hypertension
+4)Diabetes mellitus
+5)Anemia
+6)Cerebral infarction (D1=2016/02/11), left temporal parietal lobe, complicating with global aphasia, improved
+出院診斷(Discharge Diagnosis)
+1)Chronic kidney disease, stage 5, suspected Diabetes mellitus-related, status post Permcath on 2017/02/22, status post urgent hemodialysis on 2/24 and 2/25, now under maintenance hemodialysis QW135
+2)Pneumonia, bilateral upper lung fields, status post Tazocin 2000mg Q8H (2017/02/24~2017/03/02), improved
+3)Hypertension, under Burinex, doxaben, Trandate, Zanidip, Diovan
+4)Diabetes mellitus
+5)Anemia
+6)Cerebral infarction (D1=2016/02/11), left temporal parietal lobe, complicating with global aphasia, improved
+7)Vancomycin Risistant Enterococcus colonization
+8)Suspected gastrointestinal bleeding
+轉出加護病房診斷(Diagnosis for ICU)
+Nil
+主訴(Chief Complaint)
+Informant:Caregiver and medical record
+Progressive generalized weakness for five days
+病史(Patient History)
+This is a 66-year-old woman with underlying diseases as following:
+1)Chronic kidney disease, stage 5, suspecting DM-related, s/p PermCath on 2017/02/22
+2)Diabetes mellitus, type 2, under Trajenta 1# QD
+3)Hypertension, under Burinex, doxaben, Trandate, Zanidip
+4)Anemia
+5)Cerebral infarction (D1=2016/02/11), left temporal parietal lobe, complicating with global aphasia, improved
+
+
+She had been followed up at Dr.姜至剛's OPD for decreasing renal function since 2015/12 (Cr 1.0(2013/01)->1.16(2014/05)->1.42 (2015/01) ->2.27(2015/06) ->2.9 (2015/12) -> Referred from 桃園CGH). According to previous medical record, the initial presentation was lower leg edema with hypertension (170/78mmHg). Anti-hypertensives were adjusted, but poor compliance was noted by her son. An episode of stroke happened in early 2016 that resulted in global aphasia; even though her general awareness and comprehension ability improved, much assistance was needed since then in her daily life.
+
+Her baseline creatinine level had been around 3mg/dL and eGFR of 20mL/min until 2016/9 when creatinine level reached over 4.0 since then (4.0 (2016/09) ->5.5 (2016/11) ->6.2 mg/dL (2016/12). In recent six months, she was admitted once for urinary tract infection in 2016/10 and once for acute-chronic kidney disease in 2017/1, when Cre level raised from 6.2 mg/dL to 8.3mg/dL. During the hospitalization, persistent low urine output and poor appetite were observed; marked blood pressure fluctuation was noted at the same time Hemodialysis was strongly suggested. After family discussion for dialysis, AVF/AVG was decided. However, her husband passed away during her hospitalization, so she was discharged for her husband's funeral after possible signs of uremia were fully informed to her family.
+
+After further evaluation from CVS Dr.詹志洋, PermCath was favored because her veins were not prominent enough. PermCath insertion was done on 2017/02/22 and she was referred to ED for hemodialysis. However, according to ED record, her family decided to take her home without further evaluation at ER. She was brought to ED again on 2017/02/24 for decreasing appetite and progressive general weakness with lower leg edema. Low-grade fever (37.6 degree Celsius) and cough with sputum were noted. Lab data showed WBC 6.76K, Seg 88.9%, BUN 125, Cre 13.5 mg/dL (Cre 10.0 on 2/10). Chest x-ray showed consolidation in the bilateral upper lung fields. Venous gas showed pH 7.38, HCO3 15.4, and PCO2 25.6. Pneumonia and CKD-related metabolic acidosis were impressed. Anemia was also noted (Hb 6.6 g/dL) and pRBC transfusion 2U was given. Tazocin and emergent hemodialysis on 2/24 and 2/25 were performed. Further hemodialysis was arranged QW1,3,5 for uremic symptoms and metabolic acidosis.
+
+This time, she was admitted for hemodialysis monitoring and infection control.
+
+Family History: No systemic disease was noted.
+Medication Allergy:No 親屬描述 2017/02/10
+No 親屬描述 2017/01/20
+藥名不清楚 【Bronchospasm(支氣管痙攣)】 病人自述 2017/02/27
+藥名不清楚 【Bronchospasm(支氣管痙攣)】 病人自述 2017/02/27
+Ferric-hydroxide-sucrose complex (Fe-Back inj 2% 100 mg/5 mL /vial) 【Bronchospasm(支氣管痙攣)】 本院醫事人員確認 發生日期:2016/10/11
+
+Medication ADR:unknown
+Allergy to Medical Device and Materials:No 病人自述 2017/02/27
+
+Current Medication:
+NTUH:TAZOCIN (based on piperacillin content) 2000 mg/vial 2000 mg Q8H IF 5 days
+Rasitol Inj 20 mg/2 mL /amp 20 mg Q6H IV 4 days
+Atrovent Neb Soln 250 mcg/1 mL 2 mL/amp 1 amp Q6H IH 4 days
+Zithromax 250 mg/tab 2 tab QD PO 3 days
+PARAMOL 500 mg/tab 1 tab Q4HPRN PO 3 days
+Burinex 1 mg/tab 1 tab QD PO 21 days
+DOXABEN XL 4 mg/tab 1 tab BID PO 21 days
+Trandate 200 mg/tab 1 tab BID PO 21 days
+Zanidip FC 10 mg/tab 1 tab BID PO 21 days
+Bokey EM cap 100 mg/cap 1 cap QD PO 21 days
+脂 Crestor 10 mg/tab 1 tab HS PO 21 days
+Canat 0.5 g/tab 1 tab TIDAC POMEAL 21 days
+
+Other:denied
+中草藥:denied
+保健食品:denied
+Past Medical History:Macular degeneration, senile, cataract, senile
+
+Hospitalization:入院日期:2016_02_16 出院日期:2016_02_19 診斷:Cerebrovascular accident
+入院日期:2017_02_26 出院日期: 診斷:Chronic kidney disease, stage 5
+入院日期:2017_01_20 出院日期:2017_01_26 診斷:Chronic kidney disease, stage 5
+入院日期:2016_10_09 出院日期:2016_10_26 診斷:Chronic kidney disease, unspecified
+
+Past Surgical History:2017_02_22 Perm-cath catheter implantation
+Travel History:denied
+身體診查(Physical Examination)
+入院時之身體檢查(Physical Examination at admission)
+BH: 157.5 cm, BW: 67.3 kg,
+T: 36 °C, P: 79 bpm, R: 20 /min,
+BP: 170 / 86 mmHg,
+Pain score: 0 ,
+
+Neurological Examination:
+. Consciousness: clear, incooperative due to global aphasia
+. Muscle power: 4+
+. Gait: unsteady
+
+HEENT:
+head: grossly normal
+Eyes: Conjunctivae: pale; Sclerae: anicteric
+Pupils: isocoric; Light reflexes: R/L: +/+; Extraocular movement: full and free
+Neck: supple; no jugular vein engorgement; no palpable lymph node; no goiter; no carotid bruit
+Chest: symmetric expansion
+breath sounds: clear, no crackle; wheezing (+) ; no rhonchus; no stridor
+Heart: regular heart beats; murmur (-)
+Abdomen: soft
+bowel sounds: normoactive
+no tenderness; no rebound tenderness, no Murphy's sign; liver/spleen: impalpable
+Back: no knocking tenderness at costovertebral angles
+Extremities: freely movable; pitting edema (+, bilateral legs)
+no cyanosis;
+pedal pulses: R/L, ++/++, radial pulse: R/L, ++/++
+Skin: Abnormal pigmentation(-), skin rash(-),Petechiae(-) Purpura(-) Ecchymoses(-) Telangiectasia(-) Plaque(-),Lymphadenopathy(-), Erythematous change (-)
+Deep tendon reflex: RUL/LUL +/+, RLL/LLL +/+
+轉出/出院時明顯的身體檢查改變(Evident Transfer/Discharge Change of Physical Findings)
+- Wheezing (-), Pitting edema (+/-)
+手術(Operation)
+nil
+住院治療經過(Course and Treatment)
+After admission, IV Tazocin 2000mg Q8H (2017/02/24~2017/03/02) was given for pneumonia and hemodialysis was performed QW135 for deteriorated renal function. Follow-up chest X-ray showed improving infiltration. Diovan 160 was added for high SBP (>200), which was currently under control (150~160). Oral intake and appetite has been poor since old stroke episode and hospitalization. Following lab data showed improving result. She was further discharged on 2017/03/09 and would be receiving dialysis at local clinic. Follow-up at Nephro and GI OPD were arranged as well.
+
+住院用藥摘要:
+Piperacillin 2000 mg, Tazobactam 250 mg, Amoxicillin 875 mg, Clavulanate Potassium 125mg, Doxazosin Mesylate, Labetalol HCl, Lercanidipine HCl, Bumetanide, Captopril, Valsartan, Epoetin Beta Genetical Recombinant, Heparin Sodium, Aspirin, Dextrose, Rosuvastatin (Calcium), Potassium Gluconate, Potassium Chloride, Calcium Carbonate, Metoclopramide HCl, Linagliptin, Ipratropium Bromide, Acetylcysteine
+
+
+
+
+
+檢驗紀錄(Laboratory Report)
+*********檢驗室:OP***********
+
+群組:STOOL
+
+               O.B.          Stool O.B.(E  Stool WBC    
+                             IA)                        
+time/item      (*)           (ng/mL)       (/HPF)       
+1060302 [2128] 3+                          Not found    
+1060305 [1631]               Positive (>9               
+                             99)                        
+*********檢驗室:HE***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (k/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060227 [1914] 4.85          2.68          7.9           23.7          88.4         
+1060303 [1439] 4.48          2.75          7.9           24.1          87.6         
+1060306 [0825] 4.31          2.64          8.0           23.1          87.5         
+1060308 [0807] 4.11          2.54          7.3           22.1          87.0         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (k/μL)        (%)           ()           
+1060227 [1914] 29.5          33.3          159           14.2          -            
+1060303 [1439] 28.7          32.8          159           13.8          -            
+1060306 [0825] 30.3          34.6          180           13.6          -            
+1060308 [0807] 28.7          33.0          191           13.9          -            
+群組:WBC D/C
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060227 [1914] 0.0           0.0           0.0           0.0           0.0          
+1060303 [1439] 0.0           0.0           0.0           0.0           0.0          
+1060306 [0825] 0.0           0.0           0.0           0.0           0.0          
+1060308 [0807] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060227 [1914] 78.9          5.6           0.2           5.2           10.1         
+1060303 [1439] 65.1          7.4           0.4           6.3           20.8         
+1060306 [0825] 59.4          6.7           0.2           8.6           25.1         
+1060308 [0807] 53.3          4.4           0.7           7.5           34.1         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060227 [1914] 0.0           0.0           0             -            
+1060303 [1439] 0.0           0.0           0             -            
+1060306 [0825] 0.0           0.0           0             -            
+1060308 [0807] 0.0           0.0           0             -            
+*********檢驗室:BC***********
+
+群組:General BioChemistry
+
+               UN            CRE           Na            K             Ca           
+time/item      (mg/dL)       (mg/dL)       (mmol/L)      (mmol/L)      (mmol/L)     
+1060227 [1914] 81.7          10.3          142           3.7           1.66         
+1060303 [1439] 31.0          6.8           140           3.1           1.91         
+1060306 [0825] 22.5          6.7           142           3.1           1.86         
+1060308 [0807] 15.7          6.1           142           3.5           1.89         
+               P             hsCRP        
+time/item      (mg/dL)       (mg/dL)      
+1060227 [1914] 5.0           14.13        
+1060303 [1439] 3.4           2.41         
+1060306 [0825] 2.9           1.13         
+1060308 [0807] 2.9           0.70         
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060227 [1914] 4.0          
+1060303 [1439] 6.5          
+1060306 [0825] 6.6          
+1060308 [0807] 7.3          
+*********檢驗室:PO***********
+
+群組:
+
+               Sugar(One to 
+               uch)         
+time/item      (*)          
+1060228 [0532] 79           
+1060228 [1703] 92           
+1060301 [0544] 81           
+1060301 [1637] 108          
+1060302 [0540] 100          
+1060302 [1705] 95           
+1060303 [0523] 85           
+1060304 [0535] 96           
+1060305 [0525] 85           
+1060306 [0506] 83           
+1060307 [0533] 98           
+*********檢驗室:BK***********
+
+群組:Blood Type
+
+               ABO Typing    RH Typing    
+time/item      (*)           (*)          
+1060227 [1914] A             Positive     
+1060303 [1439] A             Positive     
+群組:Yes
+
+               antibody scr 
+               een(New Lis)               
+time/item      (*)          
+1060227 [1914] Negative     
+1060303 [1439] Negative     
+*********檢驗室:B5***********
+
+群組:
+
+               VRE screenin 
+               g            
+time/item      ()           
+1060227 [1702] Enterococcus 
+                faecium 2+  
+*********檢驗室:RL***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060224 [1559] 6.76          2.15          6.6           19.4          90.2         
+1060225 [0435] 6.93          2.65          8.0           23.1          87.2         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060224 [1559] 30.7          34.0          150           14.8          -            
+1060225 [0435] 30.2          34.6          141           14.1          -            
+群組:WBC Classification
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1559] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1559] 88.9          0.4           0.1           3.6           7.0          
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060224 [1559] 0.0           0.0           0             -            
+群組:Biochemistry
+
+               BUN           CRE           Na            K             Ca           
+time/item      (mg/dL)       (mg/dL)       (mmol/L)      (mmol/L)      (mmol/L)     
+1060224 [1559]               13.5          135           4.8           1.66         
+1060224 [1655] 125.4                                                                
+               P            
+time/item      (mg/dL)      
+1060224 [1559] 6.3          
+1060224 [1655]              
+群組:Blood pH/Gas
+
+               PH            PCO2          PO2           HCO3          BaseExcess   
+time/item      (*)           (mmHg)        (mmHg)        (mmol/L)      (mmol/L)     
+1060224 [1559] 7.383         25.6          42.6          15.4          -10.0        
+群組:General BioChemistry
+
+               Acid Fast    
+time/item      (*)          
+1060225 [0308] Negative/300 
+                OPF         
+群組:STOOL
+
+               Occult Blood               
+time/item      (*)          
+1060225 [1619] -            
+群組:MULTISTIX
+
+               Sp. Gr.(C)    pH(C)         Protein(C)    Glu.(C)       Ketones(C)   
+time/item      (*)           (*)           (mg/dL)       (mg/dL)       (*)          
+1060224 [1612] 1.013         6.5           300 ( 3+ )    50 ( +/- )    1+           
+               O.B.(C)       Urobil.(C)    Bil.(C)       Nitrite(C)    WBC(C)       
+time/item      (*)           (mg/dL)       (*)           (*)           (*)          
+1060224 [1612] 1+            ≦1.5          -             -             -            
+               Color         Turbidity    
+time/item      (*)           (*)          
+1060224 [1612] Light Yellow  -                          
+群組:SEDIMENT
+
+               RBC(S)        WBC(S)        EpithCell(S)  Cast(S)       Crystal(S)                 
+time/item      (/HPF)        (/HPF)        (/HPF)        (/LPF)        (*)          
+1060224 [1612] 2-5           2-5           2-5           Hy(0-2)       -            
+               Bacteria      Others(S)    
+time/item      (*)           (*)          
+1060224 [1612] 1+            -            
+群組:
+
+               Troponin-T    eGFR          Mucus(S)     
+time/item      (ng/L)        (mL/min/1.73  (*)          
+                              m^2)                      
+1060224 [1559] 533.7         2.9                        
+1060224 [1612]                             -            
+1060225 [0435] 542.0                                    
+*********檢驗室:SF***********
+
+群組:Yes
+
+               Anti-HBs      Anti-HCV Ab   HBsAg        
+time/item      (mIU/mL)      (*)           (IU/mL)      
+1060224 [2024] Negative(0.0  Negative      Negative(0.0 
+               9)                          1)           
+群組:
+
+               HIV Ag/Ab Co 
+               mbo -for scr 
+               eening test  
+time/item      (*)          
+1060224 [2024] Negative     
+*********檢驗室:B2***********
+B2-1060224-4099123   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060224-4099815   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+
+*********檢驗室:SA***********
+
+群組:Yes
+
+               Legionella U  S.T.S. (VDRL 
+               rinary Ag     /RPR Test)   
+time/item      (*)           (*)          
+1060224 [1653] Negative                   
+1060224 [2024]               Non-Reactive               
+*********檢驗室:PO***********
+
+群組:
+
+               Sugar(One to 
+               uch)         
+time/item      (*)          
+1060224 [1558] 89           
+1060226 [2024] 115          
+1060227 [1656] 106          
+*********檢驗室:B3***********
+B3-1060225-4099817   SPUTUM (EXPECTORATED)
+     Gram's(GS)#1:       Moderate PMNs ( 10-25 /LPF )
+     Gram's(GS)#2:       Many epithelial cells ( >25 /LPF )
+     Gram's(GS)#3:       Gram (+) rods,  Gram (-) rods 1+
+     ID+DS Sputum Culture #1:       Normal mixed flora
+     Gram's(GS)#4:       Gram (+) cocci in chains 1+
+     Gram's(GS)#5:       痰檢體品質不良建議重新送檢
+
+
+*********檢驗室:BK***********
+
+群組:Blood Type
+
+               ABO Typing    RH Typing    
+time/item      (*)           (*)          
+1060224 [1651] A             Positive     
+群組:Yes
+
+               antibody scr 
+               een(New Lis)               
+time/item      (*)          
+1060224 [1651] Negative
+檢查紀錄(Examination Report)
+周邊血管超音波檢查報告(上肢靜脈)
+醫令: 周邊血管超音波檢查報告(上肢靜脈) 報告醫師: 影像時間: 2017/02/22 00:00
+周邊血管超音波檢查報告(心血管中心)
+病患姓名 :廖陳秀里 性別 :F 檢查日期 :20170222
+病歷號碼 :6202152 病患來源 :門診 檢查時間 :140544
+年齡 :67 檢查項目 :18041B00
+檢查部位 ： 兩側上肢
+臨床診斷 ： Peripheral vessels assessment for vascular access
+血管縮寫 血栓 直徑(mm) 血流量 逆流時間 分段發現
+最大逆流速
+L forearm radial A N 2.4 15.6 Normal
+L forearm cephalic V N 2.0 Normal
+L elbow brachial A N 3.6 59.2 Normal
+L elbow Cephalic V N 6.3 Normal
+L elbow basilic V N 3.6 Normal
+R wrist radial A N 2.0 10.6 Normal
+R wrist cephalic V N 2.9 Normal
+R elbow brachial A N 4.2 65.9 Normal
+R elbow basilic V N 4.0 Normal
+R elbow cephalic V N 4.1 Normal
+Comment :
+Peripheral vessels assessment for vascular access.
+檢查人員： 李祝緣護理師 / 負責醫師： 周迺寬主治醫師
+成本中心代碼 :台大醫院外科部血管檢查室 聯絡電話 : 分機65855
+
+內科腎臟超音波檢查報告
+醫令: 內科腎臟超音波檢查報告 報告醫師: 影像時間: 2017/03/02 00:00
+腎臟超音波檢查報告(綜合診療部超音波科)
+病患姓名 : 廖陳秀里 病歷號碼 : 6202152 病床號碼 : 13D 2001
+年齡 : 67 性別 : F
+檢查日期 : 20170302 檢查項目 : 19005BNA
+主訴 / 臨床診斷 : ESRD, for certificate
+Right Left
+Size : 11.84 cm Size : 10.06 cm
+(Reference rang: 9-12cm) (Reference rang: 9-12cm)
+Shape : regular Shape : regular
+Margin: Irregular Margin: Irregular
+Cortical echogenecity : Cortical echogenecity :
+increased increased
+Cortical thickness : 0.89 cm Cortical thickness : 0.86 cm
+(Reference range: >0.7cm) (Reference range: >0.7cm)
+Parenchymal thickness : 1.62 cm Parenchymal thickness : 1.76 cm
+(Reference range: >1.2 cm) (Reference range: >1.2 cm)
+Central echo : Central echo :
+mildly separated normal
+Cystic lesion(s) : many cyst(s) Cystic lesion(s) : many cyst(s)
+the largest cyst the largest cyst
+Location:upper pole of right Location:lower pole of left
+kidney kidney
+Size:2.63*2.25cm Size:1.25*1.18cm
+Inner: nil Inner:nil
+Other: nil Other:nil
+Solid lesion : Solid lesion :
+nil nil
+BLADDER :
+Not well distended
+OTHERS :
+nil
+IMPRESSION :
+1. Parenchymal renal disease, bilateral
+2. renal cysts, bilateral
+COMMENT :
+nil
+檢查者: 張育興住院醫師 / 吳允升主治醫師
+影像報告(Imaging Report)
+nil
+轉出/出院情況(Transfer/Discharge Status)
+改門診治療 改善
+病理報告(Pathology Report)
+nil
+轉出/出院指示(Follow-up Instructions & Medications)
+病人活動限制：請注意環境安全，避免跌倒
+飲食注意事項：食用治療飲食，並請定期門診追蹤
+其他指示：請依預約日期返院門診
+Aspirin【Bokey EM cap 100 mg/cap】 1 cap PO QD 出院藥天數3天
+Doxazosin Mesylate【DOXABEN XL 4 mg/tab】 1 tab PO BID 出院藥天數5天
+Labetalol HCl【Trandate 200 mg/tab】 1 tab PO BID 出院藥天數5天
+Calcium Carbonate【Canat 0.5 g/tab】 2 tab PO BID 出院藥天數3天 自費
+Bumetanide【Burinex 1 mg/tab】 1 tab PO QD 出院藥天數5天
+Lercanidipine HCl【Zanidip FC 10 mg/tab】 1 tab PO BID 出院藥天數5天
+Valsartan【160 Diovan FC 160 mg/tab】 1 tab PO QD 出院藥天數7天
+Metoclopramide HCl【Prometin 5 mg/tab】 1 tab PO TIDAC30 出院藥天數7天
+Acetylcysteine【Actein Effervescent Tablet 600 mg/tab】 1 tab PO BID 出院藥天數7天
+Rosuvastatin (Calcium)【脂 Crestor 10 mg/tab】 1 tab PO HS 出院藥天數3天
+自備藥【Burinex 1 mg/tab】 1 tab PO QD 出院藥天數 天
+自備藥【Trandate 200 mg/tab】 1 tab PO BID 出院藥天數 天
+自備藥【Zanidip FC 10 mg/tab】 1 tab PO BID 出院藥天數 天
+自備藥【Bokey EM cap 100 mg/cap】 1 cap PO QD 出院藥天數 天
+自備藥【脂 Crestor 10 mg/tab】 1 tab PO HS 出院藥天數 天
+自備藥【DOXABEN XL 4 mg/tab】 1 tab PO BID 出院藥天數 天
+自備藥【Canat 0.5 g/tab】 2 tab PO BID 出院藥天數 天 自費
+門診預約:
+預約日期:2017/03/15 內科部 下午 25診 32號
+預約日期:2017/03/15 內科部 上午 03診 9號
+其他(Others)
+隔離醫囑:
+2017/03/02 VRE接觸隔離;

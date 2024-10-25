@@ -1,0 +1,539 @@
+檢傷內容
+檢傷級數: 3 電腦分級: 3
+Chief Complaint:
+fever since today(C/T since12/23)
+判定依據: 發燒/畏寒 發燒(看起來有病容)
+Past History:
+尿酸偏高,門:Colon cancer,,門:Acute myeloid leukemia,門:Myelodysplastic syndrome,門:Gastroesophageal reflux disease
+TOCC :
+旅遊史: 無 群聚史: 無 特殊職業: 無 接觸病患:無 接觸動物:無
+Vital Signs:
+BP: 106/62 mmHg PR: 111/min SpO2: 94% Respirations: 20/min BT: 38.8 C Blood Sugar: NAmg/dl 疼痛指數: 0(無疼痛) 急性改變:N 意識清
+特殊事項: ※已告知病人或其親友本急診現為滿床通報中，可能需相當時間等待推床以及醫師看診。
+來診方式: 輪椅 入院原因: 疾病
+高危險機轉:NA
+檢傷人員:林宜珊
+急診來診病歷
+ChiefCompliant:
+fever since today(C/T since12/23)
+PastHistory:
+尿酸偏高,門:Colon cancer,,門:Acute myeloid leukemia,門:Myelodysplastic syndrome,門:Gastroesophageal reflux disease
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+藥物過敏:No
+旅遊史: 無
+特殊職業: 無, 群聚感染: 無, 特殊病患接觸: 無, 動物接觸: 無,
+PresentIllness:
+fever since today up to 38.8
+(C/T since12/23, last C/T:2/23)
+myalgia, mild cough with whitish sputum, diarrhea(no tarry/bloody stool)
+denied sore throat, headache, chest pain, dyspnea, abd pain, n/v, dysuria/urinary freq/urinary urgency
+
+TOCC:-
+Physical Exam:
+Consciousness: Clear
+Vital signs: Blood Pressure: 106/62mmHg, Pulse Rate: 111/min,
+Respiratory Rate: 20/min, Temperature: 38.8℃, SPO2: 94％
+Head: Scalp: Normal
+thorat: no injected
+Pupils: Isocoric
+Conjunctiva: Not Pale Sclera: Anicteric
+Neck: Supple Jugular Vein Engorgement: - Lymphadenopathy: -
+Chest: Symmetric expansion, Breath sound: Clear, no wheezing, no crackles
+Heart: Regular Heart Beat, Murmur: -
+Abdomen: Soft, no muscle guarding, no rebounding pain
+Bowel sound: Normal
+Extremities: Normal
+診斷內容
+入院診斷
+Fever (R50.9)
+Acute leukemia (C95.00)
+Acute myeloblastic leukemia, not having achieved remission (C92.00)
+出院診斷
+Fever (R50.9)
+Acute leukemia (C95.00)
+Acute myeloblastic leukemia, not having achieved remission (C92.00)
+急診處方內容
+組合商品名        (Date, Dose, Frequency, UseDays)
+袋 Saline (NK) inj 0.9% 500 mL/bag (常備藥)        (20170225, 500 mL, STAT, 1day) (20170224, 500 mL, QD, 0days)
+Feburic 80 mg/tab        (20170224, 0.5 tab, STAT, 1day) (20170224, 0.5 tab, QD, 0days)
+Fasturtec 1.5 mg/vial        (20170224, 9 mg, ONCE, 1day)
+Hydrea 500 mg/cap        (20170224, 2 cap, QID, 0days)
+PARAMOL 500 mg/tab        (20170224, 1 tab, Q6HPRN, 0days) (20170224, 1 tab, STAT, 1day)
+Maxipime 500 mg/vial        (20170224, 2000 mg, Q12H, 0days) (20170224, 2000 mg, STAT, 1day)
+醫師醫令
+BUN(Blood)(STAT), K, Ca, LDH, UA (Uric acid), Influenza A+B Rapid Screening Test, Albumin(Blood), P (STAT), PT(STAT), aP.T.T.(STAT), FDP, 3P Test, Fibrinogen (Nephelometry)(STAT), D-dimer test(STAT)(急), Chlamydiae Antigen, Legionella Ag (Urine), Mycoplasma pneumoniae IgG, Mycoplasma pneumoniae IgM, K, Bilirubin-T, Bilirubin-D(STAT), Blood Cultures, CBC & platelet, WBC Classification, Creatinine, Na, K, GPT, Blood Cultures, Multistix (STAT), Sediment (STAT), Urine culture, Sputum Culture + Gram Stain (細菌室痰液培養專用套裝檢查 同一管檢體即可 抹片只為確認痰液培養品質 不即時報告), Occult Blood(OB), Stool: WBC(Pus cell), (備血單 1868963) ABO Blood Type (NewLis), (備血單 1868963) Rh blood Type (NewLis), (備血單 1868963) Antibody (Ab) screening (NewLis), Bilirubin-T,
+Chest: PA View (Standing),
+醫師醫囑
+On intra-venous catheter, 單次血糖測試 (Stat One-touch sugar), 預入暫留床位: S13, 預入暫留床位: S01, contact with Hema R:陳睿哲(簡碼:53835)/for fever, 備 (1868963) Packed RBC * 2 U 慢速輸注 (適用於老年人，心肺功能不佳者等情形), 照會 內科部(血液腫瘤科), F/U CBC/DC QOD (since 2/26), Record urine output (U/O), 住院配床, On Foley cathteter, 住院 Admission,
+
+
+
+
+
+入院診斷(Admission Diagnosis)
+1. Fever of undetermined cause, suspect community acquired pneumonia
+2. Suspected chronic obstructive pulmonary disease
+3. Acute myeloid leukemia, M4, NPM1(-), FLT3(+), RUNX1(+), CEBPA(-), transform from MDS/MPN with hyperleukocytosis, under LDAC (D1:2015/06/29), with suspect right knee infiltration; in CHR; status post Vidaza (XVI) (C1D1=2015/09/06, C2D1=2015/10/12, C3D1=2015/11/09, C4D1=2015/12/21, C5D1=2016/1/25, C6D1=2016/3/7, C7D1=2016/4/11, C8D1=2016/5/16, C9D1=2016/6/20, C10D1=2016/8/01, C11D1=2016/9/26, C12D1=2016/10/17, C13D1=2016/11/21, C14D1=2016/12/19, C15D1=2016/1/16, C16D1=2016/2/20), tumor lysis syndrome with acute kidney injury
+4. Thoracic spine compression fracture, status post operation on 2015/5/14
+5. L1 Compression fracture, status post vertebroplasty
+6. Colon cancer stage II, status post operation 10 years ago
+7. Gouty arthritis, right knee
+8. Hyperuricemia
+9. Osteoporosis
+出院診斷(Discharge Diagnosis)
+1. Acute myeloid leukemia, M4, NPM1(-), FLT3(+), RUNX1(+), CEBPA(-), transform from MDS/MPN with hyperleukocytosis, under LDAC (D1:2015/06/29), with suspect right knee infiltration; in CHR; status post Vidaza (XVI) (C1D1=2015/09/06, C2D1=2015/10/12, C3D1=2015/11/09, C4D1=2015/12/21, C5D1=2016/1/25, C6D1=2016/3/7, C7D1=2016/4/11, C8D1=2016/5/16, C9D1=2016/6/20, C10D1=2016/8/01, C11D1=2016/9/26, C12D1=2016/10/17, C13D1=2016/11/21, C14D1=2016/12/19, C15D1=2016/1/16, C16D1=2016/2/20), s/p LDAC(C1D1=2017/02/25, C1D5=2017/03/01)
+2. Fever of undetermined cause, suspect community acquired pneumonia, subsided
+3. Suspected chronic obstructive pulmonary disease
+轉出加護病房診斷(Diagnosis for ICU)
+Nil
+主訴(Chief Complaint)
+Informant: the patient
+Fever and cough for 2 days
+病史(Patient History)
+This 87-year-old man has a history of:
+1. Acute myeloid leukemia, M4, NPM1(-), FLT3(+), RUNX1(+), CEBPA(-), transform from MDS/MPN with hyperleukocytosis, under LDAC (D1:2015/06/29), with suspect right knee infiltration; in CHR; status post Vidaza (XVI) (C1D1=2015/09/06, C2D1=2015/10/12, C3D1=2015/11/09, C4D1=2015/12/21, C5D1=2016/1/25, C6D1=2016/3/7, C7D1=2016/4/11, C8D1=2016/5/16, C9D1=2016/6/20, C10D1=2016/8/01, C11D1=2016/9/26, C12D1=2016/10/17, C13D1=2016/11/21, C14D1=2016/12/19, C15D1=2016/1/16, C16D1=2016/2/20)
+2. Thoracic spine compression fracture, status post operation on 2015/5/14
+3. L1 Compression fracture, status post vertebroplasty
+4. Colon cancer stage II, status post operation 10 years ago
+5. Gouty arthritis, right knee
+6. Hyperuricemia
+7. Osteoporosis
+
+He had received vertebroplasty on 2015/05/14 at Yong He CTH and on 2015/06/26 at our hospital. During admissions, his hemogram examination revealed hyperleukocytosis in the Yong He CTH (WBC:185.40 k/uL) and our hospital(WBC: 320.18K/μL, Blast: 8%, Hb: 7.8g/dL, PLT: 148k/uL). Because occult infiltrative bone marrow disease was suspected, he received bone marrow study under the impression of MDS/MPN. He was then transferred to the hematology ward for further management.
+
+Surprisingly, acute myeloid leukemia, M4, transformed from MDS was the final diagnosis. He received low does ara-C due to cytoreduction on 2015/06/29-2015/07/19. Arthralgia at both wrists and knees was noted and suspect gouty arthritis related. The symptom was relieved after colchicine and Solu-Cortef use. The genetic analyses revealed NPM1 mutation(-), FLT3-ITD(+), RUNX1 mutation(+), CEBPA mutation(-). Besides, hypokalemia was noted and suspect AML, M4 related. He is in a nadir since 2015/07/20. Neutropenic fever was noted on 2015/07/30 and urinary tract infection was suspected. Cefepime was started for Klebsiella in previous urine culture, and was stopped after 7 days on 2015/08/05. Platelet transfusion 24U was given for thrombocytopenia(16K/ul) on 2015/08/06. Repeated platelet count was 88K/ul on 2015/08/07. He was then discharged on 2015/08/09.
+
+The patient was then admitted to our ward on 2015/9/5 and started azacytidine (100 mg sc QD) injection for six days (2015/09/06-2015/09/11). There was no itching sensatin, nausea, vomiting, diarrhea, oral ulcer, nor new ecchymosis. Under relatively stable condition, He was discharged on 2015/9/11. The patient then received Vidaza (II~VII) at the OPD (C2D1=2015/10/12, C3D1=2015/11/09, C4D1=2015/12/21, C5D1=2016/1/25, C6D1=2016/3/7, C7D1=2016/4/11) and no special discomfort was noted.
+
+The patient had one episode of fever and mild cough on 5/21. CXR showed left lower lung nodule, suspect community acquired pneumonia, and he received Ceftriaxone treatment during 2016/05/23-2016/5/26, and shifted to oral Augmentin later. He was discahrged after being stable on 2016/05/28. After last discahrge, he was under follow up in Dr. Yao's OPD and received Vidaza injection regularly.
+
+His hemogram during the past three months (2016/12~2017/02) showed leukocytosis, WBC fluctuated around 19-40k/ul, with blast percentage around 9.0%~11.0%. Hb fluctuated during 10-11g/dl, and platelet around 80-130k/ul. This time, he received Vidaza (XVI) since 2017/2/20. Lab data on 2/20 showed hyperleukocytosis with blastosis (WBC: 127k/ul, Blast 11.0%, Band: 4.0%, Seg: 19.3%, Mono 38.3%) and elevated creatinine level (Creatinine level 1.4mg/dl, baseline: 1.0~1.2mg/dl). Potassium and Calcium were within normal limit. Hyperuricemia (10.5mg/dl) was noted. On 2/24, fever was noted, and there was mild cough with a little whitish sputum. Mild dyspnea was also noted. One episode of diarrhea was also noted on the same day. Besides, he complained of mild dysuria, and myalgia. But he denied headache, chest pain, abdominal pain, nausea/vomiting, or constipation, urinary frequency.
+
+Due to fever, he came to our ED on 2017/2/24. On arrival, vital signs: Blood Pressure: 106/62mmHg, Pulse Rate: 111/min, Respiratory Rate: 20/min, Temperature: 38.8℃, SPO2: 94％. PE showed clear breathing sound and no abdominal tenderness. Lab data showed hyperleukocytosis with blastosis (WBC: 160.71k/ul, Blast 8.3%, Band: 2.0%, Seg: 15.5%) and acute kidney injury (Cre 1.7mg/dl). Transient indirect hyperbilirubinemia was also noted(T-bil 1.56mg/dl, D-bil 0.40mg/dl). CXR showed interstitial thickening pattern. For suspected community acquired pneumonia, empirical Maxipime was prescribed. Legionella Ag, influenza rapid test were negative. Chlamydiae Antigen, Mycoplasma pneumoniae IgG/IgM were checked and the result is peding. For diarrhea, stool OB/WBC were checked and showed negative results. For suspected tumor lysis syndrome, hematologist was consulted and Hydrea 500 mg/cap 2 # QID was given for cytoreduction since 2/24. Normal saline hydration and Rasburicase were given for control of tumor lysis syndrome. Under the impression of (1)fever of unknown origin, suspected community acquired pneumonia (2) Tumor lysis syndrome with acute kidney injury, the patient was admitted to our ward for further evaluation and treatment.
+
+Family History: No contributory
+Medication Allergy: No 病人自述 2017/2/25
+Medication ADR:unknown
+Allergy to Medical Device and Materials: No 病人自述 2017/2/25
+Current Medication:
+NTUH:PARAMOL 500 mg/tab 1 tab STAT PO 1 days
+PARAMOL 500 mg/tab 1 tab Q6HPRN PO 2 days
+Maxipime 500 mg/vial 2000 mg STAT IV 1 days
+Maxipime 500 mg/vial 2000 mg Q12H IV 2 days
+Hydrea 500 mg/cap 2 cap QID PO 2 days
+Fasturtec 1.5 mg/vial 9 mg ONCE IF 1 days
+Feburic 80 mg/tab 0.5 tab STAT PO 1 days
+Feburic 80 mg/tab 0.5 tab QD PO 2 days
+Feburic 80 mg/tab 1/2 tab QD PO 12 days
+Gastro-Timelets SR 30 mg/cap 1 cap QD PO 12 days
+Other: Nil
+中草藥: Nil
+保健食品: Nil
+Past Medical History: See above
+Hospitalization:
+Hospitalization:入院日期:2016_05_23 出院日期:2016_05_28 診斷:Fever
+入院日期:2015_09_05 出院日期:2015_09_11 診斷:Myelodysplastic syndrome
+入院日期:2015_06_24 出院日期:2015_08_09 診斷:Acute myeloid leukemia
+Past Surgical History: See above
+Travel History: Nil
+Contact and cluster: denied sick family member recently.
+身體診查(Physical Examination)
+入院時之身體檢查(Physical Examination at admission)
+BH: 162 cm, BW: 56 kg,
+T: 38 °C, P: 103 bpm, R: 26 /min,
+BP: 110 / 50 mmHg,
+Pain score: 0 ,
+
+[Physical Examination]
+‧General：fair-looking
+‧Consciousness：clear, E4V5M6
+‧Head-Eye-ENT
+Conjunctivae: not pale, sclera: anicteric
+Throat injection (-), tonsil enlarge (-), oral ulcer or thrush (-)
+‧Neck
+Supple, no stiffness
+Meningismus: Kernig sign(-); Brudzinski sign(-); modified Brudzinski sign(-)
+LAP(-)
+Thyroid goiter(-)
+Jugular vein engorgement(-)
+Carotid bruit(-)
+‧Chest
+Thoracic cage contour：symmetric, no deformity nor distension
+no increased anterior-posterior (AP) diameter
+Vocal fremitus and expansion: symmetric
+Percussion: symmetric and normal(not dull or hyper-resonant)
+Ausculation: Stridor(-)Rhonchi(-)Wheezes(+, end-expiratory, bilaterally) Crackles(-)
+‧Heart
+LV lift(-) RV heave(-)
+Increased cardiac size by percussion(-)
+Heart beat: regular heart beats, adventitious sounds(-) murmurs(-)
+‧Abdomen OP scar(+) over mid abdomen
+Flat & soft, Tenderness(-), CV angle knocking tenderness(-)
+Liver and spleen: impalpable
+Superficial vein engorgement(-) Protruded umbilicus(-)
+Bowel sound: normoactive
+‧Skin
+Abnormal pigmentation(-)
+Petechiae(-) Purpura(-) Ecchymoses(-) Spider angioma(-)
+Rash(-) Plaque(-)
+Wound(-) Ulceration(-) Crust(-)
+‧Lymphadenopathy:[neck(-), axilla(-), epitrochlear(-), inguinal(-)]
+‧Extremites: no peripheral edema
+
+轉出/出院時明顯的身體檢查改變(Evident Transfer/Discharge Change of Physical Findings)
+Afebrile
+Wheeze(-)
+Abdomen:soft, tenderness(-)
+Leg edema(-)
+手術(Operation)
+nil
+住院治療經過(Course and Treatment)
+After the admission, low dose Ara-C was initiated on D1=2017/2/25. We kept empirical Maxipime for fever of unknown origin. For tumor lysis syndrome, we gave normal saline 1500 ml/day and Rolikan as hydration and alkalinization. Calcium supplement was also given as needed. Creatinine gradually returned to baseline. New onset atrial fibrillation was noted on 2/25, so Cordarone 150mg and 900mg in D5W 500ml was given during 2/25-2/26, and shifted to oral Cordarone 1# BID.
+
+However, fever and cough were still noted in the midnight of 2/27. CXR showed suspicious infiltration over RML. Anibiotics was upgraded to Meropenem empirically on 2/27. He also complained of abdominal fullness on 2/27, and PE showed mild tenderness over upper abdomen, so MgO and Gascon were given.
+
+Fever subsided. Low dose Ara-C C1D5 was given on 3/01.
+Foley was removed and urine retention developed, then resolved under medication.
+Abdominal distension persisted. KUB showed prominent colon gas, suspect ileus. Enema was done after PLT transfusion. Abdominal distension then improved a lot after much stool passage.
+Leukemia grew rapidly(8k->32k->73k). Bone marrow on 3/09 showed monoblast and immature monocytes. Hydrea was given for cytoreduction.
+He was discharged on 3/11. Vidaza will be re-applied.
+
+住院用藥摘要:
+Cefepime HCl, Meropenem Trihydrate, Cytarabine, Amiodarone HCl, Furosemide, Tamsulosin HCl, Calcium Acetate (Ca:169mg), Calcium Chloride, Dextrose, Sodium Bicarbonate, Sodium Chloride, Magnesium Sulfate, Potassium Chloride 10 mEq + Taita No.5 400mL, Potassium Gluconate, Potassium Chloride, Acetaminophen, Febuxostat, Metoclopramide HCl, Palonosetron HCl, Bisacodyl, Sennoside A+B, Dimethicone, Magnesium Oxide, Lactulose, Megestrol Acetate, Diphenhydramine HCl, Ipratropium Bromide, Indomethacin
+
+抗癌藥品治療副作用 (化療)
+Neutropenia : 2017/3/3 Neutrophil 1.3912 k/μL, Gr.1
+Thrombocytopenia : 2017/3/6 PLT 16 k/μL, Gr.1
+(標靶)
+AST/ALT elevation : 2017/2/25 AST 37 U/L, Gr.1
+(免疫)
+AST/ALT elevation : 2017/2/25 AST 37 U/L, Gr.1
+
+
+
+
+
+檢驗紀錄(Laboratory Report)
+*********檢驗室:RL***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060225 [1333] 60.52         2.96          8.4           25.3          85.5         
+1060226 [0640] 27.08         2.94          8.3           24.7          84.0         
+1060228 [0633] 3.76          2.79          8.1           23.7          84.9         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060225 [1333] 28.4          33.2          54            20.6          -            
+1060226 [0640] 28.2          33.6          48            20.4          -            
+1060228 [0633] 29.0          34.2          30            19.3          -            
+群組:WBC Classification
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060225 [1333] 0.0           0.0           0.0           0.0           0.0          
+1060226 [0640] 0.0           0.0           0.0           0.0           0.0          
+1060228 [0633] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060225 [1333] * 0.0         0.7           0.2           * 0.0         * 0.0        
+1060226 [0640] * 0.0         1.4           0.1           * 0.0         * 0.0        
+1060228 [0633] 56.3          2.1           0.3           16.8          24.5         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060225 [1333] 0.0           0.0           0             僅供參考         
+1060226 [0640] 0.0           0.0           0             僅供參考         
+1060228 [0633] 0.0           0.0           0             僅供參考         
+群組:Yes
+
+               hsCRP         Fibrinogen   
+time/item      (mg/dL)       (mg/dL)      
+1060225 [1333] 14.26         274.1        
+1060228 [0633] 6.24                       
+群組:Coagulation
+
+               PT            PTT           PT INR       
+time/item      (sec)         (sec)         ()           
+1060225 [1333] 14.0          36.2          1.30         
+群組:Biochemistry
+
+               BUN           CRE           Na            K             Cl           
+time/item      (mg/dL)       (mg/dL)       (mmol/L)      (mmol/L)      (mmol/L)     
+1060225 [1333] 41.5          1.5           140           3.6           109          
+1060226 [0640] 39.6          1.3           139           3.4           108          
+1060228 [0633] 29.3          1.1           134           3.2                        
+               T-BIL         Ca            Mg            P             AST          
+time/item      (mg/dL)       (mmol/L)      (mmol/L)      (mg/dL)       (U/L)        
+1060225 [1333] 0.46          1.66          0.78          6.6           37           
+1060226 [0640] 1.59          1.76          0.76                                     
+1060228 [0633] 1.23          1.81          0.87          3.3           26           
+               LacticAcid   
+time/item      (mmol/L)     
+1060225 [1333] 0.86         
+1060226 [0640]              
+1060228 [0633]              
+群組:General BioChemistry
+
+               GGT           UA            ALB           ALT           LDH          
+time/item      (U/L)         (mg/dL)       (g/dL)        (U/L)         (U/L)        
+1060225 [1333] 92            <1.5                        43            716          
+1060226 [0640]               2.4                         38            706          
+1060228 [0633]               4.2           2.7           22            385          
+群組:Blood pH/Gas
+
+               PH            PCO2          PO2           HCO3          BaseExcess   
+time/item      (*)           (mmHg)        (mmHg)        (mmol/L)      (mmol/L)     
+1060225 [1333] 7.384         30.5          39.5          18.4          -6.9         
+1060226 [0640] 7.412         29.8          50.4          19.2          -5.7         
+1060227 [0148] 7.453         30.2          57.9          21.3          -2.9         
+1060228 [0633] 7.449         34.3          53.2          24.0          -0.3         
+1060301 [1204] 7.481         34.8          54.9          26.2          2.5          
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060225 [1333] 47.1         
+1060226 [0640] 55.5         
+1060228 [0633] 67.3         
+*********檢驗室:HE***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (k/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060227 [0148] 8.98          2.61          7.6           22.0          84.3         
+1060301 [0849] 3.18          2.78          7.9           24.0          86.3         
+1060303 [0824] 3.76          2.86          8.4           24.7          86.4         
+1060306 [0758] 8.16          2.83          8.0           24.8          87.6         
+1060308 [1009] 32.08         3.41          10.2          30.4          89.1         
+1060310 [0844] 73.57         3.50          10.3          31.5          90.0         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (k/μL)        (%)           ()           
+1060227 [0148] 29.1          34.5          28            20.3          -            
+1060301 [0849] 28.4          32.9          26            19.6          -            
+1060303 [0824] 29.4          34.0          18            18.0          -            
+1060306 [0758] 28.3          32.3          16            18.0          -            
+1060308 [1009] 29.9          33.6          90            17.3          -            
+1060310 [0844] 29.4          32.7          55            18.2          -            
+群組:WBC D/C
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060227 [0148] 7.0           4.0           2.0           1.0           3.0          
+1060301 [0849] 2.0           1.0           7.0           6.0           10.0         
+1060303 [0824] (+)           2.0           3.0           3.0           1.0          
+1060306 [0758] 3.0           1.0           5.0           3.0           0.0          
+1060308 [1009] 6.5           1.0           0.5           3.5           3.5          
+1060310 [0844] 14.0          2.5           0.5           1.5           3.5          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060227 [0148] 42.0          2.0           0.0           26.0          13.0         
+1060301 [0849] 46.0          1.0           0.0           13.0          14.0         
+1060303 [0824] 36.0          4.0           1.0           26.0          24.0         
+1060306 [0758] 28.0          0.0           1.0           40.0          19.0         
+1060308 [1009] 39.0          1.0           0.0           34.0          11.0         
+1060310 [0844] 14.0          1.0           0.0           57.5 (with i  5.0          
+                                                       mmature)                   
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060227 [0148] 0.0           0.0           0.0 /100 WBC  WBC 100                    
+1060301 [0849] 0.0           0.0           0.0 /100 WBC  WBC 100                    
+1060303 [0824] 0.0           0.0           1.0 /100 WBC  WBC 100                    
+1060306 [0758] 0.0           0.0           0.0 /100 WBC  WBC 100                    
+1060308 [1009] 0.0           0.0           0 /200 WBC    WBC 200      
+1060310 [0844] 0.5           0.0           0 /200 WBC    WBC 200      
+*********檢驗室:HR***********
+
+群組:Bone Marrow
+
+               Hematologica 
+               l Diagnosis  
+               of BM        
+time/item      ()           
+1060309 [1203] MDS, RAEB-t  
+群組:
+
+               Abnormal cel  PB smear      Comment      
+               l/Pattern                                
+time/item      ()            ()            ()           
+1060309 [1203] Excess of bl  Circulating   Please also  
+               asts, mostly  blasts, imma  correlate wi 
+                with monobl  ture monocyt  th flow cyto 
+               ast morpholo  es, and thro  metry and cy 
+               gy.           mbocytopenia  togenetics d 
+                              are noted.   ata.         
+*********檢驗室:BC***********
+
+群組:General BioChemistry
+
+               Alb           TP            T-BIL         AST           ALT          
+time/item      (g/dL)        (g/dL)        (mg/dL)       (U/L)         (U/L)        
+1060227 [0148] 2.6                         1.02                        29           
+1060301 [0849]                             1.22          22            22           
+1060303 [0824]                             1.31                        23           
+1060306 [0758] 2.8           5.2                                       26           
+1060308 [1009]                             0.86                                     
+1060310 [0844]                             0.79                        26           
+               ALP           LDH           UN            CRE           UA           
+time/item      (U/L)         (U/L)         (mg/dL)       (mg/dL)       (mg/dL)      
+1060227 [0148]               470           36.6          1.2           3.8          
+1060301 [0849]               273           26.6          1.0           3.0          
+1060303 [0824] 44                          28.3          1.0                        
+1060306 [0758] 41            166           17.0          1.0           2.9          
+1060308 [1009]                                           1.1                        
+1060310 [0844] 47                                        1.3                        
+               Na            K             Ca            P             Mg           
+time/item      (mmol/L)      (mmol/L)      (mmol/L)      (mg/dL)       (mmol/L)     
+1060227 [0148] 138           3.1           1.72                        0.62         
+1060301 [0849] 140           3.2           1.85          2.8           0.78         
+1060303 [0824] 136           3.4           1.90                        0.87         
+1060306 [0758] 139           3.4           2.00                        0.83         
+1060308 [1009] 137           3.3                                       0.84         
+1060310 [0844] 135           4.8                                       1.00         
+群組:Hormones
+
+               Free T4(CIA)  hsTSH(CIA)                 
+time/item      (ng/dL)       (μIU/mL)     
+1060227 [0148] 0.899         2.28         
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060227 [0148] 60.9         
+1060301 [0849] 75.1         
+1060303 [0824] 75.1         
+1060306 [0758] 75.1         
+1060308 [1009] 67.3         
+1060310 [0844] 55.5         
+*********檢驗室:B2***********
+B2-1060227-7019891   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060227-7019889   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+
+*********檢驗室:B3***********
+B3-1060227-7019893   RANDOM URINE
+     ID+DS Urine #1:       No aerobic  pathogen
+
+
+*********檢驗室:OP***********
+
+群組:MULTISTIX
+
+               Sp. Gr.(C)    pH            Protein(C)    Glu.(C)       Ketone body  
+                                                                    (U)          
+time/item      (*)           (*)           (mg/dL)       (mg/dL)       (*)          
+1060227 [0824] 1.013         5.0           30 ( 1+ )     -             -            
+               O.B.(C)       Urobil.(C)    Bil.(C)       Nitrite(C)    WBC esterase 
+                                                                     (U)         
+time/item      (*)           (mg/dL)       (*)           (*)           (*)          
+1060227 [0824] 1+            ≦1.5          -             -             -            
+               Color         Turbidity    
+time/item      (*)           (*)          
+1060227 [0824] Light Yellow  -                          
+群組:SEDIMENT
+
+               RBC (S)       WBC (S)       Epith (S)     Cast (S)      Crystal (S)  
+time/item      (/HPF)        (/HPF)        (/HPF)        (/LPF)        (*)          
+1060227 [0824] 0-2           2-5           2-5           Gr(2-5)       -            
+               Bacteria      Mucus(S)      Others (S)   
+time/item      (*)           (*)           (*)          
+1060227 [0824] -             -             -            
+*********檢驗室:B4***********
+B4-1060227-5010355   SPUTUM (EXPECTORATED)
+     AF Stain(AF) #1:       Acid fast bacilli - negative
+
+B4-1060228-5010354   SPUTUM (EXPECTORATED)
+     AF Stain(AF) #1:       Acid fast bacilli - negative
+
+B4-1060226-5010353   SPUTUM (EXPECTORATED)
+     AF Stain(AF) #1:       Acid fast bacilli - negative
+
+
+*********檢驗室:BK***********
+
+群組:Blood Type
+
+               ABO Typing    RH Typing    
+time/item      (*)           (*)          
+1060301 [1147] A             Positive     
+1060306 [1054] A             Positive     
+1060310 [1855] A             Positive     
+群組:Yes
+
+               antibody scr 
+               een(New Lis)               
+time/item      (*)          
+1060301 [1147] Negative     
+1060306 [1054] Negative     
+1060310 [1855] Negative     
+*********檢驗室:B5***********
+
+群組:
+
+               VRE screenin 
+               g            
+time/item      ()           
+1060225 [1346] No VRE
+檢查紀錄(Examination Report)
+nil
+影像報告(Imaging Report)
+2017/02/27 Chest : PA View (Standing) EXAMINATION: Chest : PA View (Standing)
+FINDINGS:
+Cardiomegaly with calcified aorta. Increased infiltration over bilateral lungs.
+
+2017/03/01 Abdomen:KUB blurring of bilateral psoas shadows. marked increased bowel gas with dilatation of bowel loops in the abdomen, r/o ileus. no definite radiopaque stones. osteopenia of the visible bony structures. thoracolumbar spondylosis with marginal spur formation at multiple levels. (previous) compression fracture(s) and wedge deformity or decrease in height at T12 and L1 with retention of some bone cement(s).
+
+2017/03/07 Abdomen:KUB unremarkable bowel gas pattern. compression fracture at T12 and L1 s/p vertebroplasty. pelvic phleboliths.
+轉出/出院情況(Transfer/Discharge Status)
+改門診治療 穩定
+【Injury Severity Score】
+Head Neck: 0
+Face: 0
+Chest: 0
+Abdomen: 2
+[脊椎] 輕微腰椎壓迫性骨折(<20%) [2分]
+Extremity: 0
+External: 0
+Total ISS: 4
+病理報告(Pathology Report)
+nil
+轉出/出院指示(Follow-up Instructions & Medications)
+病人活動限制：無特殊限制，可依個人日常生活進行
+飲食注意事項：無特別飲食限制，請依個人日常飲食進行
+其他指示：請依預約日期返院門診
+Megestrol Acetate【液 Megest Oral Susp 40 mg/1 mL 120 mL/btl】 4 mL PO QD 出院藥天數4天
+Sennoside A+B【Sennapur 12.5 mg/tab】 2 tab PO HS 出院藥天數4天
+Amiodarone HCl【Cordarone 200 mg/tab】 1 tab PO BID 出院藥天數4天
+Hydroxyurea【Hydrea 500 mg/cap】 1 cap PO TID 出院藥天數4天
+Febuxostat【Feburic 80 mg/tab】 0.5 tab PO QD 出院藥天數4天
+Metoclopramide HCl【Prometin 5 mg/tab】 1 tab PO TIDAC30 出院藥天數4天
+Tamsulosin HCl【HARNALIDGE D 0.2 mg/tab】 1 tab LZ HS 出院藥天數4天
+門診預約:
+預約日期:2017/03/14 內科部 下午 13診 49號
+預約日期:2017/07/20 外科部 上午 10診 2號
+出院排程:
+2017/2/25 CBC & platelet
+2017/2/25 WBC classification
+2017/2/25 Albumin(Blood)
+2017/2/25 ALT(GPT)
+2017/2/25 BIL T
+2017/2/25 ALP
+2017/2/25 LDH
+2017/2/25 BUN
+2017/2/25 Creatinine(Blood)
+2017/2/25 Uric acid
+2017/2/25 Sodium, Na
+2017/2/25 Potassium, K
+2017/2/25 Calcium, Ca
+2017/2/25 Magnesium, Mg
+其他(Others)
+隔離醫囑:Nil

@@ -9,16 +9,160 @@ output:
 {
   "result": [
     {"non-entity": "檢傷內容\n"},
-    {"clue": "Fever (R50.9)\n", "concept": "Fever, unspecified", "vocabulary": "ICD10", "keyword": ["Fever"]},
+    {"clue": "Fever (R50.9)\n", "concept": "Fever, unspecified", "vocabulary": "ICD10", "MRCONSO.RRF": ["Fever"]},
     {"non-entity": "判定依據: "},
-    {"clue": "發燒/畏寒 發燒，看起來有病容\n", "concept": "Fever with chills (finding)", "vocabulary": "SNOMEDCT_US", "id": "274640006", "keyword": ["Fever", "chills", "finding"]},
+    {"clue": "發燒/畏寒 發燒，看起來有病容\n", "concept": "Fever with chills (finding)", "vocabulary": "SNOMEDCT_US", "id": "274640006", "MRCONSO.RRF": ["Fever", "chills", "finding"]},
     {"non-entity": "檢驗結果: "},
-    {"clue": "CRP: 25 mg/L\n", "concept": "C reactive protein [Mass/volume] in Serum or Plasma", "vocabulary": "LNC", "id": "1988-5", "keyword": ["C reactive protein", "Mass/volume", "Serum", "Plasma"], "value": "25", "unit": "mg/L"},
+    {"clue": "CRP: 25 mg/L\n", "concept": "C reactive protein [Mass/volume] in Serum or Plasma", "vocabulary": "LNC", "id": "1988-5", "MRCONSO.RRF": ["C reactive protein", "Mass/volume", "Serum", "Plasma"], "value": "25", "unit": "mg/L"},
     {"non-entity": "處方籤: "},
-    {"clue": "Kineret 100 MG/0.67 ML", "concept": "Kineret 100 MG in 0.67 ML Prefilled Syringe", "vocabulary": "RXNORM", "id": "727714", "keyword": ["Kineret", "100 MG", "0.67 ML", "Prefilled Syringe"]}
+    {"clue": "Kineret 100 MG/0.67 ML", "concept": "Kineret 100 MG in 0.67 ML Prefilled Syringe", "vocabulary": "RXNORM", "id": "727714", "MRCONSO.RRF": ["Kineret", "100 MG", "0.67 ML", "Prefilled Syringe"]}
   ]
 }
 
+===== 進化版 =====
+```註記
+佐證：
+- https://www.snomed.org/what-is-snomed-ct 有組成資訊
+- https://www.nlm.nih.gov/research/umls/rxnorm/docs/techdoc.html#s1_0 由此文件決定搜尋優先序
+- https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term/ 有組成資訊
+```
+
+將使用者的內容進行切割後執行NER，標示出UMLS Term: SNOMED CT International (SNOMEDCT_US), RxNorm (RXNORM), LOINC(LNC)，並附加適合用來對各來源進行搜尋的關鍵詞，結果以JSON輸出
+**demonstration**
+
+input:
+檢傷內容\nFever (R50.9)\n判定依據: 發燒/畏寒 發燒，看起來有病容\n檢驗結果: CRP: 25 mg/L\n處方籤: Kineret 100 MG/0.67 ML
+
+output:
+{
+  "result": [
+    {"non-entity": "檢傷內容\n"},
+    {
+      "clue": "Fever (R50.9)\n",
+      "concept": "Fever, unspecified",
+      "vocabulary": "SNOMEDCT_US",
+      "search": {
+        "Concept_Name": ["Fever"],
+        "Descriptions": ["unspecified"],
+        "Attributes": [],
+        "Relationships": []
+      }
+    },
+    {"non-entity": "判定依據: "},
+    {
+      "clue": "發燒/畏寒 發燒，看起來有病容\n",
+      "concept": "Fever with chills (finding)",
+      "vocabulary": "SNOMEDCT_US",
+      "search": {
+        "Concept_Name": ["Fever", "chills"],
+        "Descriptions": ["finding"],
+        "Attributes": [],
+        "Relationships": []
+      }
+    },
+    {"non-entity": "檢驗結果: "},
+    {
+      "clue": "CRP: 25 mg/L\n",
+      "concept": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "vocabulary": "LNC",
+      "search": {
+        "Component": ["C reactive protein", "CRP"],
+        "Property": ["Mass/volume", "Concentration"],
+        "System": ["Serum", "Plasma"],
+        "Time_Aspect": ["Point in time", "Pt"],
+        "Scale/Method": ["Quantitative", "Qn"]
+      },
+      "value": "25",
+      "unit": "mg/L"
+    },
+    {"non-entity": "處方籤: "},
+    {
+      "clue": "Kineret 100 MG/0.67 ML",
+      "concept": "Kineret 100 MG in 0.67 ML Prefilled Syringe",
+      "vocabulary": "RXNORM",
+      "search": {
+        "Ingredient": ["Kineret"],
+        "Strength/Dose": ["100 MG"],
+        "Dosage_Form": ["Prefilled Syringe"],
+        "Route_of_Administration": [],
+        "Frequency_and_Duration": [],
+        "Brand_Name": ["Kineret"]
+      }
+    }
+  ]
+}
+
+
+
+＝＝＝＝
+選擇一個最能反映概念核心、涵蓋常見情境且不包含多餘修飾詞的UMLS概念描述，以JSON輸出。
+{
+  "medical_record": "Vital signs: Blood Pressure: 93/62mmHg, Pulse Rate: 115/min, Respiratory Rate: 20/min, Temperature: 36.8℃, SPO2: 97％ Head: Scalp: Normal Pupils: Isocoric Conjunctiva: Not Pale Sclera: Anicteric Neck: Supple Jugular Vein Engorgement: - Lymphadenopathy: - Chest: Symmetric expansion, Breath sound: Clear Heart: Regular Heart Beat, Murmur: - Abdomen: Soft Bowel sound: Normal Extremities: Normal 診斷內容 入院診斷 Retinal detachment, unspecified side (H33.20) 出院診斷 Retinal detachment, unspecified side (H33.20) "
+  "term_select":[
+    {
+      "medical_record": "Blood Pressure: 93/62mmHg",
+      "candidate": [
+        "Cuff size:Len:Pt:Blood pressure device:OrdQn",
+        "Orthostatic blood pressure:PressDiff:Pt:Arterial system:Qn",
+        "Blood pressure systolic & diastolic^post phlebotomy:Pres:Pt:Arterial system:Qn",
+        "Blood pressure systolic & diastolic^post transfusion:Pres:Pt:Arterial system:Qn",
+        "Blood pressure systolic & diastolic^pre transfusion:Pres:Pt:Arterial system:Qn",
+        "Age began taking high blood pressure medication:Time:Pt:^Patient:Qn",
+        "Age when told have high blood pressure:Time:Pt:^Patient:Qn",
+        "Change in systolic blood pressure:PressDiff:Pt:^Patient:Qn",
+        "Pediatric blood pressure percentile:Prctl:Pt:^Patient:Qn:Per age, sex and height",
+        "Pediatric systolic blood pressure percentile:Prctl:Pt:^Patient:Qn:Per age, sex and height",
+        "Pediatric diastolic blood pressure percentile:Prctl:Pt:^Patient:Qn:Per age, sex and height",
+        "Cuff pressure.diastolic:Pres:Pt:Blood pressure device:Qn",
+        "Cuff pressure.systolic:Pres:Pt:Blood pressure device:Qn",
+        "Cuff pressure.mean:Pres:Pt:Blood pressure device:Qn",
+        "Cuff pressure:Pres:Pt:Blood pressure device:Qn",
+        "Blood pressure panel with all children optional:-:Pt:Arterial system:Qn",
+        "Blood pressure with exercise & post exercise panel:-:Pt:Arterial system:Qn"
+    }
+  ]
+}
+＝＝＝＝
+system
+
+選擇一個最能反映概念核心、涵蓋常見情境且不包含多餘修飾詞的UMLS概念描述，以JSON輸出如下格式：
+{
+  "questions":[
+    {
+      "term": "<term>",
+      "choice": "<choice>"
+    }
+  ]
+}
+
+user
+
+{
+  "questions":[
+    {
+      "term": "Blood Pressure: 93/62mmHg",
+      "choices": [
+          "Cuff size:Len:Pt:Blood pressure device:OrdQn",
+          "Orthostatic blood pressure:PressDiff:Pt:Arterial system:Qn",
+          "Blood pressure systolic & diastolic^post phlebotomy:Pres:Pt:Arterial system:Qn",
+          "Blood pressure systolic & diastolic^post transfusion:Pres:Pt:Arterial system:Qn",
+          "Blood pressure systolic & diastolic^pre transfusion:Pres:Pt:Arterial system:Qn",
+          "Age began taking high blood pressure medication:Time:Pt:^Patient:Qn",
+          "Age when told have high blood pressure:Time:Pt:^Patient:Qn",
+          "Change in systolic blood pressure:PressDiff:Pt:^Patient:Qn",
+          "Pediatric blood pressure percentile:Prctl:Pt:^Patient:Qn:Per age, sex and height",
+          "Pediatric systolic blood pressure percentile:Prctl:Pt:^Patient:Qn:Per age, sex and height",
+          "Pediatric diastolic blood pressure percentile:Prctl:Pt:^Patient:Qn:Per age, sex and height",
+          "Cuff pressure.diastolic:Pres:Pt:Blood pressure device:Qn",
+          "Cuff pressure.systolic:Pres:Pt:Blood pressure device:Qn",
+          "Cuff pressure.mean:Pres:Pt:Blood pressure device:Qn",
+          "Cuff pressure:Pres:Pt:Blood pressure device:Qn",
+          "Blood pressure panel with all children optional:-:Pt:Arterial system:Qn",
+          "Blood pressure with exercise & post exercise panel:-:Pt:Arterial system:Qn"
+      ]
+    }
+  ]
+}
 ===== 翻譯 =====
 translation the user context to english and execute normalization, polishing, and abbreviation expansion (word expansion). For entities that follow status words, ensure the status word applies to each of the following entities.
 
@@ -62,3 +206,15 @@ SNOMEDCT_US\|.+?\|.*?denied\|
 
 
 Present Illness: fever (finding) since today up to 38.8, fever since12/23, fever up to 38.8 since12/23, last fever C/T:2/23, myalgia, mild cough with whitish sputum, diarrhea, no tarry stool, no bloody stool, denied sore throat, denied headache, denied chest pain, denied dyspnea, denied abdominal pain, denied nausea, denied vomiting, denied dysuria, denied urinary frequency, denied urinary urgency
+
+
+
+
+
+你是一個醫學專家，請根據下面文本內容，標示出snomed ct, loinc, rxnorm code id 與其full name, 輸出格式為JSON list並且包含code id, id's code name 與文本內容出現的起始和結束位置。如果沒有code id就不用輸出。
+**demonstration**
+
+input:"A 22-year-old man was otherwise healthy and denied any systemic disease. The patient had progressive floaters in his right eye for 3-4 days, and photopsia was noted for 2 days. He visited LMD and RD was diagnosed. He then visited 馬偕hospital and was referred to NTUH. This time, he was admitted for surgical intervention\nOphtho history: OP (-) see above, Trauma (-)\nPast history: DM(-), HTN(-), CAD(-), Asthma (-)\nAllergy: nil\nFamily history: no hereditary ocular disease\nCurrent Medication:\nNTUH:Nil\nOther:nil\n中草藥:nil\n保健食品:nil\nTravel: nil\n身體診查(Physical Examination)\n入院時之身體檢查(Physical Examination at admission)\nBH: 164 cm, BW: 48 kg,\nT: 36.4 °C, P: 77 bpm, R: 17 /min,\nBP: 133 / 96 mmHg,\nPain score: 3 ,\n處方籤: Kineret 100 MG/0.67 ML"
+
+output:
+{"entities":[{"source":"SNOMEDCT","code_id":"248536006","code_name":"Photopsia","start_position":98,"end_position":106,"MRCONSO_keyword":["Photopsia"]},{"source":"SNOMEDCT","code_id":"80394007","code_name":"Retinal detachment","start_position":141,"end_position":143,"MRCONSO_keyword":["retinal","detachment"]},{"source":"SNOMEDCT","code_id":"73211009","code_name":"Asthma","start_position":314,"end_position":320,"MRCONSO_keyword":["Asthma"]},{"source":"LOINC","code_id":"8310-5","code_name":"Body temperature","start_position":602,"end_position":611,"MRCONSO_keyword":["temperature","body"]},{"source":"LOINC","code_id":"8867-4","code_name":"Heart rate","start_position":617,"end_position":623,"MRCONSO_keyword":["heart","rate"]},{"source":"LOINC","code_id":"9279-1","code_name":"Respiratory rate","start_position":628,"end_position":640,"MRCONSO_keyword":["respiratory","rate"]},{"source":"LOINC","code_id":"8480-6","code_name":"Systolic blood pressure","start_position":646,"end_position":648,"MRCONSO_keyword":["blood pressure","systolic"]},{"source":"LOINC","code_id":"8462-4","code_name":"Diastolic blood pressure","start_position":651,"end_position":653,"MRCONSO_keyword":["blood pressure","diastolic"]},{"source":"RXNORM","code_id":"349325","code_name":"Anakinra 100 MG/ML [Kineret]","start_position":696,"end_position":715,"MRCONSO_keyword":["Anakinra","Kineret","MG/ML"]}]}

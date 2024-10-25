@@ -101,7 +101,45 @@ output:
                 }
             ],
             temperature=0.5,
-            response_format={"type": "json_object"}
+            response_format={
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "llm_extract_response",
+                    "schema": {
+                        "type": "object",
+                        "properties": {
+                            "entities": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                "source": {
+                                    "type": "string",
+                                    "enum": ["SNOMEDCT", "LOINC", "RXNORM"]
+                                },
+                                "code_id": {
+                                    "type": "string"
+                                },
+                                "code_name": {
+                                    "type": "string"
+                                },
+                                "start_position": {
+                                    "type": "integer",
+                                    "minimum": 0
+                                },
+                                "end_position": {
+                                    "type": "integer",
+                                    "minimum": 0
+                                }
+                                },
+                                "required": ["source", "code_id", "code_name", "start_position", "end_position"]
+                            }
+                            }
+                        },
+                        "required": ["entities"]
+                    }
+                }
+            }
         )
 
         llm_extract_end_time = time.time()

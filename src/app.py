@@ -18,6 +18,8 @@ import redis
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from openai import OpenAI
+from pydantic import BaseModel
+import re
 from colorama import Fore, Style
 start_time = time.time()
 print(f"{Fore.GREEN}MedCAT package importing...{Style.RESET_ALL}", end="", flush=True)
@@ -69,13 +71,48 @@ model = "mc_modelpack_snomed_int_16_mar_2022_25be3857ba34bdd5.zip"
 cat = CAT.load_model_pack(f'../models/{model}')
 print(f"{Fore.GREEN}waiting for UMLS Dictionary Subset...{NEWLINE}{Style.RESET_ALL}", end="", flush=True)
 
+# Total
 umls_sub_dict = "filtered_data.csv"
-umls_df = pd.read_csv(f"../data/dict/{umls_sub_dict}", sep='|', header=None)
+umls_df = pd.read_csv(f"../data/dict/{umls_sub_dict}", sep='|', header=None, keep_default_na=False)
 umls_df.columns = [
     'CUI', 'LAT', 'TS', 'LUI', 'STT', 'SUI', 'ISPREF', 'AUI', 'SAUI',
     'SCUI', 'SDUI', 'SAB', 'TTY', 'CODE', 'STR', 'SRL', 'SUPPRESS', 'CVF'
 ]
+print("umls_df")
 print(umls_df.head())
+
+# LOINC
+loinc_sub_dict = "filtered_loinc_1.txt"
+loinc_df = pd.read_csv(f"../data/dict/{loinc_sub_dict}", sep='|', header=None, keep_default_na=False)
+loinc_df.columns = [
+    'CUI', 'TTY', 'CODE', 'STR'
+]
+print("loinc_df")
+print(loinc_df.head())
+nan_rows = loinc_df[loinc_df.isna().any(axis=1)]
+# print(nan_rows)
+
+# RxNorm
+rxnorm_sub_dict = "filtered_rxnorm_1.txt"
+rxnorm_df = pd.read_csv(f"../data/dict/{rxnorm_sub_dict}", sep='|', header=None, keep_default_na=False)
+rxnorm_df.columns = [
+    'CUI', 'TTY', 'CODE', 'STR'
+]
+print("rxnorm_df")
+print(rxnorm_df.head())
+nan_rows = rxnorm_df[rxnorm_df.isna().any(axis=1)]
+# print(nan_rows)
+
+# SNOMED CT US Edition
+snomedctus_sub_dict = "filtered_snomedct_us_1.txt"
+snomedctus_df = pd.read_csv(f"../data/dict/{snomedctus_sub_dict}", sep='|', header=None, keep_default_na=False)
+snomedctus_df.columns = [
+    'CUI', 'TTY', 'CODE', 'STR'
+]
+print("snomedctus_df")
+print(snomedctus_df.head())
+nan_rows = snomedctus_df[snomedctus_df.isna().any(axis=1)]
+# print(nan_rows)
 model_loaded_time = time.time()
 print(f"{Fore.GREEN} done. ({model_loaded_time - import_time:.2f} sec){Style.RESET_ALL}")
 
@@ -89,6 +126,7 @@ client = OpenAI(api_key=openai_api_key)
 # 封裝從第 1 步開始的邏輯為函式
 def process_medical_text(task_id, file_id, sqe, type, file_path):
     global r
+    global umls_df, loinc_df, rxnorm_df, snomedctus_df
     
     r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'running')
     sqe_start_time = time.time()
@@ -105,6 +143,12 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
         content = file.read()
 
     split_content = content.split("\n\n")
+    final_content = []
+    for paragraph in split_content:
+        lines = paragraph.split("\n")
+        for i in range(0, len(lines), 10):
+            final_content.append("\n".join(lines[i:i+10]))
+    split_content = final_content
     standardized_content = ""
 
     for i, segment in enumerate(split_content):
@@ -127,7 +171,8 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
                     )
                 },
                 {"role": "user", "content": segment}
-            ]
+            ],
+            max_completion_tokens=16383
         )
 
         seqment_end_time = time.time()
@@ -220,41 +265,92 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
         for i, segment in enumerate(split_content):
             # 顯示預覽
             lines = segment.splitlines()
+            print(f"{Fore.WHITE}file_id {file_id} sqe {sqe}: {i+1}/{len(split_content)} LLM_Try({try_index+1}/{total_retry}) 正在透過LLM抓取以下內容...{Style.RESET_ALL}", end="", flush=True)
             print(
                 f"{Fore.YELLOW}{NEWLINE.join(lines[:5])}{f' [... {len(lines)} 行]' if len(lines) > 5 else ''}{Style.RESET_ALL}"
             )
-            print(f"{Fore.WHITE}file_id {file_id} sqe {sqe}: {i+1}/{len(split_content)} LLM_Try({try_index+1}/{total_retry}) 正在透過LLM抓取...{Style.RESET_ALL}", end="", flush=True)
             llm_extract_start_time = time.time()
 
             # 呼叫 OpenAI API 進行處理
             llm_extract_completion = client.chat.completions.create(
                 model="gpt-4o-2024-08-06",
 
-                # 原始prompt
-#                 messages=[
-#                     {
-#                         "role": "system",
-#                         "content": (
-#                             """將使用者的內容進行切割後執行NER，標示出UMLS Term (SNOMEDCT_US, RXNORM, LNC, ICD10)與字元位置資訊，以JSON輸出： 
-# {
-#   "result": [
-#     {"non-entity": "檢傷內容\n"},
-#     {"clue": "Fever (R50.9)\n", "concept": "Fever, unspecified", "vocabulary": "ICD10", "keyword": ["Fever"], "start":123, "end":137 },
-#     {"non-entity": "判定依據: "},
-#     {"clue": "發燒/畏寒 發燒，看起來有病容", "concept": "Fever with chills (finding)", "vocabulary": "SNOMEDCT_US", "id": "274640006", "keyword": ["Fever", "chills", "finding"], "start":248, "end":263 },
-#     {"non-entity": "檢驗結果: "},
-#     {"clue": "CRP: 25 mg/L", "concept": "C reactive protein [Mass/volume] in Serum or Plasma", "vocabulary": "LNC", "id": "1988-5", "keyword": ["C reactive protein", "Mass/volume", "Serum", "Plasma"], "value": "25", "unit": "mg/L", "start":420, "end":432 },
-#     {"non-entity": "處方籤: "},
-#     {"clue": "Kineret 100 MG/0.67 ML", "concept": "Kineret 100 MG in 0.67 ML Prefilled Syringe", "vocabulary": "RXNORM", "id": "727714", "keyword": ["Kineret", "100 MG", "0.67 ML", "Prefilled Syringe"], "start":500, "end":522 }
-#   ]
-# }
-# """
-#                         )
-#                     },
-#                     {"role": "user", "content": segment}
-#                 ],
+                # 我的prompt
+                messages=[
+                    {
+                        "role": "system",
+                        "content": (
+                            """將使用者的內容進行切割後執行NER，標示出UMLS Term: SNOMED CT International (SNOMEDCT_US), RxNorm (RXNORM), LOINC(LNC)，並附加適合用來對各來源進行搜尋的關鍵詞，結果以JSON輸出
+**demonstration**
 
-                # 組長的prompt
+input:
+檢傷內容\nFever (R50.9)\n判定依據: 發燒/畏寒 發燒，看起來有病容\n檢驗結果: CRP: 25 mg/L\n處方籤: Kineret 100 MG/0.67 ML
+
+output:
+{
+  "result": [
+    {"non-entity": "檢傷內容\n"},
+    {
+      "clue": "Fever (R50.9)\n",
+      "concept": "Fever, unspecified",
+      "vocabulary": "SNOMEDCT_US",
+      "search": {
+        "Concept_Name": ["Fever"],
+        "Descriptions": ["unspecified"],
+        "Attributes": [],
+        "Relationships": []
+      }
+    },
+    {"non-entity": "判定依據: "},
+    {
+      "clue": "發燒/畏寒 發燒，看起來有病容\n",
+      "concept": "Fever with chills (finding)",
+      "vocabulary": "SNOMEDCT_US",
+      "search": {
+        "Concept_Name": ["Fever", "chills"],
+        "Descriptions": ["finding"],
+        "Attributes": [],
+        "Relationships": []
+      }
+    },
+    {"non-entity": "檢驗結果: "},
+    {
+      "clue": "CRP: 25 mg/L\n",
+      "concept": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "vocabulary": "LNC",
+      "search": {
+        "Component": ["C reactive protein", "CRP"],
+        "Property": ["Mass/volume", "Concentration"],
+        "System": ["Serum", "Plasma"],
+        "Time_Aspect": ["Point in time", "Pt"],
+        "Scale/Method": ["Quantitative", "Qn"]
+      },
+      "value": "25",
+      "unit": "mg/L"
+    },
+    {"non-entity": "處方籤: "},
+    {
+      "clue": "Kineret 100 MG/0.67 ML",
+      "concept": "Kineret 100 MG in 0.67 ML Prefilled Syringe",
+      "vocabulary": "RXNORM",
+      "search": {
+        "Ingredient": ["Kineret"],
+        "Strength/Dose": ["100 MG"],
+        "Dosage_Form": ["Prefilled Syringe"],
+        "Route_of_Administration": [],
+        "Frequency_and_Duration": [],
+        "Brand_Name": ["Kineret"]
+      }
+    }
+  ]
+}
+"""
+                        )
+                    },
+                    {"role": "user", "content": segment}
+                ],
+
+#                 # 組長的prompt（有附加參考資料）
 #                 messages=[
 #                     {
 #                         "role": "user",
@@ -271,26 +367,288 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
 #                         )
 #                     }
 #                 ],
-                messages=[
-                    {
-                        "role": "user",
-                        "content": (
-                            """你是一個醫學專家，請根據下面文本內容，標示出snomed ct, loinc, rxnorm code id 與其full name, 輸出格式為JSON list並且包含code id, id's code name 與文本內容出現的起始和結束位置。如果沒有code id就不用輸出。
-**demonstration**
 
-input:"A 22-year-old man was otherwise healthy and denied any systemic disease. The patient had progressive floaters in his right eye for 3-4 days, and photopsia was noted for 2 days. He visited LMD and RD was diagnosed. He then visited 馬偕hospital and was referred to NTUH. This time, he was admitted for surgical intervention\nOphtho history: OP (-) see above, Trauma (-)\nPast history: DM(-), HTN(-), CAD(-), Asthma (-)\nAllergy: nil\nFamily history: no hereditary ocular disease\nCurrent Medication:\nNTUH:Nil\nOther:nil\n中草藥:nil\n保健食品:nil\nTravel: nil\n身體診查(Physical Examination)\n入院時之身體檢查(Physical Examination at admission)\nBH: 164 cm, BW: 48 kg,\nT: 36.4 °C, P: 77 bpm, R: 17 /min,\nBP: 133 / 96 mmHg,\nPain score: 3 ,\n處方籤: Kineret 100 MG/0.67 ML"
+#                 # 組長的prompt（無參考資料）
+#                 messages=[
+#                     {
+#                         "role": "user",
+#                         "content": (
+#                             """你是一個醫學專家，請根據下面文本內容，標示出snomed ct, loinc, rxnorm code id 與其full name, 輸出格式為JSON list並且包含code id, id's code name 與文本內容出現的起始和結束位置。如果沒有code id就不用輸出。
+# **demonstration**
 
-output:
-{"entities":[{"source":"SNOMEDCT","code_id":"248536006","code_name":"Photopsia","start_position":98,"end_position":106},{"source":"SNOMEDCT","code_id":"80394007","code_name":"Retinal detachment","start_position":141,"end_position":143},{"source":"SNOMEDCT","code_id":"73211009","code_name":"Asthma","start_position":314,"end_position":320},{"source":"LOINC","code_id":"8310-5","code_name":"Body temperature","start_position":602,"end_position":611},{"source":"LOINC","code_id":"8867-4","code_name":"Heart rate","start_position":617,"end_position":623},{"source":"LOINC","code_id":"9279-1","code_name":"Respiratory rate","start_position":628,"end_position":640},{"source":"LOINC","code_id":"8480-6","code_name":"Systolic blood pressure","start_position":646,"end_position":648},{"source":"LOINC","code_id":"8462-4","code_name":"Diastolic blood pressure","start_position":651,"end_position":653},{"source":"RXNORM","code_id":"349325","code_name":"Anakinra 100 MG/ML [Kineret]","start_position":696,"end_position":715}]}
+# input:"A 22-year-old man was otherwise healthy and denied any systemic disease. The patient had progressive floaters in his right eye for 3-4 days, and photopsia was noted for 2 days. He visited LMD and RD was diagnosed. He then visited 馬偕hospital and was referred to NTUH. This time, he was admitted for surgical intervention\nOphtho history: OP (-) see above, Trauma (-)\nPast history: DM(-), HTN(-), CAD(-), Asthma (-)\nAllergy: nil\nFamily history: no hereditary ocular disease\nCurrent Medication:\nNTUH:Nil\nOther:nil\n中草藥:nil\n保健食品:nil\nTravel: nil\n身體診查(Physical Examination)\n入院時之身體檢查(Physical Examination at admission)\nBH: 164 cm, BW: 48 kg,\nT: 36.4 °C, P: 77 bpm, R: 17 /min,\nBP: 133 / 96 mmHg,\nPain score: 3 ,\n處方籤: Kineret 100 MG/0.67 ML"
 
-以下是文本內容：
-""" + segment
-                        )
-                    }
-                ],
-                temperature=0.5,
+# output:
+# {"entities":[{"source":"SNOMEDCT","code_id":"248536006","code_name":"Photopsia","start_position":98,"end_position":106},{"source":"SNOMEDCT","code_id":"80394007","code_name":"Retinal detachment","start_position":141,"end_position":143},{"source":"SNOMEDCT","code_id":"73211009","code_name":"Asthma","start_position":314,"end_position":320},{"source":"LOINC","code_id":"8310-5","code_name":"Body temperature","start_position":602,"end_position":611},{"source":"LOINC","code_id":"8867-4","code_name":"Heart rate","start_position":617,"end_position":623},{"source":"LOINC","code_id":"9279-1","code_name":"Respiratory rate","start_position":628,"end_position":640},{"source":"LOINC","code_id":"8480-6","code_name":"Systolic blood pressure","start_position":646,"end_position":648},{"source":"LOINC","code_id":"8462-4","code_name":"Diastolic blood pressure","start_position":651,"end_position":653},{"source":"RXNORM","code_id":"349325","code_name":"Anakinra 100 MG/ML [Kineret]","start_position":696,"end_position":715}]}
+
+# 以下是文本內容：
+# """ + segment
+#                         )
+#                     }
+#                 ],
+                # temperature=0.5,
                 max_completion_tokens=16383,
-                response_format={"type": "json_object"}
+                response_format={
+                    "type": "json_schema",
+                    "json_schema": {
+                        "name": "llm_extract_response",
+                        "schema": {
+                            "type": "object",
+                            "name": "NER_Result",
+                            "properties": {
+                                "result": {
+                                    "type": "array",
+                                    "items": {
+                                        "anyOf": [
+                                            {
+                                                "type": "object",
+                                                "description": "This span is not an entity",
+                                                "properties": {
+                                                    "type": {
+                                                        "type": "string",
+                                                        "enum": ["non-entity"]
+                                                    },
+                                                    "non-entity": {
+                                                        "type": "string",
+                                                        "description": "The text in non-entity span"
+                                                    }
+                                                },
+                                                "required": ["type", "non-entity"],
+                                                "additionalProperties": False
+                                            },
+                                            {
+                                                "type": "object",
+                                                "description": "This span should been tagged as an SNOMEDCT_US entity",
+                                                "properties": {
+                                                    "type": {
+                                                        "type": "string",
+                                                        "enum": ["SNOMEDCT_US"]
+                                                    },
+                                                    "clue": {
+                                                        "description": "The text in SNOMEDCT_US entity span",
+                                                        "type": "string"
+                                                    },
+                                                    "concept": {
+                                                        "description": "The concept string in SNOMEDCT_US source",
+                                                        "type": "string"
+                                                    },
+                                                    "vocabulary": {
+                                                        "description": "The concept source name",
+                                                        "type": "string",
+                                                        "enum": ["SNOMEDCT_US"]
+                                                    },
+                                                    "search": {
+                                                        "description": "What keywords are most likely to find a matching concept in SNOMEDCT US Edition",
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "Concept_Name": {
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Concept_Name keyword in SNOMEDCT US Edition",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Descriptions": {
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Descriptions keyword in SNOMEDCT US Edition",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Attributes": {
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Attributes keyword in SNOMEDCT US Edition",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Relationships": {
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Relationships keyword in SNOMEDCT US Edition",
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        },
+                                                        "required": ["Concept_Name", "Descriptions", "Attributes", "Relationships"],
+                                                        "additionalProperties": False
+                                                    }
+                                                },
+                                                "required": ["type", "clue", "concept", "vocabulary", "search"],
+                                                "additionalProperties": False
+                                            },
+                                            {
+                                                "type": "object",
+                                                "description": "This span should been tagged as an RXNORM entity",
+                                                "properties": {
+                                                    "type": {
+                                                        "type": "string",
+                                                        "enum": ["RXNORM"]
+                                                    },
+                                                    "clue": {
+                                                        "description": "The text in RXNORM entity span",
+                                                        "type": "string"
+                                                    },
+                                                    "concept": {
+                                                        "description": "The concept string in RXNORM source",
+                                                        "type": "string"
+                                                    },
+                                                    "vocabulary": {
+                                                        "description": "The concept source name",
+                                                        "type": "string",
+                                                        "enum": ["RXNORM"]
+                                                    },
+                                                    "search": {
+                                                        "description": "What keywords are most likely to find a matching concept in RXNORM",
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "Ingredient": {
+                                                                "description": "List the most important Ingredient in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Ingredient keyword in RXNORM",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Strength/Dose": {
+                                                                "description": "List the most important Strength/Dose in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Strength/Dose keyword in RXNORM",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Dosage_Form": {
+                                                                "description": "List the most important Dosage_Form in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Dosage_Form keyword in RXNORM",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Route_of_Administration": {
+                                                                "description": "List the most important Route_of_Administration in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Route_of_Administration keyword in RXNORM",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Frequency_and_Duration": {
+                                                                "description": "List the most important Frequency_and_Duration in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Frequency_and_Duration keyword in RXNORM",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Brand_Name": {
+                                                                "description": "List the most important Brand_Name in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Brand_Name keyword in RXNORM",
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        },
+                                                        "required": ["Ingredient", "Strength/Dose", "Dosage_Form", "Route_of_Administration", "Frequency_and_Duration", "Brand_Name"],
+                                                        "additionalProperties": False
+                                                    }
+                                                },
+                                                "required": ["type", "clue", "concept", "vocabulary", "search"],
+                                                "additionalProperties": False
+                                            },
+                                            {
+                                                "type": "object",
+                                                "description": "This span should been tagged as an LOINC entity",
+                                                "properties": {
+                                                    "type": {
+                                                        "type": "string",
+                                                        "enum": ["LNC"]
+                                                    },
+                                                    "clue": {
+                                                        "description": "The text in LOINC entity span",
+                                                        "type": "string"
+                                                    },
+                                                    "concept": {
+                                                        "description": "The concept string in LOINC source",
+                                                        "type": "string"
+                                                    },
+                                                    "vocabulary": {
+                                                        "description": "The concept source name",
+                                                        "type": "string",
+                                                        "enum": ["LNC"]
+                                                    },
+                                                    "search": {
+                                                        "description": "What keywords are most likely to find a matching concept in LOINC",
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "Component": {
+                                                                "description": "List the most important Component in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Component keyword in LOINC",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Property": {
+                                                                "description": "List the most important Property in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Property keyword in LOINC",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "System": {
+                                                                "description": "List the most important System in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "System keyword in LOINC",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Time_Aspect": {
+                                                                "description": "List the most important Time_Aspect in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Time_Aspect keyword in LOINC",
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "Scale/Method": {
+                                                                "description": "List the most important Scale/Method in order of significance",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "description": "Scale/Method keyword in LOINC",
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        },
+                                                        "required": ["Component", "Property", "System", "Time_Aspect", "Scale/Method"],
+                                                        "additionalProperties": False
+                                                    },
+                                                    "value": {
+                                                        "description": "value infomation in LOINC entity span",
+                                                        "type": ["string", "null"]
+                                                    },
+                                                    "unit": {
+                                                        "description": "unit infomation in LOINC entity span",
+                                                        "type": ["string", "null"]
+                                                    }
+                                                },
+                                                "required": ["type", "clue", "concept", "vocabulary", "search", "value", "unit"],
+                                                "additionalProperties": False
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": ["result"],
+                            "additionalProperties": False
+                        },
+                        "strict": True
+                    }
+                }
             )
 
             llm_extract_end_time = time.time()
@@ -300,30 +658,221 @@ output:
             # count-2. 以result中每個entity元素的id這個key進行次數統計，輸出到id_count_dict
             llm_extract_json = json.loads(llm_extract_completion.choices[0].message.content)
             # print(llm_extract_json)
+            # 儲存llm_extract_json為JSON檔案
+            llmExtractTemp_txt_path = f"../data/pipe_result/{file_base_name}.raw.polishing.llmExtractTemp_{try_index}_{i}.txt"
+            with open(llmExtractTemp_txt_path, "w") as file:
+                file.write(json.dumps(llm_extract_json, indent=4))
 
-            # 原始prompt對應的解析方式
-            # for entity in llm_extract_json["result"]:
-            #     if "id" in entity:
-            #         if entity["id"] in id_count_dict:
-            #             id_count_dict[f'{entity["vocabulary"]}{entity["id"]}']["count"] += 1
-            #         else:
-            #             id_count_dict[f'{entity["vocabulary"]}:{entity["id"]}'] = {"concept":entity["concept"], "count":1}
 
-            # 組長prompt對應的解析方式
-            for entity in llm_extract_json["entities"]:
-                if f'{entity["source"]}{entity["code_id"]}' in id_count_dict:
-                    id_count_dict[f'{entity["source"]}{entity["code_id"]}']["count"] += 1
+            # 我的prompt對應的解析方式
+            def get_candidate_from_umls_subset_by_search_keywords(source, search, threshold=50):
+                if source == "SNOMEDCT_US":
+                    search_df = snomedctus_df
+                elif source == "RXNORM":
+                    search_df = rxnorm_df
+                elif source == "LNC":
+                    search_df = loinc_df
                 else:
-                    id_count_dict[f'{entity["source"]}:{entity["code_id"]}'] = {
-                        "source":entity["source"],
-                        "code":entity["code_id"],
-                        "code_name":entity["code_name"],
-                        "count":1,
-                        "confidence":0
+                    raise ValueError(f"LLM generated source: {source}, which is not supported (extract stage)")
+                # search是一個包含了不同種搜尋關鍵字的dict，而較高優先序的關鍵字種類會被放在dict的前面
+                for keyword_type, search_keywords in search.items():
+                    if not search_keywords:
+                        continue
+                    # 搜尋策略是針對每一類關鍵字：
+                    # 1. 都先以交集的方式對各來源的STR欄位，進行正規搜尋，例如：(?=.*?foo)(?=.*?bar)
+                    search_pattern = "^" + "".join([f"(?=.*?{re.escape(k)})" for k in search_keywords]) + ".*"
+                    print(f"Intersection search_pattern: {search_pattern}")
+                    filtered_df = search_df[search_df['STR'].str.contains(search_pattern, case=False, regex=True)]
+                    if not filtered_df.empty:
+                        search_df = filtered_df
+                        continue
+                    else:
+                        pass
+                        # print(f"{keyword_type}: {search_keywords}, this intersection filter would result in zero candidates, skipping.")
+                    
+                    # 2. 交集造成的結果為空，我們可以逐步增加關鍵字，直到變成0的前一個狀態，例如：(?=.*?foo)|(?=.*?bar)造成結果為0，則改為(?=.*?foo)
+                    if len(search_keywords) > 1:
+                        pre_filtered_df = search_df
+                        for search_keyword in search_keywords:
+                            search_pattern = f"(?=.*?{search_keyword})"
+                            print(f"Incremental Intersection search_pattern: {search_pattern}")
+                            filtered_df = pre_filtered_df[pre_filtered_df['STR'].str.contains(search_pattern, case=False, regex=True)]
+                            if not filtered_df.empty:
+                                pre_filtered_df = filtered_df
+                                break
+                            else:
+                                # 給出前一次的搜尋結果
+                                search_df = pre_filtered_df
+
+                    # 3. 如果交集的結果是空，則改為以聯集的方式進行搜尋，例如：(foo|bar)
+                    if len(search_keywords) > 1:
+                        search_pattern = "|".join([f"({search_keyword})" for search_keyword in search_keywords])
+                        print(f"Union search_pattern: {search_pattern}")
+                        filtered_df = search_df[search_df['STR'].str.contains(search_pattern, case=False, regex=True)]
+                        if not filtered_df.empty:
+                            search_df = filtered_df
+                        else:
+                            pass
+                            # print(f"{keyword_type}: {search_keywords}, this union filter would result in zero candidates, skipping.")
+                
+                # 最後將搜尋結果轉為list之後回傳
+                candidates = search_df['STR'].tolist()
+
+                # # 超過threshold的候選詞數量，表示這個entity的搜尋結果過於廣泛，不適合作為選項
+                # if len(candidates) > threshold:
+                #     return []
+                # 超過threshold的候選詞數量，表示這個entity的搜尋結果過於廣泛，選擇最泛用的，通常是最短的
+                if len(candidates) > threshold:
+                    return [min(candidates, key=len)]
+
+                return search_df['STR'].tolist()
+            
+            questions = []
+            for entity in llm_extract_json["result"]:
+                if "clue" in entity:
+                    if entity["vocabulary"] == "LOINC":
+                        entity["vocabulary"] = "LNC"
+                    # 透過search這個key來搜尋對應字典的concept的code_name和code_id
+                    candidates = get_candidate_from_umls_subset_by_search_keywords(entity["vocabulary"], entity["search"])
+                    # print(f"candidates: {candidates}")
+                    if candidates:
+                        questions.append({
+                            "source": entity["vocabulary"],
+                            "term": entity["clue"],
+                            "choices": candidates
+                        })
+            # print(f"questions: {questions}")
+            # 儲存questions為JSON檔案
+            llmExtractQuestions_txt_path = f"../data/pipe_result/{file_base_name}.raw.polishing.llmExtractQuestions_{try_index}_{i}.txt"
+            with open(llmExtractQuestions_txt_path, "w") as file:
+                file.write(json.dumps(questions, indent=4))
+            if not questions:
+                pass
+                # print(f"{Fore.RED}No questions generated for this segment{Style.RESET_ALL}")
+            
+            # 呼叫 OpenAI API 進行選擇
+            user_content = json.dumps({"questions": questions})
+            # print(f"User Content: {user_content}")
+            if questions:
+                llm_answer_completion = client.chat.completions.create(
+                    model="gpt-4o-2024-08-06",
+
+                    # 我的prompt
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": (
+                                """選擇一個最能反映概念核心、涵蓋常見情境且不包含多餘修飾詞的UMLS概念描述，以JSON輸出如下格式：
+{
+  "answers":[
+    {
+      "source": "<source>",
+      "term": "<term>",
+      "choice": "<choice>"
+    }
+  ]
+}
+"""
+                            )
+                        },
+                        {
+                            "role": "user",
+                            "content": user_content
+                        }
+                    ],
+                    max_completion_tokens=16383,
+                    response_format={
+                        "type": "json_schema",
+                        "json_schema": {
+                            "name": "llm_answer_response",
+                            "schema": {
+                                "name": "Best_matching_UMLS_concept",
+                                "type": "object",
+                                "properties": {
+                                    "answers": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "source": {
+                                                    "type": "string",
+                                                    "enum": ["SNOMEDCT_US", "RXNORM", "LNC"]
+                                                },
+                                                "term": {
+                                                    "type": "string"
+                                                },
+                                                "choice": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": ["source", "term", "choice"],
+                                            "additionalProperties": False
+                                        }
+                                    }
+                                },
+                                "required": ["answers"],
+                                "additionalProperties": False
+                            },
+                            "strict": True
+                        }
                     }
+                )
+                llm_answer_json = json.loads(llm_answer_completion.choices[0].message.content)
+                # print(llm_answer_json)
+                # 儲存answers為JSON檔案
+                llmExtractAnswers_txt_path = f"../data/pipe_result/{file_base_name}.raw.polishing.llmExtractAnswers_{try_index}_{i}.txt"
+                with open(llmExtractAnswers_txt_path, "w") as file:
+                    file.write(json.dumps(llm_answer_json, indent=4))
+                if not llm_answer_json["answers"]:
+                    pass
+                    # print(f"{Fore.RED}No answers generated for this segment{Style.RESET_ALL}")
+                
+                # 將answers list轉為dict，以便後續的處理
+                answer_dict = {answer["term"]:answer for answer in llm_answer_json["answers"]}
+                for entity in llm_extract_json["result"]:
+                    if "clue" in entity:
+                        if entity["clue"] in answer_dict:
+                            answer = answer_dict[entity["clue"]]
+                            if f'{answer["source"]}:{answer["choice"]}' in id_count_dict:
+                                id_count_dict[f'{answer["source"]}:{answer["choice"]}']["count"] += 1
+                            else:
+                                if answer["source"] == "SNOMEDCT_US":
+                                    search_df = snomedctus_df
+                                elif answer["source"] == "RXNORM":
+                                    search_df = rxnorm_df
+                                elif answer["source"] == "LNC":
+                                    search_df = loinc_df
+                                target_df = search_df[search_df['STR'].str.lower() == answer["choice"].lower()]
+                                # 有可能回傳值是幻覺，因此要檢查target_df是否為空
+                                if not target_df.empty:
+                                    code_str = str(target_df.iloc[0]['CODE'])
+                                    id_count_dict[f'{answer["source"]}:{answer["choice"]}'] = {
+                                        "source":answer["source"],
+                                        "code":code_str,
+                                        "code_name":answer["choice"],
+                                        "text":entity["clue"],
+                                        "count":1,
+                                        "confidence":0
+                                    }
+                        else:
+                            pass
+                            # print(f"{Fore.RED}Answer not found for clue: {entity['clue']}{Style.RESET_ALL}")
+
+            # # 組長prompt對應的解析方式
+            # for entity in llm_extract_json["entities"]:
+            #     if f'{entity["source"]}{entity["code_id"]}' in id_count_dict:
+            #         id_count_dict[f'{entity["source"]}{entity["code_id"]}']["count"] += 1
+            #     else:
+            #         id_count_dict[f'{entity["source"]}:{entity["code_id"]}'] = {
+            #             "source":entity["source"],
+            #             "code":entity["code_id"],
+            #             "code_name":entity["code_name"],
+            #             "count":1,
+            #             "confidence":0
+            #         }
     # 將count轉換為confidence
     for key in id_count_dict:
-        id_count_dict[key]["confidence"] = id_count_dict[key]["count"] / total_retry
+        id_count_dict[key]["confidence"] = min(id_count_dict[key]["count"] / total_retry, 1.0)
 
     # 為了讓輸出的結果保持為如下的JSON清單形式，需要進行轉換
     # {
@@ -348,7 +897,7 @@ output:
     #         }
     #     ]
     # }
-    tmp_entities = [{"source":v["source"], "code":v["code"], "code_name":v["code_name"], "confidence":v["confidence"], "count":v["count"]} for k,v in id_count_dict.items()]
+    tmp_entities = [{"source":v["source"], "code":v["code"], "code_name":v["code_name"], "text":v["text"], "confidence":v["confidence"], "count":v["count"]} for k,v in id_count_dict.items()]
     llm_extract_json = {"entities":tmp_entities}
 
     # count-3. 輸出id_count_dict結果
@@ -357,6 +906,7 @@ output:
         # 原始prompt對應的輸出方式
         # file.write(json.dumps(id_count_dict, indent=4))
         # 組長prompt對應的輸出方式
+        print(llm_extract_json)
         file.write(json.dumps(llm_extract_json, indent=4))
     llm_extract_time = time.time()
     print(f"{Fore.GREEN}file_id {file_id} sqe {sqe} LLM抓取時間: {round(llm_extract_time - sqe_end_time, 2)} sec{Style.RESET_ALL}")
@@ -366,44 +916,44 @@ output:
         r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'filepath_llmExtract', llmExtract_txt_path)
 
     # 把整份output.txt檔案傳送到指定的API
-    with open(llmExtract_txt_path, "r") as file:
-        content = file.read()
-        url = "http://35.229.136.14:8090/contentListener"
-        if type == "Full":
-            headers = {
-                'Content-Type': 'application/json',
-                'file_id': file_id,
-                'uid': sqe,
-                'type': 'A'
-            }
-            response = requests.request("POST", url, headers=headers, data=content)
-            headers = {
-                'Content-Type': 'application/json',
-                'file_id': file_id,
-                'uid': sqe,
-                'type': 'B'
-            }
-            response = requests.request("POST", url, headers=headers, data=content)
-            headers = {
-                'Content-Type': 'application/json',
-                'file_id': file_id,
-                'uid': sqe,
-                'type': 'C'
-            }
-            response = requests.request("POST", url, headers=headers, data=content)
-        else:
-            type_mapping = {
-                "ER": "A", # 急診病例
-                "HR": "B", # 住院病例
-                "LR": "C" # 檢驗紀錄
-                }
-            headers = {
-                'Content-Type': 'application/json',
-                'file_id': file_id,
-                'uid': sqe,
-                'type': type_mapping[type]
-            }
-            response = requests.request("POST", url, headers=headers, data=content)
+    # with open(llmExtract_txt_path, "r") as file:
+    #     content = file.read()
+    #     url = "http://35.229.136.14:8090/contentListener"
+    #     if type == "Full":
+    #         headers = {
+    #             'Content-Type': 'application/json',
+    #             'file_id': file_id,
+    #             'uid': sqe,
+    #             'type': 'A'
+    #         }
+    #         response = requests.request("POST", url, headers=headers, data=content)
+    #         headers = {
+    #             'Content-Type': 'application/json',
+    #             'file_id': file_id,
+    #             'uid': sqe,
+    #             'type': 'B'
+    #         }
+    #         response = requests.request("POST", url, headers=headers, data=content)
+    #         headers = {
+    #             'Content-Type': 'application/json',
+    #             'file_id': file_id,
+    #             'uid': sqe,
+    #             'type': 'C'
+    #         }
+    #         response = requests.request("POST", url, headers=headers, data=content)
+    #     else:
+    #         type_mapping = {
+    #             "ER": "A", # 急診病例
+    #             "HR": "B", # 住院病例
+    #             "LR": "C" # 檢驗紀錄
+    #             }
+    #         headers = {
+    #             'Content-Type': 'application/json',
+    #             'file_id': file_id,
+    #             'uid': sqe,
+    #             'type': type_mapping[type]
+    #         }
+    #         response = requests.request("POST", url, headers=headers, data=content)
 
     r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'uploaded')
     # get latest task_id
@@ -543,27 +1093,27 @@ def txt_ner_list():
             unit_uploaded_keys.append(key.decode('utf-8'))
     
     # unit_uploaded_keys 中應該裝滿了類似這樣的key
-    # latest_sqe:1234-ER
-    # latest_sqe:1234-HR
-    # latest_sqe:1234-LR
-    # latest_sqe:5678-ER
-    # latest_sqe:9012-HR
+    # latest_sqe:UUID-1234-ER
+    # latest_sqe:UUID-1234-HR
+    # latest_sqe:UUID-1234-LR
+    # latest_sqe:UUID-5678-ER
+    # latest_sqe:UUID-9012-HR
     # 把集齊ER+HR+LR的紀錄，設定為uploaded，其他維持processing，以JSON回傳
     # 回傳JSON範例：
     # {
     #     "records": [
     #         {
-    #             "sqe": 1234,
+    #             "sqe": UUID-1234,
     #             "status": "uploaded",
     #             "text": "file_content"
     #         },
     #         {
-    #             "sqe": 5678,
+    #             "sqe": UUID-5678,
     #             "status": "processing",
     #             "text": "file_content"
     #         },
     #         {
-    #             "sqe": 9012,
+    #             "sqe": UUID-9012,
     #             "status": "processing",
     #             "text": "file_content"
     #         }
@@ -578,23 +1128,26 @@ def txt_ner_list():
     # 3. 回傳JSON
     unique_sqe = set()
     for key in unit_uploaded_keys:
-        file_id = key.split(":")[-1].split("-")[0]
-        sqe = key.split(":")[-1].split("-")[1]
-        unique_sqe.add(sqe)
+        main_part = key.split(":")[-1]
+        file_id = main_part[:36]
+        sqe = main_part[37:].rsplit('-', 1)[0]
+        unique_sqe.add(f'{file_id}-{sqe}')
     records = []
-    for sqe in unique_sqe:
+    for u in unique_sqe:
+        file_id = u[:36]
+        sqe = u[37:]
         status = "processing"
         text = ""
         all_exist = True
         for type_str in ["ER", "HR", "LR"]:
-            key = f'latest_sqe:{file_id}-{sqe}-{type_str}'
+            key = f'latest_sqe:{u}-{type_str}'
             if key not in unit_uploaded_keys:
                 all_exist = False
                 break
         if all_exist:
             status = "uploaded"
             for type_str in ["ER", "HR", "LR"]:
-                key = f'latest_sqe:{file_id}-{sqe}-{type_str}'
+                key = f'latest_sqe:{u}-{type_str}'
                 filepath = r.hget(key, 'filepath_raw')
                 if filepath is not None:
                     filepath = filepath.decode('utf-8')
@@ -606,7 +1159,8 @@ def txt_ner_list():
                     text += file.read()
                     text += "\n\n\n\n\n\n\n\n"
         records.append({
-            "sqe": f'{file_id}-{sqe}',
+            "file_id": f'{file_id}',
+            "sqe": f'{sqe}',
             "status": status,
             "text": text
         })
@@ -661,11 +1215,12 @@ def txt_ner_result():
     # 27|Retinal detachment|C0035305|SNOMEDCT_US|42059000|Retinal detachment|0.96
     # 3. 打包成eneities，組成response
     # 4. 回傳response
+    file_id = data['file_id']
     sqe = data['sqe']
     entities = []
     base_ind = 0
     for type_str in ["ER", "HR", "LR"]:
-        key = f'latest_sqe:{sqe}-{type_str}'
+        key = f'latest_sqe:{file_id}-{sqe}-{type_str}'
         print(key)
         print(r.hget(key, 'filepath_output'))
         filepath = r.hget(key, 'filepath_output').decode('utf-8')
@@ -734,10 +1289,11 @@ def txt_llm_result():
     # 2. 讀取所有llmExtract.txt檔案，找出所有的entity，進行二次count
     # 3. 打包成eneities，組成response
     # 4. 回傳response
+    file_id = data['file_id']
     sqe = data['sqe']
     entities = {}
     for type_str in ["ER", "HR", "LR"]:
-        key = f'latest_sqe:{sqe}-{type_str}'
+        key = f'latest_sqe:{file_id}-{sqe}-{type_str}'
         filepath = r.hget(key, 'filepath_llmExtract').decode('utf-8')
         with open(filepath, "r") as file:
             type_entities_json = json.load(file)
@@ -770,7 +1326,8 @@ def get_confirmed_status():
     data = request.get_json()
     # data應該是這樣的JSON：
     # {
-    #     "sqe": 1234
+    #     "file_id": "b8c525f6-7ed1-4e7c-95ad-872046af4f60"
+    #     "sqe": "1234"
     # }
 
     # response應該是這樣的JSON：
@@ -780,20 +1337,22 @@ def get_confirmed_status():
 
     # 掠過所有參數檢查，直接進行處理
 
-    # 1. 如果pipe_result中不存在sqe_{sqe}_info.json，就建立新的（初始狀態）
-    # 2. 讀取sqe_{sqe}_info.json，修改is_confirmed的值
-    # 3. 寫回sqe_{sqe}_info.json
+    # 1. 如果pipe_result中不存在file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json，就建立新的（初始狀態）
+    # 2. 讀取file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json，修改is_confirmed的值
+    # 3. 寫回file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json
     is_confirmed = None
-    if not os.path.exists(f'../data/pipe_result/sqe_{data["sqe"]}_info.json'):
-        with open(f'../data/pipe_result/sqe_{data["sqe"]}_info.json', "w") as file:
+    if not os.path.exists(f'../data/pipe_result/file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json'):
+        with open(f'../data/pipe_result/file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json', "w") as file:
             json.dump({"is_confirmed": None}, file)
     else:
-        with open(f'../data/pipe_result/sqe_{data["sqe"]}_info.json', "r") as file:
+        with open(f'../data/pipe_result/file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json', "r") as file:
             info = json.load(file)
         is_confirmed = info["is_confirmed"]
     
     # 如同上述的response範例
     response = {
+        "file_id": data["file_id"],
+        "sqe": data["sqe"],
         "is_confirmed": is_confirmed
     }
     return jsonify(response), 200
@@ -808,7 +1367,8 @@ def set_confirmed_status():
     data = request.get_json()
     # data應該是這樣的JSON：
     # {
-    #     "sqe": 1234,
+    #     "file_id": "b8c525f6-7ed1-4e7c-95ad-872046af4f60"
+    #     "sqe": "1234",
     #     "is_confirmed": true
     # }
 
@@ -823,18 +1383,20 @@ def set_confirmed_status():
     # 2. 讀取sqe_{sqe}_info.json，修改is_confirmed的值
     # 3. 寫回sqe_{sqe}_info.json
     # 1.
-    if not os.path.exists(f'../data/pipe_result/sqe_{data["sqe"]}_info.json'):
-        with open(f'../data/pipe_result/sqe_{data["sqe"]}_info.json', "w") as file:
+    if not os.path.exists(f'../data/pipe_result/file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json'):
+        with open(f'../data/pipe_result/file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json', "w") as file:
             json.dump({"is_confirmed": data["is_confirmed"]}, file)
     else:
-        with open(f'../data/pipe_result/sqe_{data["sqe"]}_info.json', "r") as file:
+        with open(f'../data/pipe_result/file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json', "r") as file:
             info = json.load(file)
         info["is_confirmed"] = data["is_confirmed"]
-        with open(f'../data/pipe_result/sqe_{data["sqe"]}_info.json', "w") as file:
+        with open(f'../data/pipe_result/file_id_{data["file_id"]}_sqe_{data["sqe"]}_info.json', "w") as file:
             json.dump(info, file)
     
     # 如同上述的response範例
     response = {
+        "file_id": data["file_id"],
+        "sqe": data["sqe"],
         "is_confirmed": data['is_confirmed']
     }
     return jsonify(response), 200

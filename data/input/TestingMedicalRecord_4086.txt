@@ -1,0 +1,695 @@
+檢傷內容
+檢傷級數: 3 電腦分級: 3
+Chief Complaint:
+嗜睡,全身無力,尿液減少
+判定依據: 意識程度改變 血壓或心跳有異於病人之平常數值，但血行動力穩定
+Past History:
+HTN,BPH,,Dementia, other,門:Brain stem stroke sequelae,門:Atrial fibrillation
+TOCC :
+旅遊史: 無 群聚史: 無 特殊職業: 無 接觸病患:無 接觸動物:無
+Vital Signs:
+BP: 135/94 mmHg PR: 106/min SpO2: 97% Respirations: 20/min BT: 37.2 C Blood Sugar: NAmg/dl 疼痛指數: 0(無疼痛) 急性改變:N 意識 E:2 V:1 M:4
+特殊事項: ※已告知病人或其親友本急診現為滿床通報中，可能需相當時間等待推床以及醫師看診。 平時:E4M5V1
+來診方式: 輪椅 入院原因: 疾病
+高危險機轉:NA
+檢傷人員:蘇信宇
+急診來診病歷
+ChiefCompliant:
+嗜睡,全身無力,尿液 increased
+PastHistory:
+HTN,BPH,,Dementia, other,門:Brain stem stroke sequelae,門:Atrial fibrillation
+藥物過敏:No
+藥物過敏:No
+藥物過敏:UnClear
+藥物過敏:No
+藥物過敏:No
+旅遊史: 無
+特殊職業: 無, 群聚感染: 無, 特殊病患接觸: 無, 動物接觸: 無,
+PresentIllness:
+old CVA with right hemi
+lethargy for 2 days, decreased movement of left limbs
+low-grade fever yesterday? decreased oral secretion
+increased urine output
+Physical Exam:
+Consciousness: Drowsy , E: 2, V: 1, M: 3
+Vital signs: Blood Pressure: 135/94mmHg, Pulse Rate: 106/min,
+Respiratory Rate: 20/min, Temperature: 37.2℃, SPO2: 97％
+Head: Scalp: Normal
+Pupils: Isocoric
+Conjunctiva: Not Pale Sclera: Anicteric
+Neck: Supple Jugular Vein Engorgement: - Lymphadenopathy: -
+Chest: Symmetric expansion, Breath sound: Clear
+Heart: Regular Heart Beat, Murmur: -
+Abdomen: Soft
+Bowel sound: Normal
+Extremities: Normal
+診斷內容
+入院診斷
+Predominant disturbance of consciousness (F43.0)
+Malignant neoplasm of bladder, unspecified (C67.9)
+出院診斷
+Malignant neoplasm of overlapping sites of bladder (C67.8)
+Malignant neoplasm of bladder, unspecified (C67.9)
+Predominant disturbance of consciousness (F43.0)
+急診處方內容
+組合商品名	(Date, Dose, Frequency, UseDays)
+警 Humulin R 1000 U/10 mL /vial	(20170224, 100 U, QD, 0days) (20170224, 10 U, STAT, 1day)
+100 Saline inj 0.9% 100 mL/bag (常備藥)	(20170224, 100 mL, QD, 0days)
+0.45 Saline (NK) Inj 0.45% 500 mL/bag (常備藥)	(20170224, 1000 mL, QD, 0days)
+小瓶 KCl in Water Inj 20 mEq/100 mL /btl (信東 1.49% KCl)	(20170224, 40 mEq, STAT, 1day)
+Furoxime 750 mg/vial	(20170224, 1500 mg, STAT, 1day) (20170224, 1500 mg, Q8H, 0days)
+袋 Saline (NK) inj 0.9% 500 mL/bag (常備藥)	(20170224, 500 mL, STAT, 1day)
+醫師醫令
+(備血單 1869062) ABO Blood Type (NewLis), (備血單 1869062) Rh blood Type (NewLis), (備血單 1869062) Antibody (Ab) screening (NewLis), Glucose（serum for ED）, Blood Ketone(STAT), Blood Cultures, Cl, (Blood)Osmolarity, Blood gas(急診自行檢驗), Na, K, Cl, Glucose（serum for ED）, PT(STAT), aP.T.T.(STAT), Glucose（serum for ED）, (Blood)Osmolarity, CBC & platelet, WBC Classification, Creatinine (Blood), Na, K, ALT (GPT), NH3 (Ammonia), CRP(STAT), Blood gas(緊急檢查室), Blood Cultures, Multistix (STAT), Sediment (STAT), Urine culture, BUN(Blood)(STAT), Free T4, Thyroid-stimulating hormone, thyrotropin, hsTSH,
+CT Without Contrast-Brain, Chest: AP View (Supine), Chest: AP View (Supine),
+醫師醫囑
+On intra-venous catheter, 單次血糖測試 (Stat One-touch sugar), 單次十二導程心電圖 (Complete EKG), Single urine catherization, 預入暫留床位: M21, Check one touch an hour later, 預入暫留床位: T02, On saturation monitor / 測SpO2 PRN, On BP monitor, On EKG monitor, 單次血糖測試 (Stat One-touch sugar), 預入暫留床位: C03, 備 (1869062) Packed RBC * 2 U 慢速輸注 (適用於老年人，心肺功能不佳者等情形), Record urine output (U/O), CVC level monitor, On central venous catheter (CVC), 單次血糖測試 (Stat One-touch sugar), check K, check central glucose at 08:00PM, check K and central glucose, 住院配床, 住院 Admission,
+
+
+
+
+
+入院診斷(Admission Diagnosis)
+1. Hyperglycemic hyperosmolar state
+2. Urinary tract infection
+3. History of intracerebral hemorrhage, left thalamus and rupture to ventricle, day 1 = 2014/11/14
+4. Bladder cancer, high grade urothelial carcinoma, cT1N0Mx with carcinoma in situ, status post TURBT and random biopsy on 2013/08/29
+5. History of gross hematuria with bladder blood clot tamponade status post blood clot evacuation
+6. Benign prostate hyperplasia, status post transurethral resection of prostate in 2003
+7. Bladder neck contracture, status post transurethral incision of bladder neck in 2005
+8. Old ischemic stroke, under aspirin use
+9. First degree atrioventricular block
+10. Hypothyroidism, under eltroxin supplement
+11. Hepatitis C carrier with liver cirrhosis
+12. Atrial fibrillation
+13. Vascular dementia with behavioral and psychological symptoms of dementia(BPSD)
+14. Hypertension
+出院診斷(Discharge Diagnosis)
+1. Diabetes mellitus with hyperglycemic hyperosmolar nonketoacidosis
+2. Urinary tract infection
+3. History of intracerebral hemorrhage, left thalamus and rupture to ventricle, day 1 = 2014/11/14
+4. Bladder cancer, high grade urothelial carcinoma, cT1N0Mx with carcinoma in situ, status post TURBT and random biopsy on 2013/08/29
+5. History of gross hematuria with bladder blood clot tamponade status post blood clot evacuation
+6. Benign prostate hyperplasia, status post transurethral resection of prostate in 2003
+7. Bladder neck contracture, status post transurethral incision of bladder neck in 2005
+8. Old ischemic stroke, under aspirin
+9. First degree atrioventricular block
+10. Hypothyroidism, under eltroxin supplement
+11. Hepatitis C carrier with liver cirrhosis
+12. Atrial fibrillation
+13. Vascular dementia with psychological symptoms of dementia
+14. Hypertension
+轉出加護病房診斷(Diagnosis for ICU)
+1. Hyperglycemic hyperosmolar state
+2. Urinary tract infection
+3. History of intracerebral hemorrhage, left thalamus and rupture to ventricle, day 1 = 2014/11/14
+4. Bladder cancer, high grade urothelial carcinoma, cT1N0Mx with carcinoma in situ, status post TURBT and random biopsy on 2013/08/29
+5. History of gross hematuria with bladder blood clot tamponade status post blood clot evacuation
+6. Benign prostate hyperplasia, status post transurethral resection of prostate in 2003
+7. Bladder neck contracture, status post transurethral incision of bladder neck in 2005
+8. Old ischemic stroke, under aspirin use
+9. First degree atrioventricular block
+10. Hypothyroidism, under eltroxin supplement
+11. Hepatitis C carrier with liver cirrhosis
+12. Atrial fibrillation
+13. Vascular dementia with behavioral and psychological symptoms of dementia(BPSD)
+14. Hypertension
+主訴(Chief Complaint)
+Informant:family +chart
+
+Increased urine output for 3 days.
+病史(Patient History)
+This 81 year old man had the history of 1. intracerebral hemorrhage, left thalamus and rupture to ventricle, day 1 = 2014/11/14; 2. bladder cancer, high grade urothelial carcinoma, cT1N0Mx; with carcinoma in situ, status post TURBT and random biopsy on 2013/08/29; 3. gross hematuria with bladder blood clot tamponade status post blood clot evacuation; 4. benign prostate hyperplasia, status post transurethral resection of prostate in 2003; 5. bladder neck contracture, status post transurethral incision of bladder neck in 2005; 6. old ischemic stroke, under aspirin; 7. first degree atrioventricular block; 8. hypothyroidism, under eltroxin supplement; 9. hepatitis C carrier with liver cirrhosis; 10. atrial fibrillation; 11. vascular dementia with BPSD; 12. hypertension. The patient was regularly followed at Dr. 陳人豪's OPD. He lived at home with his wife, daughters, and foreign caregiver. His ADL was totally dependent (木僵無法點頭搖頭表達意見, 鼻胃管餵食, 大小便看護協助更換, 每天在看護協助下下床坐輪椅2次, 左手可自行摸頭, 雙腳可自行微彎曲). According to the patient's daughter, he didn't have any DM and hyperglycemia history before.
+
+This time, the patient suffered from increased urine output for 3 days (Baseline 2000ml/day --> 3000ml/day recently) and lethargy for 2 days, with decreased movement of left limbs. Furthermore, low grade fever to 37.8C was also noted which subsided spontaneously later. The patient was brought to our ED in the afternoon of 2/24. Upon arrival, his consciousness was drowsy (GCS: E2V1M3). Vital signs were as below: TPR: 37.2/106/20, BP: 135/94mmHg, SpO2: 97%. Lab data showed severe hyperglycemia (Blood sugar: 912), acute kidney injury (Bun/Cre: 56.9/1.6), and prominent lactic acidosis (LA: 5.2 mmol/L). No ketone acidosis was noted (Blood Ketone 0.5 mmol/L). Urinalysis showed prominent pyuria (WBC: 75-100, Epi: 0-2, Bacteria: 3+). CXR showed no pneumonia patch. At ED, insulin 10U IV stat and insulin pump were given. Agressive hydration (N/S first then switch to H/S) were also prescribed. The patient's hyperglycemia relieved gradually (912-> 718-> 452). Under the impression of hyperosmolar hyperglycemic state, with precipitants unspecified (suspected UTI related), the patient was admitted to our 1A1 ICU for further care and treatment.
+
+
+After admission, aggressive hydration and insulin pump was adminitered for his hyperosmolar hyperglycemic non-ketotic state. Insulin pump was shifted to split dose insulin regimen. Urine culture yielded E.Coli, susceptible to cefuroxime. HbA1C on 2017/2/25 was 13.0%. Polyuria condition subsided. Urinalysis on 2017/3/1 showed no more pyuria. He tolerated NG feeding well and oral Metformin 500mg BID was given since 2017/3/2. Amaryl was added on 2017/3/3 and split dose insulin was discontinued, and may be added accordingly while titrating medicine. He was transferred to general ward for further treatment on 2017/3/3.
+
+Family History:had family history of HTN
+Medication Allergy:No 病人自述 2014/03/13
+No 親屬描述 2017/02/24
+No 親屬描述 2013/08/28
+UnClear 病人自述 2009/08/21
+No 親屬描述 2014/11/14
+No 親屬描述 2014/11/17
+Medication ADR:unknown
+Allergy to Medical Device and Materials:No 病人自述 2014/03/13
+No 親屬描述 2017/02/24
+No 親屬描述 2013/08/28
+No 親屬描述 2014/11/14
+No 親屬描述 2014/11/17
+Current Medication:
+NTUH:Furoxime 750 mg/vial 1500 mg STAT IV 1 days
+警 Humulin R 1000 U/10 mL /vial 10 U STAT IV 1 days
+Furoxime 750 mg/vial 1500 mg Q8H IV 2 days
+警 Humulin R 1000 U/10 mL /vial 100 U QD cIF 2 days
+小瓶 KCl in Water Inj 20 mEq/100 mL /btl (信東 1.49% KCl) 40 mEq STAT IF(CVC) 1 days
+HARNALIDGE D 0.2 mg/tab 1 tab BID LZ 28 days
+Norvasc 5 mg/tab 1 tab QD PO 28 days
+Sennapur 12.5 mg/tab 2 tab HS PO 28 days
+Kascoal 40 mg/tab 1 tab TIDPC PO 28 days
+摩 Mopride FC 5 mg/tab 1 tab TID PO 28 days
+Eltroxin 100 mcg/tab 0.25 tab QD PO 28 days
+Other:
+中草藥:denied
+保健食品:denied
+
+Past Medical History:
+1. Intracerebral hemorrhage, left thalamus and rupture to ventricle, day 1 = 2014/11/14
+2. Bladder cancer, high grade urothelial carcinoma, cT1N0Mx with carcinoma in situ, status post TURBT and random biopsy on 2013/08/29
+3. History of gross hematuria with bladder blood clot tamponade status post blood clot evacuation
+4. Benign prostate hyperplasia, status post transurethral resection of prostate in 2003
+5. Bladder neck contracture, status post transurethral incision of bladder neck in 2005
+6. Old ischemic stroke, under aspirin use
+7. First degree atrioventricular block
+8. Hypothyroidism, under eltroxin supplement
+9. Hepatitis C carrier with liver cirrhosis
+10. Atrial fibrillation
+11. Vascular dementia with BPSD
+12. Hypertension
+
+Hospitalization:2014/11/14-12/5 7C for CVA
+
+Past Surgical History:
+1.right hip fracture post operation for years
+2.Benign prostate hyperplasia poster TUR-p for years
+3.BLadder tumor poster TUR-BT for years
+4.Bladder neck contracture s/p TUR-BN for years
+
+Travel History:denied
+Occupation:denied
+Contact history:denied
+Cluster:denied
+身體診查(Physical Examination)
+入院時之身體檢查(Physical Examination at admission)
+BH: 165 cm, BW: 70.4 kg,
+T: 36.3 °C, P: 86 bpm, R: 16 /min,
+BP: 146/85 mmHg
+Pain score: 0
+
+Neurological Examination:
+. Consciousness: E2M4V1
+. Muscle power: 0
+. Gait: bedridden status
+
+PHYSICAL EXAMINATIONS:
+Orientation: Person(-);Time(-);Place(-)
+HEENT:
+Deformity: nil, Rash (-), Panda eye (-)
+Pupil ( 2.0/2.0 mm), Light reflex : Right (+/-); Left: (+/-)
+Conjunctiva (Pink), sclera (anicteric)
+Ear: deformity (-), ear discharge (-), hear impaired( -)
+Throat: Thrush (-), mass (-), ulcer (-)
+NECK:
+Stiffness (-), Palpable LAP (-)
+Carotid Bruit (Right: -, Left: -), Jugular Vein Engorgement (-), Goiter (-)
+CHEST:
+Deformity: (-): funnel chest(-), pigeon chest(-), Mass (-),Tenderness (-), Palpation crepitus (-),
+Expansion : (Symmetric)
+Breath sounds: (coarse) over (RLL+LLL) area
+HEART: irregular heart beat, Audible murmur (- )
+ABDOMEN: Superficial vein engorgement ( -)
+Bowel Sounds: (normoactive)
+Local Tenderness (-)
+Rebounding Pain (-) Muscle Guarding(-) Murphy’s Sign (-)
+Palpable Mass (-), Shifting Dullness (-)
+Liver : not palpable; spleen : not palpable
+BACK :
+Deformity (-), CV angle knocking tenderness (right : -, Left: - ).
+EXTREMITY :
+Limitation of movement (-)
+Deformity (-) Peripheral Cyanosis (-) Clubbing Finger(-) Pitting Edema (-)
+SKIN: rash(-), Tumor (-), Ecchymosis (-), Purpurae (-), depigmentation (-), vesicle/bullae (-)
+轉出/出院時明顯的身體檢查改變(Evident Transfer/Discharge Change of Physical Findings)
+General:
+BW: 70.4 kg
+BT: 36.6 ℃/HR: 97 bpm/RR: 20 次/分, SpO2: 97 %(Room air)
+BP:113/67 mmHg
+Appearance: fair
+Consciousness: E2M4V1, as baseline
+Orientation: Person(-); Time(-); Place(-)
+HEENT:
+Pupil(2.5/2.5 mm), Light reflex: Right(+/-); Left(+/-)
+NECK:
+Palpable LAP(-)
+CHEST:
+Breath sounds: (few coarse) over (RLL+LLL) area
+HEART:
+irregular heart beat
+Audible murmur(-)
+ABDOMEN:
+Soft and flat
+Local Tenderness(-)
+Liver: not palpable, Spleen: not palpable
+EXTREMITY :
+Pitting Edema(-)
+Muscle power: Upper limbs-Right:0, Left:3-4. Lower limbs-Right:0, Left:0.
+手術(Operation)
+Nil
+住院治療經過(Course and Treatment)
+After the patient was transferred to general ward, antibiotic treatment course was completed. OHAs were titrated and blood sugar was closely monitored. Blood sugar became stable. Under stable condition, he was discharged on 2017/03/08 and will be followed at 北護分院 Dr.陳人豪's clinic on 3/15. During this hospitalization, no severe adverse drug reaction was noted.
+
+住院用藥摘要:
+Cefuroxime Sodium, Amlodipine Besylate, Tamsulosin HCl, Sodium Chloride, Dextrose Monohydrate, NaCl, Potassium Chloride 20 mEq in Water 100mL, Potassium Gluconate, Dextrose, Acetaminophen, Dimethicone, Mosapride Citrate Dihydrate, Sennoside A+B, Bisacodyl, Antibiotics-Resistant Lactic Acid Bacteriae, Insulin Regular, Insulin Isophane Suspension, Levothyroxine Sodium, Metformin HCl, Glimepiride, Repaglinide, Acetylcysteine, Tetracycline HCl
+
+
+
+
+
+檢驗紀錄(Laboratory Report)
+*********檢驗室:RL***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060224 [2315] 9.85          5.15          15.3          46.8          90.9         
+1060226 [0415] 8.94          4.79          14.1          43.4          90.6         
+1060228 [0417] 8.67          4.65          13.7          41.3          88.8         
+1060303 [0403] 6.34          4.71          13.4          42.6          90.4         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060224 [2315] 29.7          32.7          181           13.0          -            
+1060226 [0415] 29.4          32.5          135           13.1          -            
+1060228 [0417] 29.5          33.2          113           12.8          -            
+1060303 [0403] 28.5          31.5          156           12.9          -            
+群組:Biochemistry
+
+               BUN           CRE           Na            K             Cl           
+time/item      (mg/dL)       (mg/dL)       (mmol/L)      (mmol/L)      (mmol/L)     
+1060224 [2315] 55.3          1.5           157           3.1           120          
+1060225 [0345] 50.9          1.2           155           4.6           125          
+1060225 [0559]                                                                      
+1060225 [1642] 49.1          1.2           153           3.9                        
+1060226 [0415] 41.0          1.1           151           3.4           119          
+1060226 [2151] 34.4                        149           3.0                        
+1060227 [0415] 29.5          0.9           146           3.2                        
+1060228 [0417] 25.4          0.9           141           3.1                        
+1060301 [0408] 24.8                        141           3.3                        
+1060302 [0401]               0.9           140                                      
+1060303 [0403]                             144           3.2                        
+               T-BIL         AMY           Lipase        Ca            Mg           
+time/item      (mg/dL)       (U/L)         (U/L)         (mmol/L)      (mmol/L)     
+1060224 [2315]                                           2.44          1.11         
+1060225 [0345]                                                                      
+1060225 [0559]               39            44                                       
+1060225 [1642]                                                                      
+1060226 [0415]                                                         0.89         
+1060226 [2151]                                                                      
+1060227 [0415]                                                                      
+1060228 [0417] 0.47                                                    0.84         
+1060301 [0408]                                                                      
+1060302 [0401]                                                         0.90         
+1060303 [0403]                                                                      
+               P             LacticAcid    CK           
+time/item      (mg/dL)       (mmol/L)      (U/L)        
+1060224 [2315] 2.6           3.69          134          
+1060225 [0345]               2.30                       
+1060225 [0559]                                          
+1060225 [1642]               3.31                       
+1060226 [0415] 3.3           1.30                       
+1060226 [2151]                                          
+1060227 [0415]               1.37                       
+1060228 [0417]                                          
+1060301 [0408]                                          
+1060302 [0401]                                          
+1060303 [0403]                                          
+群組:General BioChemistry
+
+               ALB           ALT          
+time/item      (g/dL)        (U/L)        
+1060224 [2315] 3.7                        
+1060302 [0401]               45           
+群組:Blood pH/Gas
+
+               PH            PCO2          PO2           HCO3          BaseExcess   
+time/item      (*)           (mmHg)        (mmHg)        (mmol/L)      (mmol/L)     
+1060224 [2315] 7.345         43.7          66.5          24.1          -1.9         
+1060225 [0345] 7.459         26.0          117.7         18.6          -5.5         
+1060225 [1642] 7.406         29.8          99.4          18.9          -6.0         
+1060226 [0415] 7.438         31.1          78.6          21.2          -3.2         
+1060226 [2151] 7.401         36.9          77.1          23.1          -2.0         
+1060227 [0415] 7.486         30.5          85.2          23.2          -0.4         
+1060228 [0417] 7.519         26.1          64.7          21.5          -1.7         
+1060301 [0408] 7.463         36.1          85.4          26.0          2.0          
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060224 [2315] 47.7         
+1060225 [0345] 61.8         
+1060225 [1642] 61.8         
+1060226 [0415] 68.3         
+1060227 [0415] 86.1         
+1060228 [0417] 86.1         
+1060302 [0401] 86.1         
+*********檢驗室:HE***********
+
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (k/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060307 [1057] 6.06          4.62          13.4          42.8          92.6         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (k/μL)        (%)           ()           
+1060307 [1057] 29.0          31.3          227           13.2          -            
+群組:WBC D/C
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060307 [1057] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060307 [1057] 70.2          0.5           0.5           5.0           23.8         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060307 [1057] 0.0           0.0           0             -            
+*********檢驗室:BC***********
+
+群組:General BioChemistry
+
+               AST           ALT           UN            CRE           Na           
+time/item      (U/L)         (U/L)         (mg/dL)       (mg/dL)       (mmol/L)     
+1060307 [1057] 53            50            36.6          1.1           150          
+               K             Mg           
+time/item      (mmol/L)      (mmol/L)     
+1060307 [1057] 3.3           0.95         
+群組:DM
+
+               HbA1c        
+time/item      (%)          
+1060224 [2315] 13.0         
+群組:
+
+               eGFR         
+time/item      (mL/min/1.73 
+                m^2)        
+1060307 [1057] 68.3         
+*********檢驗室:N2***********
+
+群組:Tumor Marker
+
+               RIA:CA 19-9   RIA:CEA (Ser 
+                             um)          
+time/item      (U/mL)        (ng/ml)      
+1060302 [0401] 25.5          5.66         
+*********檢驗室:OP***********
+
+群組:MULTISTIX
+
+               Sp. Gr.(C)    pH            Protein(C)    Glu.(C)       Ketone body  
+                                                                    (U)          
+time/item      (*)           (*)           (mg/dL)       (mg/dL)       (*)          
+1060301 [0349] 1.012         6.0           30 ( 1+ )     -             -            
+               O.B.(C)       Urobil.(C)    Bil.(C)       Nitrite(C)    WBC esterase 
+                                                                     (U)         
+time/item      (*)           (mg/dL)       (*)           (*)           (*)          
+1060301 [0349] 2+            ≦1.5          -             -             -            
+               Color         Turbidity    
+time/item      (*)           (*)          
+1060301 [0349] Light Yellow  -                          
+群組:SEDIMENT
+
+               RBC (S)       WBC (S)       Epith (S)     Cast (S)      Crystal (S)  
+time/item      (/HPF)        (/HPF)        (/HPF)        (/LPF)        (*)          
+1060301 [0349] 5-10          2-5           0-2           -             -            
+               Bacteria      Mucus(S)      Others (S)   
+time/item      (*)           (*)           (*)          
+1060301 [0349] -             -             -            
+群組:STOOL
+
+               O.B.         
+time/item      (*)          
+1060304 [1449] -            
+*********檢驗室:PO***********
+
+群組:
+
+               Sugar(One to 
+               uch)         
+time/item      (*)          
+1060225 [0110] 204          
+1060225 [0312] 200          
+1060225 [0536] 154          
+1060225 [1052] 323          
+1060225 [1600] 330          
+1060225 [2035] 172          
+1060226 [0416] 217          
+1060226 [1110] 302          
+1060226 [1608] 327          
+1060226 [2131] 134          
+1060227 [0415] 232          
+1060227 [1236] 135          
+1060227 [1640] 171          
+1060227 [2013] 114          
+1060228 [0416] 175          
+1060228 [1044] 187          
+1060228 [1603] 120          
+1060228 [2044] 76           
+1060301 [0408] 143          
+1060301 [1218] 210          
+1060301 [1725] 166          
+1060301 [2157] 134          
+1060302 [0400] 187          
+1060302 [1251] 201          
+1060302 [1703] 160          
+1060302 [2147] 121          
+1060303 [0403] 201          
+1060303 [1223] 201          
+1060303 [1645] 196          
+1060303 [2104] 188          
+1060304 [0434] 215          
+1060304 [1153] 261          
+1060304 [1719] 199          
+1060304 [2028] 228          
+1060305 [0442] 195          
+1060305 [1132] 245          
+1060305 [1633] 158          
+1060305 [2025] 189          
+1060306 [0443] 207          
+1060306 [1226] 159          
+1060306 [1655] 139          
+1060306 [2054] 182          
+1060307 [0455] 194          
+1060307 [1055] 150          
+1060307 [1654] 132          
+*********檢驗室:B3***********
+B3-1060224-4002217   SPUTUM (EXPECTORATED)
+     Gram's(GS)#1:       Moderate PMNs ( 10-25 /LPF )
+     Gram's(GS)#2:       Many epithelial cells ( >25 /LPF )
+     Gram's(GS)#3:       Gram (+) rods 3+
+     ID+DS Sputum Culture #1:       Mixed flora
+     Gram's(GS)#4:       Gram (+) cocci in cluster,  Gram (-) rods 2+
+     Gram's(GS)#5:       痰檢體品質不良建議重新送檢
+
+
+*********檢驗室:B5***********
+
+群組:
+
+               VRE screenin 
+               g            
+time/item      ()           
+1060226 [1028] No VRE       
+1060303 [1455] No VRE       
+*********檢驗室:RL***********
+
+群組:Yes
+
+               hsCRP         Blood Ketone               
+time/item      (mg/dL)       (mmol/L)     
+1060224 [1517] <0.02                      
+1060224 [1627]               0.5          
+群組:CBC+PLT
+
+               WBC           RBC           HB            HCT           MCV          
+time/item      (K/μL)        (M/μL)        (g/dL)        (%)           (fL)         
+1060224 [1517] 8.47          5.23          15.6          48.2          92.2         
+               MCH           MCHC          PLT           RDW-CV        PS           
+time/item      (pg)          (g/dL)        (K/μL)        (%)           ()           
+1060224 [1517] 29.8          32.4          193           13.2          -            
+群組:WBC Classification
+
+               Blast         Promyl.       Myelo.        Meta          Band         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1517] 0.0           0.0           0.0           0.0           0.0          
+               Seg           Eos.          Baso.         Mono.         Lym.         
+time/item      (%)           (%)           (%)           (%)           (%)          
+1060224 [1517] 80.6          0.0           0.0           6.4           13.0         
+               Aty.Lym.      PlasmaCell    Normobl.      PS           
+time/item      (%)           (%)           ()            ()           
+1060224 [1517] 0.0           0.0           0             -            
+群組:Coagulation
+
+               PT            PTT           PT INR       
+time/item      (sec)         (sec)         ()           
+1060224 [1749] 11.1          21.8          1.03         
+群組:Biochemistry
+
+               BUN           CRE           Na            K             Cl           
+time/item      (mg/dL)       (mg/dL)       (mmol/L)      (mmol/L)      (mmol/L)     
+1060224 [1517]               1.6           144           3.4                        
+1060224 [1627] 56.9                                                    109          
+1060224 [2025]                             151           4.0           114          
+               Ammonia N    
+time/item      (μmol/L)     
+1060224 [1517] 35           
+1060224 [1627]              
+1060224 [2025]              
+群組:General BioChemistry
+
+               ALT          
+time/item      (U/L)        
+1060224 [1517] 34           
+群組:Blood pH/Gas
+
+               PH            PCO2          PO2           HCO3          BaseExcess   
+time/item      (*)           (mmHg)        (mmHg)        (mmol/L)      (mmol/L)     
+1060224 [1517] 7.396         32.3          56.6          20.0          -5.1         
+群組:MULTISTIX
+
+               Sp. Gr.(C)    pH(C)         Protein(C)    Glu.(C)       Ketones(C)   
+time/item      (*)           (*)           (mg/dL)       (mg/dL)       (*)          
+1060224 [1536] 1.028         5.0           50 ( 1+ )     >1000 ( 4+ )  -                          
+               O.B.(C)       Urobil.(C)    Bil.(C)       Nitrite(C)    WBC(C)       
+time/item      (*)           (mg/dL)       (*)           (*)           (*)          
+1060224 [1536] 1+            ≦1.5          -             -             2+           
+               Color         Turbidity    
+time/item      (*)           (*)          
+1060224 [1536] Light Yellow  +                          
+群組:SEDIMENT
+
+               RBC(S)        WBC(S)        EpithCell(S)  Cast(S)       Crystal(S)                 
+time/item      (/HPF)        (/HPF)        (/HPF)        (/LPF)        (*)          
+1060224 [1536] 0-2           75-100        0-2           Gr(0-2)       -            
+               Bacteria      Others(S)    
+time/item      (*)           (*)          
+1060224 [1536] 3+            -            
+群組:
+
+               Glucose(seru  eGFR          Mucus(S)     
+               m for ED)                                
+time/item      (mg/dL)       (mL/min/1.73  (*)          
+                              m^2)                      
+1060224 [1517]               44.3                       
+1060224 [1536]                             -            
+1060224 [1627] 976                                      
+1060224 [1811] 912                                      
+1060224 [2025] 718                                      
+*********檢驗室:BC***********
+
+群組:Others
+
+               Osmolality(B 
+               )            
+time/item      (mOsm/Kg)    
+1060224 [1627] 389          
+1060224 [1811] 381          
+群組:Hormones
+
+               Free T4(CIA)  hsTSH(CIA)                 
+time/item      (ng/dL)       (μIU/mL)     
+1060224 [2025] 1.04          1.51         
+*********檢驗室:YM***********
+
+群組:Yes
+
+               pH            pCO2          pO2           HCO3          BaseExcess   
+time/item      ()            (mmHg)        (mmHg)        (mmol/L)      (mmol/L)     
+1060224 [2022] 7.354         43.4          35.0          24.4          -1.4         
+               SO2          
+time/item      (%)          
+1060224 [2022] 64.2         
+群組:
+
+               Free Ca(急重症自  Hb(急重症自行檢驗)   Hct(急重症自行檢驗)  K+(急重症自行檢驗)   Na(急重症自行檢驗)  
+               行檢驗)                                                                               
+time/item      (mmol/L)      (g/dL)        (%)           (mmol/L)      (mmol/L)     
+1060224 [2022] 1.36          16.3          49            4.21          159.5        
+               LacticAcid(急 
+               重症自行檢驗)      
+time/item      (mmol/L)     
+1060224 [2022] 5.2          
+*********檢驗室:B2***********
+B2-1060224-4098259   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+B2-1060224-4099577   BLOOD
+     ID+DS Blood.#1:       No growth after 5 days
+
+
+*********檢驗室:B3***********
+B3-1060224-4098265   RANDOM URINE
+     ID+DS Urine #1:       Escherichia coli >100,000
+
+
+*********檢驗室:PO***********
+
+群組:
+
+               Sugar(One to 
+               uch)         
+time/item      (*)          
+1060224 [1606] >600         
+1060224 [1746] >600         
+1060224 [2024] >600         
+1060224 [2217] 452          
+1060224 [2316] 348          
+*********檢驗室:BK***********
+
+群組:Blood Type
+
+               ABO Typing    RH Typing    
+time/item      (*)           (*)          
+1060224 [1749] B             Positive     
+群組:Yes
+
+               antibody scr 
+               een(New Lis)               
+time/item      (*)          
+1060224 [1749] Negative
+檢查紀錄(Examination Report)
+Nil
+影像報告(Imaging Report)
+2017/02/27 Chest : AP View (Supine) EXAMINATION: Chest : AP View (Supine)
+FINDINGS:
+Placement of a NG tube and a right central venous catheter. Cardiomegaly with calcified aorta. Increased infiltration over bilateral lungs.
+轉出/出院情況(Transfer/Discharge Status)
+改門診治療 穩定
+病理報告(Pathology Report)
+Nil
+轉出/出院指示(Follow-up Instructions & Medications)
+病人活動限制：建議多休息；建議避免從事費力、激烈的活動；請注意環境安全，避免跌倒；建議有人陪伴
+飲食注意事項：食用管灌飲食，並請定期門診追蹤
+其他指示：請依預約日期返院門診
+Sennoside A+B【Sennapur 12.5 mg/tab】 2 tab PO Q12H 出院藥天數7天
+Acetylcysteine【Actein Effervescent Tablet 600 mg/tab】 1 tab PO BID 出院藥天數8天
+Bisacodyl【栓 Bisacodyl Supp 10 mg/pill】 2 pill R QODPRN 出院藥天數8天
+Potassium Gluconate【Radi-K 595 mg/tab (2.54 mEq of K)】 2 tab PO TIDPC 出院藥天數1天
+Repaglinide【NovoNorm 1 mg/tab】 1 tab PO TIDAC15 出院藥天數8天
+Glimepiride【Amaryl 2 mg/tab】 1 tab PO QD 出院藥天數8天
+Metformin HCl【(DM) Loditon 500 mg/tab】 1 tab PO TIDPC 出院藥天數8天
+Antibiotics-Resistant Lactic Acid Bacteriae【自費 Biofermin-R Powder 6 mg/1 g /pack】 1 pack PO TIDPC 出院藥天數8天 自費
+自備藥【Sennapur 12.5 mg/tab】 2 tab PO Q12H 出院藥天數 天
+自備藥【HARNALIDGE D 0.2 mg/tab】 1 tab LZ BID 出院藥天數 天
+自備藥【Norvasc 5 mg/tab】 1 tab PO QD 出院藥天數 天
+自備藥【Kascoal 40 mg/tab】 1 tab PO TIDPC 出院藥天數 天
+自備藥【摩 Mopride FC 5 mg/tab】 1 tab PO TID 出院藥天數 天
+自備藥【Eltroxin 100 mcg/tab】 0.25 tab PO QD 出院藥天數 天
+自備藥【Sennapur 12.5 mg/tab】 2 tab PO Q12H 出院藥天數 天
+自備藥【Kascoal 40 mg/tab】 1 tab PO TIDPC 出院藥天數 天
+自備藥【摩 Mopride FC 5 mg/tab】 1 tab PO TID 出院藥天數 天
+自備藥【Eltroxin 100 mcg/tab】 0.25 tab PO QD 出院藥天數 天
+自備藥【HARNALIDGE D 0.2 mg/tab】 1 tab LZ BID 出院藥天數 天
+自備藥【Norvasc 5 mg/tab】 1 tab PO QD 出院藥天數 天
+門診預約:
+預約日期:2017/03/15 內科部 下午 19診 21號
+預約日期:2017/04/05 內科部 下午 19診 17號
+其他(Others)
+照會日期:2017/03/06 照會科別:營養室(呂孟凡營養師照會)
+照會日期:0001/01/01 照會科別:營養室(呂孟凡營養師照會)
+
+隔離醫囑:
+Nil
