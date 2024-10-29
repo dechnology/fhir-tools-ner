@@ -1,0 +1,2909 @@
+{
+    "entities": [
+        {
+            "source": "SNOMEDCT",
+            "code": "48447003",
+            "code_name": "Congestive heart failure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "84114007",
+            "code_name": "Acute decompensated heart failure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "19039008",
+            "code_name": "Diabetic ketoacidosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "7012006",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "195080001",
+            "code_name": "Paroxysmal atrial fibrillation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "431855005",
+            "code_name": "End-stage renal disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "91637004",
+            "code_name": "Myasthenia gravis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "44054006",
+            "code_name": "Diabetes mellitus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "38341003",
+            "code_name": "Hypotension",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "103894",
+            "code_name": "Aspirin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "32968",
+            "code_name": "Clopidogrel 75 MG Oral Tablet [Plavix]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "284218",
+            "code_name": "Insulin glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "993427",
+            "code_name": "Linagliptin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "3498",
+            "code_name": "Gliquidone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "573543",
+            "code_name": "Carvedilol",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "70995007",
+            "code_name": "Pulmonary hypertension",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "55822004",
+            "code_name": "Dyslipidemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "617320",
+            "code_name": "Rosuvastatin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "233985008",
+            "code_name": "Atrial fibrillation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "71600008",
+            "code_name": "Intertrochanteric fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "201030002",
+            "code_name": "Osteoporosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "424132000",
+            "code_name": "Compression fracture of lumbar vertebra",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "239872002",
+            "code_name": "Bronchiolitis obliterans organizing pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "53741008",
+            "code_name": "Coronary artery disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "80313002",
+            "code_name": "Diabetic ketoacidosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "266257000",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1038792",
+            "code_name": "Insulin Glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "993452",
+            "code_name": "Linagliptin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "85232009",
+            "code_name": "Ejection fraction decreased",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "356042",
+            "code_name": "Rosuvastatin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "67869003",
+            "code_name": "Intertrochanteric fracture of femur",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "263204007",
+            "code_name": "Intertrochanteric fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "28032002",
+            "code_name": "Fracture of tibial plateau",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20946008",
+            "code_name": "Avulsion fracture of posterior cruciate ligament",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "64859006",
+            "code_name": "Osteoporosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "12860009",
+            "code_name": "Compression fracture of lumbar vertebra",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "204306000",
+            "code_name": "Bronchiolitis obliterans organizing pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "441497007",
+            "code_name": "Wedge resection of lung",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "441919000",
+            "code_name": "Video-assisted thoracoscopic surgery",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "7011001",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "103884",
+            "code_name": "Insulin Glargine 100 UNIT/ML Injectable Solution [Lantus]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "284548",
+            "code_name": "Insulin glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "204878000",
+            "code_name": "Bronchiolitis obliterans organizing pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "13644009",
+            "code_name": "Dyslipidemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "356043",
+            "code_name": "Rosuvastatin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "41534007",
+            "code_name": "Subclavian artery stenosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "21051000119109",
+            "code_name": "Intertrochanteric fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111295002",
+            "code_name": "Osteoporosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "18656007",
+            "code_name": "Acinetobacter infection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "44470000",
+            "code_name": "Bronchiolitis obliterans organizing pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "29857009",
+            "code_name": "Chest tightness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "267036007",
+            "code_name": "Dehydration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "276654001",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "49436004",
+            "code_name": "Paroxysmal atrial fibrillation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "833036",
+            "code_name": "Linagliptin 5 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "282464",
+            "code_name": "Insulin Glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1111970",
+            "code_name": "Linagliptin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "13640000",
+            "code_name": "Dyslipidemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "89138009",
+            "code_name": "Pulmonic regurgitation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "617314",
+            "code_name": "Piperacillin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "29046",
+            "code_name": "Crestor",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "41598000",
+            "code_name": "Pulmonary valve regurgitation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20807002",
+            "code_name": "Intertrochanteric fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "263600003",
+            "code_name": "Open reduction of fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "428750005",
+            "code_name": "Magnetic resonance imaging",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "23984000",
+            "code_name": "Tibial plateau fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "44984000",
+            "code_name": "Posterior cruciate ligament avulsion",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "11160003",
+            "code_name": "Compression fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "204366002",
+            "code_name": "Bronchiolitis obliterans organizing pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "109838007",
+            "code_name": "Wedge resection of lung",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "232717009",
+            "code_name": "Video-assisted thoracoscopic surgical procedure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "161891005",
+            "code_name": "Renal failure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "28189009",
+            "code_name": "Dehydration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8310-5",
+            "code_name": "Body temperature",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8867-4",
+            "code_name": "Heart rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "9279-1",
+            "code_name": "Respiratory rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8480-6",
+            "code_name": "Systolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8462-4",
+            "code_name": "Diastolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "59408-5",
+            "code_name": "Oxygen saturation in Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6690-2",
+            "code_name": "Leukocytes [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "718-7",
+            "code_name": "Hemoglobin [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "787-2",
+            "code_name": "MCV [Entitic volume] by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "777-3",
+            "code_name": "Platelets [#/volume] in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2951-2",
+            "code_name": "Sodium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2823-3",
+            "code_name": "Potassium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10839-9",
+            "code_name": "Troponin I.cardiac [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2157-6",
+            "code_name": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "CKMB",
+            "code_name": "Creatine Kinase, MB [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "33762-6",
+            "code_name": "N-terminal prohormone B-type natriuretic peptide [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "75565007",
+            "code_name": "Metabolic acidosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "11558-4",
+            "code_name": "pH of Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2028-9",
+            "code_name": "Carbon dioxide, partial pressure [Pressure] in Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1963-8",
+            "code_name": "Bicarbonate [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2345-7",
+            "code_name": "Glucose [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2514-8",
+            "code_name": "Beta-hydroxybutyrate [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "73211009",
+            "code_name": "Diabetes mellitus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "42343007",
+            "code_name": "Hemodialysis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "309362",
+            "code_name": "Gliquidone 30 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "363346000",
+            "code_name": "Malignant neoplastic disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "85828009",
+            "code_name": "Autoimmune disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197361",
+            "code_name": "Darbepoetin alfa",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "105314",
+            "code_name": "Insulin Human Regular 100 UNIT/ML Injectable Solution [Humulin R]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197635",
+            "code_name": "Bumetanide 0.5 MG/ML Injectable Solution [Burinex]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308136",
+            "code_name": "Dioctahedral smectite",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "311471",
+            "code_name": "Nitroglycerin 0.5 MG/ML Injectable Solution [Millisrol]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1317257",
+            "code_name": "Heparin 5000 UNIT/ML Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197908",
+            "code_name": "Potassium Chloride 16.6 MEQ/20 ML Injectable Solution [Rolikan]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "104366",
+            "code_name": "Gliquidone 30 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "993463",
+            "code_name": "Linagliptin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "198211",
+            "code_name": "Aspirin 100 MG Oral Capsule",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1114708",
+            "code_name": "Insulin Glargine 100 UNIT/ML Injectable Solution [Lantus SoloStar]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "6140",
+            "code_name": "Lactulose 667 MG/ML Oral Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "71620000",
+            "code_name": "Fracture of femur",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "43052004",
+            "code_name": "Catheter implantation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "448598008",
+            "code_name": "Closed reduction and internal fixation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8302-2",
+            "code_name": "Body height",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "29463-7",
+            "code_name": "Body weight",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "42399005",
+            "code_name": "Crackles",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "48694002",
+            "code_name": "Heart murmur",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20132007",
+            "code_name": "Petechiae",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "4732004",
+            "code_name": "Purpura",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "70211000",
+            "code_name": "Ecchymosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "302215000",
+            "code_name": "Telangiectasia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "271807003",
+            "code_name": "Rash",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "80281008",
+            "code_name": "Plaque",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "2085001",
+            "code_name": "Wound",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "90688005",
+            "code_name": "Ulceration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "240460009",
+            "code_name": "Lymphadenopathy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "279039007",
+            "code_name": "Dyspnea",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "271737000",
+            "code_name": "Anemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "162057007",
+            "code_name": "Mutism",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "1806006",
+            "code_name": "Ketone acidosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "14749-6",
+            "code_name": "Stool Occult Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308135",
+            "code_name": "Sennosides",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1038890",
+            "code_name": "Insulin, Regular",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "897122",
+            "code_name": "Insulin Aspart Protamine / Insulin Aspart [NovoMix]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "49727002",
+            "code_name": "Productive cough",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "233935004",
+            "code_name": "Desaturation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308182",
+            "code_name": "Potassium Chloride 16.6 MEQ/20 ML Injectable Solution [Rolikan]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "386661006",
+            "code_name": "Malaise",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "251118004",
+            "code_name": "Decreased ejection fraction",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "201170008",
+            "code_name": "Global hypokinesia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "45007003",
+            "code_name": "Hypotension",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "102455006",
+            "code_name": "Hemodialysis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26079004",
+            "code_name": "Mutism",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30637-3",
+            "code_name": "Brain CT",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "225390008",
+            "code_name": "Electroencephalogram",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "241600009",
+            "code_name": "Carotid duplex ultrasound",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "399207008",
+            "code_name": "Transcranial Doppler",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "241601008",
+            "code_name": "Magnetic resonance imaging of brain",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "128053003",
+            "code_name": "Pacemaker",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "10327003",
+            "code_name": "Epilepsy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "31425003",
+            "code_name": "Stenosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "18284005",
+            "code_name": "Internal carotid artery structure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "233678006",
+            "code_name": "Tachypnea",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "233873004",
+            "code_name": "Acute decompensated heart failure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "53084003",
+            "code_name": "Pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "113861000",
+            "code_name": "Multidrug-resistant Acinetobacter baumannii infection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "24184005",
+            "code_name": "Pulmonary edema",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "164889003",
+            "code_name": "Atrial fibrillation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "44643007",
+            "code_name": "Tachy-brady syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111288001",
+            "code_name": "Rapid ventricular response",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "103001002",
+            "code_name": "Bradycardia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "410429000",
+            "code_name": "Cardiac arrest",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "200241",
+            "code_name": "Fluconazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "7980",
+            "code_name": "Penicillin G Sodium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "617153",
+            "code_name": "Piperacillin 2000 MG",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "617160",
+            "code_name": "Tazobactam 250 MG",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "245972",
+            "code_name": "Cefepime Hydrochloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "617165",
+            "code_name": "Sulbactam 500 MG",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "208383",
+            "code_name": "Fluconazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "259255",
+            "code_name": "Clopidogrel",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2551",
+            "code_name": "Nitroglycerin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "13746004",
+            "code_name": "Coronary artery disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "704997001",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "356443",
+            "code_name": "Aspirin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "105214",
+            "code_name": "Linagliptin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "71400007",
+            "code_name": "Intertrochanteric fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "31320000",
+            "code_name": "Osteoporosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111283007",
+            "code_name": "Open reduction and internal fixation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "239873007",
+            "code_name": "Bronchiolitis obliterans organizing pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1038646",
+            "code_name": "Insulin Glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "400047006",
+            "code_name": "Pulmonary valve regurgitation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "263204005",
+            "code_name": "Osteoporosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111283005",
+            "code_name": "Compression fracture of lumbar vertebra",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20285006",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "698247007",
+            "code_name": "Paroxysmal atrial fibrillation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "86299006",
+            "code_name": "Pulmonary valve regurgitation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "83367",
+            "code_name": "rosuvastatin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "314155",
+            "code_name": "Crestor",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "29719007",
+            "code_name": "Tibial plateau fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "263204008",
+            "code_name": "Open reduction and internal fixation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "82271004",
+            "code_name": "Fracture of tibia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "44465007",
+            "code_name": "Bronchiolitis obliterans organizing pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "122456005",
+            "code_name": "Video-assisted thoracoscopic surgery",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "429937006",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "4015701",
+            "code_name": "Insulin glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "993453",
+            "code_name": "Linagliptin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20430005",
+            "code_name": "Tricuspid regurgitation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "25302008",
+            "code_name": "Stenosis of subclavian artery",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "233604007",
+            "code_name": "Fluid overload",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "239859003",
+            "code_name": "Bronchiolitis obliterans organizing pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "125605004",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "267038008",
+            "code_name": "Petechiae",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "271825005",
+            "code_name": "Orthopnea",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "302866003",
+            "code_name": "Hyperglycemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "14140009",
+            "code_name": "Hyperkalemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "414545008",
+            "code_name": "Elevated cardiac enzyme",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "75532003",
+            "code_name": "Metabolic acidosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "80394007",
+            "code_name": "Hyperglycemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "267425008",
+            "code_name": "Diabetic ketoacidosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "202991",
+            "code_name": "Levofloxacin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "153801",
+            "code_name": "Bricanyl 2.5 MG/ML Inhalant Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "897223",
+            "code_name": "Atrovent 0.25 MG/ML Inhalant Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "220558",
+            "code_name": "Isosorbide Dinitrate 0.5 MG/ML Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "309845",
+            "code_name": "Heparin Sodium 5000 UNT/ML Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "91454",
+            "code_name": "Folic Acid 5 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "348834",
+            "code_name": "Gliquidone 30 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1114712",
+            "code_name": "Linagliptin 5 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "104503",
+            "code_name": "Fusidic Acid 20 MG/ML Topical Cream",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1191",
+            "code_name": "Aspirin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1317256",
+            "code_name": "Tribasic Calcium Phosphate 500 MG / Cholecalciferol 200 UNIT Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197316",
+            "code_name": "Sennosides 12.5 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "856541",
+            "code_name": "Lactulose 600 MG/ML Oral Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "431856006",
+            "code_name": "End-stage renal disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "71680000",
+            "code_name": "Fracture of femoral neck",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "447027008",
+            "code_name": "Catheter insertion",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "18270000",
+            "code_name": "Closed reduction of fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "418362009",
+            "code_name": "Murmur",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20132005",
+            "code_name": "Petechiae",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "4732005",
+            "code_name": "Purpura",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "70278001",
+            "code_name": "Ecchymosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "301980006",
+            "code_name": "Telangiectasia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "66473006",
+            "code_name": "Plaque",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20854000",
+            "code_name": "Wound",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "399963005",
+            "code_name": "Ulceration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "30217009",
+            "code_name": "Crust",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "30746006",
+            "code_name": "Lymphadenopathy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "40917007",
+            "code_name": "Dyspnea",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "271767006",
+            "code_name": "Anemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "235595009",
+            "code_name": "Ketone acidosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1038647",
+            "code_name": "NovoMix",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "11833005",
+            "code_name": "Cough",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "230145002",
+            "code_name": "Desaturation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "8186001",
+            "code_name": "Pulmonary edema",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308188",
+            "code_name": "Cefepime",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "441798006",
+            "code_name": "Hypokinesia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "81898007",
+            "code_name": "Mutism",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "37340000",
+            "code_name": "Brain computed tomography",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "309292001",
+            "code_name": "Electroencephalogram",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "241541005",
+            "code_name": "Transcranial Doppler",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "34014006",
+            "code_name": "Hemodialysis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "88610006",
+            "code_name": "Ventricular tachycardia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "40930008",
+            "code_name": "Dehydration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "10725009",
+            "code_name": "Tachycardia-bradycardia syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111287001",
+            "code_name": "Ventricular tachycardia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2555",
+            "code_name": "Cordarone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2369",
+            "code_name": "Fluconazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1596451",
+            "code_name": "Piperacillin 2000 MG",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308137",
+            "code_name": "Cefoperazone 500 MG",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308138",
+            "code_name": "Sulbactam 500 MG",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308139",
+            "code_name": "Colistin Methanesulfonate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308140",
+            "code_name": "Fluconazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308141",
+            "code_name": "Clopidogrel",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308142",
+            "code_name": "Nitroglycerin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308143",
+            "code_name": "Carvedilol",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308144",
+            "code_name": "Valsartan",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308145",
+            "code_name": "Spironolactone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308146",
+            "code_name": "Hydralazine Hydrochloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308147",
+            "code_name": "Isosorbide Mononitrate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308148",
+            "code_name": "Norepinephrine Bitartrate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308149",
+            "code_name": "Amiodarone Hydrochloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308150",
+            "code_name": "Verapamil Hydrochloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308151",
+            "code_name": "Aspirin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308152",
+            "code_name": "Darbepoetin alfa",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308153",
+            "code_name": "Heparin Sodium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308154",
+            "code_name": "Albumin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308155",
+            "code_name": "Epoetin Beta Genetical Recombinant",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308156",
+            "code_name": "Dextrose",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308157",
+            "code_name": "Rosuvastatin (Calcium)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308158",
+            "code_name": "Levofloxacin 5 MG/ML Injectable Solution [Cravit]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308159",
+            "code_name": "Magnesium Sulfate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308160",
+            "code_name": "Potassium Chloride 20 mEq in Water 100mL",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308161",
+            "code_name": "Potassium Chloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308162",
+            "code_name": "Calcium Chloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308163",
+            "code_name": "Dextrose",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308164",
+            "code_name": "Tribasic Calcium Phosphate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308165",
+            "code_name": "Cholecalciferol",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308166",
+            "code_name": "Dextrose Monohydrate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308167",
+            "code_name": "NaCl",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308168",
+            "code_name": "Dextrose and Electrolyte Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308169",
+            "code_name": "Acetaminophen",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308170",
+            "code_name": "Aspirin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308171",
+            "code_name": "Morphine Hydrochloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308172",
+            "code_name": "Sennoside A+B",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308173",
+            "code_name": "Pantoprazole Sodium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308174",
+            "code_name": "Lansoprazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308175",
+            "code_name": "Dioctahedral Smectite",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308176",
+            "code_name": "Metoclopramide Hydrochloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308177",
+            "code_name": "Prochlorperazine Mesylate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308178",
+            "code_name": "Insulin Regular",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308179",
+            "code_name": "Insulin Isophane Suspension",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308180",
+            "code_name": "Insulin Aspart and Insulin Aspart Protamine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308181",
+            "code_name": "Insulin Glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308183",
+            "code_name": "Ipratropium Bromide",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308184",
+            "code_name": "Terbutaline Sulfate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308185",
+            "code_name": "Acetylcysteine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308186",
+            "code_name": "Dextromethorphan Hydrobromide",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308187",
+            "code_name": "Compound Opium and Glycyrrhiza Mixture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308189",
+            "code_name": "Fusidic Acid",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308190",
+            "code_name": "Indomethacin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "433144002",
+            "code_name": "End stage renal disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "284385",
+            "code_name": "Aspirin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "284366",
+            "code_name": "Insulin glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "399020009",
+            "code_name": "Subclavian artery stenosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "71610009",
+            "code_name": "Intertrochanteric fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "10370003",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "103885",
+            "code_name": "Insulin Glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1113967",
+            "code_name": "Linagliptin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "349986",
+            "code_name": "Gliquidone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "204878001",
+            "code_name": "Pulmonary valve regurgitation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "262520000",
+            "code_name": "Intertrochanteric fracture of femur",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "180090006",
+            "code_name": "Tibial plateau fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26207004",
+            "code_name": "Posterior cruciate ligament avulsion",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "427652000",
+            "code_name": "Bronchiolitis obliterans organizing pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "441497005",
+            "code_name": "Wedge resection of lung",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "413444003",
+            "code_name": "Coronary artery disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "10269002",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "284361",
+            "code_name": "Insulin Glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1049630",
+            "code_name": "Crestor",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "70036000",
+            "code_name": "Stenosis of subclavian artery",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "110601000",
+            "code_name": "Intertrochanteric fracture of femur",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111294002",
+            "code_name": "Osteoporosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "154283005",
+            "code_name": "Compression fracture of lumbar vertebra",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "399211009",
+            "code_name": "Sick sinus syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "205920",
+            "code_name": "Insulin glargine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "356201",
+            "code_name": "Rosuvastatin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "41581000",
+            "code_name": "Stenosis of subclavian artery",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26252002",
+            "code_name": "Anterior cruciate ligament injury",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26254006",
+            "code_name": "Posterior cruciate ligament injury",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111234009",
+            "code_name": "Compression fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1920-8",
+            "code_name": "Oxygen saturation in Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6710-2",
+            "code_name": "Creatine kinase.MB [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "83107-3",
+            "code_name": "N-terminal pro b-type Natriuretic Peptide [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "50663-3",
+            "code_name": "Ketones [Moles/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "329498",
+            "code_name": "Ipratropium 0.25 MG/ML Inhalant Solution [Atrovent]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "310798",
+            "code_name": "Isosorbide Dinitrate 0.5 MG/ML Injectable Solution [Millisrol]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "3367",
+            "code_name": "Heparin Sodium 5000 UNT/ML Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "151080",
+            "code_name": "Folic Acid 5 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197629",
+            "code_name": "Fusidic Acid 2% Topical Cream",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "404504",
+            "code_name": "Rosuvastatin Calcium 5 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1733427",
+            "code_name": "Tribasic Calcium Phosphate 500 MG / Cholecalciferol 400 UNT Oral Tablet [Bio-cal Plus]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "834725",
+            "code_name": "Insulin Glargine 100 UNT/ML Injectable Solution [Lantus SoloStar]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "309054",
+            "code_name": "Carvedilol 6.25 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "316047",
+            "code_name": "Sennosides A and B 12.5 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "3087",
+            "code_name": "Lactulose",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "7168008",
+            "code_name": "Fracture of femur",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "429353004",
+            "code_name": "Perm-cath catheter implantation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "445464007",
+            "code_name": "Closed reduction and internal fixation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "90721000119109",
+            "code_name": "Abnormal pigmentation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "79644000",
+            "code_name": "Purpura",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "43164002",
+            "code_name": "Ecchymoses",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "2012001",
+            "code_name": "Telangiectasia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "79644001",
+            "code_name": "Plaque",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20899000",
+            "code_name": "Wound",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "439321000124100",
+            "code_name": "Ulceration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "30217006",
+            "code_name": "Crust",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "162290004",
+            "code_name": "Epigastric pain",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "80146002",
+            "code_name": "Ketone acidosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "897017",
+            "code_name": "Pantoprazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1038629",
+            "code_name": "Insulin aspart protamine/insulin aspart",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "422587007",
+            "code_name": "Desaturation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "57054005",
+            "code_name": "Pulmonary edema",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "1023001",
+            "code_name": "Hemodialysis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "103340007",
+            "code_name": "Heart failure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20153004",
+            "code_name": "Hypokinesia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "42665001",
+            "code_name": "Epilepsy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "275504009",
+            "code_name": "Stenosis of subclavian artery",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "275502002",
+            "code_name": "Stenosis of internal carotid artery",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "113871000119100",
+            "code_name": "Multidrug-resistant Acinetobacter baumannii infection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1153548",
+            "code_name": "Colistin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "67782005",
+            "code_name": "Pulmonary edema",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "426232007",
+            "code_name": "Tachy-brady syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "427847000",
+            "code_name": "Ventricular tachycardia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "6918",
+            "code_name": "Fluconazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "7984",
+            "code_name": "Penicillin G Sodium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308366",
+            "code_name": "Sulbactam",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "211",
+            "code_name": "Cefepime",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "59760",
+            "code_name": "Cefoperazone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "4023",
+            "code_name": "Colistin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "3640",
+            "code_name": "Fluconazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2670",
+            "code_name": "Carvedilol",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "4010",
+            "code_name": "Valsartan",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2115",
+            "code_name": "Spironolactone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "3522",
+            "code_name": "Hydralazine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "3120",
+            "code_name": "Isosorbide Mononitrate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "6132",
+            "code_name": "Norepinephrine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "6809",
+            "code_name": "Amiodarone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "105",
+            "code_name": "Verapamil",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2282",
+            "code_name": "Heparin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1192",
+            "code_name": "Albumin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197378",
+            "code_name": "Epoetin beta",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "21114",
+            "code_name": "Dextrose",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "4092",
+            "code_name": "Rosuvastatin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2048",
+            "code_name": "Sodium Chloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "7052",
+            "code_name": "Indomethacin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "4178",
+            "code_name": "Potassium Chloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2671",
+            "code_name": "Calcium Chloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1648",
+            "code_name": "Calcium Phosphate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "11124",
+            "code_name": "Cholecalciferol",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "161",
+            "code_name": "Acetaminophen",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "13572",
+            "code_name": "Pantoprazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2049",
+            "code_name": "Lansoprazole",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "672",
+            "code_name": "Metoclopramide",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2019",
+            "code_name": "Prochlorperazine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}

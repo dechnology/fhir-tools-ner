@@ -1,0 +1,634 @@
+{
+    "entities": [
+        {
+            "source": "SNOMEDCT",
+            "code": "386661006",
+            "code_name": "Fever",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "21522001",
+            "code_name": "Abdominal pain",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "62315008",
+            "code_name": "Diarrhea",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "185086009",
+            "code_name": "Bronchiectasis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "35489007",
+            "code_name": "Depressive disorder",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "38341003",
+            "code_name": "Hypertension",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8480-6",
+            "code_name": "Systolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8462-4",
+            "code_name": "Diastolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8867-4",
+            "code_name": "Heart rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "59408-5",
+            "code_name": "Oxygen saturation in Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "9279-1",
+            "code_name": "Respiratory rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8310-5",
+            "code_name": "Body temperature",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "183919006",
+            "code_name": "Palliative care",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "304253006",
+            "code_name": "No cardiopulmonary resuscitation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "304254000",
+            "code_name": "No life-sustaining treatment",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "32398004",
+            "code_name": "Bronchiectasis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "162397003",
+            "code_name": "Diverticulitis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "422587007",
+            "code_name": "Vomiting",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "87600009",
+            "code_name": "Dysuria",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "49727002",
+            "code_name": "Cough",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "34000006",
+            "code_name": "Diverticulitis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "301011002",
+            "code_name": "Tenderness of left lower quadrant",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "11833005",
+            "code_name": "Normal bowel sounds",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26499-4",
+            "code_name": "Diarrhea",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308135",
+            "code_name": "Ciprofloxacin 2 MG/ML Injectable Solution [Ciproxin]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1049630",
+            "code_name": "Diosmectite 3 GM Oral Powder [Smecta]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "3498",
+            "code_name": "Acetaminophen 500 MG Oral Tablet [Paramol]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "583214",
+            "code_name": "Saline 0.9% Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308136",
+            "code_name": "Flumarin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "57021-8",
+            "code_name": "Complete blood count (CBC) panel - Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26515-7",
+            "code_name": "Platelets [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6690-2",
+            "code_name": "Complete blood count (hemogram) panel",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2160-0",
+            "code_name": "Creatinine [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2951-2",
+            "code_name": "Sodium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2823-3",
+            "code_name": "Potassium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1742-6",
+            "code_name": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5902-2",
+            "code_name": "Prothrombin time (PT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3173-2",
+            "code_name": "Thromboplastin time.partial (aPTT) - Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2524-7",
+            "code_name": "Lactic acid [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "11558-4",
+            "code_name": "Blood gas panel - Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "600-7",
+            "code_name": "Blood culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5779-2",
+            "code_name": "Urinalysis study",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20415-2",
+            "code_name": "Microscopic observation [Identifier] in Urine sediment by Light microscopy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "630-4",
+            "code_name": "Bacteria identified in Urine by Culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5794-1",
+            "code_name": "Occult blood [Presence] in Stool by Guaiac",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20410-3",
+            "code_name": "Leukocytes [#/area] in Stool by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6579-7",
+            "code_name": "Bacteria identified in Stool by Culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "623-9",
+            "code_name": "Bacteria identified in Stool by Culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30745-4",
+            "code_name": "CT Unenhanced",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30746-2",
+            "code_name": "CT of abdomen and pelvis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "15074-8",
+            "code_name": "Glucose [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "52765003",
+            "code_name": "Cardiopulmonary resuscitation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "304252004",
+            "code_name": "Life-sustaining treatment",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "43724002",
+            "code_name": "Fever",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "53084003",
+            "code_name": "Bronchiectasis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26445-5",
+            "code_name": "Diarrhea",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "11840006",
+            "code_name": "Infectious diarrhea",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "309362",
+            "code_name": "Ciprofloxacin 2 MG/ML Injectable Solution [Ciproxin]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "104963",
+            "code_name": "Diosmectite [Smecta]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1790096",
+            "code_name": "Novamin 5 MG/ML Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "316041",
+            "code_name": "Sodium Chloride 9 MG/ML Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "617314",
+            "code_name": "Flumarin 1000 MG Injection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "18629005",
+            "code_name": "Physician's order",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26464-8",
+            "code_name": "Leukocytes [#/volume] in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5964-2",
+            "code_name": "Prothrombin time (PT) [Time] in Blood by Coagulation assay",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "57782-5",
+            "code_name": "Urine dipstick panel - Urine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30362-6",
+            "code_name": "Microscopic observation [Identifier] in Urine sediment by Light microscopy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2339-0",
+            "code_name": "Occult blood [Presence] in Stool by Immunologic method",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "664-3",
+            "code_name": "Leukocytes [#/area] in Stool by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6571-8",
+            "code_name": "Salmonella sp identified in Stool by Culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6572-6",
+            "code_name": "Shigella sp identified in Stool by Culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "625-4",
+            "code_name": "Stool culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30746-0",
+            "code_name": "CT without IV contrast - Chest",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30750-2",
+            "code_name": "CT without IV contrast - Abdomen",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30754-4",
+            "code_name": "CT with and without IV contrast - Abdomen",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30756-9",
+            "code_name": "CT with and without IV contrast - Pelvis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "14749-6",
+            "code_name": "Blood glucose",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "85354-9",
+            "code_name": "Vital signs",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "289908002",
+            "code_name": "Fever",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "201834007",
+            "code_name": "Abdominal pain",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "165386009",
+            "code_name": "Infectious diarrhea",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "10160",
+            "code_name": "Saline 0.9% Injection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1738746",
+            "code_name": "Flumarin 1000 MG Injection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "11557-6",
+            "code_name": "Blood gas panel - Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5803-2",
+            "code_name": "Urinalysis study",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "50559-9",
+            "code_name": "Microscopic observation [Identifier] in Urine by Microscopy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2335-8",
+            "code_name": "Occult blood [Presence] in Stool by Guaiac",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30746-4",
+            "code_name": "CT without contrast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30745-6",
+            "code_name": "CT with and without contrast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "14743-9",
+            "code_name": "Glucose [Moles/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}

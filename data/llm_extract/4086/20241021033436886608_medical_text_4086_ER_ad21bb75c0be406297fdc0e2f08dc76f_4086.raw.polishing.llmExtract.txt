@@ -1,0 +1,543 @@
+{
+    "entities": [
+        {
+            "source": "SNOMEDCT",
+            "code": "248596004",
+            "code_name": "Drowsiness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "13791008",
+            "code_name": "Generalized weakness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "284470004",
+            "code_name": "Reduced urine output",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8480-6",
+            "code_name": "Systolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8462-4",
+            "code_name": "Diastolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8867-4",
+            "code_name": "Heart rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "38341003",
+            "code_name": "Hypertension",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "266569009",
+            "code_name": "Benign prostatic hyperplasia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "52448006",
+            "code_name": "Dementia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "230690007",
+            "code_name": "Cerebrovascular accident",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "49436004",
+            "code_name": "Atrial fibrillation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "59408-5",
+            "code_name": "Oxygen saturation in Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "9279-1",
+            "code_name": "Respiratory rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8310-5",
+            "code_name": "Body temperature",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "162713000",
+            "code_name": "Glasgow coma score 4",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "162714006",
+            "code_name": "Glasgow coma score 5",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "162715007",
+            "code_name": "Glasgow coma score 1",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "64572001",
+            "code_name": "Disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "267036007",
+            "code_name": "Drowsiness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "225569005",
+            "code_name": "Increased urine output",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "248200007",
+            "code_name": "Lethargy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "386661006",
+            "code_name": "Fever",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "37340000",
+            "code_name": "Disturbance of consciousness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "363355007",
+            "code_name": "Malignant neoplasm of bladder",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "94260004",
+            "code_name": "Malignant neoplasm of overlapping sites of bladder",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "363358000",
+            "code_name": "Malignant neoplasm of bladder, unspecified",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "105314",
+            "code_name": "Insulin Human Regular 100 UNT/ML Injectable Solution [Humulin R]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "4850",
+            "code_name": "Sodium Chloride 9 MG/ML Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308056",
+            "code_name": "Potassium Chloride 1.49 MG/ML Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "4544-3",
+            "code_name": "Antibody screen",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2345-7",
+            "code_name": "Glucose [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "70218-2",
+            "code_name": "Blood ketone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "600-7",
+            "code_name": "Blood culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "55231-4",
+            "code_name": "Serum electrolyte and gas analysis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3016-3",
+            "code_name": "Thyroid function tests",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "24627-2",
+            "code_name": "CT without contrast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30750-4",
+            "code_name": "Chest X-ray",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "85354-9",
+            "code_name": "Blood pressure panel with all children optional",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2708-6",
+            "code_name": "Oxygen saturation in Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "16271002",
+            "code_name": "Consciousness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "9267-6",
+            "code_name": "Eye opening response - Glasgow coma score",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "9268-4",
+            "code_name": "Motor response - Glasgow coma score",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "9269-2",
+            "code_name": "Verbal response - Glasgow coma score",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "75277002",
+            "code_name": "Increased urine output",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "248300006",
+            "code_name": "Lethargy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "439401001",
+            "code_name": "Diagnosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "44223004",
+            "code_name": "Disturbance of consciousness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "363346000",
+            "code_name": "Malignant neoplasm of bladder",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "92611000119108",
+            "code_name": "Malignant neoplasm of overlapping sites of bladder",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "363355006",
+            "code_name": "Malignant neoplasm of bladder",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "683420",
+            "code_name": "Insulin Human Regular 100 UNT/ML Injectable Solution [Humulin R]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1190147",
+            "code_name": "Sodium Chloride 9 MG/ML Injectable Solution [Saline]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308195",
+            "code_name": "Potassium Chloride 1.49 % Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308136",
+            "code_name": "Cefuroxime 750 MG Injection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "883-9",
+            "code_name": "Blood type",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5792-7",
+            "code_name": "Glucose [Moles/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "29609-5",
+            "code_name": "Ketones [Moles/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "55231-8",
+            "code_name": "Electrolytes panel in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "24323-8",
+            "code_name": "Thyroid function panel",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30746-5",
+            "code_name": "CT Brain without contrast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30750-7",
+            "code_name": "Chest X-ray AP supine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "4548-4",
+            "code_name": "Glucose [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "22761-6",
+            "code_name": "Potassium [Moles/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "22340000",
+            "code_name": "Reduced urine output",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "2847009",
+            "code_name": "Increased urine output",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "248270009",
+            "code_name": "Fever",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "372244006",
+            "code_name": "Malignant neoplasm of overlapping sites of bladder",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "373993008",
+            "code_name": "Predominant disturbance of consciousness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1597018",
+            "code_name": "Insulin Human Regular 100 UNIT/ML Injectable Solution [Humulin R]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1190197",
+            "code_name": "Sodium Chloride 9 MG/ML Injectable Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308135",
+            "code_name": "Potassium Chloride 20 MEQ/100 ML Injection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "62462-7",
+            "code_name": "Antibody screen",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2514-8",
+            "code_name": "Ketones [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2951-2",
+            "code_name": "Sodium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30746-4",
+            "code_name": "CT Head without contrast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30750-6",
+            "code_name": "Chest X-ray AP supine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2823-3",
+            "code_name": "Potassium [Moles/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}

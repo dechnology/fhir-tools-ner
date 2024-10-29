@@ -1,0 +1,620 @@
+{
+    "entities": [
+        {
+            "source": "SNOMEDCT",
+            "code": "386661006",
+            "code_name": "Fever",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "233604007",
+            "code_name": "Community-acquired pneumonia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "13645005",
+            "code_name": "Chronic obstructive pulmonary disease",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "91857000",
+            "code_name": "Acute myeloid leukemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "125643001",
+            "code_name": "Myelodysplastic/myeloproliferative neoplasm",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "433581000124100",
+            "code_name": "Tumor lysis syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "43116000",
+            "code_name": "Tumor lysis syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "31320000",
+            "code_name": "Thoracic spine compression fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111283005",
+            "code_name": "Compression fracture of lumbar vertebra",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "363406005",
+            "code_name": "Malignant neoplasm of colon",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "90560007",
+            "code_name": "Gouty arthritis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "2376001",
+            "code_name": "Hyperuricemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "64859006",
+            "code_name": "Osteoporosis",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308056",
+            "code_name": "Cytarabine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "49727002",
+            "code_name": "Cough",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "40733004",
+            "code_name": "Infection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8302-2",
+            "code_name": "Body height",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "29463-7",
+            "code_name": "Body weight",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8310-5",
+            "code_name": "Body temperature",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8867-4",
+            "code_name": "Heart rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "9279-1",
+            "code_name": "Respiratory rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8480-6",
+            "code_name": "Systolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8462-4",
+            "code_name": "Diastolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "56018004",
+            "code_name": "Afebrile",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "56065001",
+            "code_name": "Wheezing",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "8180008",
+            "code_name": "Abdomen soft",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20117008",
+            "code_name": "No tenderness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "267038008",
+            "code_name": "No edema",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "682",
+            "code_name": "Cytarabine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "47200007",
+            "code_name": "Tumor lysis syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "49436004",
+            "code_name": "Atrial fibrillation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2555",
+            "code_name": "Amiodarone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "6809",
+            "code_name": "Meropenem",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "20482007",
+            "code_name": "Ileus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "904601",
+            "code_name": "Azacitidine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308137",
+            "code_name": "Cefepime",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2118",
+            "code_name": "Cytarabine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "512",
+            "code_name": "Amiodarone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "11289",
+            "code_name": "Furosemide",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2598",
+            "code_name": "Tamsulosin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "309362",
+            "code_name": "Calcium Acetate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "303011007",
+            "code_name": "Neutropenia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "302215000",
+            "code_name": "Thrombocytopenia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26499-4",
+            "code_name": "Neutrophils [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26515-0",
+            "code_name": "Platelets [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "166603001",
+            "code_name": "Elevated liver enzymes",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "91857007",
+            "code_name": "Acute myeloid leukemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "128462008",
+            "code_name": "Myelodysplastic/myeloproliferative neoplasm",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "52404001",
+            "code_name": "Acute kidney injury",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "234171007",
+            "code_name": "Compression fracture of thoracic spine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "31342008",
+            "code_name": "Compression fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "237360007",
+            "code_name": "Hyperuricemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "91857005",
+            "code_name": "Acute myeloid leukemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "312861002",
+            "code_name": "Fever of unknown origin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "204878001",
+            "code_name": "Skin lesion",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "30746006",
+            "code_name": "Lymphadenopathy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "42343007",
+            "code_name": "Peripheral edema",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "249492003",
+            "code_name": "Abdomen soft",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "201191000000109",
+            "code_name": "No abdominal tenderness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "289470003",
+            "code_name": "No leg edema",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "164889003",
+            "code_name": "Atrial fibrillation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "349790",
+            "code_name": "Azacitidine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308136",
+            "code_name": "Cefepime",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2670",
+            "code_name": "Cytarabine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "202991",
+            "code_name": "Furosemide",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308135",
+            "code_name": "Tamsulosin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1920-8",
+            "code_name": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1742-6",
+            "code_name": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "267425008",
+            "code_name": "Tumor lysis syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "431855005",
+            "code_name": "Acute kidney injury",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "239873007",
+            "code_name": "Thoracic spine compression fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111283007",
+            "code_name": "Lumbar vertebral fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "237860009",
+            "code_name": "Hyperuricemia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "91857006",
+            "code_name": "Acute myeloid leukemia, M4",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "386689009",
+            "code_name": "Abdomen soft",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "422400008",
+            "code_name": "No tenderness",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "256429",
+            "code_name": "Cytarabine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "44169009",
+            "code_name": "Tumor lysis syndrome",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "162057007",
+            "code_name": "Ileus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308057",
+            "code_name": "Azacitidine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308131",
+            "code_name": "Cefepime",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "4130",
+            "code_name": "Cytarabine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "6817",
+            "code_name": "Amiodarone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2047",
+            "code_name": "Furosemide",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "4012",
+            "code_name": "Tamsulosin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "3091",
+            "code_name": "Calcium Acetate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26436-6",
+            "code_name": "Neutrophils [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26515-7",
+            "code_name": "Platelets [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}

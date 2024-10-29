@@ -1,0 +1,67 @@
+{
+    "entities": [
+        {
+            "source": "RXNORM",
+            "code": "197361",
+            "code_name": "Atropine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197798",
+            "code_name": "Tetracycline Hydrochloride 10 MG/G Ophthalmic Ointment",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "104920",
+            "code_name": "Betamethasone Sodium Phosphate 1 MG/ML Ophthalmic Solution",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "245737",
+            "code_name": "Gentamicin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "104342",
+            "code_name": "Betamethasone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2039",
+            "code_name": "Tetracycline",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2459",
+            "code_name": "Gentamicin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197501",
+            "code_name": "Atropine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "10898",
+            "code_name": "Tetracycline",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}

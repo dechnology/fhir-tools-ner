@@ -1,0 +1,508 @@
+{
+    "entities": [
+        {
+            "source": "LOINC",
+            "code": "57021-8",
+            "code_name": "Complete blood count (CBC) panel",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6690-2",
+            "code_name": "Leukocytes [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "789-8",
+            "code_name": "Erythrocytes [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "718-7",
+            "code_name": "Hemoglobin [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "4544-3",
+            "code_name": "Hematocrit [Volume Fraction] of Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "787-2",
+            "code_name": "Mean corpuscular volume",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "777-3",
+            "code_name": "Platelets [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "788-0",
+            "code_name": "Red blood cell distribution width",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26499-4",
+            "code_name": "Neutrophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "713-8",
+            "code_name": "Eosinophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "706-2",
+            "code_name": "Basophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5905-5",
+            "code_name": "Monocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "731-0",
+            "code_name": "Lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26478-8",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30364-4",
+            "code_name": "Plasma cells/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26441-6",
+            "code_name": "Normoblasts/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1975-2",
+            "code_name": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1920-8",
+            "code_name": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1751-7",
+            "code_name": "Albumin [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1968-7",
+            "code_name": "Bilirubin.direct [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1742-6",
+            "code_name": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26474-7",
+            "code_name": "Leukocytes [#/volume] in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5902-2",
+            "code_name": "Prothrombin time (PT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6301-6",
+            "code_name": "PT INR",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3173-2",
+            "code_name": "Partial thromboplastin time (PTT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "69405-9",
+            "code_name": "Estimated Glomerular Filtration Rate (eGFR)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "48642-3",
+            "code_name": "Glomerular filtration rate/1.73 sq M.predicted",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "15074-8",
+            "code_name": "Glucose [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8867-4",
+            "code_name": "Heart rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26515-7",
+            "code_name": "Complete blood count (CBC) with platelets",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26464-8",
+            "code_name": "Leukocytes [#/volume] in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5964-2",
+            "code_name": "Prothrombin time (PT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2160-0",
+            "code_name": "Creatinine [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2951-2",
+            "code_name": "Sodium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2823-3",
+            "code_name": "Potassium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "40748009",
+            "code_name": "Klebsiella pneumoniae",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "600-7",
+            "code_name": "Blood culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "316764",
+            "code_name": "OneTouch",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "883-9",
+            "code_name": "ABO group",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10331-7",
+            "code_name": "Rh group",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "161",
+            "code_name": "Acetaminophen 500 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26456008",
+            "code_name": "Promyelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "70210002",
+            "code_name": "Myelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "73410003",
+            "code_name": "Metamyelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26440009",
+            "code_name": "Band form neutrophil",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "785-6",
+            "code_name": "Mean corpuscular hemoglobin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30746-0",
+            "code_name": "CT of unspecified body region",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "248536006",
+            "code_name": "Photopsia",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "80394007",
+            "code_name": "Retinal detachment",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "73211009",
+            "code_name": "Asthma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8310-5",
+            "code_name": "Body temperature",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "9279-1",
+            "code_name": "Respiratory rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8480-6",
+            "code_name": "Systolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8462-4",
+            "code_name": "Diastolic blood pressure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "349325",
+            "code_name": "Anakinra 100 MG/ML [Kineret]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "76601-6",
+            "code_name": "Glomerular filtration rate/1.73 sq M.predicted",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "40733004",
+            "code_name": "White blood cell count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "21232-4",
+            "code_name": "Creatinine [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2947-0",
+            "code_name": "Sodium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "62914000",
+            "code_name": "Klebsiella pneumoniae",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1049630",
+            "code_name": "Blood Glucose Test Strips [OneTouch]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "285710000",
+            "code_name": "Promyelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "88145002",
+            "code_name": "Myelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26463003",
+            "code_name": "Metamyelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26416006",
+            "code_name": "Band form neutrophil",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26450-1",
+            "code_name": "Neutrophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30746-6",
+            "code_name": "Computed tomography (CT) study",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26436-6",
+            "code_name": "Blood culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "33914-3",
+            "code_name": "Glomerular filtration rate/1.73 sq M.predicted",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "11555-0",
+            "code_name": "Oxygen saturation in Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "387517004",
+            "code_name": "Klebsiella pneumoniae",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "882-1",
+            "code_name": "ABO group",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,557 @@
+{
+    "entities": [
+        {
+            "source": "SNOMEDCT",
+            "code": "252465000",
+            "code_name": "Laboratory procedure",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2335-8",
+            "code_name": "Fecal occult blood qualitative",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20411-7",
+            "code_name": "Fecal leukocytes",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "718-7",
+            "code_name": "Hemoglobin [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6690-2",
+            "code_name": "Leukocytes [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "789-8",
+            "code_name": "Erythrocytes [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20570-8",
+            "code_name": "Hematocrit",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "787-2",
+            "code_name": "Mean corpuscular volume",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "785-6",
+            "code_name": "Mean corpuscular hemoglobin (MCH)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "786-4",
+            "code_name": "Mean corpuscular hemoglobin concentration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "14743-9",
+            "code_name": "Platelets [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30385-9",
+            "code_name": "Red Blood Cell Distribution Width (RDW) [Volume Fraction] by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "14196-0",
+            "code_name": "Reticulocytes/100 erythrocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30386-7",
+            "code_name": "Immature reticulocyte fraction [Percent] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1968-7",
+            "code_name": "Bilirubin.direct [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1975-2",
+            "code_name": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1742-6",
+            "code_name": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2532-0",
+            "code_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3094-0",
+            "code_name": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2160-0",
+            "code_name": "Creatinine [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2951-2",
+            "code_name": "Sodium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2823-3",
+            "code_name": "Potassium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2289-0",
+            "code_name": "Ferritin [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2498-4",
+            "code_name": "Iron [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2500-7",
+            "code_name": "Iron binding capacity.total [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "48642-3",
+            "code_name": "Estimated Glomerular Filtration Rate",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "449868002",
+            "code_name": "Vancomycin-resistant Enterococcus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "44077006",
+            "code_name": "Enterococcus faecium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "600-7",
+            "code_name": "Vancomycin-resistant Enterococcus faecium culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "4544-3",
+            "code_name": "Mean corpuscular volume (MCV)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26515-7",
+            "code_name": "Mean corpuscular hemoglobin (MCH) [Entitic mass] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "788-0",
+            "code_name": "Red blood cell distribution width",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26421006",
+            "code_name": "Metamyelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26499-4",
+            "code_name": "Eosinophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26497-8",
+            "code_name": "Basophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26498-6",
+            "code_name": "Monocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "48065-7",
+            "code_name": "D-Dimer [Units/volume] in Platelet poor plasma by Immunoassay",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5902-2",
+            "code_name": "Prothrombin time (PT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3173-2",
+            "code_name": "Partial thromboplastin time (PTT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "34714-6",
+            "code_name": "Prothrombin time INR",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "69405-9",
+            "code_name": "Estimated glomerular filtration rate/1.73 sq M.prediction",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1757-8",
+            "code_name": "Blood culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "15074-8",
+            "code_name": "Glucose [Mass/volume] in Capillary blood by Glucometer",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "226057002",
+            "code_name": "Enteral nutrition",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "201278",
+            "code_name": "Lansoprazole 30 MG Oral Disintegrating Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197361",
+            "code_name": "Amoxicillin 875 MG / Clavulanate Potassium 125 MG Oral Tablet [Augmentin]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "407663006",
+            "code_name": "Vancomycin resistant Enterococcus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "29771-3",
+            "code_name": "Fecal occult blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20405-7",
+            "code_name": "Fecal leukocytes",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2885-2",
+            "code_name": "Serum albumin [Mass/volume]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "777-3",
+            "code_name": "Platelets [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2280-0",
+            "code_name": "Ferritin [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "116296000",
+            "code_name": "Vancomycin-resistant Enterococcus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "8715000",
+            "code_name": "Enterococcus faecium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26464-8",
+            "code_name": "Blood culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26436-6",
+            "code_name": "Normoblasts [#/area] in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26450-7",
+            "code_name": "Eosinophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26447-3",
+            "code_name": "Basophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26443-2",
+            "code_name": "Monocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5964-2",
+            "code_name": "Prothrombin time (PT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "226352004",
+            "code_name": "Enteral nutrition",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "207106",
+            "code_name": "Lansoprazole 30 MG Oral Capsule [Prevacid]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "248518005",
+            "code_name": "Contact isolation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20411-5",
+            "code_name": "Stool white blood cells",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6299-2",
+            "code_name": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2283-0",
+            "code_name": "Ferritin [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "113858007",
+            "code_name": "Vancomycin-resistant Enterococcus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "116363005",
+            "code_name": "Enterococcus faecium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "28542-9",
+            "code_name": "Mean corpuscular hemoglobin concentration (MCHC) [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26450-0",
+            "code_name": "Eosinophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26447-6",
+            "code_name": "Basophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26443-5",
+            "code_name": "Monocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26474-7",
+            "code_name": "Lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26484-6",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6301-6",
+            "code_name": "Prothrombin time (PT) international normalized ratio (INR)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "11555-0",
+            "code_name": "Oxygen saturation in Arterial blood by Pulse oximetry",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "182922004",
+            "code_name": "Enteral nutrition",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "211477",
+            "code_name": "Lansoprazole 30 MG Delayed Release Oral Capsule [Prevacid]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "407597005",
+            "code_name": "Contact isolation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}

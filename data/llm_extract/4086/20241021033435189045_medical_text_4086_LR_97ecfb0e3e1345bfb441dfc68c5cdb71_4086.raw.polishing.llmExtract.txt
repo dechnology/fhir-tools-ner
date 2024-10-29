@@ -1,0 +1,1138 @@
+{
+    "entities": [
+        {
+            "source": "LOINC",
+            "code": "6690-2",
+            "code_name": "White blood cell count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "789-8",
+            "code_name": "Red blood cell count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "718-7",
+            "code_name": "Hemoglobin [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "4544-3",
+            "code_name": "Hematocrit [Volume Fraction] of Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "787-2",
+            "code_name": "Mean corpuscular volume",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "785-6",
+            "code_name": "Mean corpuscular hemoglobin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "786-4",
+            "code_name": "Mean corpuscular hemoglobin concentration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "777-3",
+            "code_name": "Platelet count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "788-0",
+            "code_name": "Red cell distribution width - coefficient of variation",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5802-4",
+            "code_name": "Peripheral blood smear",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3094-0",
+            "code_name": "Urea nitrogen",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2160-0",
+            "code_name": "Creatinine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2951-2",
+            "code_name": "Sodium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2823-3",
+            "code_name": "Potassium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2075-0",
+            "code_name": "Chloride",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1975-2",
+            "code_name": "Total Bilirubin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1798-8",
+            "code_name": "Amylase",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3040-3",
+            "code_name": "Lipase",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "17861-6",
+            "code_name": "Calcium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "5736",
+            "code_name": "Magnesium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1751-7",
+            "code_name": "Albumin [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1742-6",
+            "code_name": "Alanine aminotransferase",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "11558-4",
+            "code_name": "Blood pH",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2019-8",
+            "code_name": "Carbon dioxide, partial pressure [Partial pressure] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2703-7",
+            "code_name": "Oxygen, partial pressure [Partial pressure] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1959-6",
+            "code_name": "Bicarbonate [Moles/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1925-7",
+            "code_name": "Base excess in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "33914-3",
+            "code_name": "Glomerular filtration rate/1.73 sq M.predicted",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "58410-2",
+            "code_name": "Complete blood count (hemogram) panel - Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26499-4",
+            "code_name": "Leukocytes [#/volume] in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26444-0",
+            "code_name": "Bands/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26445-7",
+            "code_name": "Promyelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26446-5",
+            "code_name": "Myelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26447-3",
+            "code_name": "Metamyelocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26448-1",
+            "code_name": "Myelocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26450-7",
+            "code_name": "Blasts/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "713-8",
+            "code_name": "Eosinophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "706-2",
+            "code_name": "Basophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "742-7",
+            "code_name": "Monocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "40733004",
+            "code_name": "Lymphocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "10051000",
+            "code_name": "Atypical lymphocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "41481001",
+            "code_name": "Plasma cell",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "13437007",
+            "code_name": "Normoblast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "258450006",
+            "code_name": "Peripheral blood smear test",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1920-8",
+            "code_name": "Aspartate aminotransferase",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "25095-8",
+            "code_name": "Magnesium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "44054006",
+            "code_name": "Diabetes mellitus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "4548-4",
+            "code_name": "Hemoglobin A1c/Hemoglobin.total in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10334-1",
+            "code_name": "Cancer Ag 19-9 [Units/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2039-6",
+            "code_name": "Carcinoembryonic Ag [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5811-5",
+            "code_name": "Specific gravity of Urine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2756-5",
+            "code_name": "pH of Urine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2888-6",
+            "code_name": "Protein [Mass/volume] in Urine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2345-7",
+            "code_name": "Glucose [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2513-8",
+            "code_name": "Ketones [Mass/volume] in Urine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5794-3",
+            "code_name": "Occult blood [Presence] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20454-5",
+            "code_name": "Protein [Mass/volume] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5803-2",
+            "code_name": "Nitrite [Presence] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3013-0",
+            "code_name": "Leukocyte esterase [Presence] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5778-6",
+            "code_name": "Color of Urine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "50594-2",
+            "code_name": "Turbidity of Urine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20410-2",
+            "code_name": "Red Blood Cells [#/volume] in Urine by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20415-1",
+            "code_name": "White Blood Cells [#/volume] in Urine by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "32167-9",
+            "code_name": "Epithelial cells [#/area] in Urine sediment by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5815-4",
+            "code_name": "Crystals [Presence] in Urine sediment by Light microscopy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "47898-0",
+            "code_name": "Crystals [#/volume] in Urine by Microscopy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "33254-5",
+            "code_name": "Bacteria [#/volume] in Urine by Microscopy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2335-8",
+            "code_name": "Occult blood [Presence] in Stool by Guaiac",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "15074-8",
+            "code_name": "Glucose [Moles/volume] in Blood by Glucometer",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "664-3",
+            "code_name": "Gram stain",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "11840006",
+            "code_name": "Vancomycin-resistant Enterococcus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30522-7",
+            "code_name": "High-sensitivity C-Reactive Protein",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30313-1",
+            "code_name": "Blood Ketone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26515-7",
+            "code_name": "Complete blood count (CBC) with platelets panel",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "716186003",
+            "code_name": "White blood cell count abnormal",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5902-2",
+            "code_name": "Prothrombin time (PT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3173-2",
+            "code_name": "Partial thromboplastin time (PTT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "34714-6",
+            "code_name": "International normalized ratio (INR) for prothrombin time",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2514-8",
+            "code_name": "Ketone [Mass/volume] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20413-3",
+            "code_name": "Red Blood Cells [#/area] in Urine sediment by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20414-1",
+            "code_name": "White Blood Cells [#/area] in Urine sediment by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "11286-3",
+            "code_name": "Bacteria identified in Urine by Culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2692-2",
+            "code_name": "Osmolality of Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3026-2",
+            "code_name": "Free T4",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "11579-0",
+            "code_name": "Thyrotropin [Units/volume] in Serum or Plasma by High sensitivity method",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "11557-6",
+            "code_name": "Blood gas panel - Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20564-1",
+            "code_name": "Oxygen saturation in Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1994-3",
+            "code_name": "Calcium free [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2524-7",
+            "code_name": "Lactic acid [Moles/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "600-7",
+            "code_name": "Blood culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "113631008",
+            "code_name": "Escherichia coli infection",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "883-9",
+            "code_name": "ABO and Rh group",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "8909-9",
+            "code_name": "Antibody screen",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "18949003",
+            "code_name": "Cardiomegaly",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "79654002",
+            "code_name": "Infiltration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "304571002",
+            "code_name": "Chest X-ray",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "182777000",
+            "code_name": "Central venous catheter",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "304210008",
+            "code_name": "Nasogastric tube",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "385798007",
+            "code_name": "Outpatient treatment",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5782-8",
+            "code_name": "Peripheral blood smear",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "14627-4",
+            "code_name": "Bicarbonate [Moles/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26474-7",
+            "code_name": "Leukocytes [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26443-2",
+            "code_name": "Promyelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26442-4",
+            "code_name": "Myelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26441-6",
+            "code_name": "Neutrophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26440-8",
+            "code_name": "Band neutrophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26439-0",
+            "code_name": "Neutrophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26438-2",
+            "code_name": "Eosinophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26437-4",
+            "code_name": "Basophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26436-6",
+            "code_name": "Monocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "40768004",
+            "code_name": "Lymphocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "85828009",
+            "code_name": "Atypical lymphocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "70246002",
+            "code_name": "Plasma cell",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26483003",
+            "code_name": "Normoblast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "310510001",
+            "code_name": "Peripheral blood smear",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "19123-9",
+            "code_name": "Magnesium",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20449-5",
+            "code_name": "Glucose [Presence] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20451-1",
+            "code_name": "Blood [Presence] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20461-0",
+            "code_name": "Urobilinogen [Presence] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20462-8",
+            "code_name": "Bilirubin [Presence] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30190-4",
+            "code_name": "Casts [Presence] in Urine sediment by Light microscopy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "33206-5",
+            "code_name": "Bacteria [Presence] in Urine sediment by Light microscopy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26464-8",
+            "code_name": "Complete blood count (CBC) panel",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "405623001",
+            "code_name": "White blood cell count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5894-2",
+            "code_name": "Prothrombin time",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "6301-6",
+            "code_name": "International normalized ratio (INR) for prothrombin time",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20407-5",
+            "code_name": "Red Blood Cells [#/volume] in Urine by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20408-3",
+            "code_name": "White Blood Cells [#/volume] in Urine by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "33245-6",
+            "code_name": "Bacteria [Presence] in Urine by Microscopy",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2708-6",
+            "code_name": "Oxygen saturation in Arterial blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "113731006",
+            "code_name": "Escherichia coli",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10331-7",
+            "code_name": "Rh group",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "80146002",
+            "code_name": "Cardiomegaly",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "57021-8",
+            "code_name": "Complete blood count (hemogram) panel - Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26449-9",
+            "code_name": "Promyelocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "70176003",
+            "code_name": "Plasma cell",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "264370003",
+            "code_name": "Normoblast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "310551006",
+            "code_name": "Peripheral blood smear",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "24113-3",
+            "code_name": "Carbohydrate antigen 19-9 [Units/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5792-7",
+            "code_name": "Glucose [Mass/volume] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20407-3",
+            "code_name": "Urobilinogen [Mass/volume] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5797-6",
+            "code_name": "Bilirubin [Presence] in Urine by Test strip",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5789-3",
+            "code_name": "Appearance of Urine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20414-5",
+            "code_name": "Red Blood Cells [#/area] in Urine sediment by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20415-2",
+            "code_name": "White Blood Cells [#/area] in Urine sediment by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20610-6",
+            "code_name": "Casts [#/area] in Urine sediment by Microscopy low power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20413-7",
+            "code_name": "Crystals [#/area] in Urine sediment by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "33245-4",
+            "code_name": "Bacteria [#/area] in Urine sediment by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "14563-1",
+            "code_name": "Occult blood in Stool",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "113079008",
+            "code_name": "Vancomycin-resistant Enterococcus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2513-5",
+            "code_name": "Blood Ketone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "399981008",
+            "code_name": "White blood cell count abnormal",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5964-2",
+            "code_name": "Prothrombin time (PT)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20415-6",
+            "code_name": "Red blood cells [#/volume] in Urine by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "20416-4",
+            "code_name": "White blood cells [#/volume] in Urine by Microscopy high power field",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "33262-3",
+            "code_name": "Bacteria identified in Urine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3024-7",
+            "code_name": "Free Thyroxine (T4) [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "113631000",
+            "code_name": "Escherichia coli",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "890-4",
+            "code_name": "Antibody screen",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "818981001",
+            "code_name": "Chest AP view (procedure)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "182840001",
+            "code_name": "Cardiomegaly",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "87343002",
+            "code_name": "Infiltration of lung",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}

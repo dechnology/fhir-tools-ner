@@ -1,0 +1,963 @@
+{
+    "entities": [
+        {
+            "source": "LOINC",
+            "code": "6690-2",
+            "code_name": "Leukocytes [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "789-8",
+            "code_name": "Erythrocytes [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "718-7",
+            "code_name": "Hemoglobin [Mass/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "4544-3",
+            "code_name": "Hematocrit [Volume Fraction] of Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "787-2",
+            "code_name": "Mean corpuscular volume [Entitic volume] by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "785-6",
+            "code_name": "Mean corpuscular hemoglobin",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "777-3",
+            "code_name": "Platelets [#/volume] in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "788-0",
+            "code_name": "Red cell distribution width [Ratio] in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "786-4",
+            "code_name": "Mean corpuscular hemoglobin concentration",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26464-8",
+            "code_name": "Blast cells/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26465-5",
+            "code_name": "Promyelocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26466-3",
+            "code_name": "Metamyelocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26467-1",
+            "code_name": "Myelocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26468-9",
+            "code_name": "Bands/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26469-7",
+            "code_name": "Neutrophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "713-8",
+            "code_name": "Eosinophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26499-4",
+            "code_name": "Monocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26474-7",
+            "code_name": "Basophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "54218-3",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "54045-0",
+            "code_name": "Plasma cells/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26453-1",
+            "code_name": "Normoblasts/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26444-0",
+            "code_name": "Blasts [#/volume] in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26448-1",
+            "code_name": "Promyelocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26437006",
+            "code_name": "Segmented Neutrophils",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "22054004",
+            "code_name": "Eosinophils",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "68286005",
+            "code_name": "Basophils",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26485006",
+            "code_name": "Monocytes",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "40761001",
+            "code_name": "Lymphocytes",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "4421005",
+            "code_name": "Atypical Lymphocytes",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "58000002",
+            "code_name": "Plasma Cell",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "70246002",
+            "code_name": "Normoblast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "11937000",
+            "code_name": "Blast cell",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "31056009",
+            "code_name": "Promyelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "3738000",
+            "code_name": "Metamyelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "80308009",
+            "code_name": "Myelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26422001",
+            "code_name": "Band form neutrophil",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26423000",
+            "code_name": "Promyelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "110383009",
+            "code_name": "Eosinophil",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26497-8",
+            "code_name": "Monocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10354-1",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "3094-0",
+            "code_name": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2160-0",
+            "code_name": "Creatinine [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2951-2",
+            "code_name": "Sodium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "2823-3",
+            "code_name": "Potassium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "17861-6",
+            "code_name": "Calcium [Moles/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1920-8",
+            "code_name": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "1751-7",
+            "code_name": "Albumin [Mass/volume] in Serum or Plasma",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "30522-7",
+            "code_name": "High sensitivity C-reactive protein (hsCRP)",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "48642-3",
+            "code_name": "Glomerular filtration rate/1.73 sq M.predicted",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5778-6",
+            "code_name": "Polymorphonuclear neutrophils [#/volume] in Sputum by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10214-2",
+            "code_name": "Epithelial cells [#/volume] in Sputum by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "664-3",
+            "code_name": "Gram positive rods [#/volume] in Sputum by Gram stain",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10189-9",
+            "code_name": "Sputum culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "27550009",
+            "code_name": "Calcified aorta",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "128545000",
+            "code_name": "Fracture of rib",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "239873007",
+            "code_name": "Degenerative disorder of thoracolumbar spine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "204306007",
+            "code_name": "Ileus",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "7890003",
+            "code_name": "Ascites",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111592002",
+            "code_name": "Compression fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308135",
+            "code_name": "Aminophylline 225 MG Extended Release Oral Tablet [Phyllocontin Continus]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "29046",
+            "code_name": "Magnesium Oxide 250 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "3168",
+            "code_name": "Spironolactone 25 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308158",
+            "code_name": "Amoxicillin 875 MG / Clavulanate Potassium 125 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "311480",
+            "code_name": "Tamsulosin Hydrochloride 0.2 MG Oral Tablet [Harnalidge D]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "198440",
+            "code_name": "Pyridoxine Hydrochloride 50 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "198211",
+            "code_name": "Magnesium Oxide 250 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "104962",
+            "code_name": "Procaterol Hydrochloride 25 MCG Oral Tablet [Meptin]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "197361",
+            "code_name": "Furosemide 40 MG Oral Tablet [Lasix]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26436-6",
+            "code_name": "Normoblasts [#/volume] in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26435-8",
+            "code_name": "Promyelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26434-1",
+            "code_name": "Metamyelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26433-3",
+            "code_name": "Myelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26432-5",
+            "code_name": "Band form neutrophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26429-1",
+            "code_name": "Segmented neutrophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10355-0",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26425-9",
+            "code_name": "Plasma cells/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26450-7",
+            "code_name": "Normoblasts/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26443-2",
+            "code_name": "Bands/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26441-6",
+            "code_name": "Promyelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26499-2",
+            "code_name": "Neutrophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "706-2",
+            "code_name": "Basophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "742-7",
+            "code_name": "Monocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "731-0",
+            "code_name": "Lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "737-7",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "5905-5",
+            "code_name": "Monocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26456006",
+            "code_name": "Normoblast",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "23240000",
+            "code_name": "Blast cells",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "70241001",
+            "code_name": "Metamyelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "69962004",
+            "code_name": "Myelocyte",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "26425003",
+            "code_name": "Band form neutrophil",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "71634000",
+            "code_name": "Segmented neutrophil",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "41834005",
+            "code_name": "Eosinophil",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26478-8",
+            "code_name": "Lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10352-3",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "767-9",
+            "code_name": "Plasma cells/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "770-3",
+            "code_name": "Nucleated erythrocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "62238-1",
+            "code_name": "Glomerular filtration rate/1.73 sq M.predicted",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "578-5",
+            "code_name": "Neutrophils [#/volume] in Sputum by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "25915-5",
+            "code_name": "Epithelial cells [#/volume] in Sputum by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "25971005",
+            "code_name": "Polymorphonuclear neutrophil",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "12953007",
+            "code_name": "Epithelial cell",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "414561005",
+            "code_name": "Gram-negative cocci",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "27553009",
+            "code_name": "Calcified aorta",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "67782005",
+            "code_name": "Fracture of rib",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "79691002",
+            "code_name": "Ascites",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111283002",
+            "code_name": "Compression fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1191",
+            "code_name": "Acetylcysteine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "7052",
+            "code_name": "Magnesium Oxide",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "11289",
+            "code_name": "Spironolactone",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308136",
+            "code_name": "Procaterol 25 MCG Oral Tablet [Meptin]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "347990",
+            "code_name": "Tamsulosin 0.2 MG Oral Capsule [Harnalidge]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "316962",
+            "code_name": "Procaterol 0.025 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "617312",
+            "code_name": "Furosemide 40 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26492-9",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26450-1",
+            "code_name": "Metamyelocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26447-7",
+            "code_name": "Myelocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26444-4",
+            "code_name": "Plasma cells/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26499-8",
+            "code_name": "Neutrophils/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26478-2",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26442-4",
+            "code_name": "Metamyelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26440-8",
+            "code_name": "Myelocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26438-2",
+            "code_name": "Neutrophils/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26484-8",
+            "code_name": "Basophils/100 leukocytes in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26499-6",
+            "code_name": "Monocytes/100 leukocytes in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26474-9",
+            "code_name": "Lymphocytes/100 leukocytes in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10356-2",
+            "code_name": "Atypical lymphocytes/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "49498-9",
+            "code_name": "Plasma cells/100 leukocytes in Blood by Manual count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "26444-2",
+            "code_name": "Nucleated erythrocytes/100 leukocytes in Blood by Automated count",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "13942-7",
+            "code_name": "Sputum Culture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LOINC",
+            "code": "10190-7",
+            "code_name": "Microscopic observation [Identifier] in Sputum by Gram stain",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "365645007",
+            "code_name": "Calcified aorta",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "239872002",
+            "code_name": "Degenerative disorder of spine",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT",
+            "code": "111283007",
+            "code_name": "Compression fracture",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "573543",
+            "code_name": "Acetylcysteine 600 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "316048",
+            "code_name": "Spironolactone 25 MG Oral Tablet",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308137",
+            "code_name": "Tamsulosin 0.2 MG Oral Capsule [Harnalidge D]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "308134",
+            "code_name": "Furosemide 40 MG Oral Tablet [Lasix]",
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}
