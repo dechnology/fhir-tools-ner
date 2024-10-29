@@ -1,0 +1,26 @@
+# Version of Elastic products
+STACK_VERSION=8.15.3
+
+
+# Set the cluster name
+CLUSTER_NAME=vca-101
+
+
+# Port to expose Elasticsearch HTTP API to the host
+# 在正式環境請在docker-compose.yaml註解port，讓port不要外曝
+ES_PORT=32626
+
+
+# Port to expose Kibana to the host
+# 在正式環境請在docker-compose.yaml註解port，讓port不要外曝
+KIBANA_PORT=32625
+
+
+# Increase or decrease based on the available host memory (in bytes)
+# 1073741824 = 1GB
+ES_MEM_LIMIT=10737418240
+ES_JAVA_OPTS="-Xms5g -Xmx5g"
+
+
+# Project namespace (defaults to the current folder name if not set)
+COMPOSE_PROJECT_NAME=vca-101

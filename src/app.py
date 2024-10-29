@@ -5,6 +5,7 @@ import time
 import shutil
 import subprocess
 import xml.etree.ElementTree as ET
+from elasticsearch import Elasticsearch
 import requests
 import json
 from collections import defaultdict
@@ -26,6 +27,13 @@ print(f"{Fore.GREEN}MedCAT package importing...{Style.RESET_ALL}", end="", flush
 from medcat.cat import CAT
 import_time = time.time()
 print(f"{Fore.GREEN} done. ({import_time - start_time:.2f} sec){Style.RESET_ALL}")
+
+# 初始化 Elasticsearch 客戶端
+umls_client = Elasticsearch(
+    "http://localhost:9200",
+    basic_auth=("elastic", "jpDUH1dC"),
+    verify_certs=False
+)
 
 # 初始化 Flask 應用程式
 app = Flask(__name__)
@@ -69,8 +77,9 @@ NONE_SYMBOL = "-"
 print(f"{Fore.GREEN}MedCAT Model and UMLS Dictionary Subset loading...{NEWLINE}{Style.RESET_ALL}", end="", flush=True)
 model = "mc_modelpack_snomed_int_16_mar_2022_25be3857ba34bdd5.zip"
 cat = CAT.load_model_pack(f'../models/{model}')
-print(f"{Fore.GREEN}waiting for UMLS Dictionary Subset...{NEWLINE}{Style.RESET_ALL}", end="", flush=True)
 
+# 因應v1的暴力解法，需要載入字典到pandas進行查詢(這個部分還先不能拿掉)
+print(f"{Fore.GREEN}waiting for UMLS Dictionary Subset...{NEWLINE}{Style.RESET_ALL}", end="", flush=True)
 # Total
 umls_sub_dict = "filtered_data.csv"
 umls_df = pd.read_csv(f"../data/dict/{umls_sub_dict}", sep='|', header=None, keep_default_na=False)
@@ -81,38 +90,38 @@ umls_df.columns = [
 print("umls_df")
 print(umls_df.head())
 
-# LOINC
-loinc_sub_dict = "filtered_loinc_1.txt"
-loinc_df = pd.read_csv(f"../data/dict/{loinc_sub_dict}", sep='|', header=None, keep_default_na=False)
-loinc_df.columns = [
-    'CUI', 'TTY', 'CODE', 'STR'
-]
-print("loinc_df")
-print(loinc_df.head())
-nan_rows = loinc_df[loinc_df.isna().any(axis=1)]
-# print(nan_rows)
+# # LOINC
+# loinc_sub_dict = "filtered_loinc_1.txt"
+# loinc_df = pd.read_csv(f"../data/dict/{loinc_sub_dict}", sep='|', header=None, keep_default_na=False)
+# loinc_df.columns = [
+#     'CUI', 'TTY', 'CODE', 'STR'
+# ]
+# print("loinc_df")
+# print(loinc_df.head())
+# nan_rows = loinc_df[loinc_df.isna().any(axis=1)]
+# # print(nan_rows)
 
-# RxNorm
-rxnorm_sub_dict = "filtered_rxnorm_1.txt"
-rxnorm_df = pd.read_csv(f"../data/dict/{rxnorm_sub_dict}", sep='|', header=None, keep_default_na=False)
-rxnorm_df.columns = [
-    'CUI', 'TTY', 'CODE', 'STR'
-]
-print("rxnorm_df")
-print(rxnorm_df.head())
-nan_rows = rxnorm_df[rxnorm_df.isna().any(axis=1)]
-# print(nan_rows)
+# # RxNorm
+# rxnorm_sub_dict = "filtered_rxnorm_1.txt"
+# rxnorm_df = pd.read_csv(f"../data/dict/{rxnorm_sub_dict}", sep='|', header=None, keep_default_na=False)
+# rxnorm_df.columns = [
+#     'CUI', 'TTY', 'CODE', 'STR'
+# ]
+# print("rxnorm_df")
+# print(rxnorm_df.head())
+# nan_rows = rxnorm_df[rxnorm_df.isna().any(axis=1)]
+# # print(nan_rows)
 
-# SNOMED CT US Edition
-snomedctus_sub_dict = "filtered_snomedct_us_1.txt"
-snomedctus_df = pd.read_csv(f"../data/dict/{snomedctus_sub_dict}", sep='|', header=None, keep_default_na=False)
-snomedctus_df.columns = [
-    'CUI', 'TTY', 'CODE', 'STR'
-]
-print("snomedctus_df")
-print(snomedctus_df.head())
-nan_rows = snomedctus_df[snomedctus_df.isna().any(axis=1)]
-# print(nan_rows)
+# # SNOMED CT US Edition
+# snomedctus_sub_dict = "filtered_snomedct_us_1.txt"
+# snomedctus_df = pd.read_csv(f"../data/dict/{snomedctus_sub_dict}", sep='|', header=None, keep_default_na=False)
+# snomedctus_df.columns = [
+#     'CUI', 'TTY', 'CODE', 'STR'
+# ]
+# print("snomedctus_df")
+# print(snomedctus_df.head())
+# nan_rows = snomedctus_df[snomedctus_df.isna().any(axis=1)]
+# # print(nan_rows)
 model_loaded_time = time.time()
 print(f"{Fore.GREEN} done. ({model_loaded_time - import_time:.2f} sec){Style.RESET_ALL}")
 
@@ -665,75 +674,118 @@ output:
 
 
             # 我的prompt對應的解析方式
-            def get_candidate_from_umls_subset_by_search_keywords(source, search, threshold=50):
+            def get_candidate_from_umls_subset_by_search_keywords(source, concept, search, threshold=50):
+                # if source == "SNOMEDCT_US":
+                #     search_df = snomedctus_df
+                # elif source == "RXNORM":
+                #     search_df = rxnorm_df
+                # elif source == "LNC":
+                #     search_df = loinc_df
+                # else:
+                #     raise ValueError(f"LLM generated source: {source}, which is not supported (extract stage)")
+                # search是一個包含了不同種搜尋關鍵字的dict，而較高優先序的關鍵字種類會被放在dict的前面
+                # # v1: 用pandas暴力搜尋
+                # for keyword_type, search_keywords in search.items():
+                #     if not search_keywords:
+                #         continue
+                #     # 搜尋策略是針對每一類關鍵字：
+                #     # 1. 都先以交集的方式對各來源的STR欄位，進行正規搜尋，例如：(?=.*?foo)(?=.*?bar)
+                #     search_pattern = "^" + "".join([f"(?=.*?{re.escape(k)})" for k in search_keywords]) + ".*"
+                #     print(f"Intersection search_pattern: {search_pattern}")
+                #     filtered_df = search_df[search_df['STR'].str.contains(search_pattern, case=False, regex=True)]
+                #     if not filtered_df.empty:
+                #         search_df = filtered_df
+                #         continue
+                #     else:
+                #         pass
+                #         # print(f"{keyword_type}: {search_keywords}, this intersection filter would result in zero candidates, skipping.")
+                    
+                #     # 2. 交集造成的結果為空，我們可以逐步增加關鍵字，直到變成0的前一個狀態，例如：(?=.*?foo)|(?=.*?bar)造成結果為0，則改為(?=.*?foo)
+                #     if len(search_keywords) > 1:
+                #         pre_filtered_df = search_df
+                #         for search_keyword in search_keywords:
+                #             search_pattern = f"(?=.*?{search_keyword})"
+                #             print(f"Incremental Intersection search_pattern: {search_pattern}")
+                #             filtered_df = pre_filtered_df[pre_filtered_df['STR'].str.contains(search_pattern, case=False, regex=True)]
+                #             if not filtered_df.empty:
+                #                 pre_filtered_df = filtered_df
+                #                 break
+                #             else:
+                #                 # 給出前一次的搜尋結果
+                #                 search_df = pre_filtered_df
+
+                #     # 3. 如果交集的結果是空，則改為以聯集的方式進行搜尋，例如：(foo|bar)
+                #     if len(search_keywords) > 1:
+                #         search_pattern = "|".join([f"({search_keyword})" for search_keyword in search_keywords])
+                #         print(f"Union search_pattern: {search_pattern}")
+                #         filtered_df = search_df[search_df['STR'].str.contains(search_pattern, case=False, regex=True)]
+                #         if not filtered_df.empty:
+                #             search_df = filtered_df
+                #         else:
+                #             pass
+                #             # print(f"{keyword_type}: {search_keywords}, this union filter would result in zero candidates, skipping.")
+                
+                # # 最後將搜尋結果轉為list之後回傳
+                # candidates = search_df['STR'].tolist()
+
+                # # # 超過threshold的候選詞數量，表示這個entity的搜尋結果過於廣泛，不適合作為選項
+                # # if len(candidates) > threshold:
+                # #     return []
+                # # 超過threshold的候選詞數量，表示這個entity的搜尋結果過於廣泛，選擇最泛用的，通常是最短的
+                # if len(candidates) > threshold:
+                #     return [min(candidates, key=len)]
+
+                # return search_df['STR'].tolist()
+
+                # v2: 用elasticsearch進行搜尋
                 if source == "SNOMEDCT_US":
-                    search_df = snomedctus_df
+                    index_route = "snomedct_us"
                 elif source == "RXNORM":
-                    search_df = rxnorm_df
+                    index_route = "rxnorm"
                 elif source == "LNC":
-                    search_df = loinc_df
+                    index_route = "lnc"
                 else:
                     raise ValueError(f"LLM generated source: {source}, which is not supported (extract stage)")
-                # search是一個包含了不同種搜尋關鍵字的dict，而較高優先序的關鍵字種類會被放在dict的前面
+                should = [
+                    {
+                        "multi_match": {
+                            "query": concept,
+                            "fields": ["STR"]
+                        }
+                    }
+                ]
                 for keyword_type, search_keywords in search.items():
+                    print(keyword_type, search_keywords)
+                    # 把每一組轉換為should的格式
                     if not search_keywords:
                         continue
-                    # 搜尋策略是針對每一類關鍵字：
-                    # 1. 都先以交集的方式對各來源的STR欄位，進行正規搜尋，例如：(?=.*?foo)(?=.*?bar)
-                    search_pattern = "^" + "".join([f"(?=.*?{re.escape(k)})" for k in search_keywords]) + ".*"
-                    print(f"Intersection search_pattern: {search_pattern}")
-                    filtered_df = search_df[search_df['STR'].str.contains(search_pattern, case=False, regex=True)]
-                    if not filtered_df.empty:
-                        search_df = filtered_df
-                        continue
-                    else:
-                        pass
-                        # print(f"{keyword_type}: {search_keywords}, this intersection filter would result in zero candidates, skipping.")
-                    
-                    # 2. 交集造成的結果為空，我們可以逐步增加關鍵字，直到變成0的前一個狀態，例如：(?=.*?foo)|(?=.*?bar)造成結果為0，則改為(?=.*?foo)
-                    if len(search_keywords) > 1:
-                        pre_filtered_df = search_df
-                        for search_keyword in search_keywords:
-                            search_pattern = f"(?=.*?{search_keyword})"
-                            print(f"Incremental Intersection search_pattern: {search_pattern}")
-                            filtered_df = pre_filtered_df[pre_filtered_df['STR'].str.contains(search_pattern, case=False, regex=True)]
-                            if not filtered_df.empty:
-                                pre_filtered_df = filtered_df
-                                break
-                            else:
-                                # 給出前一次的搜尋結果
-                                search_df = pre_filtered_df
+                    for keyword in search_keywords:
+                        should.append(
+                            {
+                                "multi_match": {
+                                    "query": keyword,
+                                    "fields": ["STR"]
+                                }
+                            }
+                        )
+                query_body = {
+                    "query": {
+                        "bool": {
+                            "should": should,
+                            "minimum_should_match": 1
+                        }
+                    },
+                    "size": 10
+                }
+                response = umls_client.search(index=index_route, body=query_body)
 
-                    # 3. 如果交集的結果是空，則改為以聯集的方式進行搜尋，例如：(foo|bar)
-                    if len(search_keywords) > 1:
-                        search_pattern = "|".join([f"({search_keyword})" for search_keyword in search_keywords])
-                        print(f"Union search_pattern: {search_pattern}")
-                        filtered_df = search_df[search_df['STR'].str.contains(search_pattern, case=False, regex=True)]
-                        if not filtered_df.empty:
-                            search_df = filtered_df
-                        else:
-                            pass
-                            # print(f"{keyword_type}: {search_keywords}, this union filter would result in zero candidates, skipping.")
-                
-                # 最後將搜尋結果轉為list之後回傳
-                candidates = search_df['STR'].tolist()
-
-                # # 超過threshold的候選詞數量，表示這個entity的搜尋結果過於廣泛，不適合作為選項
-                # if len(candidates) > threshold:
-                #     return []
-                # 超過threshold的候選詞數量，表示這個entity的搜尋結果過於廣泛，選擇最泛用的，通常是最短的
-                if len(candidates) > threshold:
-                    return [min(candidates, key=len)]
-
-                return search_df['STR'].tolist()
+                return [hit['_source']['STR'] for hit in response['hits']['hits']]
             
             questions = []
             for entity in llm_extract_json["result"]:
                 if "clue" in entity:
-                    if entity["vocabulary"] == "LOINC":
-                        entity["vocabulary"] = "LNC"
                     # 透過search這個key來搜尋對應字典的concept的code_name和code_id
-                    candidates = get_candidate_from_umls_subset_by_search_keywords(entity["vocabulary"], entity["search"])
+                    candidates = get_candidate_from_umls_subset_by_search_keywords(entity["vocabulary"], entity["concept"], entity["search"])
                     # print(f"candidates: {candidates}")
                     if candidates:
                         questions.append({
@@ -836,24 +888,63 @@ output:
                             if f'{answer["source"]}:{answer["choice"]}' in id_count_dict:
                                 id_count_dict[f'{answer["source"]}:{answer["choice"]}']["count"] += 1
                             else:
-                                if answer["source"] == "SNOMEDCT_US":
-                                    search_df = snomedctus_df
-                                elif answer["source"] == "RXNORM":
-                                    search_df = rxnorm_df
-                                elif answer["source"] == "LNC":
-                                    search_df = loinc_df
-                                target_df = search_df[search_df['STR'].str.lower() == answer["choice"].lower()]
-                                # 有可能回傳值是幻覺，因此要檢查target_df是否為空
-                                if not target_df.empty:
-                                    code_str = str(target_df.iloc[0]['CODE'])
-                                    id_count_dict[f'{answer["source"]}:{answer["choice"]}'] = {
-                                        "source":answer["source"],
+                                # # v1: 用pandas暴力搜尋
+                                # if answer["source"] == "SNOMEDCT_US":
+                                #     search_df = snomedctus_df
+                                # elif answer["source"] == "RXNORM":
+                                #     search_df = rxnorm_df
+                                # elif answer["source"] == "LNC":
+                                #     search_df = loinc_df
+                                # target_df = search_df[search_df['STR'].str.lower() == answer["choice"].lower()]
+                                # # 有可能回傳值是幻覺，因此要檢查target_df是否為空
+                                # if not target_df.empty:
+                                #     code_str = str(target_df.iloc[0]['CODE'])
+                                #     id_count_dict[f'{answer["source"]}:{answer["choice"]}'] = {
+                                #         "source":answer["source"],
+                                #         "code":code_str,
+                                #         "code_name":answer["choice"],
+                                #         "text":entity["clue"],
+                                #         "count":1,
+                                #         "confidence":0
+                                #     }
+
+                                # v2: 用elasticsearch進行搜尋
+                                if entity["vocabulary"] == "SNOMEDCT_US":
+                                    index_route = "snomedct_us"
+                                elif entity["vocabulary"] == "RXNORM":
+                                    index_route = "rxnorm"
+                                elif entity["vocabulary"] == "LNC":
+                                    index_route = "lnc"
+                                else:
+                                    raise ValueError(f'LLM generated vocabulary: {entity["vocabulary"]}, which is not supported (extract stage)')
+                                query_body = {
+                                    "query": {
+                                        "bool": {
+                                            "must": [
+                                                {
+                                                    "match": {
+                                                        "STR": answer["choice"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                                response = umls_client.search(index=index_route, body=query_body)
+                                if response['hits']['hits']:
+                                    code_str = response['hits']['hits'][0]['_source']['CODE']
+                                    code_name = response['hits']['hits'][0]['_source']['STR']
+                                    id_count_dict[f'{entity["vocabulary"]}:{code_name}'] = {
+                                        "source":entity["vocabulary"],
                                         "code":code_str,
-                                        "code_name":answer["choice"],
+                                        "code_name":code_name,
                                         "text":entity["clue"],
                                         "count":1,
                                         "confidence":0
                                     }
+                                else:
+                                    pass
+                                    # print(f"{Fore.RED}Answer not found for clue: {entity["clue"]}{Style.RESET_ALL}")
                         else:
                             pass
                             # print(f"{Fore.RED}Answer not found for clue: {entity['clue']}{Style.RESET_ALL}")
