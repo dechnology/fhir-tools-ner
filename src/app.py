@@ -21,6 +21,7 @@ from flask_cors import CORS
 from openai import OpenAI
 from pydantic import BaseModel
 import re
+import concurrent.futures
 from colorama import Fore, Style
 start_time = time.time()
 print(f"{Fore.GREEN}MedCAT package importing...{Style.RESET_ALL}", end="", flush=True)
@@ -160,15 +161,45 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
     split_content = final_content
     standardized_content = ""
 
-    for i, segment in enumerate(split_content):
-        # 顯示預覽
+    # # 單執行續處理
+    # for i, segment in enumerate(split_content):
+    #     # 顯示預覽
+    #     lines = segment.splitlines()
+    #     print(
+    #         f"{Fore.YELLOW}{NEWLINE.join(lines[:5])}{f' [... {len(lines)} 行]' if len(lines) > 5 else ''}{Style.RESET_ALL}"
+    #     )
+    #     print(f"{Fore.WHITE}file_id {file_id} sqe {sqe}: {i+1}/{len(split_content)} 正在精煉...{Style.RESET_ALL}", end="", flush=True)
+    #     seqment_start_time = time.time()
+
+    #     # 呼叫 OpenAI API 進行處理
+    #     standardization_completion = client.chat.completions.create(
+    #         model="gpt-4o-2024-08-06",
+    #         messages=[
+    #             {
+    #                 "role": "system",
+    #                 "content": (
+    #                     "將使用者的內容翻譯成英文並執行標準化、精煉、以及縮寫展開（詞展開）。對於狀態詞後的實體，確保狀態詞適用於後續的每個實體。"
+    #                 )
+    #             },
+    #             {"role": "user", "content": segment}
+    #         ],
+    #         max_completion_tokens=16383
+    #     )
+
+    #     seqment_end_time = time.time()
+    #     print(f"{Fore.WHITE} 完成。({round(seqment_end_time - seqment_start_time, 2)} sec)\n{Style.RESET_ALL}")
+    #     # 合併所有段落
+    #     standardized_content += standardization_completion.choices[0].message.content
+
+    # thread 函數定義
+    def process_segment(i, segment, client, file_id, sqe):
         lines = segment.splitlines()
         print(
             f"{Fore.YELLOW}{NEWLINE.join(lines[:5])}{f' [... {len(lines)} 行]' if len(lines) > 5 else ''}{Style.RESET_ALL}"
         )
         print(f"{Fore.WHITE}file_id {file_id} sqe {sqe}: {i+1}/{len(split_content)} 正在精煉...{Style.RESET_ALL}", end="", flush=True)
-        seqment_start_time = time.time()
-
+        segment_start_time = time.time()
+        
         # 呼叫 OpenAI API 進行處理
         standardization_completion = client.chat.completions.create(
             model="gpt-4o-2024-08-06",
@@ -183,11 +214,27 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
             ],
             max_completion_tokens=16383
         )
+        
+        segment_end_time = time.time()
+        print(f"{Fore.WHITE} 完成。({round(segment_end_time - segment_start_time, 2)} sec)\n{Style.RESET_ALL}")
+        
+        # 回傳結果
+        return standardization_completion.choices[0].message.content
 
-        seqment_end_time = time.time()
-        print(f"{Fore.WHITE} 完成。({round(seqment_end_time - seqment_start_time, 2)} sec)\n{Style.RESET_ALL}")
-        # 合併所有段落
-        standardized_content += standardization_completion.choices[0].message.content
+    # thread主函数，使用 ThreadPoolExecutor 平行處理所有段落，並控制最大併發任務數
+    def parallel_process_content(split_content, client, file_id, sqe, max_concurrent_tasks=2):
+        standardized_content = ""
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max_concurrent_tasks) as executor:
+            futures = [
+                executor.submit(process_segment, i, segment, client, file_id, sqe)
+                for i, segment in enumerate(split_content)
+            ]
+            for future in concurrent.futures.as_completed(futures):
+                standardized_content += future.result()
+        return standardized_content
+
+    # 平行處理所有段落
+    standardized_content = parallel_process_content(split_content, client, file_id, sqe, max_concurrent_tasks=10)
 
     # 儲存標準化後的內容
     polishing_txt_path = f"../data/pipe_result/{file_base_name}.raw.polishing.txt"
@@ -212,6 +259,7 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
     r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'extracted')
 
     # 第 4 步：醫學規範化
+    id_count_dict = {}
     output_txt_path = f"../data/pipe_result/{file_base_name}.raw.polishing.output.txt"
     with open(output_txt_path, "w") as file:
         file.write("index|chunk|cui|source|code|string|acc\n")
@@ -234,14 +282,28 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
                 cui_str = target_df.iloc[0]['CUI']
                 sab_str = target_df.iloc[0]['SAB']
                 code_str = target_df.iloc[0]['CODE']
+                str_str = target_df.iloc[0]['STR']
             else:
                 sab_str = "<LOST>"
                 code_str = "<LOST>"
+                str_str = "<LOST>"
             # 寫入檔案
             if entity.get('start') > index_now:
                 file.write(f"{index_now}|{standardized_content[index_now:entity.get('start')].replace(NEWLINE, '<NEW_LINE>')}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}{NEWLINE}")
             file.write(f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}|{entity.get('acc', NONE_SYMBOL)}{NEWLINE}")
             # ref_data += f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}|{entity.get('acc', NONE_SYMBOL)}{NEWLINE}"
+            if f'{sab_str}:{code_str}' in id_count_dict:
+                id_count_dict[f'{sab_str}:{code_str}']["count"] += 1
+            else:
+                id_count_dict[f'{sab_str}:{code_str}'] = {
+                    "source":sab_str,
+                    "code":code_str,
+                    "code_name":str_str,
+                    "text":standardized_content[entity.get('start'):entity.get('end')],
+                    "unique":1,
+                    "count":1,
+                    "confidence":0
+                }
             index_now = entity.get('end')
         # 有可能最後一個entity的end不是content的結尾
         if index_now < len(standardized_content):
@@ -268,7 +330,6 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
             final_content.append("\n".join(lines[i:i+10]))
     split_content = final_content
 
-    id_count_dict = {}
     total_retry = 3
     for try_index in range(total_retry):
         for i, segment in enumerate(split_content):
@@ -939,6 +1000,7 @@ output:
                                         "code":code_str,
                                         "code_name":code_name,
                                         "text":entity["clue"],
+                                        "unique":1,
                                         "count":1,
                                         "confidence":0
                                     }
@@ -963,7 +1025,8 @@ output:
             #         }
     # 將count轉換為confidence
     for key in id_count_dict:
-        id_count_dict[key]["confidence"] = min(id_count_dict[key]["count"] / total_retry, 1.0)
+        # total_retry + 1 是 LLM 次數 + MedCAT模型偵測的1次
+        id_count_dict[key]["confidence"] = min(id_count_dict[key]["unique"] / (total_retry + 1), 1.0)
 
     # 為了讓輸出的結果保持為如下的JSON清單形式，需要進行轉換
     # {
@@ -1052,6 +1115,7 @@ output:
     print(f"latest_task_id: {latest_task_id}")
     print(f"task_id: {task_id}")
     if task_id == latest_task_id:
+        print(f'latest_sqe:{file_id}-{sqe}-{type} finished')
         r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'filepath_output', output_txt_path)
         r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'status', "uploaded")
 
