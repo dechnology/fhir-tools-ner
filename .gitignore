@@ -169,3 +169,4 @@ data/dict/*
 
 # tmp files or process result files
 data/pipe_result/*
+data/200_1000/*

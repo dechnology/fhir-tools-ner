@@ -15,14 +15,15 @@ def print_progress(line_count, handle_count, count):
     print("Target Percentage =", round(count / handle_count * 100, 2), "%")
     print("-" * 50)
 
-
-print("Opening 'MRCONSO.RRF'... (for creating 'filtered_umls_with_op.ndjson')")
+out_postfix = '_with_op_icd10.ndjson'
+print(f"Opening 'MRCONSO.RRF'... (for creating 'filtered_umls{out_postfix}')")
 with open('../data/dict/MRCONSO.RRF', 'r') as f:
     file_index = 1
     lines = f.readlines()
     line_count = len(lines)
     handle_count = 0
     count = 0
+    count_ICD10 = 0
     count_SNOMEDCT_US = 0
     count_LNC = 0
     count_RXNORM = 0
@@ -31,17 +32,20 @@ with open('../data/dict/MRCONSO.RRF', 'r') as f:
     current_line_count = 0  # 当前文件已写入的行数
     file_need_split = True  # 是否需要拆分文件
 
-    output_filename = f'../data/dict/filtered_umls{f"_{file_index}" if file_need_split else ""}_with_op.ndjson'
+    output_filename = f'../data/dict/filtered_umls{f"_{file_index}" if file_need_split else ""}{out_postfix}'
     fo = open(output_filename, 'w')
 
     for line in tqdm(lines, total=line_count, desc="Loading"):
         handle_count += 1
         columns = line.split('|')
         # 只处理符合条件的行
-        if columns[1] == 'ENG' and columns[11] in ['SNOMEDCT_US', 'LNC', 'RXNORM']:
+        # if columns[1] == 'ENG' and columns[11] in ['ICD10', 'SNOMEDCT_US', 'LNC', 'RXNORM']:
+        if columns[1] == 'ENG' and columns[11] in ['ICD10']:
             count += 1
             current_line_count += 1  # 计数当前文件中的有效行
-            if columns[11] == 'SNOMEDCT_US':
+            if columns[11] == 'ICD10':
+                count_ICD10 += 1
+            elif columns[11] == 'SNOMEDCT_US':
                 count_SNOMEDCT_US += 1
             elif columns[11] == 'LNC':
                 count_LNC += 1
@@ -84,7 +88,7 @@ with open('../data/dict/MRCONSO.RRF', 'r') as f:
 
 
     print_progress(line_count, handle_count, count)
-    # print("ICD10 Count =", count_ICD10)
+    print("ICD10 Count =", count_ICD10)
     print("SNOMEDCT_US Count =", count_SNOMEDCT_US)
     print("LNC Count =", count_LNC)
     print("RXNORM Count =", count_RXNORM)
