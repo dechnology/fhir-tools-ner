@@ -1078,44 +1078,44 @@ output:
         r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'filepath_llmExtract', llmExtract_txt_path)
 
     # 把整份output.txt檔案傳送到指定的API
-    # with open(llmExtract_txt_path, "r") as file:
-    #     content = file.read()
-    #     url = "http://35.229.136.14:8090/contentListener"
-    #     if type == "Full":
-    #         headers = {
-    #             'Content-Type': 'application/json',
-    #             'file_id': file_id,
-    #             'uid': sqe,
-    #             'type': 'A'
-    #         }
-    #         response = requests.request("POST", url, headers=headers, data=content)
-    #         headers = {
-    #             'Content-Type': 'application/json',
-    #             'file_id': file_id,
-    #             'uid': sqe,
-    #             'type': 'B'
-    #         }
-    #         response = requests.request("POST", url, headers=headers, data=content)
-    #         headers = {
-    #             'Content-Type': 'application/json',
-    #             'file_id': file_id,
-    #             'uid': sqe,
-    #             'type': 'C'
-    #         }
-    #         response = requests.request("POST", url, headers=headers, data=content)
-    #     else:
-    #         type_mapping = {
-    #             "ER": "A", # 急診病例
-    #             "HR": "B", # 住院病例
-    #             "LR": "C" # 檢驗紀錄
-    #             }
-    #         headers = {
-    #             'Content-Type': 'application/json',
-    #             'file_id': file_id,
-    #             'uid': sqe,
-    #             'type': type_mapping[type]
-    #         }
-    #         response = requests.request("POST", url, headers=headers, data=content)
+    with open(llmExtract_txt_path, "r") as file:
+        content = file.read()
+        url = "http://35.229.136.14:8090/contentListener"
+        if type == "Full":
+            headers = {
+                'Content-Type': 'application/json',
+                'file_id': file_id,
+                'uid': sqe,
+                'type': 'A'
+            }
+            response = requests.request("POST", url, headers=headers, data=content)
+            headers = {
+                'Content-Type': 'application/json',
+                'file_id': file_id,
+                'uid': sqe,
+                'type': 'B'
+            }
+            response = requests.request("POST", url, headers=headers, data=content)
+            headers = {
+                'Content-Type': 'application/json',
+                'file_id': file_id,
+                'uid': sqe,
+                'type': 'C'
+            }
+            response = requests.request("POST", url, headers=headers, data=content)
+        else:
+            type_mapping = {
+                "ER": "A", # 急診病例
+                "HR": "B", # 住院病例
+                "LR": "C" # 檢驗紀錄
+                }
+            headers = {
+                'Content-Type': 'application/json',
+                'file_id': file_id,
+                'uid': sqe,
+                'type': type_mapping[type]
+            }
+            response = requests.request("POST", url, headers=headers, data=content)
 
     r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'uploaded')
     # get latest task_id
