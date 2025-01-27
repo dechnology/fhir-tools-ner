@@ -15,7 +15,7 @@ def print_progress(line_count, handle_count, count):
     print("Target Percentage =", round(count / handle_count * 100, 2), "%")
     print("-" * 50)
 
-out_postfix = '_with_op_icd10.ndjson'
+out_postfix = '_with_op_icd10cm.ndjson'
 print(f"Opening 'MRCONSO.RRF'... (for creating 'filtered_umls{out_postfix}')")
 with open('../data/dict/MRCONSO.RRF', 'r') as f:
     file_index = 1
@@ -23,6 +23,7 @@ with open('../data/dict/MRCONSO.RRF', 'r') as f:
     line_count = len(lines)
     handle_count = 0
     count = 0
+    count_ICD10CM = 0
     count_ICD10 = 0
     count_SNOMEDCT_US = 0
     count_LNC = 0
@@ -39,10 +40,12 @@ with open('../data/dict/MRCONSO.RRF', 'r') as f:
         handle_count += 1
         columns = line.split('|')
         # 只处理符合条件的行
-        # if columns[1] == 'ENG' and columns[11] in ['ICD10', 'SNOMEDCT_US', 'LNC', 'RXNORM']:
-        if columns[1] == 'ENG' and columns[11] in ['ICD10']:
+        # if columns[1] == 'ENG' and columns[11] in ['ICD10CM', 'ICD10', 'SNOMEDCT_US', 'LNC', 'RXNORM']:
+        if columns[1] == 'ENG' and columns[11] in ['ICD10CM']:
             count += 1
             current_line_count += 1  # 计数当前文件中的有效行
+            if columns[11] == 'ICD10CM':
+                count_ICD10CM += 1
             if columns[11] == 'ICD10':
                 count_ICD10 += 1
             elif columns[11] == 'SNOMEDCT_US':
@@ -88,6 +91,7 @@ with open('../data/dict/MRCONSO.RRF', 'r') as f:
 
 
     print_progress(line_count, handle_count, count)
+    print("ICD10CM Count =", count_ICD10CM)
     print("ICD10 Count =", count_ICD10)
     print("SNOMEDCT_US Count =", count_SNOMEDCT_US)
     print("LNC Count =", count_LNC)

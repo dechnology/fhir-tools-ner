@@ -24,6 +24,12 @@ import re
 import concurrent.futures
 import traceback
 from colorama import Fore, Style
+
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import event
+from sqlalchemy.orm import validates
+from sqlalchemy.orm import load_only
+
 start_time = time.time()
 # print(f"{Fore.GREEN}MedCAT package importing...{Style.RESET_ALL}", end="", flush=True)
 # from medcat.cat import CAT
@@ -42,6 +48,110 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}}, methods=["GET", "POST", "PUT", "DELETE"])
 app.config['UPLOAD_FOLDER'] = '../data/input'
 app.config['PIPE_FOLDER'] = '../data/pipe_result'
+# Configure SQLite database
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
+
+# Define Enum choices
+STATUS_CHOICES = ['running', 'in_review', 'verified']
+RUNNING_STAGE_CHOICES = ['pending', 'polishing', 'entity_extracting', 'linking', 'done']
+PARAGRAPH_TYPE_CHOICES = ['EmergencyRecord', 'HospitalRecord', 'LaboratoryRecord']
+
+class File(db.Model):
+    __tablename__ = 'files'
+    file_id = db.Column(db.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
+    total_count = db.Column(db.Integer, nullable=False, default=0)
+    completed_count = db.Column(db.Integer, nullable=False, default=0)
+    status = db.Column(db.String(10), nullable=False, default='running')  # Changed ENUM to String
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    # Validate status
+    @validates('status')
+    def validate_status(self, key, status):
+        assert status in STATUS_CHOICES
+        return status
+
+class Encounter(db.Model):
+    __tablename__ = 'encounters'
+    encounter_id = db.Column(db.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
+    file_id = db.Column(db.String(36), nullable=False)
+    sqe = db.Column(db.String(36), nullable=False)
+    status = db.Column(db.String(10), nullable=False, default='running')  # Changed ENUM to String
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    # Relationships
+    # file = db.relationship('File', backref=db.backref('encounters', lazy=True))
+
+    # Validate status
+    @validates('status')
+    def validate_status(self, key, status):
+        assert status in STATUS_CHOICES
+        return status
+
+class Paragraph(db.Model):
+    __tablename__ = 'paragraphs'
+    paragraph_id = db.Column(db.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
+    encounter_id = db.Column(db.String(36), nullable=False)
+    type = db.Column(db.String(20), nullable=False)  # Use full names now
+    original_path = db.Column(db.String(255), nullable=False)
+    polished_path = db.Column(db.String(255))
+    status = db.Column(db.String(10), nullable=False, default='running')  # Changed ENUM to String
+    running_stage = db.Column(db.String(20))  # Changed ENUM to String
+    running_round = db.Column(db.Integer, nullable=False, default=0)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    # Relationships
+    # encounter = db.relationship('Encounter', backref=db.backref('paragraphs', lazy=True))
+
+    # Validate type, status, running_stage
+    @validates('type')
+    def validate_type(self, key, type_):
+        assert type_ in PARAGRAPH_TYPE_CHOICES
+        return type_
+
+    @validates('status')
+    def validate_status(self, key, status):
+        assert status in STATUS_CHOICES
+        return status
+
+    @validates('running_stage')
+    def validate_running_stage(self, key, running_stage):
+        assert running_stage is None or running_stage in RUNNING_STAGE_CHOICES
+        return running_stage
+
+class Entity(db.Model):
+    __tablename__ = 'entities'
+    entity_id = db.Column(db.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
+    paragraph_id = db.Column(db.String(36), db.ForeignKey('paragraphs.paragraph_id'), nullable=False)
+    source = db.Column(db.String(50), nullable=False)
+    code = db.Column(db.String(50), nullable=False)
+    code_name = db.Column(db.String(255), nullable=False)
+    text = db.Column(db.String(255), nullable=False)
+    icd10_code = db.Column(db.String(50))
+    icd10_name = db.Column(db.String(255))
+    unique_count = db.Column(db.Integer, nullable=False, default=1)
+    total_count = db.Column(db.Integer, nullable=False, default=1)
+    confidence = db.Column(db.Float, nullable=False, default=0.0)
+    correctness = db.Column(db.Integer, nullable=False, default=0)  # -1: incorrect, 0: unprocessed, 1: correct
+    is_edit = db.Column(db.Integer, nullable=False, default=0)  # 0: NOT edited, 1: Edited
+    is_manual = db.Column(db.Integer, nullable=False, default=0)  # 0: NOT manual, 1: Manual
+    remark = db.Column(db.String(255))
+    insurance_related = db.Column(db.Integer, nullable=False, default=0)  # -1: No, 0: Uncertain, 1: Yes
+    is_deleted = db.Column(db.Integer, nullable=False, default=0)  # 0: NOT deleted, 1: Deleted
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    # Relationships
+    # paragraph = db.relationship('Paragraph', backref=db.backref('entities', lazy=True))
+
+# Create tables
+with app.app_context():
+    db.create_all()
 
 # ===== Queue =====
 celery = Celery(
@@ -148,6 +258,14 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
     global umls_df, loinc_df, rxnorm_df, snomedctus_df
     
     r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'running')
+    encounter_record = Encounter.query.filter_by(file_id=file_id, sqe=sqe).first()
+    type_remapped = "unknown"
+    if type == 'ER':
+        type_remapped = 'EmergencyRecord'
+    elif type == 'HR':
+        type_remapped = 'HospitalRecord'
+    elif type == 'LR':
+        type_remapped = 'LaboratoryRecord'
     sqe_start_time = time.time()
 
     # 第 1 步：預處理
@@ -244,6 +362,11 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
         return "".join(results)  # 按順序組裝結果
 
     # 平行處理所有段落
+    print("encounter_record.encounter_id=", encounter_record.encounter_id)
+    print("type_remapped=", type_remapped)
+    paragraph_record = Paragraph.query.filter_by(encounter_id=encounter_record.encounter_id, type=type_remapped).first()
+    paragraph_record.running_stage = 'polishing'
+    db.session.commit()
     standardized_content = parallel_process_content(split_content, client, file_id, sqe, max_concurrent_tasks=10)
 
     # 儲存標準化後的內容
@@ -256,6 +379,8 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
     latest_task_id = r.hget(f'latest_sqe:{file_id}-{sqe}-{type}', 'task_id').decode('utf-8')
     if task_id == latest_task_id:
         r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'filepath_polish', polishing_txt_path)
+    paragraph_record.polished_path = polishing_txt_path
+    db.session.commit()
 
     # 第 3 步：語言學擷取（MedCAT）
     # ref_data = ""
@@ -933,17 +1058,17 @@ output:
                                 }
                             }
                         }
-                        icd10_response = umls_client.search(index="icd10", body=icd10_query_body)
+                        icd10_response = umls_client.search(index="icd10cm", body=icd10_query_body)
                         # check if icd10_response['hits']['hits'] is not empty
                         if icd10_response['hits']['hits']:
                             icd10_code_str = icd10_response['hits']['hits'][0]['_source']['CODE']
                             icd10_code_name = icd10_response['hits']['hits'][0]['_source']['STR']
-                            llm_extract_json["result"][span_index]["icd10"] = {
+                            llm_extract_json["result"][span_index]["icd10cm"] = {
                                 "code": icd10_code_str,
                                 "name": icd10_code_name
                             }
                         else:
-                            llm_extract_json["result"][span_index]["icd10"] = {
+                            llm_extract_json["result"][span_index]["icd10cm"] = {
                                 "code": "N/A",
                                 "name": "N/A"
                             }
@@ -989,11 +1114,17 @@ output:
     total_retry = 3
     results = []
     for try_index in range(total_retry):
+        paragraph_record.running_stage = 'entity_extracting'
+        paragraph_record.running_round += 1
+        db.session.commit()
         one_try_merged_results = parallel_process_NER_task(split_content, client, file_id, sqe, try_index, max_concurrent_tasks=20)
         print("try_index", try_index)
         print(one_try_merged_results)
         results.extend(one_try_merged_results)
     print(results)
+
+    paragraph_record.running_stage = 'done'
+    db.session.commit()
 
     # 以source:concept_id當key，統計出現次數
     try:
@@ -1016,7 +1147,7 @@ output:
                     "code_name": entity["concept"],
                     "text": entity["clue"],
                     "model_support": [entity["try_index"]],
-                    "icd10": entity["icd10"],
+                    "icd10cm": entity["icd10cm"],
                     "unique": 1,
                     "count": 1,
                     "confidence": 0
@@ -1028,6 +1159,28 @@ output:
             # id_count_dict_LLM[key]["confidence"] = min(id_count_dict_LLM[key]["unique"] / (total_retry + 1), 1.0)
             # total_retry 是 LLM 次數
             id_count_dict_LLM[key]["confidence"] = id_count_dict_LLM[key]["unique"] / total_retry
+
+        # 插入資料庫
+        for k, v in id_count_dict_LLM.items():
+            entity = Entity(
+                entity_id=str(uuid.uuid4()),
+                paragraph_id=paragraph_record.paragraph_id,
+                source=v["source"],
+                code=v["code"],
+                code_name=v["code_name"],
+                text=v["text"],
+                icd10_code=v["icd10cm"]["code"],
+                icd10_name=v["icd10cm"]["name"],
+                unique_count=v["unique"],
+                total_count=v["count"],
+                confidence=v["confidence"],
+                correctness=0,
+                is_edit=0,
+                is_manual=0,
+                insurance_related=0,
+            )
+            db.session.add(entity)
+        db.session.commit()
     
     except Exception as e:
         # save to file
@@ -1076,6 +1229,16 @@ output:
     latest_task_id = r.hget(f'latest_sqe:{file_id}-{sqe}-{type}', 'task_id').decode('utf-8')
     if task_id == latest_task_id:
         r.hset(f'latest_sqe:{file_id}-{sqe}-{type}', 'filepath_llmExtract', llmExtract_txt_path)
+    
+    all_paragraph_records = ParagraphRecord.query.filter_by(file_id=file_id, sqe=sqe).all()
+    all_done = True
+    for paragraph_record in all_paragraph_records:
+        if paragraph_record.running_stage != 'done':
+            all_done = False
+            break
+    if all_done:
+        encounter_record.status = 'in_review'
+        db.session.commit()
 
     # 把整份output.txt檔案傳送到指定的API
     with open(llmExtract_txt_path, "r") as file:
@@ -1224,6 +1387,135 @@ def txt_ner():
             r.delete(*keys)
             print(f"Deleted {len(keys)} keys.")
         # 呼叫 Celery 任務
+        file_record = File.query.filter_by(file_id=data['file_id']).first()
+        if not file_record:
+            file_record = File(
+                file_id=data['file_id'],
+                total_count=1,
+                completed_count=0,
+                status='running',
+            )
+            db.session.add(file_record)
+            db.session.commit()
+        encounter_record = Encounter.query.filter_by(file_id=data['file_id'], sqe=data['sqe']).first()
+        if not encounter_record:
+            encounter_id = str(uuid.uuid4())
+            encounter_record = Encounter(
+                encounter_id=encounter_id,
+                file_id=data['file_id'],
+                sqe=data['sqe'],
+                status='running',
+            )
+            db.session.add(encounter_record)
+            db.session.commit()
+        
+        if type_str == "ER":
+            paragraph_record = Paragraph.query.filter_by(encounter_id=encounter_id, type='EmergencyRecord').first()
+            if not paragraph_record:
+                emergency_id = str(uuid.uuid4())
+                emergency_record = Paragraph(
+                    paragraph_id=emergency_id,
+                    encounter_id=encounter_id,
+                    type='EmergencyRecord',
+                    original_path=file_path,
+                    polished_path="deferred",
+                    status='running',
+                    running_stage="pending",
+                    running_round=0,
+                )
+                db.session.add(emergency_record)
+                db.session.commit()
+            else:
+                return jsonify({"error": "重複上傳急診病歷"}), 400
+        elif type_str == "HR":
+            paragraph_record = Paragraph.query.filter_by(encounter_id=encounter_id, type='HospitalRecord').first()
+            if not paragraph_record:
+                hospital_id = str(uuid.uuid4())
+                hospital_record = Paragraph(
+                    paragraph_id=hospital_id,
+                    encounter_id=encounter_id,
+                    type='HospitalRecord',
+                    original_path=file_path,
+                    polished_path="deferred",
+                    status='running',
+                    running_stage="pending",
+                    running_round=0,
+                )
+                db.session.add(hospital_record)
+                db.session.commit()
+            else:
+                return jsonify({"error": "重複上傳住院病歷"}), 400
+        elif type_str == "LR":
+            paragraph_record = Paragraph.query.filter_by(encounter_id=encounter_id, type='LaboratoryRecord').first()
+            if not paragraph_record:
+                laboratory_id = str(uuid.uuid4())
+                laboratory_record = Paragraph(
+                    paragraph_id=laboratory_id,
+                    encounter_id=encounter_id,
+                    type='LaboratoryRecord',
+                    original_path=file_path,
+                    polished_path="deferred",
+                    status='running',
+                    running_stage="pending",
+                    running_round=0,
+                )
+                db.session.add(laboratory_record)
+                db.session.commit()
+            else:
+                return jsonify({"error": "重複上傳檢驗紀錄"}), 400
+        elif type_str == "Full":
+            emergency_record = Paragraph.query.filter_by(encounter_id=encounter_id, type='EmergencyRecord').first()
+            hospital_record = Paragraph.query.filter_by(encounter_id=encounter_id, type='HospitalRecord').first()
+            laboratory_record = Paragraph.query.filter_by(encounter_id=encounter_id, type='LaboratoryRecord').first()
+            if not emergency_record or not hospital_record or not laboratory_record:
+                emergency_id = str(uuid.uuid4())
+                emergency_record = Paragraph(
+                    paragraph_id=emergency_id,
+                    encounter_id=encounter_id,
+                    type='EmergencyRecord',
+                    original_path="deferred",
+                    polished_path="deferred",
+                    status='running',
+                    running_stage="pending",
+                    running_round=0,
+                )
+                hospital_id = str(uuid.uuid4())
+                hospital_record = Paragraph(
+                    paragraph_id=hospital_id,
+                    encounter_id=encounter_id,
+                    type='HospitalRecord',
+                    original_path="deferred",
+                    polished_path="deferred",
+                    status='running',
+                    running_stage="pending",
+                    running_round=0,
+                )
+                laboratory_id = str(uuid.uuid4())
+                laboratory_record = Paragraph(
+                    paragraph_id=laboratory_id,
+                    encounter_id=encounter_id,
+                    type='LaboratoryRecord',
+                    original_path="deferred",
+                    polished_path="deferred",
+                    status='running',
+                    running_stage="pending",
+                    running_round=0,
+                )
+                db.session.add(emergency_record)
+                db.session.add(hospital_record)
+                db.session.add(laboratory_record)
+                db.session.commit()
+            else:
+                if emergency_record:
+                    return jsonify({"error": "急診病歷已上傳，病歷全文與之有重疊範圍"}), 400
+                if hospital_record:
+                    return jsonify({"error": "住院病歷已上傳，病歷全文與之有重疊範圍"}), 400
+                if laboratory_record:
+                    return jsonify({"error": "檢驗紀錄已上傳，病歷全文與之有重疊範圍"}), 400
+        else:
+            print(f"Unknown type_str: {type_str}")
+            return jsonify({"error": "將病例插入資料庫時發生例外"}), 400
+
         task = process_medical_text_task.delay(data['file_id'], data['sqe'], type_str, file_path)
         # process_medical_text(file_path)
         # TODO: 這裡會有race condition，基本上沒辦法確定最新的task一定會是最新的

@@ -1,0 +1,943 @@
+{
+    "entities": [
+        {
+            "source": "SNOMEDCT_US",
+            "code": "3006004",
+            "code_name": "Disturbance of consciousness (finding)",
+            "text": "Consciousness change since August 11,",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 3,
+            "correctness": true,
+            "insurance_related": false,
+            "remark": ""
+        },
+        {
+            "source": "LNC",
+            "code": "2339-0",
+            "code_name": "Glucose [Mass/volume] in Blood",
+            "text": "EMT Blood Sugar: 127 mg/dL (oxygen use)",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 7
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "26394007",
+            "code_name": "Glasgow coma scale, 3 (finding)",
+            "text": "Altered consciousness, Unconscious (Glasgow Coma Scale 3-8)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "396232000",
+            "code_name": "Inguinal hernia (disorder)",
+            "text": "Inguinal hernia  \n",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 8
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "32798002",
+            "code_name": "Parkinsonism (disorder)",
+            "text": "Parkinsonism  \n",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "38341003",
+            "code_name": "Hypertensive disorder",
+            "text": "Hypertension  \n",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 7
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "251080003",
+            "code_name": "Blood pressure reading labile",
+            "text": "Blood Pressure: 152/71 mmHg",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "78564009",
+            "code_name": "Pulse rate",
+            "text": "Pulse Rate: 70 beats per minute",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "431314004",
+            "code_name": "Peripheral oxygen saturation",
+            "text": "Oxygen Saturation: 96%",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "86290005",
+            "code_name": "Respiratory rate",
+            "text": "Respiratory Rate: 20 breaths per minute",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "386725007",
+            "code_name": "Body temperature",
+            "text": "Body Temperature: 36.8\u00b0C",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "81765008",
+            "code_name": "No pain (situation)",
+            "text": "Pain Index: 0 (No Pain)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "273838009",
+            "code_name": "Stimulus response inventory (assessment scale)",
+            "text": "Consciousness Eye Response: 1",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "281397008",
+            "code_name": "Glasgow Coma Scale verbal response subscore",
+            "text": "Verbal Response: 1",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "363850001",
+            "code_name": "Motor response",
+            "text": "Motor Response: 5",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "2303007",
+            "code_name": "Inguinal hernia with gangrene",
+            "text": "Inguinal Hernia",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "49049000",
+            "code_name": "Parkinson's disease",
+            "text": "Parkinson's Disease",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 6
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "59621000",
+            "code_name": "Essential hypertension",
+            "text": "Hypertension",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "LP415861-6",
+            "code_name": "Intravascular systolic &#x7C; Arterial system &#x7C; Specific blood pressure",
+            "text": "Blood Pressure: 152/71 mmHg\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "MTHU061731",
+            "code_name": "Body Temperature",
+            "text": "Temperature: 36.8\u00b0C\n",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "59408-5",
+            "code_name": "Oxygen saturation in Arterial blood by Pulse oximetry",
+            "text": "Peripheral Capillary Oxygen Saturation: 96%\n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "10003008",
+            "code_name": "Unspecified",
+            "text": "Pneumonia (ICD-10: J18.9)",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 7
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "371632003",
+            "code_name": "Coma (disorder)",
+            "text": "Coma (ICD-10: R40.20)  \n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "RXNORM",
+            "code": "1659131",
+            "code_name": "piperacillin 2000 MG / tazobactam 250 MG Injection",
+            "text": "TAZOCIN (piperacillin content) 2000 mg/vial",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "RXNORM",
+            "code": "2661899",
+            "code_name": "penicillin G procaine / penicillin G sodium Injectable Product",
+            "text": "PCN Test (Penicillin G Skin Test): 1000 Units/1 mL, 2 mL per vial",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1807634",
+            "code_name": "sodium chloride 0.9 % in 500 ML Injection",
+            "text": "Bag Saline (Normal Saline) Injection 0.9%",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1044196",
+            "code_name": "Polyflex 10 GM per vial Injectable Suspension",
+            "text": "1000 mg per vial (August 12, 2017, 1000 mg, Stat, 1 day).",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "LP16870-5",
+            "code_name": "Prothrombin time (PT)",
+            "text": "PT (Prothrombin Time, Stat)",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "52767-1",
+            "code_name": "Activated partial thromboplastin time (aPTT)",
+            "text": "aP.T.T. (Activated Partial Thromboplastin Time, Stat)",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "883-9",
+            "code_name": "ABO group [Type] in Blood",
+            "text": "Blood reserve form: 1953902 ABO Blood Type (New Laboratory Information System)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "882-1",
+            "code_name": "ABO and Rh group [Type] in Blood",
+            "text": "Blood reserve form: 1953902 Rh Blood Type (New Laboratory Information System)",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "890-4",
+            "code_name": "Blood group antibody screen [Presence] in Serum or Plasma",
+            "text": "Blood reserve form: 1953902 Antibody Screening (New Laboratory Information System)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "3040-3",
+            "code_name": "Lipase [Enzymatic activity/volume] in Serum or Plasma",
+            "text": "Lipase",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 6
+        },
+        {
+            "source": "LNC",
+            "code": "1975-2",
+            "code_name": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+            "text": "Total Bilirubin",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "LP99237-7",
+            "code_name": "Complete blood count panel",
+            "text": "Complete Blood Count & Platelet",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "LP393809-1",
+            "code_name": "Differential cell count method &#x7C; Blood &#x7C; Hematology and Cell counts",
+            "text": "White Blood Cell Classification",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "2160-0",
+            "code_name": "Creatinine [Mass/volume] in Serum or Plasma",
+            "text": "Creatinine",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "2951-2",
+            "code_name": "Sodium [Moles/volume] in Serum or Plasma",
+            "text": "Sodium",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "2823-3",
+            "code_name": "Potassium [Moles/volume] in Serum or Plasma",
+            "text": "Potassium",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "1742-6",
+            "code_name": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+            "text": "Alanine Transaminase (GPT)",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "6299-2",
+            "code_name": "Urea nitrogen [Mass/volume] in Blood",
+            "text": "Blood Urea Nitrogen (BUN)(Blood)(Stat)",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "17861-6",
+            "code_name": "Calcium [Mass/volume] in Serum or Plasma",
+            "text": "Calcium",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "1839-0",
+            "code_name": "Ammonia [Moles/volume] in Blood",
+            "text": "Ammonia (NH3)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "32693-4",
+            "code_name": "Lactate [Moles/volume] in Blood",
+            "text": "Lactic Acid (LA)",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "1751-7",
+            "code_name": "Albumin [Mass/volume] in Serum or Plasma",
+            "text": "Albumin",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "6598-7",
+            "code_name": "Troponin T.cardiac [Mass/volume] in Serum or Plasma",
+            "text": "Troponin-T (Stat, Urgent)\n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "LA9488-3",
+            "code_name": "Arterial Blood Gases",
+            "text": "Blood Gas (Emergency Unit Self-Testing)\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "LP183539-8",
+            "code_name": "Positive blood culture",
+            "text": "Blood Cultures\n",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 4
+        },
+        {
+            "source": "LNC",
+            "code": "LP32744-2",
+            "code_name": "Urinalysis",
+            "text": "Multistix (Stat)\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "8246-1",
+            "code_name": "Amorphous sediment [Presence] in Urine sediment by Light microscopy",
+            "text": "Sediment (Stat)\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "630-4",
+            "code_name": "Bacteria identified in Urine by Culture",
+            "text": "Urine Culture\n",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "6460-0",
+            "code_name": "Bacteria identified in Sputum by Culture",
+            "text": "Sputum Culture + Gram Stain (Special Bacterial Laboratory Sputum Culture Kit, Single Specimen Suffices, Smear Only for Culture Quality Confirmation, Non-Immediate Report)\n",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "89662-1",
+            "code_name": "Microscopic observation [Identifier] in Lower respiratory specimen by Acid fast stain",
+            "text": "Acid-Fast Stain+Mycobacterium Culture (Respiratory Specimen)\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "LP6094-9",
+            "code_name": "Acid fast stain",
+            "text": "Acid-Fast Stain [Urgent]\n",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 3
+        },
+        {
+            "source": "LNC",
+            "code": "LA16043-4",
+            "code_name": "Chest x-ray",
+            "text": "Chest: Anteroposterior View (Supine)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "30657-1",
+            "code_name": "MR Brain WO contrast",
+            "text": "CT Without Contrast\u2014Brain",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "30598-7",
+            "code_name": "CT Chest WO and W contrast IV",
+            "text": "CT With/Without Contrast\u2014Chest",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "82449006",
+            "code_name": "Peripheral intravenous catheter",
+            "text": "- On Intravenous Catheter\n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "448703006",
+            "code_name": "SpO2 oxygen saturation monitor",
+            "text": "- On Saturation Monitor / Monitor SpO2 as needed\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "33747003",
+            "code_name": "Glucose measurement, blood",
+            "text": "- Single Blood Glucose Test (Stat One-touch Blood Sugar)\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "135840009",
+            "code_name": "Blood pressure monitoring",
+            "text": "- On Blood Pressure Monitor\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "268400002",
+            "code_name": "12 lead electrocardiogram",
+            "text": "- Single 12-lead Electrocardiogram (Complete EKG)\n",
+            "unique": 3,
+            "confidence": 1.0,
+            "count": 4
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "46825001",
+            "code_name": "Electrocardiographic monitoring",
+            "text": "- On Electrocardiogram Monitor\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1729152",
+            "code_name": "technetium Tc-99m red blood cells",
+            "text": "- Prepare (1953902) Packed Red Blood Cells * 2 Units, Standard Adult Infusion Rate\n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "RXNORM",
+            "code": "376784",
+            "code_name": "oxygen Gas for Inhalation",
+            "text": "Oxygen Cannula, 3 Liters/minute\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "LP6244-0",
+            "code_name": "Electrocardiogram (EKG)",
+            "text": "Electrocardiogram at 08:00\n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "34534-8",
+            "code_name": "12 lead EKG panel",
+            "text": "Single 12-lead Electrocardiogram (Complete EKG)\n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "RXNORM",
+            "code": "466553",
+            "code_name": "penicillin G",
+            "text": "Penicillin Allergy Test: Negative\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "182923009",
+            "code_name": "Nil per os",
+            "text": "Nil Per Os (NPO) - No Oral Intake\n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "55284-4",
+            "code_name": "Blood pressure systolic & diastolic:-:Pt:Arterial system:-",
+            "text": "Blood Pressure: 152/71 mmHg",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 2
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "419284004",
+            "code_name": "Altered mental status (finding)",
+            "text": "Consciousness change",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "386554004",
+            "code_name": "Glasgow coma scale (assessment scale)",
+            "text": "The patient is clear but has a slow response, scoring E4V5M6 on the Glasgow Coma Scale.\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "LP415783-2",
+            "code_name": "Heart rate",
+            "text": "70 beats per minute\n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "9279-1",
+            "code_name": "Respiratory rate",
+            "text": "20 breaths per minute\n",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "RXNORM",
+            "code": "1659134",
+            "code_name": "piperacillin 2000 MG / tazobactam 250 MG Injection [Zosyn]",
+            "text": "TAZOCIN (piperacillin content) 2000 mg/vial: (August 12, 2017, 3000 mg, immediately, 1 day)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "2657690",
+            "code_name": "penicillin G potassium Injectable Solution [Pfizerpen]",
+            "text": "PCN Test (Penicillin G Skin Test): 1000 Units/1 mL, 2 mL per vial (August 12, 2017, 0.1 mL, Once, 1 day).",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1807637",
+            "code_name": "normal saline 10 mL Injection",
+            "text": "Bag Saline (Normal Saline) Injection 0.9%",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "5964-2",
+            "code_name": "Prothrombin time (PT) in Blood by Coagulation assay",
+            "text": "PT (Prothrombin Time, Stat)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "LP67167-4",
+            "code_name": "Blood group antibody screen",
+            "text": "Blood reserve form: 1953902 Antibody Screening (New Laboratory Information System)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "58410-2",
+            "code_name": "Complete blood count panel:-:Pt:Bld:-:Automated count",
+            "text": "Complete Blood Count & Platelet",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "6690-2",
+            "code_name": "Leukocytes [#/volume] in Blood by Automated count",
+            "text": "White Blood Cell Classification",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "22763-7",
+            "code_name": "Ammonia [Mass/volume] in Plasma",
+            "text": "Ammonia (NH3)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "2524-7",
+            "code_name": "Lactate [Moles/volume] in Serum or Plasma",
+            "text": "Lactic Acid (LA)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "67151-1",
+            "code_name": "Troponin T.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method",
+            "text": "Troponin-T (Stat, Urgent)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 2
+        },
+        {
+            "source": "LNC",
+            "code": "24356-8",
+            "code_name": "Urinalysis complete panel - Urine",
+            "text": "Multistix (Stat)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "72357-7",
+            "code_name": "Microscopic observation [Presence] in Specimen by Acid fast stain",
+            "text": "Acid-Fast Stain [Urgent]",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "36589-0",
+            "code_name": "Portable XR Chest AP single view",
+            "text": "Chest: Anteroposterior View (Supine)",
+            "unique": 2,
+            "confidence": 0.6666666666666666,
+            "count": 2
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "386557006",
+            "code_name": "Glasgow coma scale finding",
+            "text": "Altered consciousness, Unconscious (Glasgow Coma Scale 3-8)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "LP94910-4",
+            "code_name": "Blood pressure systolic & diastolic",
+            "text": "Blood Pressure: 152/71 mmHg",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "2708-6",
+            "code_name": "Oxygen saturation in Arterial blood",
+            "text": "96%",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "LP34350-6",
+            "code_name": "Pain severity",
+            "text": "0 (No Pain)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "365931003",
+            "code_name": "Level of consciousness - finding",
+            "text": "Consciousness change since August 11, Emergency Medical Technician Blood Sugar: 127 mg/dl (Oxygen use)  \n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "745302",
+            "code_name": "penicillin G sodium 100,000 UNT/ML Injectable Solution",
+            "text": "PCN Test (Penicillin G Skin Test):** 1000 Units/1 mL, 2 mL per vial",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "313002",
+            "code_name": "sodium chloride 0.9 % Injectable Solution",
+            "text": "Bag Saline (Normal Saline) Injection 0.9%",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1743726",
+            "code_name": "methylprednisolone 1000 MG Injection",
+            "text": "1000 mg per vial ",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "49024-3",
+            "code_name": "Differential cell count method - Blood",
+            "text": "White Blood Cell Classification\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "2000-8",
+            "code_name": "Calcium [Moles/volume] in Serum or Plasma",
+            "text": "Calcium",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "16362-6",
+            "code_name": "Ammonia [Moles/volume] in Plasma",
+            "text": "Ammonia (NH3)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "24336-0",
+            "code_name": "Gas panel - Arterial blood",
+            "text": "Blood Gas (Emergency Unit Self-Testing)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "38379-4",
+            "code_name": "Mycobacterium tuberculosis complex DNA [Presence] in Specimen by NAA with probe detection",
+            "text": "Acid-Fast Stain+Mycobacterium Culture (Respiratory Specimen)",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "396205005",
+            "code_name": "CT brain without contrast",
+            "text": "CT Without Contrast\u2014Brain\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "SNOMEDCT_US",
+            "code": "75385009",
+            "code_name": "CT of chest with contrast",
+            "text": "CT With/Without Contrast\u2014Chest",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "LNC",
+            "code": "41653-7",
+            "code_name": "Glucose [Mass/volume] in Capillary blood by Glucometer",
+            "text": "Single Blood Glucose Test (Stat One-touch Blood Sugar)\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        },
+        {
+            "source": "RXNORM",
+            "code": "1311272",
+            "code_name": "porcine blood preparation",
+            "text": "Prepare (1953902) Packed Red Blood Cells * 2 Units, Standard Adult Infusion Rate\n",
+            "unique": 1,
+            "confidence": 0.3333333333333333,
+            "count": 1
+        }
+    ]
+}
