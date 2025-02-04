@@ -31,10 +31,7 @@ from sqlalchemy.orm import validates
 from sqlalchemy.orm import load_only
 
 start_time = time.time()
-# print(f"{Fore.GREEN}MedCAT package importing...{Style.RESET_ALL}", end="", flush=True)
-# from medcat.cat import CAT
 import_time = time.time()
-# print(f"{Fore.GREEN} done. ({import_time - start_time:.2f} sec){Style.RESET_ALL}")
 
 # 初始化 Elasticsearch 客戶端
 umls_client = Elasticsearch(
@@ -83,9 +80,6 @@ class Encounter(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
-    # Relationships
-    # file = db.relationship('File', backref=db.backref('encounters', lazy=True))
-
     # Validate status
     @validates('status')
     def validate_status(self, key, status):
@@ -104,9 +98,6 @@ class Paragraph(db.Model):
     running_round = db.Column(db.Integer, nullable=False, default=0)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
-
-    # Relationships
-    # encounter = db.relationship('Encounter', backref=db.backref('paragraphs', lazy=True))
 
     # Validate type, status, running_stage
     @validates('type')
@@ -145,9 +136,6 @@ class Entity(db.Model):
     is_deleted = db.Column(db.Integer, nullable=False, default=0)  # 0: NOT deleted, 1: Deleted
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
-
-    # Relationships
-    # paragraph = db.relationship('Paragraph', backref=db.backref('entities', lazy=True))
 
 # Create tables
 with app.app_context():
@@ -193,58 +181,6 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 NEWLINE = "\n"
 NONE_SYMBOL = "-"
 
-# # 載入 MedCAT 模型與 UMLS 子集字典（在應用程式啟動時載入一次）
-# print(f"{Fore.GREEN}MedCAT Model and UMLS Dictionary Subset loading...{NEWLINE}{Style.RESET_ALL}", end="", flush=True)
-# model = "mc_modelpack_snomed_int_16_mar_2022_25be3857ba34bdd5.zip"
-# cat = CAT.load_model_pack(f'../models/{model}')
-
-# # 因應v1的暴力解法，需要載入字典到pandas進行查詢(這個部分還先不能拿掉)
-# print(f"{Fore.GREEN}waiting for UMLS Dictionary Subset...{NEWLINE}{Style.RESET_ALL}", end="", flush=True)
-# # Total
-# umls_sub_dict = "filtered_data.csv"
-# umls_df = pd.read_csv(f"../data/dict/{umls_sub_dict}", sep='|', header=None, keep_default_na=False)
-# umls_df.columns = [
-#     'CUI', 'LAT', 'TS', 'LUI', 'STT', 'SUI', 'ISPREF', 'AUI', 'SAUI',
-#     'SCUI', 'SDUI', 'SAB', 'TTY', 'CODE', 'STR', 'SRL', 'SUPPRESS', 'CVF'
-# ]
-# print("umls_df")
-# print(umls_df.head())
-
-# # # LOINC
-# # loinc_sub_dict = "filtered_loinc_1.txt"
-# # loinc_df = pd.read_csv(f"../data/dict/{loinc_sub_dict}", sep='|', header=None, keep_default_na=False)
-# # loinc_df.columns = [
-# #     'CUI', 'TTY', 'CODE', 'STR'
-# # ]
-# # print("loinc_df")
-# # print(loinc_df.head())
-# # nan_rows = loinc_df[loinc_df.isna().any(axis=1)]
-# # # print(nan_rows)
-
-# # # RxNorm
-# # rxnorm_sub_dict = "filtered_rxnorm_1.txt"
-# # rxnorm_df = pd.read_csv(f"../data/dict/{rxnorm_sub_dict}", sep='|', header=None, keep_default_na=False)
-# # rxnorm_df.columns = [
-# #     'CUI', 'TTY', 'CODE', 'STR'
-# # ]
-# # print("rxnorm_df")
-# # print(rxnorm_df.head())
-# # nan_rows = rxnorm_df[rxnorm_df.isna().any(axis=1)]
-# # # print(nan_rows)
-
-# # # SNOMED CT US Edition
-# # snomedctus_sub_dict = "filtered_snomedct_us_1.txt"
-# # snomedctus_df = pd.read_csv(f"../data/dict/{snomedctus_sub_dict}", sep='|', header=None, keep_default_na=False)
-# # snomedctus_df.columns = [
-# #     'CUI', 'TTY', 'CODE', 'STR'
-# # ]
-# # print("snomedctus_df")
-# # print(snomedctus_df.head())
-# # nan_rows = snomedctus_df[snomedctus_df.isna().any(axis=1)]
-# # # print(nan_rows)
-# model_loaded_time = time.time()
-# print(f"{Fore.GREEN} done. ({model_loaded_time - import_time:.2f} sec){Style.RESET_ALL}")
-
 # 初始化 OpenAI 客戶端（建議使用環境變數來存放 API 金鑰）
 openai_api_key = os.getenv("OPENAI_API_KEY")
 if not openai_api_key:
@@ -287,36 +223,6 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
             final_content.append("\n".join(lines[i:i+10]))
     split_content = final_content
     standardized_content = ""
-
-    # # 單執行續處理
-    # for i, segment in enumerate(split_content):
-    #     # 顯示預覽
-    #     lines = segment.splitlines()
-    #     print(
-    #         f"{Fore.YELLOW}{NEWLINE.join(lines[:5])}{f' [... {len(lines)} 行]' if len(lines) > 5 else ''}{Style.RESET_ALL}"
-    #     )
-    #     print(f"{Fore.WHITE}file_id {file_id} sqe {sqe}: {i+1}/{len(split_content)} 正在精煉...{Style.RESET_ALL}", end="", flush=True)
-    #     seqment_start_time = time.time()
-
-    #     # 呼叫 OpenAI API 進行處理
-    #     standardization_completion = client.chat.completions.create(
-    #         model="gpt-4o-2024-08-06",
-    #         messages=[
-    #             {
-    #                 "role": "system",
-    #                 "content": (
-    #                     "將使用者的內容翻譯成英文並執行標準化、精煉、以及縮寫展開（詞展開）。對於狀態詞後的實體，確保狀態詞適用於後續的每個實體。"
-    #                 )
-    #             },
-    #             {"role": "user", "content": segment}
-    #         ],
-    #         max_completion_tokens=16383
-    #     )
-
-    #     seqment_end_time = time.time()
-    #     print(f"{Fore.WHITE} 完成。({round(seqment_end_time - seqment_start_time, 2)} sec)\n{Style.RESET_ALL}")
-    #     # 合併所有段落
-    #     standardized_content += standardization_completion.choices[0].message.content
 
     # thread 函數定義
     def process_segment(i, segment, client, file_id, sqe):
@@ -383,75 +289,12 @@ def process_medical_text(task_id, file_id, sqe, type, file_path):
     db.session.commit()
 
     # 第 3 步：語言學擷取（MedCAT）
-    # ref_data = ""
-    # entities = cat.get_entities(standardized_content)
-    # # 儲存實體為 JSON 檔案
-    # medcat_json_path = f"../data/pipe_result/{file_base_name}.raw.polishing.MedCAT.json"
-    # with open(medcat_json_path, "w") as json_file:
-    #     json.dump(entities, json_file, indent=2)
-    # linguistic_extraction_time = time.time()
-    # print(f"{Fore.GREEN}file_id {file_id} sqe {sqe} 語言學擷取時間: {round(linguistic_extraction_time - preprocess_time, 2)} sec{Style.RESET_ALL}")
-    # r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'extracted')
+    # 省略
 
     # 第 4 步：醫學規範化
     # id_count_dict = {}
     output_txt_path = f"../data/pipe_result/{file_base_name}.raw.polishing.output.txt"
-    # with open(output_txt_path, "w") as file:
-    #     pass
-    #     file.write("index|chunk|cui|source|code|string|acc\n")
-    #     entity_list = entities['entities']
-    #     index_now = 0
-    #     for key, entity in entity_list.items():
-    #         cui_str = entity.get('cui', NONE_SYMBOL)
-    #         sab_str = NONE_SYMBOL
-    #         code_str = NONE_SYMBOL
-    #         # 從 UMLS 資料集中取得詳細資訊
-    #         cui_df = umls_df[umls_df['SCUI'] == cui_str]
-    #         preferred_df = cui_df[cui_df['ISPREF'] == 'Y']
-    #         if not preferred_df.empty:
-    #             target_df = preferred_df[preferred_df['TTY'] == 'PT']
-    #             if target_df.empty:
-    #                 target_df = preferred_df[preferred_df['TTY'] == 'FN']
-    #         else:
-    #             target_df = cui_df
-    #         if not target_df.empty:
-    #             cui_str = target_df.iloc[0]['CUI']
-    #             sab_str = target_df.iloc[0]['SAB']
-    #             code_str = target_df.iloc[0]['CODE']
-    #             str_str = target_df.iloc[0]['STR']
-    #         else:
-    #             sab_str = "<LOST>"
-    #             code_str = "<LOST>"
-    #             str_str = "<LOST>"
-    #         # 寫入檔案
-    #         if entity.get('start') > index_now:
-    #             file.write(f"{index_now}|{standardized_content[index_now:entity.get('start')].replace(NEWLINE, '<NEW_LINE>')}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}{NEWLINE}")
-    #         file.write(f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}|{entity.get('acc', NONE_SYMBOL)}{NEWLINE}")
-    #         # ref_data += f"{entity.get('start')}|{standardized_content[entity.get('start'):entity.get('end')].replace(NEWLINE, '<NEW_LINE>')}|{cui_str}|{sab_str}|{code_str}|{entity.get('pretty_name', NONE_SYMBOL)}|{entity.get('acc', NONE_SYMBOL)}{NEWLINE}"
-    #         if f'{sab_str}:{code_str}' in id_count_dict:
-    #             id_count_dict[f'{sab_str}:{code_str}']["count"] += 1
-    #         else:
-    #             id_count_dict[f'{sab_str}:{code_str}'] = {
-    #                 "source":sab_str,
-    #                 "code":code_str,
-    #                 "code_name":str_str,
-    #                 "text":standardized_content[entity.get('start'):entity.get('end')],
-    #                 "unique":1,
-    #                 "count":1,
-    #                 "confidence":0
-    #             }
-    #         index_now = entity.get('end')
-    #     # 有可能最後一個entity的end不是content的結尾
-    #     if index_now < len(standardized_content):
-    #         file.write(f"{index_now}|{standardized_content[index_now:].replace(NEWLINE, '<NEW_LINE>')}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}|{NONE_SYMBOL}{NEWLINE}")
-
-    # medical_normalization_time = time.time()
-    # print(f"{Fore.GREEN}file_id {file_id} sqe {sqe} 醫學規範化時間: {round(medical_normalization_time - linguistic_extraction_time, 2)} sec{Style.RESET_ALL}")
     sqe_end_time = time.time()
-    # print(f"{Fore.BLUE}file_id {file_id} sqe {sqe} 總時間: {round(sqe_end_time - sqe_start_time, 2)} sec{Style.RESET_ALL}")
-    # r.hset(f'sqe:{file_id}-{sqe}-{type}-{task_id}', 'status', 'normalized')
-
-
 
     # 第 5 步：LLM 抓entity
     id_count_dict_LLM = {}
@@ -1189,29 +1032,6 @@ output:
             file.write(f"以source:concept_id當key，統計出現次數 Error: {e}\n")
             file.write(traceback.format_exc())
 
-    # 為了讓輸出的結果保持為如下的JSON清單形式，需要進行轉換
-    # {
-    #     "entities": [
-    #         {
-    #             "source": "SNOMEDCT_US",
-    #             "code": "420190008",
-    #             "code_name": "Retinal detachment (disorder)",
-    #             "confidence": 1.0
-    #         },
-    #         {
-    #             "source": "LOINC",
-    #             "code": "8310-5",
-    #             "code_name": "Body temperature",
-    #             "confidence": 0.66
-    #         },
-    #         {
-    #             "source": "RXNORM",
-    #             "code": "448141",
-    #             "code_name": "Sennosides",
-    #             "confidence": 0.33
-    #         }
-    #     ]
-    # }
     tmp_entities = [{"source":v["source"], "code":v["code"], "code_name":v["code_name"], "text":v["text"], "icd10":v["icd10"], "unique":v["unique"], "confidence":v["confidence"], "count":v["count"]} for k,v in id_count_dict_LLM.items()]
     llm_extract_json = {"entities":tmp_entities}
 
