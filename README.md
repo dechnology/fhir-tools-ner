@@ -154,18 +154,38 @@ Ensure you have access to the server and can use `screen`:
    - If `app.py` is not running, restart it using:
      ```sh
      cd ~/project/src
-     python3 app.py
+     python app.py
      ```
 
 3. **Detach from the Session Without Stopping the Process**
 
    - Press `Ctrl + A`, then `D` to detach and keep it running in the background.
 
+#### Running the Celery Worker
+
+To start the Celery worker for job processing, follow these steps:
+
+1. **Reattach to the Worker Screen Session**
+   ```sh
+   screen -r 132573
+   ```
+   Replace `132573` with the actual session ID for the worker.
+
+2. **Check if the Worker is Running**
+   - If the worker is not running, restart it using:
+     ```sh
+     cd ~/project/src
+     celery -A app.celery worker --loglevel=info --pool=solo
+     ```
+
+3. **Detach from the Worker Session**
+   - Press `Ctrl + A`, then `D` to keep it running in the background.
+
 #### Create a New `screen` Session (If Needed)
 
 If no existing session is available or you accidentally closed it, you can create a new one:
 
-1. **Start a New ****`screen`**** Session**
+1. **Start a New `screen` Session**
 
    ```sh
    screen -S app_session
@@ -185,23 +205,32 @@ If no existing session is available or you accidentally closed it, you can creat
    conda activate snomed2
    ```
 
-4. **Run ****`app.py`**
+4. **Run `app.py`**
 
    ```sh
-   python3 app.py
+   python app.py
    ```
 
-5. **Detach from the Session**
+5. **Start the Celery Worker**
 
-   - Press `Ctrl + A`, then `D`.
-   - Verify that the session is still active:
+   ```sh
+   screen -S worker_session
+   ```
+   ```sh
+   cd ~/project/src
+   celery -A app.celery worker --loglevel=info --pool=solo
+   ```
+
+6. **Detach from the Sessions**
+   - Press `Ctrl + A`, then `D` to detach both `app_session` and `worker_session`.
+   - Verify that the sessions are still active:
      ```sh
      screen -ls
      ```
 
-6. **Terminate the Session** (if no longer needed)
+7. **Terminate the Sessions** (if no longer needed)
 
-   - Reattach using `screen -r app_session`
+   - Reattach using `screen -r app_session` or `screen -r worker_session`
    - Stop the running process with `Ctrl + C`
    - Exit the session:
      ```sh
@@ -217,5 +246,6 @@ If no existing session is available or you accidentally closed it, you can creat
   ```
 - The `conda activate snomed2` step is only required when creating a new session, as the currently running sessions are already using the `snomed2` environment.
 
-By following these steps, `app.py` will continue running even after logging out from the server. 🚀
+By following these steps, `app.py` and the Celery worker will continue running even after logging out from the server. 🚀
+
 
